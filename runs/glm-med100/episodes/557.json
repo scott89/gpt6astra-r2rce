@@ -1,0 +1,3168 @@
+{
+  "episode_id": 557,
+  "scene_id": "EU6Fwq7SyZv",
+  "instruction": "Walk towards the balcony and take the stairs down on the left. Wait at the bottom of the stairs.",
+  "actions_taken": 498,
+  "policy_calls": 328,
+  "api_latency_s": 870.89,
+  "prompt_tokens": 686948,
+  "completion_tokens": 36581,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 876.17,
+  "steps": [
+    {
+      "n": 2,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in an attic bedroom with a slanted ceiling. I see a dark opening on the left that could be a doorway or passage, and a dresser ahead. I need to explore to find the balcony and stairs, so I'll first turn left to inspect the dark opening.",
+      "latency_s": 2.57,
+      "prompt_tokens": 881
+    },
+    {
+      "n": 3,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling, so I can't see the room. I need to look down to re-orient before navigating toward the balcony and stairs.",
+      "latency_s": 2.36,
+      "prompt_tokens": 1236
+    },
+    {
+      "n": 4,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down, showing mostly floor and a dark opening ahead. I need to look up to see the room layout and locate the balcony and stairs before moving.",
+      "latency_s": 2.18,
+      "prompt_tokens": 1600
+    },
+    {
+      "n": 5,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is currently pitched up at the ceiling, so I can't see the room or the stairs. I need to look down to re-orient and find the balcony and staircase.",
+      "latency_s": 2.24,
+      "prompt_tokens": 1963
+    },
+    {
+      "n": 6,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is currently pitched down at the floor, so I can't see the room layout. I need to look up to re-orient and find the balcony and the stairs down on the left.",
+      "latency_s": 2.63,
+      "prompt_tokens": 1964
+    },
+    {
+      "n": 7,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is currently pitched up at the ceiling beams, so I can't see the floor or the way to the balcony. I need to look down to re-orient before moving.",
+      "latency_s": 2.21,
+      "prompt_tokens": 1965
+    },
+    {
+      "n": 8,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I can't see the room layout. There's a dark opening ahead that could be the stairwell, but I need to look up and re-orient before moving.",
+      "latency_s": 2.17,
+      "prompt_tokens": 1965
+    },
+    {
+      "n": 9,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling beams, giving no useful navigation information. I need to look down to see the room, locate the balcony, and find the stairs on the left.",
+      "latency_s": 2.49,
+      "prompt_tokens": 1966
+    },
+    {
+      "n": 10,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is currently pitched down at the floor, so I can't see the balcony or stairs. I need to look up to re-orient and find the path toward the balcony and the stairs on the left.",
+      "latency_s": 2.26,
+      "prompt_tokens": 1966
+    },
+    {
+      "n": 12,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling beams, so I can't see the floor or the stairs. I need to look down to re-orient and find the balcony and stairs.",
+      "latency_s": 2.1,
+      "prompt_tokens": 1967
+    },
+    {
+      "n": 13,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is currently pitched down at the floor, so I have no view of the room. I need to look up to re-orient and find the balcony and stairs.",
+      "latency_s": 2.59,
+      "prompt_tokens": 1968
+    },
+    {
+      "n": 15,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I can't see the room layout. I need to look up to re-orient and find the balcony and stairs.",
+      "latency_s": 4.08,
+      "prompt_tokens": 1969
+    },
+    {
+      "n": 17,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "My camera is pitched up at the ceiling, so I've lost sight of the floor and the dark opening ahead. I need to pitch down to re-orient toward the balcony/stairs area before moving.",
+      "latency_s": 2.22,
+      "prompt_tokens": 1970
+    },
+    {
+      "n": 18,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "My camera is pitched down, showing a dark opening ahead that could be the stairwell. I need to look up to see the room layout and locate the stairs before moving.",
+      "latency_s": 2.07,
+      "prompt_tokens": 1971
+    },
+    {
+      "n": 20,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "My camera is pitched up at the ceiling beams, so I've lost sight of the floor and the stairs. I need to pitch down to re-observe the room and locate the stairway down on the left.",
+      "latency_s": 2.2,
+      "prompt_tokens": 1972
+    },
+    {
+      "n": 21,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I have lost my bearings. I need to look up to see the room and locate the stairs leading down on the left near the balcony.",
+      "latency_s": 2.23,
+      "prompt_tokens": 1972
+    },
+    {
+      "n": 22,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I can't see the room layout. I need to look up to re-orient and find the stairs down on the left.",
+      "latency_s": 2.13,
+      "prompt_tokens": 1974
+    },
+    {
+      "n": 24,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling beams, so I've lost view of the floor and the stairs. I need to pitch down to re-orient before moving.",
+      "latency_s": 2.26,
+      "prompt_tokens": 1974
+    },
+    {
+      "n": 26,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I've lost my bearings. I need to look up to see the room and locate the stairs down on the left near the balcony.",
+      "latency_s": 2.49,
+      "prompt_tokens": 1975
+    },
+    {
+      "n": 28,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling, so I can't see the path ahead. I need to look down to re-orient and find the stairs near the balcony.",
+      "latency_s": 2.23,
+      "prompt_tokens": 1976
+    },
+    {
+      "n": 29,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "My camera is pitched down at the floor, so I can't see the stairs or the balcony. I need to look up to re-orient before moving.",
+      "latency_s": 2.74,
+      "prompt_tokens": 1977
+    },
+    {
+      "n": 30,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down; I see a dark opening ahead which may be the stairwell near the balcony. I need to look up to re-orient and confirm the stairs before moving.",
+      "latency_s": 3.47,
+      "prompt_tokens": 1978
+    },
+    {
+      "n": 32,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling beams, so I've lost view of the floor and the stairs. I need to pitch down to see where I am relative to the balcony and the staircase.",
+      "latency_s": 2.29,
+      "prompt_tokens": 1978
+    },
+    {
+      "n": 34,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "My camera is pitched down at the floor, so I've lost sight of the room. I need to look up to re-orient and find the stairs down on the left near the balcony.",
+      "latency_s": 2.81,
+      "prompt_tokens": 1979
+    },
+    {
+      "n": 36,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling beams, so I can't see the floor or the stairs. I need to look down to re-orient and find the staircase on the left.",
+      "latency_s": 2.44,
+      "prompt_tokens": 1980
+    },
+    {
+      "n": 37,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I can't see the stairs or the balcony. I need to raise the camera to level before navigating toward the stairs on the left.",
+      "latency_s": 2.64,
+      "prompt_tokens": 1981
+    },
+    {
+      "n": 39,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I can't see the room layout. I need to look up to re-orient and find the balcony and stairs.",
+      "latency_s": 2.37,
+      "prompt_tokens": 1982
+    },
+    {
+      "n": 41,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "My camera is pitched up at the ceiling beams, so I've lost sight of the floor and the dark balcony opening ahead. I need to pitch down to re-orient before moving toward the stairs.",
+      "latency_s": 2.42,
+      "prompt_tokens": 1983
+    },
+    {
+      "n": 43,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and locate the stairs near the balcony before moving.",
+      "latency_s": 2.06,
+      "prompt_tokens": 1984
+    },
+    {
+      "n": 45,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "My camera is pitched down at the floor, so I have lost sight of the room. I need to look up to re-orient and find the stairs on the left near the balcony.",
+      "latency_s": 2.5,
+      "prompt_tokens": 1985
+    },
+    {
+      "n": 46,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "My camera is pitched down at the floor; I can see a dark opening ahead that may be the stairwell, but I need to level my view to navigate properly. I'll look up to re-orient before moving.",
+      "latency_s": 2.7,
+      "prompt_tokens": 1986
+    },
+    {
+      "n": 48,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling beams, so I've lost view of the floor and the stairs. I need to pitch down to re-orient before moving.",
+      "latency_s": 2.36,
+      "prompt_tokens": 1987
+    },
+    {
+      "n": 50,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "My camera is pitched down at the floor, so I've lost sight of the room. I need to look up to re-orient and find the stairs down on the left near the balcony.",
+      "latency_s": 4.27,
+      "prompt_tokens": 1988
+    },
+    {
+      "n": 52,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling, so I can't see the path ahead. I need to look down to re-orient and find the stairs near the balcony.",
+      "latency_s": 2.27,
+      "prompt_tokens": 1988
+    },
+    {
+      "n": 53,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I have no view of the room. I need to raise the camera to level to see the balcony and locate the stairs on the left.",
+      "latency_s": 2.45,
+      "prompt_tokens": 1990
+    },
+    {
+      "n": 55,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I can't see the room layout. I need to look up to re-orient and find the balcony and stairs.",
+      "latency_s": 2.49,
+      "prompt_tokens": 1991
+    },
+    {
+      "n": 57,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "My camera is pitched up at the ceiling, so I've lost sight of the floor and the dark opening ahead. I need to look down to re-orient before moving toward the stairs.",
+      "latency_s": 2.38,
+      "prompt_tokens": 1992
+    },
+    {
+      "n": 59,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "My camera is pitched up at the wooden ceiling, so I currently have no view of the floor or the path to the balcony. I need to look down to re-orient before moving.",
+      "latency_s": 2.73,
+      "prompt_tokens": 1993
+    },
+    {
+      "n": 61,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "My camera is pitched down at the floor, so I have no view of the room or the stairs. I need to look up to re-orient and find the balcony and the staircase down on the left.",
+      "latency_s": 2.46,
+      "prompt_tokens": 1994
+    },
+    {
+      "n": 62,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, showing a dark opening ahead that could be the stairwell. I need to look up to re-orient and see the room layout before moving.",
+      "latency_s": 3.07,
+      "prompt_tokens": 1995
+    },
+    {
+      "n": 64,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling beams, so I can't see the path ahead. I need to look down to re-orient and find the stairs leading down.",
+      "latency_s": 2.41,
+      "prompt_tokens": 1996
+    },
+    {
+      "n": 65,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down showing the floor and a dark opening ahead, which may be the stairwell. I need to look up to re-orient and see the stairs and balcony area before moving.",
+      "latency_s": 4.7,
+      "prompt_tokens": 1997
+    },
+    {
+      "n": 66,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down and I only see floor and a dark opening ahead, which may be the stairwell. I should raise the camera to see the room layout and locate the stairs before moving.",
+      "latency_s": 3.4,
+      "prompt_tokens": 1998
+    },
+    {
+      "n": 68,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling beams, so I can't see the floor or the path to the balcony. I need to look down to re-orient before moving.",
+      "latency_s": 2.41,
+      "prompt_tokens": 1998
+    },
+    {
+      "n": 70,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "My camera is pitched down at the floor, so I've lost sight of the room. I need to level the view and find the stairs leading down on the left side near the balcony before moving.",
+      "latency_s": 2.91,
+      "prompt_tokens": 1999
+    },
+    {
+      "n": 72,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling, so I can't see the path ahead. I need to look down to re-orient and find the stairs near the balcony.",
+      "latency_s": 1.89,
+      "prompt_tokens": 1999
+    },
+    {
+      "n": 74,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "My camera is pitched down at the floor, so I can't see the stairs or the balcony. I need to raise the camera to re-orient before moving.",
+      "latency_s": 2.71,
+      "prompt_tokens": 2001
+    },
+    {
+      "n": 75,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling, so I can't see the floor or the stairs. I need to look down to re-orient and find the staircase on the left.",
+      "latency_s": 2.14,
+      "prompt_tokens": 2002
+    },
+    {
+      "n": 76,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I can see a dark opening ahead that may be the stairwell. I need to look up to re-orient and find the stairs down on the left.",
+      "latency_s": 3.05,
+      "prompt_tokens": 2003
+    },
+    {
+      "n": 78,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling, so I can't see the floor or the stairs. I need to look down to re-orient and find the stairway down.",
+      "latency_s": 2.3,
+      "prompt_tokens": 2004
+    },
+    {
+      "n": 80,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I have lost my bearings. I need to look up to see the room and locate the stairs near the balcony before moving.",
+      "latency_s": 2.65,
+      "prompt_tokens": 2005
+    },
+    {
+      "n": 82,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling, so I can't see the path ahead. I need to look down to re-orient and find the stairs near the balcony.",
+      "latency_s": 1.99,
+      "prompt_tokens": 2005
+    },
+    {
+      "n": 83,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "My camera is pitched down at the floor, so I can't see the stairs or balcony. I need to look up to re-orient before moving.",
+      "latency_s": 2.16,
+      "prompt_tokens": 2007
+    },
+    {
+      "n": 84,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera appears pitched down, showing mostly floor and a dark opening ahead that could be the stairwell. I need to level the camera to see the stairs and confirm the path before moving.",
+      "latency_s": 2.48,
+      "prompt_tokens": 2008
+    },
+    {
+      "n": 86,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling beams, so I've lost sight of the floor and the stairs. I need to look down to re-orient before moving toward the stairs on the left.",
+      "latency_s": 2.08,
+      "prompt_tokens": 2008
+    },
+    {
+      "n": 87,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is currently pitched down at the floor, so I have no view of the room. I need to look up to re-orient and find the balcony and stairs.",
+      "latency_s": 2.21,
+      "prompt_tokens": 2009
+    },
+    {
+      "n": 88,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and locate the stairs near the balcony before moving.",
+      "latency_s": 2.07,
+      "prompt_tokens": 2010
+    },
+    {
+      "n": 89,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I cannot see the stairs or the balcony. I need to raise the camera to re-orient before moving.",
+      "latency_s": 2.58,
+      "prompt_tokens": 2010
+    },
+    {
+      "n": 90,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "My view is pitched down at the floor and a dark opening ahead, so I cannot judge my surroundings. I will look up to re-orient before moving toward the stairs.",
+      "latency_s": 2.46,
+      "prompt_tokens": 2011
+    },
+    {
+      "n": 92,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling beams, so I can't see the floor or the stairs. I need to look down to re-orient and find the staircase on the left.",
+      "latency_s": 2.16,
+      "prompt_tokens": 2011
+    },
+    {
+      "n": 94,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I can't see the room. I need to look up to re-orient and find the stairs down on the left near the balcony.",
+      "latency_s": 2.49,
+      "prompt_tokens": 2012
+    },
+    {
+      "n": 96,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling, so I can't see the floor or the stairs. I need to look down to re-orient and find the staircase down on the left.",
+      "latency_s": 2.19,
+      "prompt_tokens": 2013
+    },
+    {
+      "n": 98,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "My camera is pitched down at the floor, so I can't see the stairs or the balcony. I need to raise the view to re-orient before moving.",
+      "latency_s": 2.6,
+      "prompt_tokens": 2014
+    },
+    {
+      "n": 100,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling, so I can't see the floor or the stairs. I need to look down to re-orient and find the staircase down on the left.",
+      "latency_s": 2.17,
+      "prompt_tokens": 2015
+    },
+    {
+      "n": 101,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "My camera is pitched down at the floor, so I can't see the room or the stairs. I need to look up to re-orient and find the stairs down on the left near the balcony.",
+      "latency_s": 2.21,
+      "prompt_tokens": 2015
+    },
+    {
+      "n": 102,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "My view is disoriented\u2014frames show ceiling beams and floor, suggesting the camera pitch is off. There is a dark opening ahead which may be the stairwell. I need to level the camera to see the stairs clearly before moving.",
+      "latency_s": 3.31,
+      "prompt_tokens": 2017
+    },
+    {
+      "n": 104,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling beams, so I can't see the floor or the stairs. I need to look down to re-orient and find the staircase on the left.",
+      "latency_s": 2.11,
+      "prompt_tokens": 2017
+    },
+    {
+      "n": 106,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I have lost my bearings. I need to look up to see the room and locate the balcony and the stairs on the left before moving.",
+      "latency_s": 3.17,
+      "prompt_tokens": 2018
+    },
+    {
+      "n": 108,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling, so I can't see the floor or the stairs. I need to look down to re-orient and find the balcony and stairs.",
+      "latency_s": 2.19,
+      "prompt_tokens": 2019
+    },
+    {
+      "n": 109,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I can't see the room or the stairs. I need to raise the camera to level to re-orient and find the stairs down on the left near the balcony.",
+      "latency_s": 2.11,
+      "prompt_tokens": 2020
+    },
+    {
+      "n": 110,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; ahead there is a dark opening that could be the stairwell. I need to look down to see the floor and locate the stairs on the left before moving.",
+      "latency_s": 2.91,
+      "prompt_tokens": 2021
+    },
+    {
+      "n": 111,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "My camera is pitched down at the floor, so I have lost sight of the room. I need to raise the camera to see the balcony and the stairs on the left before moving.",
+      "latency_s": 2.98,
+      "prompt_tokens": 2021
+    },
+    {
+      "n": 112,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I can't see the balcony or stairs. I need to look up to re-orient before moving.",
+      "latency_s": 2.26,
+      "prompt_tokens": 2022
+    },
+    {
+      "n": 114,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling beams, so I can't see the path ahead. I need to look down to re-orient and find the stairs near the balcony.",
+      "latency_s": 2.45,
+      "prompt_tokens": 2022
+    },
+    {
+      "n": 115,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down showing a dark opening ahead, likely the stairwell. I need to look up to re-orient and see the stairs before descending.",
+      "latency_s": 2.71,
+      "prompt_tokens": 2023
+    },
+    {
+      "n": 116,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I have no view of the room. I need to look up to re-orient and find the balcony and stairs.",
+      "latency_s": 2.81,
+      "prompt_tokens": 2024
+    },
+    {
+      "n": 118,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling beams, so I can't see the floor or the stairs. I need to look down to re-orient and find the staircase on the left.",
+      "latency_s": 2.19,
+      "prompt_tokens": 2024
+    },
+    {
+      "n": 119,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is currently pitched down at the floor, so I have no view of the room. I need to look up to re-orient and find the stairs leading down on the left near the balcony.",
+      "latency_s": 2.12,
+      "prompt_tokens": 2025
+    },
+    {
+      "n": 120,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I can't see the path ahead. I need to look up to re-orient and find the stairs down on the left near the balcony.",
+      "latency_s": 2.6,
+      "prompt_tokens": 2026
+    },
+    {
+      "n": 122,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling beams, so I can't see the path or the stairs. I need to look down to re-orient and find the staircase on the left.",
+      "latency_s": 2.96,
+      "prompt_tokens": 2025
+    },
+    {
+      "n": 123,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I have lost sight of the room. I need to look up to re-orient and find the stairs leading down near the balcony.",
+      "latency_s": 2.41,
+      "prompt_tokens": 2027
+    },
+    {
+      "n": 125,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I cannot see the path ahead. I will level the view to locate the balcony and the stairs down on the left.",
+      "latency_s": 2.48,
+      "prompt_tokens": 2028
+    },
+    {
+      "n": 127,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is currently pitched up at the wooden ceiling, so I have no view of the floor or the stairs. I need to pitch down to re-orient before moving.",
+      "latency_s": 2.41,
+      "prompt_tokens": 2029
+    },
+    {
+      "n": 128,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I can see a dark opening ahead that may be the stairwell. I need to look down to see the floor and the stairs before moving.",
+      "latency_s": 2.18,
+      "prompt_tokens": 2030
+    },
+    {
+      "n": 129,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "My camera is pitched down at the floor, so I have no view of the room. I need to look up to re-orient and find the stairs down on the left near the balcony.",
+      "latency_s": 1.96,
+      "prompt_tokens": 2030
+    },
+    {
+      "n": 130,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down and I see a dark opening ahead, likely the stairwell down. I need to look up to re-orient and see the stairs before moving.",
+      "latency_s": 2.77,
+      "prompt_tokens": 2031
+    },
+    {
+      "n": 132,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling beams, so I can't see the floor or the stairs. I need to look down to re-orient and find the staircase down on the left.",
+      "latency_s": 2.16,
+      "prompt_tokens": 2031
+    },
+    {
+      "n": 133,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I have lost sight of the room. I need to look up to re-orient and find the stairs down on the left near the balcony.",
+      "latency_s": 2.03,
+      "prompt_tokens": 2033
+    },
+    {
+      "n": 135,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I can't see the room layout. I need to look up to find the balcony and the stairs on the left.",
+      "latency_s": 3.22,
+      "prompt_tokens": 2034
+    },
+    {
+      "n": 137,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "My camera is pitched up at the ceiling and I've lost track of the room. I need to look down to re-orient and find the stairs near the balcony.",
+      "latency_s": 2.16,
+      "prompt_tokens": 2034
+    },
+    {
+      "n": 138,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; ahead there is a dark opening that could be the stairwell. I need to look down to see the floor and the stairs before moving.",
+      "latency_s": 2.48,
+      "prompt_tokens": 2036
+    },
+    {
+      "n": 139,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "My camera is pitched down at the floor, so I have lost sight of the room. I need to look up to re-orient and find the stairs down on the left near the balcony.",
+      "latency_s": 2.07,
+      "prompt_tokens": 2036
+    },
+    {
+      "n": 140,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down, showing only floor and a dark opening ahead. I need to raise the camera to see the room layout and locate the stairs near the balcony.",
+      "latency_s": 2.55,
+      "prompt_tokens": 2037
+    },
+    {
+      "n": 142,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling beams, so I can't see the floor or the stairs. I need to look down to re-orient and find the staircase on the left.",
+      "latency_s": 2.06,
+      "prompt_tokens": 2037
+    },
+    {
+      "n": 144,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I have lost sight of the room. I need to look up to re-orient and find the stairs leading down on the left near the balcony.",
+      "latency_s": 2.2,
+      "prompt_tokens": 2039
+    },
+    {
+      "n": 146,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling, so I can't see the floor or the stairs. I need to look down to re-orient and find the staircase down on the left.",
+      "latency_s": 2.2,
+      "prompt_tokens": 2040
+    },
+    {
+      "n": 147,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I have lost my bearings. I need to look up to see the room and locate the stairs near the balcony before moving.",
+      "latency_s": 2.7,
+      "prompt_tokens": 2041
+    },
+    {
+      "n": 148,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I need to level it to see the dark opening ahead, which may be the stairwell. I will look up to re-orient before moving.",
+      "latency_s": 2.88,
+      "prompt_tokens": 2042
+    },
+    {
+      "n": 150,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is currently pitched up at the ceiling beams, so I cannot see the floor or the stairs. I need to look down to re-orient and find the staircase down on the left.",
+      "latency_s": 2.72,
+      "prompt_tokens": 2042
+    },
+    {
+      "n": 152,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I have lost my bearings. I need to look up to see the room and locate the stairs leading down near the balcony.",
+      "latency_s": 2.47,
+      "prompt_tokens": 2042
+    },
+    {
+      "n": 153,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling, so I can't see the path ahead. I need to look down to re-orient and find the stairs.",
+      "latency_s": 2.04,
+      "prompt_tokens": 2044
+    },
+    {
+      "n": 154,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The view shows a dark opening ahead under the wooden beams, which is likely the stairwell down near the balcony. My camera pitch seems off, so I will look down to re-check the floor and the stairs before moving.",
+      "latency_s": 3.36,
+      "prompt_tokens": 2045
+    },
+    {
+      "n": 155,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "My camera is pitched down at the floor, so I can't see the stairs or the balcony. I need to look up to re-orient and find the staircase down on the left.",
+      "latency_s": 2.0,
+      "prompt_tokens": 2045
+    },
+    {
+      "n": 156,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down, showing a dark opening ahead that could be the stairwell down. I need to look up to re-orient and see the balcony area and locate the stairs on the left before moving.",
+      "latency_s": 2.77,
+      "prompt_tokens": 2046
+    },
+    {
+      "n": 158,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling beams, so I can't see the floor or the stairs. I need to look down to re-orient and find the staircase on the left.",
+      "latency_s": 2.26,
+      "prompt_tokens": 2046
+    },
+    {
+      "n": 160,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "My camera is pitched down at the floor, so I have lost sight of the room. I need to look up to re-orient and find the balcony and the stairs on the left.",
+      "latency_s": 2.51,
+      "prompt_tokens": 2047
+    },
+    {
+      "n": 162,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling, so I can't see the path ahead. I need to look down to re-orient and find the stairs near the balcony.",
+      "latency_s": 1.84,
+      "prompt_tokens": 2047
+    },
+    {
+      "n": 163,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "My camera is pitched down at the floor, so I can't see the stairs or the balcony. I need to look up to re-orient before moving.",
+      "latency_s": 2.15,
+      "prompt_tokens": 2049
+    },
+    {
+      "n": 165,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling beams, so I can't see the floor or the stairs. I need to look down to re-orient before moving toward the balcony and the stairs on the left.",
+      "latency_s": 2.63,
+      "prompt_tokens": 2050
+    },
+    {
+      "n": 167,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "I've been staring at the floor; I need to raise the camera to see the room layout and locate the stairs on the left near the balcony.",
+      "latency_s": 3.18,
+      "prompt_tokens": 2051
+    },
+    {
+      "n": 168,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I can't judge where the stairs are. I need to look up to re-orient and find the dark stairwell opening ahead.",
+      "latency_s": 2.8,
+      "prompt_tokens": 2051
+    },
+    {
+      "n": 170,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling beams, so I can't see the floor or the stairs. I need to look down to re-orient and find the staircase down on the left.",
+      "latency_s": 2.23,
+      "prompt_tokens": 2053
+    },
+    {
+      "n": 176,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "My camera is aimed at the ceiling and floor, so I have lost view of the room. I need to level the camera and scan for the staircase leading down near the balcony.",
+      "latency_s": 2.73,
+      "prompt_tokens": 2053
+    },
+    {
+      "n": 177,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "My view is pointed at the floor and some upholstered chairs; I need to raise the camera to re-orient and find the stairs down near the balcony.",
+      "latency_s": 3.25,
+      "prompt_tokens": 2057
+    },
+    {
+      "n": 179,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor and I've lost my bearings near what looks like a chair. I need to look up to re-orient and find the stairs near the balcony.",
+      "latency_s": 3.13,
+      "prompt_tokens": 2058
+    },
+    {
+      "n": 180,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I can't see the room layout. I need to look up to find the balcony and the stairs on the left.",
+      "latency_s": 2.57,
+      "prompt_tokens": 2059
+    },
+    {
+      "n": 184,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I appear to be in an attic bedroom, not near the balcony stairs yet. There is a dark opening on the left side of the room past the dresser that could lead to the stairs down. I will turn left to inspect it.",
+      "latency_s": 5.27,
+      "prompt_tokens": 2058
+    },
+    {
+      "n": 186,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling beams, so I've lost view of the room. I need to look down to re-orient toward the bed and find the way toward the balcony and stairs.",
+      "latency_s": 2.28,
+      "prompt_tokens": 2061
+    },
+    {
+      "n": 187,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I need to look up to re-orient and find the path toward the balcony and stairs.",
+      "latency_s": 2.57,
+      "prompt_tokens": 2062
+    },
+    {
+      "n": 189,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I can't see the room layout. I need to look up to find the balcony and the stairs on the left.",
+      "latency_s": 2.44,
+      "prompt_tokens": 2063
+    },
+    {
+      "n": 191,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling beams, so I've lost view of the floor and the stairs. I need to pitch down to re-orient before moving.",
+      "latency_s": 2.33,
+      "prompt_tokens": 2064
+    },
+    {
+      "n": 193,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "My camera is pitched up at the ceiling; I can see a dark opening ahead that may be the stairwell. I need to look down to see the floor and the stairs before moving.",
+      "latency_s": 2.9,
+      "prompt_tokens": 2067
+    },
+    {
+      "n": 195,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "My camera is pitched down at the floor, so I have no view of the room or the stairs. I need to look up to re-orient and find the staircase down on the left near the balcony.",
+      "latency_s": 2.53,
+      "prompt_tokens": 2068
+    },
+    {
+      "n": 196,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I can't see the balcony or stairs. I need to look up to re-orient and find the stairs down on the left.",
+      "latency_s": 2.43,
+      "prompt_tokens": 2066
+    },
+    {
+      "n": 198,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling beams, so I can't see the floor or the stairs. I need to look down to re-orient and find the staircase down on the left.",
+      "latency_s": 2.62,
+      "prompt_tokens": 2067
+    },
+    {
+      "n": 200,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I can't see the room layout. I need to look up to re-orient and find the stairs down on the left.",
+      "latency_s": 2.31,
+      "prompt_tokens": 2069
+    },
+    {
+      "n": 202,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling, so I can't see the floor or the stairs. I need to look down to re-orient and find the staircase down on the left.",
+      "latency_s": 2.09,
+      "prompt_tokens": 2069
+    },
+    {
+      "n": 203,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I can't see the stairs or the balcony. I need to look up to re-orient and find the staircase down on the left.",
+      "latency_s": 2.35,
+      "prompt_tokens": 2071
+    },
+    {
+      "n": 205,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I can't see the path ahead. I need to look up to re-orient and find the stairs down on the left near the balcony.",
+      "latency_s": 2.5,
+      "prompt_tokens": 2072
+    },
+    {
+      "n": 207,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "My camera is pitched up at the ceiling beams, so I've lost sight of the floor and the dark stair opening ahead. I need to pitch down to re-orient before moving.",
+      "latency_s": 2.66,
+      "prompt_tokens": 2073
+    },
+    {
+      "n": 208,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down, showing a dark opening ahead that could be the stairwell. I need to look up to see the room layout and locate the stairs before moving.",
+      "latency_s": 2.28,
+      "prompt_tokens": 2074
+    },
+    {
+      "n": 210,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling, so I can't see the floor or the stairs. I need to look down to re-orient and find the stairs on the left.",
+      "latency_s": 2.55,
+      "prompt_tokens": 2075
+    },
+    {
+      "n": 211,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I can't see the balcony or stairs. I need to look up to re-orient and find the stairs down on the left.",
+      "latency_s": 3.19,
+      "prompt_tokens": 2075
+    },
+    {
+      "n": 213,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I can't see the room layout. I need to look up to re-orient and find the stairs down on the left.",
+      "latency_s": 2.15,
+      "prompt_tokens": 2077
+    },
+    {
+      "n": 215,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "My camera is pitched up at the ceiling beams, so I've lost sight of the floor and any stairs. I need to look down to re-orient and find the stairs on the left.",
+      "latency_s": 2.48,
+      "prompt_tokens": 2078
+    },
+    {
+      "n": 216,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; ahead there is a dark opening that could be the stairwell down. I need to look down to see the floor and the stairs before moving.",
+      "latency_s": 2.84,
+      "prompt_tokens": 2079
+    },
+    {
+      "n": 218,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "My camera is pitched down at the floor, so I can't see the stairs or the room ahead. I need to look up to re-orient and find the staircase down on the left.",
+      "latency_s": 2.08,
+      "prompt_tokens": 2079
+    },
+    {
+      "n": 220,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling beams, so I've lost view of the floor and any stairs. I need to look down to re-orient and find the stairs leading down on the left.",
+      "latency_s": 2.32,
+      "prompt_tokens": 2081
+    },
+    {
+      "n": 221,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "My camera is pitched down at the floor; I can see a dark opening ahead that may be the stairwell. I need to look up to re-orient before moving.",
+      "latency_s": 3.3,
+      "prompt_tokens": 2081
+    },
+    {
+      "n": 223,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I can't see the room layout. I need to look up to re-orient and find the stairs down on the left.",
+      "latency_s": 2.2,
+      "prompt_tokens": 2085
+    },
+    {
+      "n": 225,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "My camera is pitched up at the ceiling beams, so I've lost view of the floor and the dark stair opening I saw earlier. I need to pitch down to re-orient before moving toward the stairs.",
+      "latency_s": 2.24,
+      "prompt_tokens": 2086
+    },
+    {
+      "n": 226,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down and I see a dark opening ahead over a wooden floor, which could be the stairwell down. I need to look up to re-orient and confirm the layout before moving.",
+      "latency_s": 3.07,
+      "prompt_tokens": 2085
+    },
+    {
+      "n": 228,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling beams, so I can't see the floor or the stairs. I need to look down to re-orient and find the stairs leading down on the left.",
+      "latency_s": 2.3,
+      "prompt_tokens": 2088
+    },
+    {
+      "n": 230,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I have lost my bearings. I need to look up to see the room and locate the stairs leading down on the left.",
+      "latency_s": 3.46,
+      "prompt_tokens": 2087
+    },
+    {
+      "n": 232,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling, so I can't see the floor or the stairs. I need to look down to re-orient and find the stairs down on the left near the balcony.",
+      "latency_s": 2.13,
+      "prompt_tokens": 2087
+    },
+    {
+      "n": 233,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I can't see the stairs or the balcony. I need to look up to re-orient and find the staircase on the left.",
+      "latency_s": 2.28,
+      "prompt_tokens": 2089
+    },
+    {
+      "n": 235,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I can't see the room layout. I need to look up to re-orient and find the stairs down on the left.",
+      "latency_s": 2.45,
+      "prompt_tokens": 2092
+    },
+    {
+      "n": 237,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling beams, so I've lost view of the floor and the stairs. I need to pitch down to re-orient before moving.",
+      "latency_s": 2.15,
+      "prompt_tokens": 2091
+    },
+    {
+      "n": 239,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "My camera is pitched up at the ceiling; I can see a dark opening ahead that may be the stairwell. I need to look down to see the floor and the stairs before moving.",
+      "latency_s": 2.18,
+      "prompt_tokens": 2094
+    },
+    {
+      "n": 241,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "My camera is pitched down at the floor, so I can't see the stairs or the balcony. I need to look up to re-orient before moving.",
+      "latency_s": 2.7,
+      "prompt_tokens": 2095
+    },
+    {
+      "n": 242,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, showing a dark opening ahead that could be the stairwell. I need to look up to re-orient and see the stairs before moving.",
+      "latency_s": 3.11,
+      "prompt_tokens": 2096
+    },
+    {
+      "n": 244,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "My camera is pitched up at ceiling beams, so I've lost sight of the floor and any stairs. I need to look down to re-orient before moving.",
+      "latency_s": 2.79,
+      "prompt_tokens": 2097
+    },
+    {
+      "n": 246,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I have lost my bearings. I need to look up to see the room and locate the stairs leading down on the left.",
+      "latency_s": 2.72,
+      "prompt_tokens": 2097
+    },
+    {
+      "n": 247,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling, so I can't see the path ahead. I need to look down to re-orient and find the stairs near the balcony.",
+      "latency_s": 2.21,
+      "prompt_tokens": 2099
+    },
+    {
+      "n": 248,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "I see a dark opening ahead under the wooden beams, which is likely the stairwell going down. My camera pitch seems tilted up, so I will look down to re-aim at the floor and the stairs before moving.",
+      "latency_s": 3.26,
+      "prompt_tokens": 2100
+    },
+    {
+      "n": 250,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "My camera is pitched down at the floor, so I cannot see the stairs or the balcony. I need to look up to re-orient and find the bottom of the stairs before deciding to stop.",
+      "latency_s": 2.33,
+      "prompt_tokens": 2100
+    },
+    {
+      "n": 252,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling beams, so I can't see the floor or the stairs. I need to look down to re-orient and find the stairs leading down on the left.",
+      "latency_s": 2.29,
+      "prompt_tokens": 2098
+    },
+    {
+      "n": 253,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I can't see the stairs or balcony. I need to look up to re-orient and find the staircase on the left.",
+      "latency_s": 2.0,
+      "prompt_tokens": 2102
+    },
+    {
+      "n": 255,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I can see a dark opening ahead that may be the stairwell. I need to look up to re-orient and find the stairs on the left before moving.",
+      "latency_s": 2.67,
+      "prompt_tokens": 2103
+    },
+    {
+      "n": 257,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling beams, so I currently have no view of the floor or the stairs. I need to look down to re-orient and find the staircase on the left.",
+      "latency_s": 2.12,
+      "prompt_tokens": 2101
+    },
+    {
+      "n": 258,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I can see a dark opening ahead that may be the stairwell. I need to look down to see the floor and the stairs before moving.",
+      "latency_s": 2.12,
+      "prompt_tokens": 2105
+    },
+    {
+      "n": 260,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "My camera is pitched down at the floor, so I have no view of the room or the stairs. I need to look up to re-orient and find the stairs leading down on the left.",
+      "latency_s": 2.54,
+      "prompt_tokens": 2105
+    },
+    {
+      "n": 262,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling beams, so I can't see the floor or the stairs. I need to look down to re-orient and find the stairs leading down on the left.",
+      "latency_s": 2.12,
+      "prompt_tokens": 2104
+    },
+    {
+      "n": 264,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I can't see the stairs or the balcony. I need to look up to re-orient before moving.",
+      "latency_s": 2.89,
+      "prompt_tokens": 2108
+    },
+    {
+      "n": 266,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling, so I can't see the path ahead. I need to look down to re-orient and find the stairs leading down on the left near the balcony.",
+      "latency_s": 2.15,
+      "prompt_tokens": 2107
+    },
+    {
+      "n": 267,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I can't see the stairs or the balcony. I need to look up to re-orient before moving.",
+      "latency_s": 2.13,
+      "prompt_tokens": 2110
+    },
+    {
+      "n": 268,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor with a dark opening ahead, likely the stairwell. I need to look up to re-orient and confirm the stairs before moving.",
+      "latency_s": 2.69,
+      "prompt_tokens": 2111
+    },
+    {
+      "n": 270,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at ceiling beams, so I can't see the floor or the stairs. I need to look down to re-orient and find the stairs leading down on the left.",
+      "latency_s": 2.26,
+      "prompt_tokens": 2110
+    },
+    {
+      "n": 271,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "My camera is pitched down at the floor, so I cannot judge where the stairs or the balcony are. I need to look up and re-observe before moving further.",
+      "latency_s": 2.78,
+      "prompt_tokens": 2109
+    },
+    {
+      "n": 272,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I cannot judge where the stairs or the bottom landing are. I need to look up to re-orient before moving or stopping.",
+      "latency_s": 2.47,
+      "prompt_tokens": 2113
+    },
+    {
+      "n": 274,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at ceiling beams, so I can't see the floor or the stairs. I need to look down to re-orient and find the stairs down on the left.",
+      "latency_s": 2.62,
+      "prompt_tokens": 2112
+    },
+    {
+      "n": 276,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "My camera is pitched down at the floor, so I cannot see the stairs or the balcony. I need to raise the camera to re-orient before moving.",
+      "latency_s": 2.65,
+      "prompt_tokens": 2114
+    },
+    {
+      "n": 278,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "My camera is pitched up at the ceiling beams, so I can't judge my position. I need to look down to see the floor and locate the stairs before proceeding.",
+      "latency_s": 2.5,
+      "prompt_tokens": 2115
+    },
+    {
+      "n": 279,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I can't see the stairs or balcony. I need to look up to re-orient and find the staircase down on the left.",
+      "latency_s": 1.95,
+      "prompt_tokens": 2115
+    },
+    {
+      "n": 280,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I can see a dark opening ahead that may be the stairwell. I need to look up to re-orient and find the stairs down on the left before moving.",
+      "latency_s": 2.94,
+      "prompt_tokens": 2117
+    },
+    {
+      "n": 282,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at ceiling beams, so I've lost sight of the floor and any stairs. I need to look down to re-orient and find the stairs on the left.",
+      "latency_s": 2.39,
+      "prompt_tokens": 2114
+    },
+    {
+      "n": 283,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I cannot judge my surroundings. I need to look up to see whether I am at the bottom of the stairs near the balcony before deciding to stop or continue.",
+      "latency_s": 2.79,
+      "prompt_tokens": 2117
+    },
+    {
+      "n": 285,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor with a dark opening ahead, likely the stairwell. I need to look up to re-orient and find the stairs down on the left.",
+      "latency_s": 2.25,
+      "prompt_tokens": 2118
+    },
+    {
+      "n": 287,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "My camera is pitched up at the ceiling and I've lost sight of the floor. I need to look down to re-orient and find the stairs near the balcony.",
+      "latency_s": 2.34,
+      "prompt_tokens": 2119
+    },
+    {
+      "n": 288,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "My camera is pitched up at the ceiling; I can see a dark opening ahead that may be the stairwell. I need to look down to see the floor and the stairs before moving.",
+      "latency_s": 2.38,
+      "prompt_tokens": 2120
+    },
+    {
+      "n": 290,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "My camera is pitched down at the floor, so I can't see the stairs or the room. I need to look up to re-orient and find the staircase leading down.",
+      "latency_s": 2.43,
+      "prompt_tokens": 2120
+    },
+    {
+      "n": 292,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling beams, so I can't see the floor or the stairs. I need to look down to re-orient and find the stairs leading down on the left.",
+      "latency_s": 2.72,
+      "prompt_tokens": 2120
+    },
+    {
+      "n": 293,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I can't see the stairs or the balcony. I need to look up to re-orient and find the staircase down on the left.",
+      "latency_s": 2.41,
+      "prompt_tokens": 2123
+    },
+    {
+      "n": 294,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down, showing a dark opening ahead that could be the stairwell. I need to look up to re-orient and confirm the stairs down on the left before moving.",
+      "latency_s": 2.35,
+      "prompt_tokens": 2124
+    },
+    {
+      "n": 296,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at ceiling beams, so I've lost view of the floor and any stairs. I need to look down to re-orient and find the stairs leading down on the left.",
+      "latency_s": 2.39,
+      "prompt_tokens": 2124
+    },
+    {
+      "n": 298,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I can't see the path ahead. I need to look up to re-orient and find the stairs down on the left near the balcony.",
+      "latency_s": 2.6,
+      "prompt_tokens": 2125
+    },
+    {
+      "n": 299,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling, so I can't judge my position. I need to look down to see the floor and locate the stairs before moving.",
+      "latency_s": 2.55,
+      "prompt_tokens": 2126
+    },
+    {
+      "n": 301,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at ceiling beams; I need to look down to see the floor and locate the stairs on the left before moving.",
+      "latency_s": 2.41,
+      "prompt_tokens": 2127
+    },
+    {
+      "n": 303,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "My camera is pitched down at the floor, so I've lost sight of the room. I need to look up to re-orient and find the stairs down near the balcony.",
+      "latency_s": 2.38,
+      "prompt_tokens": 2125
+    },
+    {
+      "n": 304,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down, showing mostly floor and a dark opening ahead. I need to look up to re-orient and find the stairs down on the left near the balcony.",
+      "latency_s": 2.67,
+      "prompt_tokens": 2128
+    },
+    {
+      "n": 306,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at ceiling beams, so I cannot see the floor or the stairs. I need to look down to re-orient and find the staircase landing.",
+      "latency_s": 2.59,
+      "prompt_tokens": 2127
+    },
+    {
+      "n": 307,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I cannot see the stairs or the balcony. I need to look up to re-orient and find the staircase down on the left.",
+      "latency_s": 2.34,
+      "prompt_tokens": 2129
+    },
+    {
+      "n": 309,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I can't see the room layout. I need to look up to find the balcony and the stairs on the left before moving.",
+      "latency_s": 2.25,
+      "prompt_tokens": 2132
+    },
+    {
+      "n": 311,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is currently pitched up at the ceiling beams, so I have no view of the floor or the stairs. I need to look down to re-orient before moving.",
+      "latency_s": 2.3,
+      "prompt_tokens": 2133
+    },
+    {
+      "n": 312,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I can see a dark opening ahead that may be the stairwell. I need to look down to see the floor and locate the stairs before moving.",
+      "latency_s": 2.48,
+      "prompt_tokens": 2133
+    },
+    {
+      "n": 314,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "My camera is pitched down at the floor, so I can't see the stairs or the balcony. I need to look up to re-orient and find the staircase down on the left.",
+      "latency_s": 2.47,
+      "prompt_tokens": 2133
+    },
+    {
+      "n": 316,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the floor and locate the stairs near the balcony before moving.",
+      "latency_s": 2.58,
+      "prompt_tokens": 2135
+    },
+    {
+      "n": 317,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I can't see the stairs or the dark opening ahead. I need to look up to re-orient before moving.",
+      "latency_s": 2.49,
+      "prompt_tokens": 2136
+    },
+    {
+      "n": 318,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; ahead there is a dark opening that could be the stairwell. I need to look up to re-orient and see where the stairs down on the left are before moving.",
+      "latency_s": 2.98,
+      "prompt_tokens": 2137
+    },
+    {
+      "n": 320,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at ceiling beams, so I've lost sight of the floor and any stairs. I need to look down to re-orient and find the stairs leading down on the left.",
+      "latency_s": 2.93,
+      "prompt_tokens": 2137
+    },
+    {
+      "n": 321,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I cannot judge my position relative to the stairs. I need to look up to re-orient before deciding whether I am at the bottom of the stairs.",
+      "latency_s": 2.72,
+      "prompt_tokens": 2136
+    },
+    {
+      "n": 322,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I cannot judge where the stairs or the bottom landing are. I will look up to re-observe the dark opening ahead before moving.",
+      "latency_s": 3.05,
+      "prompt_tokens": 2139
+    },
+    {
+      "n": 324,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at ceiling beams, so I've lost sight of the floor and any stairs. I need to look down to re-orient and find the stairs leading down on the left.",
+      "latency_s": 2.38,
+      "prompt_tokens": 2139
+    },
+    {
+      "n": 325,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down showing a dark opening ahead which may be the stairwell. I need to look up to re-orient and see the stairs before moving.",
+      "latency_s": 2.83,
+      "prompt_tokens": 2140
+    },
+    {
+      "n": 327,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I can't see the balcony or stairs. I need to look up to re-orient and find the stairs down on the left.",
+      "latency_s": 2.26,
+      "prompt_tokens": 2141
+    },
+    {
+      "n": 329,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling beams, so I've lost sight of the floor and the stairs. I need to pitch down to re-orient before moving.",
+      "latency_s": 2.48,
+      "prompt_tokens": 2142
+    },
+    {
+      "n": 330,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; the dark opening ahead is likely the stairwell down. I need to look down to see the stairs and floor before moving.",
+      "latency_s": 2.38,
+      "prompt_tokens": 2143
+    },
+    {
+      "n": 332,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "My camera is pitched down at the floor, so I have no view of the room or the stairs. I need to look up to re-orient and find the stairs leading down on the left near the balcony.",
+      "latency_s": 2.71,
+      "prompt_tokens": 2141
+    },
+    {
+      "n": 334,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling beams, so I can't see the floor or the stairs. I need to look down to re-orient and find the stairs down on the left near the balcony.",
+      "latency_s": 2.29,
+      "prompt_tokens": 2145
+    },
+    {
+      "n": 335,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I can't see the stairs or the balcony. I need to look up to re-orient and find the staircase going down on the left.",
+      "latency_s": 2.8,
+      "prompt_tokens": 2146
+    },
+    {
+      "n": 336,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; ahead there is a dark opening that could be the stairwell down. I need to look up to see the layout and locate the stairs before moving.",
+      "latency_s": 2.45,
+      "prompt_tokens": 2147
+    },
+    {
+      "n": 338,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at ceiling beams, so I've lost sight of the floor and any stairs. I need to look down to re-orient and find the stairs leading down on the left.",
+      "latency_s": 2.61,
+      "prompt_tokens": 2147
+    },
+    {
+      "n": 339,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I cannot see the stairs or the balcony. I need to look up to re-orient before moving.",
+      "latency_s": 2.17,
+      "prompt_tokens": 2148
+    },
+    {
+      "n": 340,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I can see a dark opening ahead that may be the stairwell. I need to look up to re-orient and find the stairs down on the left before moving.",
+      "latency_s": 2.99,
+      "prompt_tokens": 2149
+    },
+    {
+      "n": 342,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at ceiling beams, so I can't see the floor or the stairs. I need to look down to re-orient and find the stairs leading down on the left.",
+      "latency_s": 2.6,
+      "prompt_tokens": 2147
+    },
+    {
+      "n": 344,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "My view is currently aimed at the floor and ceiling beams, so I cannot see the stairs or the balcony. I need to re-aim the camera level to locate the stairway down on the left before moving.",
+      "latency_s": 2.96,
+      "prompt_tokens": 2150
+    },
+    {
+      "n": 346,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling, so I can't see the floor or the stairs. I need to look down to re-orient and check whether I'm at the bottom of the stairs near the balcony.",
+      "latency_s": 2.29,
+      "prompt_tokens": 2151
+    },
+    {
+      "n": 347,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I can't see the stairs or the balcony area. I need to look up to re-orient and find the staircase going down on the left.",
+      "latency_s": 2.42,
+      "prompt_tokens": 2152
+    },
+    {
+      "n": 348,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor near a dark opening that could be the stairwell. I need to look up to see the layout and locate the stairs before moving.",
+      "latency_s": 5.69,
+      "prompt_tokens": 2153
+    },
+    {
+      "n": 350,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at ceiling beams, so I've lost sight of the floor and any stairs. I need to look down to re-orient and find the stairs on the left.",
+      "latency_s": 5.37,
+      "prompt_tokens": 2153
+    },
+    {
+      "n": 351,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I have no view of the room. I need to look up to re-orient and find the stairs down on the left near the balcony.",
+      "latency_s": 5.78,
+      "prompt_tokens": 2152
+    },
+    {
+      "n": 352,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, showing a dark opening ahead that could be the stairwell. I need to look up to see the room layout and locate the stairs before moving.",
+      "latency_s": 6.18,
+      "prompt_tokens": 2155
+    },
+    {
+      "n": 354,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at ceiling beams, so I've lost sight of the floor and any stairs. I need to look down to re-orient and find the stairs leading down on the left.",
+      "latency_s": 3.08,
+      "prompt_tokens": 2155
+    },
+    {
+      "n": 355,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I cannot judge where the stairs or the bottom landing are. I need to look up to re-orient before deciding whether I am already at the bottom of the stairs.",
+      "latency_s": 2.68,
+      "prompt_tokens": 2156
+    },
+    {
+      "n": 356,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I cannot judge where the stairs or the bottom landing are. I need to look up to re-orient before moving or stopping.",
+      "latency_s": 2.46,
+      "prompt_tokens": 2157
+    },
+    {
+      "n": 358,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at ceiling beams, so I can't see the floor or the stairs. I need to look down to re-orient and find the stairs leading down on the left.",
+      "latency_s": 2.95,
+      "prompt_tokens": 2157
+    },
+    {
+      "n": 359,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The view is pitched down at the floor with a dark opening ahead that could be the stairwell. I need to look up to re-orient and confirm the stairs before descending.",
+      "latency_s": 2.91,
+      "prompt_tokens": 2158
+    },
+    {
+      "n": 360,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; ahead there is a dark opening that could be the stairwell. I need to look up to see the layout and locate the stairs on the left before moving.",
+      "latency_s": 2.63,
+      "prompt_tokens": 2159
+    },
+    {
+      "n": 362,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling beams; I can't judge my position relative to the stairs. I need to look down to see the floor and locate the staircase on the left.",
+      "latency_s": 3.38,
+      "prompt_tokens": 2157
+    },
+    {
+      "n": 364,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I can't see the room layout. I need to look up to find the balcony and the stairs on the left before moving.",
+      "latency_s": 2.21,
+      "prompt_tokens": 2160
+    },
+    {
+      "n": 366,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling, so I can't see the floor or the stairs. I need to look down to re-orient and find the bottom of the stairs.",
+      "latency_s": 2.04,
+      "prompt_tokens": 2161
+    },
+    {
+      "n": 367,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I can't see the stairs or the balcony. I need to look up to re-orient and find the staircase going down on the left.",
+      "latency_s": 2.41,
+      "prompt_tokens": 2162
+    },
+    {
+      "n": 368,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor with a dark opening ahead, likely the stairwell down. I need to look up to re-orient and confirm the stairs before descending.",
+      "latency_s": 2.95,
+      "prompt_tokens": 2163
+    },
+    {
+      "n": 370,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling beams, so I can't see the floor or the stairs. I need to look down to re-orient and find the stairs leading down on the left.",
+      "latency_s": 2.48,
+      "prompt_tokens": 2163
+    },
+    {
+      "n": 372,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I have no view of the room. I need to look up to re-orient and find the stairs down on the left near the balcony.",
+      "latency_s": 2.53,
+      "prompt_tokens": 2162
+    },
+    {
+      "n": 373,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling, so I can't see the floor or the stairs. I need to look down to re-orient and find the staircase down.",
+      "latency_s": 2.45,
+      "prompt_tokens": 2165
+    },
+    {
+      "n": 374,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up toward ceiling beams; ahead is a dark opening that could be the stairwell down. I need to look down to see the floor and locate the stairs on the left before moving.",
+      "latency_s": 2.69,
+      "prompt_tokens": 2166
+    },
+    {
+      "n": 375,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I cannot judge my surroundings. I need to look up to see whether I am at the bottom of the stairs near the balcony area before deciding to stop or move.",
+      "latency_s": 2.64,
+      "prompt_tokens": 2166
+    },
+    {
+      "n": 376,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The view is pitched down at a dark opening ahead, likely the stairwell descending. I need to look up to re-orient and confirm the stairs before moving.",
+      "latency_s": 2.67,
+      "prompt_tokens": 2167
+    },
+    {
+      "n": 378,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at ceiling beams, so I can't see the floor or the stairs. I need to look down to re-orient and find the stairs leading down on the left.",
+      "latency_s": 2.11,
+      "prompt_tokens": 2167
+    },
+    {
+      "n": 379,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "My camera is pitched down at the floor, so I cannot judge where the stairs or the bottom landing are. I need to look up and re-observe before deciding whether I am already at the bottom of the stairs.",
+      "latency_s": 2.84,
+      "prompt_tokens": 2168
+    },
+    {
+      "n": 381,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I can't see the balcony or stairs. I need to look up to re-orient and find the stairs down on the left.",
+      "latency_s": 2.41,
+      "prompt_tokens": 2169
+    },
+    {
+      "n": 383,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at wooden ceiling beams, so I currently have no view of the floor or stairs. I need to pitch down to re-orient before moving.",
+      "latency_s": 2.0,
+      "prompt_tokens": 2170
+    },
+    {
+      "n": 384,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I can see a dark opening ahead that may be the stairwell. I need to look down to see the floor and the stairs before moving.",
+      "latency_s": 2.58,
+      "prompt_tokens": 2171
+    },
+    {
+      "n": 385,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "My camera is pitched down at the floor, so I cannot judge where the stairs or the bottom landing are. I need to look up and re-observe before deciding whether I am already at the bottom of the stairs.",
+      "latency_s": 2.96,
+      "prompt_tokens": 2171
+    },
+    {
+      "n": 386,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down; I see a dark opening ahead that could be the stairwell, but I need to look up to confirm my surroundings and locate the stairs before moving.",
+      "latency_s": 2.79,
+      "prompt_tokens": 2172
+    },
+    {
+      "n": 388,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling beams, so I can't judge my position. I need to look down to see the floor and locate the stairs before moving.",
+      "latency_s": 2.43,
+      "prompt_tokens": 2173
+    },
+    {
+      "n": 390,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I cannot see the stairs or the balcony. I need to look up to re-orient before moving.",
+      "latency_s": 1.98,
+      "prompt_tokens": 2174
+    },
+    {
+      "n": 392,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling, so I cannot see the floor or the stairs. I need to look down to re-orient and find the staircase down on the left.",
+      "latency_s": 2.21,
+      "prompt_tokens": 2175
+    },
+    {
+      "n": 393,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I can't see where the stairs are. I need to look up to re-orient and find the stairway leading down on the left.",
+      "latency_s": 2.35,
+      "prompt_tokens": 2176
+    },
+    {
+      "n": 394,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, showing a dark opening ahead that could be the stairwell. I need to look up to re-orient and see where the stairs down are before moving.",
+      "latency_s": 2.46,
+      "prompt_tokens": 2177
+    },
+    {
+      "n": 396,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at ceiling beams, so I've lost sight of the floor and any stairs. I need to look down to re-orient and find the stairs on the left.",
+      "latency_s": 2.47,
+      "prompt_tokens": 2177
+    },
+    {
+      "n": 397,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I cannot judge where the stairs or the bottom landing are. I need to look up to re-orient before deciding whether I am already at the bottom of the stairs.",
+      "latency_s": 2.63,
+      "prompt_tokens": 2178
+    },
+    {
+      "n": 398,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor near a dark opening that could be the stairwell. I need to look up to re-orient and confirm where the stairs down are before moving.",
+      "latency_s": 2.8,
+      "prompt_tokens": 2179
+    },
+    {
+      "n": 400,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at ceiling beams, so I can't judge my position. I need to look down to see the floor and locate the stairs before proceeding.",
+      "latency_s": 2.39,
+      "prompt_tokens": 2179
+    },
+    {
+      "n": 401,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I cannot judge where I am relative to the stairs. I need to look up and re-observe before deciding whether I am at the bottom of the stairs.",
+      "latency_s": 2.38,
+      "prompt_tokens": 2178
+    },
+    {
+      "n": 402,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I can see a dark opening ahead that may be the stairwell, but I need to re-orient before moving. I'll look up to see the room layout and locate the stairs.",
+      "latency_s": 2.72,
+      "prompt_tokens": 2181
+    },
+    {
+      "n": 404,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling beams, so I can't see the floor or the stairs. I need to look down to re-orient and find the stairs leading down on the left.",
+      "latency_s": 2.29,
+      "prompt_tokens": 2181
+    },
+    {
+      "n": 405,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I cannot judge my position relative to the stairs. I need to look up to re-orient before deciding whether I am at the bottom of the stairs.",
+      "latency_s": 2.59,
+      "prompt_tokens": 2182
+    },
+    {
+      "n": 406,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; ahead there is a dark opening that could be the stairwell. I need to look up to re-orient and find the stairs down on the left before moving.",
+      "latency_s": 4.43,
+      "prompt_tokens": 2183
+    },
+    {
+      "n": 408,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at ceiling beams, so I can't see the floor or the stairs. I need to look down to re-orient and find the staircase.",
+      "latency_s": 5.77,
+      "prompt_tokens": 2183
+    },
+    {
+      "n": 409,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "My camera is pitched down at the floor, so I cannot judge where the stairs or the bottom landing are. I need to look up and re-observe before deciding whether I am already at the bottom of the stairs.",
+      "latency_s": 6.49,
+      "prompt_tokens": 2184
+    },
+    {
+      "n": 410,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor with a dark opening ahead, likely the stairwell. I need to look up to re-orient and find the stairs before moving.",
+      "latency_s": 4.12,
+      "prompt_tokens": 2185
+    },
+    {
+      "n": 412,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at ceiling beams, so I can't see the floor or the stairs. I need to look down to re-orient and find the stairs on the left.",
+      "latency_s": 2.39,
+      "prompt_tokens": 2185
+    },
+    {
+      "n": 413,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "My camera is pitched down at the floor, so I cannot see the stairs or the balcony. I need to look up to re-orient and find the staircase before moving.",
+      "latency_s": 2.52,
+      "prompt_tokens": 2186
+    },
+    {
+      "n": 414,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; ahead there is a dark opening that could be the stairwell down. I need to look up to see the layout and locate the stairs on the left before moving.",
+      "latency_s": 2.46,
+      "prompt_tokens": 2187
+    },
+    {
+      "n": 416,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling beams; I can't judge my position relative to the stairs. I need to look down to see the floor and the dark stair opening ahead before moving.",
+      "latency_s": 2.91,
+      "prompt_tokens": 2187
+    },
+    {
+      "n": 417,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I cannot see the stairs or the balcony. I need to look up to re-orient before moving.",
+      "latency_s": 2.72,
+      "prompt_tokens": 2188
+    },
+    {
+      "n": 418,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "My camera is pitched down at the floor, so I cannot judge where the stairs or the bottom landing are. I need to look up to re-orient before moving or stopping.",
+      "latency_s": 2.27,
+      "prompt_tokens": 2189
+    },
+    {
+      "n": 420,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling beams, so I can't see the floor or the stairs. I need to look down to re-orient and find the stairs leading down on the left.",
+      "latency_s": 2.14,
+      "prompt_tokens": 2189
+    },
+    {
+      "n": 421,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I cannot judge my position relative to the stairs. I need to look up to re-orient before deciding whether I am at the bottom of the stairs.",
+      "latency_s": 2.37,
+      "prompt_tokens": 2188
+    },
+    {
+      "n": 422,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "My camera is pitched down at the floor, so I cannot judge where the stairs or the bottom landing are. I need to look up to re-orient before moving.",
+      "latency_s": 2.89,
+      "prompt_tokens": 2191
+    },
+    {
+      "n": 424,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at ceiling beams, so I can't see the floor or the stairs. I need to look down to re-orient and find the stairs down on the left.",
+      "latency_s": 2.33,
+      "prompt_tokens": 2191
+    },
+    {
+      "n": 426,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I cannot see the stairs or the balcony. I need to look up to re-orient and find the staircase down.",
+      "latency_s": 3.19,
+      "prompt_tokens": 2192
+    },
+    {
+      "n": 427,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "My camera is pitched up at the ceiling, so I can't judge my position relative to the stairs. I need to look down to see the stairwell and the floor before deciding whether I'm at the bottom of the stairs.",
+      "latency_s": 2.46,
+      "prompt_tokens": 2193
+    },
+    {
+      "n": 428,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "My camera is pitched down at the floor; I can see a dark opening ahead that may be the stairwell, but I need to raise the camera to see the stairs and confirm my position before moving.",
+      "latency_s": 2.8,
+      "prompt_tokens": 2194
+    },
+    {
+      "n": 430,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling beams, so I cannot judge my position relative to the stairs. I need to look down to see the floor and locate the staircase before moving.",
+      "latency_s": 2.57,
+      "prompt_tokens": 2195
+    },
+    {
+      "n": 431,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I can see a dark opening ahead that may be the stairwell. I need to look up to re-orient and find the stairs down on the left before moving.",
+      "latency_s": 2.93,
+      "prompt_tokens": 2194
+    },
+    {
+      "n": 432,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I cannot see the stairs or the balcony. I need to look up to re-orient before moving.",
+      "latency_s": 2.19,
+      "prompt_tokens": 2197
+    },
+    {
+      "n": 433,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at ceiling beams, so I can't see the floor or stairs. I need to look down to re-orient and check whether I'm at the bottom of the stairs before stopping.",
+      "latency_s": 2.33,
+      "prompt_tokens": 2197
+    },
+    {
+      "n": 434,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; a dark opening ahead likely leads down the stairwell. I need to look down to see the floor and the stairs before moving.",
+      "latency_s": 3.02,
+      "prompt_tokens": 2198
+    },
+    {
+      "n": 435,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I cannot judge where the stairs or the bottom landing are. I need to look up to re-orient before deciding whether I am already at the bottom of the stairs.",
+      "latency_s": 3.01,
+      "prompt_tokens": 2198
+    },
+    {
+      "n": 436,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The view is pitched down at the floor with a dark opening ahead, likely the stairwell. I need to look up to re-orient and confirm the stairs before descending.",
+      "latency_s": 2.5,
+      "prompt_tokens": 2199
+    },
+    {
+      "n": 438,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at ceiling beams, so I cannot see the floor or the stairs. I need to look down to re-orient and find the stairs on the left.",
+      "latency_s": 1.95,
+      "prompt_tokens": 2199
+    },
+    {
+      "n": 439,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor near a dark opening that may be the stairwell. I need to look up to re-orient and see where the stairs and balcony are before moving.",
+      "latency_s": 2.89,
+      "prompt_tokens": 2200
+    },
+    {
+      "n": 440,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor with a dark opening ahead, likely the stairwell. I need to look up to re-orient and find the stairs down on the left.",
+      "latency_s": 2.88,
+      "prompt_tokens": 2201
+    },
+    {
+      "n": 442,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling beams, so I cannot see the floor or the stairs. I need to look down to re-orient and find the stairs on the left before proceeding.",
+      "latency_s": 2.18,
+      "prompt_tokens": 2201
+    },
+    {
+      "n": 443,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I cannot judge where the stairs or the bottom landing are. I need to look up to re-orient before deciding whether I am already at the bottom of the stairs.",
+      "latency_s": 2.76,
+      "prompt_tokens": 2202
+    },
+    {
+      "n": 444,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor near a dark opening that may be the stairwell. I need to look up to re-orient and locate the stairs before moving.",
+      "latency_s": 2.51,
+      "prompt_tokens": 2203
+    },
+    {
+      "n": 446,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling beams, so I cannot see the floor or the stairs. I need to look down to re-orient and check whether I am at the bottom of the stairs before stopping.",
+      "latency_s": 2.09,
+      "prompt_tokens": 2203
+    },
+    {
+      "n": 447,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I cannot judge my position relative to the stairs. I need to look up and re-observe before moving or stopping.",
+      "latency_s": 2.31,
+      "prompt_tokens": 2204
+    },
+    {
+      "n": 448,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; ahead there is a dark opening that could be the stairwell. I need to raise the camera to see the stairs and confirm the path before moving.",
+      "latency_s": 2.53,
+      "prompt_tokens": 2205
+    },
+    {
+      "n": 449,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at ceiling beams, so I can't see the floor or stairs. I need to look down to re-orient and check whether I'm at the bottom of the stairs before stopping.",
+      "latency_s": 2.18,
+      "prompt_tokens": 2205
+    },
+    {
+      "n": 450,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The view is pitched down at a dark stairwell opening ahead; I should raise the camera to confirm the stairs before descending.",
+      "latency_s": 3.1,
+      "prompt_tokens": 2206
+    },
+    {
+      "n": 451,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling beams, so I cannot see the floor or the stairs. I need to look down to re-orient and check whether I am at the bottom of the stairs before stopping.",
+      "latency_s": 2.45,
+      "prompt_tokens": 2205
+    },
+    {
+      "n": 452,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The view is aimed at the ceiling; the dark opening ahead appears to be the stairwell down. I need to pitch the camera down to see the stairs and the floor before moving.",
+      "latency_s": 3.59,
+      "prompt_tokens": 2207
+    },
+    {
+      "n": 453,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "My camera is pitched down at the floor, so I cannot judge whether I am at the bottom of the stairs. I need to look up and re-observe before deciding to stop.",
+      "latency_s": 2.42,
+      "prompt_tokens": 2208
+    },
+    {
+      "n": 454,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor with a dark opening ahead, likely the stairwell. I need to look up to re-orient before moving toward the stairs.",
+      "latency_s": 2.92,
+      "prompt_tokens": 2209
+    },
+    {
+      "n": 456,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the floor and locate the stairs before moving.",
+      "latency_s": 2.25,
+      "prompt_tokens": 2209
+    },
+    {
+      "n": 457,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I cannot judge my location relative to the stairs. I need to look up and re-orient before deciding whether I am at the bottom of the stairs.",
+      "latency_s": 2.45,
+      "prompt_tokens": 2210
+    },
+    {
+      "n": 458,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I can see a dark opening ahead that may be the stairwell. I need to look up to re-orient before descending.",
+      "latency_s": 2.57,
+      "prompt_tokens": 2211
+    },
+    {
+      "n": 460,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling beams, so I can't see the floor or the stairs. I need to look down to re-orient and find the stairs on the left before moving.",
+      "latency_s": 2.4,
+      "prompt_tokens": 2211
+    },
+    {
+      "n": 461,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "My camera is pitched down at the floor, so I cannot see the stairs or the balcony. I need to look up to re-orient before deciding whether I am already at the bottom of the stairs.",
+      "latency_s": 2.28,
+      "prompt_tokens": 2212
+    },
+    {
+      "n": 462,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; ahead there is a dark opening that could be the stairwell. I need to look up to re-orient and see where the stairs down on the left are before moving.",
+      "latency_s": 3.11,
+      "prompt_tokens": 2213
+    },
+    {
+      "n": 463,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling, so I can't judge my position. I need to look down to see the floor and locate the stairs before deciding whether I'm at the bottom.",
+      "latency_s": 2.37,
+      "prompt_tokens": 2213
+    },
+    {
+      "n": 464,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at ceiling beams; ahead is a dark opening that may be the stairwell down. I need to look down to see the floor and locate the stairs on the left before moving.",
+      "latency_s": 2.91,
+      "prompt_tokens": 2214
+    },
+    {
+      "n": 465,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "My camera is pitched down at the floor, so I cannot judge where the stairs or the bottom landing are. I need to look up and re-orient before deciding whether I am already at the bottom of the stairs.",
+      "latency_s": 2.5,
+      "prompt_tokens": 2214
+    },
+    {
+      "n": 467,
+      "actions": [
+        "LOOK_UP",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The view shows a dark stairwell opening just ahead past the wooden floor edge, which matches the stairs down from the balcony. I will raise the camera to check alignment, then step forward toward the stair opening.",
+      "latency_s": 5.0,
+      "prompt_tokens": 2215
+    },
+    {
+      "n": 469,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at ceiling beams, so I can't see the floor or stairs. I need to look down to re-orient and find the stairs on the left.",
+      "latency_s": 2.22,
+      "prompt_tokens": 2216
+    },
+    {
+      "n": 470,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I cannot see the stairs or the balcony. I need to look up to re-orient before moving further.",
+      "latency_s": 2.33,
+      "prompt_tokens": 2217
+    },
+    {
+      "n": 471,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The view is disorienting\u2014I appear to be under a low beamed ceiling with a dark opening ahead, possibly the stairwell. I need to raise the camera to re-orient before moving further.",
+      "latency_s": 9.12,
+      "prompt_tokens": 2218
+    },
+    {
+      "n": 473,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling beams, so I can't see the floor or the stairs. I need to look down to re-orient and check whether I'm at the bottom of the stairs before stopping.",
+      "latency_s": 2.25,
+      "prompt_tokens": 2218
+    },
+    {
+      "n": 475,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down showing a dark stairwell opening just ahead. I need to level my view to see the stairs, then descend carefully with only 27 actions left.",
+      "latency_s": 3.46,
+      "prompt_tokens": 2219
+    },
+    {
+      "n": 476,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "My camera is pitched up at the ceiling beams, so I cannot see the path ahead. I need to look down to check whether I have reached the bottom of the stairs before deciding to stop or move.",
+      "latency_s": 2.87,
+      "prompt_tokens": 2220
+    },
+    {
+      "n": 477,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at ceiling beams, so I cannot judge my position relative to the stairs. I need to look down to see the floor and determine whether I am at the bottom of the stairs before stopping.",
+      "latency_s": 2.67,
+      "prompt_tokens": 2221
+    },
+    {
+      "n": 479,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I appear to have descended the stairs. I need to look up to verify I'm at the bottom of the stairs before stopping.",
+      "latency_s": 2.63,
+      "prompt_tokens": 2221
+    },
+    {
+      "n": 480,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling, so I can't see the floor or the stairs. I need to look down to check whether I'm at the bottom of the stairs before stopping.",
+      "latency_s": 2.46,
+      "prompt_tokens": 2222
+    },
+    {
+      "n": 481,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at ceiling beams, so I cannot see the stairs. With only 20 actions left, I must look down to re-orient, then move toward the dark stair opening and stop at the bottom.",
+      "latency_s": 4.03,
+      "prompt_tokens": 2221
+    },
+    {
+      "n": 482,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I cannot see the stairs or the room. I need to look up to re-orient before deciding whether I am at the bottom of the stairs.",
+      "latency_s": 1.88,
+      "prompt_tokens": 2223
+    },
+    {
+      "n": 483,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I need to look up to see whether the dark opening ahead is the stairwell down from the balcony before moving or stopping.",
+      "latency_s": 3.07,
+      "prompt_tokens": 2224
+    },
+    {
+      "n": 484,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the floor and locate the bottom of the stairs before deciding whether to stop or move.",
+      "latency_s": 1.88,
+      "prompt_tokens": 2224
+    },
+    {
+      "n": 485,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at ceiling beams, so I can't judge my position. I need to look down to see whether I'm at the bottom of the stairs before stopping.",
+      "latency_s": 2.51,
+      "prompt_tokens": 2225
+    },
+    {
+      "n": 486,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "I appear to have descended the stairs and am now standing on the wooden floor at the bottom, with the dark stairwell area behind me. I'll look up to confirm my surroundings before stopping here as instructed.",
+      "latency_s": 2.53,
+      "prompt_tokens": 2225
+    },
+    {
+      "n": 487,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I need to look up to see whether the dark opening ahead is the stairwell down. With only 14 actions left, I will re-orient, take at most one careful step toward the dark stair opening, then stop near the bottom of the stairs.",
+      "latency_s": 4.82,
+      "prompt_tokens": 2226
+    },
+    {
+      "n": 488,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at ceiling beams, so I cannot see the floor or the stairs. I need to look down to check whether I am already at the bottom of the stairs before deciding to move or stop.",
+      "latency_s": 2.38,
+      "prompt_tokens": 2226
+    },
+    {
+      "n": 491,
+      "actions": [
+        "LOOK_UP",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The camera is pitched down; I see a dark stairwell opening ahead under wooden beams, which matches the stairs down. I need to look up to re-orient, then advance toward and descend the stairs.",
+      "latency_s": 3.11,
+      "prompt_tokens": 2227
+    },
+    {
+      "n": 493,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at ceiling beams; I need to look down to see the stairwell and floor before moving. With only 9 actions left, I'll re-aim the camera and then decide whether to step forward or stop.",
+      "latency_s": 2.51,
+      "prompt_tokens": 2228
+    },
+    {
+      "n": 498,
+      "actions": [
+        "LOOK_UP",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "STOP"
+      ],
+      "thought": "The camera is pitched down; ahead is a dark stairwell opening with wooden steps, which matches the stairs down near the balcony. I will re-aim level, advance a few steps toward/into the stair descent, and stop at the bottom given the tiny remaining budget.",
+      "latency_s": 4.89,
+      "prompt_tokens": 2229
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    7.142,
+    7.142,
+    7.391,
+    7.64,
+    7.898,
+    8.128,
+    8.199,
+    8.245
+  ],
+  "final_distance": 8.245,
+  "min_distance": 7.142,
+  "metrics": {
+    "distance_to_goal": 8.24502182006836,
+    "success": 0.0,
+    "spl": 0.0,
+    "oracle_success": 0.0,
+    "path_length": 1.1898409277200699,
+    "steps_taken": 498.0
+  },
+  "success": false,
+  "backend_stats": {
+    "calls": 328,
+    "failures": 0,
+    "prompt_tokens": 686948,
+    "completion_tokens": 36581,
+    "reasoning_tokens": 19155,
+    "latency_s": 870.8093087673187
+  },
+  "stop_deferrals": 0
+}

@@ -1,0 +1,696 @@
+{
+  "episode_id": 745,
+  "scene_id": "zsNo4HB9uLZ",
+  "instruction": "Exit the bedroom and take the first right. Stop just past the eye exam chart on the wall.",
+  "actions_taken": 123,
+  "policy_calls": 61,
+  "api_latency_s": 238.45,
+  "prompt_tokens": 118909,
+  "completion_tokens": 12505,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 239.46,
+  "steps": [
+    {
+      "n": 1,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The current view is mostly a blank wall/ceiling, so I need to pitch the camera down to see the bedroom and find the exit before moving.",
+      "latency_s": 1.9,
+      "prompt_tokens": 880
+    },
+    {
+      "n": 2,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling, so I can't see the room. I need to look down to re-orient before navigating out of the bedroom.",
+      "latency_s": 1.66,
+      "prompt_tokens": 1235
+    },
+    {
+      "n": 3,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera appears to be pitched down toward the floor/ceiling junction, so I cannot see the room layout. I need to level the view before navigating out of the bedroom.",
+      "latency_s": 3.06,
+      "prompt_tokens": 1598
+    },
+    {
+      "n": 4,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling, so I can't see the room or the doorway. I need to look down to re-orient before navigating out of the bedroom.",
+      "latency_s": 2.34,
+      "prompt_tokens": 1962
+    },
+    {
+      "n": 5,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is currently pitched down 30 degrees (last action was LOOK_DOWN), showing mostly floor and ceiling. I need to re-center the view before navigating out of the bedroom.",
+      "latency_s": 3.35,
+      "prompt_tokens": 1962
+    },
+    {
+      "n": 6,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down 30 degrees, showing mostly ceiling and the top of a wall, so I cannot yet see the room layout or any doorway. I will first return the camera to level to get a usable view before navigating.",
+      "latency_s": 4.49,
+      "prompt_tokens": 1963
+    },
+    {
+      "n": 8,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling, so I can't see the room. I need to pitch back down to level to re-orient before navigating out of the bedroom.",
+      "latency_s": 2.48,
+      "prompt_tokens": 1963
+    },
+    {
+      "n": 10,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera pitch is skewed downward from the previous look actions, showing mostly floor and ceiling. I need to level the camera before navigating out of the bedroom.",
+      "latency_s": 4.79,
+      "prompt_tokens": 1964
+    },
+    {
+      "n": 12,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is currently pitched up at the ceiling, so I cannot see the room layout. I need to look down to re-orient before navigating.",
+      "latency_s": 1.89,
+      "prompt_tokens": 1965
+    },
+    {
+      "n": 13,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera appears misaligned\u2014I'm seeing mostly ceiling/wall corner and floor, with no clear view of the room or doorway. I need to pitch the camera down to get a usable view before navigating toward the bedroom exit.",
+      "latency_s": 5.14,
+      "prompt_tokens": 1966
+    },
+    {
+      "n": 15,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I have no view of the room. I need to look up to re-orient before navigating toward the bedroom exit.",
+      "latency_s": 2.66,
+      "prompt_tokens": 1966
+    },
+    {
+      "n": 16,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling, so I have lost view of the room. I need to look down to re-orient before navigating out of the bedroom.",
+      "latency_s": 3.03,
+      "prompt_tokens": 1968
+    },
+    {
+      "n": 17,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera appears pitched down\u2014I'm mostly seeing floor and ceiling rather than the room ahead. I need to level the view first before I can locate the bedroom exit and navigate to the hallway.",
+      "latency_s": 3.37,
+      "prompt_tokens": 1968
+    },
+    {
+      "n": 19,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up toward the ceiling, so I can't see the room. I need to look down to re-orient before navigating.",
+      "latency_s": 2.19,
+      "prompt_tokens": 1969
+    },
+    {
+      "n": 20,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is currently pitched down at the floor, so I have no view of the room or doorway. I need to look up to re-orient before navigating out of the bedroom.",
+      "latency_s": 2.78,
+      "prompt_tokens": 1970
+    },
+    {
+      "n": 21,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera pitch is currently aimed at the ceiling/floor boundary, so I cannot see the room layout. I need to level the view before navigating out of the bedroom.",
+      "latency_s": 3.0,
+      "prompt_tokens": 1970
+    },
+    {
+      "n": 22,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is currently pitched up toward the ceiling, so I cannot see the room layout or the doorway. I need to pitch back down to a level view before navigating.",
+      "latency_s": 3.23,
+      "prompt_tokens": 1971
+    },
+    {
+      "n": 23,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera appears tilted, showing mostly ceiling and floor with no usable view of the room. I need to level the camera pitch before I can navigate toward the bedroom exit.",
+      "latency_s": 3.8,
+      "prompt_tokens": 1972
+    },
+    {
+      "n": 25,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I have no view of the room. I need to look up to re-orient before navigating.",
+      "latency_s": 2.27,
+      "prompt_tokens": 1972
+    },
+    {
+      "n": 26,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "My view is currently aimed at the ceiling, so I cannot see the room or the doorway. I need to pitch the camera back down to a level view to locate the exit and the eye exam chart.",
+      "latency_s": 4.15,
+      "prompt_tokens": 1973
+    },
+    {
+      "n": 27,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera appears pitched down at the floor, so I first need to level my view to see the room and find the exit from the bedroom.",
+      "latency_s": 3.89,
+      "prompt_tokens": 1974
+    },
+    {
+      "n": 28,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up toward the ceiling, so I cannot see the hallway or the eye chart. I need to level the camera first before navigating.",
+      "latency_s": 3.29,
+      "prompt_tokens": 1975
+    },
+    {
+      "n": 32,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "The view is disoriented\u2014I appear to be facing very close to a wall corner with the floor filling the lower frame, so I've likely lost my bearings after exiting the bedroom. I need to rotate and re-scan the room to find the hallway before I can take the first right.",
+      "latency_s": 6.14,
+      "prompt_tokens": 1975
+    },
+    {
+      "n": 33,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera appears pitched down, showing mostly floor and a wall corner with a doorway to a tiled area ahead. I need to look up to re-orient before proceeding through the doorway.",
+      "latency_s": 2.73,
+      "prompt_tokens": 1977
+    },
+    {
+      "n": 35,
+      "actions": [
+        "LOOK_DOWN",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I appear to be at the bedroom doorway looking out into a hallway with tile flooring. The camera is pitched up, so I'll level it first, then move forward through the doorway to exit the bedroom before looking for the first right turn.",
+      "latency_s": 2.71,
+      "prompt_tokens": 1978
+    },
+    {
+      "n": 37,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to be right at the bedroom doorway, but the camera is aimed at the wall edge. I need to turn right to face the hallway with the tile floor, then proceed to find the eye exam chart.",
+      "latency_s": 3.39,
+      "prompt_tokens": 1979
+    },
+    {
+      "n": 38,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor near a doorway; I can see tile flooring beyond the door. I need to look up to see the hallway and find the eye exam chart before proceeding.",
+      "latency_s": 2.38,
+      "prompt_tokens": 1980
+    },
+    {
+      "n": 41,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've exited the bedroom and am now in a hallway. Ahead on the far wall I can see what appears to be an eye exam chart (rows of black circles). I need to proceed down the hallway toward it and stop just past it.",
+      "latency_s": 5.4,
+      "prompt_tokens": 1981
+    },
+    {
+      "n": 43,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hallway with a doorway ahead; the eye exam chart (black circles) is visible on the wall near that far doorway. I need to walk forward and take the first right, then stop just past the chart. I'll advance a step and re-observe to find the right turn.",
+      "latency_s": 4.24,
+      "prompt_tokens": 1982
+    },
+    {
+      "n": 46,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've exited the bedroom onto the hallway tile. I need to find the first right turn and the eye exam chart; the dark circles on the white wall ahead may be it, so I'll advance and inspect.",
+      "latency_s": 4.3,
+      "prompt_tokens": 1983
+    },
+    {
+      "n": 49,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hallway after exiting the bedroom. Ahead there's a corridor and an opening to the right (kitchen area). I need to walk forward and take the first right, then look for the eye exam chart on the wall.",
+      "latency_s": 3.9,
+      "prompt_tokens": 1982
+    },
+    {
+      "n": 51,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in an open hallway area with a corridor ahead and a kitchen to the right. The eye exam chart should be on a wall after taking the first right; I'll turn right to inspect the kitchen-side wall for the chart.",
+      "latency_s": 4.25,
+      "prompt_tokens": 1984
+    },
+    {
+      "n": 54,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've turned right and can see a framed chart (likely the eye exam chart) on the right wall ahead. I need to walk forward past it, then stop just beyond it.",
+      "latency_s": 2.86,
+      "prompt_tokens": 1985
+    },
+    {
+      "n": 56,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I saw a dark framed chart on the right wall in an earlier frame, which is likely the eye exam chart. I need to turn right to face that wall and approach it, stopping just past it.",
+      "latency_s": 3.24,
+      "prompt_tokens": 1986
+    },
+    {
+      "n": 57,
+      "actions": [
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the eye exam chart (dark framed board) on the wall at the corner where the hallway opens to the right. I need to advance toward it and stop just past it, so I'll take a step forward and re-observe to judge the remaining distance.",
+      "latency_s": 4.96,
+      "prompt_tokens": 1987
+    },
+    {
+      "n": 60,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see a dark framed chart on the wall at the corner ahead, which matches the eye exam chart. I need to walk forward past it and stop just beyond it.",
+      "latency_s": 3.08,
+      "prompt_tokens": 1988
+    },
+    {
+      "n": 62,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "A dark framed chart is visible on the wall ahead near the doorway; I need to walk toward it and stop just past it. I'll advance a step and re-observe to gauge distance.",
+      "latency_s": 3.99,
+      "prompt_tokens": 1988
+    },
+    {
+      "n": 64,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm pressed close against a wall corner with the kitchen on my left; the hallway continues to the right. I need to turn right to face down the hallway and look for the eye exam chart on the wall.",
+      "latency_s": 3.11,
+      "prompt_tokens": 1988
+    },
+    {
+      "n": 66,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hallway after taking the right turn; the eye exam chart isn't visible yet. I'll advance down the hallway toward the wall ahead, where the chart likely hangs, and re-observe.",
+      "latency_s": 3.69,
+      "prompt_tokens": 1989
+    },
+    {
+      "n": 67,
+      "actions": [
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a hallway after taking the right turn; ahead there's a white wall with an opening to a living area on the left. I haven't seen the eye exam chart yet, so I should scan the walls to my right and ahead before proceeding.",
+      "latency_s": 3.96,
+      "prompt_tokens": 1990
+    },
+    {
+      "n": 70,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've exited the bedroom into a hallway with a wall straight ahead and an opening on the right. The first right should be that opening; I'll advance toward it, turn right, and look for the eye exam chart on the wall.",
+      "latency_s": 3.32,
+      "prompt_tokens": 1991
+    },
+    {
+      "n": 72,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a bright hallway after exiting the bedroom. I haven't seen the eye exam chart yet; the corridor continues forward with a window on the right. I'll advance along the hallway and re-observe to find the first right turn and the chart.",
+      "latency_s": 3.89,
+      "prompt_tokens": 1992
+    },
+    {
+      "n": 76,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a hallway after exiting the bedroom; there's an opening to the right ahead. I need to take the first right and look for the eye exam chart on the wall, so I'll turn right and scan for it.",
+      "latency_s": 2.76,
+      "prompt_tokens": 1994
+    },
+    {
+      "n": 79,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hallway with a framed picture on the left wall that could be the eye exam chart. I need to move forward past it and verify, then stop just beyond it.",
+      "latency_s": 4.86,
+      "prompt_tokens": 1996
+    },
+    {
+      "n": 82,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in a hallway facing a door at the far end, with a dark framed item on the left wall that could be the eye exam chart. I should approach and inspect it to confirm before stopping just past it.",
+      "latency_s": 3.82,
+      "prompt_tokens": 1997
+    },
+    {
+      "n": 83,
+      "actions": [
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a hallway with a wall corner directly ahead blocking the right side. The eye exam chart is likely on the wall around that corner after taking the right turn, so I'll turn right to inspect it before moving.",
+      "latency_s": 3.43,
+      "prompt_tokens": 1998
+    },
+    {
+      "n": 85,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a hallway with a wall corner on my right blocking the view. The 'first right' is likely just around this corner, and the eye exam chart may be on that wall. I'll turn right to inspect before moving.",
+      "latency_s": 3.11,
+      "prompt_tokens": 1999
+    },
+    {
+      "n": 91,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I am facing a blank wall at close range, with the hallway and console table visible to my left. I need to rotate left to re-enter the hallway and look for the eye exam chart on the wall.",
+      "latency_s": 4.03,
+      "prompt_tokens": 2000
+    },
+    {
+      "n": 94,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hallway facing a wall corner with a TV on the right wall; the corridor continues to the right. I need to proceed down the hallway to find the eye exam chart on the wall, so I'll turn right and advance while watching for the chart.",
+      "latency_s": 4.99,
+      "prompt_tokens": 2002
+    },
+    {
+      "n": 95,
+      "actions": [
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in a hallway with a TV on the wall ahead and a doorway on the right. The eye exam chart isn't visible yet, so I should scan the walls before proceeding; it may be on the wall to my left or further down the hall past the right turn.",
+      "latency_s": 3.48,
+      "prompt_tokens": 2004
+    },
+    {
+      "n": 98,
+      "actions": [
+        "LOOK_UP",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a hallway with a TV on the right wall; the eye exam chart should be further along this hallway. I'll look up to survey the corridor and then proceed along it.",
+      "latency_s": 3.51,
+      "prompt_tokens": 2005
+    },
+    {
+      "n": 102,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a hallway facing the front door, but I don't see an eye exam chart on the walls ahead. I should turn right to scan the rest of the hallway for the chart before deciding where to stop.",
+      "latency_s": 3.17,
+      "prompt_tokens": 2007
+    },
+    {
+      "n": 104,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in the hallway past the first right, facing a wall with framed pictures that likely include the eye exam chart. I need to turn toward the wall to identify the chart, then position myself just past it before stopping.",
+      "latency_s": 5.12,
+      "prompt_tokens": 2009
+    },
+    {
+      "n": 107,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I've turned too far and am now facing a blank wall corner right next to the console table. I need to turn left to look back down the hallway and locate the eye exam chart on the wall before deciding where to stop.",
+      "latency_s": 3.34,
+      "prompt_tokens": 2010
+    },
+    {
+      "n": 110,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the entry hallway facing the front door, with a console table and framed pictures on the right wall. I don't see an eye exam chart yet, so I'll advance down the hallway and scan the walls for it before stopping.",
+      "latency_s": 5.54,
+      "prompt_tokens": 2011
+    },
+    {
+      "n": 111,
+      "actions": [
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in the hallway near the front door, facing a console table with framed pictures on the right wall. I haven't identified the eye exam chart yet, so I should turn right to inspect the wall art closely before deciding where to stop.",
+      "latency_s": 5.78,
+      "prompt_tokens": 2012
+    },
+    {
+      "n": 113,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in an entry hallway facing the front door with a console table and artwork on the right wall, but I don't see the eye exam chart yet. I'll turn left to scan the rest of the hallway for the chart before stopping.",
+      "latency_s": 6.51,
+      "prompt_tokens": 2013
+    },
+    {
+      "n": 115,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the entry hallway facing the front door, with a large framed chart (likely the eye exam chart) on the right wall right beside me. I need to move slightly forward to be 'just past' it, then stop.",
+      "latency_s": 5.82,
+      "prompt_tokens": 2014
+    },
+    {
+      "n": 118,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in the hallway facing the front door, with a framed picture on the left wall that could be the eye exam chart. I need to approach it and confirm it's the chart, then stop just past it.",
+      "latency_s": 14.92,
+      "prompt_tokens": 2015
+    },
+    {
+      "n": 120,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the entry hallway facing the front door, and the framed eye exam chart is visible on the left wall just ahead. I need to advance slightly past it and stop there.",
+      "latency_s": 6.39,
+      "prompt_tokens": 2016
+    },
+    {
+      "n": 123,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "STOP"
+      ],
+      "thought": "I'm in the entry hallway facing the front door, and the framed eye exam chart is visible on the left wall right beside me. I need to move slightly forward to be 'just past' it, then stop.",
+      "latency_s": 3.57,
+      "prompt_tokens": 2016
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    6.388,
+    6.388,
+    6.192,
+    5.946,
+    5.702,
+    5.458,
+    5.217,
+    4.978,
+    4.744,
+    4.516,
+    4.3,
+    4.107,
+    3.946,
+    3.823,
+    3.636,
+    3.481,
+    3.339,
+    3.118,
+    2.903,
+    2.693,
+    2.491,
+    2.298,
+    2.119,
+    1.881,
+    1.634,
+    1.384,
+    1.134,
+    0.892,
+    0.657,
+    0.673,
+    0.775,
+    0.78,
+    0.758,
+    0.736,
+    0.756,
+    0.852,
+    1.102,
+    1.352,
+    1.602,
+    1.845,
+    1.951,
+    1.948,
+    1.946,
+    1.941,
+    2.174,
+    2.411,
+    2.65
+  ],
+  "final_distance": 2.65,
+  "min_distance": 0.657,
+  "metrics": {
+    "distance_to_goal": 2.6498756408691406,
+    "success": 1.0,
+    "spl": 0.648615562501396,
+    "oracle_success": 1.0,
+    "path_length": 9.848646253347397,
+    "steps_taken": 123.0
+  },
+  "success": true,
+  "backend_stats": {
+    "calls": 61,
+    "failures": 0,
+    "prompt_tokens": 118909,
+    "completion_tokens": 12505,
+    "reasoning_tokens": 8884,
+    "latency_s": 238.46196365356445
+  },
+  "stop_deferrals": 0
+}

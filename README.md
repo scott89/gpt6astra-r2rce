@@ -34,6 +34,7 @@ zsvln/backend.py              ChatBackend — the single model-swap point (OpenA
 zsvln/policy.py               prompt assembly, JSON parsing, optional safety guardrails
 zsvln/runner.py               habitat env construction, per-episode loop, metric aggregation
 scripts/run_eval.py           CLI: episodes, ordering, sharding, resume, report-only
+scripts/paired_compare.py     per-episode A/B of two run dirs (sign test + paired bootstrap)
 scripts/make_subset.py        builds the stratified 100-episode subset (subset/r2rce100.json)
 scripts/selfcheck.py          20 offline checks: parsing, budget truncation, prompt shape
 runs/                         committed result traces (per-episode JSON + stats.json per run)
@@ -88,7 +89,8 @@ Flags that matter most:
 | flag | meaning |
 |---|---|
 | `--model`, `--base-url`, `--api-key-env` | any OpenAI-compatible endpoint; defaults to Volcengine Ark `glm-5.3-flash` |
-| `--reasoning-effort {minimal,low,medium,high,none}` | thinking budget. Ark rejects `enable_thinking:false` and `thinking:{type:"disabled"}`; this is the knob that works |
+| `--reasoning-effort {minimal,low,medium,high,none}` | thinking budget. Ark rejects `enable_thinking:false` and `thinking:{type:"disabled"}`, so this is the only working knob |
+| `--max-tokens N` | completion budget (default 512). Reasoning tokens are billed against it — `medium`/`high` need ≥2048 or the reply comes back empty with `finish_reason=length` |
 | `--history-frames N` | RGB frames attached per decision (default 4) |
 | `--max-program N` | longest accepted action program per decision (default 8) |
 | `--shard I/N`, `--only ids`, `--report-only` | fan-out / restrict / re-aggregate a run directory |
@@ -105,10 +107,14 @@ at 5-way (GPU headroom was never the constraint: ~270 MiB VRAM per simulator).
 | | SR | OS | NE | SPL |
 |---|---|---|---|---|
 | **glm-5.3-flash (this repo)** | **27.0%** | 35.0% | 7.41 m | **22.0%** |
+| same, `reasoning_effort=medium`† | 34.7% | 39.8% | 6.84 m | 29.5% |
 | GPT-6-Astra (ultra), paper | 81.3% | — | — | 71.5% |
 | GPT-6-Astra (medium), paper | 75.7% | — | — | 65.6% |
 | SmartWay (trained), quoted in paper | 29% | 51% (oracle) | — | 22.46% |
 | Open-Nav / Llama-3.1, quoted in paper | 16% | — | — | 12.90% |
+
+† `runs/glm-med100/`, 98 of the same 100 episodes (two lost, see [Known issues](#known-issues));
+paired per episode against the row above, not resampled.
 
 SR's 95 % bootstrap CI is [19 %, 36 %]. Per-scene SR ranges 10 %–50 % (`8194nk5LbLH` best,
 `EU6Fwq7SyZv`/`QUCTc6BB5sX`/`oLBMNvg9in8` worst at 10 %).
@@ -119,11 +125,33 @@ Structure of the failures:
 - Bimodal effort: 61 episodes finish in ≤120 actions (SR 30 %), 28 burn >300 actions (SR 14 %).
 - 15 of the 73 failures are 3–5 m short of the gate.
 
+### Reasoning effort, measured (paired, n=98)
+
+`scripts/paired_compare.py runs/glm-full runs/glm-med100` — same episodes, one variable:
+
+| metric | minimal | medium | delta | 95 % CI of paired delta |
+|---|---|---|---|---|
+| SR | 27.6 % | 34.7 % | **+7.1 pp** | [−3.1, +17.3], flips 17:10, exact p = 0.248 |
+| OS | 35.7 % | 39.8 % | +4.1 pp | [−7.1, +15.3] |
+| SPL | 22.5 % | 29.5 % | +7.0 pp | [−1.2, +15.3] |
+| NE | 7.46 m | 6.84 m | −0.62 m | [−2.12, +0.80] |
+| API latency / episode | 121 s | 224 s | **+104 s** | [+68, +140] — the only significant term |
+
+Every metric leans medium (and >300-action thrash falls 28 → 21, near-misses 3–5 m fall 14 → 11),
+but the paired sign test cannot separate +7 pp from noise at this n. The cost side is unambiguous:
+completion tokens 0.44 M → 1.14 M with reasoning 146 k → 760 k (5.2×), API time 3.32 → 6.11
+process-hours, wall clock 65 → 140 min — while the *prompt* bill barely moves (10.88 M → 11.44 M).
+
+The usable ladder on this endpoint, measured on a text probe: `minimal` = `low` < `medium` <
+`high`, and omitting the parameter (or any unknown value — the endpoint does not validate it)
+selects the *heaviest* thinking mode. `--reasoning-effort none` therefore does not disable
+thinking; it enables the default maximum and truncates the reply at `--max-tokens 512`.
+
 ### Why 27 % ≠ 81.3 % is not a clean model comparison
 
-1. `reasoning_effort=minimal`. The paper's headline row is its *ultra* reasoning setting. Deep
-   thinking was disabled here because reasoning tokens are billed against `max_tokens` on Ark and
-   emptied the completion window (`content=""`, `finish_reason=length`).
+1. `reasoning_effort=minimal`. The paper's headline row is its *ultra* reasoning setting. Raising
+   it recovers about 7 pp SR (above), so the setting matters but does not bridge the gap; deeper
+   modes also need `--max-tokens` ≥ 2048 or the completion window fills with thinking.
 2. The 100 tasks are a locally built stratified sample (10 largest `val_unseen` scenes × 10 evenly
    strided episodes), not the paper's undisclosed fixed 100-task list.
 3. Memory is the last 4 RGB frames plus a compacted action trace; the paper's agent carries an
@@ -161,13 +189,28 @@ counts, termination reason) are committed, so the aggregates above can be recomp
 re-running anything:
 
 ```bash
-python scripts/run_eval.py --report-only --tag glm-full
+python scripts/run_eval.py --report-only --tag glm-full            # rebuild one run's stats.json
+python scripts/paired_compare.py runs/glm-full runs/glm-med100     # per-episode A/B + significance
 ```
 
 ## Known issues
 
-- `record["backend_stats"]` in older run directories is a *shard-cumulative* snapshot, not
-  per-episode; summing it over-attributes cost. The episode-level `prompt_tokens` /
-  `api_latency_s` fields and `stats.json` were always correct.
+- **Two episodes are missing from `runs/glm-med100/` (601, 1687), so that run is n=98.** Two
+  independent causes, both now fixed or worked around:
+  1. `--resume` used to drop completed episodes *before* `--shard` sliced the list, and all shards
+     share one `episodes/` directory. Each worker therefore filtered a differently-sized global
+     list, its slice shifted, one episode got queued twice and another fell out of every slice.
+     Fixed by slicing first and filtering after; 5-way now partitions the 100 exactly once.
+  2. With `reasoning_effort=medium`, two decisions produced 8.5 k / 9.4 k characters of thinking
+     that exhausted `--max-tokens 2048`, returning `content=""` / `finish_reason=length`; after 6
+     retries the episode is dropped and the sweep continues. Recover with
+     `--only 601,1687 --max-tokens 4096 --resume`.
+  Both episodes failed under `minimal` (NE 3.66 m / 6.69 m), so counting them as failures would move
+  medium's SR 34.7 % → 34.0 % — immaterial to the comparison above.
+- `record["backend_stats"]` in run directories created before the fix (`glm-full` and earlier) is a
+  *shard-cumulative* snapshot, not per-episode; summing it over-attributes cost by roughly 10×.
+  The episode-level `prompt_tokens` / `api_latency_s` fields and `stats.json` were always correct.
+  `runs/glm-med100/` onward carries true per-episode values.
 - Simulator processes share one GPU by design; VRAM scales with the scene's GLB, not with the
-  policy, so concurrency is limited by endpoint rate limits rather than the card.
+  policy, so concurrency is limited by endpoint rate limits rather than the card (~270 MiB per sim,
+  5-way ≈ 3.1 GiB of 32 GiB).

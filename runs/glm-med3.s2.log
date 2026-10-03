@@ -1,0 +1,76 @@
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+Users of this version of Gym should be able to simply replace 'import gym' with 'import gymnasium as gym' in the vast majority of cases.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+2026-10-03 20:22:59,092 Initializing dataset VLN-CE-v1
+2026-10-03 20:22:59,262 initializing sim Sim-v1
+2026-10-03 20:23:03,451 Initializing task VLN-v0
+run=glm-med3 policy=vlm pending=1 budget=500 actions/ep time_limit=2400.0s rgb=512x512
+scenes covered: 1/10 -> EU6Fwq7SyZv
+[1/1] ep=127 scene=EU6Fwq7SyZv acts=42 calls=13 term=stop dist=2.66 success=1 os=1 spl=1.000 (119s)
+
+=== this run ===
+{
+  "num_episodes": 1,
+  "success": 1.0,
+  "oracle_success": 1.0,
+  "distance_to_goal": 2.6611,
+  "spl": 1.0,
+  "path_length": 3.5816,
+  "steps_taken": 42.0,
+  "termination": {
+    "stop": 1
+  },
+  "mean_actions_per_episode": 42.0,
+  "mean_policy_calls_per_episode": 13.0,
+  "episodes_with_unparsable_reply": 0,
+  "mean_stop_deferrals": 0.0,
+  "api_latency_s_total": 118.1,
+  "prompt_tokens_total": 23836,
+  "completion_tokens_total": 7083,
+  "tag": "glm-med3",
+  "policy": "vlm",
+  "model": "glm-5.3-flash",
+  "reasoning_effort": "medium",
+  "guardrails": {
+    "max_consecutive_forward": 0,
+    "stop_verification": false,
+    "history_frames": 4,
+    "max_program": 8
+  },
+  "max_actions": 500,
+  "time_limit_s": 2400.0,
+  "subset_file": "subset/r2rce100.json",
+  "episodes_run": [
+    127
+  ],
+  "backend": {
+    "calls": 13,
+    "failures": 0,
+    "prompt_tokens": 23836,
+    "completion_tokens": 7083,
+    "reasoning_tokens": 6158,
+    "latency_s": 118.12609457969666
+  },
+  "cumulative": {
+    "num_episodes": 2,
+    "success": 1.0,
+    "oracle_success": 1.0,
+    "distance_to_goal": 2.637,
+    "spl": 1.0,
+    "path_length": 4.0408,
+    "steps_taken": 30.5,
+    "termination": {
+      "stop": 2
+    },
+    "mean_actions_per_episode": 30.5,
+    "mean_policy_calls_per_episode": 9.5,
+    "episodes_with_unparsable_reply": 0,
+    "mean_stop_deferrals": 0.0,
+    "api_latency_s_total": 136.7,
+    "prompt_tokens_total": 33508,
+    "completion_tokens_total": 8066
+  }
+}
+
+wrote 1 episode records to runs/glm-med3/

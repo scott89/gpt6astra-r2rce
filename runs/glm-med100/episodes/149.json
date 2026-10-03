@@ -1,0 +1,356 @@
+{
+  "episode_id": 149,
+  "scene_id": "QUCTc6BB5sX",
+  "instruction": "TURN RIGHT TO FACE THE END OF THE BED AND WALK TOWARDS THE CHAIR, TURN RIGHT AND WALK TOWARDS THE OPEN DOOR AND THE HALLWAY, WALK ACROSS THE HALLWAY AND TO THE NEXT OPEN DOORWAY, WALK THROUGH THE DOOR AND INTO THE CLOSET.",
+  "actions_taken": 69,
+  "policy_calls": 25,
+  "api_latency_s": 133.05,
+  "prompt_tokens": 48295,
+  "completion_tokens": 7320,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 133.5,
+  "steps": [
+    {
+      "n": 4,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm currently facing a wall with a dresser. The instruction says to turn right to face the end of the bed, so I'll rotate right to get my bearings on the room.",
+      "latency_s": 2.08,
+      "prompt_tokens": 927
+    },
+    {
+      "n": 6,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "After turning right 60\u00b0, I'm facing a wall with framed pictures and a curtain \u2014 not the end of a bed. I need to keep turning right to find the bed and the chair.",
+      "latency_s": 2.2,
+      "prompt_tokens": 1283
+    },
+    {
+      "n": 9,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "After six right turns I'm facing a wall with framed pictures and a curtained window, not the end of the bed described in the instruction. I need to keep scanning right to find the bed and the chair.",
+      "latency_s": 2.87,
+      "prompt_tokens": 1647
+    },
+    {
+      "n": 10,
+      "actions": [
+        "MOVE_FORWARD"
+      ],
+      "thought": "After turning right, I now see the chaise lounge (bed) with orange pillows ahead and an open door on the right leading to a hallway. Per the instruction, I should first walk toward the chair/end of the bed, so I'll take one forward step and re-observe.",
+      "latency_s": 5.15,
+      "prompt_tokens": 2012
+    },
+    {
+      "n": 12,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I have turned right and now see the daybed with orange pillows ahead-right, with an open doorway beyond it. Per the instruction, I should walk toward the chair/end of the bed first, then turn right toward the open door. I'll advance toward the daybed and re-observe.",
+      "latency_s": 10.74,
+      "prompt_tokens": 2012
+    },
+    {
+      "n": 16,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I have turned right and advanced; now the chaise lounge (the chair/bed end) is on my right with the open door beyond it. I need to turn right to align with the chaise and open door, then walk toward them.",
+      "latency_s": 5.56,
+      "prompt_tokens": 2013
+    },
+    {
+      "n": 19,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I have turned and now face the chaise with the open double door ahead. The instruction says to walk toward the chair, then turn right toward the open door; the door is roughly ahead of me, so I will advance toward it and re-observe.",
+      "latency_s": 5.08,
+      "prompt_tokens": 2015
+    },
+    {
+      "n": 22,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing the end of the chaise with a dark-framed door ahead, which matches the 'open door and hallway' part of the instruction. I'll advance toward it, then reassess before crossing the threshold.",
+      "latency_s": 7.31,
+      "prompt_tokens": 2016
+    },
+    {
+      "n": 23,
+      "actions": [
+        "MOVE_FORWARD"
+      ],
+      "thought": "I have walked toward the chair and turned right; the glass double doors (leading to the closet area) are now nearly centered ahead, a few meters away. I will advance one step and re-observe to align before entering.",
+      "latency_s": 14.78,
+      "prompt_tokens": 2015
+    },
+    {
+      "n": 26,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I have walked toward the chair and turned right; ahead of me are the glass double doors leading to the next room (the closet area with shelves visible through the glass). I should continue advancing toward these doors, checking alignment as I go.",
+      "latency_s": 10.65,
+      "prompt_tokens": 2016
+    },
+    {
+      "n": 28,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I have walked toward the end of the bed and now face a set of glass double doors straight ahead, which appear to be the closet doors mentioned in the instruction. I should advance toward them, checking alignment as I go.",
+      "latency_s": 7.49,
+      "prompt_tokens": 2016
+    },
+    {
+      "n": 32,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I have crossed the hallway and now face the glass double doors of the closet, which sit slightly to the right of my current heading. I will align with the doorway, step through, and then stop inside the closet.",
+      "latency_s": 6.35,
+      "prompt_tokens": 2016
+    },
+    {
+      "n": 34,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm currently facing closed glass double doors with the bed in the foreground, but the instruction directs me toward the open door and hallway after passing the chair, which is visible on the right side of my view. I should turn right to re-aim toward the chair and look for the open doorway there instead of walking into these closed glass doors.",
+      "latency_s": 9.68,
+      "prompt_tokens": 2018
+    },
+    {
+      "n": 37,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the bedroom facing the glass doors; the chair (dark furniture) is ahead and the arched open doorway to the hallway is on the right. I'll walk toward the chair first, then turn right toward the archway.",
+      "latency_s": 5.14,
+      "prompt_tokens": 2019
+    },
+    {
+      "n": 40,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I have turned right and now face the TV stand with the arched hallway opening ahead. I need to walk toward that open doorway and cross into the hallway, so I will advance forward and re-observe.",
+      "latency_s": 4.53,
+      "prompt_tokens": 2020
+    },
+    {
+      "n": 43,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm currently facing a TV/dresser near curtained windows, with an arched opening to a hallway on my right. The instruction says to turn right to face the end of the bed and walk toward a chair, so I'll rotate right to bring the bed and chair into view before moving.",
+      "latency_s": 5.6,
+      "prompt_tokens": 2020
+    },
+    {
+      "n": 47,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing the arched opening into the hallway, and through it I can see the open wooden door with clothes visible inside \u2014 that's the closet doorway. I'll advance through the arch toward it, then re-observe to align before entering.",
+      "latency_s": 3.36,
+      "prompt_tokens": 2022
+    },
+    {
+      "n": 50,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the open arched doorway ahead with clothes hanging inside\u2014the closet mentioned in the instruction. I'm at the hallway edge, so I'll advance toward the open door and re-observe before entering.",
+      "latency_s": 3.29,
+      "prompt_tokens": 2023
+    },
+    {
+      "n": 53,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the open arched doorway with clothes hanging inside, which is the closet the instruction points to. I'm roughly aligned with it, so I'll advance a few steps and re-observe before entering.",
+      "latency_s": 2.84,
+      "prompt_tokens": 2023
+    },
+    {
+      "n": 56,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the hallway facing the open arched door that leads into the closet, which matches the final part of the instruction. The doorway is roughly centered in my view, so I'll advance toward it and re-observe before entering.",
+      "latency_s": 2.96,
+      "prompt_tokens": 2024
+    },
+    {
+      "n": 60,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the hallway facing the open arched doorway that leads into the closet, which is the final destination. The opening is slightly left of center, so I'll align with a small left turn and then advance through the door.",
+      "latency_s": 2.81,
+      "prompt_tokens": 2025
+    },
+    {
+      "n": 63,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've reached the closet doorway; the open passage into the closet is just to the right of the closed door in front of me. I'll turn right slightly to align with the opening, then step through into the closet.",
+      "latency_s": 3.0,
+      "prompt_tokens": 2026
+    },
+    {
+      "n": 65,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm right at the arched doorway with the closet visible through the open door. The opening is slightly to the right of my current heading, so I'll turn right a bit and step forward into the closet.",
+      "latency_s": 3.98,
+      "prompt_tokens": 2028
+    },
+    {
+      "n": 68,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the open doorway leading into the closet with hanging clothes visible through it. The doorway is slightly left of my current heading, so I'll turn left a bit and then move forward through it.",
+      "latency_s": 2.28,
+      "prompt_tokens": 2029
+    },
+    {
+      "n": 69,
+      "actions": [
+        "STOP"
+      ],
+      "thought": "I have walked through the open doorway and am now inside the closet, with shelves and hanging clothes visible around me. The instruction's final destination is reached, so I will stop here.",
+      "latency_s": 3.32,
+      "prompt_tokens": 2030
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    8.755,
+    8.755,
+    8.56,
+    8.387,
+    8.254,
+    8.128,
+    8.024,
+    7.823,
+    7.676,
+    7.597,
+    7.548,
+    7.506,
+    7.485,
+    7.475,
+    7.466,
+    7.456,
+    7.446,
+    7.437,
+    7.427,
+    7.352,
+    7.277,
+    7.202,
+    7.202,
+    6.967,
+    6.771,
+    6.58,
+    6.393,
+    6.211,
+    6.034,
+    5.784,
+    5.534,
+    5.284,
+    5.034,
+    4.784,
+    4.534,
+    4.284,
+    4.034,
+    3.785,
+    3.535,
+    3.285,
+    3.035,
+    2.785,
+    2.549,
+    2.318,
+    2.094,
+    1.844,
+    1.608,
+    1.36,
+    1.119
+  ],
+  "final_distance": 1.119,
+  "min_distance": 1.119,
+  "metrics": {
+    "distance_to_goal": 1.119193196296692,
+    "success": 1.0,
+    "spl": 0.9494713834663059,
+    "oracle_success": 1.0,
+    "path_length": 9.220869243144989,
+    "steps_taken": 69.0
+  },
+  "success": true,
+  "backend_stats": {
+    "calls": 25,
+    "failures": 0,
+    "prompt_tokens": 48295,
+    "completion_tokens": 7320,
+    "reasoning_tokens": 5637,
+    "latency_s": 133.04043579101562
+  },
+  "stop_deferrals": 0
+}

@@ -1,0 +1,395 @@
+{
+  "episode_id": 1278,
+  "scene_id": "TbHJrupSAjP",
+  "instruction": "Exit the room. Go forward and enter the room with a dog statue on the floor. Turn left and exit the room. Go forward till the rail of the stair. Enter the room on the left and stop. Wait there.",
+  "actions_taken": 69,
+  "policy_calls": 31,
+  "api_latency_s": 181.86,
+  "prompt_tokens": 59721,
+  "completion_tokens": 10825,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 182.56,
+  "steps": [
+    {
+      "n": 6,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm currently facing a wall with wire shelves and baskets, so I need to turn around to find the room's exit. I'll rotate left to scan the space.",
+      "latency_s": 2.07,
+      "prompt_tokens": 906
+    },
+    {
+      "n": 8,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I appear to be in a closet facing an open doorway into a hallway with a bedroom beyond. The instruction says to exit the room and go forward, so I will step through the doorway ahead, which looks aligned with my heading.",
+      "latency_s": 2.74,
+      "prompt_tokens": 1262
+    },
+    {
+      "n": 10,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I have turned to face down the hallway toward the bedroom ahead. The instruction says to go forward and enter the room with the dog statue; I should continue advancing through this hallway toward the visible doorway, re-observing as I go.",
+      "latency_s": 3.65,
+      "prompt_tokens": 1626
+    },
+    {
+      "n": 13,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a narrow hallway facing a bedroom doorway, and I can see a white dog statue on the floor just inside that room ahead. I'll move forward toward it.",
+      "latency_s": 2.45,
+      "prompt_tokens": 1989
+    },
+    {
+      "n": 15,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the doorway of a bedroom, and I can see a white dog statue on the floor just inside the room to the right of the doorway. This matches the instruction's target room, so I'll step forward through the doorway.",
+      "latency_s": 3.35,
+      "prompt_tokens": 1990
+    },
+    {
+      "n": 17,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the doorway of the bedroom that contains the white dog statue on the floor, so this is the room the instruction says to enter. I'll step forward through the doorway.",
+      "latency_s": 2.44,
+      "prompt_tokens": 1990
+    },
+    {
+      "n": 19,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the doorway of the bedroom that contains the dog statue on the floor, so I need to enter it. I'll advance a couple of steps through the doorway, then re-observe to find the exit on the left.",
+      "latency_s": 3.68,
+      "prompt_tokens": 1991
+    },
+    {
+      "n": 21,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the doorway of the bedroom containing the dog statue (visible on the floor in earlier frames). I need to enter this room, so I'll move forward through the doorway and then re-observe to find the left exit.",
+      "latency_s": 2.58,
+      "prompt_tokens": 1991
+    },
+    {
+      "n": 25,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I've entered the bedroom with the dog statue (seen in the first frame). Per the instruction, I now need to turn left and exit this room, so I'll rotate left to locate the doorway.",
+      "latency_s": 3.25,
+      "prompt_tokens": 1991
+    },
+    {
+      "n": 28,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a bedroom after moving forward and turning left. The doorway on the left leads out of this room; I need to exit and find the room with the dog statue. I'll turn left to face the doorway and proceed through it.",
+      "latency_s": 6.21,
+      "prompt_tokens": 1992
+    },
+    {
+      "n": 30,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've just moved through the bedroom doorway and now face an open doorway into a hallway. The instruction says to go forward until the stair rail, so I'll advance through this doorway and re-observe to locate the stairs.",
+      "latency_s": 7.55,
+      "prompt_tokens": 1994
+    },
+    {
+      "n": 32,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a doorway leading into another room with a console table and vase. I need to continue forward through this opening to progress along the instruction path.",
+      "latency_s": 3.11,
+      "prompt_tokens": 1994
+    },
+    {
+      "n": 34,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hallway facing an open room ahead with a console table and mirror. The wall on my left is very close, so I'll advance carefully down the hallway and re-observe to find the dog statue room or the stair rail.",
+      "latency_s": 3.57,
+      "prompt_tokens": 1995
+    },
+    {
+      "n": 36,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hallway with a niche ahead and a rug leading right. I haven't yet seen the dog statue room, so I'll advance carefully and re-observe to locate the next doorway.",
+      "latency_s": 3.31,
+      "prompt_tokens": 1995
+    },
+    {
+      "n": 38,
+      "actions": [
+        "MOVE_FORWARD",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in a hallway with an open doorway on the left. The instruction says to enter the room with a dog statue; I should check the left doorway first before proceeding further down the hall.",
+      "latency_s": 4.45,
+      "prompt_tokens": 1995
+    },
+    {
+      "n": 40,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hallway with an open doorway slightly ahead-left, where something dark (possibly the dog statue) is visible inside. I'll advance toward that doorway and re-observe before entering.",
+      "latency_s": 3.73,
+      "prompt_tokens": 1996
+    },
+    {
+      "n": 42,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hallway with an open doorway ahead on the left. Based on the instruction, I need to continue forward and enter the room with the dog statue; that open doorway ahead looks like the next passage to take. I'll advance toward it and re-observe.",
+      "latency_s": 4.06,
+      "prompt_tokens": 1997
+    },
+    {
+      "n": 44,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hallway facing a doorway on the left that leads to a room with a lamp and a dark rack. I need to move forward through this doorway to check whether this is the room with the dog statue, so I'll advance a step and re-observe.",
+      "latency_s": 3.73,
+      "prompt_tokens": 1997
+    },
+    {
+      "n": 47,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I see a hallway with a bedroom doorway on the left. According to the instruction I need to eventually enter a room on the left, but I should first check whether this bedroom contains the dog statue or is the final room. I'll turn left to inspect the doorway before committing.",
+      "latency_s": 6.86,
+      "prompt_tokens": 1997
+    },
+    {
+      "n": 48,
+      "actions": [
+        "MOVE_FORWARD"
+      ],
+      "thought": "I have turned left and am now facing an open doorway into a bedroom, which matches the instruction's final step of entering the room on the left. I will step forward through the doorway and then re-observe before stopping.",
+      "latency_s": 7.78,
+      "prompt_tokens": 1998
+    },
+    {
+      "n": 50,
+      "actions": [
+        "MOVE_FORWARD",
+        "LOOK_DOWN"
+      ],
+      "thought": "I appear to be entering a bedroom through a doorway. According to the instruction, I should be looking for the room with a dog statue on the floor. I'll step inside and check the floor for the statue before proceeding.",
+      "latency_s": 9.16,
+      "prompt_tokens": 1999
+    },
+    {
+      "n": 53,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I've just passed through a doorway into a bedroom. I need to determine whether this is the room with the dog statue (in which case I'll turn left and exit) or the final room. I'll scan the room by turning left to look for a dog statue.",
+      "latency_s": 10.72,
+      "prompt_tokens": 1999
+    },
+    {
+      "n": 54,
+      "actions": [
+        "MOVE_FORWARD"
+      ],
+      "thought": "I have just turned left through a doorway into a bedroom, which appears to be the room on the left after reaching the stair rail. I'll step forward into the room, then stop and wait as instructed.",
+      "latency_s": 7.63,
+      "prompt_tokens": 2001
+    },
+    {
+      "n": 56,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I appear to be just inside a bedroom, facing a white wall/door edge with the bed to my right. I need to exit this room first, so I'll turn left to locate the doorway I likely entered through.",
+      "latency_s": 4.16,
+      "prompt_tokens": 2001
+    },
+    {
+      "n": 58,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to be facing a wall/door very closely after my last turns, with a bedroom visible to my right. I need to turn right to re-orient into the room and find the exit toward the stair rail.",
+      "latency_s": 4.27,
+      "prompt_tokens": 2002
+    },
+    {
+      "n": 60,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a white wall/door very closely, with a bedroom visible to the right. I need to re-orient to find the path forward toward the stair rail, so I'll turn right to scan the room.",
+      "latency_s": 3.96,
+      "prompt_tokens": 2003
+    },
+    {
+      "n": 61,
+      "actions": [
+        "MOVE_FORWARD"
+      ],
+      "thought": "I have just turned into and entered a bedroom, which appears to be the room on the left near the stair rail described in the instruction. I'll take one step forward to be fully inside the room before stopping.",
+      "latency_s": 10.07,
+      "prompt_tokens": 2004
+    },
+    {
+      "n": 63,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I appear to have just moved through a doorway into a bedroom, but I need to verify whether this is the room on the left near the stair rail before stopping. I'll turn left to check the doorway and hallway for the stair rail.",
+      "latency_s": 16.34,
+      "prompt_tokens": 2005
+    },
+    {
+      "n": 66,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a bedroom facing a wall with an open doorway slightly to my left. I need to exit through that doorway, so I'll turn left to align with it and then move forward.",
+      "latency_s": 4.04,
+      "prompt_tokens": 2006
+    },
+    {
+      "n": 68,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've walked into a corner of the bedroom; the open doorway is to my right. I need to turn right to align with the exit door before moving forward.",
+      "latency_s": 3.53,
+      "prompt_tokens": 2007
+    },
+    {
+      "n": 69,
+      "actions": [
+        "STOP"
+      ],
+      "thought": "Based on my action history, I have just turned left off the stair-rail area and entered the room on the left (the bedroom now visible with the bed), then re-aimed into the room. The instruction ends with 'enter the room on the left and stop, wait there', so I am at the target location and should stop here.",
+      "latency_s": 27.41,
+      "prompt_tokens": 2008
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    8.59,
+    8.59,
+    8.34,
+    8.091,
+    7.839,
+    7.585,
+    7.335,
+    7.088,
+    6.842,
+    6.596,
+    6.344,
+    6.088,
+    5.837,
+    5.587,
+    5.338,
+    5.09,
+    4.842,
+    4.542,
+    4.296,
+    4.052,
+    3.818,
+    3.627,
+    3.269,
+    3.019,
+    2.769,
+    2.523,
+    2.291,
+    2.037,
+    1.783,
+    1.532,
+    1.282,
+    1.033,
+    0.785,
+    0.629,
+    0.347,
+    0.347,
+    0.269,
+    0.372,
+    0.583,
+    0.78
+  ],
+  "final_distance": 0.78,
+  "min_distance": 0.269,
+  "metrics": {
+    "distance_to_goal": 0.7804060578346252,
+    "success": 1.0,
+    "spl": 0.9202225833768188,
+    "oracle_success": 1.0,
+    "path_length": 9.334347978234291,
+    "steps_taken": 69.0
+  },
+  "success": true,
+  "backend_stats": {
+    "calls": 31,
+    "failures": 0,
+    "prompt_tokens": 59721,
+    "completion_tokens": 10825,
+    "reasoning_tokens": 8874,
+    "latency_s": 181.8580346107483
+  },
+  "stop_deferrals": 0
+}

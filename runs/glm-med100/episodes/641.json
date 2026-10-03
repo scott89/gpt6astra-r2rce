@@ -1,0 +1,246 @@
+{
+  "episode_id": 641,
+  "scene_id": "x8F5xyUWy9e",
+  "instruction": "You should walk past the bar and to the pool. Across from the pool there is a doorway, go through that doorway and wait.",
+  "actions_taken": 42,
+  "policy_calls": 16,
+  "api_latency_s": 48.33,
+  "prompt_tokens": 29375,
+  "completion_tokens": 2331,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 48.59,
+  "steps": [
+    {
+      "n": 2,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I see a spa/pool area with lounge chairs and a pool on the right. I need to locate the bar first, then the pool, then a doorway across from it. Let me survey the room by turning right.",
+      "latency_s": 2.57,
+      "prompt_tokens": 887
+    },
+    {
+      "n": 4,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the pool ahead with a lit doorway on the far right wall across from it. I'll advance toward the pool, steering slightly right of the chair to keep the doorway in view.",
+      "latency_s": 3.32,
+      "prompt_tokens": 1242
+    },
+    {
+      "n": 6,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the pool ahead with a lit doorway-like opening on the far right wall across the pool. I'll advance toward the pool area, keeping the armchair on my left, then head toward that doorway.",
+      "latency_s": 2.79,
+      "prompt_tokens": 1606
+    },
+    {
+      "n": 8,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've reached the pool area; the lit doorway appears on the far wall to the right of the pool. I'll advance past the chair toward the pool, then re-aim toward that doorway.",
+      "latency_s": 3.28,
+      "prompt_tokens": 1969
+    },
+    {
+      "n": 11,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm at the pool area now, with the pool ahead and a lit doorway visible on the right side of the far wall. I'll advance toward the pool, then turn right to approach that doorway across from the pool.",
+      "latency_s": 3.73,
+      "prompt_tokens": 1969
+    },
+    {
+      "n": 13,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm at the pool and can see a wooden doorway across the pool on the right side of the view. I'll turn right to face it, then approach it.",
+      "latency_s": 3.22,
+      "prompt_tokens": 1970
+    },
+    {
+      "n": 16,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the pool area and can see a lit doorway across the room, roughly straight ahead. I'll advance toward it, re-checking alignment as I go.",
+      "latency_s": 3.8,
+      "prompt_tokens": 1971
+    },
+    {
+      "n": 18,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the pool, and the lit doorway across from it is visible ahead, roughly centered. I'll advance toward it a couple of steps and re-check alignment before entering.",
+      "latency_s": 2.94,
+      "prompt_tokens": 1972
+    },
+    {
+      "n": 21,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The pool is on my left and the doorway across from it is visible ahead, roughly centered. I'll move forward toward it, then re-check alignment before passing through.",
+      "latency_s": 3.11,
+      "prompt_tokens": 1973
+    },
+    {
+      "n": 23,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The pool is on my left and the doorway across from it is visible ahead. I need to close the distance to the doorway, checking alignment as I go.",
+      "latency_s": 3.4,
+      "prompt_tokens": 1972
+    },
+    {
+      "n": 26,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The pool is on my left and the wooden doorway across from it is directly ahead, slightly left of center. I'll move forward toward it and re-observe before entering.",
+      "latency_s": 2.94,
+      "prompt_tokens": 1973
+    },
+    {
+      "n": 29,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the pool area; the wooden doorway across from the pool is visible ahead. I'll advance toward it, re-checking alignment before entering.",
+      "latency_s": 2.85,
+      "prompt_tokens": 1974
+    },
+    {
+      "n": 32,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I am beside the pool, and the wooden doorway across from it is directly ahead. I will advance toward it, re-checking alignment before entering.",
+      "latency_s": 3.1,
+      "prompt_tokens": 1973
+    },
+    {
+      "n": 35,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I am at the pool facing the doorway with the beaded curtain directly across from it. I need to advance toward and through that doorway, then stop just past it.",
+      "latency_s": 2.89,
+      "prompt_tokens": 1975
+    },
+    {
+      "n": 39,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the pool facing the doorway across from it, which is centered in my view. I'll advance through the doorway and then stop just past it.",
+      "latency_s": 2.3,
+      "prompt_tokens": 1974
+    },
+    {
+      "n": 42,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "STOP"
+      ],
+      "thought": "I have reached the doorway across from the pool; the beaded curtain is directly ahead and centered. I will step through it and then stop to wait.",
+      "latency_s": 2.09,
+      "prompt_tokens": 1975
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    7.779,
+    7.779,
+    7.599,
+    7.393,
+    7.188,
+    6.984,
+    6.78,
+    6.573,
+    6.369,
+    6.184,
+    5.936,
+    5.688,
+    5.441,
+    5.194,
+    4.948,
+    4.703,
+    4.459,
+    4.216,
+    3.974,
+    3.735,
+    3.499,
+    3.268,
+    3.045,
+    2.836,
+    2.652,
+    2.506,
+    2.399,
+    2.324,
+    2.275,
+    2.253,
+    2.264,
+    2.331,
+    2.453,
+    2.618,
+    2.81,
+    3.02,
+    3.246,
+    3.48
+  ],
+  "final_distance": 3.48,
+  "min_distance": 2.253,
+  "metrics": {
+    "distance_to_goal": 3.4799575805664062,
+    "success": 0.0,
+    "spl": 0.0,
+    "oracle_success": 1.0,
+    "path_length": 8.776762142777443,
+    "steps_taken": 42.0
+  },
+  "success": false,
+  "backend_stats": {
+    "calls": 16,
+    "failures": 0,
+    "prompt_tokens": 29375,
+    "completion_tokens": 2331,
+    "reasoning_tokens": 1340,
+    "latency_s": 48.350682735443115
+  },
+  "stop_deferrals": 0
+}

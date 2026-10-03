@@ -1,0 +1,142 @@
+{
+  "episode_id": 10,
+  "scene_id": "2azQ1b91cZZ",
+  "instruction": "Walk into the living room and keep walking straight past the living room. Then walk into the entrance under the balcony. Wait in the entrance to the other room.",
+  "actions_taken": 20,
+  "policy_calls": 8,
+  "api_latency_s": 24.94,
+  "prompt_tokens": 13623,
+  "completion_tokens": 1248,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 25.08,
+  "steps": [
+    {
+      "n": 3,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a large living room with a balcony above and an arched doorway directly ahead beneath it. The instruction says to walk straight past the living room into the entrance under the balcony, so I'll advance toward that arch, checking alignment as I go.",
+      "latency_s": 2.77,
+      "prompt_tokens": 892
+    },
+    {
+      "n": 6,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I am in the living room facing the arched entrance directly beneath the balcony, which matches the instruction's target. I will advance toward the archway and re-observe before entering.",
+      "latency_s": 2.86,
+      "prompt_tokens": 1247
+    },
+    {
+      "n": 9,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the living room facing the arched entrance under the balcony, which is roughly centered ahead. I'll advance toward it and re-observe before entering.",
+      "latency_s": 2.51,
+      "prompt_tokens": 1610
+    },
+    {
+      "n": 12,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the living room facing the arched entrance beneath the balcony, which is directly ahead and roughly centered. I'll advance toward it, then re-observe before entering.",
+      "latency_s": 2.85,
+      "prompt_tokens": 1974
+    },
+    {
+      "n": 15,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the living room facing the arched entrance under the balcony, which is directly ahead. I'll advance toward it and then re-observe before entering.",
+      "latency_s": 2.33,
+      "prompt_tokens": 1974
+    },
+    {
+      "n": 18,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I have crossed the living room and am now aligned with the arched entrance under the balcony. I need to advance through the archway into the entrance area, then stop there.",
+      "latency_s": 2.65,
+      "prompt_tokens": 1975
+    },
+    {
+      "n": 19,
+      "actions": [
+        "MOVE_FORWARD"
+      ],
+      "thought": "I have passed through the living room and am now inside the arched entrance under the balcony, facing the doorway to the next room. I'll take one more step into the entrance before stopping.",
+      "latency_s": 5.72,
+      "prompt_tokens": 1975
+    },
+    {
+      "n": 20,
+      "actions": [
+        "STOP"
+      ],
+      "thought": "I have walked straight through the living room and am now standing in the arched entrance under the balcony, facing the doorway to the other room. This matches the instruction's endpoint, so I will stop here.",
+      "latency_s": 3.25,
+      "prompt_tokens": 1976
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    7.113,
+    6.863,
+    6.613,
+    6.363,
+    6.113,
+    5.863,
+    5.613,
+    5.363,
+    5.113,
+    4.863,
+    4.613,
+    4.363,
+    4.113,
+    3.863,
+    3.613,
+    3.363,
+    3.113,
+    2.863,
+    2.613,
+    2.363
+  ],
+  "final_distance": 2.363,
+  "min_distance": 2.363,
+  "metrics": {
+    "distance_to_goal": 2.363050699234009,
+    "success": 1.0,
+    "spl": 1.0,
+    "oracle_success": 1.0,
+    "path_length": 4.75,
+    "steps_taken": 20.0
+  },
+  "success": true,
+  "backend_stats": {
+    "calls": 8,
+    "failures": 0,
+    "prompt_tokens": 13623,
+    "completion_tokens": 1248,
+    "reasoning_tokens": 789,
+    "latency_s": 24.946807384490967
+  },
+  "stop_deferrals": 0
+}

@@ -1,0 +1,189 @@
+{
+  "episode_id": 1596,
+  "scene_id": "x8F5xyUWy9e",
+  "instruction": "Walk forward up the two set of three stairs.  Enter the room at the end of the hallway.Walk to the massage table, and stop.",
+  "actions_taken": 34,
+  "policy_calls": 11,
+  "api_latency_s": 26.62,
+  "prompt_tokens": 19536,
+  "completion_tokens": 1157,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 26.79,
+  "steps": [
+    {
+      "n": 3,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a hallway with two sets of three stairs ahead. I'll walk forward toward the stairs, re-observing as I go.",
+      "latency_s": 1.7,
+      "prompt_tokens": 890
+    },
+    {
+      "n": 6,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a hallway with a set of stairs ahead leading up to a doorway at the far end. I should advance toward and up the stairs, re-observing as I go.",
+      "latency_s": 2.0,
+      "prompt_tokens": 1245
+    },
+    {
+      "n": 9,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a hallway with a set of three stairs directly ahead, and a doorway visible at the far end. I'll advance toward and up the stairs, re-observing as I go.",
+      "latency_s": 2.35,
+      "prompt_tokens": 1608
+    },
+    {
+      "n": 13,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm aligned with the hallway and the stairs are directly ahead. I'll continue moving forward to ascend the stairs toward the room at the end.",
+      "latency_s": 2.27,
+      "prompt_tokens": 1972
+    },
+    {
+      "n": 16,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've ascended the stairs and am now in the hallway facing a doorway at the end that leads to a room with what appears to be a massage table. I'm roughly aligned with the doorway, so I'll advance toward it and re-observe.",
+      "latency_s": 2.62,
+      "prompt_tokens": 1973
+    },
+    {
+      "n": 19,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've ascended the stairs and am now in the hallway. The open doorway straight ahead leads to a room with what appears to be a massage table. I'll advance toward the doorway, checking alignment as I go.",
+      "latency_s": 2.53,
+      "prompt_tokens": 1972
+    },
+    {
+      "n": 22,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the top of the stairs facing a doorway that opens into a room with what looks like a massage table. The doorway is roughly centered ahead, so I'll advance toward it and re-observe before entering.",
+      "latency_s": 2.59,
+      "prompt_tokens": 1974
+    },
+    {
+      "n": 25,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've reached the end of the hallway; the wall is directly ahead and the doorway with the massage table is to my right. I need to turn right to align with the doorway before entering.",
+      "latency_s": 2.86,
+      "prompt_tokens": 1973
+    },
+    {
+      "n": 29,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the massage table through the open doorway on my left. I need to turn left to align with the doorway, then move forward into the room toward the massage table.",
+      "latency_s": 2.33,
+      "prompt_tokens": 1975
+    },
+    {
+      "n": 31,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The doorway to the massage room is directly ahead, with the massage table visible inside a few meters away. I'll step forward through the doorway and then re-observe to close the distance to the table.",
+      "latency_s": 2.81,
+      "prompt_tokens": 1977
+    },
+    {
+      "n": 34,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "STOP"
+      ],
+      "thought": "I've entered the massage room and the massage table is directly ahead, roughly 2 m away. One or two forward steps will bring me to it, then I should stop.",
+      "latency_s": 2.56,
+      "prompt_tokens": 1977
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    7.748,
+    7.487,
+    7.228,
+    6.969,
+    6.711,
+    6.457,
+    6.209,
+    5.961,
+    5.713,
+    5.465,
+    5.217,
+    4.97,
+    4.722,
+    4.47,
+    4.218,
+    3.966,
+    3.717,
+    3.47,
+    3.224,
+    2.979,
+    2.736,
+    2.494,
+    2.257,
+    2.008,
+    1.761,
+    1.519,
+    1.341,
+    1.288,
+    1.0
+  ],
+  "final_distance": 1.0,
+  "min_distance": 1.0,
+  "metrics": {
+    "distance_to_goal": 1.00014328956604,
+    "success": 1.0,
+    "spl": 1.0,
+    "oracle_success": 1.0,
+    "path_length": 6.972505182027817,
+    "steps_taken": 34.0
+  },
+  "success": true,
+  "backend_stats": {
+    "calls": 11,
+    "failures": 0,
+    "prompt_tokens": 19536,
+    "completion_tokens": 1157,
+    "reasoning_tokens": 496,
+    "latency_s": 26.630645513534546
+  },
+  "stop_deferrals": 0
+}

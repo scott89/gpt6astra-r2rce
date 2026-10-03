@@ -1,0 +1,485 @@
+{
+  "episode_id": 234,
+  "scene_id": "oLBMNvg9in8",
+  "instruction": "Walk up the stairs. At the top of the stairs take a right and enter the room at the end of the hall. Stop in front of the large shell on the floor.",
+  "actions_taken": 88,
+  "policy_calls": 39,
+  "api_latency_s": 143.91,
+  "prompt_tokens": 75591,
+  "completion_tokens": 7367,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 144.59,
+  "steps": [
+    {
+      "n": 1,
+      "actions": [
+        "TURN_LEFT"
+      ],
+      "thought": "I'm facing a tiled wall, so the stairs must be off to one side. I'll turn to scan for the staircase before moving.",
+      "latency_s": 2.58,
+      "prompt_tokens": 896
+    },
+    {
+      "n": 4,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm currently facing a wall very closely, so I need to reorient to find the staircase. I'll turn left to scan the surroundings.",
+      "latency_s": 1.82,
+      "prompt_tokens": 1251
+    },
+    {
+      "n": 8,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "The view shows a stained glass window and marble wall up close, so I've lost orientation. I'll rotate to scan the surroundings and find the stairs.",
+      "latency_s": 3.49,
+      "prompt_tokens": 1614
+    },
+    {
+      "n": 12,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I am currently facing a wall very closely, with a window above; I have not yet found the stairs. I need to rotate to locate the staircase before proceeding.",
+      "latency_s": 5.01,
+      "prompt_tokens": 1979
+    },
+    {
+      "n": 14,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see a staircase going up on the right side of the current view. I need to align with the stairs and begin climbing, so I'll turn right toward them and step forward.",
+      "latency_s": 3.41,
+      "prompt_tokens": 1981
+    },
+    {
+      "n": 18,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm currently facing a wall with the staircase visible to my right. I need to turn right to align with the stairs, then walk up them.",
+      "latency_s": 2.56,
+      "prompt_tokens": 1982
+    },
+    {
+      "n": 21,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the staircase ahead and slightly to the left. I need to align with the stairs and begin ascending.",
+      "latency_s": 2.4,
+      "prompt_tokens": 1984
+    },
+    {
+      "n": 24,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is directly ahead and I'm aligned with it. I'll move forward to start climbing the stairs, then re-observe from the steps.",
+      "latency_s": 3.12,
+      "prompt_tokens": 1986
+    },
+    {
+      "n": 28,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the bottom of the staircase facing it directly. I need to climb the stairs, so I'll advance forward in small increments and re-observe as I ascend.",
+      "latency_s": 2.61,
+      "prompt_tokens": 1987
+    },
+    {
+      "n": 31,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm nearly at the top of the stairs, facing the landing with a doorway ahead. I need to climb the remaining steps, then turn right at the top to head down the hall.",
+      "latency_s": 3.34,
+      "prompt_tokens": 1987
+    },
+    {
+      "n": 34,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I've reached the top of the stairs but I'm facing a wall; the hallway with the rug extends to my left. I need to turn left to face down the hall, then proceed toward the room at its end.",
+      "latency_s": 3.92,
+      "prompt_tokens": 1988
+    },
+    {
+      "n": 37,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the top of the stairs in the upstairs hallway, facing down the hall toward a doorway with a statue visible at the end. The instruction says to enter the room at the end of the hall, so I'll advance through the doorway ahead, re-checking alignment as I go.",
+      "latency_s": 9.18,
+      "prompt_tokens": 1989
+    },
+    {
+      "n": 39,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the upstairs hallway; the room at the end of the hall appears through the right-hand doorway ahead, with a statue on a table and a window. I'll advance toward that doorway and re-observe before entering.",
+      "latency_s": 2.94,
+      "prompt_tokens": 1990
+    },
+    {
+      "n": 42,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the top of the stairs in a hallway; ahead through the center doorway is the hall leading to a room with a statue and a window at the end. I'll advance through that doorway and re-observe.",
+      "latency_s": 3.63,
+      "prompt_tokens": 1991
+    },
+    {
+      "n": 45,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've entered the room at the end of the hall. Ahead there's a table with a dark object near the window, and the large shell may be on the floor nearby. I'll advance carefully toward it and re-observe.",
+      "latency_s": 3.84,
+      "prompt_tokens": 1990
+    },
+    {
+      "n": 46,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "I've entered the room at the end of the hall; I can see a statue on a table and a sofa, but I haven't spotted the large shell on the floor yet. I'll look down to scan the floor near the table and rug.",
+      "latency_s": 3.45,
+      "prompt_tokens": 1992
+    },
+    {
+      "n": 47,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "I appear to be in a room with a table and bust, but I don't yet see the large shell on the floor. My camera is pitched down, so I should look up and scan the room before moving further.",
+      "latency_s": 2.91,
+      "prompt_tokens": 1992
+    },
+    {
+      "n": 50,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "LOOK_DOWN"
+      ],
+      "thought": "I've entered the room at the end of the hall; now I need to find the large shell on the floor. It's not clearly visible in the current view, so I'll advance toward the rug area and look down to scan the floor.",
+      "latency_s": 4.31,
+      "prompt_tokens": 1993
+    },
+    {
+      "n": 51,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "I appear to be in a large room with paneled walls and a table with a statue, but the camera is pitched down toward the floor and I cannot yet see the large shell the instruction mentions. I should look up to survey the room before moving.",
+      "latency_s": 3.78,
+      "prompt_tokens": 1993
+    },
+    {
+      "n": 52,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "I appear to be in the room at the end of the hall, but the camera is pitched down toward the wall and floor. I need to look up to survey the room and find the large shell on the floor before stopping.",
+      "latency_s": 4.09,
+      "prompt_tokens": 1994
+    },
+    {
+      "n": 53,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up toward the wall and ceiling; I can see a bust on a table ahead but need to look down to locate the large shell on the floor before stopping.",
+      "latency_s": 2.49,
+      "prompt_tokens": 1995
+    },
+    {
+      "n": 54,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "I appear to be in the room at the end of the hall, but my camera is pitched up toward the wall and ceiling. I need to look down to scan the floor for the large shell before stopping.",
+      "latency_s": 3.21,
+      "prompt_tokens": 1995
+    },
+    {
+      "n": 55,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down toward the floor; I can see a bust on a table ahead and a rug, but I need to see the room to locate the large shell on the floor. I'll look up to re-orient before moving.",
+      "latency_s": 2.31,
+      "prompt_tokens": 1996
+    },
+    {
+      "n": 56,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "I appear to be in the room at the end of the hall, near a table with an object on it, but my view is pitched toward the floor and wall. I need to look up to survey the room and locate the large shell before positioning myself in front of it.",
+      "latency_s": 5.33,
+      "prompt_tokens": 1997
+    },
+    {
+      "n": 58,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "I appear to be in the room at the end of the hall, but the camera is pitched up toward the ceiling. I need to look down to see the floor and locate the large shell before stopping.",
+      "latency_s": 2.11,
+      "prompt_tokens": 1997
+    },
+    {
+      "n": 59,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "I appear to be in the room at the end of the hall, near a table with a bust. There is a dark object on the floor directly ahead that could be the large shell. I need to look down to inspect the floor before stopping.",
+      "latency_s": 3.86,
+      "prompt_tokens": 1998
+    },
+    {
+      "n": 60,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I can see a rug, a wall on the left, and a table with a statue ahead, but I need to see the room to locate the large shell on the floor. I'll look up to re-orient before moving.",
+      "latency_s": 2.77,
+      "prompt_tokens": 1998
+    },
+    {
+      "n": 61,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor and wall; I can see a table ahead and a rug to the right but need to re-orient to find the large shell. I'll look up to survey the room before moving.",
+      "latency_s": 2.79,
+      "prompt_tokens": 1999
+    },
+    {
+      "n": 64,
+      "actions": [
+        "LOOK_UP",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to be inside the room at the end of the hall, but my camera is pitched down toward the wall and floor. I need to look up and scan the room to locate the large shell on the floor before stopping.",
+      "latency_s": 3.08,
+      "prompt_tokens": 2000
+    },
+    {
+      "n": 65,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "I appear to be in the room at the end of the hall, but the camera is pitched up toward the ceiling. I need to look down to find the large shell on the floor before stopping.",
+      "latency_s": 2.21,
+      "prompt_tokens": 2002
+    },
+    {
+      "n": 66,
+      "actions": [
+        "MOVE_FORWARD"
+      ],
+      "thought": "I have entered the room at the end of the hall; the large shell appears to be the white object on the floor beside the table leg just ahead of me. I'll take one careful step forward to stand in front of it, then stop.",
+      "latency_s": 8.71,
+      "prompt_tokens": 2002
+    },
+    {
+      "n": 70,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've entered the room at the end of the hall and can see a large sculpture on a table to my left, a sofa, and a rug. I need to find the large shell on the floor, so I'll scan the rest of the room before stopping.",
+      "latency_s": 4.48,
+      "prompt_tokens": 2003
+    },
+    {
+      "n": 71,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "I've entered the large room at the end of the hall. I need to find the large shell on the floor; I don't clearly see it yet, so I'll pitch the camera down to inspect the floor ahead before moving further.",
+      "latency_s": 3.89,
+      "prompt_tokens": 2004
+    },
+    {
+      "n": 74,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've entered the room at the end of the hall; ahead is a fireplace with a dark object beside it that could be the large shell. I'll advance toward the fireplace area and re-observe to confirm before stopping.",
+      "latency_s": 5.48,
+      "prompt_tokens": 2006
+    },
+    {
+      "n": 78,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The room contains the large shell on the floor beside the fireplace, roughly 4-5 m ahead. I need to cross the rug toward it, stopping in front of it.",
+      "latency_s": 4.17,
+      "prompt_tokens": 2007
+    },
+    {
+      "n": 80,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the large shell-like sculpture on the floor to the right of the fireplace, a few meters ahead. I'll advance toward it and then stop in front of it.",
+      "latency_s": 4.68,
+      "prompt_tokens": 2008
+    },
+    {
+      "n": 83,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The large shell-shaped object sits on the floor right of the fireplace, roughly 3-4 m ahead. I'll close the distance with a couple of forward steps, then re-check before stopping.",
+      "latency_s": 3.63,
+      "prompt_tokens": 2007
+    },
+    {
+      "n": 87,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the large textured shell standing on the floor to the right of the fireplace, roughly 2-3 m away. I'll turn toward it and advance a couple of steps, then re-observe before stopping.",
+      "latency_s": 3.77,
+      "prompt_tokens": 2008
+    },
+    {
+      "n": 88,
+      "actions": [
+        "STOP"
+      ],
+      "thought": "I have entered the room at the end of the hall and the large textured shell is directly in front of me, just a couple meters away by the wooden doors. This matches the instruction's end point, so I should stop here.",
+      "latency_s": 2.55,
+      "prompt_tokens": 2010
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    8.473,
+    8.454,
+    8.29,
+    8.029,
+    7.792,
+    7.556,
+    7.323,
+    7.092,
+    6.859,
+    6.605,
+    6.348,
+    6.04,
+    5.746,
+    5.441,
+    5.173,
+    5.173,
+    5.173,
+    5.173,
+    5.173,
+    4.918,
+    4.675,
+    4.456,
+    4.276,
+    4.203,
+    4.248,
+    4.313,
+    4.393,
+    4.522,
+    4.68,
+    4.87,
+    5.099,
+    5.334,
+    5.514,
+    5.497,
+    5.532,
+    5.623,
+    5.768,
+    5.948,
+    4.616,
+    4.366,
+    4.123,
+    3.889,
+    3.665,
+    3.461,
+    3.287,
+    3.054,
+    2.829
+  ],
+  "final_distance": 2.829,
+  "min_distance": 2.829,
+  "metrics": {
+    "distance_to_goal": 2.829176425933838,
+    "success": 1.0,
+    "spl": 0.7931362654940645,
+    "oracle_success": 1.0,
+    "path_length": 10.683454748646739,
+    "steps_taken": 88.0
+  },
+  "success": true,
+  "backend_stats": {
+    "calls": 39,
+    "failures": 0,
+    "prompt_tokens": 75591,
+    "completion_tokens": 7367,
+    "reasoning_tokens": 4873,
+    "latency_s": 143.9043266773224
+  },
+  "stop_deferrals": 0
+}

@@ -1,0 +1,101 @@
+{
+  "this_run": {
+    "num_episodes": 19,
+    "success": 0.3158,
+    "oracle_success": 0.3158,
+    "distance_to_goal": 7.1127,
+    "spl": 0.305,
+    "path_length": 13.7371,
+    "steps_taken": 259.4737,
+    "termination": {
+      "stop": 19
+    },
+    "mean_actions_per_episode": 259.47,
+    "mean_policy_calls_per_episode": 100.16,
+    "episodes_with_unparsable_reply": 0,
+    "mean_stop_deferrals": 0.0,
+    "api_latency_s_total": 6522.8,
+    "prompt_tokens_total": 3896159,
+    "completion_tokens_total": 325364,
+    "tag": "glm-med100",
+    "policy": "vlm",
+    "model": "glm-5.3-flash",
+    "reasoning_effort": "medium",
+    "guardrails": {
+      "max_consecutive_forward": 0,
+      "stop_verification": false,
+      "history_frames": 4,
+      "max_program": 8
+    },
+    "max_actions": 500,
+    "time_limit_s": 2400.0,
+    "subset_file": "subset/r2rce100.json",
+    "episodes_run": [
+      512,
+      116,
+      1256,
+      1090,
+      979,
+      801,
+      10,
+      46,
+      1416,
+      1579,
+      854,
+      228,
+      216,
+      1675,
+      374,
+      340,
+      1188,
+      636,
+      1445
+    ],
+    "backend": {
+      "calls": 32,
+      "failures": 0,
+      "prompt_tokens": 61364,
+      "completion_tokens": 8248,
+      "reasoning_tokens": 6076,
+      "latency_s": 162.92603397369385
+    },
+    "cumulative": {
+      "num_episodes": 98,
+      "success": 0.3469,
+      "oracle_success": 0.398,
+      "distance_to_goal": 6.8379,
+      "spl": 0.2952,
+      "path_length": 12.6817,
+      "steps_taken": 162.5918,
+      "termination": {
+        "stop": 98
+      },
+      "mean_actions_per_episode": 162.59,
+      "mean_policy_calls_per_episode": 58.36,
+      "episodes_with_unparsable_reply": 0,
+      "mean_stop_deferrals": 0.0,
+      "api_latency_s_total": 21978.8,
+      "prompt_tokens_total": 11444476,
+      "completion_tokens_total": 1138180
+    }
+  },
+  "all_episodes": {
+    "num_episodes": 98,
+    "success": 0.3469,
+    "oracle_success": 0.398,
+    "distance_to_goal": 6.8379,
+    "spl": 0.2952,
+    "path_length": 12.6817,
+    "steps_taken": 162.5918,
+    "termination": {
+      "stop": 98
+    },
+    "mean_actions_per_episode": 162.59,
+    "mean_policy_calls_per_episode": 58.36,
+    "episodes_with_unparsable_reply": 0,
+    "mean_stop_deferrals": 0.0,
+    "api_latency_s_total": 21978.8,
+    "prompt_tokens_total": 11444476,
+    "completion_tokens_total": 1138180
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "episode_id": 1010,
+  "scene_id": "TbHJrupSAjP",
+  "instruction": "Exit the bedroom. Go to the next bedroom on the left. Go to the foot of the bed. Go into the closet across from the blue bed.",
+  "actions_taken": 51,
+  "policy_calls": 17,
+  "api_latency_s": 70.96,
+  "prompt_tokens": 31528,
+  "completion_tokens": 4019,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 71.33,
+  "steps": [
+    {
+      "n": 8,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm currently in a bedroom facing a white bed. To exit, I need to find the door, which is likely behind me. I'll turn around to look for the doorway.",
+      "latency_s": 3.26,
+      "prompt_tokens": 891
+    },
+    {
+      "n": 12,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm currently facing a corner of a bedroom with a zebra-print daybed, mirror, and window. I need to find the door to exit this bedroom, so I'll rotate to scan the room since I have no prior view of the doorway.",
+      "latency_s": 3.87,
+      "prompt_tokens": 1249
+    },
+    {
+      "n": 16,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm currently facing a window next to the zebra-print bed. I need to find the door to exit this bedroom, so I'll turn left to scan the room for a doorway.",
+      "latency_s": 3.26,
+      "prompt_tokens": 1613
+    },
+    {
+      "n": 22,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm currently facing a white bed in a bedroom. To exit and find the next bedroom on the left, I need to locate the door, which is likely behind me. I'll turn to scan the room.",
+      "latency_s": 2.8,
+      "prompt_tokens": 1977
+    },
+    {
+      "n": 24,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I've exited the first bedroom and am now in a hallway. The instruction says the next bedroom is on the left, so I should turn left to inspect the open doorway on the left side of the hall.",
+      "latency_s": 4.74,
+      "prompt_tokens": 1979
+    },
+    {
+      "n": 26,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I've exited the first bedroom and I'm now in a hallway. The instruction says to enter the next bedroom on the left; there is an open white door on the left side of the hallway just ahead, so I'll turn toward it and check where it leads.",
+      "latency_s": 6.54,
+      "prompt_tokens": 1979
+    },
+    {
+      "n": 28,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hallway after exiting the first bedroom. There's an open doorway ahead on the left with a window visible inside, which could be the next bedroom on the left. I'll advance toward it and re-observe before entering.",
+      "latency_s": 4.4,
+      "prompt_tokens": 1980
+    },
+    {
+      "n": 31,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in a hallway and can see a doorway with shelves (likely a closet) ahead-left, but I haven't yet found the second bedroom with the blue bed. I should scan the hallway to locate the bedroom entrance before entering any closet.",
+      "latency_s": 6.05,
+      "prompt_tokens": 1981
+    },
+    {
+      "n": 33,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hallway facing a doorway that appears to lead to a room with shelves and a window. I need to locate the second bedroom with the blue bed first, so I'll advance toward this doorway to inspect the room beyond.",
+      "latency_s": 4.9,
+      "prompt_tokens": 1982
+    },
+    {
+      "n": 35,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in a hallway; ahead is a closet with shelves, but the instruction says the next bedroom is on the left. I should turn left to look for the bedroom doorway.",
+      "latency_s": 3.37,
+      "prompt_tokens": 1983
+    },
+    {
+      "n": 38,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall with an ironing board in a hallway; the hallway extends to my right with a doorway ahead. I need to turn right to proceed down the hallway and find the next bedroom on the left.",
+      "latency_s": 2.47,
+      "prompt_tokens": 1984
+    },
+    {
+      "n": 40,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hallway with a window on the left and an open door on the right. The instruction says the next bedroom is on the left, so I should continue down the hallway and look for a bedroom doorway on the left side.",
+      "latency_s": 7.21,
+      "prompt_tokens": 1986
+    },
+    {
+      "n": 42,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in a hallway with an open door on the right and a shelved room straight ahead. The instruction says the next bedroom is on the left, so I should check the left side of the hallway for a bedroom door before proceeding.",
+      "latency_s": 4.54,
+      "prompt_tokens": 1987
+    },
+    {
+      "n": 46,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hallway facing a window/wall after turning left; the hallway with an open doorway continues to my right. I need to re-align with the hallway and proceed to find the next bedroom on the left.",
+      "latency_s": 5.26,
+      "prompt_tokens": 1988
+    },
+    {
+      "n": 48,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see a walk-in closet with shelving directly ahead through the open doorway, which matches the closet across from the blue bed. I'm aligned with the doorway, so I'll step forward into it.",
+      "latency_s": 3.48,
+      "prompt_tokens": 1990
+    },
+    {
+      "n": 50,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing an open doorway into a closet with white shelving and a small window \u2014 this matches the closet across from the blue bed. I'll step forward into the closet.",
+      "latency_s": 2.28,
+      "prompt_tokens": 1990
+    },
+    {
+      "n": 51,
+      "actions": [
+        "STOP"
+      ],
+      "thought": "I have moved through the doorway into a small walk-in closet with white shelving, wire baskets, and a window at the far end \u2014 this matches the closet across from the blue bed. I am now inside the closet, so the instruction is complete.",
+      "latency_s": 2.53,
+      "prompt_tokens": 1989
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    7.191,
+    7.192,
+    7.02,
+    6.86,
+    6.906,
+    6.986,
+    7.101,
+    7.298,
+    7.52,
+    7.756,
+    7.998,
+    8.245,
+    8.494,
+    8.74
+  ],
+  "final_distance": 8.74,
+  "min_distance": 6.86,
+  "metrics": {
+    "distance_to_goal": 8.739832878112793,
+    "success": 0.0,
+    "spl": 0.0,
+    "oracle_success": 0.0,
+    "path_length": 3.0615120232105255,
+    "steps_taken": 51.0
+  },
+  "success": false,
+  "backend_stats": {
+    "calls": 17,
+    "failures": 0,
+    "prompt_tokens": 31528,
+    "completion_tokens": 4019,
+    "reasoning_tokens": 2889,
+    "latency_s": 70.9528317451477
+  },
+  "stop_deferrals": 0
+}

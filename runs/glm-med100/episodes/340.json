@@ -1,0 +1,238 @@
+{
+  "episode_id": 340,
+  "scene_id": "2azQ1b91cZZ",
+  "instruction": "walk towards the pool table, exit the room through the interior double doors, walk straight through the sitting area, walk into the arch way and stop inside of it.",
+  "actions_taken": 44,
+  "policy_calls": 15,
+  "api_latency_s": 51.81,
+  "prompt_tokens": 27522,
+  "completion_tokens": 2570,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 52.12,
+  "steps": [
+    {
+      "n": 1,
+      "actions": [
+        "TURN_RIGHT"
+      ],
+      "thought": "I currently see a TV, glass doors, and a mirror, but no pool table yet. I need to look around the room to find it before proceeding.",
+      "latency_s": 1.91,
+      "prompt_tokens": 893
+    },
+    {
+      "n": 3,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I see a TV wall with glass double doors on the right and an arched opening on the left, but no pool table yet. I need to locate the pool table first, so I'll turn right to scan the room beyond the double doors.",
+      "latency_s": 3.26,
+      "prompt_tokens": 1248
+    },
+    {
+      "n": 5,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I see glass double doors ahead leading out of this room toward a sitting area with a fireplace. I'll align with the open doorway and move toward it.",
+      "latency_s": 3.96,
+      "prompt_tokens": 1612
+    },
+    {
+      "n": 8,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the interior double glass doors ahead, with an open gap slightly right of center leading into the sitting area with the fireplace and white armchairs. I'll align with that opening and move through it.",
+      "latency_s": 5.21,
+      "prompt_tokens": 1976
+    },
+    {
+      "n": 11,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the pool table on the right and the interior glass double doors ahead, with an open passage between them leading to the sitting area with the fireplace. I need to align with that open doorway and move through it.",
+      "latency_s": 4.15,
+      "prompt_tokens": 1978
+    },
+    {
+      "n": 14,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm beside the pool table facing the open interior double doors that lead into the sitting area with the fireplace. The open passage is slightly left of center, so I'll advance through it and re-observe inside the sitting area.",
+      "latency_s": 3.12,
+      "prompt_tokens": 1979
+    },
+    {
+      "n": 17,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm beside the pool table facing the open interior double doors that lead into the sitting area with the fireplace. I'll advance through the doors toward the sitting area, then look for the archway (visible on the left in the distance).",
+      "latency_s": 3.4,
+      "prompt_tokens": 1980
+    },
+    {
+      "n": 21,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I have exited through the double doors and am now in the sitting area with the fireplace ahead. The arched doorway is visible on the left wall, so I will turn left and walk toward it, then stop inside the archway.",
+      "latency_s": 3.75,
+      "prompt_tokens": 1979
+    },
+    {
+      "n": 24,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The archway is visible ahead in the far wall past the sitting area; I'll move forward toward it and re-observe to fine-tune alignment before entering.",
+      "latency_s": 4.9,
+      "prompt_tokens": 1981
+    },
+    {
+      "n": 28,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I have exited the double doors and crossed the sitting area; the arched doorway under the balcony is now directly ahead and roughly centered. I will advance toward it and stop once inside the arch.",
+      "latency_s": 3.61,
+      "prompt_tokens": 1982
+    },
+    {
+      "n": 32,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I have crossed the sitting area and the arched doorway under the balcony is directly ahead, slightly left of center. I will advance toward it and stop once inside the arch.",
+      "latency_s": 3.29,
+      "prompt_tokens": 1982
+    },
+    {
+      "n": 35,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I have crossed the sitting area and the arched doorway is now directly ahead of me, about 3-4 m away. I will advance toward it and then stop once inside the archway.",
+      "latency_s": 3.65,
+      "prompt_tokens": 1983
+    },
+    {
+      "n": 38,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I have crossed the sitting area and the arched doorway is now directly ahead, a few meters away. I need to advance into the arch and stop inside it.",
+      "latency_s": 2.38,
+      "prompt_tokens": 1982
+    },
+    {
+      "n": 41,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The archway is directly ahead and centered in my view, a few meters away. I'll advance toward it and re-observe before stepping inside.",
+      "latency_s": 2.68,
+      "prompt_tokens": 1984
+    },
+    {
+      "n": 44,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "STOP"
+      ],
+      "thought": "The archway is directly ahead and I am nearly at its threshold. I will step forward once or twice to be inside the arch, then stop.",
+      "latency_s": 2.54,
+      "prompt_tokens": 1983
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    10.641,
+    10.641,
+    10.393,
+    10.163,
+    9.916,
+    9.671,
+    9.426,
+    9.182,
+    8.94,
+    8.701,
+    8.467,
+    8.239,
+    7.99,
+    7.74,
+    7.492,
+    7.244,
+    6.983,
+    6.737,
+    6.491,
+    6.245,
+    6.0,
+    5.755,
+    5.511,
+    5.267,
+    5.024,
+    4.781,
+    4.539,
+    4.299,
+    4.059,
+    3.821,
+    3.584,
+    3.349,
+    3.117,
+    2.887,
+    2.661,
+    2.44
+  ],
+  "final_distance": 2.44,
+  "min_distance": 2.44,
+  "metrics": {
+    "distance_to_goal": 2.4401590824127197,
+    "success": 1.0,
+    "spl": 1.0,
+    "oracle_success": 1.0,
+    "path_length": 8.504246681928635,
+    "steps_taken": 44.0
+  },
+  "success": true,
+  "backend_stats": {
+    "calls": 15,
+    "failures": 0,
+    "prompt_tokens": 27522,
+    "completion_tokens": 2570,
+    "reasoning_tokens": 1633,
+    "latency_s": 51.81289291381836
+  },
+  "stop_deferrals": 0
+}

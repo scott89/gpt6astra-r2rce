@@ -1,0 +1,336 @@
+{
+  "episode_id": 174,
+  "scene_id": "TbHJrupSAjP",
+  "instruction": "Walk past the set of stairs and through the hallway. Walk down the hallway passed the next set of stairs also and follow the banister through the hall. Walk into the room at the end of the hall that has a blackboard on the wall and large letters above.",
+  "actions_taken": 64,
+  "policy_calls": 24,
+  "api_latency_s": 78.96,
+  "prompt_tokens": 45926,
+  "completion_tokens": 4038,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 79.4,
+  "steps": [
+    {
+      "n": 2,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a staircase directly. The instruction says to walk past the stairs and through the hallway, so I should look for the hallway beside the stairs. I'll turn right to check the area to the right of the staircase first.",
+      "latency_s": 2.26,
+      "prompt_tokens": 914
+    },
+    {
+      "n": 6,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing the staircase; the hallway continues to the right past the banister. I'll turn right to face the hallway and then advance past the stairs.",
+      "latency_s": 2.5,
+      "prompt_tokens": 1269
+    },
+    {
+      "n": 8,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm beside the first staircase with a hallway opening ahead where a second stair banister is visible. I'll turn slightly left to align with the hallway and move forward past the stairs.",
+      "latency_s": 2.8,
+      "prompt_tokens": 1634
+    },
+    {
+      "n": 10,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm beside the first staircase with the hallway opening ahead, where a banister (the next set of stairs) is visible. I'll advance into the hallway toward it, re-observing as I go.",
+      "latency_s": 3.27,
+      "prompt_tokens": 1999
+    },
+    {
+      "n": 12,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see an open hallway ahead with a stair banister visible in the distance. I need to advance down this hallway toward the stairs, keeping to the open passage on the left side of the wall.",
+      "latency_s": 2.61,
+      "prompt_tokens": 1999
+    },
+    {
+      "n": 14,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hallway with a stair banister visible ahead. The instruction says to walk down the hallway past the stairs and follow the banister, so I should continue forward along the open hallway path.",
+      "latency_s": 2.56,
+      "prompt_tokens": 2000
+    },
+    {
+      "n": 16,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hallway facing a staircase with a black banister. The instruction says to walk past the stairs and follow the banister through the hall toward a room with a blackboard. I'll advance toward the stair area, staying on the hallway floor.",
+      "latency_s": 3.33,
+      "prompt_tokens": 2000
+    },
+    {
+      "n": 18,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the staircase with the black banister ahead, and the hallway continues past it toward a doorway on the right where a dark framed object (possibly the blackboard) is visible. I'll advance toward the stairs first, then follow the hall to the right.",
+      "latency_s": 6.21,
+      "prompt_tokens": 2000
+    },
+    {
+      "n": 21,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hallway with a stair banister on the left; the instruction says to follow the banister down the hall. There is an open doorway ahead slightly right of center, so I'll advance toward it and re-observe.",
+      "latency_s": 3.29,
+      "prompt_tokens": 2001
+    },
+    {
+      "n": 24,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in an upstairs hallway with a stairwell and dark banister on my left. The instruction says to follow the banister down the hall, so I'll advance along the open hallway ahead, keeping the railing on my left, and re-observe to find the room with the blackboard.",
+      "latency_s": 3.53,
+      "prompt_tokens": 2000
+    },
+    {
+      "n": 27,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm beside the staircase with the banister on my left; the hallway continues forward through the opening ahead. I'll advance along the hall, keeping the banister on my left, and re-observe before proceeding further.",
+      "latency_s": 2.6,
+      "prompt_tokens": 2001
+    },
+    {
+      "n": 30,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm beside the banister with the stairwell on my left; the hallway continues forward past the banister toward the room at the end. I'll advance along the hallway, keeping the banister on my left.",
+      "latency_s": 2.8,
+      "prompt_tokens": 2001
+    },
+    {
+      "n": 34,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm beside the banister overlooking the stairs; the hallway continues to my right. I'll turn right to face down the hallway and proceed along the banister.",
+      "latency_s": 2.03,
+      "prompt_tokens": 2002
+    },
+    {
+      "n": 37,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the hallway with the stair banister on my left, as the instruction describes. I need to continue down this hallway following the banister until I reach the room with the blackboard. The hallway extends forward, so I'll advance and re-observe.",
+      "latency_s": 3.11,
+      "prompt_tokens": 2004
+    },
+    {
+      "n": 40,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm following the banister down the hallway as instructed. Ahead I see a bathroom doorway and glass French doors on the right; the dark frame on the left wall could be the blackboard. I'll advance down the hall to find the room with the blackboard and large letters.",
+      "latency_s": 4.44,
+      "prompt_tokens": 2005
+    },
+    {
+      "n": 41,
+      "actions": [
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in a hallway with a bathroom ahead and French doors to the right, but the instruction says to follow the banister through the hall toward a room with a blackboard. The banister appeared on my left earlier, so I should check the left side for the continuing hallway.",
+      "latency_s": 3.55,
+      "prompt_tokens": 2006
+    },
+    {
+      "n": 44,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in a hallway but facing a wall with a decorative plaque; the hallway continues to the left where there's an open passage. I need to turn left to follow the hallway toward the room with the blackboard.",
+      "latency_s": 3.15,
+      "prompt_tokens": 2006
+    },
+    {
+      "n": 48,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "My last left turns put me facing a wall with a framed picture; the hallway with the bathroom doorway is to my right. I need to rotate back toward the hallway and continue down it toward the room with the blackboard.",
+      "latency_s": 2.75,
+      "prompt_tokens": 2007
+    },
+    {
+      "n": 51,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm currently facing a wall with a decorative plaque and a bathroom doorway; the hallway must continue to one side. I'll turn right to scan for the hallway continuation toward the room with the blackboard.",
+      "latency_s": 3.55,
+      "prompt_tokens": 2009
+    },
+    {
+      "n": 54,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've reached the end of the hallway where an open doorway leads into a room with a window and what appears to be a dark board near it. I should enter this room and look for the blackboard with large letters above it.",
+      "latency_s": 3.72,
+      "prompt_tokens": 2011
+    },
+    {
+      "n": 58,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've entered a room with a round rug and French doors, but I don't yet see the blackboard with large letters above it. I'll advance into the room and scan the walls to verify this is the target room before stopping.",
+      "latency_s": 3.93,
+      "prompt_tokens": 2012
+    },
+    {
+      "n": 61,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm right at a glass-paned doorway that is partially open; the room beyond with the round rug and window lies ahead. I need to sidestep the door leaf on my left by angling right, then step through the opening.",
+      "latency_s": 4.46,
+      "prompt_tokens": 2014
+    },
+    {
+      "n": 63,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've reached a glass-paned door opening into a room with a round rug, window, and shelving \u2014 this appears to be the room at the end of the hall. I need to enter it and look for the blackboard with large letters above it, so I'll step through the doorway first.",
+      "latency_s": 4.05,
+      "prompt_tokens": 2016
+    },
+    {
+      "n": 64,
+      "actions": [
+        "STOP"
+      ],
+      "thought": "I can see the room with a blackboard on the left wall and large letters above it, which matches the instruction's target. I have arrived at the goal location.",
+      "latency_s": 2.46,
+      "prompt_tokens": 2016
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    8.517,
+    8.517,
+    8.275,
+    8.025,
+    7.775,
+    7.525,
+    7.276,
+    7.026,
+    6.776,
+    6.527,
+    6.281,
+    6.022,
+    5.774,
+    5.528,
+    5.283,
+    5.04,
+    4.802,
+    4.573,
+    4.354,
+    4.142,
+    3.938,
+    3.744,
+    3.564,
+    3.399,
+    3.255,
+    3.072,
+    2.836,
+    2.606,
+    2.388,
+    2.192,
+    2.02,
+    1.865,
+    1.733,
+    1.495,
+    1.262,
+    1.036,
+    0.825,
+    0.642,
+    0.582,
+    0.497,
+    0.53,
+    0.662
+  ],
+  "final_distance": 0.662,
+  "min_distance": 0.497,
+  "metrics": {
+    "distance_to_goal": 0.6623591184616089,
+    "success": 1.0,
+    "spl": 0.8536234298118042,
+    "oracle_success": 1.0,
+    "path_length": 9.977068856358528,
+    "steps_taken": 64.0
+  },
+  "success": true,
+  "backend_stats": {
+    "calls": 24,
+    "failures": 0,
+    "prompt_tokens": 45926,
+    "completion_tokens": 4038,
+    "reasoning_tokens": 2450,
+    "latency_s": 78.96287441253662
+  },
+  "stop_deferrals": 0
+}

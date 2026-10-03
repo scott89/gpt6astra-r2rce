@@ -106,15 +106,20 @@ def main() -> None:
         merged = runner.aggregate(records)
         merged["tag"] = tag
         merged["episodes_run"] = [r["episode_id"] for r in records]
+        # Config was stamped per shard; inherit it so the merged stats keep model/effort/guardrails.
+        for fn in sorted(os.listdir(run_dir)):
+            if fn.startswith("stats-shard") and fn.endswith(".json"):
+                shard = json.load(open(os.path.join(run_dir, fn))).get("this_run", {})
+                for key in ("policy", "model", "reasoning_effort", "guardrails", "max_actions",
+                            "time_limit_s", "subset_file"):
+                    merged.setdefault(key, shard.get(key))
+                break
         runner.write_json(os.path.join(run_dir, "stats.json"), {"this_run": merged, "all_episodes": merged})
         print(json.dumps(merged, indent=2, default=str))
         print(f"merged {len(records)} episode records into {run_dir}/stats.json")
         return
 
-    done_ids = set()
-    if args.resume:
-        done_ids = {int(fn[:-5]) for fn in os.listdir(ep_dir) if fn.endswith(".json")}
-    pending = [i for i in all_ids if i not in done_ids]
+    pending = list(all_ids)
     if args.only:
         wanted = {int(x) for x in args.only.replace(" ", "").split(",")}
         pending = [i for i in pending if i in wanted]
@@ -126,6 +131,11 @@ def main() -> None:
         if not 0 <= shard_i < shard_n:
             raise SystemExit(f"--shard must be I/N with 0 <= I < N, got {args.shard}")
         pending = pending[shard_i::shard_n]
+    # Drop completed work AFTER sharding: shards share one episodes dir, so filtering the
+    # global list first would renumber every slice and let episodes fall between workers.
+    if args.resume:
+        done_ids = {int(fn[:-5]) for fn in os.listdir(ep_dir) if fn.endswith(".json")}
+        pending = [i for i in pending if i not in done_ids]
     if not pending:
         print("Nothing pending. Remove --resume or pick a new --tag.")
         return

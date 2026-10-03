@@ -1,0 +1,1398 @@
+{
+  "episode_id": 941,
+  "scene_id": "oLBMNvg9in8",
+  "instruction": "Continue down the stairs until level ground. Go down another level, then another, then stop at the bottom of the stairs.",
+  "actions_taken": 323,
+  "policy_calls": 118,
+  "api_latency_s": 521.6,
+  "prompt_tokens": 237501,
+  "completion_tokens": 24933,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 523.86,
+  "steps": [
+    {
+      "n": 1,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "I'm standing on a staircase facing down the steps. I need to descend carefully, so I'll first look down to see the stairs ahead before moving.",
+      "latency_s": 2.3,
+      "prompt_tokens": 885
+    },
+    {
+      "n": 2,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "I'm facing down a staircase with the camera pitched down. I should raise the camera to see the path ahead before descending.",
+      "latency_s": 2.22,
+      "prompt_tokens": 1240
+    },
+    {
+      "n": 4,
+      "actions": [
+        "LOOK_UP",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm mid-staircase facing down the steps; the stairs continue descending ahead. I'll raise the camera to see the path ahead, then step forward down the stairs.",
+      "latency_s": 2.27,
+      "prompt_tokens": 1603
+    },
+    {
+      "n": 5,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up toward the wall/ceiling, so I've lost sight of the descending stairs. I need to look down to re-acquire the staircase before continuing down.",
+      "latency_s": 2.64,
+      "prompt_tokens": 1967
+    },
+    {
+      "n": 7,
+      "actions": [
+        "LOOK_UP",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm mid-staircase facing down the steps; the camera is pitched down so I should raise it to see the path ahead before descending. Then I'll step forward down the stairs.",
+      "latency_s": 2.99,
+      "prompt_tokens": 1968
+    },
+    {
+      "n": 8,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at a wall; I'm on a stair landing but can't see the path down. I need to raise the view to find the descending stairs before moving.",
+      "latency_s": 3.81,
+      "prompt_tokens": 1969
+    },
+    {
+      "n": 9,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up toward the ceiling, so I can't see the stairs ahead. I need to look down to re-aim at the descending staircase before moving.",
+      "latency_s": 2.36,
+      "prompt_tokens": 1970
+    },
+    {
+      "n": 10,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "My view is mostly wall and ceiling, suggesting the camera is pitched down or I'm facing a wall near a window. I need to reorient to find the staircase before moving.",
+      "latency_s": 2.41,
+      "prompt_tokens": 1970
+    },
+    {
+      "n": 11,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at a damaged ceiling and wall, so I cannot see the stairs. I need to look down to find the staircase and reorient before descending.",
+      "latency_s": 2.47,
+      "prompt_tokens": 1971
+    },
+    {
+      "n": 12,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "My view is tilted toward a wall and ceiling, so I've lost sight of the stairs. I need to pitch down and re-orient to find the staircase before descending further.",
+      "latency_s": 3.1,
+      "prompt_tokens": 1971
+    },
+    {
+      "n": 13,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera appears pitched down; I see a wall, a rug, and a white cloth but no clear view of the stairs. I should re-orient by looking up to find the stairway down before moving.",
+      "latency_s": 3.06,
+      "prompt_tokens": 1972
+    },
+    {
+      "n": 14,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "My current view is mostly a wall, suggesting the camera pitch is off or I'm turned toward the stairwell wall. I need to look down to find the stairs and continue descending.",
+      "latency_s": 3.3,
+      "prompt_tokens": 1973
+    },
+    {
+      "n": 15,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "I appear to be mid-staircase with the stairs descending to my left and a wall close on the right; my camera pitch seems tilted up. I should look down to see the steps clearly before continuing to descend.",
+      "latency_s": 4.1,
+      "prompt_tokens": 1973
+    },
+    {
+      "n": 16,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "I'm on a staircase with more steps descending ahead of me. I need to raise the camera to see the path down the stairs before moving forward.",
+      "latency_s": 2.88,
+      "prompt_tokens": 1974
+    },
+    {
+      "n": 18,
+      "actions": [
+        "LOOK_DOWN",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm on a staircase facing a wall, with the descending steps visible to my lower left. I need to look down to see the steps clearly and re-aim toward the stairwell before descending.",
+      "latency_s": 2.95,
+      "prompt_tokens": 1975
+    },
+    {
+      "n": 21,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm mid-staircase facing down the descending steps. I need to keep descending, so I'll take a forward step down the stairs and re-observe to track the landings.",
+      "latency_s": 3.17,
+      "prompt_tokens": 1976
+    },
+    {
+      "n": 24,
+      "actions": [
+        "LOOK_UP",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm mid-staircase facing down the steps; the camera is pitched down at the treads. I need to level my view to see the stairwell ahead, then keep descending.",
+      "latency_s": 2.99,
+      "prompt_tokens": 1977
+    },
+    {
+      "n": 28,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I appear to have walked into a wall/door at the top of the stairs; the last frames show only a dark surface inches away. I need to back off my heading and re-find the staircase descending, which was visible ahead-left earlier.",
+      "latency_s": 3.99,
+      "prompt_tokens": 1978
+    },
+    {
+      "n": 32,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I appear to be facing a window in a dark stairwell landing rather than the staircase itself. I need to rotate and scan for the stairs continuing downward.",
+      "latency_s": 3.5,
+      "prompt_tokens": 1979
+    },
+    {
+      "n": 35,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm on a stair landing; the visible flight ascends to the left, so the downward continuation must be elsewhere. I'll turn right to scan for the descending flight before moving.",
+      "latency_s": 4.1,
+      "prompt_tokens": 1980
+    },
+    {
+      "n": 39,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm on a stair landing facing a window; the stairs I saw earlier ascend to my left, so the downward flight must be behind or to my right. I'll rotate to scan for the descending stairs.",
+      "latency_s": 3.87,
+      "prompt_tokens": 1982
+    },
+    {
+      "n": 43,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "The last frames show a dark wall up close, meaning I've drifted off the stair path and lost sight of the staircase. I need to rotate back toward the stairwell visible in earlier frames (stairs descending to the left) before continuing down.",
+      "latency_s": 3.12,
+      "prompt_tokens": 1984
+    },
+    {
+      "n": 47,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I appear to be facing a window/wall corner rather than the stairs, likely disoriented after the earlier turns. I need to rotate and re-observe to find the staircase and continue descending.",
+      "latency_s": 3.27,
+      "prompt_tokens": 1985
+    },
+    {
+      "n": 50,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm at a stair landing; the visible staircase ascends to the left, so the descending flight must be elsewhere. I'll scan right to locate the downward stairs.",
+      "latency_s": 3.28,
+      "prompt_tokens": 1986
+    },
+    {
+      "n": 54,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on a landing beside a window with the staircase descending to my left. I need to face down the stairs and continue descending several flights, re-observing as I go.",
+      "latency_s": 3.28,
+      "prompt_tokens": 1987
+    },
+    {
+      "n": 58,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on a stair landing facing a wall, with the staircase descending to my left. I need to turn left to face down the stairs and continue descending.",
+      "latency_s": 3.71,
+      "prompt_tokens": 1989
+    },
+    {
+      "n": 61,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing down a staircase with steps descending ahead of me. I need to continue descending, so I'll take a few forward steps down the stairs and then re-observe to check for the landing.",
+      "latency_s": 2.79,
+      "prompt_tokens": 1991
+    },
+    {
+      "n": 64,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm still on the staircase; the last two frames are nearly identical, so I need to re-aim down the flight. The steps descend to my left, so I'll turn left to face down the stairs before advancing.",
+      "latency_s": 3.29,
+      "prompt_tokens": 1991
+    },
+    {
+      "n": 68,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm mid-flight on the staircase facing down the steps toward a landing with a doorway ahead. The instruction requires descending multiple levels, so I should keep moving forward down the stairs and re-observe as I approach the landing.",
+      "latency_s": 6.81,
+      "prompt_tokens": 1993
+    },
+    {
+      "n": 71,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've reached a level hallway landing after descending the stairs, but the instruction requires going down two more flights. I need to traverse this hallway to find the next staircase down, so I'll advance carefully while watching for stairs.",
+      "latency_s": 4.27,
+      "prompt_tokens": 1994
+    },
+    {
+      "n": 74,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm standing on a landing facing a wall, with a doorway to my left leading to a hallway where a staircase appears visible in the distance. I need to turn left to face the hallway and proceed toward the stairs going down.",
+      "latency_s": 3.88,
+      "prompt_tokens": 1993
+    },
+    {
+      "n": 77,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in an upstairs hallway; the instruction requires descending multiple flights of stairs. I can see a dark stairwell opening on the right side of the hallway with what appears to be a railing descending, so I'll turn toward it and approach.",
+      "latency_s": 4.02,
+      "prompt_tokens": 1995
+    },
+    {
+      "n": 80,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I am currently facing a wall up close; the hallway leading to the stairs is to my left. I need to turn left to re-align with the corridor and head toward the staircase.",
+      "latency_s": 3.01,
+      "prompt_tokens": 1997
+    },
+    {
+      "n": 82,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I appear to be in an upstairs hallway rather than on the stairs; the corridor ahead with framed pictures likely leads to the stairwell. I'll advance a step and re-observe to locate the descending stairs.",
+      "latency_s": 4.56,
+      "prompt_tokens": 1997
+    },
+    {
+      "n": 84,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I appear to be on a level hallway landing after descending. The hallway continues forward past picture-covered walls; stairs down are likely further along this corridor. I'll advance carefully and re-observe.",
+      "latency_s": 4.04,
+      "prompt_tokens": 1999
+    },
+    {
+      "n": 90,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've descended the stairs and entered a level room, but I walked through a doorway and may have passed the bottom of the stairs behind me. I'll rotate to re-check the hallway and stairwell area before stopping.",
+      "latency_s": 10.72,
+      "prompt_tokens": 1999
+    },
+    {
+      "n": 94,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm currently facing through a plastic-draped doorway into a room with a fireplace, but I don't see the next flight of stairs in this view. I need to scan the surroundings to locate the staircase continuing down before moving.",
+      "latency_s": 6.13,
+      "prompt_tokens": 2002
+    },
+    {
+      "n": 98,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to be wedged right against a wall/doorframe with a very obstructed view; the last two frames are identical, so I need to reposition. Through the opening on the right I can see a room with a red carpet, but I first need to back out of this tight spot and re-orient to find the staircase down.",
+      "latency_s": 4.02,
+      "prompt_tokens": 2004
+    },
+    {
+      "n": 101,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The current view shows a landing with a stairwell descending ahead through the railing opening. I will move forward toward the stairs, then reassess alignment before descending further.",
+      "latency_s": 4.66,
+      "prompt_tokens": 2006
+    },
+    {
+      "n": 104,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the top of a staircase facing down toward a window at the stair landing. The instruction requires descending multiple levels, so I need to proceed down these stairs step by step, re-observing as I go.",
+      "latency_s": 3.11,
+      "prompt_tokens": 2007
+    },
+    {
+      "n": 107,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm on a stair landing facing a window with mounted animal heads; the stairs must continue downward, likely turning left past the window where the dark opening is. I'll rotate left to find the descending flight before stepping.",
+      "latency_s": 5.38,
+      "prompt_tokens": 2007
+    },
+    {
+      "n": 110,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to have turned into a wall on the stair landing; the earlier frames showed the stairs descending toward a window ahead. I need to rotate right to re-face the descending staircase before continuing down.",
+      "latency_s": 3.86,
+      "prompt_tokens": 2008
+    },
+    {
+      "n": 111,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "I'm on a stair landing with a window ahead and a railing to the right; the stairs must continue downward nearby. I'll look down to locate the next flight before moving.",
+      "latency_s": 3.55,
+      "prompt_tokens": 2010
+    },
+    {
+      "n": 114,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the top of a staircase looking down toward a landing with a window. The stairs descend straight ahead, so I'll step forward down the stairs and re-observe.",
+      "latency_s": 2.32,
+      "prompt_tokens": 2010
+    },
+    {
+      "n": 117,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on a stair landing facing a window with stairs continuing downward ahead. I need to keep descending, so I'll advance carefully down the visible steps and re-observe.",
+      "latency_s": 2.73,
+      "prompt_tokens": 2011
+    },
+    {
+      "n": 118,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "I'm on a stair landing facing a window; the stairs continue downward, likely turning left past the railing. I'll look down to locate the next flight before stepping.",
+      "latency_s": 3.2,
+      "prompt_tokens": 2011
+    },
+    {
+      "n": 119,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "I'm descending a staircase and have reached a landing with a window ahead. I need to see where the stairs continue downward, so I'll look down to inspect the steps below before moving.",
+      "latency_s": 4.14,
+      "prompt_tokens": 2012
+    },
+    {
+      "n": 121,
+      "actions": [
+        "LOOK_UP",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm mid-staircase facing down a flight of steps. I'll raise the camera to see the landing ahead, then step down one step at a time, re-observing between moves.",
+      "latency_s": 5.47,
+      "prompt_tokens": 2012
+    },
+    {
+      "n": 125,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm mid-staircase facing down a flight of steps; the instruction requires descending several flights to the bottom. I'll advance down the visible steps and re-observe to track each landing.",
+      "latency_s": 3.09,
+      "prompt_tokens": 2013
+    },
+    {
+      "n": 126,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at a dark landing; I need to look up to see whether I've reached the bottom of the stairs or if more steps remain below.",
+      "latency_s": 3.01,
+      "prompt_tokens": 2015
+    },
+    {
+      "n": 127,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up toward a dark wall/window; I need to look down to see the stairs and continue descending. I'll pitch down first to re-orient.",
+      "latency_s": 2.76,
+      "prompt_tokens": 2015
+    },
+    {
+      "n": 128,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down, showing stairs and what appears to be a rug near the bottom. I need to look up to re-orient and see whether more stair levels remain before the bottom.",
+      "latency_s": 3.22,
+      "prompt_tokens": 2016
+    },
+    {
+      "n": 129,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down and I'm staring at dark stairs; one frame showed a rug below, suggesting I'm near the bottom of a stair flight. I need to look up to re-orient before deciding whether to descend further or stop.",
+      "latency_s": 2.95,
+      "prompt_tokens": 2017
+    },
+    {
+      "n": 130,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is currently pitched up toward a window with an outdoor planter, so I cannot see the stairs. I need to look down to re-orient toward the staircase before continuing down.",
+      "latency_s": 3.37,
+      "prompt_tokens": 2017
+    },
+    {
+      "n": 131,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down and I'm staring at dark steps with an urn visible through a window, so I've lost my bearings on the stairway. I need to look up to see the stairs ahead before continuing down.",
+      "latency_s": 3.15,
+      "prompt_tokens": 2017
+    },
+    {
+      "n": 132,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The view shows stairs descending in front of me toward a darker lower level, with a window/urn beyond. I need to keep descending, but first I'll look up to re-orient and confirm the stair path before stepping forward.",
+      "latency_s": 4.06,
+      "prompt_tokens": 2019
+    },
+    {
+      "n": 133,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "I appear to be facing a window with a decorative urn outside, camera pitched upward \u2014 I've likely lost sight of the staircase. I need to look down to re-orient and find the stairs continuing downward.",
+      "latency_s": 2.38,
+      "prompt_tokens": 2019
+    },
+    {
+      "n": 139,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I am currently facing a window with an urn outside, not the staircase. I need to turn around to re-locate the stairs and continue descending to the bottom.",
+      "latency_s": 4.06,
+      "prompt_tokens": 2020
+    },
+    {
+      "n": 143,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm pressed against a window with a vase, not facing the stairs. The wall with wainscoting to my right likely borders the stairwell, so I'll turn right to re-orient and find the descending stairs.",
+      "latency_s": 2.79,
+      "prompt_tokens": 2023
+    },
+    {
+      "n": 149,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm on a landing; the visible staircase ascends to my right, so the continuing downward flight must be elsewhere\u2014likely behind me. I'll turn to locate the descending stairs before moving.",
+      "latency_s": 5.83,
+      "prompt_tokens": 2025
+    },
+    {
+      "n": 152,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I am currently facing a window at very close range, so I need to re-orient. The earlier frame showed the staircase with railing to my right; I will turn right to face the stairs and check whether they descend from here.",
+      "latency_s": 4.11,
+      "prompt_tokens": 2027
+    },
+    {
+      "n": 153,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "I appear to be at a stair landing facing a wainscoted wall, with the upward stairs behind me. I need to locate the next flight going down, so I will look down to inspect the floor and stairwell below before moving.",
+      "latency_s": 3.55,
+      "prompt_tokens": 2029
+    },
+    {
+      "n": 156,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm on a stair landing facing a paneled wall; the stairs appear to descend to my right (visible diagonal edge and lower floor on the right side of the frame). I need to turn right to face the descending stairs before continuing down.",
+      "latency_s": 3.37,
+      "prompt_tokens": 2029
+    },
+    {
+      "n": 159,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on a landing with stairs ascending on the right and a flight descending ahead/left. The instruction says to keep going down, so I'll aim at the descending stairs in the center and step onto them.",
+      "latency_s": 3.55,
+      "prompt_tokens": 2031
+    },
+    {
+      "n": 160,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "I'm on a staircase, but pitched down it's hard to tell if these steps rise or fall ahead. I'll pitch up to check the direction of the flight before committing to forward steps, since the instruction requires continuing downward.",
+      "latency_s": 32.23,
+      "prompt_tokens": 2033
+    },
+    {
+      "n": 166,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "The current view shows a staircase ascending in front of me, but the instruction requires continuing downward. I likely reached a switchback landing, so I will rotate to scan for the descending flight before moving.",
+      "latency_s": 28.94,
+      "prompt_tokens": 2032
+    },
+    {
+      "n": 172,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I am currently facing a wall after my last turns, so I need to re-orient. Turning right should bring the staircase back into view so I can locate the next flight going down.",
+      "latency_s": 9.31,
+      "prompt_tokens": 2034
+    },
+    {
+      "n": 180,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I am currently facing up a flight of stairs, but the instruction directs me to continue down. I will rotate 180 degrees to face the descending direction, then re-observe before moving.",
+      "latency_s": 8.05,
+      "prompt_tokens": 2037
+    },
+    {
+      "n": 186,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm currently facing a wall up close, so I've lost sight of the staircase. I need to rotate to re-acquire the stairs and continue descending to the bottom.",
+      "latency_s": 5.23,
+      "prompt_tokens": 2040
+    },
+    {
+      "n": 194,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm currently facing a staircase that ascends away from me, which means the continuing downward flights are behind me. I need to turn around to face the descending stairs and continue down per the instruction.",
+      "latency_s": 11.44,
+      "prompt_tokens": 2043
+    },
+    {
+      "n": 200,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm currently facing a wall/window and can't see the staircase. I need to rotate to re-acquire the stairs and find the downward flight.",
+      "latency_s": 3.43,
+      "prompt_tokens": 2048
+    },
+    {
+      "n": 203,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've drifted off the stair path and am now facing a window with a vase, having lost sight of the staircase. I need to rotate to re-find the descending stairs; the earlier frame showed stairs going down to my left, so I'll scan right first to re-acquire the stairwell.",
+      "latency_s": 6.11,
+      "prompt_tokens": 2049
+    },
+    {
+      "n": 207,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I am currently facing a wall with wainscoting and a window, not the stairwell. I need to rotate to locate the stairs and continue descending.",
+      "latency_s": 6.4,
+      "prompt_tokens": 2052
+    },
+    {
+      "n": 211,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm currently facing a window with a decorative vase, very close to the wall. The stairwell should be to my right, so I need to turn right to re-orient toward the stairs and continue descending.",
+      "latency_s": 5.73,
+      "prompt_tokens": 2053
+    },
+    {
+      "n": 212,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is currently pitched up at a wall; I can't see the stairs. I need to look down to find the staircase and continue descending.",
+      "latency_s": 5.6,
+      "prompt_tokens": 2055
+    },
+    {
+      "n": 217,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on a landing with a staircase descending to my right. I need to turn toward the stairs and continue descending, as the instruction requires going down several more levels before stopping at the bottom.",
+      "latency_s": 6.18,
+      "prompt_tokens": 2056
+    },
+    {
+      "n": 222,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm mid-staircase with steps descending to my right. I need to re-aim toward the downward flight and continue descending level by level until reaching the bottom.",
+      "latency_s": 6.53,
+      "prompt_tokens": 2058
+    },
+    {
+      "n": 226,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on a wooden staircase with the treads visible below me, facing down the next flight. The instruction says to keep descending, so I'll walk forward down the steps and re-observe after a few steps to check for the landing.",
+      "latency_s": 14.85,
+      "prompt_tokens": 2061
+    },
+    {
+      "n": 229,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've reached a landing with a rug after descending a flight. The instruction requires going down more levels, so I need to find the next flight of stairs. The hallway ahead likely leads to them; I'll advance and re-observe.",
+      "latency_s": 3.55,
+      "prompt_tokens": 2063
+    },
+    {
+      "n": 233,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've reached a landing with a rug after descending a flight, but I don't yet see the next downward flight. I need to scan the landing to locate the continuing stairs before moving.",
+      "latency_s": 4.17,
+      "prompt_tokens": 2064
+    },
+    {
+      "n": 237,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I've drifted into a wall corner; the hallway with the rugs I was following is behind me to the left. I need to turn back toward the open hallway and look for the downward stairs.",
+      "latency_s": 3.72,
+      "prompt_tokens": 2066
+    },
+    {
+      "n": 240,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm currently in a hallway on level ground, but I don't see any stairs in this view. I need to locate the staircase, so I'll turn right to inspect the dark doorway/opening on the right side of the hall.",
+      "latency_s": 4.13,
+      "prompt_tokens": 2067
+    },
+    {
+      "n": 243,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm pressed against a doorframe with a mostly blocked view; a wooden floor and rug are visible to my left through the doorway. I need to turn left to re-orient and look for the stairwell continuing downward.",
+      "latency_s": 4.15,
+      "prompt_tokens": 2066
+    },
+    {
+      "n": 248,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm currently facing a wall/doorframe edge in a hallway with a rug; the corridor continues forward-left with what looks like a dark stairwell opening at the far end. I need to re-aim left to face down the hallway and locate the stairs to descend.",
+      "latency_s": 4.36,
+      "prompt_tokens": 2070
+    },
+    {
+      "n": 252,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I am on a level hallway floor with rugs and doorways, but no staircase is visible in the current view. I need to scan the surroundings to locate the next flight of stairs going down.",
+      "latency_s": 4.3,
+      "prompt_tokens": 2072
+    },
+    {
+      "n": 255,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in an upper hallway with a stair railing visible on my left, suggesting the stairwell descent is to the left. I need to turn left to face the stairs going down.",
+      "latency_s": 4.31,
+      "prompt_tokens": 2073
+    },
+    {
+      "n": 258,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I see a staircase with a railing descending to my left, with a landing rug in front. The instruction requires continuing down multiple flights, so I need to approach and descend these stairs. I'll turn left toward the stair opening first.",
+      "latency_s": 4.66,
+      "prompt_tokens": 2071
+    },
+    {
+      "n": 261,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm standing at the top of a staircase that descends straight ahead, with the railing on my right and the wall on my left. The stairs look aligned with my heading, so I'll step forward down them and re-observe after each step.",
+      "latency_s": 3.01,
+      "prompt_tokens": 2075
+    },
+    {
+      "n": 264,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on a stair landing facing a downward flight toward a window. The instruction says to keep descending several flights to the bottom, so I'll proceed forward down the stairs, re-observing as I go.",
+      "latency_s": 2.61,
+      "prompt_tokens": 2076
+    },
+    {
+      "n": 265,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "I'm at a stair landing with a window ahead; the stairs must continue downward somewhere near the railing on the right. I'll look down to locate the next flight of descending steps before moving.",
+      "latency_s": 3.85,
+      "prompt_tokens": 2075
+    },
+    {
+      "n": 267,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on a stair landing with the staircase continuing downward ahead of me. I need to keep descending, so I'll take a forward step down the stairs and re-observe.",
+      "latency_s": 2.71,
+      "prompt_tokens": 2076
+    },
+    {
+      "n": 268,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "I'm on a stair landing facing a window, with the staircase continuing downward in front of me. I need to look down to see the descending steps clearly before stepping forward.",
+      "latency_s": 3.39,
+      "prompt_tokens": 2078
+    },
+    {
+      "n": 271,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on a stair landing with steps descending ahead of me. The instruction requires continuing down multiple flights, so I'll advance carefully down the stairs and re-observe after each short burst.",
+      "latency_s": 3.35,
+      "prompt_tokens": 2078
+    },
+    {
+      "n": 274,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I am mid-staircase facing down the steps; the landing with the rug is still below me, so I must keep descending. I will advance a few steps down the stairs and then re-observe to check whether I've reached a level landing.",
+      "latency_s": 3.86,
+      "prompt_tokens": 2080
+    },
+    {
+      "n": 277,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm mid-staircase facing down a flight of steps; the instruction requires descending until reaching the bottom landing. I'll advance down the stairs a few steps and re-observe to check for the landing.",
+      "latency_s": 3.28,
+      "prompt_tokens": 2080
+    },
+    {
+      "n": 279,
+      "actions": [
+        "LOOK_UP",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm mid-staircase with steps continuing down in front of me. I'll pitch up briefly to check the path below, then step forward down the stairs one step at a time.",
+      "latency_s": 4.89,
+      "prompt_tokens": 2081
+    },
+    {
+      "n": 282,
+      "actions": [
+        "LOOK_UP",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm mid-staircase looking down at the steps with a rug-covered landing ahead. I need to look up to see the path ahead, then continue descending step by step.",
+      "latency_s": 3.49,
+      "prompt_tokens": 2082
+    },
+    {
+      "n": 284,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is currently facing a wall/window instead of the stairs, so I've lost sight of the descent. I need to pitch down to re-find the staircase before continuing down.",
+      "latency_s": 2.92,
+      "prompt_tokens": 2082
+    },
+    {
+      "n": 285,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down, showing a landing with a rug and stairs continuing downward on the right. I need to level my view first to aim properly before descending the next flight.",
+      "latency_s": 4.41,
+      "prompt_tokens": 2083
+    },
+    {
+      "n": 286,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down showing a rug landing and what look like stairs descending at the lower right. I need to look up to re-orient and find the next flight of stairs down.",
+      "latency_s": 3.05,
+      "prompt_tokens": 2084
+    },
+    {
+      "n": 287,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up toward a window and I've lost sight of the stairs. I need to look down to re-orient and find the staircase before continuing descent.",
+      "latency_s": 2.74,
+      "prompt_tokens": 2084
+    },
+    {
+      "n": 288,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down, showing what appear to be steps and a rug below, but I cannot judge my position on the staircase. I need to look up to see the stairwell and decide whether more levels remain before stopping.",
+      "latency_s": 2.84,
+      "prompt_tokens": 2085
+    },
+    {
+      "n": 289,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The current view is mostly a dark wall and window sill, suggesting the camera is pitched down or I'm facing a wall near a landing. I need to look up and re-orient to find the continuation of the stairs downward.",
+      "latency_s": 3.7,
+      "prompt_tokens": 2086
+    },
+    {
+      "n": 290,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at a window with urns; I need to look down to see the floor and determine whether I've reached the bottom of the stairs on level ground.",
+      "latency_s": 2.38,
+      "prompt_tokens": 2086
+    },
+    {
+      "n": 291,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is aimed at a wall/window up close, so I've lost sight of the stairs. I need to look down and re-orient to find the staircase and continue descending.",
+      "latency_s": 3.19,
+      "prompt_tokens": 2085
+    },
+    {
+      "n": 292,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down showing a rug and stone steps, so I've lost sight of the stairway ahead. I need to look up to re-orient and find the continuation of the stairs down.",
+      "latency_s": 2.76,
+      "prompt_tokens": 2087
+    },
+    {
+      "n": 293,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "I appear to be facing a wall/window very closely, likely disoriented on the stairs. I need to look up to re-orient and find the stairway down.",
+      "latency_s": 2.9,
+      "prompt_tokens": 2088
+    },
+    {
+      "n": 294,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "I'm currently facing a window with decorative urns, likely at a stair landing. I need to look down to find the stairs and continue descending.",
+      "latency_s": 3.07,
+      "prompt_tokens": 2088
+    },
+    {
+      "n": 300,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I am currently facing a wall with a window, which means I have lost sight of the staircase. I need to rotate and re-observe to find the stairs and continue descending to the bottom.",
+      "latency_s": 4.27,
+      "prompt_tokens": 2089
+    },
+    {
+      "n": 301,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down, showing a landing with a rug and what appear to be stairs descending to the right. I need to look up to see the full scene and locate the staircase before descending further.",
+      "latency_s": 4.06,
+      "prompt_tokens": 2090
+    },
+    {
+      "n": 302,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "My view is currently aimed at a wall, so I've lost sight of the staircase. I need to pitch the camera down to find the stairs and the landing below before continuing down.",
+      "latency_s": 2.73,
+      "prompt_tokens": 2091
+    },
+    {
+      "n": 305,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm on a landing with dark paneling; the descending stairs are visible on the right edge of the frame. I need to turn right to face the next flight down and continue descending.",
+      "latency_s": 2.55,
+      "prompt_tokens": 2093
+    },
+    {
+      "n": 309,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The downward flight of stairs is visible ahead, slightly left of center. I will turn left a bit to align with it and begin descending.",
+      "latency_s": 3.01,
+      "prompt_tokens": 2093
+    },
+    {
+      "n": 312,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on a stair landing with a flight of stairs descending ahead of me. I need to keep descending, so I'll aim at the downward stairs and step forward carefully, re-observing as I go.",
+      "latency_s": 3.38,
+      "prompt_tokens": 2097
+    },
+    {
+      "n": 315,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on a stair landing with more stairs descending ahead toward the lower-left. I need to keep descending, so I'll aim at the downward steps and continue forward.",
+      "latency_s": 3.33,
+      "prompt_tokens": 2098
+    },
+    {
+      "n": 319,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall at the top of a stair landing; the stairs descend to the right toward the rug visible in the lower right. I need to turn right to face down the stairs before descending.",
+      "latency_s": 2.98,
+      "prompt_tokens": 2098
+    },
+    {
+      "n": 322,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on a stair landing with the staircase continuing downward ahead of me. The instruction requires descending more levels, so I'll proceed forward down the visible steps and re-observe.",
+      "latency_s": 4.22,
+      "prompt_tokens": 2102
+    },
+    {
+      "n": 323,
+      "actions": [
+        "STOP"
+      ],
+      "thought": "I have descended the stairs and now stand on flat level ground in a hallway with rugs, with no further stairs visible ahead. The instruction ends at the bottom of the stairs, which is where I now am.",
+      "latency_s": 2.94,
+      "prompt_tokens": 2103
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    6.97,
+    7.269,
+    7.567,
+    7.871,
+    8.102,
+    8.32,
+    8.545,
+    8.775,
+    8.764,
+    8.743,
+    8.834,
+    8.804,
+    8.977,
+    9.298,
+    9.575,
+    9.884,
+    10.203,
+    10.315,
+    10.83,
+    10.842,
+    11.308,
+    11.383,
+    11.67,
+    11.847,
+    12.074,
+    12.249,
+    12.432,
+    12.579,
+    12.779,
+    12.539,
+    12.317,
+    12.117,
+    11.907,
+    11.683,
+    11.463,
+    11.25,
+    11.077,
+    10.768,
+    10.459,
+    10.151,
+    9.843,
+    9.536,
+    9.205,
+    9.04,
+    9.119,
+    9.275,
+    9.107,
+    8.931,
+    8.81,
+    8.81,
+    8.81,
+    8.944,
+    9.391,
+    9.69,
+    10.007,
+    10.326,
+    10.645,
+    10.964,
+    11.219,
+    11.387,
+    11.513,
+    11.692,
+    11.476,
+    11.268,
+    11.1,
+    10.804,
+    10.503,
+    10.21,
+    9.919,
+    9.64,
+    9.464,
+    9.449,
+    9.434,
+    9.419,
+    9.404,
+    9.389,
+    9.374,
+    9.359,
+    9.344,
+    9.329,
+    8.948,
+    8.946,
+    9.077,
+    8.838,
+    8.59,
+    8.42,
+    8.194,
+    7.964,
+    7.812,
+    7.645,
+    7.298,
+    7.017,
+    6.764
+  ],
+  "final_distance": 6.764,
+  "min_distance": 6.764,
+  "metrics": {
+    "distance_to_goal": 6.763789176940918,
+    "success": 0.0,
+    "spl": 0.0,
+    "oracle_success": 0.0,
+    "path_length": 23.42847436759621,
+    "steps_taken": 323.0
+  },
+  "success": false,
+  "backend_stats": {
+    "calls": 118,
+    "failures": 0,
+    "prompt_tokens": 237501,
+    "completion_tokens": 24933,
+    "reasoning_tokens": 17707,
+    "latency_s": 521.5505673885345
+  },
+  "stop_deferrals": 0
+}

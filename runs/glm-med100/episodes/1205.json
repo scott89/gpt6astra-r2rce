@@ -1,0 +1,173 @@
+{
+  "episode_id": 1205,
+  "scene_id": "EU6Fwq7SyZv",
+  "instruction": "Walk across kitchen, turn left and stop under the stairs.",
+  "actions_taken": 28,
+  "policy_calls": 11,
+  "api_latency_s": 41.59,
+  "prompt_tokens": 19352,
+  "completion_tokens": 2051,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 41.77,
+  "steps": [
+    {
+      "n": 3,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a kitchen facing a counter and stove on the left, with an open area ahead. I'll walk forward across the kitchen toward the far end, then look for the stairs to turn left under.",
+      "latency_s": 2.96,
+      "prompt_tokens": 872
+    },
+    {
+      "n": 6,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a kitchen facing a stove and windows, with a glass door ahead. I need to walk across the kitchen toward the open area, then turn left to find the stairs. I'll advance carefully and re-observe.",
+      "latency_s": 2.86,
+      "prompt_tokens": 1227
+    },
+    {
+      "n": 8,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the kitchen facing a stove and counter with windows. I need to continue across the kitchen before turning left toward the stairs, which I can't see yet. I'll advance along the counter and re-observe.",
+      "latency_s": 3.34,
+      "prompt_tokens": 1590
+    },
+    {
+      "n": 9,
+      "actions": [
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in the kitchen facing a counter with windows; the path forward is blocked. I need to find the stairs, so I'll turn right to scan the room and locate the kitchen's exit direction.",
+      "latency_s": 3.45,
+      "prompt_tokens": 1953
+    },
+    {
+      "n": 11,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in the kitchen facing a counter with glass doors ahead. The open passage to the right leads toward the wooden-beamed area, which likely contains the stairs. I'll turn right to face the open kitchen area and proceed across it.",
+      "latency_s": 2.86,
+      "prompt_tokens": 1954
+    },
+    {
+      "n": 14,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_LEFT"
+      ],
+      "thought": "I've crossed part of the kitchen and now face glass doors with an open living space beyond. I should move forward into that space, then turn left to locate the stairs.",
+      "latency_s": 4.83,
+      "prompt_tokens": 1955
+    },
+    {
+      "n": 17,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm at the edge of the kitchen facing glass doors, with a large open timber-framed room to my right. I need to locate the stairs; the open great room with wooden beams likely contains them, so I'll turn right to scan that area before moving.",
+      "latency_s": 7.13,
+      "prompt_tokens": 1957
+    },
+    {
+      "n": 21,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the wooden staircase ahead on the right side of this open barn-style room. I need to approach it and stop beneath it, so I'll turn right toward the stairs and advance a couple of steps.",
+      "latency_s": 3.47,
+      "prompt_tokens": 1959
+    },
+    {
+      "n": 24,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is directly ahead, and the instruction says to stop under the stairs after turning left. I'm already facing the stairs; I need to close the remaining distance (~3 m) to the base of the staircase, then stop beneath it.",
+      "latency_s": 4.01,
+      "prompt_tokens": 1961
+    },
+    {
+      "n": 26,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is directly ahead and I appear to be in the open kitchen/living area after turning left earlier. I need to close the distance to the base of the stairs, so I'll advance a couple of steps and re-observe before stopping under the stairs.",
+      "latency_s": 3.85,
+      "prompt_tokens": 1962
+    },
+    {
+      "n": 28,
+      "actions": [
+        "MOVE_FORWARD",
+        "STOP"
+      ],
+      "thought": "I have turned to face the staircase directly after coming across the room; the base of the stairs is only a couple of meters ahead. I will advance one step to get under the stairs and then stop there.",
+      "latency_s": 2.83,
+      "prompt_tokens": 1962
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    7.657,
+    7.526,
+    7.429,
+    7.364,
+    7.332,
+    7.273,
+    7.162,
+    7.112,
+    7.084,
+    6.979,
+    6.883,
+    6.636,
+    6.39,
+    6.144,
+    5.898,
+    5.653,
+    5.409,
+    5.166,
+    4.924
+  ],
+  "final_distance": 4.924,
+  "min_distance": 4.924,
+  "metrics": {
+    "distance_to_goal": 4.923880577087402,
+    "success": 0.0,
+    "spl": 0.0,
+    "oracle_success": 0.0,
+    "path_length": 4.349016100168228,
+    "steps_taken": 28.0
+  },
+  "success": false,
+  "backend_stats": {
+    "calls": 11,
+    "failures": 0,
+    "prompt_tokens": 19352,
+    "completion_tokens": 2051,
+    "reasoning_tokens": 1297,
+    "latency_s": 41.578481912612915
+  },
+  "stop_deferrals": 0
+}

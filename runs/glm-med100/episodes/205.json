@@ -1,0 +1,690 @@
+{
+  "episode_id": 205,
+  "scene_id": "Z6MFQCViBuw",
+  "instruction": "Turn towards a large wooden manel, go forward through a doorway and continue down a red carpet between rope barriers until you reach the next doorway, facing a large bed,and stop.",
+  "actions_taken": 152,
+  "policy_calls": 46,
+  "api_latency_s": 161.47,
+  "prompt_tokens": 91516,
+  "completion_tokens": 8370,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 162.44,
+  "steps": [
+    {
+      "n": 1,
+      "actions": [
+        "MOVE_FORWARD"
+      ],
+      "thought": "I see a red carpet leading straight to an ornate doorway ahead, which matches the instruction's path. I am already aligned with the carpet, so I will advance one step and re-observe before continuing toward the doorway.",
+      "latency_s": 9.23,
+      "prompt_tokens": 896
+    },
+    {
+      "n": 4,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I see a red carpet leading straight to a doorway ahead, matching the instruction's path. I'll advance along the carpet toward the doorway and re-observe before passing through it.",
+      "latency_s": 4.11,
+      "prompt_tokens": 1251
+    },
+    {
+      "n": 7,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm aligned with the ornate doorway straight ahead, with the red carpet leading toward it. I'll advance along the carpet toward the doorway, then re-observe before passing through.",
+      "latency_s": 2.59,
+      "prompt_tokens": 1614
+    },
+    {
+      "n": 10,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm aligned with the doorway ahead, with the red carpet running straight through it. I'll advance along the carpet toward and through the doorway, then re-observe to find the next doorway with the large bed.",
+      "latency_s": 3.31,
+      "prompt_tokens": 1978
+    },
+    {
+      "n": 14,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm aligned on the red carpet facing the ornate doorway ahead. I'll advance along the carpet toward and through the doorway, then re-observe to find the next doorway with the large bed.",
+      "latency_s": 2.41,
+      "prompt_tokens": 1978
+    },
+    {
+      "n": 17,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm aligned with the ornate doorway and the red carpet leads through it. I'll advance through the doorway and then reassess the carpet path and rope barriers.",
+      "latency_s": 2.72,
+      "prompt_tokens": 1978
+    },
+    {
+      "n": 21,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I have advanced along the red carpet and am now at the first ornate doorway. The carpet continues into the next room, so I will keep moving forward through the doorway and re-observe to look for the rope barriers and the large bed.",
+      "latency_s": 3.16,
+      "prompt_tokens": 1979
+    },
+    {
+      "n": 24,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I have passed through the first doorway and am on the red carpet. Ahead the carpet continues into a room; the next doorway appears to be the dark opening on the left where the bed likely is. I'll advance along the carpet and re-observe.",
+      "latency_s": 2.73,
+      "prompt_tokens": 1980
+    },
+    {
+      "n": 27,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I have passed through the first doorway and am on the red carpet between rope barriers. Ahead the carpet continues toward a far wall with doorways on the left and right; the dark opening on the left appears to lead to a bedroom. I should keep advancing along the carpet before turning toward the next doorway.",
+      "latency_s": 3.19,
+      "prompt_tokens": 1979
+    },
+    {
+      "n": 31,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm on the red carpet between rope barriers, and ahead-left there's a doorway opening into a darker room where a large bed is visible. I'll advance along the carpet, then turn left to align with that doorway.",
+      "latency_s": 3.83,
+      "prompt_tokens": 1981
+    },
+    {
+      "n": 34,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet between rope barriers, and the next doorway is ahead-left, opening into a darker room that appears to contain a large bed. I'll advance along the carpet toward it, then align with the doorway before entering.",
+      "latency_s": 5.96,
+      "prompt_tokens": 1981
+    },
+    {
+      "n": 37,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet with rope barriers, and the next doorway is ahead-left, opening into a darker room. I need to align with that doorway and continue forward through it.",
+      "latency_s": 4.83,
+      "prompt_tokens": 1982
+    },
+    {
+      "n": 40,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet at the next doorway, and through it I can see a room with a large bed. I'll advance through the doorway toward the bed, then stop once close.",
+      "latency_s": 2.98,
+      "prompt_tokens": 1984
+    },
+    {
+      "n": 43,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I am on the red carpet between rope barriers, and directly ahead through the next doorway a large bed is visible in the room beyond. I will advance a couple of steps through the doorway toward the bed, then stop.",
+      "latency_s": 2.94,
+      "prompt_tokens": 1985
+    },
+    {
+      "n": 46,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I have passed through the first doorway and am on the red carpet, now entering a dark wood-paneled room with a table. The large bed is not yet visible, so I should continue forward through this room toward the next doorway.",
+      "latency_s": 3.32,
+      "prompt_tokens": 1984
+    },
+    {
+      "n": 48,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I have passed through the first doorway and entered a room with a central table, but I do not yet see the next doorway or the large bed. I should scan the room, starting by turning left to look for another opening.",
+      "latency_s": 4.38,
+      "prompt_tokens": 1986
+    },
+    {
+      "n": 51,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I see an ornate room with a table and chairs, and the edge of a red carpet at the bottom of earlier frames, but no rope barriers or bed in view. I need to re-orient to find the red carpet path leading to the next doorway with the large bed.",
+      "latency_s": 5.06,
+      "prompt_tokens": 1987
+    },
+    {
+      "n": 55,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I am currently facing a large wooden cabinet up close after turning right. I need to re-orient to find the red carpet and doorway, which appeared to my left in earlier frames.",
+      "latency_s": 5.13,
+      "prompt_tokens": 1988
+    },
+    {
+      "n": 58,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I can see a doorway on the left opening into a red-carpeted room, which matches the instruction's red carpet between rope barriers. I need to turn left to aim at that doorway, then move through it.",
+      "latency_s": 3.34,
+      "prompt_tokens": 1989
+    },
+    {
+      "n": 61,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I am aligned with the red carpet leading through the open doorway ahead. I will advance along the carpet and re-observe before continuing toward the next doorway with the bed.",
+      "latency_s": 4.13,
+      "prompt_tokens": 1989
+    },
+    {
+      "n": 64,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I am on the red carpet between rope barriers, aligned with the open doorway ahead. I need to continue forward through it toward the next doorway facing the large bed.",
+      "latency_s": 2.46,
+      "prompt_tokens": 1990
+    },
+    {
+      "n": 67,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I am on the red carpet approaching an open doorway; the instruction says to continue down the carpet through doorways until facing a large bed. I should advance through this doorway and re-observe.",
+      "latency_s": 3.09,
+      "prompt_tokens": 1990
+    },
+    {
+      "n": 71,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I am on the red carpet between rope barriers, and the next doorway is straight ahead in the pink room, with a bed visible beyond it. I should continue forward along the carpet toward that doorway.",
+      "latency_s": 2.73,
+      "prompt_tokens": 1991
+    },
+    {
+      "n": 75,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I have drifted too close to the wooden door frame on my left; the red carpet and the path through the room are to my right. I need to turn right to re-center on the carpet before continuing forward toward the far doorway.",
+      "latency_s": 3.05,
+      "prompt_tokens": 1992
+    },
+    {
+      "n": 79,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I am now facing down the long hall with the red carpet running ahead toward a distant doorway with a bed visible beyond it. I should advance along the carpet, checking periodically.",
+      "latency_s": 3.58,
+      "prompt_tokens": 1994
+    },
+    {
+      "n": 84,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the red carpet leading to a doorway ahead-left, with a bed visible through it in the distance. I need to align with that doorway and proceed through it toward the bed.",
+      "latency_s": 4.18,
+      "prompt_tokens": 1995
+    },
+    {
+      "n": 87,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm aligned with the red carpet leading to the doorway ahead. I'll advance along the carpet toward that doorway, then re-observe before passing through.",
+      "latency_s": 2.87,
+      "prompt_tokens": 1997
+    },
+    {
+      "n": 91,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm aligned with the red carpet leading straight to the doorway ahead, through which a bed is visible. I'll advance along the carpet toward that doorway, then re-observe.",
+      "latency_s": 3.04,
+      "prompt_tokens": 1997
+    },
+    {
+      "n": 95,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm aligned with the red carpet leading straight to the doorway ahead, and through it I can see a large bed in the next room. I need to advance along the carpet toward and through the doorway, then stop near the bed.",
+      "latency_s": 2.99,
+      "prompt_tokens": 1998
+    },
+    {
+      "n": 98,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet facing the first doorway, and through it I can see the next room with what looks like a bed. I need to advance along the carpet toward that doorway, checking alignment as I go.",
+      "latency_s": 3.77,
+      "prompt_tokens": 1998
+    },
+    {
+      "n": 101,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I am on the red carpet facing the ornate doorway, and through it I can already see a large bed in the next room. I need to advance through this doorway and continue along the carpet toward the bed, checking alignment as I go.",
+      "latency_s": 3.49,
+      "prompt_tokens": 1999
+    },
+    {
+      "n": 102,
+      "actions": [
+        "MOVE_FORWARD"
+      ],
+      "thought": "The red carpet leads straight through the doorway ahead toward the room with the bed, so I will advance along it.",
+      "latency_s": 4.68,
+      "prompt_tokens": 4070
+    },
+    {
+      "n": 106,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm aligned with the doorway ahead, with the red carpet running straight through it. I'll advance through the doorway and continue along the carpet toward the next doorway with the bed.",
+      "latency_s": 2.49,
+      "prompt_tokens": 2000
+    },
+    {
+      "n": 109,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I am on the red carpet heading toward the next doorway, through which a bed-like structure is visible. I need to advance along the carpet to reach that doorway before stopping.",
+      "latency_s": 2.75,
+      "prompt_tokens": 2000
+    },
+    {
+      "n": 112,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I am passing through the first doorway onto the red carpet. The next doorway with what looks like a bed is visible ahead, so I will advance along the carpet and re-observe before getting close.",
+      "latency_s": 3.13,
+      "prompt_tokens": 2000
+    },
+    {
+      "n": 116,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I am on the red carpet between rope barriers, heading toward the far doorway where a large bed is visible through it. I need to advance along the carpet to reach that doorway before stopping.",
+      "latency_s": 3.04,
+      "prompt_tokens": 2001
+    },
+    {
+      "n": 120,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I have passed through the first doorway and am now on the red carpet heading toward the far doorway, through which a large bed with a canopy is visible. I should advance along the carpet toward that doorway, checking alignment as I go.",
+      "latency_s": 3.17,
+      "prompt_tokens": 2002
+    },
+    {
+      "n": 124,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm aligned with the red carpet running straight ahead toward a doorway that appears to open into a bedroom with a large bed. I'll advance along the carpet and re-observe before entering the doorway.",
+      "latency_s": 3.24,
+      "prompt_tokens": 2001
+    },
+    {
+      "n": 128,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I am on the red carpet facing the far doorway, and a large bed is visible through it. I need to advance along the carpet toward that doorway, then stop near it facing the bed.",
+      "latency_s": 3.05,
+      "prompt_tokens": 2003
+    },
+    {
+      "n": 132,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm aligned on the red carpet heading straight toward the doorway, and through it I can see the large canopy bed the instruction mentions. I need to advance along the carpet to reach that doorway before stopping.",
+      "latency_s": 2.98,
+      "prompt_tokens": 2003
+    },
+    {
+      "n": 136,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet aligned with the doorway ahead, and a large bed is visible through it. I need to advance along the carpet toward that doorway before stopping near it.",
+      "latency_s": 2.95,
+      "prompt_tokens": 2004
+    },
+    {
+      "n": 139,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm aligned with the doorway and can see the red carpet leading through it toward a large canopy bed beyond. I need to advance through the doorway along the carpet, stopping when facing the bed.",
+      "latency_s": 3.05,
+      "prompt_tokens": 2004
+    },
+    {
+      "n": 143,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The red carpet leads directly through the doorway toward the large bed visible ahead; I am well aligned, so I will advance a few steps along the carpet to get within range of the goal before stopping.",
+      "latency_s": 3.76,
+      "prompt_tokens": 2004
+    },
+    {
+      "n": 147,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I am at the doorway with the red carpet ahead leading directly to a large canopy bed. I need to advance a few steps along the carpet toward the bed before stopping.",
+      "latency_s": 3.12,
+      "prompt_tokens": 2004
+    },
+    {
+      "n": 151,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I have passed through the doorway and am on the red carpet facing the large bed directly ahead. The bed looks roughly 4-5 m away, so I will advance a few steps to get within 3 m before stopping.",
+      "latency_s": 2.99,
+      "prompt_tokens": 2005
+    },
+    {
+      "n": 152,
+      "actions": [
+        "STOP"
+      ],
+      "thought": "I have passed through the doorway and entered the bedroom; the large ornate bed is directly ahead and I am facing it, which matches the end of the instruction. It is time to stop.",
+      "latency_s": 2.47,
+      "prompt_tokens": 2005
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    11.509,
+    11.759,
+    12.009,
+    12.259,
+    12.509,
+    12.759,
+    13.009,
+    13.259,
+    13.509,
+    13.759,
+    14.009,
+    14.259,
+    14.509,
+    14.759,
+    15.009,
+    15.259,
+    15.509,
+    15.759,
+    16.009,
+    16.259,
+    16.509,
+    16.759,
+    17.009,
+    17.259,
+    17.509,
+    17.759,
+    18.009,
+    18.259,
+    18.509,
+    18.759,
+    19.009,
+    19.251,
+    19.493,
+    19.735,
+    19.953,
+    20.172,
+    20.393,
+    20.628,
+    20.879,
+    21.115,
+    21.356,
+    21.654,
+    21.902,
+    22.054,
+    22.027,
+    21.781,
+    21.537,
+    21.297,
+    21.062,
+    20.82,
+    20.594,
+    20.367,
+    20.148,
+    19.93,
+    19.712,
+    19.496,
+    19.28,
+    19.065,
+    18.847,
+    18.63,
+    18.413,
+    18.198,
+    17.948,
+    17.698,
+    17.448,
+    17.198,
+    16.948,
+    16.698,
+    16.448,
+    16.198,
+    15.948,
+    15.698,
+    15.448,
+    15.198,
+    14.948,
+    14.698,
+    14.448,
+    14.198,
+    13.948,
+    13.698,
+    13.448,
+    13.198,
+    12.948,
+    12.698,
+    12.448,
+    12.198,
+    11.948,
+    11.698,
+    11.448,
+    11.198,
+    10.948,
+    10.698,
+    10.448,
+    10.198,
+    9.949,
+    9.699,
+    9.449,
+    9.199,
+    8.949,
+    8.699,
+    8.449,
+    8.199,
+    7.949,
+    7.699,
+    7.449,
+    7.199,
+    6.949,
+    6.7,
+    6.45,
+    6.2,
+    5.95,
+    5.7,
+    5.45,
+    5.2,
+    4.951,
+    4.701,
+    4.451,
+    4.201,
+    3.952,
+    3.702,
+    3.452,
+    3.203,
+    2.953,
+    2.704,
+    2.455,
+    2.206,
+    1.957,
+    1.709,
+    1.461,
+    1.214,
+    0.968,
+    0.725
+  ],
+  "final_distance": 0.725,
+  "min_distance": 0.725,
+  "metrics": {
+    "distance_to_goal": 0.7254678606987,
+    "success": 1.0,
+    "spl": 0.35283422789814994,
+    "oracle_success": 1.0,
+    "path_length": 32.62003330141306,
+    "steps_taken": 152.0
+  },
+  "success": true,
+  "backend_stats": {
+    "calls": 47,
+    "failures": 0,
+    "prompt_tokens": 91516,
+    "completion_tokens": 8370,
+    "reasoning_tokens": 5391,
+    "latency_s": 161.47552394866943
+  },
+  "stop_deferrals": 0
+}

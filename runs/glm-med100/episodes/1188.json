@@ -1,0 +1,231 @@
+{
+  "episode_id": 1188,
+  "scene_id": "X7HyMhZNoso",
+  "instruction": "Walk past the fridge, up the steps, and into the hall. Stop next to the first door on the left.",
+  "actions_taken": 45,
+  "policy_calls": 14,
+  "api_latency_s": 51.55,
+  "prompt_tokens": 25425,
+  "completion_tokens": 2561,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 51.76,
+  "steps": [
+    {
+      "n": 3,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The fridge and hallway opening are visible ahead; I need to walk toward them, then up the steps. I'll advance and re-observe to keep alignment.",
+      "latency_s": 3.44,
+      "prompt_tokens": 884
+    },
+    {
+      "n": 6,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_RIGHT"
+      ],
+      "thought": "I can see the hallway ahead with the stainless steel fridge on its right side, and steps leading up in the distance. I'll advance toward the hallway opening, aiming slightly right of center to pass the fridge.",
+      "latency_s": 6.42,
+      "prompt_tokens": 1239
+    },
+    {
+      "n": 10,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The fridge is ahead to the right, and the hallway with steps is the opening to its left. I'll turn left slightly to aim at the hallway entrance, then move forward toward it.",
+      "latency_s": 3.15,
+      "prompt_tokens": 1603
+    },
+    {
+      "n": 14,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the stainless steel fridge ahead on the right and the hallway with steps beyond it. I need to advance toward the fridge and then proceed up the steps into the hall.",
+      "latency_s": 2.63,
+      "prompt_tokens": 1968
+    },
+    {
+      "n": 16,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm currently facing a wall corner; the opening to the hallway with the steps is to my right, past the fridge. I need to turn right to align with that opening before moving forward.",
+      "latency_s": 2.89,
+      "prompt_tokens": 1969
+    },
+    {
+      "n": 19,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the stainless steel fridge ahead and the steps leading up to the hall just to its left, through the opening. I need to angle slightly left toward the steps and approach them.",
+      "latency_s": 4.78,
+      "prompt_tokens": 1970
+    },
+    {
+      "n": 23,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the steps and hallway through the opening to the right of the wall, with the fridge on the right. I need to angle right and head through the opening toward the steps.",
+      "latency_s": 3.14,
+      "prompt_tokens": 1972
+    },
+    {
+      "n": 26,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the stainless steel fridge ahead on the right and the steps leading up to the hall just left of it. I'll advance toward the steps, keeping the fridge on my right, then climb up into the hallway.",
+      "latency_s": 3.72,
+      "prompt_tokens": 1973
+    },
+    {
+      "n": 30,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The steps up to the hall are directly ahead with the fridge to my right, matching the instruction. I'll move forward toward and up the steps, then re-observe to find the first door on the left.",
+      "latency_s": 3.1,
+      "prompt_tokens": 1973
+    },
+    {
+      "n": 34,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing the steps that lead up into the hallway, with the fridge now behind me on the right. I need to ascend the steps and enter the hall, then look for the first door on the left.",
+      "latency_s": 2.55,
+      "prompt_tokens": 1974
+    },
+    {
+      "n": 37,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've passed the fridge and am at the base of the steps leading up to the hall. I need to climb the steps; the first door on the left appears to be the white door partway up the hallway on the left side.",
+      "latency_s": 2.63,
+      "prompt_tokens": 1974
+    },
+    {
+      "n": 40,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've climbed the steps and entered the hall; a white door is visible on the left wall just ahead. I'll advance a short distance to reach it, then stop beside it.",
+      "latency_s": 5.01,
+      "prompt_tokens": 1975
+    },
+    {
+      "n": 42,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I've climbed the steps and entered the hall; a white door appeared on the left wall near the top of the stairs in an earlier frame. I should turn left to locate the first door on the left and position myself next to it.",
+      "latency_s": 5.39,
+      "prompt_tokens": 1975
+    },
+    {
+      "n": 45,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "STOP"
+      ],
+      "thought": "I've ascended the steps into the hall; the white door on the left is the first door on the left. I'll take a couple of forward steps to come alongside it, then stop.",
+      "latency_s": 2.7,
+      "prompt_tokens": 1976
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    9.494,
+    9.246,
+    8.999,
+    8.752,
+    8.505,
+    8.258,
+    8.012,
+    7.799,
+    7.55,
+    7.302,
+    7.055,
+    6.809,
+    6.564,
+    6.322,
+    6.072,
+    5.822,
+    5.573,
+    5.32,
+    5.077,
+    4.835,
+    4.593,
+    4.353,
+    4.113,
+    3.875,
+    3.639,
+    3.404,
+    3.172,
+    2.943,
+    2.725,
+    2.525,
+    2.25,
+    1.979,
+    1.706,
+    1.434,
+    1.158,
+    0.9
+  ],
+  "final_distance": 0.9,
+  "min_distance": 0.9,
+  "metrics": {
+    "distance_to_goal": 0.9004818201065063,
+    "success": 1.0,
+    "spl": 1.0,
+    "oracle_success": 1.0,
+    "path_length": 8.974229902029037,
+    "steps_taken": 45.0
+  },
+  "success": true,
+  "backend_stats": {
+    "calls": 14,
+    "failures": 0,
+    "prompt_tokens": 25425,
+    "completion_tokens": 2561,
+    "reasoning_tokens": 1616,
+    "latency_s": 51.53993892669678
+  },
+  "stop_deferrals": 0
+}

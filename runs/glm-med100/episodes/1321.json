@@ -1,0 +1,280 @@
+{
+  "episode_id": 1321,
+  "scene_id": "zsNo4HB9uLZ",
+  "instruction": "Walk out of the bathroom and turn right. Turn left and walk down the hallway. Turn right and stop by the end table.",
+  "actions_taken": 60,
+  "policy_calls": 20,
+  "api_latency_s": 67.42,
+  "prompt_tokens": 37406,
+  "completion_tokens": 3609,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 67.75,
+  "steps": [
+    {
+      "n": 4,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm inside the bathroom facing a tiled wall. I need to find the doorway to exit, so I'll scan the room by turning.",
+      "latency_s": 2.22,
+      "prompt_tokens": 886
+    },
+    {
+      "n": 8,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in the bathroom facing a bathtub and window. I need to find the door to exit, so I'll turn to scan the room.",
+      "latency_s": 2.02,
+      "prompt_tokens": 1241
+    },
+    {
+      "n": 12,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm still in the bathroom facing a tiled wall with newspaper print; I need to locate the door to exit. I'll turn to scan the room for the doorway.",
+      "latency_s": 3.13,
+      "prompt_tokens": 1606
+    },
+    {
+      "n": 15,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in the bathroom facing the shower, and the doorway to the hallway is visible on the right side of my view. I need to turn right to face the exit before walking out.",
+      "latency_s": 3.91,
+      "prompt_tokens": 1971
+    },
+    {
+      "n": 17,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bathroom doorway is visible ahead, slightly left of center. I need to exit the bathroom first, so I'll align toward the opening and move forward.",
+      "latency_s": 3.77,
+      "prompt_tokens": 1973
+    },
+    {
+      "n": 19,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the bathroom facing the shower; the doorway out is visible ahead with a hallway beyond. I'll step forward toward the doorway, then re-observe to turn right as instructed.",
+      "latency_s": 2.3,
+      "prompt_tokens": 1973
+    },
+    {
+      "n": 22,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm still in the bathroom facing the shower; the open doorway is slightly to my right. I'll turn right to aim at the doorway, then step forward to exit.",
+      "latency_s": 2.7,
+      "prompt_tokens": 1974
+    },
+    {
+      "n": 24,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm still in the bathroom facing the shower; the open doorway to the hallway is on my left. I'll turn left to face the doorway, then step out of the bathroom.",
+      "latency_s": 3.08,
+      "prompt_tokens": 1976
+    },
+    {
+      "n": 27,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm still in the bathroom facing the shower; the open doorway to the hallway is ahead and slightly right. I'll turn right to align with the doorway, then step out of the bathroom.",
+      "latency_s": 3.49,
+      "prompt_tokens": 1977
+    },
+    {
+      "n": 29,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm still in the bathroom facing the sink; the doorway out is to my left. I'll turn left to face the exit, then step through it before handling the right/left turns in the hallway.",
+      "latency_s": 3.22,
+      "prompt_tokens": 1979
+    },
+    {
+      "n": 30,
+      "actions": [
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm still in the bathroom facing the open doorway; the hallway with the framed picture is visible ahead. I'll step through the doorway first, then re-observe to align for the right turn.",
+      "latency_s": 4.11,
+      "prompt_tokens": 1980
+    },
+    {
+      "n": 33,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm still in the bathroom facing the door; the hallway is visible through the doorway ahead-left. I'll turn left to align with the doorway, then step forward to exit.",
+      "latency_s": 2.83,
+      "prompt_tokens": 1980
+    },
+    {
+      "n": 37,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I appear to have exited the bathroom and am now facing a wall with a framed picture; the bathroom doorway is behind/right of me. I need to turn left to find the hallway and walk down it.",
+      "latency_s": 3.21,
+      "prompt_tokens": 1982
+    },
+    {
+      "n": 41,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to have walked down the hallway and am now facing a closed white door with decorative plates on the wall. Per the instruction, I need to turn right to find the end table, so I'll rotate right and re-observe.",
+      "latency_s": 2.47,
+      "prompt_tokens": 1983
+    },
+    {
+      "n": 44,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm currently facing a wall with a framed picture, and a bathroom doorway is visible on my right. The hallway I need is behind me (seen in an earlier frame), so I'll turn left to re-orient toward it.",
+      "latency_s": 4.19,
+      "prompt_tokens": 1985
+    },
+    {
+      "n": 47,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hallway facing a white door, with the hallway continuing to my left. Per the instruction I still need to walk down the hallway and then turn right at the end table, so I'll rotate left toward the hallway opening and proceed.",
+      "latency_s": 5.0,
+      "prompt_tokens": 1986
+    },
+    {
+      "n": 50,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the hallway with a door and decorative plates ahead; the hallway continues forward. I need to walk down the hallway before turning right toward the end table.",
+      "latency_s": 2.4,
+      "prompt_tokens": 1987
+    },
+    {
+      "n": 53,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've reached the end of the hallway and can see a bedroom ahead with a bed and an end table (nightstand with a lamp) on the left. The instruction says to turn right and stop by the end table, so I need to head toward that end table, which is ahead-left of me. I'll turn left toward it and take a step to approach.",
+      "latency_s": 6.29,
+      "prompt_tokens": 1987
+    },
+    {
+      "n": 56,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've walked down the hallway and can now see the bedroom ahead with the bed and the end table (nightstand with a lamp) beside it. The instruction ends at the end table, so I'll advance toward it and re-observe before stopping.",
+      "latency_s": 4.0,
+      "prompt_tokens": 1990
+    },
+    {
+      "n": 60,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "STOP"
+      ],
+      "thought": "I have walked down the hallway and turned right into the bedroom; the end table (nightstand) is directly ahead next to the bed, roughly 2.5-3 m away. I'll take a couple of forward steps to get beside it, then stop.",
+      "latency_s": 3.08,
+      "prompt_tokens": 1990
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    8.38,
+    8.38,
+    8.142,
+    7.907,
+    7.678,
+    7.429,
+    7.183,
+    6.95,
+    6.705,
+    6.489,
+    6.223,
+    6.342,
+    6.497,
+    6.672,
+    6.862,
+    7.111,
+    7.358,
+    7.584,
+    7.834,
+    8.083,
+    8.333,
+    8.582
+  ],
+  "final_distance": 8.582,
+  "min_distance": 6.223,
+  "metrics": {
+    "distance_to_goal": 8.582277297973633,
+    "success": 0.0,
+    "spl": 0.0,
+    "oracle_success": 0.0,
+    "path_length": 4.991172954440117,
+    "steps_taken": 60.0
+  },
+  "success": false,
+  "backend_stats": {
+    "calls": 20,
+    "failures": 0,
+    "prompt_tokens": 37406,
+    "completion_tokens": 3609,
+    "reasoning_tokens": 2291,
+    "latency_s": 67.41981601715088
+  },
+  "stop_deferrals": 0
+}

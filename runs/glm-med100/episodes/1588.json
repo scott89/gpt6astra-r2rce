@@ -1,0 +1,178 @@
+{
+  "episode_id": 1588,
+  "scene_id": "Z6MFQCViBuw",
+  "instruction": "Turn so you are facing the same direction as the open doors, leading to the room with urns on the left hand side.  Follow the red carpet and walk through the next doorway.  Stop on the carpet in that doorway.",
+  "actions_taken": 26,
+  "policy_calls": 11,
+  "api_latency_s": 43.14,
+  "prompt_tokens": 19712,
+  "completion_tokens": 2187,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 43.33,
+  "steps": [
+    {
+      "n": 1,
+      "actions": [
+        "MOVE_FORWARD"
+      ],
+      "thought": "I am facing down a long room with a red carpet leading to an open doorway ahead, with urns/statues along the sides. I will advance along the carpet toward that doorway, re-observing as I go.",
+      "latency_s": 4.84,
+      "prompt_tokens": 907
+    },
+    {
+      "n": 4,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing down a long hall with a red carpet leading straight to an open doorway ahead, which matches the instruction's direction. I'll advance along the carpet toward that doorway and re-observe before entering.",
+      "latency_s": 3.59,
+      "prompt_tokens": 1262
+    },
+    {
+      "n": 6,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I am aligned with the red carpet and the open doorway straight ahead, with the room containing urns behind me on the left as instructed. I will advance along the carpet toward the doorway, then re-observe to confirm before stepping through.",
+      "latency_s": 4.98,
+      "prompt_tokens": 1625
+    },
+    {
+      "n": 10,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm aligned with the red carpet and the open doorway ahead, with the room of urns on my left. I need to continue along the carpet toward that doorway and stop on the carpet in it.",
+      "latency_s": 3.25,
+      "prompt_tokens": 1988
+    },
+    {
+      "n": 13,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm aligned with the red carpet and the open doorway ahead, having already advanced partway across the room. I'll continue along the carpet toward the doorway, then re-observe to judge when I'm on the carpet in the doorway before stopping.",
+      "latency_s": 4.68,
+      "prompt_tokens": 1989
+    },
+    {
+      "n": 15,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I have followed the red carpet and am now nearly at the ornate doorway ahead, which is straight in front of me. I need to advance a bit more to reach the carpet in the doorway, then stop there.",
+      "latency_s": 4.48,
+      "prompt_tokens": 1990
+    },
+    {
+      "n": 18,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm aligned with the red carpet and the ornate doorway ahead. I need to advance along the carpet toward the doorway, then stop on the carpet in that doorway. I'll take a few forward steps and re-observe to gauge the remaining distance.",
+      "latency_s": 3.41,
+      "prompt_tokens": 1990
+    },
+    {
+      "n": 20,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I have followed the red carpet and am now nearly at the next doorway, which is directly ahead and aligned with my heading. A couple more forward steps should place me on the carpet in that doorway, where I will stop.",
+      "latency_s": 3.73,
+      "prompt_tokens": 1990
+    },
+    {
+      "n": 23,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've followed the red carpet and am now approaching the ornate doorway ahead. I need to walk through it and stop on the carpet inside that doorway, so I'll advance a couple of steps and re-observe.",
+      "latency_s": 3.74,
+      "prompt_tokens": 1989
+    },
+    {
+      "n": 25,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I have followed the red carpet and am now right at the threshold of the open doorway ahead. A couple more forward steps will place me on the carpet inside that doorway, where I should stop.",
+      "latency_s": 3.31,
+      "prompt_tokens": 1991
+    },
+    {
+      "n": 26,
+      "actions": [
+        "STOP"
+      ],
+      "thought": "I have followed the red carpet through the first doorway and am now standing on the carpet in the next doorway, with the ornate room visible ahead. The instruction says to stop on the carpet in that doorway, which is where I am now.",
+      "latency_s": 3.13,
+      "prompt_tokens": 1991
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    9.686,
+    9.936,
+    10.186,
+    10.436,
+    10.686,
+    10.936,
+    11.186,
+    11.436,
+    11.686,
+    11.936,
+    12.186,
+    12.436,
+    12.686,
+    12.936,
+    13.186,
+    13.436,
+    13.686,
+    13.936,
+    14.186,
+    14.436,
+    14.686,
+    14.936,
+    15.186,
+    15.436,
+    15.686,
+    15.936
+  ],
+  "final_distance": 15.936,
+  "min_distance": 9.686,
+  "metrics": {
+    "distance_to_goal": 15.935677528381348,
+    "success": 0.0,
+    "spl": 0.0,
+    "oracle_success": 0.0,
+    "path_length": 6.25,
+    "steps_taken": 26.0
+  },
+  "success": false,
+  "backend_stats": {
+    "calls": 11,
+    "failures": 0,
+    "prompt_tokens": 19712,
+    "completion_tokens": 2187,
+    "reasoning_tokens": 1487,
+    "latency_s": 43.14502215385437
+  },
+  "stop_deferrals": 0
+}

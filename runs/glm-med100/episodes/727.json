@@ -1,0 +1,329 @@
+{
+  "episode_id": 727,
+  "scene_id": "oLBMNvg9in8",
+  "instruction": "Go up the stairs on the left and and continue to the doorway on the right. Enter in to the room and stop.",
+  "actions_taken": 74,
+  "policy_calls": 24,
+  "api_latency_s": 93.31,
+  "prompt_tokens": 45305,
+  "completion_tokens": 4913,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 93.87,
+  "steps": [
+    {
+      "n": 3,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "The current view is dark and unclear, so I need to re-orient to find the stairs mentioned on the left. I will turn left to scan the environment.",
+      "latency_s": 1.98,
+      "prompt_tokens": 885
+    },
+    {
+      "n": 6,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "After three left turns I appear to be facing a wall, with an open archway to the outside on my left. I need to re-orient to find the staircase; turning right should reveal more of the room.",
+      "latency_s": 2.99,
+      "prompt_tokens": 1240
+    },
+    {
+      "n": 9,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I am currently facing a wall at very close range, so I need to reorient. The earlier frame showed an open archway to my left; I will turn right to scan the area and locate the stairs mentioned in the instruction.",
+      "latency_s": 3.89,
+      "prompt_tokens": 1605
+    },
+    {
+      "n": 12,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I appear to be facing a wall very closely after the earlier turns. I need to turn left to re-orient toward the open area and locate the stairs on the left before proceeding.",
+      "latency_s": 3.06,
+      "prompt_tokens": 1969
+    },
+    {
+      "n": 15,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm facing a wall up close with no visible path, so I need to rotate and scan the surroundings to locate the stairs on the left before moving.",
+      "latency_s": 2.57,
+      "prompt_tokens": 1970
+    },
+    {
+      "n": 18,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm currently facing a wall very closely, with an arched opening visible on my left. I need to reorient to find the stairs mentioned in the instruction, so I'll turn left to scan the area.",
+      "latency_s": 3.28,
+      "prompt_tokens": 1971
+    },
+    {
+      "n": 21,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to be at a landing after the stairs, facing an arched opening with debris outside. The instruction says the doorway is on the right, so I should scan right to locate it before moving.",
+      "latency_s": 3.65,
+      "prompt_tokens": 1972
+    },
+    {
+      "n": 24,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I am currently facing a wall very closely, with an arched opening to the outside visible on my left. This does not match the instruction's goal of a doorway on the right after ascending stairs, so I need to re-orient and look around to find the stairs and correct path.",
+      "latency_s": 4.39,
+      "prompt_tokens": 1974
+    },
+    {
+      "n": 27,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I am currently facing an arched opening that leads to exterior debris, which does not match the instruction. The staircase should be elsewhere; I will rotate left to scan the area behind me for the stairs.",
+      "latency_s": 8.16,
+      "prompt_tokens": 1975
+    },
+    {
+      "n": 31,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the staircase on the left leading upward. I need to align with the stairs and ascend them before looking for the doorway on the right at the top.",
+      "latency_s": 2.63,
+      "prompt_tokens": 1976
+    },
+    {
+      "n": 34,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the base of the staircase, which matches 'the stairs on the left' in the instruction. I need to ascend the stairs, so I'll move forward toward and up the steps, then re-observe to find the doorway on the right at the top.",
+      "latency_s": 3.06,
+      "prompt_tokens": 1977
+    },
+    {
+      "n": 38,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the staircase facing the hieroglyphic wall; the stairs continue up to my left. I need to turn left to align with the ascending steps, then climb while re-observing.",
+      "latency_s": 2.67,
+      "prompt_tokens": 1978
+    },
+    {
+      "n": 41,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've reached the top of the stairs and am now in an upstairs hallway. The instruction says to continue to the doorway on the right, so I'll advance down the hallway and re-observe to locate the right-side doorway.",
+      "latency_s": 3.39,
+      "prompt_tokens": 1980
+    },
+    {
+      "n": 43,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've ascended the stairs and am now in a long hallway. I can see an opening on the left (likely the stairwell) but no doorway on the right yet, so I'll advance down the hallway and re-observe to find the right-side doorway.",
+      "latency_s": 5.93,
+      "prompt_tokens": 1980
+    },
+    {
+      "n": 46,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I appear to be at the top of the stairs in an upstairs hallway. The instruction says to continue to the doorway on the right and enter the room. I see an open doorway on the left, but I need to check the right side further down the hall, so I'll advance and re-observe.",
+      "latency_s": 6.58,
+      "prompt_tokens": 1980
+    },
+    {
+      "n": 49,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm now in an upstairs hallway with a doorway on the right side ahead. I need to approach it, turn right, and enter that room.",
+      "latency_s": 3.51,
+      "prompt_tokens": 1981
+    },
+    {
+      "n": 52,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've ascended the stairs and am now in an upper hallway. The instruction says to enter the doorway on the right; I can see an open doorway on the right side leading to a room with a window and furniture. I'll turn right to face it before moving in.",
+      "latency_s": 4.13,
+      "prompt_tokens": 1981
+    },
+    {
+      "n": 56,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I have ascended the stairs and traveled down the hallway; the doorway on the right leading into a room with a red couch and fireplace is now visible ahead. I will turn right to align with it and step inside, then stop.",
+      "latency_s": 2.99,
+      "prompt_tokens": 1983
+    },
+    {
+      "n": 59,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I have reached the doorway on the right, but my current view is mostly blocked by a wall; the room with the red couch and fireplace is visible to my left. I need to turn left to align with the doorway, then move forward into the room before stopping.",
+      "latency_s": 3.46,
+      "prompt_tokens": 1985
+    },
+    {
+      "n": 62,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I have ascended the stairs and reached the doorway on the right; the room with the red couch and fireplace is directly ahead through the opening. I need to align with the doorway and step through to enter the room.",
+      "latency_s": 2.91,
+      "prompt_tokens": 1986
+    },
+    {
+      "n": 66,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I appear to be right at a doorway edge, with a wall/pillar directly in front and the room (with the pink sofa and fireplace) visible to my left. I need to turn left to align with the open doorway and enter the room.",
+      "latency_s": 4.28,
+      "prompt_tokens": 1987
+    },
+    {
+      "n": 69,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to be in an upper hallway: a green room with a fireplace is visible through a doorway on my left, and a closed door is on my right. The instruction says to enter through the doorway on the right, so I will turn right to inspect that doorway before moving.",
+      "latency_s": 6.06,
+      "prompt_tokens": 1988
+    },
+    {
+      "n": 73,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I have reached the upper landing; the doorway on the right opens into a room with a pink sofa. I need to turn right, pass through that doorway, and stop inside the room.",
+      "latency_s": 3.56,
+      "prompt_tokens": 1990
+    },
+    {
+      "n": 74,
+      "actions": [
+        "STOP"
+      ],
+      "thought": "I have climbed the stairs, followed the hallway, and turned right through the doorway into the room with the red sofa, lamp, and ornate fireplace. I am now inside the target room just past the entrance, so I should stop here.",
+      "latency_s": 4.18,
+      "prompt_tokens": 1992
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    5.351,
+    5.351,
+    5.103,
+    4.86,
+    4.59,
+    4.374,
+    4.168,
+    3.908,
+    3.645,
+    3.387,
+    3.142,
+    2.895,
+    2.65,
+    2.405,
+    2.166,
+    1.929,
+    1.695,
+    1.472,
+    1.272,
+    1.078,
+    0.936,
+    0.69,
+    0.531,
+    0.399,
+    0.351
+  ],
+  "final_distance": 0.351,
+  "min_distance": 0.351,
+  "metrics": {
+    "distance_to_goal": 0.3506511449813843,
+    "success": 1.0,
+    "spl": 0.9174083241350507,
+    "oracle_success": 1.0,
+    "path_length": 5.832895815372467,
+    "steps_taken": 74.0
+  },
+  "success": true,
+  "backend_stats": {
+    "calls": 24,
+    "failures": 0,
+    "prompt_tokens": 45305,
+    "completion_tokens": 4913,
+    "reasoning_tokens": 3311,
+    "latency_s": 93.2995285987854
+  },
+  "stop_deferrals": 0
+}

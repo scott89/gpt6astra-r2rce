@@ -1,0 +1,103 @@
+{
+  "episode_id": 954,
+  "scene_id": "QUCTc6BB5sX",
+  "instruction": "Go between the counters, turn left, turn right, and stop before the display and dining room.",
+  "actions_taken": 10,
+  "policy_calls": 6,
+  "api_latency_s": 31.18,
+  "prompt_tokens": 9601,
+  "completion_tokens": 1757,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 31.29,
+  "steps": [
+    {
+      "n": 3,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a kitchen facing a large island counter with an aisle between it and the far counters. The instruction says to go between the counters, so I'll advance forward through this aisle and re-observe before turning.",
+      "latency_s": 3.05,
+      "prompt_tokens": 880
+    },
+    {
+      "n": 4,
+      "actions": [
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a kitchen facing a counter with a sink, apparently between the counters already. I should advance a bit further through the gap between the counters before making the left then right turns toward the display cabinet and dining room.",
+      "latency_s": 3.5,
+      "prompt_tokens": 1235
+    },
+    {
+      "n": 5,
+      "actions": [
+        "TURN_LEFT"
+      ],
+      "thought": "I'm between the kitchen island and the sink counter. The instruction says to turn left, then turn right, then stop before the display cabinet and dining room. I'll turn left first to see the path around the island.",
+      "latency_s": 4.54,
+      "prompt_tokens": 1598
+    },
+    {
+      "n": 6,
+      "actions": [
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm at the kitchen island with the sink directly ahead after turning left. The aisle between the counters runs to my right toward the glass display cabinet and dining room, so I'll turn right to face that gap and re-observe before moving.",
+      "latency_s": 6.03,
+      "prompt_tokens": 1962
+    },
+    {
+      "n": 8,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm between the kitchen counters with the sink directly ahead. The instruction's turns are done; now I need to head toward the display cabinet and dining room visible ahead-right, so I'll turn right into the aisle and advance a step before re-observing.",
+      "latency_s": 8.18,
+      "prompt_tokens": 1962
+    },
+    {
+      "n": 10,
+      "actions": [
+        "MOVE_FORWARD",
+        "STOP"
+      ],
+      "thought": "I have passed between the kitchen counters and turned as instructed; ahead is the glass display hutch with the dining room archway to its right. I am close to that spot, so I will take one small step forward along the counter and stop before the display and dining room.",
+      "latency_s": 5.88,
+      "prompt_tokens": 1964
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    7.381,
+    7.153,
+    6.93,
+    6.71,
+    6.493,
+    6.252,
+    6.01
+  ],
+  "final_distance": 6.01,
+  "min_distance": 6.01,
+  "metrics": {
+    "distance_to_goal": 6.010287284851074,
+    "success": 0.0,
+    "spl": 0.0,
+    "oracle_success": 0.0,
+    "path_length": 1.4505943953990936,
+    "steps_taken": 10.0
+  },
+  "success": false,
+  "backend_stats": {
+    "calls": 6,
+    "failures": 0,
+    "prompt_tokens": 9601,
+    "completion_tokens": 1757,
+    "reasoning_tokens": 1372,
+    "latency_s": 31.19620442390442
+  },
+  "stop_deferrals": 0
+}

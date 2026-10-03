@@ -1,0 +1,647 @@
+{
+  "episode_id": 349,
+  "scene_id": "8194nk5LbLH",
+  "instruction": "Go down the stairs and straight down the hall. Veer right into the living room and walk into the kitchen. In the kitchen stop behind the chair on the right at the first black table.",
+  "actions_taken": 116,
+  "policy_calls": 56,
+  "api_latency_s": 254.78,
+  "prompt_tokens": 109767,
+  "completion_tokens": 11747,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 255.69,
+  "steps": [
+    {
+      "n": 3,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the top of a staircase facing down the steps. The instruction says to go down the stairs first, so I'll begin descending carefully, one step at a time, re-observing as I go.",
+      "latency_s": 1.93,
+      "prompt_tokens": 899
+    },
+    {
+      "n": 6,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the top of a staircase; the stairs descend toward the left of my view. I need to align with the stairway and begin descending.",
+      "latency_s": 2.6,
+      "prompt_tokens": 1254
+    },
+    {
+      "n": 9,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the top of the stairs facing down the staircase, with the hallway visible at the bottom. I need to descend the stairs, so I'll move forward carefully and re-observe.",
+      "latency_s": 2.44,
+      "prompt_tokens": 1619
+    },
+    {
+      "n": 12,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm mid-staircase facing the wall; the stairs descend toward a hallway visible ahead-left. I need to re-aim slightly left to align with the stair path before descending.",
+      "latency_s": 3.77,
+      "prompt_tokens": 1982
+    },
+    {
+      "n": 14,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the top of the stairs; the hallway continues ahead through the orange partition, descending. I'll advance forward to proceed down the stairs and into the hall.",
+      "latency_s": 6.69,
+      "prompt_tokens": 1984
+    },
+    {
+      "n": 17,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've descended the stairs and now face a hallway ahead past the railing. I need to move forward into that corridor and continue straight down the hall.",
+      "latency_s": 2.75,
+      "prompt_tokens": 1984
+    },
+    {
+      "n": 20,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a gym area; the instruction says to go down the hall. There's a dark opening/passage on the right side past the orange partition wall, which likely leads onward. I'll turn right and head toward it.",
+      "latency_s": 3.38,
+      "prompt_tokens": 1984
+    },
+    {
+      "n": 22,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a gym-like room and can see an opening to the right of the orange wall leading into a darker hallway. I need to head through that opening to continue down the hall toward the living room and kitchen.",
+      "latency_s": 3.52,
+      "prompt_tokens": 1985
+    },
+    {
+      "n": 25,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've turned to face the hallway opening past the orange wall. I need to proceed forward through this passage to continue down the hall toward the living room and kitchen.",
+      "latency_s": 2.64,
+      "prompt_tokens": 1987
+    },
+    {
+      "n": 27,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hallway facing a dark opening ahead; the instruction says to continue down the hall and then veer right. The dark passage straight ahead appears to be the way forward, so I'll advance through it and re-observe.",
+      "latency_s": 2.44,
+      "prompt_tokens": 1988
+    },
+    {
+      "n": 29,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a carpeted hallway with a dark passage continuing straight ahead and a white appliance on the right. The instruction says to go straight down the hall before veering right, so I'll advance carefully through the opening ahead and re-observe.",
+      "latency_s": 4.11,
+      "prompt_tokens": 1988
+    },
+    {
+      "n": 31,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in a dark hallway with a wall directly ahead; the passage continues to the left where light is visible. I'll turn left to align with the hallway opening before moving forward.",
+      "latency_s": 2.85,
+      "prompt_tokens": 1988
+    },
+    {
+      "n": 33,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a dark hallway with a wall/pillar directly ahead, and a lit opening to my left where a blue bin and a room are visible. The instruction says to veer right into the living room after the hall, so I'll advance toward the lit opening to see the room layout before proceeding.",
+      "latency_s": 4.74,
+      "prompt_tokens": 1989
+    },
+    {
+      "n": 35,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The scene is dark; I see a hallway continuing ahead with a dark opening slightly left of center, and a room with yellow walls to the left. The instruction says to go straight down the hall, so I will advance carefully toward the dark passage ahead.",
+      "latency_s": 3.19,
+      "prompt_tokens": 1990
+    },
+    {
+      "n": 36,
+      "actions": [
+        "MOVE_FORWARD"
+      ],
+      "thought": "The scene is dark but there appears to be an opening ahead leading down (likely the stairwell described in the instruction). I will advance one step toward the opening and re-observe before continuing.",
+      "latency_s": 3.05,
+      "prompt_tokens": 1990
+    },
+    {
+      "n": 38,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The scene is very dark, but there appears to be a lit opening ahead and stairs visible on the right. I will advance cautiously toward the lit passage and re-observe before continuing.",
+      "latency_s": 4.27,
+      "prompt_tokens": 1991
+    },
+    {
+      "n": 40,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The scene is very dark, but I can see a stair railing on the left and a lit opening to the right that appears to lead down the stairwell. I will turn right toward that opening and advance carefully to begin descending the stairs.",
+      "latency_s": 6.49,
+      "prompt_tokens": 1991
+    },
+    {
+      "n": 42,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The scene is dark but I can see what appears to be a stairwell descending ahead through the opening. The instruction begins with going down the stairs, so I will advance toward the visible stairs and re-observe before descending.",
+      "latency_s": 3.06,
+      "prompt_tokens": 1992
+    },
+    {
+      "n": 44,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The scene is dark but I can see a stairwell descending ahead through the opening. The instruction begins with going down the stairs, so I will advance toward the visible stairs and re-observe before descending.",
+      "latency_s": 5.08,
+      "prompt_tokens": 1992
+    },
+    {
+      "n": 46,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The view is dark but I can see what appears to be a staircase descending ahead of me, matching the instruction to go down the stairs. I will advance toward the stairs and re-observe.",
+      "latency_s": 2.98,
+      "prompt_tokens": 1993
+    },
+    {
+      "n": 49,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "The current view is dark and mostly blocked, suggesting I am facing a wall or obstacle very close by. I need to re-orient to find the path down the stairs and toward the hall.",
+      "latency_s": 2.99,
+      "prompt_tokens": 1993
+    },
+    {
+      "n": 50,
+      "actions": [
+        "MOVE_FORWARD"
+      ],
+      "thought": "The view is dark and partially occluded, but there appears to be a stairwell/opening ahead. I will advance cautiously toward it and re-observe before continuing down the stairs.",
+      "latency_s": 3.08,
+      "prompt_tokens": 1995
+    },
+    {
+      "n": 52,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "The last three frames are identical and nearly black, suggesting I am wedged against a wall or obstacle and my recent forward attempts did not move me. I need to rotate to find an open direction before moving again.",
+      "latency_s": 3.54,
+      "prompt_tokens": 1994
+    },
+    {
+      "n": 56,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "The current view is nearly black and blocked, suggesting I'm facing a wall or corner very closely, possibly after a collision. I need to rotate to re-orient and find the open path toward the kitchen.",
+      "latency_s": 4.06,
+      "prompt_tokens": 1996
+    },
+    {
+      "n": 59,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I appear to be facing a wall up close, with a lit room visible only on the left edge of my view. I need to turn left to reorient toward the open space and find the kitchen.",
+      "latency_s": 3.48,
+      "prompt_tokens": 1998
+    },
+    {
+      "n": 61,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "The view is very dark and I appear to be facing close to a wall or cluttered corner, with a lit opening visible on the left side of the frame. I need to re-orient before moving, so I will turn left to bring the brighter passageway into view and reassess.",
+      "latency_s": 4.87,
+      "prompt_tokens": 1999
+    },
+    {
+      "n": 63,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The scene is dark but I can see what appears to be a staircase descending ahead through an opening. I need to approach and go down the stairs, so I will advance carefully toward the visible stairwell.",
+      "latency_s": 3.82,
+      "prompt_tokens": 2000
+    },
+    {
+      "n": 65,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The scene is dark but I can see what appears to be a staircase descending ahead of me, matching the instruction to go down the stairs. I will advance toward the stairs and re-observe before descending.",
+      "latency_s": 3.39,
+      "prompt_tokens": 2001
+    },
+    {
+      "n": 66,
+      "actions": [
+        "MOVE_FORWARD"
+      ],
+      "thought": "The view is dark and partially occluded, but stairs descending are visible in the center of the frame, matching the instruction to go down the stairs. I appear roughly aligned with the stair opening, so I will advance one step and re-observe.",
+      "latency_s": 4.7,
+      "prompt_tokens": 2001
+    },
+    {
+      "n": 68,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The view is dark but I can see what appear to be stairs descending in the center of the frame, matching the instruction to go down the stairs. I will advance carefully toward them and re-observe.",
+      "latency_s": 2.98,
+      "prompt_tokens": 2002
+    },
+    {
+      "n": 71,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The view is dark but appears to show a stairway descending straight ahead, matching 'go down the stairs'. I will advance carefully toward and down the stairs, re-observing after a short chain.",
+      "latency_s": 3.57,
+      "prompt_tokens": 2002
+    },
+    {
+      "n": 72,
+      "actions": [
+        "MOVE_FORWARD"
+      ],
+      "thought": "The view is very dark, but there appears to be a passage with steps or a stairwell ahead through the narrow opening. I will advance one step toward it and re-observe before committing further.",
+      "latency_s": 3.41,
+      "prompt_tokens": 2002
+    },
+    {
+      "n": 74,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The view is dark but appears to show a stairway descending directly ahead through a narrow opening. I will advance cautiously toward the stairs and re-observe before descending.",
+      "latency_s": 3.52,
+      "prompt_tokens": 2003
+    },
+    {
+      "n": 76,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The view is very dark, but there appears to be an open passage with stairs ahead in the center of the frame. I will advance cautiously toward the bright opening and re-observe.",
+      "latency_s": 3.84,
+      "prompt_tokens": 2003
+    },
+    {
+      "n": 77,
+      "actions": [
+        "MOVE_FORWARD"
+      ],
+      "thought": "The view is very dark, but there appears to be a stairwell descending straight ahead with a bright glare beyond it. Since the instruction begins with going down the stairs, I will advance carefully toward the stairs and re-observe before descending.",
+      "latency_s": 3.69,
+      "prompt_tokens": 2003
+    },
+    {
+      "n": 79,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The view is dark but appears to show a staircase descending ahead, matching the instruction to go down the stairs. I will advance carefully toward and down the stairs, re-observing after each step.",
+      "latency_s": 2.62,
+      "prompt_tokens": 2002
+    },
+    {
+      "n": 81,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The view is dark but I can see what appear to be stairs descending directly ahead, matching the instruction to go down the stairs. I will advance carefully toward them and re-observe.",
+      "latency_s": 2.82,
+      "prompt_tokens": 2003
+    },
+    {
+      "n": 82,
+      "actions": [
+        "TURN_RIGHT"
+      ],
+      "thought": "The view is very dark and ambiguous; I appear to be in a narrow stairwell area but cannot confirm my orientation. I will turn slightly to gather a fresh perspective before moving further.",
+      "latency_s": 5.43,
+      "prompt_tokens": 2003
+    },
+    {
+      "n": 84,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The scene is dark but there appears to be a stairway descending straight ahead with light coming from beyond. I will advance carefully toward it and re-observe.",
+      "latency_s": 3.61,
+      "prompt_tokens": 2004
+    },
+    {
+      "n": 86,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The scene is very dark, but ahead there appears to be a stairwell descending with a light source beyond it, matching the instruction to go down the stairs. I will advance carefully toward the stairs and re-observe.",
+      "latency_s": 3.31,
+      "prompt_tokens": 2005
+    },
+    {
+      "n": 88,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "The current view is mostly blocked by a wall with a bright window ahead, suggesting I've drifted off the path after the last forward moves. I need to re-orient by scanning the surroundings before proceeding toward the kitchen.",
+      "latency_s": 6.11,
+      "prompt_tokens": 2005
+    },
+    {
+      "n": 89,
+      "actions": [
+        "MOVE_FORWARD"
+      ],
+      "thought": "The scene is very dark; I appear to be in a narrow passage with a lit opening ahead-left. I will advance one step to get a clearer view before deciding whether this leads toward the living room and kitchen.",
+      "latency_s": 7.21,
+      "prompt_tokens": 2006
+    },
+    {
+      "n": 90,
+      "actions": [
+        "MOVE_FORWARD"
+      ],
+      "thought": "The view is very dark; I appear to be facing a narrow passage with a bright light ahead, possibly the hallway after descending the stairs. I will advance one step and re-observe before committing further.",
+      "latency_s": 8.02,
+      "prompt_tokens": 2007
+    },
+    {
+      "n": 92,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "The current view is mostly blocked by a wall very close ahead, with a brighter opening visible on the left side of the frame. I need to re-orient toward that opening to continue navigating, so I will turn left and re-observe before moving.",
+      "latency_s": 7.19,
+      "prompt_tokens": 2007
+    },
+    {
+      "n": 95,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm now facing down a hallway with a wooden floor and a railing on the right, which matches 'straight down the hall' after descending the stairs. I should advance along this hallway and re-observe before looking for the right turn into the living room.",
+      "latency_s": 6.08,
+      "prompt_tokens": 2008
+    },
+    {
+      "n": 97,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The view is dark but I can see a wood-floored hallway continuing ahead with a railing on the right, suggesting I'm still in the upper hall area. I'll advance cautiously along the hallway and re-observe before committing further.",
+      "latency_s": 8.38,
+      "prompt_tokens": 2009
+    },
+    {
+      "n": 99,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "The center of the view is occluded, but a hallway with a wooden floor and railing is visible to my left, which matches the hall after descending the stairs. I will turn left to face down the hallway and re-observe before moving.",
+      "latency_s": 6.74,
+      "prompt_tokens": 2010
+    },
+    {
+      "n": 101,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I appear to be in a large open room with chairs and tables visible on the left, which could be the kitchen/dining area. I need to approach the tables to find the first black table with a chair on its right. I'll advance carefully toward that area.",
+      "latency_s": 8.22,
+      "prompt_tokens": 2011
+    },
+    {
+      "n": 104,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The current view shows a room with exercise equipment and a pole directly ahead; this does not yet look like the kitchen with a black table and chair. There appears to be a walkable wooden-floored passage to the right of the pole, so I will re-aim slightly right and advance one step to re-observe before continuing.",
+      "latency_s": 9.51,
+      "prompt_tokens": 2012
+    },
+    {
+      "n": 106,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hallway with a railing on the right and an opening on the left into a room with chairs and tables. The instruction says to continue down the hall before veering right, so I'll advance along the corridor and re-observe before turning.",
+      "latency_s": 9.4,
+      "prompt_tokens": 2014
+    },
+    {
+      "n": 108,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hallway with a railing on the right and a doorway ahead; the instruction says to continue straight down the hall before veering right. I'll advance toward the open doorway ahead.",
+      "latency_s": 3.06,
+      "prompt_tokens": 2014
+    },
+    {
+      "n": 111,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "The camera is currently aimed mostly at a wall; the hallway with the picture-lined right wall is visible off to the left. I need to rotate left to center the corridor before proceeding down the hall toward the living room and kitchen.",
+      "latency_s": 3.5,
+      "prompt_tokens": 2015
+    },
+    {
+      "n": 112,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched too high; I can see ceiling structures and what looks like a hallway to the right, but not the floor or my immediate surroundings. I need to look down to re-orient before moving.",
+      "latency_s": 4.38,
+      "prompt_tokens": 2016
+    },
+    {
+      "n": 113,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is currently pitched down after the last LOOK_DOWN, and I can see a room with furniture and a corridor ahead, but I need a level view to locate the kitchen and the black table with the chair before moving.",
+      "latency_s": 4.84,
+      "prompt_tokens": 2017
+    },
+    {
+      "n": 115,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The view shows a large open room with exercise equipment and a lit corridor opening to the right; this does not yet look like the kitchen described. I will turn toward the open passage on the right and advance to re-observe the layout.",
+      "latency_s": 8.82,
+      "prompt_tokens": 2018
+    },
+    {
+      "n": 116,
+      "actions": [
+        "STOP"
+      ],
+      "thought": "The view shows a chair directly ahead with a dark table beside it, matching the instruction's final target of stopping behind the chair at the first black table. I am close enough to the goal, so I will stop here.",
+      "latency_s": 8.61,
+      "prompt_tokens": 2019
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    14.448,
+    14.686,
+    14.946,
+    15.195,
+    15.403,
+    15.63,
+    15.873,
+    16.126,
+    16.375,
+    16.548,
+    16.725,
+    17.014,
+    17.335,
+    17.513,
+    17.736,
+    17.969,
+    18.198,
+    18.433,
+    18.671,
+    18.912,
+    19.155,
+    19.381,
+    19.63,
+    19.874,
+    20.12,
+    20.368,
+    20.616,
+    20.858,
+    21.127,
+    21.376,
+    21.573,
+    21.648,
+    21.631,
+    21.615,
+    21.599,
+    21.585,
+    21.572,
+    21.726,
+    21.943,
+    22.192,
+    22.329,
+    22.329,
+    22.329,
+    22.329,
+    22.343
+  ],
+  "final_distance": 22.343,
+  "min_distance": 14.448,
+  "metrics": {
+    "distance_to_goal": 22.343284606933594,
+    "success": 0.0,
+    "spl": 0.0,
+    "oracle_success": 0.0,
+    "path_length": 9.219482931192033,
+    "steps_taken": 116.0
+  },
+  "success": false,
+  "backend_stats": {
+    "calls": 56,
+    "failures": 0,
+    "prompt_tokens": 109767,
+    "completion_tokens": 11747,
+    "reasoning_tokens": 8352,
+    "latency_s": 254.7896852493286
+  },
+  "stop_deferrals": 0
+}

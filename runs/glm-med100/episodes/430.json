@@ -1,0 +1,314 @@
+{
+  "episode_id": 430,
+  "scene_id": "Z6MFQCViBuw",
+  "instruction": "Go straight into the dining room. Walk through the door on the right on the wall straight ahead. Stop in the doorway.",
+  "actions_taken": 60,
+  "policy_calls": 22,
+  "api_latency_s": 136.09,
+  "prompt_tokens": 41305,
+  "completion_tokens": 7691,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 136.48,
+  "steps": [
+    {
+      "n": 4,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a dining room with a long table, and on the far wall there is an open doorway slightly right of center. I'll advance toward it, re-observing as I go to keep aligned.",
+      "latency_s": 3.49,
+      "prompt_tokens": 885
+    },
+    {
+      "n": 8,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a large dining room with a long table. On the far wall to the right of center there is an open doorway. I need to advance toward it, steering slightly right around the table, and stop in that doorway.",
+      "latency_s": 3.64,
+      "prompt_tokens": 1240
+    },
+    {
+      "n": 12,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the dining room facing the far wall; the target doorway is the opening on the right side of that wall. The long table blocks the direct path, so I'll angle right to pass around the table's end, then re-aim at the doorway.",
+      "latency_s": 4.67,
+      "prompt_tokens": 1603
+    },
+    {
+      "n": 15,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the dining room facing its right side; the doorway on the far wall (with the ornate frame) is now visible slightly left of center. I'll turn left to aim at it, then advance and re-observe before entering.",
+      "latency_s": 9.37,
+      "prompt_tokens": 1968
+    },
+    {
+      "n": 17,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the dining room facing the far wall, where a doorway (with a mirror above it) is visible slightly right of center. I need to approach it, navigating around the table and chairs, then stop in the doorway.",
+      "latency_s": 8.76,
+      "prompt_tokens": 1970
+    },
+    {
+      "n": 18,
+      "actions": [
+        "MOVE_FORWARD"
+      ],
+      "thought": "I am in the dining room facing the far wall, where an ornate portal (the door on the right of that wall) is visible slightly left of center, with a chair partially blocking the path. I will advance carefully toward it, re-observing to steer around the chair and align with the doorway.",
+      "latency_s": 6.0,
+      "prompt_tokens": 1970
+    },
+    {
+      "n": 20,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the dining room facing the far wall, which has an ornate portal doorway slightly left of center and a curtained opening to its right. The instruction's 'door on the right' on the straight-ahead wall appears to be the curtained doorway on the right side of that wall. I'll advance toward the wall first, steering around the table, then aim for that right-hand door.",
+      "latency_s": 8.95,
+      "prompt_tokens": 1971
+    },
+    {
+      "n": 24,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the dining room facing the far wall; the ornate doorway is straight ahead but slightly right, with a tall chair blocking the direct line. I'll sidestep right around the chair, then re-align toward the doorway.",
+      "latency_s": 7.06,
+      "prompt_tokens": 1970
+    },
+    {
+      "n": 26,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I had been facing a doorway in the wall straight ahead (with an ornate frame and painting above it), but my last two right turns rotated me away toward the curtained wall. I need to turn back left to re-center on that doorway, then approach it.",
+      "latency_s": 8.24,
+      "prompt_tokens": 1973
+    },
+    {
+      "n": 29,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the dining room facing the far wall; the ornate doorway (the right-hand door on that wall) is visible slightly left of center, but a high-backed chair blocks my direct path. I'll angle right to skirt around the chair, then re-aim at the doorway.",
+      "latency_s": 13.9,
+      "prompt_tokens": 1974
+    },
+    {
+      "n": 31,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to be in a pink dining room with a covered table. There is a dark doorway opening on the right side of the wall ahead, between the curtains. I need to turn right to face it and check alignment before approaching.",
+      "latency_s": 6.4,
+      "prompt_tokens": 1976
+    },
+    {
+      "n": 34,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a wall with curtained windows and a dark opening in the center that appears to be a doorway. The instruction says to take the door on the right of the wall straight ahead, so I'll advance toward that dark opening and re-observe.",
+      "latency_s": 5.54,
+      "prompt_tokens": 1977
+    },
+    {
+      "n": 35,
+      "actions": [
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a wall with curtained windows and a dark open doorway slightly right of center, with a large vase in front of it. The instruction says to take the door on the right of the wall straight ahead and stop in the doorway, so I'll advance toward that dark opening and re-check alignment before entering.",
+      "latency_s": 10.7,
+      "prompt_tokens": 1978
+    },
+    {
+      "n": 41,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a curtained wall with a dark opening in the center, but I haven't located the dining room or the door described yet. I should scan the room to find the doorway leading into the dining room before moving further.",
+      "latency_s": 7.05,
+      "prompt_tokens": 1978
+    },
+    {
+      "n": 44,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a pink-walled room facing a wall with a dresser; a dark doorway is visible at the right edge of the frame, which matches 'the door on the right on the wall straight ahead.' I'll turn right to center it, then advance toward it and stop in the doorway.",
+      "latency_s": 6.0,
+      "prompt_tokens": 1981
+    },
+    {
+      "n": 48,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a pink wall with an open doorway slightly right of center \u2014 this matches the 'door on the right on the wall straight ahead'. I'll align with it and advance, stopping in the doorway.",
+      "latency_s": 3.7,
+      "prompt_tokens": 1983
+    },
+    {
+      "n": 50,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The open doorway on the pink wall ahead is the target door; it appears roughly centered but slightly left of my heading. I'll advance a couple of steps and re-observe to fine-tune alignment before entering.",
+      "latency_s": 4.38,
+      "prompt_tokens": 1984
+    },
+    {
+      "n": 53,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The open doorway on the pink wall is nearly straight ahead, slightly left of center, and appears a few meters away. I will advance toward it and re-observe before stepping through.",
+      "latency_s": 3.28,
+      "prompt_tokens": 1984
+    },
+    {
+      "n": 54,
+      "actions": [
+        "MOVE_FORWARD"
+      ],
+      "thought": "The open doorway straight ahead appears to be the door on the right wall of the dining room described in the instruction. I am close but not yet in the doorway, so I will advance one step and re-observe before stopping.",
+      "latency_s": 3.45,
+      "prompt_tokens": 1984
+    },
+    {
+      "n": 56,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The open doorway ahead (slightly left of center) leads into the next room, matching the door on the wall straight ahead. It looks about 2-3 m away, so I'll advance toward it and re-observe before stepping through.",
+      "latency_s": 2.86,
+      "prompt_tokens": 1985
+    },
+    {
+      "n": 59,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a doorway straight ahead with an open door on its right side, matching the instruction. I need to advance toward it and stop in the doorway, so I'll take a couple of forward steps and re-observe.",
+      "latency_s": 3.29,
+      "prompt_tokens": 1986
+    },
+    {
+      "n": 60,
+      "actions": [
+        "STOP"
+      ],
+      "thought": "I have passed through the wall doorway and am now right at the open wooden door on the right, with the hall visible beyond it. I am standing in the doorway, so I should stop here.",
+      "latency_s": 5.36,
+      "prompt_tokens": 1985
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    9.979,
+    9.741,
+    9.505,
+    9.27,
+    9.037,
+    8.806,
+    8.578,
+    8.351,
+    8.129,
+    7.878,
+    7.628,
+    7.385,
+    7.143,
+    6.903,
+    6.667,
+    6.435,
+    6.21,
+    5.996,
+    5.748,
+    5.5,
+    5.256,
+    5.032,
+    4.903,
+    4.784,
+    4.676,
+    4.925,
+    5.159,
+    5.396,
+    5.634,
+    5.872,
+    6.112,
+    6.352,
+    6.593,
+    6.835,
+    7.078,
+    7.321,
+    7.565,
+    7.812,
+    8.057,
+    8.303
+  ],
+  "final_distance": 8.303,
+  "min_distance": 4.676,
+  "metrics": {
+    "distance_to_goal": 8.302840232849121,
+    "success": 0.0,
+    "spl": 0.0,
+    "oracle_success": 0.0,
+    "path_length": 9.78966400027275,
+    "steps_taken": 60.0
+  },
+  "success": false,
+  "backend_stats": {
+    "calls": 22,
+    "failures": 0,
+    "prompt_tokens": 41305,
+    "completion_tokens": 7691,
+    "reasoning_tokens": 6134,
+    "latency_s": 136.0988793373108
+  },
+  "stop_deferrals": 0
+}

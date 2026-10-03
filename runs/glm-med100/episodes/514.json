@@ -1,0 +1,513 @@
+{
+  "episode_id": 514,
+  "scene_id": "zsNo4HB9uLZ",
+  "instruction": "move forward into the room, exit the room and continue straight into an eating area, continue straight into the living room, and stop right next to the rug in front of the couch.",
+  "actions_taken": 120,
+  "policy_calls": 39,
+  "api_latency_s": 139.5,
+  "prompt_tokens": 75890,
+  "completion_tokens": 7387,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 140.17,
+  "steps": [
+    {
+      "n": 1,
+      "actions": [
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall in a small room with what appears to be a glass door on the right. I need to turn to find the exit of this room.",
+      "latency_s": 1.76,
+      "prompt_tokens": 897
+    },
+    {
+      "n": 5,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to be in a bathroom facing a tiled wall with a shower to my right. I need to turn around to find the doorway and exit the room first.",
+      "latency_s": 1.97,
+      "prompt_tokens": 1252
+    },
+    {
+      "n": 8,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I appear to be facing a frosted glass panel, likely a shower door or window, after turning right several times. The tiled wall and towel suggest I started in a bathroom. I need to turn back toward the room to find the exit.",
+      "latency_s": 3.93,
+      "prompt_tokens": 1617
+    },
+    {
+      "n": 10,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I appear to be in a bathroom facing a frosted glass door. I need to exit through this door to continue the instruction. The door is slightly to my right, so I'll turn right and then move forward through it.",
+      "latency_s": 2.54,
+      "prompt_tokens": 1981
+    },
+    {
+      "n": 12,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm currently facing a frosted glass door/window up close, with a doorknob visible earlier on the right. I need to find the actual doorway to exit this room, so I'll turn right to scan for an opening.",
+      "latency_s": 3.68,
+      "prompt_tokens": 1982
+    },
+    {
+      "n": 16,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I appear to be facing a frosted glass panel/wall at very close range, likely after drifting off course. I need to reorient and find the doorway to continue toward the eating area and living room. I'll turn left to scan for an opening.",
+      "latency_s": 3.45,
+      "prompt_tokens": 1983
+    },
+    {
+      "n": 19,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm currently facing what appears to be a wall with a glass panel, not an open path. I need to reorient to find the way into the room described in the instruction, so I'll turn left to scan the surroundings.",
+      "latency_s": 3.92,
+      "prompt_tokens": 1984
+    },
+    {
+      "n": 21,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm currently facing a kitchen counter with a sink and dark cabinets. I need to find the exit from this room to continue toward the eating area, so I'll turn left to scan the room for a doorway.",
+      "latency_s": 2.75,
+      "prompt_tokens": 1985
+    },
+    {
+      "n": 24,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I see a kitchen counter on my right and an open passage to the left leading to a bright hallway. I should turn left to face the passage and move through it to continue the route.",
+      "latency_s": 3.71,
+      "prompt_tokens": 1986
+    },
+    {
+      "n": 27,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm currently in a kitchen/eating area looking down a hallway. I need to continue straight through this passage toward the living room, so I'll move forward along the clear path ahead.",
+      "latency_s": 3.15,
+      "prompt_tokens": 1987
+    },
+    {
+      "n": 30,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a kitchen facing down a hallway with a clear path ahead. The instruction says to continue straight, so I'll advance through the hallway toward the room visible ahead.",
+      "latency_s": 2.98,
+      "prompt_tokens": 1987
+    },
+    {
+      "n": 33,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in a narrow hallway with a kitchen on the right. Ahead-left there's an opening into a room that appears to contain a dining table (the eating area). I should turn left to face that opening and proceed through it.",
+      "latency_s": 3.12,
+      "prompt_tokens": 1988
+    },
+    {
+      "n": 36,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to have turned into a wall/door edge; the hallway opening with the room ahead (where chairs are visible) is now to my right. I need to turn right to re-align with the opening and continue forward.",
+      "latency_s": 3.04,
+      "prompt_tokens": 1989
+    },
+    {
+      "n": 39,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hallway facing a wall, with an open doorway to my left leading into another room. I need to turn left and move through that doorway to continue following the instruction.",
+      "latency_s": 3.31,
+      "prompt_tokens": 1991
+    },
+    {
+      "n": 42,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm currently facing a wall/door edge with an open doorway visible on my left leading to a hallway. I need to turn left to align with the opening before moving forward.",
+      "latency_s": 2.36,
+      "prompt_tokens": 1993
+    },
+    {
+      "n": 46,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've turned into a wall\u2014the last frames show only a blurry surface inches away. The earlier frame showed the hallway opening to the right of this wall, so I'll rotate right to re-face the corridor and the doorway ahead.",
+      "latency_s": 3.44,
+      "prompt_tokens": 1994
+    },
+    {
+      "n": 49,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm pressed against a wall with a hallway visible to my right leading to a doorway ahead. I need to turn right to align with the corridor and then move forward through it.",
+      "latency_s": 2.31,
+      "prompt_tokens": 1996
+    },
+    {
+      "n": 52,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I am currently facing a closed double door at very close range, which is not the way forward. The earlier frame showed an open doorway with a hallway ahead, so I need to turn back left to re-align with that passage before moving.",
+      "latency_s": 5.54,
+      "prompt_tokens": 1998
+    },
+    {
+      "n": 56,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a wall in a hallway with an open doorway to my left leading into a room with a mirror and what appears to be a dining setup. I need to turn left to align with that opening and move into the room.",
+      "latency_s": 3.34,
+      "prompt_tokens": 1999
+    },
+    {
+      "n": 62,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I am facing a wall right next to a door frame, having drifted off the hallway path. I need to turn left to re-face the open hallway I saw earlier, then proceed through the doorway ahead.",
+      "latency_s": 4.48,
+      "prompt_tokens": 2001
+    },
+    {
+      "n": 68,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to have drifted into a corner facing a wall/door edge, with a glass exterior door on my left. I need to turn back toward the interior hallway to continue toward the eating area and living room.",
+      "latency_s": 5.92,
+      "prompt_tokens": 2003
+    },
+    {
+      "n": 72,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm currently facing a blank wall with a wooden door edge on the right, so I've lost my heading. I need to rotate to re-orient and find the hallway leading onward toward the eating area and living room.",
+      "latency_s": 4.68,
+      "prompt_tokens": 2006
+    },
+    {
+      "n": 75,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hallway facing a wall, with an open doorway to my left leading into a room where a couch is visible. I need to turn left toward that opening and proceed into the living room toward the rug in front of the couch.",
+      "latency_s": 3.28,
+      "prompt_tokens": 2008
+    },
+    {
+      "n": 78,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm currently facing a wall with an open doorway to my left leading into a room with what appears to be a dining/living area beyond. I need to turn left to align with the opening before moving forward.",
+      "latency_s": 3.81,
+      "prompt_tokens": 2010
+    },
+    {
+      "n": 81,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to have turned too far and am now facing a wall/door edge very close up, having lost sight of the hallway. I need to rotate right to re-acquire the open passage ahead.",
+      "latency_s": 3.53,
+      "prompt_tokens": 2011
+    },
+    {
+      "n": 84,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm currently pressed against a wall/doorframe with a hallway visible on the right side of the frame. I need to turn right to center the corridor before moving forward, since the instruction requires continuing straight through the space.",
+      "latency_s": 3.79,
+      "prompt_tokens": 2013
+    },
+    {
+      "n": 87,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm currently facing a wall corner with an open passage visible to my left leading into a room with glass panels. I need to turn left to align with that opening and proceed forward through it.",
+      "latency_s": 3.21,
+      "prompt_tokens": 2014
+    },
+    {
+      "n": 89,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The opening into the next room is straight ahead, slightly left of center; I'll step forward to enter it and re-observe before continuing toward the eating area.",
+      "latency_s": 3.61,
+      "prompt_tokens": 2016
+    },
+    {
+      "n": 91,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing an open doorway into a large room with a dark armchair visible ahead, which may be the living room with the couch. I need to advance through this opening and re-observe to locate the eating area and then the rug in front of the couch.",
+      "latency_s": 3.07,
+      "prompt_tokens": 2016
+    },
+    {
+      "n": 94,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the edge of a hallway looking into a large open living space with a glass display structure ahead and a couch/TV area to the right. I need to advance forward into this room and head toward the living room area with the couch and rug.",
+      "latency_s": 3.56,
+      "prompt_tokens": 2017
+    },
+    {
+      "n": 97,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm looking into a large open living space with a glass-walled room ahead and what appears to be a living room with a couch to the right. I need to advance into this open area and find the eating area, then the living room with the rug and couch. The path straight ahead looks clear, so I'll move forward and re-observe.",
+      "latency_s": 4.42,
+      "prompt_tokens": 2016
+    },
+    {
+      "n": 101,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the living room with the couch and rug on the right side of the view, past the glass-walled room. I need to head toward the couch area, so I'll turn right and advance toward the rug in front of the couch.",
+      "latency_s": 4.12,
+      "prompt_tokens": 2018
+    },
+    {
+      "n": 106,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the living room ahead-right with a TV, a couch, and a rug in front of it. I need to approach the rug next to the couch, so I'll turn slightly right and advance toward it.",
+      "latency_s": 4.88,
+      "prompt_tokens": 2019
+    },
+    {
+      "n": 110,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The living room with the couch and rug is directly ahead; the rug appears about 3-4 m away, so I need to close the distance a bit before stopping next to it.",
+      "latency_s": 4.9,
+      "prompt_tokens": 2021
+    },
+    {
+      "n": 111,
+      "actions": [
+        "MOVE_FORWARD"
+      ],
+      "thought": "I have entered the living room; the rug in front of the couch is directly ahead a few meters away. I will advance toward it one step at a time and stop once I am next to the rug.",
+      "latency_s": 4.84,
+      "prompt_tokens": 2022
+    },
+    {
+      "n": 114,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The living room with the TV, couch, and rug is directly ahead; the rug lies a couple meters in front of me. I'll take a few forward steps to reach the rug next to the couch before stopping.",
+      "latency_s": 3.34,
+      "prompt_tokens": 2021
+    },
+    {
+      "n": 116,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the living room with the couch on my right and the rug just ahead. I'll take a step or two forward to reach the rug next to the couch, then stop.",
+      "latency_s": 2.72,
+      "prompt_tokens": 2023
+    },
+    {
+      "n": 119,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm now in the living room facing the TV wall, with the gray rug in the center and the dark couch on my right. I need to advance onto the rug area and position next to the couch, so I'll move forward a couple of steps and then turn right toward the couch.",
+      "latency_s": 3.93,
+      "prompt_tokens": 2023
+    },
+    {
+      "n": 120,
+      "actions": [
+        "STOP"
+      ],
+      "thought": "I have entered the living room and am now right at the rug with the coffee table and couch directly ahead of me, matching the instruction's endpoint. The rug is within reach, so I should stop here.",
+      "latency_s": 3.11,
+      "prompt_tokens": 2023
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    9.575,
+    9.575,
+    9.76,
+    9.511,
+    9.262,
+    9.013,
+    8.765,
+    8.517,
+    8.271,
+    8.026,
+    7.79,
+    7.66,
+    7.444,
+    7.194,
+    6.945,
+    6.699,
+    6.457,
+    6.221,
+    5.987,
+    5.755,
+    5.524,
+    5.295,
+    5.068,
+    4.844,
+    4.622,
+    4.378,
+    4.136,
+    3.895,
+    3.653,
+    3.413,
+    3.174,
+    2.937,
+    2.702,
+    2.471,
+    2.243,
+    2.021,
+    1.806,
+    1.601,
+    1.41,
+    1.241,
+    1.082,
+    0.861,
+    0.777
+  ],
+  "final_distance": 0.777,
+  "min_distance": 0.777,
+  "metrics": {
+    "distance_to_goal": 0.776694655418396,
+    "success": 1.0,
+    "spl": 0.9536540885973179,
+    "oracle_success": 1.0,
+    "path_length": 10.04044096171856,
+    "steps_taken": 120.0
+  },
+  "success": true,
+  "backend_stats": {
+    "calls": 39,
+    "failures": 0,
+    "prompt_tokens": 75890,
+    "completion_tokens": 7387,
+    "reasoning_tokens": 4652,
+    "latency_s": 139.48196125030518
+  },
+  "stop_deferrals": 0
+}

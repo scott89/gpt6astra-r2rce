@@ -1,0 +1,107 @@
+{
+  "episode_id": 781,
+  "scene_id": "EU6Fwq7SyZv",
+  "instruction": "Move ahead in between bar and table to the chair.",
+  "actions_taken": 13,
+  "policy_calls": 6,
+  "api_latency_s": 20.25,
+  "prompt_tokens": 9554,
+  "completion_tokens": 952,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 20.34,
+  "steps": [
+    {
+      "n": 3,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in an attic room with a small table on the right and a purple cushion ahead. I don't yet see the bar or chair, so I'll move forward to explore the room.",
+      "latency_s": 2.11,
+      "prompt_tokens": 871
+    },
+    {
+      "n": 6,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I currently see only an attic corner with a floor cushion\u2014no bar, table, or chair in view. I need to scan the room to locate the furniture mentioned in the instruction before moving further.",
+      "latency_s": 2.47,
+      "prompt_tokens": 1226
+    },
+    {
+      "n": 7,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "I'm in an attic room with a small table ahead and floor cushions on either side. The camera is pitched up toward the ceiling, so I should look down to see the floor path between the cushions (bar and table) before moving toward the chair.",
+      "latency_s": 3.2,
+      "prompt_tokens": 1591
+    },
+    {
+      "n": 9,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a small table with a statue, flanked by floor cushions that look like low seats. The instruction says to move ahead between the bar and table toward the chair, so I should advance toward the table area, which appears about 2-3 m away.",
+      "latency_s": 4.09,
+      "prompt_tokens": 1954
+    },
+    {
+      "n": 12,
+      "actions": [
+        "LOOK_DOWN",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the floor and the table ahead. Then I'll advance toward the table/statue area to find the chair.",
+      "latency_s": 3.48,
+      "prompt_tokens": 1955
+    },
+    {
+      "n": 13,
+      "actions": [
+        "STOP"
+      ],
+      "thought": "I have moved ahead and am now positioned between the floor cushions (bar/seating) and the small table with the statue, right where the instruction ends. The target spot is directly ahead within reach, so I will stop here.",
+      "latency_s": 4.9,
+      "prompt_tokens": 1957
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    5.613,
+    5.82,
+    6.031,
+    6.245,
+    6.487,
+    6.731,
+    6.975,
+    7.219
+  ],
+  "final_distance": 7.219,
+  "min_distance": 5.613,
+  "metrics": {
+    "distance_to_goal": 7.218734264373779,
+    "success": 0.0,
+    "spl": 0.0,
+    "oracle_success": 0.0,
+    "path_length": 1.7583315968513489,
+    "steps_taken": 13.0
+  },
+  "success": false,
+  "backend_stats": {
+    "calls": 6,
+    "failures": 0,
+    "prompt_tokens": 9554,
+    "completion_tokens": 952,
+    "reasoning_tokens": 578,
+    "latency_s": 20.242761373519897
+  },
+  "stop_deferrals": 0
+}

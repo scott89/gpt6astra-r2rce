@@ -1,0 +1,1790 @@
+{
+  "episode_id": 1292,
+  "scene_id": "x8F5xyUWy9e",
+  "instruction": "Walk past the chairs and Jacuzzi tub. Walk right up the stairs through the doorway. Walk up the stairs and turn right. Stop in the doorway.",
+  "actions_taken": 497,
+  "policy_calls": 139,
+  "api_latency_s": 469.06,
+  "prompt_tokens": 284807,
+  "completion_tokens": 25135,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 471.63,
+  "steps": [
+    {
+      "n": 3,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I see a bar area with chairs and a doorway on the right side of the room. The instruction says to walk past the chairs and Jacuzzi tub toward the stairs through the doorway, so I should head toward that open doorway on the right.",
+      "latency_s": 2.04,
+      "prompt_tokens": 891
+    },
+    {
+      "n": 5,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I see a chair in the foreground and a doorway ahead past the refrigerator. The instruction says to walk past the chairs and tub toward the stairs, so I will advance toward the open doorway, checking alignment as I go.",
+      "latency_s": 2.59,
+      "prompt_tokens": 1247
+    },
+    {
+      "n": 8,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I see a chair on the left and a doorway ahead slightly to the right, which likely leads toward the stairs. I'll turn right to align with the doorway and move forward.",
+      "latency_s": 2.56,
+      "prompt_tokens": 1610
+    },
+    {
+      "n": 11,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see a doorway ahead slightly to the right, past the fridge. The instruction says to go through the doorway toward the stairs, so I'll advance toward it and re-check alignment before entering.",
+      "latency_s": 3.1,
+      "prompt_tokens": 1975
+    },
+    {
+      "n": 13,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've turned right and now face a doorway leading to a hallway with tiled floor. The instruction says to go through the doorway toward the stairs, so I'll advance toward it and re-observe.",
+      "latency_s": 2.78,
+      "prompt_tokens": 1976
+    },
+    {
+      "n": 15,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm right at a doorway with a refrigerator on my left; beyond it is a tiled hallway with a closed door ahead. The instruction says to go through the doorway toward the stairs, so I should step forward through this opening, keeping slightly right of the fridge.",
+      "latency_s": 3.62,
+      "prompt_tokens": 1976
+    },
+    {
+      "n": 17,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm pressed right up against a refrigerator, and the doorway ahead leads to a tiled room that doesn't look like the stairway described. I need to re-orient and look around the room to find the stairs through the correct doorway.",
+      "latency_s": 5.72,
+      "prompt_tokens": 1976
+    },
+    {
+      "n": 19,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm currently in a doorway looking into a tiled room with a closed door ahead and a dark opening to the right. I haven't seen the stairs yet, so I'll advance through this doorway and re-observe to locate the stairs or the Jacuzzi tub area.",
+      "latency_s": 3.76,
+      "prompt_tokens": 1977
+    },
+    {
+      "n": 22,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a tiled hallway; ahead there is a dark opening that likely leads to the stairwell mentioned in the instruction. I'll advance toward it and then turn right to enter.",
+      "latency_s": 3.78,
+      "prompt_tokens": 1978
+    },
+    {
+      "n": 25,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a tiled hallway with a dark opening ahead that likely leads to the stairway. I'll advance toward it and re-observe before entering.",
+      "latency_s": 2.82,
+      "prompt_tokens": 1979
+    },
+    {
+      "n": 28,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a tiled bathroom area facing a dark doorway ahead. The instruction says to go through the doorway and up the stairs, so I should advance toward this opening, checking alignment as I go.",
+      "latency_s": 3.15,
+      "prompt_tokens": 1980
+    },
+    {
+      "n": 30,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a tiled bathroom corridor facing a dark opening ahead, which appears to be the doorway leading toward the stairs. I should advance through it and then look for the staircase.",
+      "latency_s": 3.32,
+      "prompt_tokens": 1980
+    },
+    {
+      "n": 33,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to be in a narrow tiled stairwell space after ascending. The instruction says to turn right after the stairs and stop in the doorway, so I should rotate right to look for the doorway.",
+      "latency_s": 7.61,
+      "prompt_tokens": 1980
+    },
+    {
+      "n": 35,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "The last two frames show a wall filling the view, meaning I've turned into or am facing a wall too closely. The earlier frames showed a tiled room with a small cabinet, so I need to turn back left to re-find the open passage toward the stairs.",
+      "latency_s": 6.27,
+      "prompt_tokens": 1982
+    },
+    {
+      "n": 41,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I appear to be facing a tiled wall at very close range, likely inside the bathroom with the Jacuzzi tub. I need to turn around to find the doorway and the stairs mentioned in the instruction.",
+      "latency_s": 5.12,
+      "prompt_tokens": 1983
+    },
+    {
+      "n": 45,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "My current view is mostly blocked\u2014I appear to be facing a wall or corner near the tiled bathroom area. I need to rotate to re-acquire the room and find the doorway leading to the stairs.",
+      "latency_s": 3.35,
+      "prompt_tokens": 1984
+    },
+    {
+      "n": 48,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the staircase ahead and slightly to the right, past the open living area. I need to approach the stairs, so I'll advance toward them and re-observe before climbing.",
+      "latency_s": 4.47,
+      "prompt_tokens": 1985
+    },
+    {
+      "n": 51,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see a staircase ahead and slightly to the right, past the open living area. I need to advance toward it, keeping it in view to align with the stairway entrance.",
+      "latency_s": 3.06,
+      "prompt_tokens": 1986
+    },
+    {
+      "n": 54,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead to the right, past the wooden partition. I need to advance toward it, keeping the partition on my left, then ascend and turn right at the top.",
+      "latency_s": 4.48,
+      "prompt_tokens": 1986
+    },
+    {
+      "n": 57,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see a staircase ahead on the right and a doorway in the middle of the view. The instruction says to go up the stairs through the doorway, so I should advance toward the doorway/stairs area and re-observe before climbing.",
+      "latency_s": 3.53,
+      "prompt_tokens": 1987
+    },
+    {
+      "n": 61,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead-right; I'll align toward it and approach the base of the stairs before climbing.",
+      "latency_s": 3.81,
+      "prompt_tokens": 1987
+    },
+    {
+      "n": 64,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead and slightly to the right, leading up through a doorway. I need to approach and align with the stairs before climbing.",
+      "latency_s": 3.44,
+      "prompt_tokens": 1989
+    },
+    {
+      "n": 67,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead-left; I need to align with it and climb. I'll turn left to face the stairs directly before moving forward.",
+      "latency_s": 2.15,
+      "prompt_tokens": 1991
+    },
+    {
+      "n": 71,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead, slightly right of center, leading up through a doorway. I need to align with the stairs and climb them.",
+      "latency_s": 2.51,
+      "prompt_tokens": 1993
+    },
+    {
+      "n": 75,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead and slightly to my left, leading up through a doorway. I need to align with the stairs and walk up them.",
+      "latency_s": 2.88,
+      "prompt_tokens": 1994
+    },
+    {
+      "n": 78,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see a staircase ahead going up through a doorway, with a door to its left. The instruction says to walk up the stairs through the doorway, so I should advance toward the stairs, keeping them centered.",
+      "latency_s": 4.34,
+      "prompt_tokens": 1996
+    },
+    {
+      "n": 81,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the staircase ahead on the right with a doorway at its top, and the bathroom with the tub on the left. I need to approach the stairs and climb them toward the doorway.",
+      "latency_s": 4.14,
+      "prompt_tokens": 1997
+    },
+    {
+      "n": 84,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the staircase ahead on the right side of the view, leading up through a doorway. I need to approach the base of the stairs, so I'll turn slightly right to align with them and move forward.",
+      "latency_s": 4.02,
+      "prompt_tokens": 1998
+    },
+    {
+      "n": 87,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead and slightly to the left, leading up through a doorway. I need to align toward the stairs and approach them.",
+      "latency_s": 2.65,
+      "prompt_tokens": 2000
+    },
+    {
+      "n": 90,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the staircase ahead through the doorway, slightly right of center. I need to approach it and climb, so I'll advance toward the stairs and re-observe before ascending.",
+      "latency_s": 3.16,
+      "prompt_tokens": 2002
+    },
+    {
+      "n": 93,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the staircase ahead through the opening, slightly right of center. I need to approach and ascend the stairs, so I'll move forward toward them and re-observe before climbing.",
+      "latency_s": 2.89,
+      "prompt_tokens": 2003
+    },
+    {
+      "n": 97,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see a staircase ahead on the right side of the view, leading up through what appears to be a doorway. I need to approach the stairs, so I'll turn slightly right to align with them and move forward.",
+      "latency_s": 3.66,
+      "prompt_tokens": 2002
+    },
+    {
+      "n": 100,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead, slightly right of center, with a wall now on my right. I need to approach and ascend the stairs, so I'll advance toward them and re-observe.",
+      "latency_s": 3.16,
+      "prompt_tokens": 2004
+    },
+    {
+      "n": 103,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead but slightly left of my current heading, and I'm still at the bottom. I'll turn left to align with the stairs, then advance toward them.",
+      "latency_s": 3.05,
+      "prompt_tokens": 2003
+    },
+    {
+      "n": 107,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the Jacuzzi tub on the left and the staircase ahead to the right, passing through a doorway. I need to turn right slightly to align with the stairs and approach them.",
+      "latency_s": 5.7,
+      "prompt_tokens": 2006
+    },
+    {
+      "n": 111,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the staircase ahead, slightly left of center, with a doorway at the top. I need to align with the stairs and walk up through the doorway, then turn right at the top and stop in that doorway.",
+      "latency_s": 3.17,
+      "prompt_tokens": 2008
+    },
+    {
+      "n": 115,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead and slightly to the right, with a doorway at the top. I need to align toward the stairs and climb them, then turn right at the top and stop in the doorway.",
+      "latency_s": 2.59,
+      "prompt_tokens": 2010
+    },
+    {
+      "n": 119,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead and slightly left, leading up to a doorway at the top. I need to align toward the stairs and climb them, then turn right at the top and stop in the doorway.",
+      "latency_s": 2.91,
+      "prompt_tokens": 2012
+    },
+    {
+      "n": 123,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead and slightly to the right, past the doorway. I need to approach it, so I'll turn right a bit and move forward toward the stairs.",
+      "latency_s": 2.36,
+      "prompt_tokens": 2014
+    },
+    {
+      "n": 127,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead through the doorway, slightly right of center. I'll align toward it and advance toward the stairs.",
+      "latency_s": 1.96,
+      "prompt_tokens": 2016
+    },
+    {
+      "n": 129,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "The staircase is visible ahead but slightly left of center; I need to align with it before walking toward the stairs through the doorway.",
+      "latency_s": 2.25,
+      "prompt_tokens": 2018
+    },
+    {
+      "n": 133,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the staircase ahead and slightly to the right, with a doorway at the top. I need to align with the stairs and climb them, then turn right at the top and stop in the doorway.",
+      "latency_s": 2.57,
+      "prompt_tokens": 2019
+    },
+    {
+      "n": 137,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead through the doorway, slightly right of center. I'll align toward it and advance toward the stairs.",
+      "latency_s": 2.15,
+      "prompt_tokens": 2021
+    },
+    {
+      "n": 140,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead through the opening, slightly right of center. I should advance toward it, keeping aligned with the stair entrance, then climb and turn right at the top before stopping in the doorway there.",
+      "latency_s": 3.7,
+      "prompt_tokens": 2023
+    },
+    {
+      "n": 144,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead and slightly to the left, with a wall on my right. I need to align toward the stairs and approach them, then climb and turn right at the top.",
+      "latency_s": 2.57,
+      "prompt_tokens": 2022
+    },
+    {
+      "n": 148,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the bathroom with the Jacuzzi tub on the left and the staircase ahead to the right, with a doorway at its base. I need to head toward the stairs, so I'll align slightly right and advance toward the doorway at the bottom of the stairs.",
+      "latency_s": 6.27,
+      "prompt_tokens": 2025
+    },
+    {
+      "n": 151,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead through the doorway, slightly right of center. I'll align toward it and advance toward the stairs.",
+      "latency_s": 1.89,
+      "prompt_tokens": 2027
+    },
+    {
+      "n": 155,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead and slightly to the left, leading up through a doorway. I need to align toward the stairs and approach them.",
+      "latency_s": 2.44,
+      "prompt_tokens": 2029
+    },
+    {
+      "n": 158,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead and slightly to the right, leading up through a doorway. I need to align toward the stairs and approach them.",
+      "latency_s": 2.09,
+      "prompt_tokens": 2031
+    },
+    {
+      "n": 161,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead through the doorway, slightly right of center. I'll align toward it and advance toward the stairs.",
+      "latency_s": 2.04,
+      "prompt_tokens": 2033
+    },
+    {
+      "n": 165,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead and slightly to the left, leading up through a doorway. I need to align toward it and approach the base of the stairs.",
+      "latency_s": 2.14,
+      "prompt_tokens": 2035
+    },
+    {
+      "n": 169,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead and slightly to the right, past the doorway. I need to align toward it and advance.",
+      "latency_s": 1.89,
+      "prompt_tokens": 2037
+    },
+    {
+      "n": 172,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead through the doorway, slightly right of center. I'll align toward it and advance toward the stairs.",
+      "latency_s": 1.91,
+      "prompt_tokens": 2039
+    },
+    {
+      "n": 176,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead and slightly to the left, leading up through a doorway. I need to align toward it and approach the base of the stairs.",
+      "latency_s": 2.13,
+      "prompt_tokens": 2041
+    },
+    {
+      "n": 180,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead and slightly to the right, past the doorway. I need to align toward it and advance.",
+      "latency_s": 1.9,
+      "prompt_tokens": 2043
+    },
+    {
+      "n": 184,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead through the doorway, slightly right of center. I'll align toward it and advance toward the stairs.",
+      "latency_s": 1.82,
+      "prompt_tokens": 2044
+    },
+    {
+      "n": 188,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead and slightly to my left, leading up through a doorway. I need to align toward it and approach before climbing.",
+      "latency_s": 2.64,
+      "prompt_tokens": 2047
+    },
+    {
+      "n": 192,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead to the right, past the doorway. I need to align toward it and approach the stairs.",
+      "latency_s": 1.72,
+      "prompt_tokens": 2049
+    },
+    {
+      "n": 196,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead through the doorway, slightly right of center. I'll align toward it and advance toward the stairs.",
+      "latency_s": 1.96,
+      "prompt_tokens": 2050
+    },
+    {
+      "n": 200,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead and slightly to the left, leading up through a doorway. I need to align toward the stairs and approach them.",
+      "latency_s": 2.41,
+      "prompt_tokens": 2052
+    },
+    {
+      "n": 203,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the staircase ahead and slightly to the right, with a doorway at its top. I need to approach the stairs, climb them, then turn right and stop in the doorway. First I'll close the distance to the staircase.",
+      "latency_s": 3.89,
+      "prompt_tokens": 2054
+    },
+    {
+      "n": 207,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the staircase ahead through the doorway, slightly to the right of center. I need to advance toward it and climb the stairs, then turn right at the top and stop in that doorway.",
+      "latency_s": 3.07,
+      "prompt_tokens": 2055
+    },
+    {
+      "n": 210,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see a staircase ahead and slightly to the right, with a doorway at the top. I need to approach the stairs first, then climb them, turn right, and stop in the doorway. I'll advance toward the stairs and re-observe.",
+      "latency_s": 2.65,
+      "prompt_tokens": 2056
+    },
+    {
+      "n": 214,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see a staircase ahead on the right with a doorway at the top. I need to approach the stairs and climb them, then turn right at the top and stop in the doorway. First I'll advance toward the base of the stairs.",
+      "latency_s": 2.53,
+      "prompt_tokens": 2056
+    },
+    {
+      "n": 217,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead and slightly right, with a doorway at the top. I need to approach the stairs, climb them, then turn right and stop in the doorway at the top.",
+      "latency_s": 2.33,
+      "prompt_tokens": 2057
+    },
+    {
+      "n": 220,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see a staircase ahead on the right with a doorway at the top. I need to approach the stairs, climb them, then turn right and stop in the doorway. First I'll advance toward the base of the stairs and re-observe.",
+      "latency_s": 2.79,
+      "prompt_tokens": 2057
+    },
+    {
+      "n": 224,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead and slightly right, with a doorway at the top. I need to approach and ascend the stairs, then turn right at the top and stop in the doorway.",
+      "latency_s": 2.8,
+      "prompt_tokens": 2057
+    },
+    {
+      "n": 228,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead and slightly to the right, with a doorway at the top. I need to approach and climb the stairs, then turn right at the top and stop in the doorway there.",
+      "latency_s": 3.32,
+      "prompt_tokens": 2061
+    },
+    {
+      "n": 231,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I appear to have turned too far right and am now facing a wall, with the staircase visible off to my left. I need to rotate back left toward the stairs and the doorway at their top.",
+      "latency_s": 3.47,
+      "prompt_tokens": 2061
+    },
+    {
+      "n": 235,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead and slightly to the right, leading up through a doorway. I need to align with the stairs and climb them, then turn right at the top and stop in the doorway there.",
+      "latency_s": 3.48,
+      "prompt_tokens": 2064
+    },
+    {
+      "n": 239,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the staircase ahead through the doorway, slightly to my right. I need to align with the stairs and walk up them, then turn right at the top and stop in the doorway there.",
+      "latency_s": 3.98,
+      "prompt_tokens": 2064
+    },
+    {
+      "n": 244,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead and slightly to my left, leading up through a doorway. I'll align toward the stairs and begin ascending.",
+      "latency_s": 2.58,
+      "prompt_tokens": 2068
+    },
+    {
+      "n": 248,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the staircase ahead to the right, leading up through a doorway, with the Jacuzzi tub area on the left. I need to approach the stairs, so I'll turn slightly right and move forward toward them.",
+      "latency_s": 3.18,
+      "prompt_tokens": 2069
+    },
+    {
+      "n": 253,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the staircase ahead and slightly to the right, leading up through a doorway. I need to align with the stairs and walk up them, then turn right at the top and stop in that doorway.",
+      "latency_s": 4.43,
+      "prompt_tokens": 2072
+    },
+    {
+      "n": 256,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I appear to be facing a wall too closely; the staircase is off to my left. I need to turn left to re-align with the stairs before ascending.",
+      "latency_s": 3.35,
+      "prompt_tokens": 2074
+    },
+    {
+      "n": 261,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead and slightly to my right, ascending toward a doorway at the top. I need to align with the stairs, climb them, then turn right at the top and stop in that doorway.",
+      "latency_s": 5.09,
+      "prompt_tokens": 2073
+    },
+    {
+      "n": 265,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the staircase ahead and slightly to my left, with a wall on the right. I need to align toward the stairs and walk up them, then turn right at the top and stop in the doorway there.",
+      "latency_s": 2.78,
+      "prompt_tokens": 2077
+    },
+    {
+      "n": 270,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead and slightly to the right, past the doorway. I need to approach the stairs, climb them, then turn right and stop in the doorway at the top.",
+      "latency_s": 2.65,
+      "prompt_tokens": 2078
+    },
+    {
+      "n": 273,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I can see the staircase ahead-left, but a wall occupies the right side of my view, so I'm not aligned with the stairway. I'll turn left to face the stairs directly before moving forward.",
+      "latency_s": 3.12,
+      "prompt_tokens": 2078
+    },
+    {
+      "n": 277,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the staircase ahead on the right side of the view, leading up through a doorway. I need to angle right and approach the base of the stairs before climbing.",
+      "latency_s": 3.4,
+      "prompt_tokens": 2082
+    },
+    {
+      "n": 281,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead and slightly left, with a wall close on my right. I need to align toward the stairs and climb them, then turn right at the top and stop in the doorway there.",
+      "latency_s": 1.98,
+      "prompt_tokens": 2084
+    },
+    {
+      "n": 286,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead-right; I will turn right to align with it and approach the base of the stairs before climbing.",
+      "latency_s": 4.11,
+      "prompt_tokens": 2086
+    },
+    {
+      "n": 290,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead and slightly to the left, leading up through a doorway. I need to align toward it and approach before climbing.",
+      "latency_s": 2.24,
+      "prompt_tokens": 2087
+    },
+    {
+      "n": 295,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the staircase ahead on the right side of the room, past the Jacuzzi tub area on the left. I need to turn right toward the stairs and approach them.",
+      "latency_s": 2.86,
+      "prompt_tokens": 2087
+    },
+    {
+      "n": 300,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead and slightly to the left, with a doorway at its top. I need to align toward the stairs and approach them, then climb and turn right at the top.",
+      "latency_s": 2.4,
+      "prompt_tokens": 2091
+    },
+    {
+      "n": 304,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the bathroom with the Jacuzzi tub on the left and a staircase ascending on the right. I need to head toward the stairs, so I'll turn right to align with them and then advance.",
+      "latency_s": 3.98,
+      "prompt_tokens": 2091
+    },
+    {
+      "n": 307,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see a staircase ahead and slightly to the left, with a doorway at the top. I need to approach and ascend the stairs, so I'll align toward them and move forward.",
+      "latency_s": 3.84,
+      "prompt_tokens": 2093
+    },
+    {
+      "n": 310,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the staircase ahead slightly to the right, with a doorway at its base. I need to approach the stairs and climb them, then turn right at the top and stop in that doorway. First I'll advance toward the staircase.",
+      "latency_s": 3.54,
+      "prompt_tokens": 2098
+    },
+    {
+      "n": 313,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead, slightly right of center, with a doorway at the top. I need to approach and climb the stairs, so I'll move forward toward them and re-observe.",
+      "latency_s": 2.65,
+      "prompt_tokens": 2096
+    },
+    {
+      "n": 316,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see a staircase ahead on the right leading up to a doorway. I need to approach the stairs, climb them, then turn right and stop in the doorway. First I'll advance toward the base of the stairs and re-observe.",
+      "latency_s": 2.75,
+      "prompt_tokens": 2097
+    },
+    {
+      "n": 319,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see a staircase ahead leading up to a doorway at the top. I need to approach and climb the stairs, then turn right at the top and stop in the doorway. First I'll align toward the staircase and move forward.",
+      "latency_s": 2.8,
+      "prompt_tokens": 2099
+    },
+    {
+      "n": 323,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead and slightly to the left, with a doorway at the top. I need to align toward the stairs and climb them, then turn right at the top and stop in the doorway.",
+      "latency_s": 2.88,
+      "prompt_tokens": 2100
+    },
+    {
+      "n": 326,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the staircase ahead and slightly to the right, with a doorway at its base. I need to approach the stairs, climb them, then turn right and stop in the doorway at the top. First I'll align toward the staircase and move forward.",
+      "latency_s": 3.7,
+      "prompt_tokens": 2102
+    },
+    {
+      "n": 329,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead through the doorway, slightly right of center. I need to approach and ascend the stairs, so I'll advance toward them and re-observe before climbing.",
+      "latency_s": 2.95,
+      "prompt_tokens": 2104
+    },
+    {
+      "n": 332,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead and slightly to the right, leading up through a doorway. I need to approach it, climb, then turn right at the top and stop in the doorway there. First I'll advance toward the stairs and re-observe.",
+      "latency_s": 3.07,
+      "prompt_tokens": 2105
+    },
+    {
+      "n": 336,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see a staircase ahead on the right side of the view, past the doorway area. I need to approach the stairs, climb them, then turn right and stop in the doorway at the top. First I'll advance toward the staircase and align with it.",
+      "latency_s": 3.76,
+      "prompt_tokens": 2104
+    },
+    {
+      "n": 340,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the staircase ahead and slightly to the right, with a doorway at the top. I need to align toward the stairs and climb them, then turn right at the top and stop in the doorway there.",
+      "latency_s": 2.52,
+      "prompt_tokens": 2106
+    },
+    {
+      "n": 345,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead-left, leading up through a doorway. I need to align with the stairs and climb them, then turn right at the top and stop in the doorway there.",
+      "latency_s": 1.88,
+      "prompt_tokens": 2106
+    },
+    {
+      "n": 348,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the staircase ahead with a doorway at the top, matching the instruction to walk up the stairs through the doorway. I'll advance toward the stairs and re-observe before climbing.",
+      "latency_s": 3.27,
+      "prompt_tokens": 2110
+    },
+    {
+      "n": 351,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the staircase ahead and slightly right, with a doorway at the top. I need to approach and ascend the stairs, then turn right at the top and stop in that doorway. First I'll close the distance to the stairs.",
+      "latency_s": 2.85,
+      "prompt_tokens": 2110
+    },
+    {
+      "n": 354,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead-right, leading up through a doorway. I'll move forward toward the base of the stairs, then climb and turn right at the top as instructed.",
+      "latency_s": 2.55,
+      "prompt_tokens": 2111
+    },
+    {
+      "n": 358,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead and slightly right, leading up through a doorway. I need to approach and climb the stairs, then turn right at the top and stop in the doorway there.",
+      "latency_s": 3.32,
+      "prompt_tokens": 2111
+    },
+    {
+      "n": 362,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the staircase ahead slightly to the left, with a doorway at the top. I need to approach and ascend the stairs, so I'll align toward them and move forward, re-observing as I go.",
+      "latency_s": 4.89,
+      "prompt_tokens": 2113
+    },
+    {
+      "n": 367,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see a staircase ahead and slightly to the right, with a doorway at the top. I need to align toward the stairs and climb them, then turn right at the top and stop in the doorway there.",
+      "latency_s": 2.3,
+      "prompt_tokens": 2115
+    },
+    {
+      "n": 371,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "The stairs are visible on the left side of my view, but I'm currently facing a wall on the right. I need to turn left to align with the staircase before ascending.",
+      "latency_s": 2.73,
+      "prompt_tokens": 2117
+    },
+    {
+      "n": 375,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the bathroom with the Jacuzzi tub on the left and the staircase on the right side of the view. I need to head toward the stairs, so I'll turn right to align with them and then advance.",
+      "latency_s": 3.83,
+      "prompt_tokens": 2118
+    },
+    {
+      "n": 379,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the staircase ahead to the right, with the bathroom (Jacuzzi tub) on the left. I need to approach the stairs and climb them, then turn right at the top and stop in the doorway there.",
+      "latency_s": 3.13,
+      "prompt_tokens": 2120
+    },
+    {
+      "n": 384,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead and slightly to the left, with a doorway at its top. I need to align toward the stairs and climb them, then turn right at the top and stop in the doorway there.",
+      "latency_s": 3.08,
+      "prompt_tokens": 2122
+    },
+    {
+      "n": 388,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the staircase ahead and slightly to the right, with a doorway at the top. I need to approach the stairs and climb them, then turn right at the top and stop in the doorway there.",
+      "latency_s": 4.74,
+      "prompt_tokens": 2124
+    },
+    {
+      "n": 391,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the staircase ahead slightly to the right, ascending through a doorway. I need to approach and climb the stairs, then turn right at the top and stop in that doorway. First I'll advance toward the stairs and re-observe.",
+      "latency_s": 4.49,
+      "prompt_tokens": 2126
+    },
+    {
+      "n": 396,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the staircase ahead on the right side of the view, past the bathroom with the Jacuzzi tub on the left. I need to align toward the base of the stairs and approach them.",
+      "latency_s": 4.62,
+      "prompt_tokens": 2126
+    },
+    {
+      "n": 400,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the staircase ahead on the left side of the frame, with a wall on the right. I need to align myself toward the stairs and walk up them, then turn right at the top and stop in the doorway.",
+      "latency_s": 2.59,
+      "prompt_tokens": 2128
+    },
+    {
+      "n": 404,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead and slightly to the right, matching the instruction to walk up the stairs. I will align toward the stairs and advance toward them.",
+      "latency_s": 3.28,
+      "prompt_tokens": 2128
+    },
+    {
+      "n": 408,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the staircase ahead and slightly to my left, with a wall on the right. I need to align toward the stairs and climb them, then turn right at the top and stop in the doorway there.",
+      "latency_s": 2.89,
+      "prompt_tokens": 2132
+    },
+    {
+      "n": 412,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the staircase ahead and slightly to the right, with a doorway at the top. I need to approach and climb the stairs, then turn right at the top and stop in that doorway. First I'll align toward the stairs and advance.",
+      "latency_s": 3.31,
+      "prompt_tokens": 2134
+    },
+    {
+      "n": 416,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead-left, with a wall very close on my right. I need to turn left to align with the stairs, then climb them; after the stairs I'll turn right and stop in the doorway.",
+      "latency_s": 3.4,
+      "prompt_tokens": 2136
+    },
+    {
+      "n": 420,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the staircase ahead and slightly to the right, with a doorway at its top. I need to approach the stairs, climb them, then turn right and stop in the doorway. First I'll advance toward the staircase base.",
+      "latency_s": 3.39,
+      "prompt_tokens": 2138
+    },
+    {
+      "n": 423,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the staircase ahead and slightly to the right, with a doorway at the top. I need to approach the base of the stairs first, so I'll advance forward and re-observe before climbing.",
+      "latency_s": 4.39,
+      "prompt_tokens": 2136
+    },
+    {
+      "n": 427,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the Jacuzzi tub area on the left and the staircase going up on the right. I need to head toward the stairs, climb them, then turn right and stop in the doorway at the top.",
+      "latency_s": 3.68,
+      "prompt_tokens": 2139
+    },
+    {
+      "n": 430,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead, slightly left of center, with a doorway at its top. I need to approach and ascend the stairs, then turn right and stop in the doorway. I'll advance toward the stairs first and re-observe.",
+      "latency_s": 3.61,
+      "prompt_tokens": 2141
+    },
+    {
+      "n": 433,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see a staircase ahead and slightly to the left, with a doorway at the top area. I need to approach and ascend the stairs, then turn right and stop in the doorway. First I'll align toward the stairs and move forward.",
+      "latency_s": 3.29,
+      "prompt_tokens": 2140
+    },
+    {
+      "n": 437,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the staircase ahead slightly to the right, with a doorway at the top. I need to approach the stairs, climb them, then turn right and stop in the doorway at the top.",
+      "latency_s": 3.43,
+      "prompt_tokens": 2143
+    },
+    {
+      "n": 441,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the staircase ahead and slightly to the left, with a doorway at the top. I need to align toward the stairs and walk up them, then turn right at the top and stop in the doorway there.",
+      "latency_s": 3.81,
+      "prompt_tokens": 2145
+    },
+    {
+      "n": 444,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the staircase ahead and slightly to the right, with a doorway at the top area. I need to approach the stairs and climb them, then turn right and stop in the doorway. I'll advance toward the stairs first and re-observe.",
+      "latency_s": 4.94,
+      "prompt_tokens": 2147
+    },
+    {
+      "n": 447,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the staircase ahead leading up through a doorway. I need to approach and climb the stairs, then turn right at the top and stop in the doorway there. I'll advance toward the stairs first.",
+      "latency_s": 2.69,
+      "prompt_tokens": 2147
+    },
+    {
+      "n": 449,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead and slightly right, with a doorway at the top. I need to approach and climb the stairs, then turn right at the top and stop in that doorway. I'll advance toward the stairs first and re-observe.",
+      "latency_s": 5.53,
+      "prompt_tokens": 2148
+    },
+    {
+      "n": 453,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the staircase ahead and slightly to the right, leading up through a doorway. I need to approach and ascend the stairs, then turn right at the top and stop in the doorway there.",
+      "latency_s": 3.32,
+      "prompt_tokens": 2149
+    },
+    {
+      "n": 456,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead, slightly left of center. I need to approach and ascend the stairs, then turn right at the top and stop in the doorway there. I'll advance toward the stairs first and re-observe.",
+      "latency_s": 3.78,
+      "prompt_tokens": 2150
+    },
+    {
+      "n": 461,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead and slightly left, with a doorway at its top. I need to approach and climb the stairs, then turn right at the top and stop in that doorway. I'll align toward the stairs and advance carefully.",
+      "latency_s": 4.88,
+      "prompt_tokens": 2150
+    },
+    {
+      "n": 464,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the bathroom with the Jacuzzi tub on the left and the staircase ahead to the right. I need to advance toward the stairs, staying right of the tub, then climb and turn right at the top.",
+      "latency_s": 4.03,
+      "prompt_tokens": 2152
+    },
+    {
+      "n": 467,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the staircase ahead to the right, with a doorway at the top. I need to approach the stairs and climb them, then turn right at the top and stop in the doorway. With 36 actions left, I'll advance toward the stairs now.",
+      "latency_s": 4.98,
+      "prompt_tokens": 2152
+    },
+    {
+      "n": 470,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "The staircase is visible on the right side of my view while the Jacuzzi tub is on the left. I need to turn right to face the stairs, then climb them and turn right at the top to stop in the doorway.",
+      "latency_s": 3.6,
+      "prompt_tokens": 2153
+    },
+    {
+      "n": 474,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible on the left side of my view, so I need to turn left to align with it, then climb. After reaching the top I must turn right and stop in the doorway, but I should re-observe after ascending since only 30 actions remain.",
+      "latency_s": 5.78,
+      "prompt_tokens": 2155
+    },
+    {
+      "n": 478,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead and slightly to my right. I need to align with the stairs and climb them, then turn right at the top and stop in the doorway there.",
+      "latency_s": 2.62,
+      "prompt_tokens": 2157
+    },
+    {
+      "n": 482,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead and slightly left, with a doorway at its base. I need to approach and climb the stairs, then turn right at the top and stop in the doorway. I'll align left toward the stairs first.",
+      "latency_s": 6.28,
+      "prompt_tokens": 2159
+    },
+    {
+      "n": 485,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead and slightly right, with a doorway at its top. I need to approach and ascend the stairs, then turn right at the top and stop in that doorway. With only 18 actions left, I'll advance toward the stairs now.",
+      "latency_s": 3.9,
+      "prompt_tokens": 2161
+    },
+    {
+      "n": 488,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead and slightly right, with a doorway near its top. With only 15 actions left, I must advance toward the stairs now and re-observe before climbing.",
+      "latency_s": 5.14,
+      "prompt_tokens": 2161
+    },
+    {
+      "n": 494,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead and slightly right, with a dark doorway at its top. I need to align toward the stairs and climb; with 12 actions left I'll turn right and advance toward the base of the stairs, then reassess.",
+      "latency_s": 3.85,
+      "prompt_tokens": 2162
+    },
+    {
+      "n": 497,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "STOP"
+      ],
+      "thought": "The stairs are visible just ahead-left and I have only 6 actions left. I will advance a couple of steps toward the top of the stairs and then stop, as the doorway after turning right should be within reach.",
+      "latency_s": 7.9,
+      "prompt_tokens": 2164
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    8.642,
+    8.642,
+    8.712,
+    8.859,
+    9.061,
+    9.038,
+    9.126,
+    9.275,
+    8.952,
+    8.879,
+    8.882,
+    8.955,
+    9.073,
+    9.224,
+    9.399,
+    9.643,
+    9.888,
+    10.133,
+    10.379,
+    10.628,
+    10.877,
+    11.127,
+    11.376,
+    11.625,
+    11.875,
+    12.124,
+    12.374,
+    12.21,
+    12.052,
+    11.901,
+    11.768,
+    11.669,
+    11.612,
+    11.604,
+    11.629,
+    11.655,
+    11.682,
+    11.708,
+    11.734,
+    11.881,
+    12.028,
+    12.028,
+    12.223,
+    12.405,
+    12.44,
+    12.44,
+    12.536,
+    12.632,
+    12.729,
+    12.7,
+    12.671,
+    12.642,
+    12.613,
+    12.584,
+    12.619,
+    12.654,
+    12.75,
+    12.778,
+    12.749,
+    12.749,
+    12.749,
+    12.778,
+    12.749,
+    12.72,
+    12.755,
+    12.778,
+    12.749,
+    12.72,
+    12.755,
+    12.778,
+    12.749,
+    12.72,
+    12.755,
+    12.778,
+    12.749,
+    12.72,
+    12.755,
+    12.778,
+    12.749,
+    12.72,
+    12.755,
+    12.778,
+    12.749,
+    12.72,
+    12.755,
+    12.778,
+    12.749,
+    12.72,
+    12.691,
+    12.691,
+    12.726,
+    12.761,
+    12.778,
+    12.749,
+    12.72,
+    12.778,
+    12.749,
+    12.72,
+    12.778,
+    12.749,
+    12.72,
+    12.691,
+    12.691,
+    12.778,
+    12.749,
+    12.72,
+    12.755,
+    12.778,
+    12.749,
+    12.72,
+    12.691,
+    12.691,
+    12.726,
+    12.761,
+    12.778,
+    12.749,
+    12.72,
+    12.691,
+    12.661,
+    12.632,
+    12.603,
+    12.574,
+    12.546,
+    12.517,
+    12.517,
+    12.613,
+    12.709,
+    12.778,
+    12.749,
+    12.72,
+    12.691,
+    12.661,
+    12.632,
+    12.603,
+    12.574,
+    12.546,
+    12.517,
+    12.517,
+    12.551,
+    12.586,
+    12.586,
+    12.683,
+    12.778
+  ],
+  "final_distance": 12.778,
+  "min_distance": 8.642,
+  "metrics": {
+    "distance_to_goal": 12.77771282196045,
+    "success": 0.0,
+    "spl": 0.0,
+    "oracle_success": 0.0,
+    "path_length": 12.229184864088893,
+    "steps_taken": 497.0
+  },
+  "success": false,
+  "backend_stats": {
+    "calls": 139,
+    "failures": 0,
+    "prompt_tokens": 284807,
+    "completion_tokens": 25135,
+    "reasoning_tokens": 16162,
+    "latency_s": 469.05904269218445
+  },
+  "stop_deferrals": 0
+}

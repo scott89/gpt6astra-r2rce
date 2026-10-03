@@ -1,0 +1,392 @@
+{
+  "episode_id": 400,
+  "scene_id": "8194nk5LbLH",
+  "instruction": "continue down stairs, walk straight into lobby stop at tree.",
+  "actions_taken": 89,
+  "policy_calls": 29,
+  "api_latency_s": 109.23,
+  "prompt_tokens": 54837,
+  "completion_tokens": 5463,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 109.73,
+  "steps": [
+    {
+      "n": 3,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the top of a staircase facing down the steps. The instruction says to continue down the stairs, so I'll begin descending forward, checking my footing as I go.",
+      "latency_s": 2.61,
+      "prompt_tokens": 872
+    },
+    {
+      "n": 6,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm on a staircase with the steps descending to my left; the camera is currently aimed at the wall and handrail. I need to rotate left to face down the stairs before continuing descent.",
+      "latency_s": 2.23,
+      "prompt_tokens": 1227
+    },
+    {
+      "n": 9,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm mid-staircase facing down; the stairs continue descending ahead toward an opening. I'll advance down the steps and re-observe before entering the lobby.",
+      "latency_s": 2.3,
+      "prompt_tokens": 1591
+    },
+    {
+      "n": 12,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm mid-staircase facing down the steps; the lobby should be at the bottom. I'll advance down the stairs a few steps, then re-observe to find the lobby and tree.",
+      "latency_s": 2.31,
+      "prompt_tokens": 1955
+    },
+    {
+      "n": 15,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've descended the stairs and now face a dark doorway leading onward, likely toward the lobby. I'll advance straight through it, checking alignment as I go.",
+      "latency_s": 3.33,
+      "prompt_tokens": 1955
+    },
+    {
+      "n": 18,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the top of the stairs looking down; the instruction says to continue down the stairs and straight into the lobby. I'll advance forward down the steps, then re-observe.",
+      "latency_s": 2.38,
+      "prompt_tokens": 1956
+    },
+    {
+      "n": 21,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I appear to be at the top of a gym area with a dark doorway/opening ahead between the orange partition and the brown wall. The instruction says to continue down and walk straight into the lobby, so I should advance through that opening, checking alignment as I go.",
+      "latency_s": 3.16,
+      "prompt_tokens": 1956
+    },
+    {
+      "n": 24,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a gym area; the instruction says to continue down stairs and into a lobby. The dark opening to the right of the orange wall likely leads onward toward the stairs, so I'll advance toward it and re-observe.",
+      "latency_s": 2.47,
+      "prompt_tokens": 1957
+    },
+    {
+      "n": 26,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm currently facing an orange wall up close, so I need to re-orient. The earlier frames showed an open corridor to the left and a dark doorway to the right; I'll turn right to scan the space and find the lobby with the tree.",
+      "latency_s": 5.99,
+      "prompt_tokens": 1957
+    },
+    {
+      "n": 29,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I am currently facing a wall corner, so I need to re-orient. The earlier view showed a corridor with posters and an opening to the right; I will turn left to face back down the hallway toward the lobby.",
+      "latency_s": 3.19,
+      "prompt_tokens": 1959
+    },
+    {
+      "n": 32,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm currently facing a wall up close, with a corridor visible to my left. I need to turn left to re-align with the hallway so I can continue toward the stairs and lobby.",
+      "latency_s": 5.29,
+      "prompt_tokens": 1960
+    },
+    {
+      "n": 35,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I appear to be in a gym area rather than at the stairs/lobby described. I need to re-orient and find the route toward the stairs and lobby. Turning left to scan the gym for an exit or stairway.",
+      "latency_s": 4.6,
+      "prompt_tokens": 1961
+    },
+    {
+      "n": 38,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm currently facing into a gym area, but the instruction says to continue down stairs and into a lobby with a tree. I need to re-orient to find the exit/stairs. The earlier view showed an orange-walled corridor behind me to the right, so I'll turn back toward it and look for the route down.",
+      "latency_s": 8.75,
+      "prompt_tokens": 1962
+    },
+    {
+      "n": 41,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm currently in a gym area with exercise equipment, but the instruction mentions going down stairs into a lobby. I need to find the stairs first, so I'll turn to scan the room for an exit or stairway.",
+      "latency_s": 3.18,
+      "prompt_tokens": 1964
+    },
+    {
+      "n": 44,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in a gym area and need to find the stairs down to the lobby. There's a dark opening ahead-left that may lead out; I'll turn left to scan the room for the stairway/exit.",
+      "latency_s": 4.29,
+      "prompt_tokens": 1965
+    },
+    {
+      "n": 48,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a gym area but I don't see stairs yet. I need to look around to find the stairs leading down toward the lobby, so I'll rotate and scan the room.",
+      "latency_s": 3.11,
+      "prompt_tokens": 1966
+    },
+    {
+      "n": 51,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a gym; the instruction says to continue down stairs and into a lobby. There's a dark opening ahead between the dumbbell racks that looks like a doorway/exit, so I'll head toward it and re-observe.",
+      "latency_s": 3.4,
+      "prompt_tokens": 1968
+    },
+    {
+      "n": 54,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a gym; the instruction says to continue down stairs into a lobby. There is a dark opening ahead between the dumbbell racks that looks like a passage/stairwell, so I'll advance toward it and re-observe.",
+      "latency_s": 2.64,
+      "prompt_tokens": 1969
+    },
+    {
+      "n": 56,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a gym with dumbbell racks ahead; there's a dark opening between them that likely leads onward toward the stairs/lobby. I'll advance toward it and re-observe.",
+      "latency_s": 3.16,
+      "prompt_tokens": 1969
+    },
+    {
+      "n": 59,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a gym area with dumbbell racks directly ahead and a dark passage between them. The instruction says to walk straight into the lobby, so I'll advance through the gap between the racks, re-observing as I go.",
+      "latency_s": 2.93,
+      "prompt_tokens": 1969
+    },
+    {
+      "n": 62,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I have walked into a dumbbell rack that is blocking my path; the camera is pressed against it. I need to turn and move around this obstacle to continue toward the lobby.",
+      "latency_s": 3.7,
+      "prompt_tokens": 1971
+    },
+    {
+      "n": 65,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in a gym area with a dumbbell rack blocking my path. The earlier frame showed an open doorway/hallway to the left with wooden flooring, which likely leads onward. I'll turn left to re-orient and find the way through.",
+      "latency_s": 3.38,
+      "prompt_tokens": 1973
+    },
+    {
+      "n": 68,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "My view is almost entirely blocked by a close obstacle, and I can see gym equipment (SportsArt machines) around me, not a lobby or stairs. I need to rotate to find a clear opening before moving further.",
+      "latency_s": 3.48,
+      "prompt_tokens": 1974
+    },
+    {
+      "n": 72,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I appear to be wedged next to gym equipment with my view mostly blocked. I need to re-orient and find the exit toward the stairs/lobby, so I will turn left to scan for an open path.",
+      "latency_s": 3.4,
+      "prompt_tokens": 1976
+    },
+    {
+      "n": 75,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "My view is almost entirely blocked by an obstacle right in front of the camera, and I appear to be wedged near gym equipment rather than on the stairs. I need to rotate to clear the obstruction and re-orient before moving.",
+      "latency_s": 3.03,
+      "prompt_tokens": 1977
+    },
+    {
+      "n": 79,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "The camera is blocked by a dark object right in front of me, and I appear to be in a gym area with exercise machines, not the lobby described in the instruction. I need to turn and find a clear path, likely back toward the stairs and lobby.",
+      "latency_s": 3.41,
+      "prompt_tokens": 1979
+    },
+    {
+      "n": 85,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "The current view shows a wall with a bulletin board and recycling bin, not the stairs or lobby the instruction describes. I need to re-orient and scan the room to find the stairway down into the lobby.",
+      "latency_s": 7.25,
+      "prompt_tokens": 1981
+    },
+    {
+      "n": 88,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "My view is blocked by an object right in front of me, so I must be pressed against gym equipment. Earlier frames showed an open area with a green wall and recycling bin to my right, so I will turn right to re-orient and find a clear path toward the stairs and lobby.",
+      "latency_s": 4.93,
+      "prompt_tokens": 1983
+    },
+    {
+      "n": 89,
+      "actions": [
+        "STOP"
+      ],
+      "thought": "A large dark object (likely the decorative tree) is directly in front of the camera, and the earlier frame showed the lobby area with the recycling bin and trash can just behind it. I appear to have reached the tree at the end of the lobby, so I will stop here.",
+      "latency_s": 5.33,
+      "prompt_tokens": 1985
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    5.67,
+    5.909,
+    6.168,
+    6.418,
+    6.666,
+    6.931,
+    7.145,
+    7.336,
+    7.543,
+    7.767,
+    7.991,
+    8.331,
+    8.618,
+    8.809,
+    9.036,
+    9.272,
+    9.512,
+    9.755,
+    10.0,
+    10.245,
+    10.492,
+    10.562,
+    10.715,
+    10.837,
+    10.981,
+    11.099,
+    11.279,
+    11.47,
+    11.67,
+    11.878,
+    12.092,
+    12.311,
+    12.403
+  ],
+  "final_distance": 12.403,
+  "min_distance": 5.67,
+  "metrics": {
+    "distance_to_goal": 12.402566909790039,
+    "success": 0.0,
+    "spl": 0.0,
+    "oracle_success": 0.0,
+    "path_length": 8.373895689845085,
+    "steps_taken": 89.0
+  },
+  "success": false,
+  "backend_stats": {
+    "calls": 29,
+    "failures": 0,
+    "prompt_tokens": 54837,
+    "completion_tokens": 5463,
+    "reasoning_tokens": 3537,
+    "latency_s": 109.21322345733643
+  },
+  "stop_deferrals": 0
+}

@@ -1,0 +1,250 @@
+{
+  "episode_id": 975,
+  "scene_id": "x8F5xyUWy9e",
+  "instruction": "Exit the bathroom then go straight until you get to a room. Wait by the desk.",
+  "actions_taken": 48,
+  "policy_calls": 17,
+  "api_latency_s": 78.21,
+  "prompt_tokens": 31229,
+  "completion_tokens": 3998,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 78.49,
+  "steps": [
+    {
+      "n": 3,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in a bathroom facing a massage table. There appears to be a wooden door on the left side of the room, so I'll turn left to face it and find the exit.",
+      "latency_s": 1.89,
+      "prompt_tokens": 878
+    },
+    {
+      "n": 5,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in a tiled bathroom with a massage table and sink. I need to find the exit; there's a dark doorway edge on the left side of my view, so I'll turn left to check it before moving.",
+      "latency_s": 3.3,
+      "prompt_tokens": 1233
+    },
+    {
+      "n": 8,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm inside the bathroom facing its interior; the open doorway to the hallway is on my left (stone wall and rug visible beyond the door frame). I'll turn left to align with the exit before stepping through.",
+      "latency_s": 5.35,
+      "prompt_tokens": 1597
+    },
+    {
+      "n": 10,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I've turned 120\u00b0 left from the bathroom interior and now appear to be looking out through the doorway at a brick-walled area with a plant. I need to scan further left to find the open hallway and the desk, since no desk is visible yet.",
+      "latency_s": 9.88,
+      "prompt_tokens": 1960
+    },
+    {
+      "n": 13,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the bathroom and can see the exit doorway ahead leading to a hallway and a room beyond. I'll align slightly left toward the doorway and move forward, then re-observe to find the desk.",
+      "latency_s": 7.33,
+      "prompt_tokens": 1961
+    },
+    {
+      "n": 16,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_LEFT"
+      ],
+      "thought": "I appear to have exited the bathroom (the blue-lit room with the tub is now behind/ahead through the open door) and I'm in a stone-walled hallway. There is a doorway on the left that may lead to the room with the desk, so I'll advance down the hall and then check the left opening.",
+      "latency_s": 5.37,
+      "prompt_tokens": 1962
+    },
+    {
+      "n": 19,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I've exited the bathroom and am in a stone hallway. To my left there's an open doorway into a furnished room that could contain the desk. I'll turn toward it and inspect before entering.",
+      "latency_s": 4.43,
+      "prompt_tokens": 1963
+    },
+    {
+      "n": 22,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've exited the bathroom area and turned to face an open doorway leading into a room with what looks like a table/desk inside. I'll move forward through the doorway toward the desk.",
+      "latency_s": 4.77,
+      "prompt_tokens": 1963
+    },
+    {
+      "n": 24,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've passed through the doorway into a room containing a large table (the desk). I should advance toward it and stop nearby.",
+      "latency_s": 7.98,
+      "prompt_tokens": 1964
+    },
+    {
+      "n": 27,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm currently inside a tiled bathroom/spa room with a massage table, robe, and sink. I need to find the exit doorway, so I'll turn to scan the room before moving.",
+      "latency_s": 4.64,
+      "prompt_tokens": 1965
+    },
+    {
+      "n": 29,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm inside the bathroom/massage room and can see an open doorway ahead leading out to another room (with a lit pool area). I need to aim at that doorway and move forward to exit, then continue toward the desk.",
+      "latency_s": 3.84,
+      "prompt_tokens": 1967
+    },
+    {
+      "n": 32,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I am in the bathroom facing an open doorway that leads out to another room. I will move forward through the doorway and then look for the desk in the next room.",
+      "latency_s": 3.46,
+      "prompt_tokens": 1968
+    },
+    {
+      "n": 35,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've exited the bathroom and am in a hallway facing an open doorway leading to another room (with a pool visible beyond). I should proceed straight through the doorway, then look for the desk.",
+      "latency_s": 2.83,
+      "prompt_tokens": 1968
+    },
+    {
+      "n": 38,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've exited the bathroom and am facing an open doorway leading into another room. The doorway is roughly centered ahead, so I'll advance through it and then look for the desk.",
+      "latency_s": 3.03,
+      "prompt_tokens": 1969
+    },
+    {
+      "n": 41,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've exited the bathroom and am at the doorway facing a large pool room. The instruction says to go straight into the room and wait by the desk; I can see a chair/desk area on the left side of the room ahead, so I'll advance through the doorway first.",
+      "latency_s": 3.12,
+      "prompt_tokens": 1969
+    },
+    {
+      "n": 46,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've exited the bathroom and entered a large pool/spa room. I can see a desk/counter with a chair on the left side of the room, so I'll turn left and approach it.",
+      "latency_s": 3.17,
+      "prompt_tokens": 1970
+    },
+    {
+      "n": 48,
+      "actions": [
+        "MOVE_FORWARD",
+        "STOP"
+      ],
+      "thought": "I have exited the bathroom into a large spa/pool room, and directly ahead on the left is a desk/counter with papers and a phone on it. I am already very close to it, so I will take one small step forward to be beside the desk and then stop.",
+      "latency_s": 3.82,
+      "prompt_tokens": 1972
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    6.833,
+    6.833,
+    6.588,
+    6.344,
+    6.101,
+    5.858,
+    5.701,
+    5.551,
+    5.409,
+    5.249,
+    5.119,
+    4.873,
+    4.628,
+    4.378,
+    4.119,
+    3.861,
+    3.602,
+    3.344,
+    3.085,
+    2.834,
+    2.589,
+    2.346,
+    2.103,
+    1.863,
+    1.656,
+    1.463,
+    1.274,
+    1.087
+  ],
+  "final_distance": 1.087,
+  "min_distance": 1.087,
+  "metrics": {
+    "distance_to_goal": 1.0872666835784912,
+    "success": 1.0,
+    "spl": 1.0,
+    "oracle_success": 1.0,
+    "path_length": 6.506727188825607,
+    "steps_taken": 48.0
+  },
+  "success": true,
+  "backend_stats": {
+    "calls": 17,
+    "failures": 0,
+    "prompt_tokens": 31229,
+    "completion_tokens": 3998,
+    "reasoning_tokens": 2845,
+    "latency_s": 78.22032117843628
+  },
+  "stop_deferrals": 0
+}

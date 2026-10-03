@@ -1,0 +1,124 @@
+{
+  "episode_id": 10,
+  "scene_id": "2azQ1b91cZZ",
+  "instruction": "Walk into the living room and keep walking straight past the living room. Then walk into the entrance under the balcony. Wait in the entrance to the other room.",
+  "actions_taken": 19,
+  "policy_calls": 6,
+  "api_latency_s": 18.52,
+  "prompt_tokens": 9672,
+  "completion_tokens": 983,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 18.64,
+  "steps": [
+    {
+      "n": 3,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The central arched doorway beneath the balcony is the target entrance. I am still in the living room, so I will walk straight toward it, checking alignment as I go.",
+      "latency_s": 6.06,
+      "prompt_tokens": 892
+    },
+    {
+      "n": 6,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the living room facing the arched entrance directly under the balcony, which matches the instruction's target. The arch is centered ahead, so I'll advance toward it and re-observe before entering.",
+      "latency_s": 2.62,
+      "prompt_tokens": 1247
+    },
+    {
+      "n": 9,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I am in the living room facing the arched entrance under the balcony, which is roughly centered ahead. I will advance toward the archway and re-observe before entering.",
+      "latency_s": 2.71,
+      "prompt_tokens": 1610
+    },
+    {
+      "n": 12,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the living room facing the arched entrance under the balcony, which is directly ahead and roughly centered. I'll advance toward it and re-observe before entering.",
+      "latency_s": 2.27,
+      "prompt_tokens": 1974
+    },
+    {
+      "n": 15,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm aligned with the arched entrance under the balcony, which matches the instruction's target. I'll advance toward it and re-observe before entering.",
+      "latency_s": 2.22,
+      "prompt_tokens": 1974
+    },
+    {
+      "n": 19,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "STOP"
+      ],
+      "thought": "I have crossed the living room and am now facing the arched entrance under the balcony, which leads to the next room. I'll step forward into the entrance and stop there.",
+      "latency_s": 2.64,
+      "prompt_tokens": 1975
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    7.113,
+    6.863,
+    6.613,
+    6.363,
+    6.113,
+    5.863,
+    5.613,
+    5.363,
+    5.113,
+    4.863,
+    4.613,
+    4.363,
+    4.113,
+    3.863,
+    3.613,
+    3.363,
+    3.113,
+    2.863,
+    2.613
+  ],
+  "final_distance": 2.613,
+  "min_distance": 2.613,
+  "metrics": {
+    "distance_to_goal": 2.613039016723633,
+    "success": 1.0,
+    "spl": 1.0,
+    "oracle_success": 1.0,
+    "path_length": 4.5,
+    "steps_taken": 19.0
+  },
+  "success": true,
+  "backend_stats": {
+    "calls": 6,
+    "failures": 0,
+    "prompt_tokens": 9672,
+    "completion_tokens": 983,
+    "reasoning_tokens": 590,
+    "latency_s": 18.52163600921631
+  },
+  "stop_deferrals": 0
+}

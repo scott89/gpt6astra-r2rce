@@ -1,0 +1,139 @@
+{
+  "episode_id": 1541,
+  "scene_id": "oLBMNvg9in8",
+  "instruction": "Continue up the flight of stairs to the landing, then climb one more flight of stairs. At the top of the second flight, continue forward and enter the room directly ahead.",
+  "actions_taken": 20,
+  "policy_calls": 8,
+  "api_latency_s": 28.21,
+  "prompt_tokens": 13652,
+  "completion_tokens": 1444,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 28.33,
+  "steps": [
+    {
+      "n": 3,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the base of a hallway with a doorway ahead; the stairs should be up ahead. I'll advance carefully toward the visible opening and re-observe.",
+      "latency_s": 2.34,
+      "prompt_tokens": 895
+    },
+    {
+      "n": 6,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hallway with a mosaic tile floor; no stairs are visible yet. The corridor continues straight ahead toward a door at the far end, so I'll advance along it while looking for the staircase.",
+      "latency_s": 2.71,
+      "prompt_tokens": 1250
+    },
+    {
+      "n": 9,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall with a light switch; the hallway with the mosaic floor and stairs ahead is to my right. I need to turn right to align with the hallway and head toward the stairs.",
+      "latency_s": 2.24,
+      "prompt_tokens": 1613
+    },
+    {
+      "n": 11,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I appear to be at the top of the stairs in a hallway, with a doorway directly ahead leading into a room with a red sofa. The instruction says to continue forward and enter the room directly ahead, so I will advance toward that doorway and re-observe before entering.",
+      "latency_s": 5.99,
+      "prompt_tokens": 1978
+    },
+    {
+      "n": 13,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I appear to be at the top of the stairs in a hallway, with the room containing a red couch directly ahead through an open doorway. I'll advance through the doorway to enter the room as instructed.",
+      "latency_s": 4.66,
+      "prompt_tokens": 1979
+    },
+    {
+      "n": 15,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I have climbed the stairs and now face an open doorway leading directly into a room with a red couch and a statue. The instruction says to enter the room directly ahead, so I will advance through the doorway, checking alignment as I go.",
+      "latency_s": 3.34,
+      "prompt_tokens": 1979
+    },
+    {
+      "n": 17,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I have climbed the stairs and now face an open doorway leading directly into a room with a fireplace and a red couch, which matches 'enter the room directly ahead.' I will advance through the doorway, then re-observe to confirm I am inside before stopping.",
+      "latency_s": 3.97,
+      "prompt_tokens": 1979
+    },
+    {
+      "n": 20,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "STOP"
+      ],
+      "thought": "I have climbed the stairs and reached the doorway of the room directly ahead, which contains the fireplace and red sofa. I'll step forward into the room and then stop, as the instruction ends upon entering this room.",
+      "latency_s": 2.96,
+      "prompt_tokens": 1979
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    5.721,
+    6.043,
+    6.37,
+    6.721,
+    7.08,
+    7.355,
+    7.544,
+    7.699,
+    7.983,
+    8.188,
+    8.411,
+    8.645,
+    8.883,
+    9.122,
+    9.366,
+    9.616,
+    9.866
+  ],
+  "final_distance": 9.866,
+  "min_distance": 5.721,
+  "metrics": {
+    "distance_to_goal": 9.86624813079834,
+    "success": 0.0,
+    "spl": 0.0,
+    "oracle_success": 0.0,
+    "path_length": 4.42933589220047,
+    "steps_taken": 20.0
+  },
+  "success": false,
+  "backend_stats": {
+    "calls": 8,
+    "failures": 0,
+    "prompt_tokens": 13652,
+    "completion_tokens": 1444,
+    "reasoning_tokens": 939,
+    "latency_s": 28.200984716415405
+  },
+  "stop_deferrals": 0
+}

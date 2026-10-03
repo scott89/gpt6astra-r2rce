@@ -1,0 +1,77 @@
+{
+  "episode_id": 696,
+  "scene_id": "EU6Fwq7SyZv",
+  "instruction": "Leave the kitchen and walk into the living room. Walk through the living room towards the doors in the entry way. Stop on the stone with the pillar on your right.",
+  "actions_taken": 8,
+  "policy_calls": 3,
+  "api_latency_s": 13.01,
+  "prompt_tokens": 3757,
+  "completion_tokens": 691,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 13.06,
+  "steps": [
+    {
+      "n": 3,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the kitchen facing glass doors; the passage to the living room is the open area to the right of the doors, next to the wooden pillar. I'll turn right toward that opening and advance.",
+      "latency_s": 3.31,
+      "prompt_tokens": 894
+    },
+    {
+      "n": 5,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the glass entry doors ahead-left and a wooden pillar on the right, with stone flooring in between. I need to advance onto the stone area near the doors, keeping the pillar on my right, then stop there.",
+      "latency_s": 5.27,
+      "prompt_tokens": 1250
+    },
+    {
+      "n": 8,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "STOP"
+      ],
+      "thought": "I have walked out of the kitchen toward the entry doors; the glass doors are on my left and the wooden pillar is on my right, with the stone floor just ahead. I will step forward onto the stone so the pillar is on my right, then stop.",
+      "latency_s": 4.43,
+      "prompt_tokens": 1613
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    8.301,
+    8.301,
+    8.256,
+    8.226,
+    8.209,
+    8.209,
+    8.235
+  ],
+  "final_distance": 8.235,
+  "min_distance": 8.209,
+  "metrics": {
+    "distance_to_goal": 8.235118865966797,
+    "success": 0.0,
+    "spl": 0.0,
+    "oracle_success": 0.0,
+    "path_length": 1.2500010430812836,
+    "steps_taken": 8.0
+  },
+  "success": false,
+  "backend_stats": {
+    "calls": 3,
+    "failures": 0,
+    "prompt_tokens": 3757,
+    "completion_tokens": 691,
+    "reasoning_tokens": 492,
+    "latency_s": 13.004961967468262
+  },
+  "stop_deferrals": 0
+}

@@ -1,0 +1,82 @@
+{
+  "episode_id": 1579,
+  "scene_id": "2azQ1b91cZZ",
+  "instruction": "Exit the room. Turn left then turn left again. Stand at the entrance.",
+  "actions_taken": 9,
+  "policy_calls": 4,
+  "api_latency_s": 27.13,
+  "prompt_tokens": 5666,
+  "completion_tokens": 1607,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 27.19,
+  "steps": [
+    {
+      "n": 3,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a circular foyer with a large clock, a mirror on the left, and an archway on the right. I need to find the room exit first, so I'll scan my surroundings before moving.",
+      "latency_s": 3.94,
+      "prompt_tokens": 876
+    },
+    {
+      "n": 6,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a wall with an open arched passage to my left. I need to exit through that archway, so I'll turn left to align with it before moving forward.",
+      "latency_s": 2.57,
+      "prompt_tokens": 1232
+    },
+    {
+      "n": 8,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I appear to have exited into a curved hallway with a clock niche; the instruction still requires two left turns and then standing at an entrance. I will turn left twice and re-observe before moving further.",
+      "latency_s": 11.98,
+      "prompt_tokens": 1597
+    },
+    {
+      "n": 9,
+      "actions": [
+        "STOP"
+      ],
+      "thought": "I have exited the room, made the required turns (including the two left turns), and I am now standing in the entrance area of the curved hallway with the mirror and clock alcove, which matches the instruction's endpoint.",
+      "latency_s": 8.64,
+      "prompt_tokens": 1961
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    8.173,
+    8.173,
+    7.931
+  ],
+  "final_distance": 7.931,
+  "min_distance": 7.931,
+  "metrics": {
+    "distance_to_goal": 7.931212425231934,
+    "success": 0.0,
+    "spl": 0.0,
+    "oracle_success": 0.0,
+    "path_length": 0.25000110268592834,
+    "steps_taken": 9.0
+  },
+  "success": false,
+  "backend_stats": {
+    "calls": 4,
+    "failures": 0,
+    "prompt_tokens": 5666,
+    "completion_tokens": 1607,
+    "reasoning_tokens": 1370,
+    "latency_s": 27.1296648979187
+  },
+  "stop_deferrals": 0
+}

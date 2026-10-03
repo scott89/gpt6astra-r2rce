@@ -1,0 +1,125 @@
+{
+  "episode_id": 1117,
+  "scene_id": "x8F5xyUWy9e",
+  "instruction": "Go alongside the pool towards the bar directly in front of you.",
+  "actions_taken": 20,
+  "policy_calls": 6,
+  "api_latency_s": 14.86,
+  "prompt_tokens": 9559,
+  "completion_tokens": 662,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 14.95,
+  "steps": [
+    {
+      "n": 3,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I see a pool area on the right and what appears to be a bar counter ahead in the distance. I'll move forward along the pool edge toward the bar, re-observing as I go.",
+      "latency_s": 2.03,
+      "prompt_tokens": 873
+    },
+    {
+      "n": 6,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the pool edge on the right and the bar counter ahead in the distance. I'll advance forward along the pool toward the bar, then re-observe.",
+      "latency_s": 2.0,
+      "prompt_tokens": 1228
+    },
+    {
+      "n": 9,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter with bottles is visible straight ahead across the pool area. The floor in front of me looks clear, so I will advance toward it and re-observe.",
+      "latency_s": 2.52,
+      "prompt_tokens": 1591
+    },
+    {
+      "n": 12,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible ahead past the wooden pillar, but a chair sits directly in my path. I'll angle slightly right to pass the chairs, then continue toward the bar.",
+      "latency_s": 3.19,
+      "prompt_tokens": 1955
+    },
+    {
+      "n": 16,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter with bottles is visible straight ahead across the open floor. I will advance toward it and re-observe to check distance before stopping.",
+      "latency_s": 2.14,
+      "prompt_tokens": 1956
+    },
+    {
+      "n": 20,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "STOP"
+      ],
+      "thought": "The bar (stone counter) is directly ahead and appears within a few meters. I'll advance a couple of steps toward it and then stop near the bar.",
+      "latency_s": 2.98,
+      "prompt_tokens": 1956
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    8.571,
+    8.326,
+    8.082,
+    7.838,
+    7.595,
+    7.357,
+    7.114,
+    6.873,
+    6.637,
+    6.409,
+    6.173,
+    6.008,
+    5.943,
+    5.664,
+    5.414,
+    5.164,
+    4.914,
+    4.664,
+    4.414
+  ],
+  "final_distance": 4.414,
+  "min_distance": 4.414,
+  "metrics": {
+    "distance_to_goal": 4.414093971252441,
+    "success": 0.0,
+    "spl": 0.0,
+    "oracle_success": 0.0,
+    "path_length": 4.286428764462471,
+    "steps_taken": 20.0
+  },
+  "success": false,
+  "backend_stats": {
+    "calls": 6,
+    "failures": 0,
+    "prompt_tokens": 9559,
+    "completion_tokens": 662,
+    "reasoning_tokens": 323,
+    "latency_s": 14.868489265441895
+  },
+  "stop_deferrals": 0
+}

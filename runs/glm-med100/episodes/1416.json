@@ -1,0 +1,1377 @@
+{
+  "episode_id": 1416,
+  "scene_id": "2azQ1b91cZZ",
+  "instruction": "Make a right and head down hallway,  make a right and head toward the staircase, and wait and second step.",
+  "actions_taken": 348,
+  "policy_calls": 111,
+  "api_latency_s": 382.37,
+  "prompt_tokens": 223951,
+  "completion_tokens": 19190,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 384.54,
+  "steps": [
+    {
+      "n": 2,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a dining room with an opening ahead. The instruction says to make a right first, so I'll turn right to see what lies in that direction before moving.",
+      "latency_s": 2.59,
+      "prompt_tokens": 884
+    },
+    {
+      "n": 4,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a dining room facing a mirror and sideboard, with chairs blocking the direct path. The instruction says to make a right and head down a hallway; there appears to be an arched opening on the right side of the room. I'll turn right to inspect it.",
+      "latency_s": 2.72,
+      "prompt_tokens": 1239
+    },
+    {
+      "n": 7,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've turned right and now see an arched doorway leading to a hallway ahead. I need to align with that archway and proceed down the hallway before making the next right toward the staircase.",
+      "latency_s": 3.46,
+      "prompt_tokens": 1603
+    },
+    {
+      "n": 9,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've turned right and now face arched doorways leading to a hallway. I'll move forward through the nearest archway to head down the hallway, then look for the right turn toward the staircase.",
+      "latency_s": 2.82,
+      "prompt_tokens": 1968
+    },
+    {
+      "n": 12,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've turned right and moved forward; ahead is an arched doorway leading down a hallway. I'll proceed through the arch, then look for the right turn toward the staircase.",
+      "latency_s": 6.11,
+      "prompt_tokens": 1968
+    },
+    {
+      "n": 14,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've made the initial right turn and advanced; now I'm facing a pillar with a picture, with an arched opening to its right leading to a tiled hallway with double doors. I'll align with that archway and proceed down the hallway as instructed.",
+      "latency_s": 10.4,
+      "prompt_tokens": 1968
+    },
+    {
+      "n": 15,
+      "actions": [
+        "TURN_RIGHT"
+      ],
+      "thought": "I've turned right and moved forward, but I'm now facing the double front doors rather than a hallway. The instruction says to head down a hallway after the right turn, so I should rotate further right to look for the hallway/archway leading toward the staircase.",
+      "latency_s": 8.52,
+      "prompt_tokens": 1969
+    },
+    {
+      "n": 16,
+      "actions": [
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm currently facing the double front doors. The instruction says to make a right and head down the hallway, so I'll turn right to find the hallway.",
+      "latency_s": 2.31,
+      "prompt_tokens": 1970
+    },
+    {
+      "n": 20,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm currently facing the double front doors. The instruction says to make a right and head down the hallway, so I need to turn right to find the hallway leading away from this entry area.",
+      "latency_s": 3.71,
+      "prompt_tokens": 1970
+    },
+    {
+      "n": 22,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm currently facing a large living room with a fireplace, but the instruction says to head down a hallway and then toward a staircase. I need to turn right to scan for the hallway opening.",
+      "latency_s": 3.27,
+      "prompt_tokens": 1971
+    },
+    {
+      "n": 25,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm now facing a large living room with a fireplace, and I can see an upper loft with a wooden railing on the left, which suggests the staircase is in that direction. The instruction says to head toward the staircase after making a right, so I'll turn left to face the stair/loft area and re-observe.",
+      "latency_s": 5.21,
+      "prompt_tokens": 1973
+    },
+    {
+      "n": 28,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm currently facing a wall/pillar with a hallway visible to my right. The instruction says to make a right and head down the hallway, so I need to turn right to align with that corridor before moving forward.",
+      "latency_s": 3.16,
+      "prompt_tokens": 1974
+    },
+    {
+      "n": 30,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a large living room with a fireplace; the instruction says to turn right, go down a hallway, then turn right toward the staircase. I need to look around to locate the hallway, so I'll turn right and re-observe.",
+      "latency_s": 4.03,
+      "prompt_tokens": 1976
+    },
+    {
+      "n": 33,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a large living room with a fireplace ahead. The instruction says to make a right and head down a hallway, then another right toward the staircase. I see a wood-paneled opening on the right side of the room that could be the hallway, so I'll turn right to investigate.",
+      "latency_s": 5.28,
+      "prompt_tokens": 1977
+    },
+    {
+      "n": 35,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "The current view shows a dining table and French doors, but no staircase or hallway. I need to scan the room by turning right to locate the hallway leading to the staircase.",
+      "latency_s": 4.17,
+      "prompt_tokens": 1978
+    },
+    {
+      "n": 38,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a dining room with French doors ahead and a dark doorway opening to the right of them, which likely leads to the hallway. I'll turn right and approach that opening to find the hallway.",
+      "latency_s": 3.48,
+      "prompt_tokens": 1979
+    },
+    {
+      "n": 40,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in a dining room with a large table; the instruction says to make a right and head down a hallway. There appears to be a dark doorway/opening on the left side of my current view, so I'll turn left to inspect it and find the hallway.",
+      "latency_s": 3.41,
+      "prompt_tokens": 1981
+    },
+    {
+      "n": 42,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a dining room with a dark hallway opening visible ahead through the doorway in the center of the view. I'll advance toward that opening to reach the hallway, then look for the right turn toward the staircase.",
+      "latency_s": 3.92,
+      "prompt_tokens": 1982
+    },
+    {
+      "n": 45,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a dining room with a dark doorway/opening ahead that likely leads to the hallway. I'll advance toward it and re-observe before turning.",
+      "latency_s": 3.55,
+      "prompt_tokens": 1983
+    },
+    {
+      "n": 48,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a dining room with a large table blocking the direct path. The instruction says to make a right and head down a hallway, so I'll turn right to look for a way around the table toward the arched doorway visible on the right side.",
+      "latency_s": 3.69,
+      "prompt_tokens": 1984
+    },
+    {
+      "n": 51,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in a dining room; the instruction requires finding a hallway to the right. I see a dark doorway on the left side of my view, so I'll turn left to re-orient toward it and locate the hallway.",
+      "latency_s": 3.59,
+      "prompt_tokens": 1986
+    },
+    {
+      "n": 54,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a dining room with a long table. The instruction says to make a right and head down a hallway, then another right toward the staircase. I can see an arched doorway to the right side of the room; I should turn right and head toward it to find the hallway.",
+      "latency_s": 4.47,
+      "prompt_tokens": 1987
+    },
+    {
+      "n": 58,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a dining room facing a mirror and cabinet. The instruction says to make a right and head down a hallway, so I'll turn right to scan for the hallway opening.",
+      "latency_s": 3.21,
+      "prompt_tokens": 1989
+    },
+    {
+      "n": 60,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a dining room facing an arched doorway that opens into a hallway. I'll move forward through the arch to head down the hallway, then look for the right turn toward the staircase.",
+      "latency_s": 2.33,
+      "prompt_tokens": 1991
+    },
+    {
+      "n": 62,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing an arched doorway opening into a tiled hallway. I need to move forward through the arch to enter the hallway, then look for the right turn toward the staircase.",
+      "latency_s": 2.45,
+      "prompt_tokens": 1992
+    },
+    {
+      "n": 64,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at an arched doorway looking into a hallway with double doors ahead. I should move forward through the arch to continue down the hallway, then look for the right turn toward the staircase.",
+      "latency_s": 2.42,
+      "prompt_tokens": 1992
+    },
+    {
+      "n": 66,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hallway facing an arched opening with glass double doors ahead. The instruction says to head down the hallway then make a right toward the staircase, so I'll advance through the arch first and look for the right turn.",
+      "latency_s": 3.65,
+      "prompt_tokens": 1992
+    },
+    {
+      "n": 67,
+      "actions": [
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a tiled hallway facing glass double doors, but I don't see a staircase yet. I need to scan the surroundings to locate the hallway and the staircase mentioned in the instruction.",
+      "latency_s": 3.25,
+      "prompt_tokens": 1992
+    },
+    {
+      "n": 69,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in a hallway facing French doors, but no staircase is visible yet. The archway to the left may lead further down the hallway where the staircase should be, so I'll re-orient left to scan that direction.",
+      "latency_s": 3.24,
+      "prompt_tokens": 1993
+    },
+    {
+      "n": 71,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a hallway facing double doors, with an archway to my left. I need to locate the staircase, so I'll scan my surroundings by turning right first to see what lies in that direction.",
+      "latency_s": 3.83,
+      "prompt_tokens": 1994
+    },
+    {
+      "n": 75,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm currently facing a set of double doors. The instruction says to make a right and head down the hallway, so I'll turn right to look for the hallway and the staircase direction.",
+      "latency_s": 2.8,
+      "prompt_tokens": 1995
+    },
+    {
+      "n": 78,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm currently facing a set of double doors in an entry area. The instruction says to make a right and head down a hallway, so I need to find the hallway first. In earlier frames there was an archway/opening to the left of the doors, so I'll turn left to scan for the hallway.",
+      "latency_s": 3.36,
+      "prompt_tokens": 1997
+    },
+    {
+      "n": 82,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm currently facing a set of French doors with an archway to my left. The instruction says to make a right and head down a hallway, so I'll turn right to look for the hallway opening.",
+      "latency_s": 3.05,
+      "prompt_tokens": 1998
+    },
+    {
+      "n": 85,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm currently facing a wooden door up close, which is not the hallway. The instruction says to make a right and head down the hallway, so I'll turn right to re-orient and look for the hallway passage.",
+      "latency_s": 2.6,
+      "prompt_tokens": 2000
+    },
+    {
+      "n": 89,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm currently facing a wooden door up close, with a living room visible to my right. The instruction says to make a right and head down a hallway, so I need to turn right away from this door and re-observe the space to find the hallway.",
+      "latency_s": 2.99,
+      "prompt_tokens": 2002
+    },
+    {
+      "n": 92,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm now in a large dining/living area after coming through the doors. I need to locate the hallway and then the staircase, so I'll scan the room by turning right to look for an opening or stairs.",
+      "latency_s": 3.29,
+      "prompt_tokens": 2004
+    },
+    {
+      "n": 95,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm currently facing a large wooden cabinet up close, likely after turning too far. The instruction says to head down a hallway and then toward a staircase. I need to re-orient and find the hallway, so I'll turn right to scan the room.",
+      "latency_s": 3.31,
+      "prompt_tokens": 2005
+    },
+    {
+      "n": 98,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've ended up facing a wall next to a large wooden cabinet, which suggests I overshot or turned too far. I need to re-orient: turning right may reveal the hallway or doorway leading onward toward the staircase.",
+      "latency_s": 3.36,
+      "prompt_tokens": 2007
+    },
+    {
+      "n": 101,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wooden pillar with a tiled hallway visible to my right. The instruction says to make a right and head down the hallway, so I'll turn right to face the hallway and then proceed forward.",
+      "latency_s": 2.98,
+      "prompt_tokens": 2008
+    },
+    {
+      "n": 105,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a set of double doors at the end of a hallway. The instruction says to make a right and head toward the staircase, so I'll turn right to look for it.",
+      "latency_s": 3.29,
+      "prompt_tokens": 2010
+    },
+    {
+      "n": 109,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm currently facing a set of double doors with a wooden pillar in front of me. The instruction says to make a right and head down a hallway, so I should turn right to look for the hallway and the staircase direction.",
+      "latency_s": 4.79,
+      "prompt_tokens": 2012
+    },
+    {
+      "n": 113,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm currently facing a wooden door with a living room visible to my right. The instruction says to make a right and head down a hallway, so I need to turn right to find the hallway leading toward the staircase.",
+      "latency_s": 2.22,
+      "prompt_tokens": 2014
+    },
+    {
+      "n": 117,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a large open living/dining area, but I don't yet see a hallway or staircase. I need to scan the room to locate the hallway mentioned in the instruction before moving.",
+      "latency_s": 2.42,
+      "prompt_tokens": 2016
+    },
+    {
+      "n": 123,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm currently facing a wall next to a sideboard in the dining area, which is a dead end. I need to turn around to find the hallway mentioned in the instruction, then head toward the staircase.",
+      "latency_s": 3.8,
+      "prompt_tokens": 2018
+    },
+    {
+      "n": 125,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at a doorway looking into a living room with a dining table; the staircase isn't visible yet. I'll step through the doorway and then scan for the staircase, likely off to the right per the instruction.",
+      "latency_s": 8.43,
+      "prompt_tokens": 2020
+    },
+    {
+      "n": 128,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a dining room looking into a living room with a fireplace. The instruction says to make a right and head down a hallway, so I should scan to my right to locate the hallway entrance before moving.",
+      "latency_s": 2.91,
+      "prompt_tokens": 2021
+    },
+    {
+      "n": 131,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a dining room with a large table; the instruction says to make a right and head down a hallway, then right toward the staircase. I don't see a hallway or staircase yet, so I should scan the room by turning right to look for an opening.",
+      "latency_s": 2.91,
+      "prompt_tokens": 2023
+    },
+    {
+      "n": 134,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a dining room facing a sideboard and mirror. The instruction says to make a right and head down a hallway, so I need to scan to my right to locate the hallway opening.",
+      "latency_s": 2.65,
+      "prompt_tokens": 2024
+    },
+    {
+      "n": 137,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm currently facing a wall corner next to a tall wooden door in the dining room. The instruction says to make a right and head down a hallway, so I should turn right to look for the hallway opening near this door.",
+      "latency_s": 2.77,
+      "prompt_tokens": 2026
+    },
+    {
+      "n": 140,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm currently facing a wall/door in a dining area. The instruction says to make a right and head down a hallway, so I should turn right to find the hallway opening.",
+      "latency_s": 2.41,
+      "prompt_tokens": 2027
+    },
+    {
+      "n": 144,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm currently facing a dark wooden door/wall up close, with the arched hallway and double doors visible to my left. The instruction says to head down the hallway and then make a right toward the staircase, so I need to turn left to re-orient into the open hallway area and look for the staircase.",
+      "latency_s": 3.87,
+      "prompt_tokens": 2028
+    },
+    {
+      "n": 148,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm currently facing a wooden pillar up close, with the hallway and double doors visible to my right. I need to turn right to align with the hallway and proceed toward the staircase.",
+      "latency_s": 6.15,
+      "prompt_tokens": 2030
+    },
+    {
+      "n": 151,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm currently facing a wooden pillar with a hallway and double doors visible to my left. The instruction says to make a right and head down a hallway, so I should rotate right to find the hallway direction.",
+      "latency_s": 3.16,
+      "prompt_tokens": 2032
+    },
+    {
+      "n": 155,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall up close, having overshot my turn. The earlier frames showed an open hallway with an archway and double doors to my right, so I'll rotate right to re-orient toward that passage and find the staircase direction.",
+      "latency_s": 3.2,
+      "prompt_tokens": 2034
+    },
+    {
+      "n": 159,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm currently facing a wall next to a doorway opening into a large living room. The instruction says to make a right and head toward the staircase, so I should turn right and scan the room for the staircase.",
+      "latency_s": 2.68,
+      "prompt_tokens": 2036
+    },
+    {
+      "n": 162,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've entered a large living/dining area after coming through a doorway. I need to locate the staircase, so I'll scan the room by turning right to check that side first.",
+      "latency_s": 3.22,
+      "prompt_tokens": 2038
+    },
+    {
+      "n": 166,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've entered a dining area after the hallway, but the staircase isn't visible in my current view. I need to turn right to scan the room and locate the staircase before approaching it.",
+      "latency_s": 4.15,
+      "prompt_tokens": 2039
+    },
+    {
+      "n": 168,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm currently facing a wall corner next to a large wooden door, likely at the end of the hallway. I need to check what is to my right to find the staircase area mentioned in the instruction.",
+      "latency_s": 3.38,
+      "prompt_tokens": 2041
+    },
+    {
+      "n": 172,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the dining room facing a wall/pillar; the hallway with tile floor is visible through the archway on my right. I need to turn right to align with the hallway and proceed down it, then find the staircase.",
+      "latency_s": 2.99,
+      "prompt_tokens": 2042
+    },
+    {
+      "n": 175,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a tiled hallway with arched openings and glass double doors, but no staircase is visible yet. The instruction says to make a right and head toward the staircase, so I'll rotate right to scan for it.",
+      "latency_s": 3.04,
+      "prompt_tokens": 2044
+    },
+    {
+      "n": 181,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm currently facing the front double doors, which is a dead end relative to the instruction. I need to turn around to find the hallway and then the staircase. I'll rotate right to scan the area behind me.",
+      "latency_s": 3.71,
+      "prompt_tokens": 2046
+    },
+    {
+      "n": 185,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm currently facing a dark wooden door/wall up close. The instruction says to make a right and head down the hallway, so I need to rotate right to find the hallway direction.",
+      "latency_s": 2.4,
+      "prompt_tokens": 2049
+    },
+    {
+      "n": 189,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm currently facing a wall/door edge with a dining room to my right. The instruction says to make a right and head down a hallway, so I need to scan my surroundings to locate the hallway and then the staircase.",
+      "latency_s": 2.88,
+      "prompt_tokens": 2050
+    },
+    {
+      "n": 192,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm currently facing a wall with a cabinet in a dining room. The instruction says to make a right and head down a hallway, so I need to turn and locate the hallway first.",
+      "latency_s": 3.39,
+      "prompt_tokens": 2053
+    },
+    {
+      "n": 195,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm currently facing a wooden pillar/wall up close after many right turns. I need to re-orient to find the hallway; I'll turn right to scan the area beyond this obstruction.",
+      "latency_s": 2.93,
+      "prompt_tokens": 2053
+    },
+    {
+      "n": 198,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a tiled hallway facing double doors, but I don't see the staircase yet. I need to scan the hallway to locate it before proceeding.",
+      "latency_s": 3.09,
+      "prompt_tokens": 2055
+    },
+    {
+      "n": 204,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm currently facing a set of double doors, which doesn't match the hallway described in the instruction. I need to turn around to find the hallway, then follow the route: down the hallway, right toward the staircase.",
+      "latency_s": 3.96,
+      "prompt_tokens": 2057
+    },
+    {
+      "n": 207,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm currently facing a wooden pillar with a hallway visible to my left (wood flooring). The instruction says to head down the hallway and then make a right toward the staircase, so I need to re-orient toward that hallway first.",
+      "latency_s": 3.16,
+      "prompt_tokens": 2059
+    },
+    {
+      "n": 211,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm currently facing a wall corner next to a dining cabinet, which doesn't match the instruction. I need to turn right to re-orient and find the hallway leading toward the staircase.",
+      "latency_s": 2.47,
+      "prompt_tokens": 2060
+    },
+    {
+      "n": 215,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm currently facing a wooden pillar up close, with a tiled hallway visible to my right. The instruction says to make a right and head down the hallway, so I should turn right to face that hallway opening and then proceed forward.",
+      "latency_s": 3.75,
+      "prompt_tokens": 2062
+    },
+    {
+      "n": 218,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in a tiled hallway facing French doors, but the instruction says to head down the hallway and then right toward a staircase. The hallway continues to my left past arched openings, so I'll turn left to scan for the staircase direction.",
+      "latency_s": 2.87,
+      "prompt_tokens": 2064
+    },
+    {
+      "n": 221,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wooden door up close, with the hallway visible through the opening on my right. I need to turn right to face down the hallway before proceeding.",
+      "latency_s": 2.65,
+      "prompt_tokens": 2065
+    },
+    {
+      "n": 225,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing French doors in a hallway with an archway to the left. The instruction says to make a right and head down a hallway, then right toward the staircase. I'll turn right to look for the hallway continuation and the staircase.",
+      "latency_s": 2.93,
+      "prompt_tokens": 2069
+    },
+    {
+      "n": 231,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I overshot the turn and am facing the French doors at the end of the hall. The arched hallway is behind me, so I'll turn left to re-orient toward it and look for the staircase.",
+      "latency_s": 4.56,
+      "prompt_tokens": 2069
+    },
+    {
+      "n": 237,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm currently facing a wall/door too closely; the hallway with the archway extends to my left. I need to turn left to align with the hallway and proceed down it, then look for the right turn toward the staircase.",
+      "latency_s": 3.65,
+      "prompt_tokens": 2073
+    },
+    {
+      "n": 241,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm currently facing a dining room with a table and sideboard, but the instruction requires heading down a hallway toward a staircase. I need to turn right to re-orient toward the hallway I passed earlier with the arched doorway.",
+      "latency_s": 3.42,
+      "prompt_tokens": 2074
+    },
+    {
+      "n": 244,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm currently facing a carved wooden door/wall up close, so I need to reorient. Earlier frames showed a hallway with an arch and double doors; I should turn right to scan for the hallway and staircase direction.",
+      "latency_s": 3.25,
+      "prompt_tokens": 2076
+    },
+    {
+      "n": 246,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a tiled hallway with an arched opening ahead and double doors on the right. The instruction says to head down the hallway and then turn right toward a staircase, so I should advance through the archway while watching for the staircase.",
+      "latency_s": 3.53,
+      "prompt_tokens": 2077
+    },
+    {
+      "n": 249,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a tiled hallway with double doors on the right and arches ahead. The instruction says to head down the hallway and then make a right toward the staircase, so I'll advance along this hallway and look for the right turn.",
+      "latency_s": 3.05,
+      "prompt_tokens": 2079
+    },
+    {
+      "n": 252,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I am in a long hallway with double doors on my right and arched openings ahead. The instruction says to head down the hallway and then make a right toward the staircase, so I should continue forward along this hallway to find the staircase.",
+      "latency_s": 2.96,
+      "prompt_tokens": 2080
+    },
+    {
+      "n": 255,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hallway with a large archway ahead and double doors on the right. The instruction says to head down the hallway, so I'll advance toward the archway and continue down the corridor before looking for the right turn toward the staircase.",
+      "latency_s": 2.48,
+      "prompt_tokens": 2079
+    },
+    {
+      "n": 258,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've been heading down the hallway; the instruction says to make a right toward the staircase. The wall ahead blocks forward travel, so I'll turn right to look for the staircase direction.",
+      "latency_s": 3.42,
+      "prompt_tokens": 2078
+    },
+    {
+      "n": 262,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I appear to have over-rotated and am now facing a glass-paneled door instead of the hallway. The hallway with the arches is to my left, so I need to turn back left to face down the hallway and look for the staircase.",
+      "latency_s": 4.63,
+      "prompt_tokens": 2083
+    },
+    {
+      "n": 265,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a hallway facing an archway with the kitchen to my left and a wall with light switches on my right. The instruction says to make a right and head toward the staircase, so I should turn right to look for the hallway leading to the stairs.",
+      "latency_s": 3.59,
+      "prompt_tokens": 2084
+    },
+    {
+      "n": 269,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I've over-rotated and am now facing a glass door and wall; the hallway with the kitchen view lies to my left. I need to turn left to re-face down the hallway, then continue toward the staircase.",
+      "latency_s": 3.33,
+      "prompt_tokens": 2085
+    },
+    {
+      "n": 272,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing down a long hallway with the kitchen on the left and an archway ahead. The instruction says to head down the hallway, then make a right toward the staircase. I'll advance along this hallway and re-observe.",
+      "latency_s": 3.42,
+      "prompt_tokens": 2087
+    },
+    {
+      "n": 275,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the kitchen/hallway area facing down the corridor with an archway ahead. The instruction says to head down the hallway then make a right toward the staircase, so I'll advance along this hallway toward the arch and re-observe for the staircase.",
+      "latency_s": 4.71,
+      "prompt_tokens": 2087
+    },
+    {
+      "n": 278,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a kitchen with an island on the left and ovens on the right. I don't yet see the hallway or staircase, so I'll advance toward the opening ahead to find where the hallway branches off to the right.",
+      "latency_s": 3.21,
+      "prompt_tokens": 2087
+    },
+    {
+      "n": 281,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I have made the right and am now heading down the hallway toward the fireplace and the doorway ahead. I should continue moving forward along this hallway until I find the right turn toward the staircase.",
+      "latency_s": 3.05,
+      "prompt_tokens": 2088
+    },
+    {
+      "n": 284,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a large living area with a fireplace, facing a hallway ahead. The instruction says to make a right and head down the hallway, so I should first continue forward toward the hallway opening visible straight ahead, then look for the right turn.",
+      "latency_s": 3.1,
+      "prompt_tokens": 2089
+    },
+    {
+      "n": 287,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a living room with a fireplace ahead and an arched opening on the right. The instruction says to make a right and head down a hallway, so I should turn right toward that archway and look for the hallway.",
+      "latency_s": 3.63,
+      "prompt_tokens": 2089
+    },
+    {
+      "n": 289,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm currently facing a wall with a painting, with an arched hallway visible to my left. The instruction says to make a right and head down a hallway, so I should turn right to check what lies in that direction before proceeding.",
+      "latency_s": 2.72,
+      "prompt_tokens": 2091
+    },
+    {
+      "n": 293,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall with a painting, having drifted off course. I need to turn right to reorient toward the hallway and find the staircase.",
+      "latency_s": 2.35,
+      "prompt_tokens": 2092
+    },
+    {
+      "n": 296,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall with built-in ovens, and to my right there's an arched opening leading down a hallway. Per the instruction, I need to head down this hallway toward the staircase, so I'll turn right to align with the archway first.",
+      "latency_s": 3.33,
+      "prompt_tokens": 2094
+    },
+    {
+      "n": 300,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the start of an arched hallway with the kitchen on my right. I need to traverse this hallway and then turn right toward the staircase, so I'll advance forward while keeping aligned with the arches.",
+      "latency_s": 3.82,
+      "prompt_tokens": 2095
+    },
+    {
+      "n": 303,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing down an arched hallway with a kitchen island on the right. The instruction says to head down the hallway, then make a right toward the staircase. I'll advance along the hallway and re-observe.",
+      "latency_s": 2.68,
+      "prompt_tokens": 2094
+    },
+    {
+      "n": 306,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing down an arched hallway; the instruction says to head down the hallway and then make a right toward the staircase. I'll advance along the hallway and re-observe to find the right turn toward the stairs.",
+      "latency_s": 3.49,
+      "prompt_tokens": 2096
+    },
+    {
+      "n": 309,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in an arched hallway heading forward. In the distance through the arches there appears to be a staircase area. I'll continue advancing down the hallway toward it, re-observing as I go.",
+      "latency_s": 2.83,
+      "prompt_tokens": 2096
+    },
+    {
+      "n": 312,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm heading down an arched hallway. The instruction says to make a right and head toward the staircase, so I should continue forward until I find the right turn or the staircase, which may be the structure visible in the distance.",
+      "latency_s": 3.55,
+      "prompt_tokens": 2099
+    },
+    {
+      "n": 315,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in an arched hallway heading forward. The instruction says to continue down the hallway, then make a right toward the staircase. I'll advance along the hallway and look for the right turn.",
+      "latency_s": 2.67,
+      "prompt_tokens": 2097
+    },
+    {
+      "n": 318,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in an arched hallway heading toward a distant staircase visible ahead. I need to continue down this hallway and then turn right toward the staircase, so I'll advance carefully while re-observing.",
+      "latency_s": 3.39,
+      "prompt_tokens": 2097
+    },
+    {
+      "n": 321,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm heading down the arched hallway and can see what appears to be a staircase in the distance ahead. I should continue moving forward along the hallway toward it.",
+      "latency_s": 3.18,
+      "prompt_tokens": 2098
+    },
+    {
+      "n": 324,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The hallway ahead leads toward a visible staircase railing through the archway. I need to keep advancing down this hallway toward the staircase before turning right as instructed.",
+      "latency_s": 3.4,
+      "prompt_tokens": 2099
+    },
+    {
+      "n": 327,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see a staircase through the archway ahead, slightly left of center. I'll advance down the hallway toward it, re-observing as I go.",
+      "latency_s": 3.25,
+      "prompt_tokens": 2099
+    },
+    {
+      "n": 330,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the staircase ahead through the archway at the end of the hall. I'll advance toward it and re-observe to get within 3 m before stopping.",
+      "latency_s": 2.81,
+      "prompt_tokens": 2100
+    },
+    {
+      "n": 333,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead through the archway, slightly left of center. I should advance toward it and stop near the base of the stairs.",
+      "latency_s": 2.67,
+      "prompt_tokens": 2098
+    },
+    {
+      "n": 336,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible through the archway ahead, slightly left of center. I'll advance toward it and then stop near the base of the stairs as instructed.",
+      "latency_s": 2.07,
+      "prompt_tokens": 2099
+    },
+    {
+      "n": 339,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead through the archway, slightly left of center. I'll advance toward it and stop once I reach the base of the stairs.",
+      "latency_s": 2.03,
+      "prompt_tokens": 2100
+    },
+    {
+      "n": 342,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible straight ahead through the archway, a few meters away. I will advance toward it and stop once I reach the base of the stairs.",
+      "latency_s": 2.41,
+      "prompt_tokens": 2102
+    },
+    {
+      "n": 345,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is now clearly visible ahead through the archway, a few meters away. I will advance toward it and stop near the base of the stairs as instructed.",
+      "latency_s": 3.23,
+      "prompt_tokens": 2101
+    },
+    {
+      "n": 348,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "STOP"
+      ],
+      "thought": "The staircase is now clearly visible ahead and slightly left, roughly 3-4 m away. I'll advance toward it and stop near the base/second step as instructed.",
+      "latency_s": 2.88,
+      "prompt_tokens": 2102
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    8.763,
+    8.763,
+    8.692,
+    8.637,
+    8.598,
+    8.573,
+    8.564,
+    8.607,
+    8.637,
+    8.863,
+    9.025,
+    9.208,
+    9.22,
+    9.328,
+    9.451,
+    9.633,
+    9.646,
+    9.721,
+    9.854,
+    10.109,
+    10.249,
+    10.15,
+    9.862,
+    10.191,
+    10.188,
+    10.193,
+    10.328,
+    10.504,
+    10.698,
+    10.895,
+    11.096,
+    11.299,
+    11.504,
+    11.712,
+    11.904,
+    12.116,
+    12.328,
+    12.589,
+    12.839,
+    13.089,
+    13.339,
+    13.589,
+    13.839,
+    14.089,
+    14.339,
+    14.589,
+    14.839,
+    15.089,
+    15.339,
+    15.589,
+    15.839,
+    16.089,
+    15.839,
+    15.589,
+    15.339,
+    15.089,
+    14.839,
+    14.589,
+    14.339,
+    14.089,
+    13.839,
+    13.589,
+    13.339,
+    13.089,
+    12.839,
+    12.589,
+    12.328,
+    12.079,
+    11.829,
+    11.579,
+    11.329,
+    11.079,
+    10.83,
+    10.58,
+    10.33,
+    10.08,
+    9.831,
+    9.581,
+    9.331,
+    9.082,
+    8.832,
+    8.582,
+    8.333,
+    8.083,
+    7.833,
+    7.584,
+    7.334,
+    7.085,
+    6.835,
+    6.586,
+    6.337,
+    6.087,
+    5.838,
+    5.589,
+    5.351,
+    5.101,
+    4.852,
+    4.602,
+    4.353,
+    4.105,
+    3.856,
+    3.609,
+    3.365
+  ],
+  "final_distance": 3.365,
+  "min_distance": 3.365,
+  "metrics": {
+    "distance_to_goal": 3.3653502464294434,
+    "success": 0.0,
+    "spl": 0.0,
+    "oracle_success": 0.0,
+    "path_length": 25.080436907708645,
+    "steps_taken": 348.0
+  },
+  "success": false,
+  "backend_stats": {
+    "calls": 111,
+    "failures": 0,
+    "prompt_tokens": 223951,
+    "completion_tokens": 19190,
+    "reasoning_tokens": 11764,
+    "latency_s": 382.3424482345581
+  },
+  "stop_deferrals": 0
+}

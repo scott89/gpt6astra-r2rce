@@ -1,0 +1,451 @@
+{
+  "episode_id": 1096,
+  "scene_id": "QUCTc6BB5sX",
+  "instruction": "Turn around and walk straight forward down the hallway all the way to the other end. Once you reach the end turn left and stop in the doorway.",
+  "actions_taken": 94,
+  "policy_calls": 32,
+  "api_latency_s": 229.89,
+  "prompt_tokens": 63370,
+  "completion_tokens": 13277,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 230.45,
+  "steps": [
+    {
+      "n": 8,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm currently facing a console table with a lamp, with a door to my left. The instruction says to turn around first, so I'll rotate 180 degrees to face down the hallway before moving.",
+      "latency_s": 3.55,
+      "prompt_tokens": 890
+    },
+    {
+      "n": 12,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "After the initial turns, I now face a long hallway stretching ahead with a doorway at the far end. I will walk forward along it, re-observing periodically, and turn left when I reach the end.",
+      "latency_s": 6.19,
+      "prompt_tokens": 1248
+    },
+    {
+      "n": 15,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing down the hallway toward its far end, which matches the instruction to walk straight forward. I'll advance along the hallway and re-observe before reaching the end where I need to turn left into a doorway.",
+      "latency_s": 2.61,
+      "prompt_tokens": 1612
+    },
+    {
+      "n": 19,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm aligned with the long hallway and need to continue straight to its far end before turning left. I'll advance a few steps and re-observe to track my progress toward the end.",
+      "latency_s": 2.85,
+      "prompt_tokens": 1976
+    },
+    {
+      "n": 22,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm progressing down the hallway toward the far end where the cabinet and window are visible. The hallway continues straight ahead, so I'll keep advancing and re-observe before reaching the end where I need to turn left.",
+      "latency_s": 2.98,
+      "prompt_tokens": 1977
+    },
+    {
+      "n": 26,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm still mid-hallway; the far end with the window and cabinet is ahead, and there's a glass doorway on the right but the instruction says to turn left at the end. I'll keep advancing down the hallway and re-observe.",
+      "latency_s": 3.63,
+      "prompt_tokens": 1976
+    },
+    {
+      "n": 30,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm progressing down the hallway toward the far end where the dresser and window are. There's an arched doorway on the left near the end \u2014 that's likely where I need to turn left. I'll continue forward a few steps and re-observe.",
+      "latency_s": 2.97,
+      "prompt_tokens": 1977
+    },
+    {
+      "n": 33,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm partway down the hallway; the end with the dresser is still a few meters ahead, and there's an arched doorway on the left near the end. I'll advance a few steps and re-observe before turning left into the archway.",
+      "latency_s": 4.41,
+      "prompt_tokens": 1977
+    },
+    {
+      "n": 37,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm progressing down the hallway toward the dresser at the far end. The arched doorway on the left near the end is where I'll need to turn left and stop, so I'll keep advancing and re-observe as I approach it.",
+      "latency_s": 4.69,
+      "prompt_tokens": 1978
+    },
+    {
+      "n": 41,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_LEFT"
+      ],
+      "thought": "I've walked most of the hallway; ahead on the left is an arched doorway, which matches 'turn left and stop in the doorway'. I'll advance a bit closer, then turn left to face the archway.",
+      "latency_s": 3.55,
+      "prompt_tokens": 1979
+    },
+    {
+      "n": 43,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I've reached the end of the hallway where it opens into a room with a dresser and window. The arched doorway is on my left, so I'll turn left toward it and move into the doorway to stop.",
+      "latency_s": 3.36,
+      "prompt_tokens": 1979
+    },
+    {
+      "n": 44,
+      "actions": [
+        "MOVE_FORWARD"
+      ],
+      "thought": "I have walked to the end of the hallway and turned left; the arched wooden doorway is now roughly ahead of me, a few meters away. I will advance one step to get closer and verify alignment before stopping in the doorway.",
+      "latency_s": 6.76,
+      "prompt_tokens": 1979
+    },
+    {
+      "n": 48,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I have walked down the hallway and turned left; the arched doorway with the dark wooden door is now visible slightly to my left. I need to align with it and advance into the doorway.",
+      "latency_s": 5.54,
+      "prompt_tokens": 1980
+    },
+    {
+      "n": 51,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I have walked down the hallway and the photo wall is now very close on my left, meaning I've drifted toward it. The arched doorway with the dark wooden door lies ahead to the right, so I need to turn right to re-align with the hallway before continuing to the end.",
+      "latency_s": 4.39,
+      "prompt_tokens": 1981
+    },
+    {
+      "n": 52,
+      "actions": [
+        "MOVE_FORWARD"
+      ],
+      "thought": "I am near the end of the hallway; the arched opening ahead appears to be the doorway to enter after turning left at the hall's end. I will advance one step and re-observe to align before entering.",
+      "latency_s": 37.87,
+      "prompt_tokens": 4016
+    },
+    {
+      "n": 55,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've reached the end of the hallway; an arched doorway is visible slightly to my left, past the picture wall. I'll turn left toward the arch and then step into the doorway.",
+      "latency_s": 4.54,
+      "prompt_tokens": 1983
+    },
+    {
+      "n": 57,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I have drifted too close to the wall on my left; the arched doorway and the dark door are off to my right. I need to re-aim right toward the archway before moving further down the hall.",
+      "latency_s": 5.69,
+      "prompt_tokens": 1985
+    },
+    {
+      "n": 58,
+      "actions": [
+        "MOVE_FORWARD"
+      ],
+      "thought": "I appear to have reached the end of the hallway and turned left; a dark doorway opening is visible just ahead of me. I will advance toward it and re-observe before entering.",
+      "latency_s": 9.15,
+      "prompt_tokens": 1986
+    },
+    {
+      "n": 60,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I appear to be at the end of the hallway: a wall is directly to my left and a dark doorway is visible just ahead-left, past the arch. The instruction says to turn left at the end and stop in the doorway, so I will aim slightly left toward that dark doorway and approach it.",
+      "latency_s": 6.9,
+      "prompt_tokens": 1987
+    },
+    {
+      "n": 62,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall with a dark doorway opening just to its right, slightly off-center. I need to rotate right to align with the doorway before stepping through it.",
+      "latency_s": 5.09,
+      "prompt_tokens": 1988
+    },
+    {
+      "n": 64,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I appear to have drifted close to a wall on my left, with the dark wooden doorway visible just left of center ahead. I'll turn left slightly to center the doorway before stepping through it, since the instruction ends in that doorway after the left turn.",
+      "latency_s": 6.9,
+      "prompt_tokens": 1989
+    },
+    {
+      "n": 68,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've reached the end of the hallway; an open arched doorway leading to a bedroom is visible to my left. I'll turn left to align with it, then step into the doorway and stop.",
+      "latency_s": 3.01,
+      "prompt_tokens": 1989
+    },
+    {
+      "n": 70,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing down the hallway with an archway ahead and an open wooden door on the right. The instruction says to continue to the far end of the hallway and then turn left into a doorway, so I'll advance and re-observe before committing further.",
+      "latency_s": 14.73,
+      "prompt_tokens": 1991
+    },
+    {
+      "n": 72,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I have walked down the hallway and can see its end: an arched opening on the left leading to another room, with an open wooden door on the right. Per the instruction, I need to advance to the end and turn left into that arched doorway, so I will move forward a bit and then re-observe before turning.",
+      "latency_s": 13.81,
+      "prompt_tokens": 1990
+    },
+    {
+      "n": 76,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I have walked to the far end of the hallway; ahead the hall ends and there is an arched doorway on the left leading to a room with a bathtub. Per the instruction, I should turn left into that doorway and stop there.",
+      "latency_s": 5.44,
+      "prompt_tokens": 1992
+    },
+    {
+      "n": 79,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing down the hallway with an archway ahead (room with the tub) and a dark arched doorway on the left next to the large wooden door. The instruction says to walk to the end of the hallway, then turn left into a doorway, so I'll advance toward the end first and re-check the left-side doorway as I go.",
+      "latency_s": 23.33,
+      "prompt_tokens": 1994
+    },
+    {
+      "n": 81,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing down the hallway with an arched opening ahead leading to the far end. I need to continue forward to reach the end of the hallway before turning left into the doorway.",
+      "latency_s": 11.83,
+      "prompt_tokens": 1994
+    },
+    {
+      "n": 84,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing down the hallway toward the arched opening at the far end, with a wooden arched door on my left. I need to advance toward the end of the hallway, then turn left into that doorway. I'll take a couple of forward steps and re-observe.",
+      "latency_s": 4.54,
+      "prompt_tokens": 1994
+    },
+    {
+      "n": 87,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing down the hallway toward an archway at the far end. I need to continue forward to reach the end before turning left, so I'll advance a few steps and re-observe.",
+      "latency_s": 4.87,
+      "prompt_tokens": 1995
+    },
+    {
+      "n": 90,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm still in the hallway; the archway ahead leads toward the far end where the hallway opens up. I should continue forward a few steps and re-observe before deciding where the hallway ends and where the left doorway is.",
+      "latency_s": 6.91,
+      "prompt_tokens": 1995
+    },
+    {
+      "n": 93,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I have reached the end of the hallway; the open wooden doorway is on my left. I need to turn left to face the doorway and then stop there.",
+      "latency_s": 3.58,
+      "prompt_tokens": 1996
+    },
+    {
+      "n": 94,
+      "actions": [
+        "STOP"
+      ],
+      "thought": "I have walked down the hallway, reached its end, and turned left; the current view shows the open wooden door and the room beyond, meaning I am now positioned in the doorway as instructed.",
+      "latency_s": 4.22,
+      "prompt_tokens": 1997
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    11.071,
+    11.071,
+    10.822,
+    10.573,
+    10.325,
+    10.076,
+    9.828,
+    9.58,
+    9.332,
+    9.084,
+    8.836,
+    8.588,
+    8.341,
+    8.094,
+    7.848,
+    7.601,
+    7.356,
+    7.111,
+    6.866,
+    6.623,
+    6.381,
+    6.138,
+    5.896,
+    5.655,
+    5.415,
+    5.176,
+    4.938,
+    4.703,
+    4.47,
+    4.239,
+    4.011,
+    3.787,
+    3.567,
+    3.351,
+    3.109,
+    2.894,
+    2.687,
+    2.493,
+    2.244,
+    2.027,
+    1.778,
+    1.551,
+    1.309,
+    1.184,
+    0.943,
+    0.817,
+    0.609,
+    0.362,
+    0.315,
+    0.286,
+    0.256,
+    0.226,
+    0.197,
+    0.039,
+    0.292,
+    0.542,
+    0.792,
+    1.042,
+    1.292,
+    1.542,
+    1.792,
+    2.042,
+    2.292
+  ],
+  "final_distance": 2.292,
+  "min_distance": 0.039,
+  "metrics": {
+    "distance_to_goal": 2.291710138320923,
+    "success": 1.0,
+    "spl": 0.7973777997369952,
+    "oracle_success": 1.0,
+    "path_length": 13.88415640220046,
+    "steps_taken": 94.0
+  },
+  "success": true,
+  "backend_stats": {
+    "calls": 33,
+    "failures": 0,
+    "prompt_tokens": 63370,
+    "completion_tokens": 13277,
+    "reasoning_tokens": 11094,
+    "latency_s": 229.87681913375854
+  },
+  "stop_deferrals": 0
+}

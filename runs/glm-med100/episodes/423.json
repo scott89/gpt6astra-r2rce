@@ -1,0 +1,461 @@
+{
+  "episode_id": 423,
+  "scene_id": "QUCTc6BB5sX",
+  "instruction": "Turn left and walk across the hallway. Turn left again and walk across this hallway and wait by the bathtub.",
+  "actions_taken": 112,
+  "policy_calls": 32,
+  "api_latency_s": 127.51,
+  "prompt_tokens": 61005,
+  "completion_tokens": 6766,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 128.12,
+  "steps": [
+    {
+      "n": 3,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "The current view is mostly blocked by a doorframe, so I cannot yet see the hallway. The instruction says to turn left first, so I will rotate left and re-observe before moving.",
+      "latency_s": 2.05,
+      "prompt_tokens": 882
+    },
+    {
+      "n": 6,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've turned left 45\u00b0 and now see a hallway with glass doors on the right; the hallway continues toward the left of the frame. I'll turn left to align with the hallway's length, then walk forward across it before looking for the next left turn toward the bathtub.",
+      "latency_s": 4.26,
+      "prompt_tokens": 1237
+    },
+    {
+      "n": 9,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a long hallway with glass doors on the right and an archway ahead on the left. I should continue walking down this hallway toward the archway, which is likely where I'll turn left next.",
+      "latency_s": 2.69,
+      "prompt_tokens": 1601
+    },
+    {
+      "n": 12,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm walking down a hallway with glass doors on the right and an arched opening on the left ahead. The instruction says to walk across this hallway then turn left, so I'll advance toward the archway before turning left into it.",
+      "latency_s": 3.88,
+      "prompt_tokens": 1965
+    },
+    {
+      "n": 16,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_LEFT"
+      ],
+      "thought": "I've walked down the first hallway; ahead on the left there is an arched opening which is likely where I turn left into the next hallway. I'll advance toward it, then turn left and proceed toward the bathroom with the bathtub.",
+      "latency_s": 4.93,
+      "prompt_tokens": 1966
+    },
+    {
+      "n": 19,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've made the first left turn and am now in a hallway with an arched doorway on the left and the hall continuing toward a dresser ahead. I should walk across this hallway toward the dresser before making the second left turn toward the bathtub.",
+      "latency_s": 5.54,
+      "prompt_tokens": 1967
+    },
+    {
+      "n": 23,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the second hallway facing a dresser at the far end. I'll move forward along the hallway and check for a bathroom/bathtub opening, likely on the left near the archway.",
+      "latency_s": 5.15,
+      "prompt_tokens": 1968
+    },
+    {
+      "n": 27,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I've walked to the end of the first hallway (dresser under the window). The instruction says to turn left again and walk across the second hallway toward the bathtub. The archway I passed is on my left, so I'll turn left to face it and re-observe.",
+      "latency_s": 4.56,
+      "prompt_tokens": 1969
+    },
+    {
+      "n": 30,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've turned and now face an arched doorway leading into another hallway; the bathtub should be through this arch. I'll advance through the archway and re-observe to locate the bathtub.",
+      "latency_s": 4.55,
+      "prompt_tokens": 1970
+    },
+    {
+      "n": 33,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've turned and am now facing through an archway into the next hallway. I need to walk down this hallway to find the bathtub, so I'll advance forward and re-observe.",
+      "latency_s": 3.73,
+      "prompt_tokens": 1971
+    },
+    {
+      "n": 36,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I've walked the first hallway and now face a second hallway with arches. Through the left archway I can see a white bathtub in a room ahead, so I'll turn left, align with that arch, and approach the tub.",
+      "latency_s": 3.51,
+      "prompt_tokens": 1971
+    },
+    {
+      "n": 39,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see through the archway ahead a room containing what appears to be a white bathtub. I need to walk down this hallway toward it, so I will advance carefully and re-observe.",
+      "latency_s": 3.18,
+      "prompt_tokens": 1972
+    },
+    {
+      "n": 42,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "Through the archway ahead I can see a white bathtub-like fixture in the room at the end of the hall. I should walk forward through the archway toward it, since the instruction ends at the bathtub.",
+      "latency_s": 3.36,
+      "prompt_tokens": 1973
+    },
+    {
+      "n": 46,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing down a hallway with a white bathtub-like fixture visible at the far end near the archway. I need to walk down this hallway toward it, so I'll advance a few steps and re-observe to confirm the bathtub before stopping.",
+      "latency_s": 5.03,
+      "prompt_tokens": 1973
+    },
+    {
+      "n": 50,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The arched doorway ahead opens into a room with a white bathtub visible in the distance. I need to walk through the arch and approach the bathtub, then stop near it.",
+      "latency_s": 3.89,
+      "prompt_tokens": 1974
+    },
+    {
+      "n": 53,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hallway facing a wooden door on my left, with an arched opening ahead leading to a room where a white bathtub is visible. Following the instruction, I need to walk across this hallway toward the archway and then reach the bathtub, so I'll advance carefully and re-observe.",
+      "latency_s": 6.88,
+      "prompt_tokens": 1973
+    },
+    {
+      "n": 57,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "Through the archway ahead I can see a white bathtub in the next room, which matches the instruction's endpoint. I'll advance toward it and re-observe before stopping.",
+      "latency_s": 3.23,
+      "prompt_tokens": 1975
+    },
+    {
+      "n": 61,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "Through the archway ahead I can see a white bathtub in the next room, which matches the instruction's endpoint. I'll advance toward it and re-observe before stopping.",
+      "latency_s": 3.53,
+      "prompt_tokens": 1976
+    },
+    {
+      "n": 65,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bathtub is visible ahead through the archway, so I need to walk forward toward it and then stop nearby.",
+      "latency_s": 4.0,
+      "prompt_tokens": 1976
+    },
+    {
+      "n": 69,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see a hallway ahead leading through an archway to a room with a white bathtub visible in the distance. The instruction ends at the bathtub, so I should walk forward down this hallway toward it, then re-observe to confirm distance before stopping.",
+      "latency_s": 5.26,
+      "prompt_tokens": 1977
+    },
+    {
+      "n": 73,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "Through the archway ahead I can see a white bathtub in the room beyond, which matches the instruction's goal. I'll advance toward it and re-observe before stopping.",
+      "latency_s": 3.03,
+      "prompt_tokens": 1977
+    },
+    {
+      "n": 77,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the bathtub ahead through the arched doorway at the end of this hallway. I need to walk forward toward it, staying clear of the wooden door on my left.",
+      "latency_s": 3.35,
+      "prompt_tokens": 1978
+    },
+    {
+      "n": 80,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see an arched doorway ahead with what appears to be a white bathtub visible through it in the next room. The instruction says to walk across this hallway and wait by the bathtub, so I should advance through the arch toward it, checking my path since a wooden door sits close on my left.",
+      "latency_s": 3.77,
+      "prompt_tokens": 1978
+    },
+    {
+      "n": 84,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see an arched doorway slightly to my right with what appears to be a bathtub visible through it. I need to align with that archway and approach the bathtub, re-checking as I go since the door edge is near my current heading.",
+      "latency_s": 10.43,
+      "prompt_tokens": 1977
+    },
+    {
+      "n": 88,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see a hallway ahead with an archway, and a white bathtub-like object visible in the distance beyond it. I need to walk forward across this hallway toward the bathtub.",
+      "latency_s": 3.84,
+      "prompt_tokens": 1980
+    },
+    {
+      "n": 92,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I have turned and walked down the hallway; ahead through the archway I can see a white bathtub-like fixture at the end of the next hallway. I should continue forward toward it and stop nearby.",
+      "latency_s": 3.43,
+      "prompt_tokens": 1980
+    },
+    {
+      "n": 95,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I have turned and walked down the hallway; ahead through the archway I can see a white bathtub-like fixture in the next room. I need to advance through the archway toward it before stopping.",
+      "latency_s": 3.63,
+      "prompt_tokens": 1981
+    },
+    {
+      "n": 99,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the bathtub ahead through the archway, slightly left of center. I'll walk forward toward it and stop once I'm beside it.",
+      "latency_s": 2.34,
+      "prompt_tokens": 1982
+    },
+    {
+      "n": 101,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bathtub is visible ahead through the archway, roughly 3-4 m away, with a pillar partially blocking the view. I'll advance a couple of steps toward it, keeping slightly left of the pillar, then stop once I'm beside the bathtub.",
+      "latency_s": 2.39,
+      "prompt_tokens": 1982
+    },
+    {
+      "n": 105,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bathtub is visible ahead to the left, but a wall pillar is blocking my direct path. I need to turn left to move around the wall and approach the bathtub.",
+      "latency_s": 2.72,
+      "prompt_tokens": 1983
+    },
+    {
+      "n": 108,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bathtub is visible ahead in the open bathroom area, roughly 3-4 m away. I'll move forward a bit to get within range, then stop by the bathtub.",
+      "latency_s": 2.99,
+      "prompt_tokens": 1985
+    },
+    {
+      "n": 112,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "STOP"
+      ],
+      "thought": "I can see the freestanding bathtub directly ahead in the bathroom, roughly 2-3 m away. I'll take a couple of forward steps to get beside it, then stop.",
+      "latency_s": 2.38,
+      "prompt_tokens": 1986
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    11.116,
+    11.116,
+    10.892,
+    10.673,
+    10.456,
+    10.243,
+    10.035,
+    9.833,
+    9.637,
+    9.447,
+    9.266,
+    9.093,
+    8.885,
+    8.685,
+    8.492,
+    8.309,
+    8.139,
+    7.984,
+    7.846,
+    7.596,
+    7.346,
+    7.096,
+    6.846,
+    6.596,
+    6.346,
+    6.212,
+    6.127,
+    6.063,
+    5.999,
+    5.934,
+    5.869,
+    5.618,
+    5.463,
+    5.149,
+    4.906,
+    4.665,
+    4.425,
+    4.186,
+    3.949,
+    3.713,
+    3.48,
+    3.249,
+    3.02,
+    2.796,
+    2.576,
+    2.362,
+    2.147,
+    1.899,
+    1.651,
+    1.401,
+    1.154,
+    0.91,
+    0.669,
+    0.438,
+    0.249
+  ],
+  "final_distance": 0.249,
+  "min_distance": 0.249,
+  "metrics": {
+    "distance_to_goal": 0.2491406798362732,
+    "success": 1.0,
+    "spl": 0.8972561939417976,
+    "oracle_success": 1.0,
+    "path_length": 12.389285914599895,
+    "steps_taken": 112.0
+  },
+  "success": true,
+  "backend_stats": {
+    "calls": 32,
+    "failures": 0,
+    "prompt_tokens": 61005,
+    "completion_tokens": 6766,
+    "reasoning_tokens": 4523,
+    "latency_s": 127.51312565803528
+  },
+  "stop_deferrals": 0
+}

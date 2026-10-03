@@ -1,0 +1,914 @@
+{
+  "episode_id": 1398,
+  "scene_id": "QUCTc6BB5sX",
+  "instruction": "Walk past the end table and turn right into the kitchen. Walk to the left of the island past the oven into the next room and stop.",
+  "actions_taken": 235,
+  "policy_calls": 64,
+  "api_latency_s": 294.22,
+  "prompt_tokens": 128603,
+  "completion_tokens": 16483,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 295.49,
+  "steps": [
+    {
+      "n": 3,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I see a dining area ahead with what appears to be an end table and chair on the left side of the room. I'll move forward toward it, staying left of the central pillar, then look for the kitchen on the right.",
+      "latency_s": 2.55,
+      "prompt_tokens": 889
+    },
+    {
+      "n": 6,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hallway looking through an archway into a dining room. The kitchen should be off to the right somewhere, so I'll advance through the archway first and then look for the kitchen entrance.",
+      "latency_s": 3.28,
+      "prompt_tokens": 1245
+    },
+    {
+      "n": 8,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "The kitchen is not in view; the sofa and windows are to my right, so I need to rotate right to find the end table and the kitchen entry.",
+      "latency_s": 3.59,
+      "prompt_tokens": 1609
+    },
+    {
+      "n": 10,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a sitting area with a glass end table and pink sofa. The kitchen should be to my right, so I'll turn right to find the opening into the kitchen.",
+      "latency_s": 2.55,
+      "prompt_tokens": 1973
+    },
+    {
+      "n": 13,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm currently facing a wall after turning right. The instruction says to turn right into the kitchen, so I need to keep rotating right to find the kitchen opening.",
+      "latency_s": 2.97,
+      "prompt_tokens": 1974
+    },
+    {
+      "n": 15,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I turned too far and am now facing a wall, with an opening visible on my right leading to a room with a table and fireplace. I need to turn right to face that opening and re-observe before proceeding toward the kitchen.",
+      "latency_s": 4.19,
+      "prompt_tokens": 1976
+    },
+    {
+      "n": 17,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've turned right and now face a living room with a fireplace and a large wooden table ahead, with an archway visible on the right. I need to move forward past this table first, then look for the kitchen entrance.",
+      "latency_s": 3.45,
+      "prompt_tokens": 1977
+    },
+    {
+      "n": 21,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've entered a large living room with a wooden table directly ahead and an arched doorway on the right wall. The instruction says to pass the end table and turn right into the kitchen, so I'll angle right toward that archway and advance carefully.",
+      "latency_s": 5.57,
+      "prompt_tokens": 1978
+    },
+    {
+      "n": 23,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a console/end table with a lamp, with an arched opening visible beyond it. I need to pass this table first, then look for the kitchen entrance on my right. I'll advance carefully and re-observe.",
+      "latency_s": 4.94,
+      "prompt_tokens": 1980
+    },
+    {
+      "n": 26,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm beside the end table with the lamp, and an arched doorway is visible ahead. I'll advance toward the archway, then turn right to enter the kitchen as instructed.",
+      "latency_s": 3.54,
+      "prompt_tokens": 1981
+    },
+    {
+      "n": 31,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I have walked directly into the end table with the lamp; I need to go around it. The archway is to my left, so I will turn left, move around the end of the table, and then re-observe to find the kitchen on the right.",
+      "latency_s": 5.28,
+      "prompt_tokens": 1981
+    },
+    {
+      "n": 36,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I am currently beside the end table (the console with the lamp) facing the living room fireplace. I need to move forward past the table, then turn right to find the kitchen entrance.",
+      "latency_s": 4.95,
+      "prompt_tokens": 1983
+    },
+    {
+      "n": 43,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm pressed right up against the end table with the lamp, so I must circle around it before heading to the kitchen. I'll turn left to clear the table, step past it, then re-observe to find the kitchen entrance on my right.",
+      "latency_s": 8.17,
+      "prompt_tokens": 1985
+    },
+    {
+      "n": 48,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm standing right at the end table with the lamp. The instruction says to pass it and turn right toward the kitchen, so I'll rotate right to clear the table and head toward the open living area where the kitchen lies beyond.",
+      "latency_s": 5.58,
+      "prompt_tokens": 1988
+    },
+    {
+      "n": 52,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm beside the end table facing the living room. The kitchen should be to my right, so I'll turn right to find the doorway before moving.",
+      "latency_s": 4.53,
+      "prompt_tokens": 1991
+    },
+    {
+      "n": 58,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing the end table with the lamp up close. I need to pass it and then turn right toward the kitchen, so first I'll rotate right to see the area beside the table before moving.",
+      "latency_s": 15.51,
+      "prompt_tokens": 1993
+    },
+    {
+      "n": 61,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the kitchen island through the archway ahead. I need to move forward through the archway, then pass to the left of the island toward the oven and the next room.",
+      "latency_s": 3.29,
+      "prompt_tokens": 1996
+    },
+    {
+      "n": 65,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the kitchen island ahead through the opening, with a wall pillar blocking my immediate front. I need to angle left to pass the wall and approach the left side of the island as instructed.",
+      "latency_s": 4.23,
+      "prompt_tokens": 1997
+    },
+    {
+      "n": 69,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm pressed against a wall corner with the kitchen island visible to my right. I need to turn right to clear the wall and face the kitchen opening.",
+      "latency_s": 2.03,
+      "prompt_tokens": 1999
+    },
+    {
+      "n": 72,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hallway with the kitchen island visible on my left. The instruction says to walk to the left of the island past the oven, so I should approach the island keeping it on my right side. I'll move forward along the hallway toward the kitchen area first.",
+      "latency_s": 4.53,
+      "prompt_tokens": 2001
+    },
+    {
+      "n": 76,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hallway with a large wooden island on my left (the kitchen area with flowers on the counter). The instruction says to walk to the left of the island past the oven into the next room, so I need to turn left toward the open kitchen area and proceed alongside the island.",
+      "latency_s": 5.82,
+      "prompt_tokens": 2002
+    },
+    {
+      "n": 81,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've reached the kitchen island; the instruction requires passing to its left toward the oven and continuing into the next room. I'll turn left to align with the left side of the island and advance.",
+      "latency_s": 3.89,
+      "prompt_tokens": 2004
+    },
+    {
+      "n": 84,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the kitchen with the island on my right and the oven on the left wall, matching 'walk to the left of the island past the oven'. Ahead there's an opening leading to the next room, so I'll advance along the island and re-observe before entering it.",
+      "latency_s": 4.03,
+      "prompt_tokens": 2006
+    },
+    {
+      "n": 88,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the kitchen walking along the left side of the island with the oven on my left. The doorway to the next room is straight ahead, so I'll advance toward it and then stop once through.",
+      "latency_s": 2.83,
+      "prompt_tokens": 2007
+    },
+    {
+      "n": 92,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the kitchen walking along the left side of the island, with the oven on my left and a doorway straight ahead leading to the next room. I'll advance through the doorway and stop once inside the next room.",
+      "latency_s": 3.45,
+      "prompt_tokens": 2007
+    },
+    {
+      "n": 96,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the kitchen with the island on my right and the oven on my left, facing the doorway to the next room. I'll advance through the doorway into the next room, then stop.",
+      "latency_s": 3.66,
+      "prompt_tokens": 2008
+    },
+    {
+      "n": 100,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The doorway to the next room is straight ahead and I'm roughly aligned with it; I'll move forward through it and then stop in the next room.",
+      "latency_s": 3.35,
+      "prompt_tokens": 2008
+    },
+    {
+      "n": 103,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I have walked past the island with the oven on my right and I'm now at the doorway leading into the next room. I need to advance through the doorway a couple of steps and then stop in that room.",
+      "latency_s": 3.62,
+      "prompt_tokens": 2008
+    },
+    {
+      "n": 106,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I am in the kitchen, with the island on my right and the fridge/oven area beside it, facing the doorway into the next room. I need to continue forward through this doorway into the next room and then stop.",
+      "latency_s": 3.4,
+      "prompt_tokens": 2008
+    },
+    {
+      "n": 109,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hallway facing a doorway into a room with a table ahead. The kitchen should be to the right per the instruction, but first I need to advance through this opening to reach the area where I can turn right.",
+      "latency_s": 3.19,
+      "prompt_tokens": 2010
+    },
+    {
+      "n": 112,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm approaching the doorway to the room with the island. I should move forward through the doorway, then turn right to find the kitchen entrance.",
+      "latency_s": 3.16,
+      "prompt_tokens": 2009
+    },
+    {
+      "n": 115,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the kitchen facing the island with towels; the fridge is on my right. The instruction says to walk to the left of the island past the oven into the next room, so I'll advance toward the island's left side.",
+      "latency_s": 2.89,
+      "prompt_tokens": 2010
+    },
+    {
+      "n": 121,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing the kitchen island up close. The instruction says to walk to the left of the island past the oven into the next room, so I need to turn left and circle around the island's left side.",
+      "latency_s": 2.99,
+      "prompt_tokens": 2010
+    },
+    {
+      "n": 125,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've moved around to the left side of the island and now face a door area, but I haven't located the oven or the opening into the next room yet. I'll turn right to re-scan the kitchen side where the fridge and counters are, to find the oven and the passage beyond it.",
+      "latency_s": 18.17,
+      "prompt_tokens": 2012
+    },
+    {
+      "n": 128,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a table with towels and windows; a large white appliance (possibly a fridge) is on the right. The instruction says to turn right into the kitchen, so I should rotate right to scan for the kitchen area and the island.",
+      "latency_s": 4.18,
+      "prompt_tokens": 2014
+    },
+    {
+      "n": 130,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've turned right into the kitchen and now face the refrigerator, with the island on my left. The instruction says to walk to the left of the island past the oven into the next room, so I'll advance along the island's left side toward the fridge and look for the passage beyond.",
+      "latency_s": 5.41,
+      "prompt_tokens": 2016
+    },
+    {
+      "n": 133,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm beside the table with the refrigerator ahead; there is a gap between the table and the fridge that appears to lead into the next room. I'll move forward through that gap, staying to the left of the island.",
+      "latency_s": 3.09,
+      "prompt_tokens": 2016
+    },
+    {
+      "n": 139,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I have walked too close to the refrigerator and am nearly touching it. I need to back away and re-orient to find the path to the left of the island toward the next room.",
+      "latency_s": 3.27,
+      "prompt_tokens": 2018
+    },
+    {
+      "n": 143,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm right up against a refrigerator, which is likely beside the oven in the kitchen. The instruction says to pass to the left of the island and head into the next room, so I should turn left to move around the fridge and see the path along the island.",
+      "latency_s": 4.75,
+      "prompt_tokens": 2020
+    },
+    {
+      "n": 151,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I appear to have overshot: I'm now facing a refrigerator with a table and a hallway beyond, which looks like the room past the kitchen rather than the kitchen itself. I need to turn around to find the kitchen with the island and oven.",
+      "latency_s": 4.42,
+      "prompt_tokens": 2021
+    },
+    {
+      "n": 155,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to be facing a refrigerator at very close range, likely inside or near the kitchen. I need to re-orient to find the island and oven, then pass to the left of the island into the next room. First I'll turn to survey the space.",
+      "latency_s": 4.46,
+      "prompt_tokens": 2023
+    },
+    {
+      "n": 158,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I have turned right past the kitchen area and now face an arched hallway leading into the next room, which matches the final part of the instruction. I will advance through the archway and then look for a spot to stop.",
+      "latency_s": 3.6,
+      "prompt_tokens": 2025
+    },
+    {
+      "n": 161,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I am in a hallway past the kitchen, facing an arched opening that leads into the next room. I should advance through this opening toward the room visible ahead, then stop once inside.",
+      "latency_s": 3.51,
+      "prompt_tokens": 2026
+    },
+    {
+      "n": 164,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hallway with a stone archway ahead and what looks like a kitchen island visible in the distance. I need to continue forward through the archway toward the kitchen, keeping the island on my right so I pass to its left.",
+      "latency_s": 3.43,
+      "prompt_tokens": 2026
+    },
+    {
+      "n": 168,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen island is visible ahead through the stone archway. I need to advance toward it and then pass to its left toward the next room.",
+      "latency_s": 3.22,
+      "prompt_tokens": 2027
+    },
+    {
+      "n": 171,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The island is on my left and the arched doorway to the next room is straight ahead; I need to move forward past the island toward it.",
+      "latency_s": 3.31,
+      "prompt_tokens": 2028
+    },
+    {
+      "n": 175,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm beside the kitchen island with the stone pillar on my right and the archway to the next room straight ahead. I'll advance along the open path to the left of the island, then re-observe before entering the next room.",
+      "latency_s": 5.51,
+      "prompt_tokens": 2027
+    },
+    {
+      "n": 179,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the kitchen with the island on my left and the oven on my right. The instruction says to walk left of the island past the oven into the next room, so I'll advance through the clear corridor ahead toward the arched opening.",
+      "latency_s": 6.43,
+      "prompt_tokens": 2028
+    },
+    {
+      "n": 183,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I am beside the oven at the kitchen island, with the open archway to the next room directly ahead. I will advance through the archway into the next room and stop there.",
+      "latency_s": 5.1,
+      "prompt_tokens": 2028
+    },
+    {
+      "n": 186,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The oven is on my right and the open archway to the next room lies straight ahead; I should walk forward past the oven along the island's left side.",
+      "latency_s": 6.16,
+      "prompt_tokens": 2029
+    },
+    {
+      "n": 192,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm at the oven; the instruction says to go past it into the next room, which is the living area visible through the archway to my left. I'll turn left and move toward the archway.",
+      "latency_s": 6.88,
+      "prompt_tokens": 2030
+    },
+    {
+      "n": 194,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The island is directly ahead; the instruction says to pass to its left, so I will turn left and walk along that side.",
+      "latency_s": 5.97,
+      "prompt_tokens": 4134
+    },
+    {
+      "n": 198,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm at the kitchen island, facing its side, with the archway to the next room visible ahead. The instruction says to go to the left of the island past the oven, so I'll turn left to circle around the island's left end first.",
+      "latency_s": 4.17,
+      "prompt_tokens": 2034
+    },
+    {
+      "n": 202,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm beside the kitchen island with the stainless steel oven/fridge ahead and a doorway to the next room on the left. I'll advance along the left side of the island toward the oven, then turn left into the next room.",
+      "latency_s": 3.09,
+      "prompt_tokens": 2034
+    },
+    {
+      "n": 205,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm beside the kitchen island with the oven/fridge ahead and a doorway to the next room on the left. I'll advance along the left side of the island toward that doorway, then re-observe before entering.",
+      "latency_s": 3.34,
+      "prompt_tokens": 2035
+    },
+    {
+      "n": 210,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the kitchen island with the fridge/oven ahead. The instruction says to walk along the left side of the island, past the oven, into the next room. I'll turn left to get around the near end of the island and advance through the gap toward the doorway on the left.",
+      "latency_s": 5.75,
+      "prompt_tokens": 2036
+    },
+    {
+      "n": 212,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the kitchen doorway beside the fridge, facing the opening into the next room with the table visible through it. I'll advance through the doorway into that room, then stop once inside.",
+      "latency_s": 4.42,
+      "prompt_tokens": 2037
+    },
+    {
+      "n": 215,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I am in the kitchen facing the doorway to the next room, with the island now behind me and the oven passed on my right. The doorway is straight ahead, so I will advance through it into the next room before stopping.",
+      "latency_s": 4.51,
+      "prompt_tokens": 2039
+    },
+    {
+      "n": 218,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hallway facing a doorway into a room with an island/table ahead. The instruction says to walk to the left of the island past the oven into the next room, so I should advance through this doorway toward the island.",
+      "latency_s": 3.61,
+      "prompt_tokens": 2038
+    },
+    {
+      "n": 221,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a doorway into a room with a table (likely the island) ahead. I need to move forward through the doorway, then pass to the left of the island toward the next room.",
+      "latency_s": 3.76,
+      "prompt_tokens": 2040
+    },
+    {
+      "n": 224,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The island/table is directly ahead; the instruction says to go to its left and continue into the next room. I'll move forward a few steps to approach the left side of the table before navigating around it.",
+      "latency_s": 3.52,
+      "prompt_tokens": 2041
+    },
+    {
+      "n": 228,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've entered the kitchen and can see the island ahead with the fridge on the right. Per the instruction, I need to pass along the left side of the island, so I'll turn left and move forward.",
+      "latency_s": 3.93,
+      "prompt_tokens": 2042
+    },
+    {
+      "n": 234,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm now in the kitchen facing the island up close. The instruction says to walk to the left of the island past the oven into the next room, so I should turn left to circle around the island's left side.",
+      "latency_s": 4.37,
+      "prompt_tokens": 2041
+    },
+    {
+      "n": 235,
+      "actions": [
+        "STOP"
+      ],
+      "thought": "I have walked past the island in the kitchen and entered the next room, which contains a bookshelf and a door ahead. The instruction ends in this next room, so I should stop here.",
+      "latency_s": 7.87,
+      "prompt_tokens": 2045
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    8.806,
+    8.806,
+    8.984,
+    9.188,
+    9.415,
+    9.289,
+    9.449,
+    9.522,
+    9.697,
+    9.499,
+    9.319,
+    9.157,
+    9.018,
+    8.887,
+    8.723,
+    8.887,
+    8.703,
+    8.543,
+    8.435,
+    8.401,
+    8.312,
+    8.073,
+    7.916,
+    7.916,
+    7.744,
+    7.493,
+    7.244,
+    6.994,
+    6.744,
+    6.494,
+    6.244,
+    5.995,
+    5.745,
+    5.495,
+    5.246,
+    4.996,
+    4.747,
+    4.497,
+    4.248,
+    3.999,
+    3.749,
+    3.5,
+    3.251,
+    3.002,
+    2.754,
+    2.506,
+    2.258,
+    2.01,
+    1.764,
+    1.518,
+    1.274,
+    1.033,
+    0.798,
+    0.576,
+    0.388,
+    0.307,
+    0.405,
+    0.598,
+    0.823,
+    1.059,
+    1.3,
+    1.391,
+    1.519,
+    1.691,
+    1.881,
+    2.083,
+    2.295,
+    2.514,
+    2.264,
+    2.015,
+    1.765,
+    1.516,
+    1.267,
+    1.018,
+    0.77,
+    0.524,
+    0.285,
+    0.112,
+    0.263,
+    0.501,
+    0.747,
+    0.995,
+    1.243,
+    1.493,
+    1.742,
+    1.988,
+    2.207,
+    2.429,
+    2.687,
+    2.937,
+    3.187,
+    3.427,
+    3.658,
+    3.892,
+    4.126,
+    4.361,
+    4.597,
+    4.863,
+    5.093,
+    5.067,
+    4.846,
+    4.628,
+    4.413,
+    4.202,
+    3.996,
+    3.782,
+    3.568,
+    3.319,
+    3.07,
+    2.822,
+    2.574,
+    2.326,
+    2.079,
+    1.833,
+    1.589,
+    1.346,
+    1.106,
+    0.872,
+    0.651,
+    0.459,
+    0.351,
+    0.401,
+    0.569,
+    0.782,
+    0.983,
+    1.203,
+    1.433,
+    1.492,
+    1.588
+  ],
+  "final_distance": 1.588,
+  "min_distance": 0.112,
+  "metrics": {
+    "distance_to_goal": 1.5882649421691895,
+    "success": 1.0,
+    "spl": 0.2804347055030537,
+    "oracle_success": 1.0,
+    "path_length": 31.401649355888367,
+    "steps_taken": 235.0
+  },
+  "success": true,
+  "backend_stats": {
+    "calls": 65,
+    "failures": 0,
+    "prompt_tokens": 128603,
+    "completion_tokens": 16483,
+    "reasoning_tokens": 11699,
+    "latency_s": 294.2594745159149
+  },
+  "stop_deferrals": 0
+}

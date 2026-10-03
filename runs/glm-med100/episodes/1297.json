@@ -1,0 +1,138 @@
+{
+  "episode_id": 1297,
+  "scene_id": "Z6MFQCViBuw",
+  "instruction": "Walk down the red carpet and turn right at the bed.  Stop under the door frame.",
+  "actions_taken": 20,
+  "policy_calls": 8,
+  "api_latency_s": 32.33,
+  "prompt_tokens": 13520,
+  "completion_tokens": 1824,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 32.52,
+  "steps": [
+    {
+      "n": 3,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I see a red carpet leading straight ahead through an ornate door frame. I'll advance along the carpet toward the doorway, re-observing as I go.",
+      "latency_s": 2.29,
+      "prompt_tokens": 879
+    },
+    {
+      "n": 6,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a red carpet leading through a doorway into a room with a bed ahead. I need to walk down the carpet toward the bed, so I'll advance forward along the carpet and re-observe.",
+      "latency_s": 2.49,
+      "prompt_tokens": 1234
+    },
+    {
+      "n": 9,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the doorway with the red carpet leading into the bedroom ahead. I should continue forward along the carpet toward the bed before turning right.",
+      "latency_s": 2.82,
+      "prompt_tokens": 1597
+    },
+    {
+      "n": 12,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've walked down the red carpet and am now at the doorway of the bedroom, with the bed visible ahead on the left. I need to approach the bed before turning right, so I'll advance carefully and re-observe.",
+      "latency_s": 5.74,
+      "prompt_tokens": 1961
+    },
+    {
+      "n": 14,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've walked down the red carpet and am now entering the bedroom; the ornate bed is ahead on the left. I need to continue along the carpet until I reach the bed, then turn right and stop under the door frame there.",
+      "latency_s": 6.95,
+      "prompt_tokens": 1961
+    },
+    {
+      "n": 17,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I have walked down the red carpet into the bedroom; the bed is now on my left. Per the instruction, I should turn right at the bed and head toward the door frame visible on the right side of the room.",
+      "latency_s": 2.41,
+      "prompt_tokens": 1961
+    },
+    {
+      "n": 19,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I have walked down the red carpet and turned right at the bed. A wooden door frame is now visible close on my right; I need to align with it and step under it before stopping.",
+      "latency_s": 6.3,
+      "prompt_tokens": 1963
+    },
+    {
+      "n": 20,
+      "actions": [
+        "STOP"
+      ],
+      "thought": "After walking the red carpet and turning right at the bed, I moved forward and am now directly at the wooden door frame, which fills the right side of my view and is within arm's reach. The instruction says to stop under the door frame, so I should stop here.",
+      "latency_s": 3.33,
+      "prompt_tokens": 1964
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    9.816,
+    9.569,
+    9.321,
+    9.073,
+    8.827,
+    8.581,
+    8.337,
+    8.093,
+    7.851,
+    7.61,
+    7.371,
+    7.135,
+    6.894,
+    6.666,
+    6.443,
+    6.231
+  ],
+  "final_distance": 6.231,
+  "min_distance": 6.231,
+  "metrics": {
+    "distance_to_goal": 6.230868339538574,
+    "success": 0.0,
+    "spl": 0.0,
+    "oracle_success": 0.0,
+    "path_length": 3.7743978202342987,
+    "steps_taken": 20.0
+  },
+  "success": false,
+  "backend_stats": {
+    "calls": 8,
+    "failures": 0,
+    "prompt_tokens": 13520,
+    "completion_tokens": 1824,
+    "reasoning_tokens": 1335,
+    "latency_s": 32.327149868011475
+  },
+  "stop_deferrals": 0
+}

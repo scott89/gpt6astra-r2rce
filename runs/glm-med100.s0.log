@@ -1,0 +1,113 @@
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+Users of this version of Gym should be able to simply replace 'import gym' with 'import gymnasium as gym' in the vast majority of cases.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+2026-10-03 20:34:03,349 Initializing dataset VLN-CE-v1
+2026-10-03 20:34:03,488 initializing sim Sim-v1
+2026-10-03 20:34:08,802 Initializing task VLN-v0
+run=glm-med100 policy=vlm pending=20 budget=500 actions/ep time_limit=2400.0s rgb=512x512
+scenes covered: 2/10 -> 2azQ1b91cZZ, X7HyMhZNoso
+[1/20] ep=512 scene=2azQ1b91cZZ acts=153 calls=47 term=stop dist=15.09 success=0 os=0 spl=0.000 (177s)
+[2/20] ep=116 scene=2azQ1b91cZZ acts=413 calls=115 term=stop dist=4.68 success=0 os=0 spl=0.000 (466s)
+[3/20] ep=1256 scene=2azQ1b91cZZ acts=482 calls=152 term=stop dist=23.97 success=0 os=0 spl=0.000 (604s)
+[4/20] ep=1090 scene=X7HyMhZNoso acts=500 calls=133 term=stop dist=6.11 success=0 os=0 spl=0.000 (461s)
+[5/20] ep=979 scene=2azQ1b91cZZ acts=65 calls=26 term=stop dist=0.53 success=1 os=1 spl=1.000 (106s)
+[6/20] ep=801 scene=2azQ1b91cZZ acts=496 calls=141 term=stop dist=18.86 success=0 os=0 spl=0.000 (487s)
+[7/20] ep=10 scene=2azQ1b91cZZ acts=20 calls=8 term=stop dist=2.36 success=1 os=1 spl=1.000 (25s)
+[8/20] ep=46 scene=X7HyMhZNoso acts=500 calls=390 term=stop dist=9.29 success=0 os=0 spl=0.000 (1348s)
+[9/20] ep=1416 scene=2azQ1b91cZZ acts=348 calls=111 term=stop dist=3.37 success=0 os=0 spl=0.000 (390s)
+[10/20] ep=1579 scene=2azQ1b91cZZ acts=9 calls=4 term=stop dist=7.93 success=0 os=0 spl=0.000 (27s)
+[11/20] ep=854 scene=X7HyMhZNoso acts=233 calls=71 term=stop dist=0.63 success=1 os=1 spl=0.795 (277s)
+[12/20] ep=228 scene=X7HyMhZNoso acts=21 calls=10 term=stop dist=5.58 success=0 os=0 spl=0.000 (44s)
+[13/20] ep=216 scene=2azQ1b91cZZ acts=30 calls=11 term=stop dist=2.00 success=1 os=1 spl=1.000 (40s)
+[14/20] ep=1675 scene=X7HyMhZNoso acts=494 calls=323 term=stop dist=5.93 success=0 os=0 spl=0.000 (865s)
+[15/20] ep 1256 ERROR BackendError: backend failed after 6 attempts: empty content (finish=length, reasoning_chars=8570); max_tokens=2048 too small
+[16/20] ep=374 scene=X7HyMhZNoso acts=488 calls=145 term=stop dist=5.68 success=0 os=0 spl=0.000 (557s)
+[17/20] ep=340 scene=2azQ1b91cZZ acts=44 calls=15 term=stop dist=2.44 success=1 os=1 spl=1.000 (57s)
+[18/20] ep=1188 scene=X7HyMhZNoso acts=45 calls=14 term=stop dist=0.90 success=1 os=1 spl=1.000 (54s)
+[19/20] ep=636 scene=X7HyMhZNoso acts=497 calls=156 term=stop dist=11.30 success=0 os=0 spl=0.000 (501s)
+[20/20] ep=1445 scene=X7HyMhZNoso acts=92 calls=31 term=stop dist=8.49 success=0 os=0 spl=0.000 (163s)
+
+=== this run ===
+{
+  "num_episodes": 19,
+  "success": 0.3158,
+  "oracle_success": 0.3158,
+  "distance_to_goal": 7.1127,
+  "spl": 0.305,
+  "path_length": 13.7371,
+  "steps_taken": 259.4737,
+  "termination": {
+    "stop": 19
+  },
+  "mean_actions_per_episode": 259.47,
+  "mean_policy_calls_per_episode": 100.16,
+  "episodes_with_unparsable_reply": 0,
+  "mean_stop_deferrals": 0.0,
+  "api_latency_s_total": 6522.8,
+  "prompt_tokens_total": 3896159,
+  "completion_tokens_total": 325364,
+  "tag": "glm-med100",
+  "policy": "vlm",
+  "model": "glm-5.3-flash",
+  "reasoning_effort": "medium",
+  "guardrails": {
+    "max_consecutive_forward": 0,
+    "stop_verification": false,
+    "history_frames": 4,
+    "max_program": 8
+  },
+  "max_actions": 500,
+  "time_limit_s": 2400.0,
+  "subset_file": "subset/r2rce100.json",
+  "episodes_run": [
+    512,
+    116,
+    1256,
+    1090,
+    979,
+    801,
+    10,
+    46,
+    1416,
+    1579,
+    854,
+    228,
+    216,
+    1675,
+    374,
+    340,
+    1188,
+    636,
+    1445
+  ],
+  "backend": {
+    "calls": 32,
+    "failures": 0,
+    "prompt_tokens": 61364,
+    "completion_tokens": 8248,
+    "reasoning_tokens": 6076,
+    "latency_s": 162.92603397369385
+  },
+  "cumulative": {
+    "num_episodes": 98,
+    "success": 0.3469,
+    "oracle_success": 0.398,
+    "distance_to_goal": 6.8379,
+    "spl": 0.2952,
+    "path_length": 12.6817,
+    "steps_taken": 162.5918,
+    "termination": {
+      "stop": 98
+    },
+    "mean_actions_per_episode": 162.59,
+    "mean_policy_calls_per_episode": 58.36,
+    "episodes_with_unparsable_reply": 0,
+    "mean_stop_deferrals": 0.0,
+    "api_latency_s_total": 21978.8,
+    "prompt_tokens_total": 11444476,
+    "completion_tokens_total": 1138180
+  }
+}
+
+wrote 19 episode records to runs/glm-med100/

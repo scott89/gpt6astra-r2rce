@@ -1,0 +1,218 @@
+{
+  "episode_id": 813,
+  "scene_id": "oLBMNvg9in8",
+  "instruction": "Go straight down the hall and go up the stairs. Stop at the 3rd step.",
+  "actions_taken": 31,
+  "policy_calls": 15,
+  "api_latency_s": 64.23,
+  "prompt_tokens": 27282,
+  "completion_tokens": 3405,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 64.51,
+  "steps": [
+    {
+      "n": 1,
+      "actions": [
+        "MOVE_FORWARD"
+      ],
+      "thought": "The hallway stretches ahead with the staircase visible at the far end on the left. I will advance down the hall one step at a time, re-observing to stay aligned with the stairs.",
+      "latency_s": 3.23,
+      "prompt_tokens": 879
+    },
+    {
+      "n": 3,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see a hallway with a staircase ahead on the left side, past a table with a statue. I need to head down the hall toward the stairs, so I'll turn slightly left to align with the open path and then advance.",
+      "latency_s": 3.13,
+      "prompt_tokens": 1234
+    },
+    {
+      "n": 6,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The hallway extends forward with the staircase visible at the far end, slightly left of center. I'll turn left to align with the hall and advance toward the stairs.",
+      "latency_s": 3.62,
+      "prompt_tokens": 1598
+    },
+    {
+      "n": 7,
+      "actions": [
+        "MOVE_FORWARD"
+      ],
+      "thought": "The hallway leads straight ahead to a staircase visible at the end, slightly right of center. I'll advance one step at a time toward the stairs, re-observing between moves to stay aligned.",
+      "latency_s": 3.73,
+      "prompt_tokens": 1962
+    },
+    {
+      "n": 10,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The hallway continues straight ahead with the staircase visible at the far end, slightly right of center. I'll advance down the hall toward the stairs and re-observe before climbing.",
+      "latency_s": 2.61,
+      "prompt_tokens": 1962
+    },
+    {
+      "n": 12,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The hallway leads straight to a staircase visible slightly right of center ahead. I'll advance down the hall toward the stairs, then align and climb three steps before stopping.",
+      "latency_s": 2.93,
+      "prompt_tokens": 1962
+    },
+    {
+      "n": 16,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead at the end of the hall, slightly right of center. I'll advance down the hallway toward it, then re-observe to align with the steps before climbing.",
+      "latency_s": 3.24,
+      "prompt_tokens": 1962
+    },
+    {
+      "n": 19,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've reached the base of the staircase at the end of the hall. The stairs are slightly to my right, so I'll turn right to face them, then step forward to climb onto the first steps.",
+      "latency_s": 2.49,
+      "prompt_tokens": 1963
+    },
+    {
+      "n": 21,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've reached the base of the staircase, which is directly ahead and slightly right. I'll advance to the bottom step and then climb, re-observing as I go.",
+      "latency_s": 4.29,
+      "prompt_tokens": 1965
+    },
+    {
+      "n": 23,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've reached the base of the staircase, which is directly ahead. I need to walk to the first step and then ascend about 3 steps (~0.75 m), so I'll advance carefully and re-observe to count steps.",
+      "latency_s": 3.75,
+      "prompt_tokens": 1965
+    },
+    {
+      "n": 24,
+      "actions": [
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the base of the staircase, facing it directly. I need to climb up three steps, so I'll take one forward step onto the stairs and re-observe to gauge my progress.",
+      "latency_s": 3.8,
+      "prompt_tokens": 1965
+    },
+    {
+      "n": 26,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The stairs are directly ahead and I'm at the bottom. I'll advance one step and re-observe to count my progress toward the 3rd step.",
+      "latency_s": 4.29,
+      "prompt_tokens": 1966
+    },
+    {
+      "n": 29,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I have reached the base of the staircase after coming down the hall. Each step is roughly 0.25 m deep, so I will advance about three steps up the stairs, then re-observe before stopping.",
+      "latency_s": 5.06,
+      "prompt_tokens": 1966
+    },
+    {
+      "n": 30,
+      "actions": [
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've reached the base of the staircase after coming down the hall. The first step is directly ahead, so I'll advance one step at a time, re-observing between moves to count steps up to the 3rd step.",
+      "latency_s": 4.32,
+      "prompt_tokens": 1966
+    },
+    {
+      "n": 31,
+      "actions": [
+        "STOP"
+      ],
+      "thought": "I have climbed the staircase and the frames show I am now on the upper steps with the landing (red carpet) directly ahead. The last two frames are identical, confirming I am stationary on a step near the top, which matches the instruction to stop on the stairs rather than continue into the hallway.",
+      "latency_s": 13.74,
+      "prompt_tokens": 1967
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    5.985,
+    5.754,
+    5.754,
+    5.516,
+    5.268,
+    5.035,
+    4.762,
+    4.512,
+    4.262,
+    3.964,
+    3.694,
+    3.467,
+    3.248,
+    3.011,
+    2.776,
+    2.543,
+    2.302,
+    2.062,
+    1.814,
+    1.576,
+    1.358,
+    1.108,
+    0.851,
+    0.642,
+    0.363,
+    0.156,
+    0.414,
+    0.733,
+    1.06
+  ],
+  "final_distance": 1.06,
+  "min_distance": 0.156,
+  "metrics": {
+    "distance_to_goal": 1.0595808029174805,
+    "success": 1.0,
+    "spl": 0.8070317303033172,
+    "oracle_success": 1.0,
+    "path_length": 7.415620539337397,
+    "steps_taken": 31.0
+  },
+  "success": true,
+  "backend_stats": {
+    "calls": 15,
+    "failures": 0,
+    "prompt_tokens": 27282,
+    "completion_tokens": 3405,
+    "reasoning_tokens": 2496,
+    "latency_s": 64.25195360183716
+  },
+  "stop_deferrals": 0
+}

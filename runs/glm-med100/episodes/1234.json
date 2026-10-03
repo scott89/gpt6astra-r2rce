@@ -1,0 +1,274 @@
+{
+  "episode_id": 1234,
+  "scene_id": "8194nk5LbLH",
+  "instruction": "With the fireplace to your right, walk straight past the big potted plant and up the stairs.  Stop at the very top of the stairs.",
+  "actions_taken": 55,
+  "policy_calls": 17,
+  "api_latency_s": 48.38,
+  "prompt_tokens": 31434,
+  "completion_tokens": 2272,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 48.68,
+  "steps": [
+    {
+      "n": 4,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I am currently facing the fireplace directly, but the instruction requires the fireplace to be on my right. I will turn left so the fireplace ends up on my right side, then look for the potted plant and stairs ahead.",
+      "latency_s": 2.72,
+      "prompt_tokens": 890
+    },
+    {
+      "n": 7,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_LEFT"
+      ],
+      "thought": "The big potted plant is directly ahead and the staircase is visible on the left, with the fireplace area on my right. I'll advance toward the plant, then turn left to head up the stairs.",
+      "latency_s": 2.81,
+      "prompt_tokens": 1245
+    },
+    {
+      "n": 10,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead, slightly left of the potted plant, and the fireplace area is behind me to the right. I'll turn left a bit to align with the open path past the plant toward the stairs, then advance.",
+      "latency_s": 3.24,
+      "prompt_tokens": 1610
+    },
+    {
+      "n": 13,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I have passed the potted plant, which is now behind me on the right, and the staircase is visible straight ahead near the exit sign. I will advance toward the stairs, keeping the fireplace area on my right.",
+      "latency_s": 2.51,
+      "prompt_tokens": 1974
+    },
+    {
+      "n": 16,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The potted plant is now behind me on the right, and the staircase is visible ahead slightly left of center. I'll advance toward the stairs, keeping the fireplace/orange wall on my right.",
+      "latency_s": 2.67,
+      "prompt_tokens": 1975
+    },
+    {
+      "n": 19,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The stairs are directly ahead, and I'm just beside the potted plant pedestal. I'll advance toward the stairs, then climb them.",
+      "latency_s": 2.43,
+      "prompt_tokens": 1974
+    },
+    {
+      "n": 22,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is directly ahead, slightly left of center, and I've already passed the potted plant. I need to advance toward the stairs and then climb them, stopping at the top.",
+      "latency_s": 2.75,
+      "prompt_tokens": 1976
+    },
+    {
+      "n": 25,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've reached the base of the staircase, which is directly ahead. I need to climb the stairs and stop at the very top, so I'll advance toward and up the stairs, re-observing as I go.",
+      "latency_s": 2.7,
+      "prompt_tokens": 1975
+    },
+    {
+      "n": 28,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the base of the staircase, aligned with the steps ahead. I'll advance up the stairs a few steps, then re-observe to check my progress toward the top.",
+      "latency_s": 3.77,
+      "prompt_tokens": 1976
+    },
+    {
+      "n": 32,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the base of the staircase, aligned with the steps. I need to climb the stairs; I'll advance a few steps and re-observe before continuing toward the top.",
+      "latency_s": 3.45,
+      "prompt_tokens": 1976
+    },
+    {
+      "n": 34,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm mid-staircase; the steps ahead rise and turn left at the landing. I need to keep climbing, so I'll take a couple of forward steps and re-observe before continuing.",
+      "latency_s": 2.45,
+      "prompt_tokens": 1976
+    },
+    {
+      "n": 39,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm mid-staircase at a landing where the stairs turn left and continue upward. I need to rotate left to face the ascending flight, then climb until I reach the very top.",
+      "latency_s": 3.36,
+      "prompt_tokens": 1977
+    },
+    {
+      "n": 43,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm mid-staircase facing the landing wall; the stairs continue ascending to my left. I'll turn left to align with the upward flight and keep climbing.",
+      "latency_s": 2.89,
+      "prompt_tokens": 1979
+    },
+    {
+      "n": 47,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm mid-staircase; the stairs continue up and to the left. I'll turn left to align with the stair direction and keep climbing until I reach the top landing.",
+      "latency_s": 2.67,
+      "prompt_tokens": 1981
+    },
+    {
+      "n": 50,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I am mid-staircase, with the railing on my right and steps continuing upward ahead. I need to keep climbing until the stairs level off at the top, so I will advance a few steps and re-observe.",
+      "latency_s": 2.53,
+      "prompt_tokens": 1983
+    },
+    {
+      "n": 54,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I am mid-staircase, but my view is aimed at the wall and handrail rather than up the steps. The stairs continue upward to my left, so I will re-aim left and keep climbing until I reach the top landing.",
+      "latency_s": 3.56,
+      "prompt_tokens": 1982
+    },
+    {
+      "n": 55,
+      "actions": [
+        "STOP"
+      ],
+      "thought": "The stairs are behind me\u2014the last two frames show a flat carpeted hallway at the top of the staircase, so I have reached the very top of the stairs as instructed.",
+      "latency_s": 1.87,
+      "prompt_tokens": 1985
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    11.67,
+    11.67,
+    11.447,
+    11.226,
+    10.976,
+    10.726,
+    10.476,
+    10.226,
+    9.977,
+    9.727,
+    9.477,
+    9.227,
+    8.977,
+    8.728,
+    8.478,
+    8.228,
+    7.979,
+    7.73,
+    7.48,
+    7.231,
+    6.983,
+    6.737,
+    6.497,
+    6.302,
+    6.003,
+    5.715,
+    5.428,
+    5.14,
+    4.857,
+    4.581,
+    4.329,
+    4.085,
+    3.868,
+    3.648,
+    3.442,
+    3.246,
+    2.976,
+    2.702,
+    2.51,
+    2.273,
+    2.037,
+    1.802,
+    1.543,
+    1.287,
+    1.039
+  ],
+  "final_distance": 1.039,
+  "min_distance": 1.039,
+  "metrics": {
+    "distance_to_goal": 1.0385042428970337,
+    "success": 1.0,
+    "spl": 1.0,
+    "oracle_success": 1.0,
+    "path_length": 11.121157690882683,
+    "steps_taken": 55.0
+  },
+  "success": true,
+  "backend_stats": {
+    "calls": 17,
+    "failures": 0,
+    "prompt_tokens": 31434,
+    "completion_tokens": 2272,
+    "reasoning_tokens": 1222,
+    "latency_s": 48.39573621749878
+  },
+  "stop_deferrals": 0
+}

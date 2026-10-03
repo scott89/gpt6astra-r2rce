@@ -1,0 +1,442 @@
+{
+  "episode_id": 577,
+  "scene_id": "QUCTc6BB5sX",
+  "instruction": "Turn, putting the exit of the building  on your left. Walk to the end of the entrance way and turn left. Travel across the kitchen area with the counter and chairs on your right. Continue straight until you reach the dining room. Enter the room and stop and wait one meter from the closest end of the long dining table.",
+  "actions_taken": 100,
+  "policy_calls": 30,
+  "api_latency_s": 169.3,
+  "prompt_tokens": 58488,
+  "completion_tokens": 9928,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 169.87,
+  "steps": [
+    {
+      "n": 6,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I am currently facing the glass exit doors. The instruction says to turn so the exit is on my left, which means I should rotate right about 90 degrees, then walk along the entrance way.",
+      "latency_s": 4.06,
+      "prompt_tokens": 927
+    },
+    {
+      "n": 8,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "After turning right, the glass exit doors are now on my left, matching the instruction. I will walk forward down this entrance hallway toward the archway before turning left.",
+      "latency_s": 4.61,
+      "prompt_tokens": 1284
+    },
+    {
+      "n": 11,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The glass exit door is already on my left, matching the instruction's orientation. I'll advance down this hallway toward the archway ahead, which appears to be the end of the entrance way where I'll need to turn left.",
+      "latency_s": 3.83,
+      "prompt_tokens": 1648
+    },
+    {
+      "n": 14,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the entrance hallway moving toward the arched doorway at its end. The kitchen area appears to be on my left, so I'll continue forward to the end of the entrance way before turning left.",
+      "latency_s": 3.66,
+      "prompt_tokens": 2012
+    },
+    {
+      "n": 16,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the entrance hallway with the kitchen opening visible on the left ahead. Per the instruction, I should walk to the end of the entrance way (the archway ahead) before turning left, so I'll advance a couple of steps and re-observe.",
+      "latency_s": 6.16,
+      "prompt_tokens": 2011
+    },
+    {
+      "n": 19,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The archway ahead marks the end of the entrance way; the kitchen lies to the left beyond it. I need to close the distance to the archway before turning left so the counter ends up on my right.",
+      "latency_s": 9.56,
+      "prompt_tokens": 2012
+    },
+    {
+      "n": 20,
+      "actions": [
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the entrance hallway with the kitchen visible on my left. Per the instruction, I need to walk to the end of the entrance way before turning left toward the kitchen, so I'll advance carefully and re-observe.",
+      "latency_s": 5.12,
+      "prompt_tokens": 2013
+    },
+    {
+      "n": 26,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "The kitchen with the counter and chairs is visible through the opening on my left. Per the instruction, I need the counter on my right while crossing the kitchen, so I should turn left about 90 degrees to face into that kitchen area before moving.",
+      "latency_s": 6.17,
+      "prompt_tokens": 2011
+    },
+    {
+      "n": 29,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall with a painting; the kitchen area with counter and chairs is visible through the opening on my right. I need to turn right to face that opening, then proceed across the kitchen toward the dining room.",
+      "latency_s": 3.81,
+      "prompt_tokens": 2014
+    },
+    {
+      "n": 31,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've walked the entrance way and turned; the kitchen with counter and bar stools is now visible through the archway slightly ahead-left. I'll align with the archway and step through, keeping the counter on my right as instructed.",
+      "latency_s": 27.24,
+      "prompt_tokens": 2016
+    },
+    {
+      "n": 35,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a wall corner with the kitchen area visible to my left through the opening. Per the instruction, I need to head toward the kitchen with the counter and chairs on my right, so I should turn left and proceed through the archway.",
+      "latency_s": 3.37,
+      "prompt_tokens": 2016
+    },
+    {
+      "n": 39,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I am currently facing a wall with a framed picture; the kitchen with the counter and bar stools is visible to my right. I need to turn right to re-align with the open passage toward the kitchen and dining area before moving forward.",
+      "latency_s": 3.58,
+      "prompt_tokens": 2018
+    },
+    {
+      "n": 42,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen with counter and chairs is visible ahead through the archway; I need to walk toward it with the counter on my right, then continue to the dining room. I'll advance a few steps and re-observe.",
+      "latency_s": 3.78,
+      "prompt_tokens": 2020
+    },
+    {
+      "n": 45,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen with counter and chairs is visible ahead through the archway; I need to pass it with the counter on my right, so I will move forward toward the arch and then reassess alignment.",
+      "latency_s": 3.56,
+      "prompt_tokens": 2021
+    },
+    {
+      "n": 48,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen counter with chairs is directly ahead; I should proceed forward past it, keeping it on my right, then look for the dining room beyond.",
+      "latency_s": 3.5,
+      "prompt_tokens": 2021
+    },
+    {
+      "n": 51,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the kitchen area with the counter and bar stools on my right, matching the instruction. I need to continue straight past the counter toward the opening ahead where the dining room should be.",
+      "latency_s": 2.66,
+      "prompt_tokens": 2022
+    },
+    {
+      "n": 54,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm beside the kitchen counter with the bar chairs on my right, matching the instruction. I need to continue straight past the counter toward the archway ahead to reach the dining room.",
+      "latency_s": 2.9,
+      "prompt_tokens": 2022
+    },
+    {
+      "n": 58,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the kitchen island; the instruction says to cross the kitchen with the counter and chairs on my right, heading toward the archway visible ahead. I'll angle slightly left to pass along the left side of the island (keeping it on my right) and move toward the arched opening leading to the dining room.",
+      "latency_s": 7.75,
+      "prompt_tokens": 2023
+    },
+    {
+      "n": 64,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in the kitchen with the counter and bar chairs currently on my left, but the instruction wants them on my right as I cross. I'll turn left so the counter is on my right, then walk along it toward the archway leading to the dining room.",
+      "latency_s": 6.52,
+      "prompt_tokens": 2025
+    },
+    {
+      "n": 67,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've traveled past the kitchen counter and now face glass French doors with a chair on my left and a dark edge (possibly the dining table) on my right. I should turn right to check whether the long dining table is there before stopping.",
+      "latency_s": 4.77,
+      "prompt_tokens": 2027
+    },
+    {
+      "n": 71,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The exit doors are on my left and the counter with chairs is on my right, so I'm correctly oriented in the entrance way. I'll advance along the corridor toward the archway ahead, then re-observe.",
+      "latency_s": 4.57,
+      "prompt_tokens": 2029
+    },
+    {
+      "n": 74,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The exit doors are on my left as instructed, and the archway ahead appears to lead to the dining room with a long table visible. I'll advance toward the archway, keeping the exit on my left.",
+      "latency_s": 4.14,
+      "prompt_tokens": 2030
+    },
+    {
+      "n": 77,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The exit doors are on my left and the kitchen counter/chairs are on my right, so I'm on the correct path. The dining room with the long table is visible through the archway straight ahead, so I'll advance toward it.",
+      "latency_s": 7.45,
+      "prompt_tokens": 2031
+    },
+    {
+      "n": 81,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm moving along the glass exit doors (on my left) toward the arched opening ahead, which appears to lead to the dining room with a table. I need to continue forward through this entrance way, keeping the kitchen area on my right, then enter the dining room and stop near the closest end of the long table.",
+      "latency_s": 6.54,
+      "prompt_tokens": 2031
+    },
+    {
+      "n": 84,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've drifted very close to the glass exit doors on my left; the hallway and an archway (with what looks like a table beyond) are ahead-right. I need to re-center on the walkway and continue toward the end of the entrance way before turning left into the kitchen area.",
+      "latency_s": 10.4,
+      "prompt_tokens": 2031
+    },
+    {
+      "n": 88,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in an entrance hallway with the glass exit doors on my left, matching the instruction's orientation. Ahead is an arched opening; I need to walk to the end of this entrance way first, then turn left toward the kitchen. I'll advance forward along the hallway and re-observe.",
+      "latency_s": 4.75,
+      "prompt_tokens": 2033
+    },
+    {
+      "n": 91,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing an arched entry into the dining room with the long dining table visible through it. I'll advance through the arch toward the table, then re-observe to position myself about one meter from its near end.",
+      "latency_s": 2.73,
+      "prompt_tokens": 2034
+    },
+    {
+      "n": 94,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the dining room through the arched doorway ahead, with the long dining table and chairs visible. I need to walk through the arch and approach the table, stopping about one meter from its nearest end.",
+      "latency_s": 3.53,
+      "prompt_tokens": 2035
+    },
+    {
+      "n": 97,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I have crossed the kitchen area and am now at the dining room entrance, with the long dining table visible through the archway about 3-4 m ahead. I need to advance a couple of steps to be within one meter of the near end of the table, then stop.",
+      "latency_s": 4.63,
+      "prompt_tokens": 2035
+    },
+    {
+      "n": 100,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "STOP"
+      ],
+      "thought": "The dining room with the long table is straight ahead through the archway. I am roughly 2-3 m from the closest end, so I will advance a step and then stop near the table's near end.",
+      "latency_s": 3.95,
+      "prompt_tokens": 2036
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    14.125,
+    14.125,
+    13.886,
+    13.647,
+    13.41,
+    13.175,
+    12.943,
+    12.712,
+    12.485,
+    12.263,
+    12.045,
+    11.834,
+    11.632,
+    11.441,
+    11.261,
+    11.095,
+    10.848,
+    10.719,
+    10.469,
+    10.219,
+    9.969,
+    9.72,
+    9.471,
+    9.224,
+    8.989,
+    8.708,
+    8.525,
+    8.347,
+    8.172,
+    8.001,
+    7.837,
+    7.75,
+    7.847,
+    7.849,
+    7.85,
+    7.674,
+    7.428,
+    7.187,
+    6.965,
+    6.745,
+    6.528,
+    6.312,
+    6.1,
+    5.89,
+    5.683,
+    5.481,
+    5.282,
+    5.087,
+    4.898,
+    4.649,
+    4.399,
+    4.149,
+    3.9,
+    3.651,
+    3.402,
+    3.153,
+    2.905,
+    2.657,
+    2.409,
+    2.161,
+    1.914,
+    1.667,
+    1.423,
+    1.183
+  ],
+  "final_distance": 1.183,
+  "min_distance": 1.183,
+  "metrics": {
+    "distance_to_goal": 1.183282494544983,
+    "success": 1.0,
+    "spl": 0.9521655875214601,
+    "oracle_success": 1.0,
+    "path_length": 14.834832956432365,
+    "steps_taken": 100.0
+  },
+  "success": true,
+  "backend_stats": {
+    "calls": 30,
+    "failures": 0,
+    "prompt_tokens": 58488,
+    "completion_tokens": 9928,
+    "reasoning_tokens": 7490,
+    "latency_s": 169.27830123901367
+  },
+  "stop_deferrals": 0
+}

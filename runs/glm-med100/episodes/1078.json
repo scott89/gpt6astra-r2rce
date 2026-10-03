@@ -1,0 +1,134 @@
+{
+  "episode_id": 1078,
+  "scene_id": "8194nk5LbLH",
+  "instruction": "Walk to the other end of the lobby and wait near the exit.",
+  "actions_taken": 21,
+  "policy_calls": 7,
+  "api_latency_s": 22.23,
+  "prompt_tokens": 11530,
+  "completion_tokens": 1063,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 22.34,
+  "steps": [
+    {
+      "n": 3,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I see a large lobby with a kitchen/bar ahead and an illuminated EXIT sign on the right wall. The goal is the far end near that exit, so I will turn right toward it and then advance while re-checking alignment.",
+      "latency_s": 2.2,
+      "prompt_tokens": 874
+    },
+    {
+      "n": 6,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a large lobby with a bar on the left and a blue mural wall on the right. The far end of the lobby appears to have a doorway with a green exit sign, so I'll advance toward it while staying in the open floor area.",
+      "latency_s": 2.99,
+      "prompt_tokens": 1230
+    },
+    {
+      "n": 9,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a large lobby with a bar area on the left and a doorway with a green exit sign at the far end. I need to walk toward that far end near the exit door, advancing carefully and re-observing.",
+      "latency_s": 2.69,
+      "prompt_tokens": 1594
+    },
+    {
+      "n": 12,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm progressing through the lobby toward the doorway with the green exit sign visible ahead. The exit is still several meters away, so I'll continue advancing toward it.",
+      "latency_s": 3.2,
+      "prompt_tokens": 1957
+    },
+    {
+      "n": 16,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the lobby facing down its length toward a door with a green EXIT sign, which is the exit the instruction refers to. It looks a few meters ahead, so I'll advance along the clear corridor and re-observe before getting close.",
+      "latency_s": 4.07,
+      "prompt_tokens": 1958
+    },
+    {
+      "n": 19,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I have traversed the lobby and now face a door with an EXIT sign directly ahead, a few meters away. I'll advance a couple of steps toward it, then stop near the exit.",
+      "latency_s": 4.62,
+      "prompt_tokens": 1959
+    },
+    {
+      "n": 21,
+      "actions": [
+        "MOVE_FORWARD",
+        "STOP"
+      ],
+      "thought": "I have walked down the lobby corridor and the exit door with the green EXIT sign is directly ahead, roughly 3 m away. I'll take one more careful forward step to get near the exit, then stop.",
+      "latency_s": 2.46,
+      "prompt_tokens": 1958
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    8.651,
+    8.651,
+    8.493,
+    8.356,
+    8.247,
+    8.169,
+    8.129,
+    8.127,
+    8.162,
+    8.229,
+    8.305,
+    8.39,
+    8.482,
+    8.581,
+    8.687,
+    8.799,
+    8.917,
+    9.042,
+    9.178
+  ],
+  "final_distance": 9.178,
+  "min_distance": 8.127,
+  "metrics": {
+    "distance_to_goal": 9.177543640136719,
+    "success": 0.0,
+    "spl": 0.0,
+    "oracle_success": 0.0,
+    "path_length": 4.250000685453415,
+    "steps_taken": 21.0
+  },
+  "success": false,
+  "backend_stats": {
+    "calls": 7,
+    "failures": 0,
+    "prompt_tokens": 11530,
+    "completion_tokens": 1063,
+    "reasoning_tokens": 607,
+    "latency_s": 22.24275517463684
+  },
+  "stop_deferrals": 0
+}

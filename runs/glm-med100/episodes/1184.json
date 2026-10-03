@@ -1,0 +1,181 @@
+{
+  "episode_id": 1184,
+  "scene_id": "QUCTc6BB5sX",
+  "instruction": "walk through doorway to exit room, turn right in hallway and walk towards display cabinet, turn left at end of hallway, enter room, walk past bed, walk through doorway on the left after dresser, stop in front of sink.",
+  "actions_taken": 22,
+  "policy_calls": 13,
+  "api_latency_s": 102.63,
+  "prompt_tokens": 23707,
+  "completion_tokens": 6191,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 102.83,
+  "steps": [
+    {
+      "n": 3,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I see a doorway on the right side of the frame leading to a hallway with framed pictures. I need to turn right to align with it and exit the room.",
+      "latency_s": 2.36,
+      "prompt_tokens": 906
+    },
+    {
+      "n": 5,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to have exited the room into a hallway; ahead is a wall with pictures and an archway to the right showing a room with cabinets and a counter. Per the instruction I must turn right in the hallway and head toward a display cabinet, so I will rotate right to survey that direction before moving.",
+      "latency_s": 9.6,
+      "prompt_tokens": 1262
+    },
+    {
+      "n": 6,
+      "actions": [
+        "MOVE_FORWARD"
+      ],
+      "thought": "I see an arched doorway ahead leading to a room with wooden cabinets and a white sink. I will move forward through the archway to get a better view and continue following the instruction path.",
+      "latency_s": 9.23,
+      "prompt_tokens": 1626
+    },
+    {
+      "n": 8,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I see an arched doorway straight ahead opening into a room with a white sink vanity, which matches the instruction's final target. I will advance toward the doorway and re-observe before entering.",
+      "latency_s": 10.07,
+      "prompt_tokens": 1990
+    },
+    {
+      "n": 10,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing an arched doorway that opens into a room with a wooden double-sink vanity directly ahead, which matches the instruction's end point 'stop in front of sink' after passing through the doorway. I'm aligned with the doorway center, so I'll advance through it toward the sink.",
+      "latency_s": 9.67,
+      "prompt_tokens": 1990
+    },
+    {
+      "n": 12,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at an arched doorway leading into a room with a white counter (sink) and cabinets, with a washer/dryer to the right. This matches the final target room; I'll step through the doorway and approach the sink counter.",
+      "latency_s": 6.36,
+      "prompt_tokens": 1991
+    },
+    {
+      "n": 15,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I have passed through the doorway into a laundry room with a sink counter under the cabinets ahead. I need to walk forward to stop in front of the sink.",
+      "latency_s": 2.94,
+      "prompt_tokens": 1991
+    },
+    {
+      "n": 17,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've entered a laundry room with a long counter and cabinets ahead; the instruction ends at a sink, which is likely in this counter. I'm still a couple meters back, so I'll advance toward the counter and re-observe to confirm the sink location before stopping.",
+      "latency_s": 12.72,
+      "prompt_tokens": 1991
+    },
+    {
+      "n": 18,
+      "actions": [
+        "MOVE_FORWARD"
+      ],
+      "thought": "I have entered the laundry room; the counter ahead likely holds the sink, and the instruction ends in front of it. I'll advance one step toward the counter and then re-observe before stopping.",
+      "latency_s": 3.85,
+      "prompt_tokens": 1991
+    },
+    {
+      "n": 19,
+      "actions": [
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to be in a utility/laundry room facing a long cabinet counter with a washer-dryer on the right. The instruction ends at a sink, which could be along this counter or nearby, so I should scan the room before moving or stopping.",
+      "latency_s": 10.2,
+      "prompt_tokens": 1992
+    },
+    {
+      "n": 20,
+      "actions": [
+        "MOVE_FORWARD"
+      ],
+      "thought": "I appear to have entered the room with the dresser/counter area; the long counter with cabinets ahead is likely the sink counter the instruction ends at. I'll advance one step to get closer and verify before stopping.",
+      "latency_s": 5.22,
+      "prompt_tokens": 1992
+    },
+    {
+      "n": 21,
+      "actions": [
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a white countertop with wooden cabinets, which matches a vanity/counter area, but I don't see an actual sink basin yet. I'll turn right to scan the rest of the counter for the sink before stopping.",
+      "latency_s": 6.62,
+      "prompt_tokens": 1992
+    },
+    {
+      "n": 22,
+      "actions": [
+        "STOP"
+      ],
+      "thought": "I'm facing a countertop with cabinets and what appears to be a mirror above it (reflective surface visible between the upper cabinets), which indicates this is the sink vanity the instruction ends at. I'm within arm's reach of the counter, so I should stop here.",
+      "latency_s": 13.79,
+      "prompt_tokens": 1993
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    8.448,
+    8.448,
+    8.332,
+    8.159,
+    8.013,
+    7.884,
+    7.774,
+    7.687,
+    7.623,
+    7.587,
+    7.579,
+    7.648,
+    7.809,
+    8.014,
+    8.237,
+    8.47,
+    8.683
+  ],
+  "final_distance": 8.683,
+  "min_distance": 7.579,
+  "metrics": {
+    "distance_to_goal": 8.683489799499512,
+    "success": 0.0,
+    "spl": 0.0,
+    "oracle_success": 0.0,
+    "path_length": 3.750002533197403,
+    "steps_taken": 22.0
+  },
+  "success": false,
+  "backend_stats": {
+    "calls": 13,
+    "failures": 0,
+    "prompt_tokens": 23707,
+    "completion_tokens": 6191,
+    "reasoning_tokens": 5379,
+    "latency_s": 102.6198341846466
+  },
+  "stop_deferrals": 0
+}

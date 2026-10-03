@@ -1,0 +1,648 @@
+{
+  "episode_id": 785,
+  "scene_id": "QUCTc6BB5sX",
+  "instruction": "After you leave the bathroom and bedroom wait in the hall just outside the doorway beside the glass case with the dolls.",
+  "actions_taken": 165,
+  "policy_calls": 54,
+  "api_latency_s": 205.37,
+  "prompt_tokens": 105709,
+  "completion_tokens": 11117,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 206.38,
+  "steps": [
+    {
+      "n": 4,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to be inside a bathroom (towels on a rack, tile floor). I need to exit and find the hallway with the glass doll case. First I'll scan the room to locate the doorway.",
+      "latency_s": 2.72,
+      "prompt_tokens": 883
+    },
+    {
+      "n": 8,
+      "actions": [
+        "LOOK_UP",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm facing a wall with a framed picture, very close up, so I need to reorient to find the hallway with the glass case of dolls. I'll look up and turn to survey the room.",
+      "latency_s": 2.4,
+      "prompt_tokens": 1239
+    },
+    {
+      "n": 9,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at a wall painting, so I can't see the hall or the glass case with dolls. I need to look down to re-orient before navigating to the doorway.",
+      "latency_s": 2.81,
+      "prompt_tokens": 1604
+    },
+    {
+      "n": 12,
+      "actions": [
+        "LOOK_UP",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I appear to be inside a bathroom facing a wall with a towel rack and vase, with the camera pitched down. I need to level the camera and turn to find the doorway leading out to the hall.",
+      "latency_s": 3.26,
+      "prompt_tokens": 1967
+    },
+    {
+      "n": 13,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I can see towels on a rack suggesting I'm still in the bathroom. I need to look down to see the floor and doorway, then turn to exit into the hall toward the glass case with dolls.",
+      "latency_s": 3.11,
+      "prompt_tokens": 1968
+    },
+    {
+      "n": 16,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to be inside a bathroom facing a corner with towels and a vase. I need to find the doorway to exit into the hall, so I'll turn to scan the room for the exit.",
+      "latency_s": 3.21,
+      "prompt_tokens": 1969
+    },
+    {
+      "n": 19,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to be inside the bathroom facing a wall with a towel rack and picture. I need to find the doorway to exit into the hall, so I'll turn right to scan for the door.",
+      "latency_s": 2.72,
+      "prompt_tokens": 1970
+    },
+    {
+      "n": 23,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm currently facing a wall with a framed painting, very close up, so I need to reorient to find the hallway with the glass case of dolls. I'll turn right to scan the room and locate the doorway/hallway.",
+      "latency_s": 2.21,
+      "prompt_tokens": 1972
+    },
+    {
+      "n": 26,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I see a bathroom vanity ahead, so I'm near the bathroom in a hall. I need to locate the glass case with dolls to wait beside it, so I'll scan the hallway.",
+      "latency_s": 3.86,
+      "prompt_tokens": 1974
+    },
+    {
+      "n": 28,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm currently facing a wall with paintings in a hallway; the bathroom vanity was visible to my right earlier. I need to find the glass case with dolls beside the doorway, so I'll turn right to scan the hall.",
+      "latency_s": 3.92,
+      "prompt_tokens": 1975
+    },
+    {
+      "n": 29,
+      "actions": [
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to be in a hall just outside a bathroom, but I haven't located the glass case with dolls yet. I'll turn to scan the hall for it before stopping.",
+      "latency_s": 4.43,
+      "prompt_tokens": 1976
+    },
+    {
+      "n": 31,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I see the bathroom doorway on my right and an arched doorway ahead, but I haven't spotted the glass case with dolls yet. I'll turn left to survey the rest of the hall before choosing where to wait.",
+      "latency_s": 3.51,
+      "prompt_tokens": 1977
+    },
+    {
+      "n": 33,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in a hallway just outside the bathroom (vanity visible on the right), facing a wall with paintings. I need to find the glass case with dolls in the hall, so I should look around by turning left to scan the rest of the hallway.",
+      "latency_s": 3.45,
+      "prompt_tokens": 1978
+    },
+    {
+      "n": 36,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I am currently facing a wall with paintings, having left the bathroom (visible behind me to the right). I need to turn to look down the hallway to find the glass case with dolls near a doorway.",
+      "latency_s": 3.14,
+      "prompt_tokens": 1978
+    },
+    {
+      "n": 38,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to be in a hall just outside a bathroom (vanity visible on the right). I need to locate the glass case with dolls to wait beside it, so I will scan the hallway by turning right first.",
+      "latency_s": 4.97,
+      "prompt_tokens": 1980
+    },
+    {
+      "n": 42,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in a hallway facing the bathroom vanity, but I don't yet see the glass case with dolls. I should turn left to scan the rest of the hall for the glass case before choosing where to wait.",
+      "latency_s": 3.73,
+      "prompt_tokens": 1981
+    },
+    {
+      "n": 44,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a hallway near the bathroom (vanity visible ahead). I need to find the glass case with dolls in the hall, so I'll turn right to scan the hallway.",
+      "latency_s": 2.35,
+      "prompt_tokens": 1982
+    },
+    {
+      "n": 46,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a hall facing the bathroom vanity; the instruction says to wait in the hall just outside the doorway beside a glass case with dolls. I don't see the glass case yet, so I should scan the hall by turning to check the other direction.",
+      "latency_s": 2.87,
+      "prompt_tokens": 1983
+    },
+    {
+      "n": 48,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I see the bathroom vanity ahead, so I'm in the hall outside it. I need to find the glass case with dolls, which isn't visible yet, so I'll turn to scan the hallway.",
+      "latency_s": 3.27,
+      "prompt_tokens": 1984
+    },
+    {
+      "n": 56,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I am currently inside the bathroom facing the vanity and shower. The instruction says to leave the bathroom and wait in the hall outside the doorway, so I need to turn around to face the exit I came through.",
+      "latency_s": 8.16,
+      "prompt_tokens": 1985
+    },
+    {
+      "n": 60,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall with a painting at close range, having lost my orientation. I need to turn around to face back down the hall toward the vanity area and find the glass case with dolls beside the doorway.",
+      "latency_s": 3.12,
+      "prompt_tokens": 1987
+    },
+    {
+      "n": 63,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I am in the hallway just outside the bathroom, but I don't yet see the glass case with dolls. I will turn left to scan the rest of the hall before deciding where to stop.",
+      "latency_s": 3.47,
+      "prompt_tokens": 1989
+    },
+    {
+      "n": 65,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm currently facing a wall with a painting, very close up. Earlier frames showed a hallway with the bathroom vanity on the right and an arched doorway ahead. I need to turn to re-orient toward the hallway and look for the glass case with dolls near the doorway.",
+      "latency_s": 2.97,
+      "prompt_tokens": 1990
+    },
+    {
+      "n": 67,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a hall with paintings on the wall and the bathroom visible to my right. I need to find the glass case with dolls, which should be elsewhere in the hall, so I'll turn to scan the corridor.",
+      "latency_s": 3.08,
+      "prompt_tokens": 1991
+    },
+    {
+      "n": 73,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in a hall facing a bathroom vanity, with an arched doorway to the bathroom on my left. The instruction says to wait just outside the doorway beside a glass case with dolls, so I should scan the hall for that glass case before stopping.",
+      "latency_s": 4.14,
+      "prompt_tokens": 1992
+    },
+    {
+      "n": 76,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm currently facing a wall up close (towel and painting visible), so I've lost sight of the hallway. I need to turn to re-orient toward the hall where the glass case with dolls should be, near the bathroom doorway I saw earlier.",
+      "latency_s": 3.97,
+      "prompt_tokens": 1994
+    },
+    {
+      "n": 80,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm currently facing a wall with paintings, very close up. Earlier frames showed the bathroom vanity behind me and an arched doorway. I need to turn around to look down the hall to find the glass case with dolls.",
+      "latency_s": 2.89,
+      "prompt_tokens": 1996
+    },
+    {
+      "n": 85,
+      "actions": [
+        "LOOK_DOWN",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm currently facing a bathroom vanity at the end of a hall, with an arched doorway to the left and a wooden door to the right. The instruction says to wait in the hall beside a glass case with dolls, which I don't see yet, so I need to scan the hallway. I'll look down to see the floor level and then turn to search for the glass case.",
+      "latency_s": 4.79,
+      "prompt_tokens": 1997
+    },
+    {
+      "n": 89,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm currently inside the bathroom facing the glass shower. I need to exit into the hall and find the glass case with dolls. First I'll turn left toward the bathroom door and re-observe.",
+      "latency_s": 4.33,
+      "prompt_tokens": 2001
+    },
+    {
+      "n": 91,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm currently facing the bathroom vanity, so I've left the bathroom into the hall. I need to find the glass case with dolls in the hall and stop just outside the doorway beside it. I'll scan the hallway by turning to look around.",
+      "latency_s": 4.03,
+      "prompt_tokens": 2002
+    },
+    {
+      "n": 94,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm currently inside the bathroom facing the shower. I need to exit the bathroom into the hall. The wooden door on the left appears to be the exit, so I'll turn left and head toward it.",
+      "latency_s": 3.32,
+      "prompt_tokens": 2003
+    },
+    {
+      "n": 100,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm currently inside the bathroom facing the vanity. I need to exit into the hall and stop just outside the doorway near the glass case with dolls. The exit is likely behind me, so I'll turn to check the area behind before moving.",
+      "latency_s": 5.21,
+      "prompt_tokens": 2004
+    },
+    {
+      "n": 106,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm currently facing the glass shower inside the bathroom. The instruction says to leave the bathroom and wait in the hall outside the doorway, so I need to turn around and head toward the wooden door I saw earlier next to the vanity.",
+      "latency_s": 7.61,
+      "prompt_tokens": 2006
+    },
+    {
+      "n": 112,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm currently facing the bathroom vanity, so I need to exit into the hall. There's a dark doorway to my left that may lead out; I'll rotate to inspect the area behind me and find the hall with the glass doll case.",
+      "latency_s": 6.0,
+      "prompt_tokens": 2009
+    },
+    {
+      "n": 116,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm pressed against a wall corner near a towel and picture, having drifted off course. I need to rotate to re-orient toward the bathroom doorway and then find the hall with the glass doll case.",
+      "latency_s": 2.66,
+      "prompt_tokens": 2010
+    },
+    {
+      "n": 117,
+      "actions": [
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a hall just outside a bathroom (vanity visible ahead). I need to locate the glass case with dolls beside the doorway before stopping, so I'll scan the hall by turning.",
+      "latency_s": 3.22,
+      "prompt_tokens": 2012
+    },
+    {
+      "n": 118,
+      "actions": [
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a hallway with a bathroom doorway (vanity and mirror) visible ahead on the right. I need to locate the glass case with dolls beside that doorway before stopping, so I'll scan the hall to my right first.",
+      "latency_s": 3.11,
+      "prompt_tokens": 2013
+    },
+    {
+      "n": 122,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a hall outside a bathroom, but I don't yet see the glass case with dolls that marks the waiting spot. I'll turn to scan the hall for it.",
+      "latency_s": 3.0,
+      "prompt_tokens": 2013
+    },
+    {
+      "n": 126,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I am currently inside the bathroom facing the shower, having just turned into it. I need to turn back around, exit through the bathroom doorway into the hall, and then look for the glass case with dolls to stop beside it.",
+      "latency_s": 6.21,
+      "prompt_tokens": 2015
+    },
+    {
+      "n": 128,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I appear to be inside the bathroom facing the vanity. The instruction says to leave the bathroom and wait in the hall beside the glass case with dolls, so I need to turn toward the exit/hallway and look for the glass case.",
+      "latency_s": 4.53,
+      "prompt_tokens": 2016
+    },
+    {
+      "n": 130,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've turned out of the bathroom and can see the hallway with a brass statue and paintings. The glass case with dolls isn't visible yet, so I'll advance down the hall to find it before stopping.",
+      "latency_s": 7.26,
+      "prompt_tokens": 2017
+    },
+    {
+      "n": 133,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm currently facing a wall with a brass statue, with the bathroom visible to my right. I need to back out into the hall and find the glass case with dolls beside the doorway, so I'll turn right to re-orient toward the hallway.",
+      "latency_s": 3.04,
+      "prompt_tokens": 2017
+    },
+    {
+      "n": 135,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I see a bathroom doorway ahead, but no glass case with dolls yet. I'll turn right to scan the rest of the hallway for the glass case before stopping.",
+      "latency_s": 4.01,
+      "prompt_tokens": 2020
+    },
+    {
+      "n": 138,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm currently in the bathroom facing the vanity. The exit to the hall appears to be the opening on the right side of the frame, so I'll turn right and re-observe before stepping out.",
+      "latency_s": 4.31,
+      "prompt_tokens": 2020
+    },
+    {
+      "n": 141,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm currently inside the bathroom (shower and vanity visible). I need to exit into the hall and stop near the glass case with dolls. The wooden door appears to my left, so I'll turn toward it and head out.",
+      "latency_s": 3.68,
+      "prompt_tokens": 2022
+    },
+    {
+      "n": 142,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "I am currently inside the bathroom facing the vanity. I need to exit into the hall and find the glass case with dolls. First I'll look up to get a better view of the room and locate the doorway out.",
+      "latency_s": 3.26,
+      "prompt_tokens": 2023
+    },
+    {
+      "n": 145,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm inside the bathroom facing the vanity and the arched wooden exit door. I need to walk through that door into the hall and stop just outside the doorway.",
+      "latency_s": 3.47,
+      "prompt_tokens": 2024
+    },
+    {
+      "n": 149,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The arched wooden door ahead is the bathroom exit; I need to pass through it to reach the hall outside. I'll turn slightly right to align with the door and move toward it, then re-observe.",
+      "latency_s": 4.06,
+      "prompt_tokens": 2025
+    },
+    {
+      "n": 151,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the bathroom facing the exit door. I'll move forward through the doorway into the hall, then look for the glass case with dolls to stop beside it.",
+      "latency_s": 3.81,
+      "prompt_tokens": 2027
+    },
+    {
+      "n": 153,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm inside the bathroom facing the closed wooden door. I need to exit into the hall, so I'll move forward through the doorway and then look for the glass case with dolls.",
+      "latency_s": 2.86,
+      "prompt_tokens": 2027
+    },
+    {
+      "n": 159,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I am pressed right up against a wooden door, so I need to back away and reorient to find the hallway with the glass doll case. I'll turn around and scan the space.",
+      "latency_s": 2.96,
+      "prompt_tokens": 2027
+    },
+    {
+      "n": 163,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm pressed against a door/wall and can only see a sliver of a room to my right. I need to back away from this wall and re-orient to find the hallway with the glass case of dolls.",
+      "latency_s": 3.08,
+      "prompt_tokens": 2030
+    },
+    {
+      "n": 164,
+      "actions": [
+        "TURN_LEFT"
+      ],
+      "thought": "I appear to be in a hallway with framed paintings and a reddish display case in the left foreground, which could be the glass case with dolls. I should turn left to inspect it and confirm before stopping beside it.",
+      "latency_s": 3.67,
+      "prompt_tokens": 2032
+    },
+    {
+      "n": 165,
+      "actions": [
+        "STOP"
+      ],
+      "thought": "I have exited into the hall and am now standing right beside the glass display case, with the hallway, red rug, and paintings visible ahead. This matches the instruction's endpoint, so I will stop here.",
+      "latency_s": 4.14,
+      "prompt_tokens": 2033
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    7.554,
+    7.554,
+    7.351,
+    7.179,
+    6.964,
+    6.771,
+    6.618,
+    6.636,
+    6.699,
+    6.794,
+    6.854,
+    6.976,
+    7.037
+  ],
+  "final_distance": 7.037,
+  "min_distance": 6.618,
+  "metrics": {
+    "distance_to_goal": 7.0366621017456055,
+    "success": 0.0,
+    "spl": 0.0,
+    "oracle_success": 0.0,
+    "path_length": 2.6666535139083862,
+    "steps_taken": 165.0
+  },
+  "success": false,
+  "backend_stats": {
+    "calls": 54,
+    "failures": 0,
+    "prompt_tokens": 105709,
+    "completion_tokens": 11117,
+    "reasoning_tokens": 7239,
+    "latency_s": 205.36497402191162
+  },
+  "stop_deferrals": 0
+}

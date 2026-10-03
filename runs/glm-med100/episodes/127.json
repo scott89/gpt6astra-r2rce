@@ -1,0 +1,149 @@
+{
+  "episode_id": 127,
+  "scene_id": "EU6Fwq7SyZv",
+  "instruction": "Turn around 180 degrees.  Go through the open door to the loft.  Once through the doorway, turn to the left and walk towards the far side of the loft.  Stop once you are just past the opening to the stairs.",
+  "actions_taken": 19,
+  "policy_calls": 10,
+  "api_latency_s": 64.78,
+  "prompt_tokens": 17750,
+  "completion_tokens": 3709,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 64.94,
+  "steps": [
+    {
+      "n": 2,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "The open door on the right clearly leads to the loft (slanted wooden ceiling visible through it). Rather than blindly turning 180, I'll aim at the visible doorway, center it, and walk through.",
+      "latency_s": 10.36,
+      "prompt_tokens": 909
+    },
+    {
+      "n": 3,
+      "actions": [
+        "MOVE_FORWARD"
+      ],
+      "thought": "The open door to the loft is visible slightly left of center, with the sloped wooden ceiling of the loft beyond it. I am roughly aligned with the doorway, so I will step forward once and re-observe before continuing through.",
+      "latency_s": 7.42,
+      "prompt_tokens": 1264
+    },
+    {
+      "n": 6,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The open door to the loft is visible ahead, slightly left of center, with the loft's wooden ceiling and bed beyond it. I'll align with the doorway by turning left slightly, then step forward through it.",
+      "latency_s": 5.07,
+      "prompt_tokens": 1628
+    },
+    {
+      "n": 7,
+      "actions": [
+        "MOVE_FORWARD"
+      ],
+      "thought": "The open doorway to the loft is directly ahead, roughly centered in view. I'll step forward through the doorway, then re-observe to turn left as instructed.",
+      "latency_s": 7.48,
+      "prompt_tokens": 1992
+    },
+    {
+      "n": 8,
+      "actions": [
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing the open doorway into the loft, roughly aligned with the opening. I'll step forward one step and re-observe before continuing through.",
+      "latency_s": 3.97,
+      "prompt_tokens": 1992
+    },
+    {
+      "n": 10,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the open doorway to the loft, aligned with the opening. I'll step through the doorway, then re-observe before turning left toward the far side of the loft.",
+      "latency_s": 5.36,
+      "prompt_tokens": 1992
+    },
+    {
+      "n": 13,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I have passed through the doorway into the loft and drifted slightly left, with the bed on my left and the far wall ahead. I need to continue walking toward the far side of the loft, watching for the stairs opening on the left just past the bed.",
+      "latency_s": 7.36,
+      "prompt_tokens": 1992
+    },
+    {
+      "n": 14,
+      "actions": [
+        "TURN_LEFT"
+      ],
+      "thought": "I have passed through the doorway into the loft; the current view shows the loft interior with a bed on the left and an armchair on the right. Per the instruction, I now need to turn left and head toward the far side of the loft, watching for the stairs opening.",
+      "latency_s": 4.67,
+      "prompt_tokens": 1993
+    },
+    {
+      "n": 18,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to be in the loft already, facing the far side with the bed on my left. I need to locate the opening to the stairs, which is likely behind me near where I entered. I'll turn right to scan the area behind and to my right.",
+      "latency_s": 5.55,
+      "prompt_tokens": 1993
+    },
+    {
+      "n": 19,
+      "actions": [
+        "STOP"
+      ],
+      "thought": "I have entered the loft, turned left, and walked toward the far side; the decorative railing marking the stair opening is now visible just a couple meters ahead, meaning I am at/just past the opening to the stairs. It is time to stop.",
+      "latency_s": 7.54,
+      "prompt_tokens": 1995
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    4.615,
+    4.613,
+    4.751,
+    4.97,
+    5.202,
+    4.739,
+    4.501,
+    4.27,
+    4.049,
+    3.844,
+    3.669,
+    3.618
+  ],
+  "final_distance": 3.618,
+  "min_distance": 3.618,
+  "metrics": {
+    "distance_to_goal": 3.6180567741394043,
+    "success": 0.0,
+    "spl": 0.0,
+    "oracle_success": 0.0,
+    "path_length": 2.4193577393889427,
+    "steps_taken": 19.0
+  },
+  "success": false,
+  "backend_stats": {
+    "calls": 10,
+    "failures": 0,
+    "prompt_tokens": 17750,
+    "completion_tokens": 3709,
+    "reasoning_tokens": 3098,
+    "latency_s": 64.78523230552673
+  },
+  "stop_deferrals": 0
+}

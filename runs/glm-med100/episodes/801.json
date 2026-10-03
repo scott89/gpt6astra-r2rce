@@ -1,0 +1,1941 @@
+{
+  "episode_id": 801,
+  "scene_id": "2azQ1b91cZZ",
+  "instruction": "Walk to the foyer and go up the stairs on the right. Stop once you have gone up eight stairs.",
+  "actions_taken": 496,
+  "policy_calls": 141,
+  "api_latency_s": 483.91,
+  "prompt_tokens": 283523,
+  "completion_tokens": 23430,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 486.7,
+  "steps": [
+    {
+      "n": 3,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a long arched hallway. I need to walk forward toward the foyer where the stairs should be. I'll advance a few steps and re-observe.",
+      "latency_s": 1.84,
+      "prompt_tokens": 882
+    },
+    {
+      "n": 6,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a long arched hallway heading toward what appears to be the foyer area ahead. I'll continue moving forward through the arches to reach the foyer where the stairs should be.",
+      "latency_s": 2.21,
+      "prompt_tokens": 1237
+    },
+    {
+      "n": 9,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a long arched hallway heading toward what appears to be the foyer/kitchen area ahead. I should continue moving forward along the hallway to reach the foyer where the stairs should be on the right.",
+      "latency_s": 2.58,
+      "prompt_tokens": 1600
+    },
+    {
+      "n": 12,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a long arched hallway heading toward what appears to be a kitchen/living area. I haven't reached the foyer or seen stairs yet, so I should continue moving forward through the archway while staying observant for the staircase on the right.",
+      "latency_s": 2.35,
+      "prompt_tokens": 1964
+    },
+    {
+      "n": 15,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a long arched hallway heading toward what looks like a kitchen/living area; no stairs are visible yet. I'll continue forward through the archway and re-observe to find the foyer and the staircase on the right.",
+      "latency_s": 3.78,
+      "prompt_tokens": 1964
+    },
+    {
+      "n": 18,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've traveled down the hallway and now face the kitchen area with the corridor continuing ahead. The foyer with stairs is likely further along this hallway, so I'll continue forward and re-observe.",
+      "latency_s": 5.05,
+      "prompt_tokens": 1965
+    },
+    {
+      "n": 21,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've walked into a kitchen area; the instruction says to reach the foyer and go up the stairs on the right. Ahead there's an arched passage continuing down a hallway, which likely leads to the foyer. I'll advance toward it and re-observe.",
+      "latency_s": 3.12,
+      "prompt_tokens": 1965
+    },
+    {
+      "n": 24,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the kitchen looking down a long corridor toward what appears to be the foyer ahead. I should continue forward through the hallway to reach the foyer where the stairs are located.",
+      "latency_s": 3.2,
+      "prompt_tokens": 1966
+    },
+    {
+      "n": 28,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the kitchen facing down the corridor toward the foyer. The arched opening ahead leads toward the foyer where the stairs should be, so I'll continue advancing along this clear path.",
+      "latency_s": 2.89,
+      "prompt_tokens": 1965
+    },
+    {
+      "n": 31,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the kitchen area with terracotta tile floors; the foyer with the stairs should be ahead through the arched hallway. I'll continue moving forward along the open path toward the doorway in the distance.",
+      "latency_s": 3.62,
+      "prompt_tokens": 1966
+    },
+    {
+      "n": 34,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm still in the kitchen; the foyer with stairs should be ahead through the archway. I'll advance toward it and re-observe.",
+      "latency_s": 3.28,
+      "prompt_tokens": 1967
+    },
+    {
+      "n": 37,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the kitchen facing down a hallway toward the living area; the foyer with stairs should be ahead through the doorway. I'll advance along the tile path and re-observe before approaching the doorway.",
+      "latency_s": 3.93,
+      "prompt_tokens": 1967
+    },
+    {
+      "n": 41,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've traveled down this hallway but haven't reached the foyer with stairs yet. There's an arched opening on the right ahead and a doorway further forward; I'll continue advancing toward the foyer area and re-observe.",
+      "latency_s": 3.02,
+      "prompt_tokens": 1968
+    },
+    {
+      "n": 44,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a living room with a fireplace; the foyer is likely through the arched opening on the right side of the room. I'll turn right and head toward that archway to find the stairs.",
+      "latency_s": 3.0,
+      "prompt_tokens": 1968
+    },
+    {
+      "n": 46,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a long hallway; the foyer with stairs isn't visible ahead. There's an arched opening on the right that may lead to the foyer, so I'll turn toward it and check.",
+      "latency_s": 2.57,
+      "prompt_tokens": 1969
+    },
+    {
+      "n": 49,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm currently facing a wall up close; the hallway with arches leading to the foyer is to my left. I need to turn left to reorient down the corridor before proceeding toward the stairs.",
+      "latency_s": 2.84,
+      "prompt_tokens": 1970
+    },
+    {
+      "n": 52,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The hallway continues forward toward an open doorway; the foyer with stairs should be further along. I'll advance and re-observe.",
+      "latency_s": 3.39,
+      "prompt_tokens": 1971
+    },
+    {
+      "n": 55,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I see a hallway ahead through the doorway; the foyer with stairs should be further along. I'll move forward through the doorway, keeping aligned with the opening.",
+      "latency_s": 3.24,
+      "prompt_tokens": 1972
+    },
+    {
+      "n": 58,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the living room facing a doorway leading to a hallway. The foyer with stairs should be ahead, so I'll continue moving forward through the doorway, keeping the console table on my right.",
+      "latency_s": 3.0,
+      "prompt_tokens": 1972
+    },
+    {
+      "n": 60,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hallway approaching a doorway; no stairs are visible yet, so I need to continue toward the foyer ahead. The table on the right is close, so I'll advance carefully and re-observe.",
+      "latency_s": 2.69,
+      "prompt_tokens": 1973
+    },
+    {
+      "n": 62,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a tiled hallway approaching an open doorway into a living area, but no stairs are visible yet. I'll advance through the doorway toward the foyer area and look for the staircase on the right.",
+      "latency_s": 2.84,
+      "prompt_tokens": 1974
+    },
+    {
+      "n": 68,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm currently in a hallway facing a living room, but I don't see a foyer or stairs in this view. The stairs are likely behind me or off to a side I haven't checked, so I should rotate and scan the environment before moving further.",
+      "latency_s": 3.53,
+      "prompt_tokens": 1974
+    },
+    {
+      "n": 72,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I appear to have turned toward a console table with a lamp and am now facing a wall, having lost sight of the hallway. I need to turn left to re-face the corridor and continue toward the foyer with the stairs.",
+      "latency_s": 3.36,
+      "prompt_tokens": 1977
+    },
+    {
+      "n": 75,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm currently facing a wall with a console table in a tiled hallway. The open living area is to my left; I need to locate the foyer and the staircase on its right, so I'll rotate to scan the space.",
+      "latency_s": 3.22,
+      "prompt_tokens": 1978
+    },
+    {
+      "n": 79,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm currently in a hallway facing a living room, but the instruction requires the foyer with stairs. I need to scan my surroundings to locate the foyer, so I'll turn left to check the area behind the console table.",
+      "latency_s": 3.69,
+      "prompt_tokens": 1979
+    },
+    {
+      "n": 85,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I appear to have drifted into the living room facing the fireplace; the foyer with stairs is not visible here. I'll turn to re-orient and look for the foyer area with the staircase.",
+      "latency_s": 4.1,
+      "prompt_tokens": 1980
+    },
+    {
+      "n": 87,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The view shows a long hallway with arches ahead; the foyer with stairs is likely further along. I'll advance carefully and re-observe.",
+      "latency_s": 4.15,
+      "prompt_tokens": 1982
+    },
+    {
+      "n": 90,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I need to find the foyer with stairs; none are visible yet, so I'll move forward through this open area toward the arched passage to search for the staircase.",
+      "latency_s": 4.55,
+      "prompt_tokens": 1983
+    },
+    {
+      "n": 93,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a large open living/kitchen area with an arched hallway ahead. The foyer with stairs is likely further along this hallway, so I'll advance toward the arches and re-observe to locate the staircase on the right.",
+      "latency_s": 3.15,
+      "prompt_tokens": 1984
+    },
+    {
+      "n": 96,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The arched corridor ahead appears to lead toward the foyer; I'll move forward along it and re-observe before turning toward the stairs.",
+      "latency_s": 3.09,
+      "prompt_tokens": 1983
+    },
+    {
+      "n": 99,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the kitchen facing a hallway of arches; the foyer with stairs should be ahead through those arches. I'll advance toward the archway, keeping the island on my right, then re-observe.",
+      "latency_s": 3.32,
+      "prompt_tokens": 1985
+    },
+    {
+      "n": 101,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The arched passage leading to the foyer is visible ahead-left, past the kitchen island. I'll step forward toward it and re-check alignment before entering.",
+      "latency_s": 3.2,
+      "prompt_tokens": 1984
+    },
+    {
+      "n": 104,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in a kitchen; the foyer with the staircase appears to be through the arched hallway ahead-left, where stairs are visible in the distance. I'll move forward and angle left around the kitchen island toward that archway.",
+      "latency_s": 5.11,
+      "prompt_tokens": 1984
+    },
+    {
+      "n": 108,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the kitchen facing the arched hallway that leads toward the foyer. I need to continue forward through the arches to reach the foyer and find the stairs on the right.",
+      "latency_s": 3.13,
+      "prompt_tokens": 1986
+    },
+    {
+      "n": 111,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the kitchen facing down an arched hallway; a staircase is visible far ahead through the arches. I'll advance along the hallway toward the foyer, re-observing as I go.",
+      "latency_s": 2.59,
+      "prompt_tokens": 1987
+    },
+    {
+      "n": 114,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The hallway with arches leads toward the foyer where stairs are visible in the distance. I'll move forward along the corridor, keeping aligned with the archway.",
+      "latency_s": 2.96,
+      "prompt_tokens": 1988
+    },
+    {
+      "n": 117,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The hallway with arches leads toward the foyer where the stairs are visible in the distance. I'll move forward along the corridor, keeping aligned with the archway.",
+      "latency_s": 3.03,
+      "prompt_tokens": 1988
+    },
+    {
+      "n": 120,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a long arched hallway heading toward what appears to be a foyer; a staircase with railing is visible in the distance through the arches. I'll continue forward along the hallway and re-observe.",
+      "latency_s": 3.1,
+      "prompt_tokens": 1989
+    },
+    {
+      "n": 124,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see a staircase ahead through the arched hallway, which appears to be the foyer with stairs. I'll advance toward it, re-observing as I go.",
+      "latency_s": 2.79,
+      "prompt_tokens": 1987
+    },
+    {
+      "n": 128,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the staircase ahead through the arched hallway in the distance. I need to continue forward toward the foyer where the stairs are located.",
+      "latency_s": 5.92,
+      "prompt_tokens": 1989
+    },
+    {
+      "n": 132,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the staircase ahead through the archway in the distance. I need to continue forward down this hallway toward the foyer where the stairs are located.",
+      "latency_s": 2.27,
+      "prompt_tokens": 1989
+    },
+    {
+      "n": 135,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see a staircase with a railing ahead through the archway in the distance. I'll advance along the hallway toward the foyer and the stairs.",
+      "latency_s": 3.06,
+      "prompt_tokens": 1990
+    },
+    {
+      "n": 138,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hallway approaching the foyer; through the archway ahead I can see a staircase in the distance. I should continue forward toward it, keeping aligned with the archway opening.",
+      "latency_s": 2.61,
+      "prompt_tokens": 1990
+    },
+    {
+      "n": 141,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see through the archway ahead toward what appears to be the foyer with a stair railing visible in the distance. I need to advance through the arch toward the stairs, then turn right to ascend them.",
+      "latency_s": 3.32,
+      "prompt_tokens": 1991
+    },
+    {
+      "n": 144,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hallway approaching arched openings; through the arches ahead I can see what appears to be a staircase area in the distance. I'll advance toward the arches to reach the foyer.",
+      "latency_s": 2.44,
+      "prompt_tokens": 1992
+    },
+    {
+      "n": 147,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "Through the left arch I can see a stair railing, which is likely the foyer with the stairs. I'll move forward through the archway toward it.",
+      "latency_s": 3.88,
+      "prompt_tokens": 1991
+    },
+    {
+      "n": 150,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hallway approaching an arched opening; the foyer with the staircase should be ahead through the arch. I'll advance toward it and re-observe to locate the stairs on the right.",
+      "latency_s": 3.24,
+      "prompt_tokens": 1993
+    },
+    {
+      "n": 153,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm pressed against a wall next to a plant; the archway to the left opens into the foyer area. I need to turn left to re-aim toward the open archway before moving.",
+      "latency_s": 3.7,
+      "prompt_tokens": 1991
+    },
+    {
+      "n": 156,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've reached the foyer entrance; the stairs on the right are likely past the right archway. I'll move forward into the foyer first, then re-observe to locate the staircase.",
+      "latency_s": 4.08,
+      "prompt_tokens": 1993
+    },
+    {
+      "n": 159,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've reached the circular foyer. The instruction says to go up the stairs on the right, so I need to turn right to locate the staircase before moving.",
+      "latency_s": 3.01,
+      "prompt_tokens": 1994
+    },
+    {
+      "n": 162,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in the foyer with the circular mosaic floor. The instruction says to take the stairs on the right, so I need to turn right toward the right-hand archway to find the staircase.",
+      "latency_s": 2.64,
+      "prompt_tokens": 1996
+    },
+    {
+      "n": 166,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I've turned into a wall corner and lost sight of the foyer. I need to rotate left to re-orient toward the open foyer area, then locate the staircase on the right side.",
+      "latency_s": 2.57,
+      "prompt_tokens": 1997
+    },
+    {
+      "n": 170,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've reached the foyer with the round tile medallion, but the staircase isn't visible in my current view. I need to turn right to locate the stairs the instruction refers to.",
+      "latency_s": 2.91,
+      "prompt_tokens": 1998
+    },
+    {
+      "n": 174,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm currently facing a wall corner with a painting, having lost sight of the foyer. I need to rotate to re-acquire the foyer and locate the staircase on the right before ascending.",
+      "latency_s": 3.91,
+      "prompt_tokens": 1999
+    },
+    {
+      "n": 178,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm currently facing a wall with a painting, with a dining room visible through a doorway on the right. The instruction requires the foyer with stairs, which I saw earlier behind me, so I need to turn left to re-orient toward the foyer.",
+      "latency_s": 3.64,
+      "prompt_tokens": 2002
+    },
+    {
+      "n": 181,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm currently facing a wall with a painting, very close up. Earlier frames showed a doorway to a dining area on my right. I need to reorient to find the foyer and the staircase, so I'll turn right to scan the room.",
+      "latency_s": 3.73,
+      "prompt_tokens": 2003
+    },
+    {
+      "n": 187,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm currently facing a wall with a painting at a corner; the foyer and stairs are not visible. I need to turn to locate the staircase, likely behind me or to the left.",
+      "latency_s": 2.74,
+      "prompt_tokens": 2005
+    },
+    {
+      "n": 190,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm currently facing a wall corner with a painting, but the foyer with arched doorways is visible to my left. I need to turn left to face into the foyer, then locate the staircase on the right side.",
+      "latency_s": 2.18,
+      "prompt_tokens": 2007
+    },
+    {
+      "n": 193,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've reached the foyer with the circular mosaic floor. The instruction says to take the stairs on the right, so I'll head toward the right archway and look for the staircase.",
+      "latency_s": 3.45,
+      "prompt_tokens": 2007
+    },
+    {
+      "n": 196,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in the foyer with the circular mosaic floor. The stairs should be on the right side; I need to turn right to find the staircase, likely through or past the right archway.",
+      "latency_s": 3.07,
+      "prompt_tokens": 2011
+    },
+    {
+      "n": 202,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm currently facing a wall after over-rotating. I need to turn back toward the foyer; the archway on the right side of the foyer appeared to lead toward the stairs, so I'll rotate right to re-acquire the room and locate the staircase.",
+      "latency_s": 4.68,
+      "prompt_tokens": 2010
+    },
+    {
+      "n": 205,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm near the foyer but currently facing a wall corner with a painting. I need to locate the staircase that is on the right side of the foyer, so I'll rotate to scan the room.",
+      "latency_s": 3.55,
+      "prompt_tokens": 2014
+    },
+    {
+      "n": 208,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a long arched hallway; the foyer with stairs should be further along. I'll advance down the hallway and re-observe.",
+      "latency_s": 2.56,
+      "prompt_tokens": 2015
+    },
+    {
+      "n": 211,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a long arched hallway; the foyer with the staircase should be at the far end. I'll proceed forward along the corridor, checking alignment as I go.",
+      "latency_s": 3.45,
+      "prompt_tokens": 2016
+    },
+    {
+      "n": 214,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a long arched hallway; the dining room is on the left, and the foyer with the staircase should be further down this corridor. I'll advance along the hallway and re-observe.",
+      "latency_s": 3.08,
+      "prompt_tokens": 2016
+    },
+    {
+      "n": 221,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm currently facing a dining room through an archway, with a long arched hallway to my right. The foyer with stairs should be further down that hallway, so I'll turn right and proceed along it.",
+      "latency_s": 4.31,
+      "prompt_tokens": 2017
+    },
+    {
+      "n": 224,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing down an arched hallway; the foyer with stairs should be ahead. I'll advance along the hallway and re-observe to locate the staircase on the right.",
+      "latency_s": 3.02,
+      "prompt_tokens": 2022
+    },
+    {
+      "n": 227,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a long arched hallway with tile floors, but I don't see the foyer or stairs yet. I'll continue down the hallway to locate the foyer with the staircase.",
+      "latency_s": 2.59,
+      "prompt_tokens": 2022
+    },
+    {
+      "n": 232,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a glass door in a hallway; the foyer with stairs should be further along the hallway to my left. I'll turn left and walk down the corridor to locate the foyer.",
+      "latency_s": 2.79,
+      "prompt_tokens": 2023
+    },
+    {
+      "n": 236,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a long arched hallway facing a kitchen area, but I don't see a foyer or stairs yet. I'll turn right to scan for the staircase the instruction mentions.",
+      "latency_s": 3.46,
+      "prompt_tokens": 2022
+    },
+    {
+      "n": 242,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm facing a door too closely; the foyer with stairs must be back along the arched hallway. I'll turn left to re-orient toward the hallway and proceed carefully.",
+      "latency_s": 3.21,
+      "prompt_tokens": 2025
+    },
+    {
+      "n": 245,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hallway facing a door, with a kitchen visible through the arches ahead. The foyer with stairs isn't visible yet, so I should explore the dark arched opening on the left, which may lead to the foyer.",
+      "latency_s": 3.49,
+      "prompt_tokens": 2028
+    },
+    {
+      "n": 249,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm currently facing a wall near the arched doorway, with the kitchen visible through the arch. I need to locate the foyer with the stairs, so I should turn and scan the area to my right where the front door and foyer likely are.",
+      "latency_s": 3.93,
+      "prompt_tokens": 2026
+    },
+    {
+      "n": 253,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in an arched hallway near the kitchen, but I don't see the foyer or stairs yet. I'll turn left to scan the other direction of the hallway for the staircase.",
+      "latency_s": 3.27,
+      "prompt_tokens": 2031
+    },
+    {
+      "n": 256,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I see an arched passage ahead and a kitchen to the right, but no stairs yet. I need to advance through the arch to find the foyer with the staircase.",
+      "latency_s": 4.17,
+      "prompt_tokens": 2032
+    },
+    {
+      "n": 259,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm currently facing a wall with a wooden door, and an archway to my right opens into a kitchen area. I haven't seen the foyer or stairs yet, so I need to turn and explore the open area to locate the foyer.",
+      "latency_s": 3.75,
+      "prompt_tokens": 2031
+    },
+    {
+      "n": 262,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in an arched hallway with a kitchen visible ahead, but no stairs or foyer in view yet. I'll advance through the archway to explore toward the foyer where the stairs should be.",
+      "latency_s": 3.29,
+      "prompt_tokens": 2035
+    },
+    {
+      "n": 265,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a long arched hallway heading toward what looks like a kitchen area. The foyer with stairs should be ahead or off to a side; I'll advance along the hallway and re-observe to locate the stairs on the right.",
+      "latency_s": 2.75,
+      "prompt_tokens": 2036
+    },
+    {
+      "n": 268,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a long hallway with a kitchen island on the left; no stairs visible yet. I'll continue forward along the corridor to reach the foyer where the staircase should appear on the right.",
+      "latency_s": 2.96,
+      "prompt_tokens": 2035
+    },
+    {
+      "n": 271,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a long hallway with a kitchen on the left and an arched opening on the right. The foyer with stairs is likely ahead or through the right archway, so I'll advance a few steps and re-observe before turning.",
+      "latency_s": 4.03,
+      "prompt_tokens": 2036
+    },
+    {
+      "n": 275,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the kitchen looking down the corridor toward the foyer ahead. I need to advance along this walkway toward the far end where the stairs should be, re-observing as I go.",
+      "latency_s": 3.01,
+      "prompt_tokens": 2037
+    },
+    {
+      "n": 279,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the kitchen looking down a long corridor toward the foyer. I need to continue forward along this hallway to reach the foyer where the stairs should be on the right.",
+      "latency_s": 3.18,
+      "prompt_tokens": 2036
+    },
+    {
+      "n": 282,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the kitchen facing a long hallway toward what appears to be the foyer ahead. I need to continue forward through the hallway to reach the foyer and locate the stairs on the right.",
+      "latency_s": 2.92,
+      "prompt_tokens": 2038
+    },
+    {
+      "n": 285,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the kitchen looking down a hallway toward what appears to be the foyer ahead. I need to advance down this hallway to reach the foyer, then find the stairs on the right.",
+      "latency_s": 2.86,
+      "prompt_tokens": 2038
+    },
+    {
+      "n": 288,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The path ahead leads through the living area toward a hallway; the foyer with stairs should be further along. I'll move forward and re-observe.",
+      "latency_s": 4.33,
+      "prompt_tokens": 2038
+    },
+    {
+      "n": 291,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I need to locate the staircase in this foyer. The right archway appears to lead to a kitchen, so the stairs are likely further ahead through the open doorway; I'll move forward to explore.",
+      "latency_s": 5.78,
+      "prompt_tokens": 2039
+    },
+    {
+      "n": 294,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The hallway ahead appears to lead toward the foyer; I need to move forward to reach the stairs on the right.",
+      "latency_s": 3.49,
+      "prompt_tokens": 2038
+    },
+    {
+      "n": 297,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a living room facing a fireplace and an open doorway ahead. The foyer with stairs is likely through that doorway, so I'll advance toward it and re-observe.",
+      "latency_s": 2.67,
+      "prompt_tokens": 2040
+    },
+    {
+      "n": 300,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the living room facing an open doorway leading to a hallway toward the foyer. I should advance through the doorway, keeping aligned with it, then look for the stairs on the right.",
+      "latency_s": 2.84,
+      "prompt_tokens": 2039
+    },
+    {
+      "n": 303,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the living room facing an open doorway that leads toward the foyer area. I need to advance through the doorway, keeping slightly left of center to avoid the table on the right, then look for the stairs on the right.",
+      "latency_s": 2.97,
+      "prompt_tokens": 2038
+    },
+    {
+      "n": 306,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a living room facing an open doorway leading to a hallway toward the foyer. I need to advance through the doorway, keeping aligned with the opening between the fireplace on the left and the console table on the right.",
+      "latency_s": 2.82,
+      "prompt_tokens": 2039
+    },
+    {
+      "n": 309,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm passing through a doorway into a tiled hallway, but no stairs are visible yet. I need to continue forward through the open door ahead to find the foyer and the staircase on the right.",
+      "latency_s": 3.02,
+      "prompt_tokens": 2040
+    },
+    {
+      "n": 312,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a tiled hallway near a doorway, with a living area ahead and an archway to the right. I haven't seen the foyer or stairs yet, so I'll advance carefully through the doorway and re-observe to locate the stairs on the right.",
+      "latency_s": 4.03,
+      "prompt_tokens": 2042
+    },
+    {
+      "n": 316,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm currently in a living room with a couch and coffee table, but I don't see the foyer or stairs yet. I need to scan the room to locate the staircase, so I'll turn right to check that side first.",
+      "latency_s": 4.58,
+      "prompt_tokens": 2042
+    },
+    {
+      "n": 322,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm currently facing a kitchen area, but the instruction requires reaching the foyer with stairs. The foyer is likely behind me, so I need to turn around and re-observe to locate the staircase.",
+      "latency_s": 3.91,
+      "prompt_tokens": 2044
+    },
+    {
+      "n": 325,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a large living room with terracotta floors; the foyer and stairs are not visible from here. Earlier frames showed an archway leading to a hallway/kitchen area, so I'll turn right to re-orient toward that passage and search for the foyer stairs.",
+      "latency_s": 3.84,
+      "prompt_tokens": 2046
+    },
+    {
+      "n": 329,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a living room with terracotta floors; the instruction requires reaching the foyer and climbing the stairs on the right. I don't see stairs yet, so I'll scan the room by turning to locate the foyer area.",
+      "latency_s": 4.58,
+      "prompt_tokens": 2048
+    },
+    {
+      "n": 332,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm currently in a hallway near a kitchen area, but I don't see the foyer or stairs yet. I need to explore to find the foyer with stairs on the right, so I'll turn right to scan the area.",
+      "latency_s": 3.7,
+      "prompt_tokens": 2050
+    },
+    {
+      "n": 334,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hallway facing a glass-paneled door with a console table to the right, but I don't see the foyer or stairs yet. I'll turn right and move past the door to continue toward the foyer where the staircase should be.",
+      "latency_s": 3.15,
+      "prompt_tokens": 2051
+    },
+    {
+      "n": 337,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hallway with a console table and arched openings ahead. I need to continue down this hallway to reach the foyer with the stairs. I'll advance forward and re-observe.",
+      "latency_s": 2.42,
+      "prompt_tokens": 2052
+    },
+    {
+      "n": 341,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm currently facing a door in a hallway with a console table on the right; the hallway continues ahead through arches. I need to proceed down this hallway to find the foyer and the stairs on the right, so I'll turn right to align with the corridor and move forward.",
+      "latency_s": 2.63,
+      "prompt_tokens": 2053
+    },
+    {
+      "n": 346,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hallway next to a console table, facing a wall/door. The hallway continues to the right toward an archway, which likely leads to the foyer. I'll turn right and proceed down the hallway to find the stairs.",
+      "latency_s": 3.19,
+      "prompt_tokens": 2055
+    },
+    {
+      "n": 350,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a hallway facing an open living/kitchen area, but I don't see the foyer or stairs yet. I need to turn right to scan the space behind and locate the staircase.",
+      "latency_s": 3.07,
+      "prompt_tokens": 2057
+    },
+    {
+      "n": 353,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The living room view shows an archway ahead that may lead to the foyer; I need to move toward it to locate the stairs on the right.",
+      "latency_s": 3.79,
+      "prompt_tokens": 2057
+    },
+    {
+      "n": 357,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I need to find the foyer and the stairs on its right. The archway in the center of my view leads out of this living room, so I'll move toward it and re-observe.",
+      "latency_s": 4.03,
+      "prompt_tokens": 2060
+    },
+    {
+      "n": 360,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The arched opening ahead appears to lead to the foyer where the stairs should be. I'll move forward toward it, keeping it centered, then look for the staircase on the right.",
+      "latency_s": 3.9,
+      "prompt_tokens": 2062
+    },
+    {
+      "n": 364,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The arched doorway ahead leads to the foyer; I must circle around the couch to reach it. I'll turn right to align with the open floor path beside the couch.",
+      "latency_s": 4.89,
+      "prompt_tokens": 2060
+    },
+    {
+      "n": 367,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a living room facing a sofa; the arched doorway ahead-left appears to lead toward the foyer. I need to move around the sofa toward that archway to find the stairs.",
+      "latency_s": 4.9,
+      "prompt_tokens": 2064
+    },
+    {
+      "n": 371,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a living room with couches; the arched opening ahead leads toward the foyer area. I need to move around the couch and head through the arch to find the stairs on the right.",
+      "latency_s": 4.14,
+      "prompt_tokens": 2066
+    },
+    {
+      "n": 374,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a living room facing a couch, with an arched doorway ahead leading to the foyer with terracotta floors. I need to navigate around the couch and through the arch to reach the foyer, then find the stairs on the right.",
+      "latency_s": 3.9,
+      "prompt_tokens": 2069
+    },
+    {
+      "n": 377,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a living room looking through an arched doorway toward a dining area. The foyer with stairs isn't visible yet, so I'll advance through the arch and re-observe to locate the stairs.",
+      "latency_s": 2.63,
+      "prompt_tokens": 2070
+    },
+    {
+      "n": 380,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm currently in a room with terracotta tile floors looking through an arched doorway toward a dining area, but no stairs are visible yet. I need to move forward through the archway to find the foyer and locate the stairs on the right.",
+      "latency_s": 3.16,
+      "prompt_tokens": 2071
+    },
+    {
+      "n": 387,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm currently in a hallway looking through an archway into a dining nook, but I don't see the foyer or stairs yet. I'll advance through the archway and then scan for the staircase.",
+      "latency_s": 3.45,
+      "prompt_tokens": 2068
+    },
+    {
+      "n": 391,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm currently in a dining area with a table and bay windows, but I don't see the foyer or stairs yet. I need to scan the surroundings to locate the foyer with the staircase.",
+      "latency_s": 3.65,
+      "prompt_tokens": 2074
+    },
+    {
+      "n": 399,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to have drifted into a bedroom instead of the foyer. I need to turn around and head back toward the dining/foyer area to find the staircase on the right.",
+      "latency_s": 3.86,
+      "prompt_tokens": 2076
+    },
+    {
+      "n": 402,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I need to find the foyer and the stairs. The arched passage ahead seems to lead out of this kitchen area, so I'll advance toward it and look for the staircase.",
+      "latency_s": 3.21,
+      "prompt_tokens": 2080
+    },
+    {
+      "n": 405,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a large living/bar area with two arched openings. The foyer with stairs is likely through the right archway near the cabinet. I'll advance along the open floor first, then aim for that arch.",
+      "latency_s": 4.58,
+      "prompt_tokens": 2081
+    },
+    {
+      "n": 410,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The arched opening ahead-left appears to lead out of this kitchen area toward the foyer. I need to align with it and move forward, then look for the stairs on the right.",
+      "latency_s": 4.6,
+      "prompt_tokens": 2081
+    },
+    {
+      "n": 413,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a large living room with a bar on the right and an arched passage ahead. The foyer with stairs is likely beyond the archway, so I'll advance toward it and re-observe.",
+      "latency_s": 4.33,
+      "prompt_tokens": 2083
+    },
+    {
+      "n": 416,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see an arched entryway ahead leading toward the foyer with the wooden door. I need to advance toward it and then look for the stairs on the right once inside the foyer.",
+      "latency_s": 3.34,
+      "prompt_tokens": 2083
+    },
+    {
+      "n": 419,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hallway approaching an arched passage with a wooden door ahead; the stairs are not yet visible, so I need to advance through the archway toward the foyer area and then look for the staircase on the right.",
+      "latency_s": 3.97,
+      "prompt_tokens": 2084
+    },
+    {
+      "n": 421,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hallway approaching an arched passage; no stairs are visible yet. I'll advance toward the archway and then look for the foyer and the staircase on the right.",
+      "latency_s": 3.88,
+      "prompt_tokens": 2084
+    },
+    {
+      "n": 425,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a hallway facing a closed wooden door with a kitchen visible through the left archway, but no stairs or foyer in view. I need to look around to locate the foyer with the stairs, so I'll turn right to scan that side first.",
+      "latency_s": 3.82,
+      "prompt_tokens": 2084
+    },
+    {
+      "n": 428,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hallway with arched doorways but no stairs visible yet. I need to find the foyer; the open archway to my left seems to lead onward, so I'll turn left and proceed to look for the staircase.",
+      "latency_s": 3.17,
+      "prompt_tokens": 2086
+    },
+    {
+      "n": 431,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see an open doorway on the right with stairs visible through it. I need to turn toward that doorway, pass through it, and climb eight stairs before stopping.",
+      "latency_s": 3.74,
+      "prompt_tokens": 2088
+    },
+    {
+      "n": 434,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hallway facing a wall with an arched wooden door on the left and an open doorway to its right leading into a darker space, likely the foyer with the stairs. I need to turn right slightly and move through that open doorway.",
+      "latency_s": 3.75,
+      "prompt_tokens": 2089
+    },
+    {
+      "n": 437,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I am facing a wall too closely; the doorway/opening is to my left. I need to turn left to re-aim toward the passage leading to the foyer stairs.",
+      "latency_s": 3.62,
+      "prompt_tokens": 2091
+    },
+    {
+      "n": 443,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm currently facing a closed wooden door in a hallway, not the foyer with stairs. I need to turn around and look for the foyer area with the staircase.",
+      "latency_s": 2.76,
+      "prompt_tokens": 2092
+    },
+    {
+      "n": 447,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm currently facing a hallway with a kitchen on the right, but I don't see the foyer or stairs yet. I need to turn left to scan the space behind me for the foyer with the staircase.",
+      "latency_s": 2.84,
+      "prompt_tokens": 2094
+    },
+    {
+      "n": 451,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I currently see a living room with a fireplace, but no stairs or foyer. I need to search for the staircase, so I will rotate to scan the surroundings before moving.",
+      "latency_s": 3.06,
+      "prompt_tokens": 2095
+    },
+    {
+      "n": 455,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm currently facing a kitchen corridor, but the instruction requires reaching the foyer and climbing the stairs on the right. I don't see stairs here, so I need to turn and search for the foyer area.",
+      "latency_s": 2.97,
+      "prompt_tokens": 2097
+    },
+    {
+      "n": 461,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm currently facing a living room with a fireplace, but the instruction requires reaching the foyer and climbing eight stairs. Earlier frames showed a hallway toward the kitchen, so I'll turn right to re-orient toward that hallway and search for the foyer stairs.",
+      "latency_s": 4.23,
+      "prompt_tokens": 2098
+    },
+    {
+      "n": 464,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm currently in a kitchen corridor and don't see the foyer or stairs yet. I'll move forward through the corridor to look for the foyer area with stairs.",
+      "latency_s": 4.45,
+      "prompt_tokens": 2101
+    },
+    {
+      "n": 472,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm currently in a kitchen hallway, not the foyer with stairs. I need to turn around to search for the foyer and the staircase on its right.",
+      "latency_s": 4.41,
+      "prompt_tokens": 2102
+    },
+    {
+      "n": 475,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hallway near a kitchen area, but no stairs are visible yet. I need to continue down this hallway to find the foyer with the staircase.",
+      "latency_s": 3.55,
+      "prompt_tokens": 2106
+    },
+    {
+      "n": 479,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've drifted into a corner against a wooden cabinet and lost sight of the foyer. I need to turn away from the wall and re-orient toward the hallway where the stairs should be.",
+      "latency_s": 3.18,
+      "prompt_tokens": 2107
+    },
+    {
+      "n": 482,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a tiled hallway near a large wooden cabinet, but I don't see the foyer or stairs yet. The open passage ahead (with the arched mirror) looks like the way forward, so I'll advance and re-observe.",
+      "latency_s": 3.95,
+      "prompt_tokens": 2109
+    },
+    {
+      "n": 486,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a wooden wardrobe in a narrow hallway; no stairs are visible here. I need to turn left toward the open hallway/doorway to find the foyer and the stairs on the right, with very few actions remaining.",
+      "latency_s": 3.43,
+      "prompt_tokens": 2110
+    },
+    {
+      "n": 489,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm currently in a kitchen area facing a hallway with an arched mirror; no stairs are visible yet. I need to move forward through the doorway into the hallway to find the foyer and the staircase on the right.",
+      "latency_s": 3.32,
+      "prompt_tokens": 2112
+    },
+    {
+      "n": 495,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm currently facing a wall with a mirror in a hallway, not the foyer. I need to turn around to find the foyer and the stairs on the right, with very few actions remaining.",
+      "latency_s": 2.66,
+      "prompt_tokens": 2112
+    },
+    {
+      "n": 496,
+      "actions": [
+        "STOP"
+      ],
+      "thought": "I am facing a kitchen counter, not the staircase, and with only 5 actions remaining there is no way to navigate back to the foyer and ascend eight stairs. I will issue STOP as the episode ends regardless.",
+      "latency_s": 4.58,
+      "prompt_tokens": 2114
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    8.335,
+    8.585,
+    8.834,
+    9.084,
+    9.333,
+    9.583,
+    9.832,
+    10.082,
+    10.332,
+    10.581,
+    10.831,
+    11.081,
+    11.331,
+    11.581,
+    11.83,
+    12.08,
+    12.33,
+    12.58,
+    12.83,
+    13.08,
+    13.33,
+    13.58,
+    13.829,
+    14.079,
+    14.329,
+    14.579,
+    14.829,
+    15.079,
+    15.329,
+    15.579,
+    15.829,
+    16.079,
+    16.329,
+    16.579,
+    16.829,
+    17.079,
+    17.328,
+    17.578,
+    17.828,
+    18.078,
+    18.328,
+    18.578,
+    18.819,
+    19.059,
+    19.309,
+    19.559,
+    19.809,
+    20.059,
+    20.309,
+    20.559,
+    20.809,
+    21.059,
+    21.311,
+    21.561,
+    21.811,
+    22.061,
+    22.311,
+    22.07,
+    21.829,
+    21.589,
+    21.349,
+    21.109,
+    20.87,
+    20.631,
+    20.393,
+    20.154,
+    19.916,
+    19.679,
+    19.442,
+    19.203,
+    18.962,
+    18.721,
+    18.48,
+    18.244,
+    18.008,
+    17.759,
+    17.51,
+    17.262,
+    17.018,
+    16.796,
+    16.542,
+    16.293,
+    16.044,
+    15.795,
+    15.546,
+    15.297,
+    15.049,
+    14.8,
+    14.551,
+    14.303,
+    14.055,
+    13.806,
+    13.558,
+    13.31,
+    13.062,
+    12.814,
+    12.566,
+    12.319,
+    12.072,
+    11.824,
+    11.577,
+    11.331,
+    11.084,
+    10.838,
+    10.592,
+    10.347,
+    10.102,
+    9.858,
+    9.614,
+    9.371,
+    9.128,
+    8.887,
+    8.647,
+    8.409,
+    8.172,
+    7.938,
+    7.706,
+    7.478,
+    7.256,
+    7.039,
+    6.832,
+    6.586,
+    6.34,
+    6.097,
+    5.847,
+    5.597,
+    5.847,
+    6.097,
+    6.347,
+    6.597,
+    6.847,
+    7.097,
+    7.347,
+    7.597,
+    7.847,
+    7.981,
+    8.129,
+    8.29,
+    8.462,
+    8.643,
+    8.832,
+    9.028,
+    9.23,
+    9.436,
+    9.674,
+    9.914,
+    10.154,
+    10.389,
+    10.575,
+    10.759,
+    10.949,
+    11.142,
+    11.391,
+    11.639,
+    11.888,
+    12.137,
+    12.386,
+    12.634,
+    12.883,
+    13.132,
+    13.382,
+    13.631,
+    13.88,
+    14.129,
+    14.378,
+    14.628,
+    14.877,
+    15.126,
+    15.376,
+    15.625,
+    15.875,
+    16.124,
+    16.374,
+    16.623,
+    16.873,
+    17.122,
+    17.372,
+    17.622,
+    17.871,
+    18.121,
+    18.371,
+    18.62,
+    18.87,
+    19.12,
+    19.369,
+    19.619,
+    19.869,
+    20.118,
+    20.368,
+    20.618,
+    20.868,
+    21.117,
+    21.367,
+    21.617,
+    21.867,
+    22.117,
+    22.366,
+    22.616,
+    22.866,
+    23.116,
+    23.366,
+    23.615,
+    23.86,
+    24.045,
+    24.318,
+    24.122,
+    23.942,
+    23.769,
+    23.656,
+    23.603,
+    23.658,
+    23.63,
+    23.602,
+    23.575,
+    23.575,
+    23.346,
+    23.095,
+    22.973,
+    22.801,
+    22.631,
+    22.463,
+    22.298,
+    22.159,
+    22.073,
+    22.185,
+    22.356,
+    22.518,
+    22.711,
+    22.881,
+    23.058,
+    23.234,
+    23.411,
+    23.621,
+    23.121,
+    22.927,
+    22.801,
+    22.761,
+    22.812,
+    22.932,
+    23.088,
+    23.036,
+    23.015,
+    22.779,
+    22.59,
+    22.331,
+    22.098,
+    21.861,
+    21.615,
+    21.374,
+    21.14,
+    20.917,
+    20.721,
+    20.526,
+    20.369,
+    20.27,
+    20.236,
+    20.287,
+    20.341,
+    20.4,
+    20.462,
+    20.52,
+    20.482,
+    20.46,
+    20.578,
+    20.739,
+    20.772,
+    20.747,
+    20.894,
+    21.099,
+    20.884,
+    20.68,
+    20.502,
+    20.257,
+    20.02,
+    19.799,
+    19.559,
+    19.321,
+    19.086,
+    18.857
+  ],
+  "final_distance": 18.857,
+  "min_distance": 5.597,
+  "metrics": {
+    "distance_to_goal": 18.85680389404297,
+    "success": 0.0,
+    "spl": 0.0,
+    "oracle_success": 0.0,
+    "path_length": 67.96439940854907,
+    "steps_taken": 496.0
+  },
+  "success": false,
+  "backend_stats": {
+    "calls": 141,
+    "failures": 0,
+    "prompt_tokens": 283523,
+    "completion_tokens": 23430,
+    "reasoning_tokens": 13506,
+    "latency_s": 483.97177600860596
+  },
+  "stop_deferrals": 0
+}

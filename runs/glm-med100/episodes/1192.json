@@ -1,0 +1,423 @@
+{
+  "episode_id": 1192,
+  "scene_id": "Z6MFQCViBuw",
+  "instruction": "Turn left and stop just passed the doorway straight ahead.",
+  "actions_taken": 67,
+  "policy_calls": 33,
+  "api_latency_s": 179.13,
+  "prompt_tokens": 62459,
+  "completion_tokens": 10060,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 179.7,
+  "steps": [
+    {
+      "n": 6,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I currently face a curtained window with no doorway visible. The instruction says to turn left, so I will rotate left to bring the doorway into view before moving.",
+      "latency_s": 2.52,
+      "prompt_tokens": 871
+    },
+    {
+      "n": 9,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "After the 90\u00b0 left turn, the doorway is straight ahead down the red carpet, roughly 4 m away. I'll advance toward it, then re-observe to judge when I'm just past the doorway before stopping.",
+      "latency_s": 6.35,
+      "prompt_tokens": 1227
+    },
+    {
+      "n": 12,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The doorway is straight ahead, roughly 3-4 m away, and I'm already aligned with it. I'll advance toward it and re-observe before passing through, since I must stop just past the doorway.",
+      "latency_s": 3.86,
+      "prompt_tokens": 1591
+    },
+    {
+      "n": 14,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The doorway is straight ahead and I'm well aligned with it. It appears roughly 3 m away, so I'll advance a couple of steps and re-observe before passing through.",
+      "latency_s": 2.93,
+      "prompt_tokens": 1954
+    },
+    {
+      "n": 16,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've turned left and advanced ~2 m; the doorway is now directly ahead but I haven't reached it yet. I need to move forward through the doorway and stop just past it, so I'll take a couple of steps and re-observe before crossing.",
+      "latency_s": 4.08,
+      "prompt_tokens": 1954
+    },
+    {
+      "n": 17,
+      "actions": [
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm aligned with the open doorway straight ahead and appear to be right at its threshold. I'll take one forward step to pass through it, then re-observe before turning left to stop just past the doorway.",
+      "latency_s": 5.92,
+      "prompt_tokens": 1955
+    },
+    {
+      "n": 18,
+      "actions": [
+        "MOVE_FORWARD"
+      ],
+      "thought": "I have already turned left and advanced; the doorway is directly ahead and I appear to be right at its threshold. One more forward step should place me just past the doorway, then I can stop.",
+      "latency_s": 4.83,
+      "prompt_tokens": 1956
+    },
+    {
+      "n": 19,
+      "actions": [
+        "MOVE_FORWARD"
+      ],
+      "thought": "I have already turned left and advanced; the doorway is directly ahead and I appear to be at its threshold. One more forward step should place me just past the doorway, then I will re-observe before stopping.",
+      "latency_s": 5.02,
+      "prompt_tokens": 1955
+    },
+    {
+      "n": 20,
+      "actions": [
+        "MOVE_FORWARD"
+      ],
+      "thought": "After turning left and advancing, I am now right at the doorway threshold with door panels on both sides. One more forward step should place me just past the doorway, where I will stop.",
+      "latency_s": 4.31,
+      "prompt_tokens": 1956
+    },
+    {
+      "n": 21,
+      "actions": [
+        "MOVE_FORWARD"
+      ],
+      "thought": "I have turned left and advanced through the doorway between the wooden door panels; the door frames are still at the image edges, so I am at the threshold. One more forward step should place me just past the doorway, then I will re-observe before stopping.",
+      "latency_s": 6.98,
+      "prompt_tokens": 1954
+    },
+    {
+      "n": 24,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I have already turned left and advanced down the hallway; the dark doorway is now straight ahead but still a few meters away. I will advance toward it and stop just after passing through.",
+      "latency_s": 4.11,
+      "prompt_tokens": 1956
+    },
+    {
+      "n": 26,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "After turning left and advancing, I now face a dark doorway straight ahead across the room, roughly 3-4 m away. I need to approach it, pass through, and stop just beyond it, so I'll advance a couple of steps and re-observe to judge the remaining distance.",
+      "latency_s": 4.49,
+      "prompt_tokens": 1956
+    },
+    {
+      "n": 30,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The dark doorway straight ahead is still several meters away, so I need to keep advancing toward it before I can stop just past it. I'll take a few forward steps and re-observe to judge when I've cleared the doorway.",
+      "latency_s": 3.66,
+      "prompt_tokens": 1956
+    },
+    {
+      "n": 32,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I have turned left and advanced; the doorway is now straight ahead and appears only a couple of meters away. I will step forward to pass through it, then re-observe before stopping just past it.",
+      "latency_s": 3.63,
+      "prompt_tokens": 1956
+    },
+    {
+      "n": 34,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I have turned left and advanced; the dark doorway is now straight ahead a few meters away. I need to move just past it, so I will take a couple of forward steps and re-observe before stopping.",
+      "latency_s": 3.62,
+      "prompt_tokens": 1957
+    },
+    {
+      "n": 35,
+      "actions": [
+        "MOVE_FORWARD"
+      ],
+      "thought": "I have turned left and advanced; the doorway is now straight ahead only a short distance away, framed between the paneled pillar on the left and the wall on the right. I need to step forward to pass just through it, then stop, so I will take one careful step and re-observe before continuing.",
+      "latency_s": 5.32,
+      "prompt_tokens": 1957
+    },
+    {
+      "n": 36,
+      "actions": [
+        "MOVE_FORWARD"
+      ],
+      "thought": "The doorway is straight ahead between the decorated panels, a couple meters away. I'll advance one step toward it and re-observe before passing through.",
+      "latency_s": 4.39,
+      "prompt_tokens": 1958
+    },
+    {
+      "n": 38,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The doorway is visible straight ahead through the gap between the ornate cabinet on the left and the wall on the right, with the red carpet leading toward it. I'm roughly aligned with the opening, so I'll advance a couple of steps and re-observe before passing through.",
+      "latency_s": 5.99,
+      "prompt_tokens": 1957
+    },
+    {
+      "n": 39,
+      "actions": [
+        "MOVE_FORWARD"
+      ],
+      "thought": "After turning left and advancing, I now face the dark doorway opening straight ahead between the tall cabinet and the right wall. I am right at its threshold, so one careful forward step should carry me just past the doorway, then I will re-observe and stop.",
+      "latency_s": 5.8,
+      "prompt_tokens": 1957
+    },
+    {
+      "n": 40,
+      "actions": [
+        "MOVE_FORWARD"
+      ],
+      "thought": "The doorway (dark opening) is straight ahead, slightly left of center, and appears very close. I'll take one careful forward step toward it, then re-observe to confirm I've passed just through it before stopping.",
+      "latency_s": 4.21,
+      "prompt_tokens": 1958
+    },
+    {
+      "n": 43,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I have traveled forward and now face a large ornate cabinet with a dark gap beside it. The instruction says to turn left first, so I will rotate left to re-orient and look for the doorway it references before moving further.",
+      "latency_s": 5.32,
+      "prompt_tokens": 1958
+    },
+    {
+      "n": 44,
+      "actions": [
+        "MOVE_FORWARD"
+      ],
+      "thought": "After the left turns, a dark doorway is now visible just left of center between the floral-wallpaper wall and the large cabinet. It appears only a couple meters ahead, so I will advance one step and re-observe before passing through and stopping just past it.",
+      "latency_s": 9.52,
+      "prompt_tokens": 1959
+    },
+    {
+      "n": 46,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I have turned left and now face a dark doorway opening just ahead, with a large cabinet on my right. The instruction says to stop just past this doorway, so I will step forward through it and then re-observe before stopping.",
+      "latency_s": 7.88,
+      "prompt_tokens": 1960
+    },
+    {
+      "n": 48,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The dark doorway is visible slightly left of center ahead, past the desk area. I'll turn left to align with it, take one careful step, and re-observe before continuing through.",
+      "latency_s": 6.58,
+      "prompt_tokens": 1961
+    },
+    {
+      "n": 53,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "After turning left, I can see an open doorway on the left side of my view leading to a red-walled room. I need to center that doorway and walk through it, then stop just past it.",
+      "latency_s": 5.91,
+      "prompt_tokens": 1962
+    },
+    {
+      "n": 56,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I have already turned left and now face the open doorway with the red room beyond, roughly 3-4 m ahead. I will advance toward it and then stop just past the threshold.",
+      "latency_s": 8.14,
+      "prompt_tokens": 1964
+    },
+    {
+      "n": 57,
+      "actions": [
+        "MOVE_FORWARD"
+      ],
+      "thought": "I have already turned left and now face an open doorway straight ahead with a red carpet leading through it. The doorway is a few meters away, so I will advance one step at a time toward it and stop just after passing through.",
+      "latency_s": 4.7,
+      "prompt_tokens": 1965
+    },
+    {
+      "n": 58,
+      "actions": [
+        "MOVE_FORWARD"
+      ],
+      "thought": "I have already turned left and am now facing the open doorway straight ahead, with the red room visible through it. The doorway looks a couple meters away, so I will advance one step at a time toward it and re-observe before passing through.",
+      "latency_s": 4.92,
+      "prompt_tokens": 1964
+    },
+    {
+      "n": 59,
+      "actions": [
+        "MOVE_FORWARD"
+      ],
+      "thought": "I have turned left and am now facing the open doorway with the red room beyond. The doorway is a couple meters ahead, so I need to advance through it and then stop just past it. I'll take one forward step and re-observe to gauge the remaining distance.",
+      "latency_s": 6.17,
+      "prompt_tokens": 1965
+    },
+    {
+      "n": 60,
+      "actions": [
+        "MOVE_FORWARD"
+      ],
+      "thought": "I have already turned left and am now facing the open ornate doorway with the red carpet leading through it. I need to advance through the doorway and stop just past it, so I will take one careful forward step and re-observe to check my position relative to the door frame.",
+      "latency_s": 4.95,
+      "prompt_tokens": 1964
+    },
+    {
+      "n": 61,
+      "actions": [
+        "MOVE_FORWARD"
+      ],
+      "thought": "I have turned left and advanced; the open carved doorway is directly ahead and I appear to be right at its threshold, with the door frame still visible at the right edge of the frame. One more forward step should place me just past the doorway, then I will stop.",
+      "latency_s": 11.13,
+      "prompt_tokens": 1965
+    },
+    {
+      "n": 66,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I have turned left and now face down the hall toward the doorway at the far end of the red carpet. It is still several meters away, so I will advance along the carpet and re-observe before getting close.",
+      "latency_s": 7.15,
+      "prompt_tokens": 1965
+    },
+    {
+      "n": 67,
+      "actions": [
+        "STOP"
+      ],
+      "thought": "The ornate wooden door frame is now directly beside/in front of me, meaning I have just reached and passed through the doorway that was straight ahead. The instruction says to stop just past it, so I should stop here.",
+      "latency_s": 4.74,
+      "prompt_tokens": 1966
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    6.59,
+    6.59,
+    6.34,
+    6.089,
+    5.842,
+    5.596,
+    5.344,
+    5.093,
+    4.842,
+    4.591,
+    4.341,
+    4.091,
+    3.841,
+    3.591,
+    3.341,
+    3.092,
+    2.842,
+    2.592,
+    2.341,
+    2.09,
+    1.84,
+    1.591,
+    1.341,
+    1.091,
+    0.842,
+    0.601,
+    0.347,
+    0.116,
+    0.177,
+    0.418,
+    0.666,
+    0.915,
+    1.166,
+    1.416,
+    1.666,
+    1.792,
+    1.977,
+    2.135,
+    2.259,
+    2.219,
+    2.206,
+    2.222,
+    2.266,
+    2.335,
+    2.427,
+    2.543,
+    2.676,
+    2.825,
+    2.988,
+    3.162,
+    3.345,
+    3.537,
+    3.736,
+    3.944
+  ],
+  "final_distance": 3.944,
+  "min_distance": 0.116,
+  "metrics": {
+    "distance_to_goal": 3.9444327354431152,
+    "success": 0.0,
+    "spl": 0.0,
+    "oracle_success": 1.0,
+    "path_length": 13.220141604542732,
+    "steps_taken": 67.0
+  },
+  "success": false,
+  "backend_stats": {
+    "calls": 33,
+    "failures": 0,
+    "prompt_tokens": 62459,
+    "completion_tokens": 10060,
+    "reasoning_tokens": 7974,
+    "latency_s": 179.1421720981598
+  },
+  "stop_deferrals": 0
+}

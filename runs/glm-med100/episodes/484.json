@@ -1,0 +1,582 @@
+{
+  "episode_id": 484,
+  "scene_id": "EU6Fwq7SyZv",
+  "instruction": "Walk straight then talk a right at the window and wait by the pool table.",
+  "actions_taken": 129,
+  "policy_calls": 40,
+  "api_latency_s": 158.34,
+  "prompt_tokens": 76914,
+  "completion_tokens": 8031,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 159.15,
+  "steps": [
+    {
+      "n": 3,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I see a large open room with tall windows straight ahead. The instruction says to walk straight, then turn right at the window toward the pool table. I'll advance toward the windows first, re-observing as I go.",
+      "latency_s": 2.41,
+      "prompt_tokens": 876
+    },
+    {
+      "n": 6,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a wall of tall windows with a chaise lounge ahead. The instruction says to walk straight to the window, then turn right toward the pool table. I'll advance toward the windows first and re-observe before turning.",
+      "latency_s": 2.61,
+      "prompt_tokens": 1231
+    },
+    {
+      "n": 9,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing the large windowed doors ahead. The instruction says to walk straight to the window, then turn right toward the pool table. I'll continue moving forward toward the glass doors first.",
+      "latency_s": 2.44,
+      "prompt_tokens": 1594
+    },
+    {
+      "n": 15,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I have walked straight up to the large glass window wall. Per the instruction, I now need to turn right at the window and head toward the pool table.",
+      "latency_s": 3.01,
+      "prompt_tokens": 1958
+    },
+    {
+      "n": 18,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I walked straight to the glass window wall and turned right, so I should now be heading toward the pool table. The current view shows sofas and a fireplace but no pool table yet, so I will rotate right to scan the room for it.",
+      "latency_s": 4.66,
+      "prompt_tokens": 1961
+    },
+    {
+      "n": 20,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I walked straight to the glass window wall and turned right; now I'm facing the living room with sofas and an ottoman, but no pool table is visible yet. I'll scan further right to locate the pool table before moving.",
+      "latency_s": 4.73,
+      "prompt_tokens": 1963
+    },
+    {
+      "n": 24,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_RIGHT"
+      ],
+      "thought": "I have walked straight and turned right; ahead is the large windowed wall. I should approach the window, then turn right to look for the pool table.",
+      "latency_s": 3.73,
+      "prompt_tokens": 1963
+    },
+    {
+      "n": 27,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I have turned right and now face the large glass window/door ahead. I should walk toward the window, then turn right to look for the pool table.",
+      "latency_s": 2.64,
+      "prompt_tokens": 1966
+    },
+    {
+      "n": 30,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The large window wall is directly ahead, matching the instruction's 'right at the window'. I'll move forward toward it, then turn right to find the pool table.",
+      "latency_s": 3.87,
+      "prompt_tokens": 1967
+    },
+    {
+      "n": 34,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing the large windowed wall described in the instruction. I should approach it, then turn right to find the pool table.",
+      "latency_s": 5.48,
+      "prompt_tokens": 1967
+    },
+    {
+      "n": 38,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I have walked straight to the windowed doors and turned to face them. Per the instruction, I now need to take a right at the window and head toward the pool table, so I'll rotate right to scan that side of the room.",
+      "latency_s": 3.31,
+      "prompt_tokens": 1968
+    },
+    {
+      "n": 41,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've walked straight and turned right at the window; now I'm facing a large room with cabinets and chairs. The instruction says to wait by the pool table, so I should advance into this room and look for it \u2014 the dark object on the right edge may be its corner.",
+      "latency_s": 5.39,
+      "prompt_tokens": 1971
+    },
+    {
+      "n": 44,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've turned right and now face a room with cabinets, chairs, and a window on the back wall. The pool table isn't visible yet, so I'll advance toward the window area and look for it, likely further into the room.",
+      "latency_s": 4.31,
+      "prompt_tokens": 1972
+    },
+    {
+      "n": 47,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the bright window on the far wall ahead, so I'll walk straight toward it. A chair sits directly in front, so I'll advance a couple of steps and re-observe before turning right at the window to look for the pool table.",
+      "latency_s": 4.52,
+      "prompt_tokens": 1972
+    },
+    {
+      "n": 50,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the window ahead past the chair, so I'm on the right path. I'll advance toward the window, then turn right to find the pool table.",
+      "latency_s": 3.16,
+      "prompt_tokens": 1973
+    },
+    {
+      "n": 53,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see a window ahead in the wooden wall, with cabinets to the right. The instruction says to walk straight to the window, then turn right and go to the pool table. I'll advance toward the window first, re-observing as I go since there is furniture clutter in the way.",
+      "latency_s": 3.22,
+      "prompt_tokens": 1972
+    },
+    {
+      "n": 57,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the window ahead on the far wall, but a large chair blocks the direct path. I'll angle right to skirt around the chair, then re-observe to line up with the window before turning right toward the pool table.",
+      "latency_s": 6.8,
+      "prompt_tokens": 1974
+    },
+    {
+      "n": 61,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I see a rustic kitchen with cabinets and a window on the left, but no pool table in view. I need to scan the room to the right to locate the pool table before moving.",
+      "latency_s": 3.86,
+      "prompt_tokens": 1976
+    },
+    {
+      "n": 64,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I see a large dining room with big windows ahead and a staircase on the right. The instruction says to walk straight to the window, then turn right and find the pool table. I'll advance toward the windows first and re-observe.",
+      "latency_s": 4.53,
+      "prompt_tokens": 1978
+    },
+    {
+      "n": 67,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a large window at the far end of the room with a long dining table on the left. Per the instruction, I should continue straight toward the window, then turn right to find the pool table. I'll advance toward the window first.",
+      "latency_s": 3.04,
+      "prompt_tokens": 1979
+    },
+    {
+      "n": 72,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The window is directly ahead, so I'll walk straight toward it. Once near it, I'll turn right to search for the pool table.",
+      "latency_s": 3.78,
+      "prompt_tokens": 1979
+    },
+    {
+      "n": 75,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing the large window wall at the far end of the room, with the long dining table on my left. The instruction says to take a right at the window, so I'll advance toward the window first, then turn right to look for the pool table.",
+      "latency_s": 3.53,
+      "prompt_tokens": 1981
+    },
+    {
+      "n": 78,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing the large window wall across the dining table. The instruction says to take a right at the window, so I'll advance toward the window area first, then look for the turn toward the pool table.",
+      "latency_s": 3.57,
+      "prompt_tokens": 1980
+    },
+    {
+      "n": 81,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing the large window wall with the 'STOVERS FEED' sign. Per the instruction, I should walk straight toward the window, then turn right to find the pool table. I'll advance toward the window first.",
+      "latency_s": 3.96,
+      "prompt_tokens": 1981
+    },
+    {
+      "n": 84,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing the large window wall across the room. I need to walk toward the window, then turn right to find the pool table. I'll advance toward the window and re-observe.",
+      "latency_s": 3.42,
+      "prompt_tokens": 1981
+    },
+    {
+      "n": 89,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The window is directly ahead across the open floor. I'll advance toward it, keeping slightly right of the chair blocking my immediate path, then turn right at the window to find the pool table.",
+      "latency_s": 4.66,
+      "prompt_tokens": 1982
+    },
+    {
+      "n": 92,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing the large window wall with the 'STOVERS FEED' sign. Per the instruction, I should continue straight toward the window, then turn right to find the pool table. I'll advance a couple of steps first, then re-observe.",
+      "latency_s": 4.79,
+      "prompt_tokens": 1984
+    },
+    {
+      "n": 96,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've reached the window area (large windows with the 'Stovers Feed' sign). Per the instruction, I now need to take a right at the window and head toward the pool table, which should be through or past the glass doors on my right. I'll turn right and re-observe.",
+      "latency_s": 3.24,
+      "prompt_tokens": 1984
+    },
+    {
+      "n": 99,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've taken the right at the window and now face down a glass-walled corridor opening into a large great room with a fireplace and seating. The pool table should be further ahead in that open area, so I'll advance along the corridor and re-observe.",
+      "latency_s": 3.12,
+      "prompt_tokens": 1986
+    },
+    {
+      "n": 102,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a glass-walled corridor with windows on the left, and a large table (likely the pool table) is visible ahead in the open room. I'll continue forward along the windows toward it, then re-observe before turning right.",
+      "latency_s": 3.49,
+      "prompt_tokens": 1987
+    },
+    {
+      "n": 105,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The window wall is on my left and a dark table resembling a pool table is visible ahead in the open area. I'll advance toward it and check alignment before turning.",
+      "latency_s": 4.11,
+      "prompt_tokens": 1987
+    },
+    {
+      "n": 108,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm walking along the large window wall, and ahead in the open room I can see what appears to be the pool table. I should continue forward along the windows until I reach the end of the window wall, then turn right toward the pool table.",
+      "latency_s": 3.73,
+      "prompt_tokens": 1988
+    },
+    {
+      "n": 111,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm alongside the glass window wall, and the pool table is visible ahead in the open room. I'll advance a few steps along the windows, then turn right to approach the pool table.",
+      "latency_s": 6.14,
+      "prompt_tokens": 1988
+    },
+    {
+      "n": 114,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm walking along the window wall and can see the pool table ahead in the open room. I'll continue forward along the windows, then turn right toward the pool table.",
+      "latency_s": 3.68,
+      "prompt_tokens": 1989
+    },
+    {
+      "n": 115,
+      "actions": [
+        "MOVE_FORWARD"
+      ],
+      "thought": "I am right beside the window wall, and the pool table is visible ahead in the open room. I will advance toward it and re-observe before stopping.",
+      "latency_s": 4.48,
+      "prompt_tokens": 1989
+    },
+    {
+      "n": 120,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm right beside the window now, and the pool table is visible ahead in the open room. Per the instruction, I'll turn right at the window and approach the pool table.",
+      "latency_s": 4.13,
+      "prompt_tokens": 1990
+    },
+    {
+      "n": 123,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've reached the window and turned right into the large room; the pool table with blue felt is visible at the left edge of my view. I'll turn left to face it and approach it before stopping.",
+      "latency_s": 4.88,
+      "prompt_tokens": 1992
+    },
+    {
+      "n": 124,
+      "actions": [
+        "MOVE_FORWARD"
+      ],
+      "thought": "I have turned right at the window and the pool table is now directly ahead a few meters away. I will advance one step toward it, then re-observe before stopping.",
+      "latency_s": 3.78,
+      "prompt_tokens": 1995
+    },
+    {
+      "n": 126,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The pool table is directly ahead with the windows behind it, matching the instruction's endpoint. I'll advance a couple of steps toward it, then re-observe before stopping.",
+      "latency_s": 2.8,
+      "prompt_tokens": 1995
+    },
+    {
+      "n": 129,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "STOP"
+      ],
+      "thought": "I have turned right at the window and now face the pool table directly, roughly 2-3 m ahead. I'll take a couple of forward steps to get beside it, then stop.",
+      "latency_s": 5.33,
+      "prompt_tokens": 1995
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    7.933,
+    7.685,
+    7.435,
+    7.186,
+    6.918,
+    6.67,
+    6.422,
+    6.174,
+    5.927,
+    5.681,
+    5.912,
+    6.161,
+    6.404,
+    6.654,
+    6.904,
+    7.154,
+    7.404,
+    7.654,
+    7.903,
+    8.152,
+    8.359,
+    8.573,
+    8.64,
+    8.737,
+    8.881,
+    9.091,
+    9.326,
+    9.568,
+    9.814,
+    10.061,
+    10.308,
+    10.48,
+    10.494,
+    10.508,
+    10.524,
+    10.54,
+    10.557,
+    10.525,
+    10.497,
+    10.434,
+    10.449,
+    10.499,
+    10.487,
+    10.248,
+    10.01,
+    9.775,
+    9.543,
+    9.315,
+    9.092,
+    8.876,
+    8.669,
+    8.476,
+    8.304,
+    8.169,
+    8.153,
+    8.138,
+    8.123,
+    8.108,
+    8.093,
+    8.078,
+    7.905,
+    7.775,
+    7.631,
+    7.508,
+    7.403,
+    7.288,
+    7.179,
+    7.083,
+    6.836,
+    6.589,
+    6.343,
+    6.096,
+    5.85,
+    5.604,
+    5.358,
+    5.113,
+    4.868,
+    4.624,
+    4.381,
+    4.139,
+    3.897,
+    3.657,
+    3.418,
+    3.18,
+    2.939,
+    2.698,
+    2.457,
+    2.233,
+    2.016,
+    1.766,
+    1.516,
+    1.266,
+    1.016,
+    0.766,
+    0.517
+  ],
+  "final_distance": 0.517,
+  "min_distance": 0.517,
+  "metrics": {
+    "distance_to_goal": 0.5165895819664001,
+    "success": 1.0,
+    "spl": 0.38458519862492235,
+    "oracle_success": 1.0,
+    "path_length": 20.626716133207083,
+    "steps_taken": 129.0
+  },
+  "success": true,
+  "backend_stats": {
+    "calls": 40,
+    "failures": 0,
+    "prompt_tokens": 76914,
+    "completion_tokens": 8031,
+    "reasoning_tokens": 5270,
+    "latency_s": 158.3419919013977
+  },
+  "stop_deferrals": 0
+}

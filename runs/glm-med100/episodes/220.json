@@ -1,0 +1,746 @@
+{
+  "episode_id": 220,
+  "scene_id": "8194nk5LbLH",
+  "instruction": "Start in the middle of the large room head towards the door that leads to the outside, turn left and head up the stairs, take a hard left, stop when you are inside the workout room.",
+  "actions_taken": 185,
+  "policy_calls": 53,
+  "api_latency_s": 218.48,
+  "prompt_tokens": 104235,
+  "completion_tokens": 11557,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 219.48,
+  "steps": [
+    {
+      "n": 6,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm facing a wall with a painting; I need to turn to find the exterior door in this large room before heading to the stairs.",
+      "latency_s": 2.45,
+      "prompt_tokens": 900
+    },
+    {
+      "n": 9,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The glass wall ahead looks like the exit to the outside; I need to approach it before turning left toward the stairs. The path between the couch and the wall corner is open.",
+      "latency_s": 3.72,
+      "prompt_tokens": 1256
+    },
+    {
+      "n": 13,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I've moved forward into the large room and now face a wall corner with a TV. I need to locate the door leading outside (likely near the glass/mural wall), so I'll turn left to scan the room before proceeding toward the stairs.",
+      "latency_s": 2.75,
+      "prompt_tokens": 1620
+    },
+    {
+      "n": 16,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've rotated left and am now facing a wall with a plant and sofas; the glass doors with the bridge mural (likely the exit to outside) are off to my right. I'll turn right to face them, then move toward that door before turning left toward the stairs.",
+      "latency_s": 5.39,
+      "prompt_tokens": 1984
+    },
+    {
+      "n": 19,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in a large lounge with couches and a TV wall, but I don't yet see the exterior door. I'll rotate left to scan the room for the door leading outside before moving.",
+      "latency_s": 5.82,
+      "prompt_tokens": 1986
+    },
+    {
+      "n": 22,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in the large lounge room but don't yet see the exterior door. A green exit sign is visible far to the right, so I'll turn right to scan for the door leading outside.",
+      "latency_s": 4.52,
+      "prompt_tokens": 1987
+    },
+    {
+      "n": 25,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in a large lounge with a bridge mural and sofas, but I don't yet see the exterior door. I need to scan the room to locate it before heading to the stairs.",
+      "latency_s": 4.16,
+      "prompt_tokens": 1989
+    },
+    {
+      "n": 30,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a large lounge with sofas and a plant. The green exit sign near the mural wall on the right likely marks the door leading outside. I'll turn right and move toward it, then look for the stairs to the left.",
+      "latency_s": 4.37,
+      "prompt_tokens": 1990
+    },
+    {
+      "n": 33,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the large lounge with couches and a bridge mural. The green exit sign on the far wall likely marks the door to the outside, so I'll advance toward it while keeping the path clear.",
+      "latency_s": 3.3,
+      "prompt_tokens": 1992
+    },
+    {
+      "n": 36,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a large lounge with couches and a bridge mural. I don't yet see the exterior door or stairs, but there's a green exit sign ahead near the far wall, which likely marks the door to the outside. I'll advance toward it and re-observe.",
+      "latency_s": 3.75,
+      "prompt_tokens": 1992
+    },
+    {
+      "n": 39,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the large room with the bridge mural. A green exit sign is visible ahead near the mural wall, which likely marks the door leading outside. I'll move toward it, then turn left to find the stairs.",
+      "latency_s": 4.4,
+      "prompt_tokens": 1993
+    },
+    {
+      "n": 43,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the large lounge with the bridge mural. A green EXIT sign is visible above a doorway near the concrete pillar ahead, which should be the door leading outside. I'll advance toward it, then turn left to find the stairs.",
+      "latency_s": 4.67,
+      "prompt_tokens": 1993
+    },
+    {
+      "n": 46,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the large room facing the mural wall with a green exit sign, which likely marks the door to the outside. I'll advance toward it and re-observe to locate the door and the stairs to its left.",
+      "latency_s": 4.61,
+      "prompt_tokens": 1993
+    },
+    {
+      "n": 49,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in a large open room with a bridge mural. I need to find the door leading outside first. The left side of the room shows a wall with blue panels that may contain the exit door, so I'll turn left to scan that area.",
+      "latency_s": 2.73,
+      "prompt_tokens": 1995
+    },
+    {
+      "n": 53,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the large open room with the couch and kitchen area. The green exit sign ahead marks the door leading outside, so I'll advance toward it while keeping it centered before turning left toward the stairs.",
+      "latency_s": 4.26,
+      "prompt_tokens": 1996
+    },
+    {
+      "n": 56,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I see the large room with a couch and kitchen ahead, and a green exit sign above a distant doorway. The stairs are likely near that exit area, so I'll move forward toward it and re-observe.",
+      "latency_s": 3.61,
+      "prompt_tokens": 1997
+    },
+    {
+      "n": 59,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The green exit sign ahead marks the door leading outside; I need to approach it before turning left toward the stairs. I'll move forward carefully and re-observe.",
+      "latency_s": 3.62,
+      "prompt_tokens": 1998
+    },
+    {
+      "n": 63,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the large open room facing a hallway with a door at the far end (with an exit sign above it), which appears to be the door leading outside. I'll continue forward toward it, then turn left to find the stairs.",
+      "latency_s": 4.05,
+      "prompt_tokens": 1998
+    },
+    {
+      "n": 66,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the large open room facing the bar area with a hallway and a door with a green exit sign ahead. I need to continue toward that door area, then turn left to find the stairs.",
+      "latency_s": 3.15,
+      "prompt_tokens": 1998
+    },
+    {
+      "n": 70,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the kitchen/bar area facing a gray door with an exit sign ahead, which appears to be the door leading outside. I'll advance toward it, then turn left to find the stairs.",
+      "latency_s": 2.69,
+      "prompt_tokens": 1999
+    },
+    {
+      "n": 74,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hallway facing a door with an exit sign; the stairs should be to the left near this door. I'll advance toward the door, then turn left to find the stairs.",
+      "latency_s": 3.26,
+      "prompt_tokens": 1999
+    },
+    {
+      "n": 77,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I've reached the gray door with the EXIT sign that leads outside. Per the instruction, I now need to turn left to find the stairs, so I'll rotate left and re-observe before moving.",
+      "latency_s": 2.61,
+      "prompt_tokens": 2000
+    },
+    {
+      "n": 83,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to have turned away from the exit door and am now facing the kitchen. The exit door with the EXIT sign was ahead of me earlier; the stairs should be just left of that door. I'll turn right to re-face the door area and then look for the staircase.",
+      "latency_s": 5.84,
+      "prompt_tokens": 2001
+    },
+    {
+      "n": 86,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I am currently facing a blue wall in a hallway, which suggests I overshot or turned past the door area. I need to turn left to re-orient toward the hallway with the exit door and locate the stairs.",
+      "latency_s": 3.63,
+      "prompt_tokens": 2004
+    },
+    {
+      "n": 89,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in the kitchen area facing the gray exterior door with the EXIT sign. Per the instruction, after reaching this door I should turn left to find the stairs, so I'll rotate left to scan for the staircase.",
+      "latency_s": 2.89,
+      "prompt_tokens": 2005
+    },
+    {
+      "n": 93,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I've ended up facing a kitchen area, which doesn't match the instruction's path (outside door, stairs, workout room). I need to re-orient and look for the stairs; I'll continue turning left to scan the room.",
+      "latency_s": 4.42,
+      "prompt_tokens": 2006
+    },
+    {
+      "n": 95,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a large open room with a curved ceiling and a kitchen to the right; ahead there is a dark opening that could be the stairwell. I'll advance toward it and re-observe before committing further.",
+      "latency_s": 8.18,
+      "prompt_tokens": 2007
+    },
+    {
+      "n": 100,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in a large open-plan room with a kitchen to my right and a wide living area ahead. I need to locate the stairs, which aren't visible yet, so I'll advance into the open area and scan the surroundings.",
+      "latency_s": 3.75,
+      "prompt_tokens": 2008
+    },
+    {
+      "n": 102,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a large open room with orange couches on the left and a column ahead; I don't yet see the exterior door or stairs. I'll scan to the right to locate the glass doors leading outside and the staircase before moving.",
+      "latency_s": 5.21,
+      "prompt_tokens": 2009
+    },
+    {
+      "n": 105,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I appear to be in a large open living/kitchen area with glass doors to the outside ahead. The instruction says to head toward the outside door, then turn left toward the stairs. I will advance toward the glass doors and then look for the stairs on the left.",
+      "latency_s": 5.47,
+      "prompt_tokens": 2011
+    },
+    {
+      "n": 108,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I appear to be in a large open living/kitchen area with a dark opening ahead that could be the stairwell. I'll advance toward it and re-observe before committing further.",
+      "latency_s": 4.67,
+      "prompt_tokens": 2012
+    },
+    {
+      "n": 110,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the large open room with the kitchen on the right; the dark opening straight ahead appears to be the doorway/stairwell area the instruction points to. I'll advance toward it and re-observe before committing further.",
+      "latency_s": 6.43,
+      "prompt_tokens": 2012
+    },
+    {
+      "n": 116,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I appear to be in a large open living/kitchen area facing glass doors that may lead outside, with a table blocking the direct path. The stairs should be to the left of the outside door per the instruction, but I need to reposition around the table first; I'll turn right and advance along the open floor to get a better vantage.",
+      "latency_s": 11.47,
+      "prompt_tokens": 2012
+    },
+    {
+      "n": 120,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm currently facing a kitchen with built-in ovens, which doesn't match the workout room goal. I need to find the stairs, so I'll rotate left to scan the space and locate the staircase near the exterior door.",
+      "latency_s": 3.7,
+      "prompt_tokens": 2015
+    },
+    {
+      "n": 124,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the large open room with the kitchen on my right and what appear to be glass doors to the outside ahead. I'll advance toward those doors, then turn left to locate the stairs.",
+      "latency_s": 3.73,
+      "prompt_tokens": 2015
+    },
+    {
+      "n": 127,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a large open room with a curved ceiling; ahead there is a dark opening that could be the stairwell area. I'll advance toward it and re-observe to locate the stairs before turning.",
+      "latency_s": 3.05,
+      "prompt_tokens": 2017
+    },
+    {
+      "n": 130,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I appear to be in a large open room with a central pillar and couches to the left, with a dark opening ahead that may be the exit door area. I will advance toward it and then look for the stairs to my left.",
+      "latency_s": 4.51,
+      "prompt_tokens": 2018
+    },
+    {
+      "n": 133,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I am in a large open lobby area with a curved counter blocking the direct path ahead. I need to navigate around it toward the open floor and look for the stairs; I will turn left and advance to get a better view of the room.",
+      "latency_s": 5.28,
+      "prompt_tokens": 2017
+    },
+    {
+      "n": 136,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a large lounge with sofas and a fireplace, but I don't see the stairs or the exterior door from this vantage point. I need to rotate and scan the room to locate the stairs leading up.",
+      "latency_s": 4.04,
+      "prompt_tokens": 2020
+    },
+    {
+      "n": 139,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in a large open living/kitchen area with a curved bar, but I don't yet see the exterior door or the stairs. I'll rotate left to scan the room for the glass doors leading outside and the staircase.",
+      "latency_s": 3.95,
+      "prompt_tokens": 2022
+    },
+    {
+      "n": 143,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in the large living room with the fireplace and sofas, but I don't see stairs or the workout room from here. I'll rotate left to scan the room for the staircase.",
+      "latency_s": 4.0,
+      "prompt_tokens": 2023
+    },
+    {
+      "n": 150,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a large lounge with a bridge mural on the left and a dark doorway ahead near the TV. The instruction says to head toward the outside door, then turn left and go up the stairs; that dark opening ahead-left looks like the passage to the stairs, so I'll advance toward it while keeping aligned.",
+      "latency_s": 5.66,
+      "prompt_tokens": 2024
+    },
+    {
+      "n": 154,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a large lounge with a bridge mural on the left and a TV on the right; ahead there is a dark opening that likely leads to the stairwell. I'll advance toward that dark doorway and re-observe before entering.",
+      "latency_s": 3.4,
+      "prompt_tokens": 2026
+    },
+    {
+      "n": 157,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the large room facing a dark doorway ahead, which appears to be the exit door mentioned in the instruction. I'll advance toward it, then turn left to find the stairs.",
+      "latency_s": 3.15,
+      "prompt_tokens": 2027
+    },
+    {
+      "n": 161,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I see a dark doorway ahead past the bridge mural, which likely leads toward the stairs. I'll advance toward it and re-observe before turning.",
+      "latency_s": 2.46,
+      "prompt_tokens": 2028
+    },
+    {
+      "n": 164,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hallway with a bridge mural on the left, facing a dark opening ahead that appears to lead onward. The instruction says to head up the stairs and take a hard left to the workout room, so I should continue forward through this passage and look for the stairs.",
+      "latency_s": 2.55,
+      "prompt_tokens": 2029
+    },
+    {
+      "n": 167,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a carpeted corridor with a bridge mural on the left, facing a dark opening ahead. I need to continue forward through this passage to find the workout room after the hard left.",
+      "latency_s": 2.59,
+      "prompt_tokens": 2028
+    },
+    {
+      "n": 170,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a carpeted hallway with a bridge mural on the left, facing a dark opening ahead. The instruction says to take a hard left after the stairs and enter the workout room; I should continue forward through this dark opening and then look for the turn.",
+      "latency_s": 3.51,
+      "prompt_tokens": 2029
+    },
+    {
+      "n": 174,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a carpeted hallway with a bridge mural on the left wall; the corridor continues into a darker area ahead. I'll keep advancing along the hallway toward the stairs, re-observing as I go.",
+      "latency_s": 3.02,
+      "prompt_tokens": 2028
+    },
+    {
+      "n": 177,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hallway with a bridge mural on the left, and the corridor continues forward into a darker area. I should keep advancing along this hallway toward the stairs/workout room, checking as I go.",
+      "latency_s": 2.61,
+      "prompt_tokens": 2030
+    },
+    {
+      "n": 179,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm pressed against a wall corner with a mural on my left; the open passage appears to be to my right into the darker corridor. I'll turn right to re-aim before moving.",
+      "latency_s": 2.86,
+      "prompt_tokens": 2031
+    },
+    {
+      "n": 182,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to be in a dark corridor after the stairs; there is a lit room visible on my right that could be the workout room. I will turn right to inspect it before entering.",
+      "latency_s": 3.43,
+      "prompt_tokens": 2032
+    },
+    {
+      "n": 185,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "STOP"
+      ],
+      "thought": "The view now shows a large open area with exercise machines (weight equipment) ahead, which matches the workout room described in the instruction. I am at its entrance, so I will step forward into the room and then stop.",
+      "latency_s": 5.13,
+      "prompt_tokens": 2034
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    11.806,
+    11.806,
+    11.998,
+    12.202,
+    12.415,
+    12.665,
+    12.915,
+    13.165,
+    13.415,
+    13.665,
+    13.915,
+    14.165,
+    14.415,
+    14.619,
+    14.853,
+    15.115,
+    15.357,
+    15.549,
+    15.743,
+    15.988,
+    16.236,
+    16.486,
+    16.693,
+    16.814,
+    17.043,
+    17.282,
+    17.525,
+    17.77,
+    18.027,
+    18.275,
+    18.524,
+    18.774,
+    19.024,
+    19.274,
+    19.524,
+    19.774,
+    20.024,
+    20.274,
+    20.524,
+    20.774,
+    21.024,
+    21.274,
+    21.524,
+    21.774,
+    22.024,
+    22.274,
+    22.524,
+    22.774,
+    23.024,
+    22.966,
+    22.91,
+    22.903,
+    22.838,
+    22.773,
+    22.709,
+    22.644,
+    22.579,
+    22.515,
+    22.45,
+    22.385,
+    22.321,
+    22.256,
+    22.036,
+    21.885,
+    21.636,
+    21.388,
+    21.139,
+    20.891,
+    20.662,
+    20.437,
+    20.217,
+    20.004,
+    19.8,
+    19.608,
+    19.424,
+    19.251,
+    19.089,
+    18.943,
+    18.82,
+    18.723,
+    18.658,
+    18.959,
+    18.791,
+    18.644,
+    18.525,
+    18.441,
+    18.397,
+    18.393,
+    18.414,
+    18.451,
+    18.504,
+    18.573,
+    18.665,
+    18.778,
+    18.91,
+    19.059,
+    19.23,
+    19.125,
+    19.056
+  ],
+  "final_distance": 19.056,
+  "min_distance": 11.806,
+  "metrics": {
+    "distance_to_goal": 19.05613136291504,
+    "success": 0.0,
+    "spl": 0.0,
+    "oracle_success": 0.0,
+    "path_length": 21.93560061790049,
+    "steps_taken": 185.0
+  },
+  "success": false,
+  "backend_stats": {
+    "calls": 53,
+    "failures": 0,
+    "prompt_tokens": 104235,
+    "completion_tokens": 11557,
+    "reasoning_tokens": 7764,
+    "latency_s": 218.4890124797821
+  },
+  "stop_deferrals": 0
+}

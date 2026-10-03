@@ -1,0 +1,1100 @@
+{
+  "episode_id": 1147,
+  "scene_id": "8194nk5LbLH",
+  "instruction": "Go through the lobby and wait in the kitchen.",
+  "actions_taken": 243,
+  "policy_calls": 84,
+  "api_latency_s": 270.32,
+  "prompt_tokens": 165811,
+  "completion_tokens": 12155,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 271.88,
+  "steps": [
+    {
+      "n": 3,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing an orange wall with a painting; no doorway is visible ahead. I'll turn right to scan for the lobby opening.",
+      "latency_s": 2.2,
+      "prompt_tokens": 870
+    },
+    {
+      "n": 5,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in a lobby area with glass doors and an exit sign, but no kitchen is visible yet. I'll turn left to scan the rest of the lobby for a passage to the kitchen.",
+      "latency_s": 3.09,
+      "prompt_tokens": 1226
+    },
+    {
+      "n": 7,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a lobby with an orange wall and glass exit doors. I need to explore to find the kitchen, so I'll turn right to scan the rest of the lobby.",
+      "latency_s": 1.97,
+      "prompt_tokens": 1590
+    },
+    {
+      "n": 9,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a lobby with an orange wall on the left and glass exit doors ahead. The instruction says to go through the lobby, so I'll advance toward the open floor area past the concrete pillar and look for a passage to the kitchen.",
+      "latency_s": 3.17,
+      "prompt_tokens": 1954
+    },
+    {
+      "n": 12,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm currently facing a glass door area next to an orange wall, which appears to be part of the lobby. I don't see the kitchen yet, so I should turn to scan the space and find a path deeper into the building.",
+      "latency_s": 3.26,
+      "prompt_tokens": 1955
+    },
+    {
+      "n": 16,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm currently facing an orange wall with a painting, having turned away from the lobby with the glass doors. I need to turn back toward the open lobby area to find the path to the kitchen.",
+      "latency_s": 2.82,
+      "prompt_tokens": 1956
+    },
+    {
+      "n": 22,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm currently facing a glass door and window wall, which looks like an exterior entrance rather than the lobby or kitchen. I need to turn around to find the lobby area and then locate the kitchen.",
+      "latency_s": 3.48,
+      "prompt_tokens": 1958
+    },
+    {
+      "n": 26,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm currently facing an orange wall up close, which means I've turned away from the open lobby area I saw earlier (glass doors and windows). I need to rotate back toward the open space to find the path through the lobby toward the kitchen.",
+      "latency_s": 3.64,
+      "prompt_tokens": 1960
+    },
+    {
+      "n": 29,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the edge of a lobby with an open seating area ahead. I need to traverse the lobby and look for the kitchen, so I'll advance forward and re-observe.",
+      "latency_s": 2.86,
+      "prompt_tokens": 1961
+    },
+    {
+      "n": 31,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in the lobby with seating and a mural, but no kitchen is visible yet. I'll turn left to scan the rest of the lobby for a passage leading to the kitchen.",
+      "latency_s": 2.7,
+      "prompt_tokens": 1962
+    },
+    {
+      "n": 33,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a lobby with blue chairs and a mural wall; the kitchen isn't visible yet, so I'll advance through the open lobby toward the far end where the green exit sign is, then look for a kitchen area.",
+      "latency_s": 3.24,
+      "prompt_tokens": 1963
+    },
+    {
+      "n": 35,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the lobby with blue chairs and a bridge mural ahead. The kitchen is likely beyond the lobby, so I'll advance toward the open area near the green exit sign and re-observe.",
+      "latency_s": 2.79,
+      "prompt_tokens": 1964
+    },
+    {
+      "n": 38,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a lobby with blue chairs and a bridge mural. The kitchen isn't visible yet; there appears to be an open passage ahead near the mural and possibly an opening on the left. I'll advance through the lobby toward the far wall to look for the kitchen entrance.",
+      "latency_s": 2.84,
+      "prompt_tokens": 1964
+    },
+    {
+      "n": 41,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a lobby with couches and a large bridge mural. I need to cross the lobby toward the far wall where there appears to be an opening, then look for the kitchen. I'll advance carefully and re-observe.",
+      "latency_s": 3.64,
+      "prompt_tokens": 1965
+    },
+    {
+      "n": 44,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a lobby with couches and a bridge mural. A green exit sign marks a doorway ahead-left; the kitchen is likely beyond it. I'll head toward that opening.",
+      "latency_s": 3.27,
+      "prompt_tokens": 1965
+    },
+    {
+      "n": 47,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the lobby with couches and a coffee table. The kitchen area (cabinets and oven) is visible on the far left, so I need to turn left and head toward it.",
+      "latency_s": 2.65,
+      "prompt_tokens": 1967
+    },
+    {
+      "n": 50,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the lobby with orange couches; the kitchen with stainless steel appliances is visible ahead past the couch, slightly left of center. I'll turn left to align with the kitchen area and advance.",
+      "latency_s": 2.89,
+      "prompt_tokens": 1969
+    },
+    {
+      "n": 55,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the kitchen with stainless steel appliances and cabinets ahead beyond the orange sofa. I need to turn right to face it and move forward through the lobby toward the kitchen.",
+      "latency_s": 3.01,
+      "prompt_tokens": 1970
+    },
+    {
+      "n": 58,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the kitchen with stainless steel appliances ahead beyond the large orange sectional sofa. I need to navigate around the sofa toward the kitchen area, angling slightly left where there appears to be a walkway past the plant and sofa.",
+      "latency_s": 3.3,
+      "prompt_tokens": 1973
+    },
+    {
+      "n": 61,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen with stainless steel appliances is visible ahead beyond the orange sectional sofa. I'll angle slightly left to pass the plant and blue pillar, then approach the kitchen area.",
+      "latency_s": 3.99,
+      "prompt_tokens": 1975
+    },
+    {
+      "n": 64,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen with stainless steel appliances is visible ahead beyond the orange sectional sofa. I need to move around the couch, likely passing to its left near the plant, to approach the kitchen area.",
+      "latency_s": 2.64,
+      "prompt_tokens": 1977
+    },
+    {
+      "n": 67,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is visible ahead beyond the orange couch. I need to skirt around the couch, likely passing to its left near the blue pillar, then head toward the kitchen area.",
+      "latency_s": 5.24,
+      "prompt_tokens": 1979
+    },
+    {
+      "n": 71,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I have drifted to face a large plant and window; the kitchen with stainless appliances and bar stools was visible to my right past the blue pillar. I need to turn right to re-aim toward the kitchen area and then advance.",
+      "latency_s": 2.76,
+      "prompt_tokens": 1981
+    },
+    {
+      "n": 74,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen with bar stools is visible ahead beyond the orange couch. I need to navigate around the couch, likely through the gap on its left near the plant, then approach the kitchen area.",
+      "latency_s": 3.99,
+      "prompt_tokens": 1983
+    },
+    {
+      "n": 77,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen counter with stools is straight ahead beyond a couch; I need to skirt around the couch on its left side to approach the kitchen.",
+      "latency_s": 4.91,
+      "prompt_tokens": 1985
+    },
+    {
+      "n": 79,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen with the bar and stools is visible straight ahead beyond the couch. I will advance toward it, re-observing after each step to avoid the couch and plant.",
+      "latency_s": 2.68,
+      "prompt_tokens": 1987
+    },
+    {
+      "n": 82,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen with bar stools and cabinets is visible ahead, but a large plant blocks my immediate path. I'll turn right slightly to move around the plant and approach the kitchen area.",
+      "latency_s": 2.62,
+      "prompt_tokens": 1987
+    },
+    {
+      "n": 84,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "The view is mostly blocked by a large plant, but the kitchen with bar stools and cabinets is visible to the right. I'll turn right to clear the plant and face the kitchen before moving forward.",
+      "latency_s": 2.39,
+      "prompt_tokens": 1989
+    },
+    {
+      "n": 86,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen with its counter and bar stools is visible ahead, partially blocked by a large plant. The open floor between the plant and the orange couch looks passable, so I will advance toward the kitchen and re-observe.",
+      "latency_s": 4.4,
+      "prompt_tokens": 1990
+    },
+    {
+      "n": 89,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen with its counter and bar stools is clearly visible ahead, just past the orange couch. I need to advance a couple of steps toward it to be within the kitchen area before stopping.",
+      "latency_s": 3.19,
+      "prompt_tokens": 1991
+    },
+    {
+      "n": 93,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen with bar stools is visible ahead, but an orange couch blocks the direct path. I'll turn left to move around the couch and approach the kitchen area.",
+      "latency_s": 3.31,
+      "prompt_tokens": 1992
+    },
+    {
+      "n": 97,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen with bar stools is visible ahead beyond the orange couch. I'll skirt around the left side of the couch near the blue wall and plant, then head toward the kitchen counter.",
+      "latency_s": 3.18,
+      "prompt_tokens": 1994
+    },
+    {
+      "n": 100,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen with bar stools is visible ahead beyond the couch, but a large plant blocks the direct path. I'll turn right to move around the couch toward the kitchen area.",
+      "latency_s": 2.75,
+      "prompt_tokens": 1996
+    },
+    {
+      "n": 103,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen with bar stools and counters is visible ahead beyond the couch. I need to move forward past the couch toward the kitchen area, checking my path as I go.",
+      "latency_s": 3.7,
+      "prompt_tokens": 1997
+    },
+    {
+      "n": 105,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen with a bar counter and stools is visible straight ahead past the plant and couch. I will advance toward it and re-observe before entering.",
+      "latency_s": 2.65,
+      "prompt_tokens": 1998
+    },
+    {
+      "n": 108,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen with bar stools and cabinets is visible straight ahead beyond the couch and plant. I'll advance toward it, re-observing as I go.",
+      "latency_s": 2.98,
+      "prompt_tokens": 1998
+    },
+    {
+      "n": 110,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen with bar stools and counter is visible straight ahead, partially blocked by a plant on the left. I will advance toward it and re-observe before getting closer.",
+      "latency_s": 2.79,
+      "prompt_tokens": 1999
+    },
+    {
+      "n": 113,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen with bar stools and counter is visible straight ahead, partially blocked by a large plant on the left. I will advance toward it, keeping to the open space between the plant and the couch.",
+      "latency_s": 2.59,
+      "prompt_tokens": 2000
+    },
+    {
+      "n": 115,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen with bar stools and counters is visible ahead, partially blocked by a large plant. I will advance toward it and re-observe to navigate around the plant.",
+      "latency_s": 2.77,
+      "prompt_tokens": 1999
+    },
+    {
+      "n": 117,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen with bar stools and counters is visible straight ahead, partially blocked by a large plant. I will advance toward it and re-observe to navigate around the plant.",
+      "latency_s": 2.79,
+      "prompt_tokens": 1999
+    },
+    {
+      "n": 119,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The view is largely blocked by a large plant, but a kitchen with a bar counter and stools is visible ahead. I will advance carefully toward it and re-observe.",
+      "latency_s": 2.58,
+      "prompt_tokens": 2000
+    },
+    {
+      "n": 122,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The view is mostly blocked by a large plant, but a kitchen with a counter and bar stools is visible ahead and slightly to the right. I will turn right to clear the plant and align toward the kitchen before advancing.",
+      "latency_s": 2.87,
+      "prompt_tokens": 2000
+    },
+    {
+      "n": 123,
+      "actions": [
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen with bar stools is visible ahead, but a couch and a large plant partially block the path. I will edge forward and re-observe to find a clear route around the couch toward the kitchen.",
+      "latency_s": 6.76,
+      "prompt_tokens": 2002
+    },
+    {
+      "n": 126,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen with its bar counter and stools is directly ahead, past the orange sofa. I need to advance a few steps toward it before stopping inside the kitchen area.",
+      "latency_s": 3.01,
+      "prompt_tokens": 2002
+    },
+    {
+      "n": 130,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen with bar stools is visible ahead, but a large orange couch blocks the direct path. I'll turn left to move around the couch and approach the kitchen area.",
+      "latency_s": 2.63,
+      "prompt_tokens": 2003
+    },
+    {
+      "n": 133,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen with the bar and stools is visible straight ahead beyond the orange couch. I need to navigate around the couch, so I'll angle left toward the open floor near the pillar first.",
+      "latency_s": 6.09,
+      "prompt_tokens": 2004
+    },
+    {
+      "n": 136,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen with bar stools and stainless appliances is visible ahead beyond the orange couch. I need to navigate around the couch toward the kitchen area.",
+      "latency_s": 3.28,
+      "prompt_tokens": 2007
+    },
+    {
+      "n": 139,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "The kitchen with bar stools is visible ahead-right, but a large plant is blocking my current view. I'll turn right to move around the plant and re-align toward the kitchen area.",
+      "latency_s": 2.53,
+      "prompt_tokens": 2009
+    },
+    {
+      "n": 142,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen with the bar counter and stools is visible straight ahead past the couch. I will advance toward it, re-observing as I go.",
+      "latency_s": 2.66,
+      "prompt_tokens": 2011
+    },
+    {
+      "n": 145,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen area with a bar counter and stools is directly ahead beyond the couch. I will move forward toward it, keeping left of the couch to avoid collision.",
+      "latency_s": 3.28,
+      "prompt_tokens": 2012
+    },
+    {
+      "n": 148,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen with the bar counter and stools is directly ahead, partially blocked by a couch. I will advance toward it and re-observe to navigate around the couch before stopping in the kitchen.",
+      "latency_s": 3.06,
+      "prompt_tokens": 2012
+    },
+    {
+      "n": 152,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen with bar stools is visible ahead, but a large orange couch blocks the direct path. There appears to be a gap to the left near the pillar, so I'll angle left to get around the couch and then head toward the kitchen.",
+      "latency_s": 3.75,
+      "prompt_tokens": 2013
+    },
+    {
+      "n": 155,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen area (bar with stools, ovens, cabinets) is directly ahead beyond the orange couch. I need to move forward toward it, checking alignment as I go.",
+      "latency_s": 3.45,
+      "prompt_tokens": 2015
+    },
+    {
+      "n": 158,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen with the bar and stools is visible ahead beyond the orange couch. I need to navigate around the couch toward the kitchen area, so I'll turn slightly right to clear the couch and then advance.",
+      "latency_s": 3.0,
+      "prompt_tokens": 2016
+    },
+    {
+      "n": 161,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is visible ahead behind the couch; I need to skirt around the couch's left side to approach it.",
+      "latency_s": 4.46,
+      "prompt_tokens": 2018
+    },
+    {
+      "n": 164,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen with bar stools and stainless appliances is visible ahead beyond the couch. I'll advance toward it, steering between the plant on the left and the couch on the right.",
+      "latency_s": 3.0,
+      "prompt_tokens": 2019
+    },
+    {
+      "n": 166,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen with bar stools is visible straight ahead beyond the couch and plant. I'll advance carefully through the gap between the couch and the plant, then re-observe.",
+      "latency_s": 3.64,
+      "prompt_tokens": 2020
+    },
+    {
+      "n": 168,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen with bar stools and cabinets is visible straight ahead, partially blocked by a plant on the left and a couch on the right. There is a clear gap in the middle, so I will advance toward it and re-observe.",
+      "latency_s": 2.82,
+      "prompt_tokens": 2020
+    },
+    {
+      "n": 170,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen with bar stools and counters is visible straight ahead, partially blocked by a plant on the left and a couch on the right. There is a clear gap in the middle, so I will advance toward the kitchen and re-observe.",
+      "latency_s": 2.83,
+      "prompt_tokens": 2020
+    },
+    {
+      "n": 173,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen with bar stools and counters is visible straight ahead past the plant and couch. I'll advance toward it, re-observing as I go.",
+      "latency_s": 2.57,
+      "prompt_tokens": 2020
+    },
+    {
+      "n": 175,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen with bar stools and counters is visible ahead, partially blocked by a large plant on the left. I will advance toward the open space to the right of the plant, then re-observe.",
+      "latency_s": 2.65,
+      "prompt_tokens": 2020
+    },
+    {
+      "n": 178,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen with bar stools and cabinets is visible ahead across the lobby, but I'm still several meters away. I should advance toward it before stopping.",
+      "latency_s": 2.57,
+      "prompt_tokens": 2020
+    },
+    {
+      "n": 180,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen area with a counter and bar stools is visible straight ahead, so I am close to the goal. I will move forward a step to approach it, then re-observe before stopping.",
+      "latency_s": 3.95,
+      "prompt_tokens": 2022
+    },
+    {
+      "n": 182,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen with a counter and bar stools is visible ahead, partially blocked by a large plant. I will advance toward it and re-observe before deciding to stop.",
+      "latency_s": 3.34,
+      "prompt_tokens": 2021
+    },
+    {
+      "n": 184,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen with its stove, cabinets, and bar stools is visible straight ahead beyond the plant. I will advance toward it and re-observe before getting too close.",
+      "latency_s": 2.47,
+      "prompt_tokens": 2022
+    },
+    {
+      "n": 187,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The view is largely blocked by a large plant, but a kitchen with bar stools and dark cabinets is visible ahead and slightly to the right. I will turn right to clear the plant and align toward the kitchen before advancing.",
+      "latency_s": 2.87,
+      "prompt_tokens": 2022
+    },
+    {
+      "n": 189,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen with a bar counter and stools is visible ahead, slightly left of center, past the plant. I will turn left a bit to align with it and advance.",
+      "latency_s": 2.54,
+      "prompt_tokens": 2024
+    },
+    {
+      "n": 192,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen with bar stools and counters is visible straight ahead beyond the couch. I will advance toward it, re-observing as I go.",
+      "latency_s": 2.51,
+      "prompt_tokens": 2025
+    },
+    {
+      "n": 196,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen with the bar and stools is visible straight ahead, but an orange couch blocks the direct path. I will go around the right side of the couch first, then re-observe to align with the kitchen area.",
+      "latency_s": 5.02,
+      "prompt_tokens": 2024
+    },
+    {
+      "n": 199,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen with the bar counter and stools is visible ahead, but a large orange couch blocks the direct path. I'll turn left to move around the couch toward the kitchen area.",
+      "latency_s": 5.38,
+      "prompt_tokens": 2026
+    },
+    {
+      "n": 203,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen with the bar and stools is visible straight ahead beyond the orange couch, roughly 4-5 m away. I will advance toward it and re-observe before stopping.",
+      "latency_s": 2.91,
+      "prompt_tokens": 2028
+    },
+    {
+      "n": 206,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen with bar stools is directly ahead beyond the orange couch, roughly 3-4 m away. I will advance toward it and re-observe before stopping.",
+      "latency_s": 2.5,
+      "prompt_tokens": 2030
+    },
+    {
+      "n": 209,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen with the bar and stools is directly ahead beyond the couch. I will advance toward it, then stop once inside the kitchen area.",
+      "latency_s": 3.05,
+      "prompt_tokens": 2029
+    },
+    {
+      "n": 212,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the kitchen with its counter and bar stools straight ahead, beyond the orange couch. I need to advance toward it, moving around the couch.",
+      "latency_s": 2.32,
+      "prompt_tokens": 2031
+    },
+    {
+      "n": 215,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen with the bar counter and stools is visible straight ahead, but a large orange couch is blocking the immediate path. I'll advance carefully toward it and re-observe to find a way around the couch into the kitchen.",
+      "latency_s": 3.67,
+      "prompt_tokens": 2030
+    },
+    {
+      "n": 218,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen with the bar counter and stools is visible straight ahead, but a couch blocks the immediate path. I will move forward toward it and re-observe to navigate around the couch.",
+      "latency_s": 3.91,
+      "prompt_tokens": 2031
+    },
+    {
+      "n": 221,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the kitchen with its bar counter and stools ahead, but a large orange couch is directly in front of me. I need to move forward toward the kitchen area, re-observing as I go to navigate around the couch.",
+      "latency_s": 2.95,
+      "prompt_tokens": 2031
+    },
+    {
+      "n": 225,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the kitchen with its bar counter and stools ahead, but a large orange couch is directly in front of me. I need to move around it to get closer to the kitchen before stopping.",
+      "latency_s": 2.93,
+      "prompt_tokens": 2034
+    },
+    {
+      "n": 228,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen with bar stools and stainless appliances is visible ahead, but a couch blocks the direct path. I will go around the couch on its left side and then approach the kitchen area.",
+      "latency_s": 4.81,
+      "prompt_tokens": 2034
+    },
+    {
+      "n": 232,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen with the bar counter and stools is visible ahead past the couch. I need to move around the couch toward the kitchen area, so I'll turn right to align with the open path and advance.",
+      "latency_s": 2.96,
+      "prompt_tokens": 2036
+    },
+    {
+      "n": 235,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen with bar stools and ovens is visible ahead past the couch and plant. I'll turn slightly right to clear the couch and advance toward the kitchen area.",
+      "latency_s": 3.11,
+      "prompt_tokens": 2038
+    },
+    {
+      "n": 237,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen with a bar counter and stools is visible ahead, slightly right of center, past the large plant. I will advance toward it and re-observe before getting closer.",
+      "latency_s": 2.58,
+      "prompt_tokens": 2040
+    },
+    {
+      "n": 240,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen with bar stools and counters is visible straight ahead, partially blocked by a large plant. I will advance toward it and re-observe before getting closer.",
+      "latency_s": 2.55,
+      "prompt_tokens": 2042
+    },
+    {
+      "n": 243,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "STOP"
+      ],
+      "thought": "The kitchen with its bar counter and stools is directly ahead, and I appear to be at the edge of the lobby already. I'll advance a short distance toward the kitchen bar and then stop there.",
+      "latency_s": 3.36,
+      "prompt_tokens": 2040
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    8.245,
+    8.245,
+    8.659,
+    8.707,
+    8.844,
+    8.621,
+    8.686,
+    8.649,
+    8.637,
+    8.643,
+    8.667,
+    8.708,
+    8.766,
+    8.844,
+    8.97,
+    9.138,
+    9.332,
+    9.502,
+    9.73,
+    9.867,
+    9.882,
+    9.015,
+    8.765,
+    8.516,
+    8.341,
+    8.245,
+    8.248,
+    8.288,
+    8.374,
+    8.56,
+    8.804,
+    8.977,
+    8.989,
+    9.001,
+    9.076,
+    9.152,
+    9.228,
+    9.305,
+    9.317,
+    9.329,
+    9.216,
+    9.103,
+    8.991,
+    8.881,
+    8.783,
+    8.792,
+    8.802,
+    8.925,
+    9.058,
+    9.07,
+    9.082,
+    9.095,
+    9.107,
+    9.119,
+    9.132,
+    9.144,
+    9.157,
+    9.169,
+    9.181,
+    9.194,
+    9.206,
+    9.219,
+    9.231,
+    9.243,
+    9.256,
+    9.268,
+    9.281,
+    9.293,
+    9.305,
+    9.192,
+    9.079,
+    8.967,
+    8.858,
+    8.767,
+    8.775,
+    8.784,
+    8.847,
+    8.919,
+    9.051,
+    9.186,
+    9.134,
+    9.082,
+    9.03,
+    8.978,
+    8.927,
+    8.877,
+    8.829,
+    8.787,
+    8.752,
+    8.805,
+    8.873,
+    8.946,
+    9.021,
+    9.097,
+    9.045,
+    9.057,
+    9.07,
+    9.082,
+    9.094,
+    9.107,
+    9.119,
+    9.131,
+    9.144,
+    9.156,
+    9.168,
+    9.181,
+    9.193,
+    9.206,
+    9.218,
+    9.23,
+    9.243,
+    9.255,
+    9.268,
+    9.28,
+    9.292,
+    9.305,
+    9.317,
+    9.33,
+    9.342,
+    9.355,
+    9.241,
+    9.189,
+    9.137,
+    9.085,
+    9.033,
+    8.871,
+    8.743,
+    8.721,
+    8.705,
+    8.696,
+    8.694,
+    8.705,
+    8.729,
+    8.814,
+    8.94,
+    9.014,
+    9.09,
+    9.166,
+    9.178,
+    9.191,
+    9.203,
+    9.215,
+    9.228,
+    9.24,
+    9.253,
+    9.265,
+    9.277
+  ],
+  "final_distance": 9.277,
+  "min_distance": 8.245,
+  "metrics": {
+    "distance_to_goal": 9.277358055114746,
+    "success": 0.0,
+    "spl": 0.0,
+    "oracle_success": 0.0,
+    "path_length": 12.303268653340638,
+    "steps_taken": 243.0
+  },
+  "success": false,
+  "backend_stats": {
+    "calls": 84,
+    "failures": 0,
+    "prompt_tokens": 165811,
+    "completion_tokens": 12155,
+    "reasoning_tokens": 7077,
+    "latency_s": 270.3342709541321
+  },
+  "stop_deferrals": 0
+}

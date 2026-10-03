@@ -1,0 +1,132 @@
+{
+  "episode_id": 19,
+  "scene_id": "QUCTc6BB5sX",
+  "instruction": "Walk through the living room around the backside of the couches. Walk into the kitchen area and walk along the barstools and countertop. Continue ahead towards the arched entryway that leads to a hall beside the stairs.",
+  "actions_taken": 16,
+  "policy_calls": 8,
+  "api_latency_s": 34.97,
+  "prompt_tokens": 13744,
+  "completion_tokens": 1887,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 35.11,
+  "steps": [
+    {
+      "n": 2,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at an arched doorway looking into a living room with couches ahead. I need to enter the room and move around the back of the couches toward the kitchen area, so I'll start by advancing forward through the doorway.",
+      "latency_s": 2.44,
+      "prompt_tokens": 907
+    },
+    {
+      "n": 3,
+      "actions": [
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the living room with couches on the right and an arched entryway visible ahead. I need to move forward past the seating area toward the kitchen/arched entryway, so I'll advance a step and re-observe.",
+      "latency_s": 3.01,
+      "prompt_tokens": 1262
+    },
+    {
+      "n": 5,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the living room with couches on the right and chairs ahead. I need to work my way around the back of the couches toward the kitchen, so I'll advance cautiously and re-observe before navigating around the furniture.",
+      "latency_s": 8.41,
+      "prompt_tokens": 1625
+    },
+    {
+      "n": 6,
+      "actions": [
+        "TURN_LEFT"
+      ],
+      "thought": "I've advanced into a living room with a couch on the right and an arched opening ahead, but I haven't seen the kitchen or barstools yet. I should turn left to scan the room behind me for the kitchen area before proceeding toward the arched entryway.",
+      "latency_s": 4.75,
+      "prompt_tokens": 1989
+    },
+    {
+      "n": 9,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "After turning left, I can see the kitchen counter on the left and an arched opening ahead leading to a hall. I'll advance along the counter toward that archway, re-checking alignment as I go.",
+      "latency_s": 4.68,
+      "prompt_tokens": 1989
+    },
+    {
+      "n": 12,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the arched entryway ahead with a hall beyond it, matching the end of the instruction. The path through the arch appears clear, so I will advance toward it and re-observe.",
+      "latency_s": 4.21,
+      "prompt_tokens": 1990
+    },
+    {
+      "n": 15,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the arched entryway ahead-left, past the pillar, leading to a hall with a door at the end. I need to angle slightly left to pass through the arch without hitting the pillar.",
+      "latency_s": 4.5,
+      "prompt_tokens": 1990
+    },
+    {
+      "n": 16,
+      "actions": [
+        "STOP"
+      ],
+      "thought": "I have already passed through the arched entryway and am now standing in the hall (glass double doors ahead, hallway extending), which is the endpoint described by the instruction. It's time to stop here.",
+      "latency_s": 2.97,
+      "prompt_tokens": 1992
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    13.205,
+    13.076,
+    12.985,
+    14.074,
+    12.769,
+    12.609,
+    12.449,
+    12.314,
+    12.19,
+    12.079,
+    11.982,
+    11.9,
+    11.774,
+    11.707
+  ],
+  "final_distance": 11.707,
+  "min_distance": 11.707,
+  "metrics": {
+    "distance_to_goal": 11.707389831542969,
+    "success": 0.0,
+    "spl": 0.0,
+    "oracle_success": 0.0,
+    "path_length": 3.253300577402115,
+    "steps_taken": 16.0
+  },
+  "success": false,
+  "backend_stats": {
+    "calls": 8,
+    "failures": 0,
+    "prompt_tokens": 13744,
+    "completion_tokens": 1887,
+    "reasoning_tokens": 1383,
+    "latency_s": 34.977301597595215
+  },
+  "stop_deferrals": 0
+}

@@ -1,0 +1,140 @@
+{
+  "episode_id": 1552,
+  "scene_id": "EU6Fwq7SyZv",
+  "instruction": "Go up the stairs. Wait beside the support pillar for the stairs.",
+  "actions_taken": 22,
+  "policy_calls": 8,
+  "api_latency_s": 41.78,
+  "prompt_tokens": 13491,
+  "completion_tokens": 2136,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 41.91,
+  "steps": [
+    {
+      "n": 5,
+      "actions": [
+        "LOOK_DOWN",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm facing a stone wall up close and can't see the stairs yet. I need to reorient and scan the room to locate the staircase.",
+      "latency_s": 2.5,
+      "prompt_tokens": 874
+    },
+    {
+      "n": 7,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The wooden staircase is directly ahead, ascending to the left, with its support stringer/post on the left side. I'll advance toward the base of the stairs first, then align to climb.",
+      "latency_s": 3.8,
+      "prompt_tokens": 1230
+    },
+    {
+      "n": 8,
+      "actions": [
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the base of the wooden staircase with the steps directly ahead. I'll begin ascending one step at a time, then look for the support pillar beside the stairs to stop next to.",
+      "latency_s": 9.29,
+      "prompt_tokens": 1594
+    },
+    {
+      "n": 11,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is directly ahead and I'm aligned with its base. I'll advance up the first steps, then re-observe to find the support pillar beside the stairs.",
+      "latency_s": 5.86,
+      "prompt_tokens": 1957
+    },
+    {
+      "n": 14,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm mid-way up the wooden staircase with the wall on my right and steps continuing up on the left. I should keep ascending toward the top where the stair support structure is, then stop beside it.",
+      "latency_s": 4.39,
+      "prompt_tokens": 1957
+    },
+    {
+      "n": 17,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The stairs ascend to the left with a wooden support post visible at the top landing. I need to align with the staircase and climb toward that pillar.",
+      "latency_s": 6.63,
+      "prompt_tokens": 1958
+    },
+    {
+      "n": 21,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The stairs are directly ahead and I'm aligned with them. I'll advance up several steps, then re-observe to locate the support pillar near the top of the staircase.",
+      "latency_s": 4.02,
+      "prompt_tokens": 1960
+    },
+    {
+      "n": 22,
+      "actions": [
+        "STOP"
+      ],
+      "thought": "I have ascended the stairs and am now at the top landing, right beside the thick wooden support post that anchors the stair railing (visible on the right of my view). This matches the instruction's endpoint, so I will stop here.",
+      "latency_s": 5.29,
+      "prompt_tokens": 1961
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    6.057,
+    6.057,
+    5.837,
+    5.652,
+    5.375,
+    5.128,
+    4.891,
+    4.666,
+    4.7,
+    4.676,
+    4.652,
+    4.444,
+    4.134,
+    3.811,
+    3.505,
+    3.185
+  ],
+  "final_distance": 3.185,
+  "min_distance": 3.185,
+  "metrics": {
+    "distance_to_goal": 3.1852779388427734,
+    "success": 0.0,
+    "spl": 0.0,
+    "oracle_success": 0.0,
+    "path_length": 3.5557924769818783,
+    "steps_taken": 22.0
+  },
+  "success": false,
+  "backend_stats": {
+    "calls": 8,
+    "failures": 0,
+    "prompt_tokens": 13491,
+    "completion_tokens": 2136,
+    "reasoning_tokens": 1576,
+    "latency_s": 41.77577614784241
+  },
+  "stop_deferrals": 0
+}

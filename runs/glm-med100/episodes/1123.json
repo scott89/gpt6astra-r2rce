@@ -1,0 +1,442 @@
+{
+  "episode_id": 1123,
+  "scene_id": "TbHJrupSAjP",
+  "instruction": "Turn left at top of stairs.  Walk forward into bedroom.  Continue straight, and turn left into bathroom.  Wait here.",
+  "actions_taken": 90,
+  "policy_calls": 35,
+  "api_latency_s": 145.12,
+  "prompt_tokens": 67248,
+  "completion_tokens": 7220,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 145.77,
+  "steps": [
+    {
+      "n": 2,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the base of a staircase looking up. The instruction starts at the top of the stairs, so I must first climb them. The stairs ascend to the left, so I'll turn left and move forward to begin climbing.",
+      "latency_s": 2.26,
+      "prompt_tokens": 887
+    },
+    {
+      "n": 5,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm at the top of the stairs with a bedroom visible to my left. Per the instruction, I need to turn left and walk into the bedroom, so I'll rotate left first and re-observe before moving.",
+      "latency_s": 2.58,
+      "prompt_tokens": 1242
+    },
+    {
+      "n": 7,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the top of the stairs and have already turned left; the bedroom with the white bed is visible ahead through the opening. I'll move forward toward it, then re-observe to find the bathroom on the left.",
+      "latency_s": 3.39,
+      "prompt_tokens": 1606
+    },
+    {
+      "n": 9,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the top of the stairs and have turned left; the bedroom doorway is visible ahead-right. I'll aim toward the open doorway and step into the bedroom.",
+      "latency_s": 3.0,
+      "prompt_tokens": 1970
+    },
+    {
+      "n": 11,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bedroom doorway is directly ahead through the opening; I need to walk forward into the bedroom as instructed.",
+      "latency_s": 3.48,
+      "prompt_tokens": 1971
+    },
+    {
+      "n": 13,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the top of the stairs facing the bedroom doorway, which is slightly to the right of center. I'll align with the doorway and step forward into the bedroom.",
+      "latency_s": 4.47,
+      "prompt_tokens": 1972
+    },
+    {
+      "n": 15,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the bedroom doorway; the bed is visible ahead. I need to walk into the bedroom, continue straight, then turn left into the bathroom. First I'll advance through the doorway.",
+      "latency_s": 2.08,
+      "prompt_tokens": 1974
+    },
+    {
+      "n": 17,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the bedroom doorway; the bed is straight ahead. I'll step forward into the bedroom, then look for the bathroom entrance on the left side.",
+      "latency_s": 2.37,
+      "prompt_tokens": 1974
+    },
+    {
+      "n": 20,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've entered the bedroom and need to continue straight across it, then turn left into the bathroom. I'll advance a few steps into the room first, then look for the bathroom entrance on the left side.",
+      "latency_s": 3.03,
+      "prompt_tokens": 1975
+    },
+    {
+      "n": 23,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_LEFT"
+      ],
+      "thought": "I've entered the bedroom and need to continue straight before turning left into the bathroom. The bathroom entrance isn't visible yet, so I'll move forward past the foot of the bed and then look left for the bathroom door.",
+      "latency_s": 3.87,
+      "prompt_tokens": 1973
+    },
+    {
+      "n": 26,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in the bedroom facing the bed. The instruction says to continue straight and turn left into the bathroom, so I need to look left to find the bathroom entrance.",
+      "latency_s": 2.82,
+      "prompt_tokens": 1976
+    },
+    {
+      "n": 28,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in the bedroom now. The instruction says to continue straight and turn left into the bathroom. I can see a doorway/opening on the left side of my current view, so I'll turn left to face it and check for the bathroom.",
+      "latency_s": 2.98,
+      "prompt_tokens": 1976
+    },
+    {
+      "n": 30,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the bedroom and have turned left toward an open door on my left, which is likely the bathroom. I'll advance toward it and re-observe before entering.",
+      "latency_s": 3.2,
+      "prompt_tokens": 1977
+    },
+    {
+      "n": 32,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the bedroom next to the bed and nightstand. The instruction says to continue straight and then turn left into the bathroom, so I should move forward through the bedroom toward the doorway area ahead and look for the bathroom entrance on the left.",
+      "latency_s": 3.89,
+      "prompt_tokens": 1978
+    },
+    {
+      "n": 35,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm now in the bedroom; the bathroom (marble walls, tub, window) is visible through the doorway on my left. I'll turn left toward that doorway and then advance into the bathroom.",
+      "latency_s": 4.67,
+      "prompt_tokens": 1978
+    },
+    {
+      "n": 38,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the bathroom (tiled room with a bathtub) through the doorway ahead and slightly to my left. I need to turn left toward it and walk in, then stop.",
+      "latency_s": 3.71,
+      "prompt_tokens": 1979
+    },
+    {
+      "n": 41,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to have turned too far and am now facing a wall. The bathroom (tiled room with a tub) was visible to my left in earlier frames, so I need to turn right to re-align with that doorway before entering.",
+      "latency_s": 4.06,
+      "prompt_tokens": 1980
+    },
+    {
+      "n": 44,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I appear to have turned into a wall after my last right turns; the earlier frame showed the hallway with the bathroom ahead. I'll rotate left to re-face down the hallway toward the bathroom.",
+      "latency_s": 7.36,
+      "prompt_tokens": 1982
+    },
+    {
+      "n": 47,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall up close; an earlier frame showed a hallway with a door and dark wood floor to my right. I need to turn right to reorient toward the open hallway and find the bedroom/bathroom.",
+      "latency_s": 6.74,
+      "prompt_tokens": 1983
+    },
+    {
+      "n": 50,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall up close; the hallway with a door and dark floor is visible to my right. I need to rotate right to reorient and find the bedroom/bathroom path.",
+      "latency_s": 6.24,
+      "prompt_tokens": 1985
+    },
+    {
+      "n": 52,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm currently facing a wall very closely; the open hallway with a doorway is to my right. I need to re-orient toward the open passage before proceeding toward the bathroom.",
+      "latency_s": 5.44,
+      "prompt_tokens": 1985
+    },
+    {
+      "n": 55,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I've entered the bedroom and am facing the bed and nightstand. I need to continue through the bedroom and find the bathroom, likely a doorway on the far side. I'll turn left to scan the room for the exit/bathroom door.",
+      "latency_s": 3.49,
+      "prompt_tokens": 1987
+    },
+    {
+      "n": 58,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm inside the bedroom now, with the bed and nightstand on my right. The instruction says to continue straight and turn left into the bathroom, so I need to look left to find the bathroom doorway.",
+      "latency_s": 2.55,
+      "prompt_tokens": 1988
+    },
+    {
+      "n": 61,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "My view is currently blocked by a close white wall or curtain, so I've lost sight of the room. I need to rotate to re-orient and find the bathroom entrance, which per the instruction should be to my left from the bedroom path.",
+      "latency_s": 4.41,
+      "prompt_tokens": 1989
+    },
+    {
+      "n": 64,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to have turned into a wall; the view is completely blocked. I need to rotate back toward the open hallway I saw earlier (with the doorway and rug) to re-orient before proceeding to the bedroom and bathroom.",
+      "latency_s": 3.42,
+      "prompt_tokens": 1990
+    },
+    {
+      "n": 67,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall too closely, with a doorway visible at the right edge of the frame. Turning right should re-aim me toward the open passage so I can navigate toward the bathroom.",
+      "latency_s": 2.56,
+      "prompt_tokens": 1992
+    },
+    {
+      "n": 69,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm currently facing a wall up close, with a hallway visible to my right containing a door and an open doorway. I need to reorient toward that hallway to find the bedroom and then the bathroom.",
+      "latency_s": 3.13,
+      "prompt_tokens": 1993
+    },
+    {
+      "n": 71,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I appear to be at the edge of a bedroom (dresser with lamp visible) with a hallway and a white door ahead-left. Per the instruction I should continue through the bedroom and turn left into the bathroom; I'll re-orient left to face the opening and check the path before moving.",
+      "latency_s": 8.1,
+      "prompt_tokens": 1994
+    },
+    {
+      "n": 73,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I appear to be at the edge of a bedroom (dresser with lamp on the right) looking into a hallway with an open doorway ahead and a closed white door on the left. Per the instruction I should continue straight and then turn left into the bathroom, so I will advance toward the open doorway and re-observe before turning.",
+      "latency_s": 5.94,
+      "prompt_tokens": 1995
+    },
+    {
+      "n": 76,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see a bathroom with marble tile through the open doorway on the left side of the current view. The instruction says to turn left into the bathroom and wait, so I will rotate left toward that opening and then move in.",
+      "latency_s": 4.15,
+      "prompt_tokens": 1996
+    },
+    {
+      "n": 79,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in the bedroom area and can see the bathroom (with a bathtub) through the opening on my left. The instruction says to turn left into the bathroom and wait there, so I'll rotate left toward that doorway and step in.",
+      "latency_s": 4.06,
+      "prompt_tokens": 1998
+    },
+    {
+      "n": 82,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the bedroom/dressing area; through the opening on my right I can see a bathtub and window, which is the bathroom the instruction ends in. I'll rotate right toward that opening and advance through it.",
+      "latency_s": 6.96,
+      "prompt_tokens": 1999
+    },
+    {
+      "n": 85,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the bedroom; the bathroom with a bathtub and glass shower is visible through the open doorway straight ahead. I'll advance toward that doorway and then enter it.",
+      "latency_s": 4.42,
+      "prompt_tokens": 2001
+    },
+    {
+      "n": 88,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see a bathroom directly ahead through the open doorway (bathtub and shower visible). The instruction ends in the bathroom, so I will advance through the doorway and then stop inside.",
+      "latency_s": 4.02,
+      "prompt_tokens": 2001
+    },
+    {
+      "n": 90,
+      "actions": [
+        "MOVE_FORWARD",
+        "STOP"
+      ],
+      "thought": "I have walked through the bedroom and the doorway directly ahead opens into the bathroom, with the tiled shower and bathtub visible. One more forward step puts me inside the bathroom, where the instruction says to wait.",
+      "latency_s": 6.27,
+      "prompt_tokens": 2002
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    6.461,
+    6.533,
+    6.582,
+    6.451,
+    6.292,
+    6.217,
+    6.304,
+    6.486,
+    6.714,
+    6.945,
+    7.177,
+    7.41,
+    7.645,
+    7.881,
+    8.118,
+    8.355,
+    8.594,
+    8.835,
+    8.81,
+    8.863,
+    8.995,
+    9.175,
+    9.209,
+    9.355,
+    9.703,
+    9.902,
+    10.128,
+    10.487,
+    10.734,
+    10.982,
+    11.231,
+    11.48,
+    11.729,
+    11.978
+  ],
+  "final_distance": 11.978,
+  "min_distance": 6.217,
+  "metrics": {
+    "distance_to_goal": 11.97788143157959,
+    "success": 0.0,
+    "spl": 0.0,
+    "oracle_success": 0.0,
+    "path_length": 8.319592386484146,
+    "steps_taken": 90.0
+  },
+  "success": false,
+  "backend_stats": {
+    "calls": 35,
+    "failures": 0,
+    "prompt_tokens": 67248,
+    "completion_tokens": 7220,
+    "reasoning_tokens": 4961,
+    "latency_s": 145.09836220741272
+  },
+  "stop_deferrals": 0
+}

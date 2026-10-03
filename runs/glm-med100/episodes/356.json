@@ -1,0 +1,716 @@
+{
+  "episode_id": 356,
+  "scene_id": "TbHJrupSAjP",
+  "instruction": "Go upstairs, turn right, walk into the bedroom, walk towards the night stand on the left side of the bed, turn left, walk towards the white rug, while facing the closet turn right into  the second door, stop in front of the toilet.",
+  "actions_taken": 166,
+  "policy_calls": 56,
+  "api_latency_s": 250.85,
+  "prompt_tokens": 111288,
+  "completion_tokens": 12974,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 251.93,
+  "steps": [
+    {
+      "n": 4,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the base of a staircase; the instruction starts with going upstairs. The stairs ascend to my left, so I'll turn left and approach them.",
+      "latency_s": 2.13,
+      "prompt_tokens": 912
+    },
+    {
+      "n": 6,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm at the base of a staircase with the railing in front of me; the instruction says to go upstairs first. The ascending stairs appear to be to my right beyond the railing, so I'll turn right to face them before climbing.",
+      "latency_s": 3.49,
+      "prompt_tokens": 1268
+    },
+    {
+      "n": 9,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the base of a staircase; the railing ascends to the right, so I need to turn right and head up the stairs toward the bedroom visible ahead.",
+      "latency_s": 2.91,
+      "prompt_tokens": 1632
+    },
+    {
+      "n": 15,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I appear to have over-rotated and am now facing down the open stairwell toward the lower floor, not the upstairs bedroom. I need to turn back left to re-face the upstairs hallway and bedroom doorway seen earlier.",
+      "latency_s": 6.65,
+      "prompt_tokens": 1997
+    },
+    {
+      "n": 19,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the top of the stairs facing a console table, with the bedroom and bed visible to my right. Per the instruction I should turn right and enter the bedroom toward the night stand on the left side of the bed.",
+      "latency_s": 3.75,
+      "prompt_tokens": 1999
+    },
+    {
+      "n": 20,
+      "actions": [
+        "MOVE_FORWARD"
+      ],
+      "thought": "I appear to be at the top of the stairs, with the railing blocking my view. There is a doorway ahead past the console table; I need to move forward past the railing to proceed toward the bedroom.",
+      "latency_s": 4.29,
+      "prompt_tokens": 2001
+    },
+    {
+      "n": 23,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I appear to be at the base of a staircase, with the banister crossing my view and a console table with a mirror to the left. The instruction starts with going upstairs, so I need to turn right to face the stairs and begin ascending.",
+      "latency_s": 3.67,
+      "prompt_tokens": 2000
+    },
+    {
+      "n": 25,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "The staircase railing is blocking my view; I appear to be at the base of the stairs. I need to re-orient to find the path up the stairs.",
+      "latency_s": 3.23,
+      "prompt_tokens": 2003
+    },
+    {
+      "n": 27,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "My view is blocked by a staircase banister, so I need to reposition to see where the stairs go up. I'll turn right to look around the railing for the upward path.",
+      "latency_s": 3.93,
+      "prompt_tokens": 2004
+    },
+    {
+      "n": 29,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The view is blocked by the stair railing, suggesting I'm at the staircase and still need to complete 'go upstairs'. I'll turn left to face up the stairs and take a step, then re-observe.",
+      "latency_s": 5.46,
+      "prompt_tokens": 2005
+    },
+    {
+      "n": 31,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "My view is blocked by a stair banister, so I'm near the staircase but can't see the path clearly. I'll turn right to look around the railing and find the direction of the stairs going up.",
+      "latency_s": 3.89,
+      "prompt_tokens": 2006
+    },
+    {
+      "n": 34,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The camera is pressed against a stair railing, so I need to reposition to see the landing. There appears to be an open hallway with a doorway to my left; I will turn left and take one careful step to clear the railing, then re-observe.",
+      "latency_s": 8.13,
+      "prompt_tokens": 2007
+    },
+    {
+      "n": 37,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The view is partially obscured by the stair railing, but the staircase ascends to my left while a doorway lies straight ahead. The instruction begins with 'Go upstairs,' so I need to turn left toward the stairs and start ascending.",
+      "latency_s": 6.73,
+      "prompt_tokens": 2009
+    },
+    {
+      "n": 39,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The view is partially obstructed by rendering artifacts, but I appear to be in an upstairs hallway with a doorway ahead and a mirror on the left. Following the instruction to enter the bedroom, I will advance toward the open doorway in front of me.",
+      "latency_s": 5.46,
+      "prompt_tokens": 2010
+    },
+    {
+      "n": 41,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "The view is dominated by a staircase banister crossing in front of me, with a doorway visible behind it. I need to get around the railing and up the stairs, so I'll turn right to find the open side of the staircase.",
+      "latency_s": 6.69,
+      "prompt_tokens": 2010
+    },
+    {
+      "n": 43,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "The staircase railing is blocking my view; I appear to be at the base of the stairs. I need to reposition to find the path going upstairs.",
+      "latency_s": 5.73,
+      "prompt_tokens": 2011
+    },
+    {
+      "n": 46,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I appear to be upstairs near the stairwell, but the camera is blocked by the banister and I'm facing down into the foyer. The instruction says after going upstairs to turn right into the bedroom, so I need to turn away from the stairwell opening and re-orient toward the hallway I saw earlier.",
+      "latency_s": 9.31,
+      "prompt_tokens": 2012
+    },
+    {
+      "n": 49,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I appear to be on the staircase with a railing blocking my view; a doorway is visible ahead. I need to navigate around the railing and continue up toward the upper floor, so I'll turn left to find the clear path up the stairs.",
+      "latency_s": 4.22,
+      "prompt_tokens": 2013
+    },
+    {
+      "n": 52,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've reached the top of the stairs and am facing a console table with a mirror. The instruction says to turn right and walk into the bedroom, so I'll rotate right to scan for the bedroom doorway.",
+      "latency_s": 2.76,
+      "prompt_tokens": 2014
+    },
+    {
+      "n": 55,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I appear to be at the top of the stairs on the upper landing, but a stair railing is blocking my path and my last two frames are identical, meaning I'm stuck against it. I need to turn left toward the open doorway visible earlier and move around the railing to reach the upstairs hallway and bedroom.",
+      "latency_s": 4.35,
+      "prompt_tokens": 2016
+    },
+    {
+      "n": 58,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm at the bottom of a staircase area\u2014the banister crosses my view and a console table with a mirror is on the left. The stairs appear to ascend to my right, so I'll turn right to face the staircase before climbing.",
+      "latency_s": 5.2,
+      "prompt_tokens": 2018
+    },
+    {
+      "n": 61,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm at the base of a staircase with the railing in front of me. The stairs appear to ascend to my left, so I'll turn left to face the steps before climbing.",
+      "latency_s": 4.11,
+      "prompt_tokens": 2020
+    },
+    {
+      "n": 64,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I appear to be at the top of the stairs with a railing blocking my view; ahead there is a doorway leading to a bedroom with a bed visible. I need to move toward and through that doorway, so I will turn slightly left to clear the railing and re-observe.",
+      "latency_s": 4.27,
+      "prompt_tokens": 2021
+    },
+    {
+      "n": 67,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've reached the top of the stairs and am facing a console table with a mirror. Per the instruction, I now need to turn right to head into the bedroom, so I'll rotate right and re-observe to locate the bedroom doorway.",
+      "latency_s": 4.24,
+      "prompt_tokens": 2022
+    },
+    {
+      "n": 71,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to be at the top of the stairs with a banister blocking the way ahead; the instruction says after going upstairs to turn right toward the bedroom. I will turn right to look for the bedroom doorway.",
+      "latency_s": 4.66,
+      "prompt_tokens": 2024
+    },
+    {
+      "n": 75,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I appear to be on the upper floor near the stair landing, currently facing over the railing toward the living room below. The instruction says to turn right after coming upstairs and enter the bedroom; the doorway with windows seen earlier to my right is likely the bedroom, so I will rotate back toward it and proceed.",
+      "latency_s": 7.03,
+      "prompt_tokens": 2026
+    },
+    {
+      "n": 76,
+      "actions": [
+        "MOVE_FORWARD"
+      ],
+      "thought": "I appear to be at the top of the stairs facing a doorway into a lit room, but a dark object (likely a railing or furniture) partially blocks the view. I need to advance carefully through the doorway and re-observe to find the bedroom.",
+      "latency_s": 7.24,
+      "prompt_tokens": 2027
+    },
+    {
+      "n": 79,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bedroom doorway is directly ahead with the bed visible inside. I need to enter the bedroom and approach the night stand on the left side of the bed.",
+      "latency_s": 2.99,
+      "prompt_tokens": 2028
+    },
+    {
+      "n": 81,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the bedroom doorway; the bed is visible ahead and a dark chair partially blocks the foreground. I'll step forward into the bedroom and re-observe before heading toward the night stand on the left side of the bed.",
+      "latency_s": 5.77,
+      "prompt_tokens": 2028
+    },
+    {
+      "n": 84,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the bedroom doorway with the bed visible ahead. The night stand is on the left side of the bed, so I'll move forward into the bedroom first, then re-observe to aim toward the night stand.",
+      "latency_s": 2.9,
+      "prompt_tokens": 2028
+    },
+    {
+      "n": 88,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm inside the bedroom facing the bed. The nightstand with the lamp is on the left side of the bed, so I need to turn left and walk toward it before turning left again toward the white rug.",
+      "latency_s": 3.19,
+      "prompt_tokens": 2029
+    },
+    {
+      "n": 92,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in the bedroom approaching the night stand on the left side of the bed, which is directly ahead. I'll walk toward it, then turn left to head toward the white rug as instructed.",
+      "latency_s": 2.81,
+      "prompt_tokens": 2031
+    },
+    {
+      "n": 98,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I've reached the night stand on the left side of the bed. Per the instruction, I now turn left and head toward the white rug, so I'll rotate left and re-observe to find it.",
+      "latency_s": 4.4,
+      "prompt_tokens": 2032
+    },
+    {
+      "n": 102,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm currently facing a door handle up close, having lost view of the bedroom. I need to turn left to re-orient toward the room interior, find the white rug, and then locate the second door leading to the toilet.",
+      "latency_s": 5.6,
+      "prompt_tokens": 2034
+    },
+    {
+      "n": 104,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've passed the nightstand and turned left; I'm now at a doorway looking out into an upper hallway with wall art. I need to move through this doorway toward the white rug area, then locate the closet and the second door leading to the toilet.",
+      "latency_s": 3.43,
+      "prompt_tokens": 2035
+    },
+    {
+      "n": 107,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I am upstairs near the landing with the decorative wall plates and railing. The instruction says to turn right into the second door and stop in front of the toilet, so I need to move along this upstairs hallway and check the doors. I will turn left to face the open hallway and advance carefully.",
+      "latency_s": 4.25,
+      "prompt_tokens": 2036
+    },
+    {
+      "n": 110,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm at the upstairs landing near the stairwell. I need to find the second door on the right when facing the closet, which should lead to the bathroom. I'll turn right to scan the hallway for doors.",
+      "latency_s": 3.07,
+      "prompt_tokens": 2038
+    },
+    {
+      "n": 113,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm at the top of the stairs on the upper landing, with the stairwell railing on my left and a hallway ahead. The instruction says to turn right after coming upstairs, so I'll rotate right to find the bedroom entrance.",
+      "latency_s": 7.08,
+      "prompt_tokens": 2040
+    },
+    {
+      "n": 117,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the upper floor in a hallway, currently facing a wall next to a dark console table. The hallway with several doorways extends to my left, so I need to turn left and proceed down it to find the bedroom.",
+      "latency_s": 3.51,
+      "prompt_tokens": 2041
+    },
+    {
+      "n": 120,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've reached the upstairs landing; the instruction says to turn right and enter the bedroom. The open doorway ahead-right appears to lead down the hallway, so I'll move toward it carefully and re-check alignment before entering.",
+      "latency_s": 5.29,
+      "prompt_tokens": 2043
+    },
+    {
+      "n": 122,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in an upstairs hallway with a console table, a white rug patch on the left, and a doorway ahead. I need to find the second door past the closet and stop in front of the toilet, so I'll advance toward the open doorway ahead to survey the doors.",
+      "latency_s": 4.31,
+      "prompt_tokens": 2043
+    },
+    {
+      "n": 125,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the upstairs hallway facing the closet (white double doors) on the left with the white rug nearby. Per the instruction, after facing the closet I turn right into the second door \u2014 the open doorway ahead leading down the corridor. I'll advance toward it and re-observe.",
+      "latency_s": 3.87,
+      "prompt_tokens": 2044
+    },
+    {
+      "n": 128,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the upstairs hallway facing down its length, with the white closet doors behind/left of me. Per the instruction, after facing the closet I turned right, so the bathroom should be the second door along this hallway on my right. I'll advance down the hallway and re-observe to identify the doors.",
+      "latency_s": 5.07,
+      "prompt_tokens": 2044
+    },
+    {
+      "n": 131,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I am in an upstairs hallway with white double closet doors on the left and a corridor ahead. Per the instruction, after facing the closet I turned right; now I need to walk down this hallway and enter the second door on the right, which should lead to the toilet. I will advance carefully along the hallway while checking the doors.",
+      "latency_s": 3.72,
+      "prompt_tokens": 2045
+    },
+    {
+      "n": 134,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in an upstairs hallway. The instruction says to enter the second door on the right (after facing the closet) and stop in front of the toilet. I can see doorways ahead down the hall, so I'll advance carefully and identify the second door on the right.",
+      "latency_s": 4.03,
+      "prompt_tokens": 2044
+    },
+    {
+      "n": 137,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've entered the bedroom; the bed with the green blanket is on the right. I need to walk toward the night stand on the left side of the bed, so I'll advance into the room and re-observe.",
+      "latency_s": 2.72,
+      "prompt_tokens": 2046
+    },
+    {
+      "n": 140,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've entered the bedroom; the bed with the green blanket is on my right. I need to walk toward the night stand on the left side of the bed, so I'll advance into the room and re-observe to locate it.",
+      "latency_s": 3.13,
+      "prompt_tokens": 2045
+    },
+    {
+      "n": 142,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the bedroom near an open door; the instruction says to turn right into the second door while facing the closet and stop in front of the toilet. This open doorway ahead likely leads toward the bathroom, so I'll move through it and re-observe.",
+      "latency_s": 3.79,
+      "prompt_tokens": 2045
+    },
+    {
+      "n": 144,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to be at a doorway with a bedroom (bed and window) visible to my right. I need to orient myself inside the room to locate the bed, night stand, and closet before proceeding toward the second door with the toilet.",
+      "latency_s": 5.82,
+      "prompt_tokens": 2047
+    },
+    {
+      "n": 146,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to be inside the bedroom now, with the bed visible on the right and a window ahead. I still need to locate the night stand, the white rug, the closet, and the second door leading to the toilet, so I should first survey the room by turning right.",
+      "latency_s": 5.32,
+      "prompt_tokens": 2048
+    },
+    {
+      "n": 149,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I am in the bedroom with the bed and its night stand (lamp) visible ahead. The instruction says to walk toward the night stand on the left side of the bed, so I will advance toward it before turning left toward the white rug.",
+      "latency_s": 3.77,
+      "prompt_tokens": 2049
+    },
+    {
+      "n": 152,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the bedroom facing the night stand with the lamp on the left side of the bed. I need to approach it, then turn left toward the white rug. The night stand is a couple meters ahead, so I'll advance carefully and re-observe.",
+      "latency_s": 3.0,
+      "prompt_tokens": 2050
+    },
+    {
+      "n": 158,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I've reached the night stand beside the bed. Per the instruction, I now turn left to head toward the white rug, so I'll rotate left and re-observe before moving.",
+      "latency_s": 2.55,
+      "prompt_tokens": 2050
+    },
+    {
+      "n": 162,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the toilet through the bathroom doorway ahead-left, matching the instruction's end point. I need to turn left toward the doorway and advance a short distance to stand in front of the toilet.",
+      "latency_s": 4.13,
+      "prompt_tokens": 2052
+    },
+    {
+      "n": 164,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The final instruction is to stop in front of the toilet, which is visible straight ahead through the doorway about 2-3 m away. I'll advance carefully into the bathroom and then re-check my distance before stopping.",
+      "latency_s": 4.74,
+      "prompt_tokens": 2053
+    },
+    {
+      "n": 166,
+      "actions": [
+        "MOVE_FORWARD",
+        "STOP"
+      ],
+      "thought": "I have entered the bathroom and can see the toilet directly ahead near the shower. I am within a few meters, so I will take one step forward toward the toilet and then stop.",
+      "latency_s": 3.06,
+      "prompt_tokens": 2053
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    8.458,
+    8.535,
+    8.269,
+    8.363,
+    8.153,
+    8.12,
+    8.008,
+    8.008,
+    7.708,
+    7.606,
+    7.504,
+    7.205,
+    6.955,
+    6.706,
+    6.459,
+    6.215,
+    5.976,
+    5.745,
+    5.496,
+    5.249,
+    4.984,
+    4.772,
+    4.573,
+    4.727,
+    4.911,
+    5.169,
+    5.413,
+    5.661,
+    5.911,
+    6.161,
+    6.414,
+    6.662,
+    6.915,
+    7.179,
+    7.428,
+    7.675,
+    7.923,
+    8.171,
+    8.418,
+    8.665,
+    8.913,
+    9.161,
+    9.41,
+    9.661,
+    9.911,
+    10.164,
+    10.412,
+    10.661,
+    10.91,
+    11.16,
+    11.41,
+    11.66,
+    11.911,
+    12.044,
+    12.194,
+    12.352,
+    12.528,
+    12.717,
+    12.893,
+    12.939,
+    13.005,
+    13.091,
+    13.198,
+    13.366
+  ],
+  "final_distance": 13.366,
+  "min_distance": 4.573,
+  "metrics": {
+    "distance_to_goal": 13.366250991821289,
+    "success": 0.0,
+    "spl": 0.0,
+    "oracle_success": 0.0,
+    "path_length": 14.893395081162453,
+    "steps_taken": 166.0
+  },
+  "success": false,
+  "backend_stats": {
+    "calls": 56,
+    "failures": 0,
+    "prompt_tokens": 111288,
+    "completion_tokens": 12974,
+    "reasoning_tokens": 9013,
+    "latency_s": 250.88495087623596
+  },
+  "stop_deferrals": 0
+}

@@ -1,0 +1,250 @@
+{
+  "episode_id": 4,
+  "scene_id": "TbHJrupSAjP",
+  "instruction": "Walk up the flight of stairs to the top. Turn and follow the railing into the bedroom area. Walk towards the closet.",
+  "actions_taken": 47,
+  "policy_calls": 16,
+  "api_latency_s": 46.86,
+  "prompt_tokens": 29416,
+  "completion_tokens": 2157,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 47.15,
+  "steps": [
+    {
+      "n": 3,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I see the bottom of a staircase on the right side of the frame. I need to turn right to face the stairs directly before climbing.",
+      "latency_s": 1.79,
+      "prompt_tokens": 885
+    },
+    {
+      "n": 6,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the base of a staircase facing the steps. I need to climb upward, so I'll take a few forward steps up the stairs and then re-observe to check my progress toward the top.",
+      "latency_s": 2.17,
+      "prompt_tokens": 1241
+    },
+    {
+      "n": 12,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm mid-staircase facing a wall; the stairs continue upward to my right. I need to turn right to align with the ascending steps before moving forward.",
+      "latency_s": 2.35,
+      "prompt_tokens": 1605
+    },
+    {
+      "n": 15,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The stairs continue upward with the top landing and railing visible just ahead. I need a few more forward steps to reach the top before turning to follow the railing.",
+      "latency_s": 2.7,
+      "prompt_tokens": 1971
+    },
+    {
+      "n": 18,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've reached the top of the stairs. The bedroom is visible through the doorway to the left, past the stair railing. I'll turn left toward the railing and proceed into the bedroom area.",
+      "latency_s": 2.0,
+      "prompt_tokens": 1971
+    },
+    {
+      "n": 21,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've reached the top of the stairs and the bedroom is visible straight ahead through the doorway. I'll advance toward it, keeping the railing on my right, then re-observe before entering.",
+      "latency_s": 3.08,
+      "prompt_tokens": 1973
+    },
+    {
+      "n": 24,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've reached the top of the stairs and can see the bedroom through the doorway ahead, slightly left of center. I'll advance toward the doorway, then re-observe to aim for the closet inside.",
+      "latency_s": 2.99,
+      "prompt_tokens": 1973
+    },
+    {
+      "n": 26,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the top of the stairs following the railing; the bedroom is visible through the open doorway ahead. I'll advance through the doorway toward the bed/closet area, then re-observe.",
+      "latency_s": 2.46,
+      "prompt_tokens": 1974
+    },
+    {
+      "n": 29,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the top of the stairs in an upstairs hallway. The bedroom is visible through the open doorway ahead-left, so I'll turn left to align with it and move forward into the bedroom area.",
+      "latency_s": 2.51,
+      "prompt_tokens": 1974
+    },
+    {
+      "n": 32,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've reached the top of the stairs and am following the railing; the bedroom is visible through the doorway ahead-left. I'll turn slightly left to align with the doorway and proceed into the bedroom toward the closet.",
+      "latency_s": 2.99,
+      "prompt_tokens": 1975
+    },
+    {
+      "n": 35,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in an upstairs hallway with a bedroom visible ahead through the doorway. The instruction says to walk into the bedroom area toward the closet, so I'll advance through the opening, keeping slightly left of the wall edge in front of me.",
+      "latency_s": 2.71,
+      "prompt_tokens": 1977
+    },
+    {
+      "n": 38,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've reached the bedroom area at the top of the stairs. I can see a row of doors along the left wall ahead, which likely includes the closet. I'll advance toward them and re-observe.",
+      "latency_s": 3.59,
+      "prompt_tokens": 1978
+    },
+    {
+      "n": 41,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm now in the bedroom area. There's an open doorway on the left that appears to lead to a closet (hanging items visible inside). I'll advance into the room and then turn left toward that doorway.",
+      "latency_s": 3.34,
+      "prompt_tokens": 1977
+    },
+    {
+      "n": 44,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm now in the bedroom area with the bed on the right. The open doorway on the left likely leads to the closet, so I'll advance toward it and then turn to enter.",
+      "latency_s": 4.54,
+      "prompt_tokens": 1979
+    },
+    {
+      "n": 46,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I have entered the bedroom area and turned; a closet with white wire shelving is now visible on the left side of my view. I will advance toward it and then stop once close.",
+      "latency_s": 4.46,
+      "prompt_tokens": 1981
+    },
+    {
+      "n": 47,
+      "actions": [
+        "STOP"
+      ],
+      "thought": "I have climbed the stairs and entered the bedroom area; the white paneled closet door is directly in front of me at close range, so I have reached the closet described in the instruction.",
+      "latency_s": 3.18,
+      "prompt_tokens": 1982
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    9.661,
+    9.661,
+    9.394,
+    9.142,
+    8.889,
+    8.576,
+    8.288,
+    8.005,
+    7.779,
+    7.489,
+    7.193,
+    6.97,
+    6.772,
+    6.634,
+    6.497,
+    6.36,
+    6.184,
+    6.006,
+    5.828,
+    5.65,
+    5.65,
+    5.351,
+    5.3,
+    5.262,
+    5.254,
+    5.251,
+    5.267,
+    5.305,
+    5.393,
+    5.543,
+    5.745,
+    5.966,
+    6.198,
+    6.41,
+    6.631,
+    6.837,
+    7.066
+  ],
+  "final_distance": 7.066,
+  "min_distance": 5.251,
+  "metrics": {
+    "distance_to_goal": 7.065682888031006,
+    "success": 0.0,
+    "spl": 0.0,
+    "oracle_success": 0.0,
+    "path_length": 8.405467972159386,
+    "steps_taken": 47.0
+  },
+  "success": false,
+  "backend_stats": {
+    "calls": 16,
+    "failures": 0,
+    "prompt_tokens": 29416,
+    "completion_tokens": 2157,
+    "reasoning_tokens": 1169,
+    "latency_s": 46.84411978721619
+  },
+  "stop_deferrals": 0
+}

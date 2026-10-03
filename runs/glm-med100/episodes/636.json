@@ -1,0 +1,1788 @@
+{
+  "episode_id": 636,
+  "scene_id": "X7HyMhZNoso",
+  "instruction": "Walk toward the white patio table and chairs and go into the house through the glass sliding doors. Pass the grey couches and go into the kitchen. Wait by the toaster.",
+  "actions_taken": 497,
+  "policy_calls": 156,
+  "api_latency_s": 498.47,
+  "prompt_tokens": 311206,
+  "completion_tokens": 26659,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 501.34,
+  "steps": [
+    {
+      "n": 3,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm currently facing a dark wall with an open doorway to my right leading into a room with wooden floors. I need to turn right to see more of the environment and locate the white patio table and chairs.",
+      "latency_s": 2.06,
+      "prompt_tokens": 895
+    },
+    {
+      "n": 4,
+      "actions": [
+        "MOVE_FORWARD"
+      ],
+      "thought": "I appear to be just inside the house with the kitchen visible ahead (fridge, white cabinets, dining table). I need to advance toward the kitchen counter where the toaster is, so I'll take one careful step forward and re-observe.",
+      "latency_s": 6.89,
+      "prompt_tokens": 1251
+    },
+    {
+      "n": 6,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm already inside the house; the kitchen with white cabinets and a fridge is visible ahead-right, past the wall partition. I'll angle slightly right and advance toward the kitchen area.",
+      "latency_s": 3.23,
+      "prompt_tokens": 1614
+    },
+    {
+      "n": 9,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've entered through the sliding doors and can see the kitchen straight ahead beyond the dining table. I need to move forward toward the kitchen counter where the toaster should be.",
+      "latency_s": 3.47,
+      "prompt_tokens": 1979
+    },
+    {
+      "n": 12,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm inside the house past the sliding doors, with the kitchen visible ahead (fridge, white cabinets, counter). I need to approach the kitchen counter where the toaster should be, so I'll advance toward it and re-observe.",
+      "latency_s": 3.05,
+      "prompt_tokens": 1979
+    },
+    {
+      "n": 15,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen with the fridge and white cabinets is directly ahead, so I'll move forward through the dining area toward it, then look for the counter with the toaster.",
+      "latency_s": 2.93,
+      "prompt_tokens": 1980
+    },
+    {
+      "n": 18,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm now inside the house with a dining table on the right and the kitchen visible ahead (fridge and white cabinets). I need to continue toward the kitchen to find the toaster, so I'll advance along the open floor path on the left side of the dining table.",
+      "latency_s": 2.61,
+      "prompt_tokens": 1980
+    },
+    {
+      "n": 21,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen with the fridge and island is directly ahead, so I'll walk forward along the open floor between the left wall and the dining table, then re-observe to locate the toaster.",
+      "latency_s": 3.11,
+      "prompt_tokens": 1981
+    },
+    {
+      "n": 24,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is directly ahead past the dining table; I need to approach the counters to find the toaster. I'll move forward through the clear floor space and re-observe.",
+      "latency_s": 4.11,
+      "prompt_tokens": 1980
+    },
+    {
+      "n": 27,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm already inside the house, facing the open kitchen with the fridge and island ahead. I need to advance toward the kitchen counters where the toaster should be, steering slightly left of the dining table to keep a clear path.",
+      "latency_s": 2.76,
+      "prompt_tokens": 1982
+    },
+    {
+      "n": 30,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've entered the house and can see the kitchen ahead with the fridge and island. I'll advance toward the kitchen counter area to find the toaster.",
+      "latency_s": 3.28,
+      "prompt_tokens": 1981
+    },
+    {
+      "n": 33,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is directly ahead with the fridge and island visible. I'll advance toward the kitchen counter area, staying left of the dining table to avoid collision.",
+      "latency_s": 3.17,
+      "prompt_tokens": 1982
+    },
+    {
+      "n": 36,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is visible straight ahead with the fridge and counters. I will advance toward the kitchen opening, staying left of the dining table.",
+      "latency_s": 3.01,
+      "prompt_tokens": 1982
+    },
+    {
+      "n": 39,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen with the fridge and island is directly ahead. I will advance toward it, keeping left of the dining table, then look for the toaster on the counters.",
+      "latency_s": 3.47,
+      "prompt_tokens": 1983
+    },
+    {
+      "n": 43,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is directly ahead past the dining table; I need to approach the counters where the toaster sits. The path forward-left of the table looks open.",
+      "latency_s": 3.97,
+      "prompt_tokens": 1983
+    },
+    {
+      "n": 46,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen with the fridge and island is directly ahead; I will advance toward it while avoiding the dining table on the right and the wall on the left, then look for the toaster on the counters.",
+      "latency_s": 3.28,
+      "prompt_tokens": 1983
+    },
+    {
+      "n": 49,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen with the fridge and island is directly ahead. I will advance toward it, keeping left of the dining table, then look for the toaster on the counters.",
+      "latency_s": 3.34,
+      "prompt_tokens": 1984
+    },
+    {
+      "n": 52,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen with the fridge and island is directly ahead; I need to walk toward it to find the toaster on the counter. I'll advance a couple of steps and re-observe to avoid the dining table on the right.",
+      "latency_s": 3.56,
+      "prompt_tokens": 1984
+    },
+    {
+      "n": 55,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm already inside the house, in a dining area with the kitchen visible ahead (white cabinets, fridge, island). I need to approach the kitchen counter where the toaster likely sits, so I'll advance carefully toward the open floor between the wall and the dining table.",
+      "latency_s": 3.54,
+      "prompt_tokens": 1985
+    },
+    {
+      "n": 58,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I am already inside the house past the sliding doors and couches; the kitchen with white cabinets and a fridge is directly ahead. I will advance toward the kitchen counter where the toaster should be.",
+      "latency_s": 2.4,
+      "prompt_tokens": 1985
+    },
+    {
+      "n": 61,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen with the fridge and island is visible straight ahead. I will advance toward it, keeping left of the dining table, then look for the toaster on the counters.",
+      "latency_s": 3.24,
+      "prompt_tokens": 1986
+    },
+    {
+      "n": 64,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is visible straight ahead past the dining table; I should advance toward the opening between the left wall and the table to reach the kitchen area where the toaster will be.",
+      "latency_s": 3.31,
+      "prompt_tokens": 1985
+    },
+    {
+      "n": 67,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen with white cabinets and a stainless fridge is directly ahead. I will advance toward it, steering left of the dining table, then re-observe to locate the toaster on the counters.",
+      "latency_s": 3.02,
+      "prompt_tokens": 1987
+    },
+    {
+      "n": 70,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is visible straight ahead with the fridge and counters. I'll advance toward the counter area to find the toaster.",
+      "latency_s": 3.9,
+      "prompt_tokens": 1986
+    },
+    {
+      "n": 73,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is directly ahead past the dining table; I should advance toward the counter area where the toaster likely sits.",
+      "latency_s": 3.31,
+      "prompt_tokens": 1986
+    },
+    {
+      "n": 76,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've entered the house and can see the kitchen ahead with a stainless fridge and white cabinets. I'll move forward through the dining area toward the kitchen, then look for the counter with the toaster.",
+      "latency_s": 3.46,
+      "prompt_tokens": 1987
+    },
+    {
+      "n": 78,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen with the fridge and island is directly ahead; I need to walk toward it to find the toaster. I'll advance a couple of steps and re-observe to navigate around the dining table.",
+      "latency_s": 3.31,
+      "prompt_tokens": 1988
+    },
+    {
+      "n": 81,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm already inside the house, facing an open dining area with the kitchen visible ahead (white cabinets, fridge, counter). I need to advance toward the kitchen counter where the toaster should be, moving around the dining table on the right.",
+      "latency_s": 3.27,
+      "prompt_tokens": 1988
+    },
+    {
+      "n": 84,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the kitchen ahead with the stainless fridge and island counter. I need to walk toward the kitchen area, passing the dining table on my right, then look for the toaster on the counter.",
+      "latency_s": 2.7,
+      "prompt_tokens": 1988
+    },
+    {
+      "n": 87,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is directly ahead past the dining table; I need to approach it to find the toaster, likely on the counter near the fridge.",
+      "latency_s": 2.65,
+      "prompt_tokens": 1989
+    },
+    {
+      "n": 90,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is visible straight ahead past the dining table; I need to approach it to find the toaster. I'll move forward along the open floor between the wall and the table, then re-observe.",
+      "latency_s": 3.27,
+      "prompt_tokens": 1989
+    },
+    {
+      "n": 94,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I am already inside the house, facing the open kitchen with white cabinets and a stainless fridge ahead. The toaster should be on the kitchen counter, so I will advance toward the kitchen area and then look for the counter with the toaster.",
+      "latency_s": 3.99,
+      "prompt_tokens": 1990
+    },
+    {
+      "n": 97,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen with the fridge and island is directly ahead. I will advance toward it, keeping left of the dining table, then look for the toaster on the counters.",
+      "latency_s": 2.95,
+      "prompt_tokens": 1990
+    },
+    {
+      "n": 100,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is directly ahead past the dining table; I will move forward toward the counter area and then look for the toaster.",
+      "latency_s": 4.15,
+      "prompt_tokens": 1990
+    },
+    {
+      "n": 103,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen area with white cabinets, fridge, and island is visible straight ahead, so I should continue moving forward toward the counter to find the toaster.",
+      "latency_s": 3.55,
+      "prompt_tokens": 1990
+    },
+    {
+      "n": 106,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen with the fridge and island is directly ahead past the dining table. I need to walk toward it and look for the toaster on the counter.",
+      "latency_s": 3.12,
+      "prompt_tokens": 1991
+    },
+    {
+      "n": 110,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is directly ahead past the dining table; I will advance toward the island counter and then look for the toaster on the countertop.",
+      "latency_s": 3.39,
+      "prompt_tokens": 1992
+    },
+    {
+      "n": 113,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen with the fridge and island is visible straight ahead. I will advance toward it, keeping left of the dining table, then look for the toaster on the counters.",
+      "latency_s": 3.03,
+      "prompt_tokens": 1992
+    },
+    {
+      "n": 116,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the kitchen ahead with the stainless fridge and island counter. I need to continue forward past the dining table toward the kitchen area to find the toaster.",
+      "latency_s": 2.92,
+      "prompt_tokens": 1992
+    },
+    {
+      "n": 119,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is directly ahead past the dining table; I need to walk toward it and look for the toaster on the counter.",
+      "latency_s": 3.16,
+      "prompt_tokens": 1993
+    },
+    {
+      "n": 122,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is visible straight ahead with the refrigerator and island counter. I should advance toward it, staying left of the dining table to reach the kitchen counter where the toaster likely sits.",
+      "latency_s": 3.11,
+      "prompt_tokens": 1993
+    },
+    {
+      "n": 125,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is visible straight ahead with the fridge and island counter. I'll advance toward it, then look for the toaster on the counters.",
+      "latency_s": 3.27,
+      "prompt_tokens": 1994
+    },
+    {
+      "n": 128,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen with white cabinets and a stainless fridge is directly ahead past the dining table. I'll advance toward the kitchen opening, staying left of the dining chairs.",
+      "latency_s": 3.19,
+      "prompt_tokens": 1993
+    },
+    {
+      "n": 131,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is directly ahead with the fridge and counters visible; I need to approach it to find the toaster, likely on the counter near the range.",
+      "latency_s": 3.24,
+      "prompt_tokens": 1995
+    },
+    {
+      "n": 134,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen with the fridge and island is visible straight ahead. I will advance toward it, keeping left of the dining table, then look for the toaster on the counter.",
+      "latency_s": 3.23,
+      "prompt_tokens": 1994
+    },
+    {
+      "n": 137,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is directly ahead with a visible refrigerator and island counter. I will advance toward the kitchen opening, staying left of the dining table.",
+      "latency_s": 2.92,
+      "prompt_tokens": 1995
+    },
+    {
+      "n": 140,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is visible straight ahead past the dining table; I need to approach it to find the toaster. The path forward between the left wall and dining chairs looks open.",
+      "latency_s": 3.44,
+      "prompt_tokens": 1995
+    },
+    {
+      "n": 143,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is visible straight ahead past the dining table; I should advance toward the opening between the left wall and the table, then look for the toaster on the counters.",
+      "latency_s": 3.36,
+      "prompt_tokens": 1995
+    },
+    {
+      "n": 146,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is directly ahead past the dining table; I will advance toward it and then look for the toaster on the counters.",
+      "latency_s": 3.18,
+      "prompt_tokens": 1996
+    },
+    {
+      "n": 150,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is visible straight ahead with the fridge and counters. I will advance toward the kitchen island and counter area to look for the toaster.",
+      "latency_s": 2.93,
+      "prompt_tokens": 1997
+    },
+    {
+      "n": 153,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I am already inside the house, in a dining area with the kitchen visible straight ahead (white cabinets, fridge, island). I need to advance toward the kitchen counter where the toaster likely sits, moving carefully past the dining table on the right.",
+      "latency_s": 3.47,
+      "prompt_tokens": 1996
+    },
+    {
+      "n": 156,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is directly ahead with a fridge and island counter visible. I'll advance toward it and then look for the toaster on the counters.",
+      "latency_s": 2.87,
+      "prompt_tokens": 1997
+    },
+    {
+      "n": 160,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is directly ahead with the fridge and island visible. I'll advance toward it, steering slightly left of the dining table to reach the counter where the toaster should be.",
+      "latency_s": 3.14,
+      "prompt_tokens": 1998
+    },
+    {
+      "n": 163,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is visible straight ahead with the refrigerator and island counter. I will advance toward the kitchen opening, staying left of the dining table.",
+      "latency_s": 2.79,
+      "prompt_tokens": 1998
+    },
+    {
+      "n": 167,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is visible straight ahead with the fridge and counters. I'll advance toward it, staying between the left wall and the dining table, then look for the toaster on the counters.",
+      "latency_s": 4.02,
+      "prompt_tokens": 1998
+    },
+    {
+      "n": 171,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is directly ahead with a fridge and island visible. I'll advance toward the kitchen counter area, staying left of the dining table, then look for the toaster on the counters.",
+      "latency_s": 3.36,
+      "prompt_tokens": 1998
+    },
+    {
+      "n": 174,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the kitchen ahead with the stainless fridge and island counter. I need to walk toward the kitchen area to find the toaster, so I'll advance forward through the open space between the wall and the dining table.",
+      "latency_s": 2.45,
+      "prompt_tokens": 1999
+    },
+    {
+      "n": 177,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is directly ahead past the dining table; I will advance toward the island counter where the toaster likely sits.",
+      "latency_s": 3.13,
+      "prompt_tokens": 2000
+    },
+    {
+      "n": 180,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the kitchen ahead with the stainless fridge and island counter. I need to walk toward the kitchen area, passing the dining table on my right, then find the toaster on the counter.",
+      "latency_s": 2.5,
+      "prompt_tokens": 2000
+    },
+    {
+      "n": 183,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is directly ahead with a white island and counters; the toaster is likely on the counter near the fridge. I'll move forward toward it and re-observe.",
+      "latency_s": 3.27,
+      "prompt_tokens": 2000
+    },
+    {
+      "n": 186,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen with the stainless fridge and island is directly ahead past the dining table. I will advance toward the kitchen opening, then look for the toaster on the counters.",
+      "latency_s": 3.36,
+      "prompt_tokens": 2001
+    },
+    {
+      "n": 190,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen with the fridge and island is directly ahead past the dining table. I will advance forward through the open space toward the kitchen, then look for the toaster on the counters.",
+      "latency_s": 2.79,
+      "prompt_tokens": 2002
+    },
+    {
+      "n": 193,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I am already inside the house, in a dining area with the kitchen visible straight ahead (white cabinets, fridge, island). The toaster should be on the kitchen counter, so I will advance toward the kitchen, steering left of the dining table.",
+      "latency_s": 3.79,
+      "prompt_tokens": 2001
+    },
+    {
+      "n": 196,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is directly ahead past the dining table; I need to approach the counters where the toaster sits.",
+      "latency_s": 3.22,
+      "prompt_tokens": 2004
+    },
+    {
+      "n": 200,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the kitchen ahead with the fridge and white counters. I need to approach the kitchen counter area where the toaster would be, moving forward past the dining table.",
+      "latency_s": 3.41,
+      "prompt_tokens": 2002
+    },
+    {
+      "n": 203,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is directly ahead with a fridge and island counter visible. I'll advance toward it, steering slightly left of the dining table to approach the counter where the toaster likely sits.",
+      "latency_s": 3.09,
+      "prompt_tokens": 2003
+    },
+    {
+      "n": 207,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is directly ahead with the fridge and island visible. I'll advance toward the kitchen counters where the toaster should be.",
+      "latency_s": 2.7,
+      "prompt_tokens": 2003
+    },
+    {
+      "n": 210,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen with the fridge and island is directly ahead. I will advance toward it, keeping left of the dining table, then look for the toaster on the counters.",
+      "latency_s": 3.27,
+      "prompt_tokens": 2004
+    },
+    {
+      "n": 213,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is directly ahead past the dining table; I will advance toward the island counter where the toaster likely sits.",
+      "latency_s": 3.85,
+      "prompt_tokens": 2004
+    },
+    {
+      "n": 216,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is directly ahead past the dining table; I need to walk toward it and look for the toaster on the counter.",
+      "latency_s": 3.26,
+      "prompt_tokens": 2004
+    },
+    {
+      "n": 219,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is directly ahead with the fridge and island visible. I'll advance toward the kitchen counter area where the toaster should be located.",
+      "latency_s": 3.26,
+      "prompt_tokens": 2006
+    },
+    {
+      "n": 222,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is directly ahead with the fridge and island visible. I'll advance toward it, staying left of the dining table, then look for the toaster on the counters.",
+      "latency_s": 2.98,
+      "prompt_tokens": 2007
+    },
+    {
+      "n": 226,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is directly ahead with the fridge and island visible. I'll advance toward the kitchen counter area where the toaster should be located.",
+      "latency_s": 2.38,
+      "prompt_tokens": 2006
+    },
+    {
+      "n": 230,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is directly ahead with a fridge and island visible; I need to approach the counters to find the toaster. I'll move forward along the open floor between the wall and dining table, then re-observe.",
+      "latency_s": 3.28,
+      "prompt_tokens": 2009
+    },
+    {
+      "n": 234,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is directly ahead with the fridge and island visible. I'll advance toward the kitchen area, steering slightly left of the dining table to reach the counter where the toaster sits.",
+      "latency_s": 3.63,
+      "prompt_tokens": 2006
+    },
+    {
+      "n": 237,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is visible straight ahead with the fridge and island; I should advance toward the opening between the left wall and the dining table, then look for the toaster on the counters.",
+      "latency_s": 3.17,
+      "prompt_tokens": 2010
+    },
+    {
+      "n": 240,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is directly ahead with the fridge and island visible; I should advance toward it while staying left of the dining table.",
+      "latency_s": 3.03,
+      "prompt_tokens": 2009
+    },
+    {
+      "n": 243,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm already inside the house past the dining table, with the kitchen visible straight ahead. I need to move toward the kitchen counter where the toaster should be.",
+      "latency_s": 3.02,
+      "prompt_tokens": 2008
+    },
+    {
+      "n": 246,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen with white cabinets and a stainless fridge is directly ahead past the dining table. I'll move forward toward the counter where the toaster should be, then re-observe.",
+      "latency_s": 3.79,
+      "prompt_tokens": 2010
+    },
+    {
+      "n": 249,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is directly ahead with the fridge and counters visible. I'll advance toward it, staying left of the dining table, then look for the toaster on the counter.",
+      "latency_s": 3.35,
+      "prompt_tokens": 2011
+    },
+    {
+      "n": 253,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is directly ahead with the fridge and counters visible. I need to walk forward into the kitchen to find the toaster on the counter.",
+      "latency_s": 2.61,
+      "prompt_tokens": 2011
+    },
+    {
+      "n": 256,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is directly ahead with the fridge and counters visible; I need to approach it to find the toaster, likely on the counter near the island.",
+      "latency_s": 3.28,
+      "prompt_tokens": 2011
+    },
+    {
+      "n": 259,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is directly ahead with white cabinets and an island; the toaster should be on the counter. I will advance toward the kitchen and re-observe to locate the toaster.",
+      "latency_s": 2.96,
+      "prompt_tokens": 2011
+    },
+    {
+      "n": 262,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is directly ahead with the fridge and counters visible. I'll advance through the open floor space between the wall and dining table, then look for the toaster on the kitchen counters.",
+      "latency_s": 3.9,
+      "prompt_tokens": 2012
+    },
+    {
+      "n": 265,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is directly ahead with the fridge and counter visible. I'll advance toward the kitchen counter where the toaster likely sits, then re-observe to locate it precisely.",
+      "latency_s": 3.62,
+      "prompt_tokens": 2013
+    },
+    {
+      "n": 269,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is directly ahead with the fridge and counters visible. I'll advance toward the kitchen counter area where the toaster should be, moving carefully between the wall and dining table.",
+      "latency_s": 3.38,
+      "prompt_tokens": 2012
+    },
+    {
+      "n": 272,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is directly ahead past the dining table; I will advance toward the counters to find the toaster.",
+      "latency_s": 2.23,
+      "prompt_tokens": 2013
+    },
+    {
+      "n": 275,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is directly ahead with the fridge and counters visible; the toaster should be on the counter there. I will advance toward the kitchen opening, keeping left of the dining table.",
+      "latency_s": 2.61,
+      "prompt_tokens": 2014
+    },
+    {
+      "n": 278,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is directly ahead past the dining table; I need to approach the counters where the toaster sits. I'll advance carefully and re-observe to avoid the table legs.",
+      "latency_s": 3.41,
+      "prompt_tokens": 2013
+    },
+    {
+      "n": 281,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is directly ahead with the fridge and island visible. I'll advance toward it, keeping left of the dining table, then look for the toaster on the counters.",
+      "latency_s": 3.5,
+      "prompt_tokens": 2014
+    },
+    {
+      "n": 284,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is directly ahead with the fridge and counters visible; the toaster should be on the counter there. I will advance toward the kitchen, keeping left of the dining table.",
+      "latency_s": 2.99,
+      "prompt_tokens": 2015
+    },
+    {
+      "n": 287,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is directly ahead with a fridge and island counter visible. The toaster is likely on the counter, so I'll advance toward the kitchen and re-observe before getting close.",
+      "latency_s": 3.06,
+      "prompt_tokens": 2015
+    },
+    {
+      "n": 290,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is directly ahead with the fridge and counters visible. I need to walk toward the kitchen island and counters to find the toaster.",
+      "latency_s": 3.0,
+      "prompt_tokens": 2015
+    },
+    {
+      "n": 293,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen with white cabinets and a stainless fridge is directly ahead. I will advance toward it to find the toaster on the counters.",
+      "latency_s": 3.14,
+      "prompt_tokens": 2014
+    },
+    {
+      "n": 296,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen with white cabinets and a fridge is directly ahead past the dining table. I'll move forward toward the counter where the toaster should be, then re-observe.",
+      "latency_s": 3.04,
+      "prompt_tokens": 2015
+    },
+    {
+      "n": 300,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is directly ahead with the fridge and counters visible. I will advance toward the kitchen island/counter where the toaster likely sits, then re-observe to locate it precisely.",
+      "latency_s": 3.28,
+      "prompt_tokens": 2017
+    },
+    {
+      "n": 304,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen with white cabinets and a stainless fridge is directly ahead past the dining table. I'll advance toward it and then look for the toaster on the counters.",
+      "latency_s": 2.73,
+      "prompt_tokens": 2015
+    },
+    {
+      "n": 307,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is directly ahead with the fridge and island visible. I'll advance toward the kitchen counter to find the toaster.",
+      "latency_s": 3.11,
+      "prompt_tokens": 2016
+    },
+    {
+      "n": 311,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is directly ahead with the fridge and island visible. I'll advance toward the kitchen counter to find the toaster, moving carefully past the dining table on the right.",
+      "latency_s": 3.0,
+      "prompt_tokens": 2018
+    },
+    {
+      "n": 315,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is directly ahead with the fridge and counters visible. I need to walk forward into the kitchen to find the toaster on the counter.",
+      "latency_s": 2.2,
+      "prompt_tokens": 2018
+    },
+    {
+      "n": 318,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is directly ahead with the fridge and counters visible; the toaster should be on the counter there. I will advance toward the kitchen opening, keeping left of the dining table.",
+      "latency_s": 3.07,
+      "prompt_tokens": 2016
+    },
+    {
+      "n": 322,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is directly ahead with the fridge and island visible. I'll advance toward the kitchen counter area where the toaster should be located.",
+      "latency_s": 2.32,
+      "prompt_tokens": 2019
+    },
+    {
+      "n": 325,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is directly ahead with the fridge and island counter visible. The toaster is likely on the counter, so I'll advance toward the kitchen area and re-observe.",
+      "latency_s": 3.04,
+      "prompt_tokens": 2020
+    },
+    {
+      "n": 329,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen with white cabinets and a stainless fridge is directly ahead past the dining table. I'll move forward toward the kitchen counters where the toaster should be.",
+      "latency_s": 2.93,
+      "prompt_tokens": 2019
+    },
+    {
+      "n": 332,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is directly ahead with white cabinets and a fridge; the toaster should be on the counter there. I will advance toward the kitchen island and re-observe to locate the toaster.",
+      "latency_s": 3.03,
+      "prompt_tokens": 2020
+    },
+    {
+      "n": 335,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is directly ahead with the fridge and counters visible; I need to approach it to find the toaster, likely on the counter near the fridge or island.",
+      "latency_s": 3.06,
+      "prompt_tokens": 2021
+    },
+    {
+      "n": 338,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is directly ahead with the fridge and counters visible. I need to walk toward it to find the toaster, likely on the counter near the fridge or island.",
+      "latency_s": 2.69,
+      "prompt_tokens": 2021
+    },
+    {
+      "n": 341,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the kitchen ahead with the fridge and counters. The toaster should be on the kitchen counter, so I need to advance toward the kitchen area, steering slightly left of the dining table.",
+      "latency_s": 2.74,
+      "prompt_tokens": 2022
+    },
+    {
+      "n": 345,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is directly ahead with a counter island and refrigerator visible. The toaster is likely on the counter, so I'll advance toward the kitchen area and re-observe.",
+      "latency_s": 2.98,
+      "prompt_tokens": 2021
+    },
+    {
+      "n": 348,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is directly ahead with the fridge and counters visible. I'll advance toward it and then look for the toaster on the countertop.",
+      "latency_s": 3.34,
+      "prompt_tokens": 2022
+    },
+    {
+      "n": 352,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is directly ahead with the fridge and island visible. I'll advance toward the counter where the toaster should be located.",
+      "latency_s": 3.38,
+      "prompt_tokens": 2023
+    },
+    {
+      "n": 355,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is directly ahead with a counter island and refrigerator visible. I need to walk toward the kitchen counter to find the toaster, so I'll advance forward and re-observe.",
+      "latency_s": 3.14,
+      "prompt_tokens": 2024
+    },
+    {
+      "n": 358,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is directly ahead with the fridge and island counter visible. The toaster would be on the counter, so I'll advance toward the kitchen area and then look for it.",
+      "latency_s": 2.95,
+      "prompt_tokens": 2023
+    },
+    {
+      "n": 361,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen with white cabinets and a stainless fridge is directly ahead. I will advance toward it and then look for the toaster on the counters.",
+      "latency_s": 2.99,
+      "prompt_tokens": 2024
+    },
+    {
+      "n": 364,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is directly ahead with the fridge and white counters visible. I will advance toward the kitchen area to find the toaster on the counter.",
+      "latency_s": 2.72,
+      "prompt_tokens": 2024
+    },
+    {
+      "n": 367,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is directly ahead with the fridge and island visible. I'll advance toward it along the open floor between the left wall and the dining table, then look for the toaster on the counters.",
+      "latency_s": 3.13,
+      "prompt_tokens": 2025
+    },
+    {
+      "n": 370,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is directly ahead with the fridge and island counter visible. The toaster should be on the counter, so I'll advance toward the kitchen area and then look for it.",
+      "latency_s": 6.55,
+      "prompt_tokens": 2025
+    },
+    {
+      "n": 373,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is directly ahead with white cabinets and an island; the toaster is likely on the counter. I will advance toward the kitchen and re-observe to locate the toaster.",
+      "latency_s": 6.36,
+      "prompt_tokens": 2024
+    },
+    {
+      "n": 377,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is directly ahead with a fridge and island counter visible. The toaster should be on the counter, so I'll move forward toward the kitchen and then look for it.",
+      "latency_s": 6.24,
+      "prompt_tokens": 2025
+    },
+    {
+      "n": 380,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is directly ahead with the fridge and counters visible. I need to walk forward into the kitchen to find the toaster on the counter.",
+      "latency_s": 2.41,
+      "prompt_tokens": 2026
+    },
+    {
+      "n": 383,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is directly ahead with the fridge and counters visible. I will advance toward the kitchen counter area where the toaster should be, then re-observe to locate it precisely.",
+      "latency_s": 3.18,
+      "prompt_tokens": 2025
+    },
+    {
+      "n": 387,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is directly ahead with the fridge and counter visible. The toaster should be on the counter, so I'll advance toward the kitchen and then look for it.",
+      "latency_s": 3.12,
+      "prompt_tokens": 2027
+    },
+    {
+      "n": 390,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen with white cabinets and a stainless fridge is directly ahead. I will advance toward it to find the toaster on the counter.",
+      "latency_s": 2.65,
+      "prompt_tokens": 2027
+    },
+    {
+      "n": 394,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is directly ahead with white cabinets and an island; the toaster should be on the counter. I will advance toward the kitchen and re-observe before getting close.",
+      "latency_s": 2.73,
+      "prompt_tokens": 2028
+    },
+    {
+      "n": 397,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is directly ahead with the fridge and counters visible. I will advance toward the kitchen island/counter where the toaster likely sits, then look for it to stop nearby.",
+      "latency_s": 3.0,
+      "prompt_tokens": 2029
+    },
+    {
+      "n": 400,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is directly ahead with the fridge and island visible. I'll move forward toward the counter area to find the toaster.",
+      "latency_s": 2.63,
+      "prompt_tokens": 2028
+    },
+    {
+      "n": 403,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is directly ahead with white cabinets and an island; the toaster should be on the counter. I will advance toward it and re-observe.",
+      "latency_s": 2.73,
+      "prompt_tokens": 2028
+    },
+    {
+      "n": 406,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is directly ahead with white cabinets and an island; the toaster should be on the counter. I will advance toward the kitchen, steering slightly left of the dining table.",
+      "latency_s": 2.65,
+      "prompt_tokens": 2029
+    },
+    {
+      "n": 409,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the kitchen ahead with the island and stainless fridge; the toaster will be on the counters there. I'll advance toward the kitchen opening, steering left of the dining table, then re-observe to locate the toaster.",
+      "latency_s": 2.8,
+      "prompt_tokens": 2030
+    },
+    {
+      "n": 412,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is directly ahead past the dining table; the toaster should be on the counter there. I'll move forward toward the kitchen and re-observe before getting close.",
+      "latency_s": 2.86,
+      "prompt_tokens": 2030
+    },
+    {
+      "n": 415,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is directly ahead with white cabinets and an island; the toaster is likely on the counter. I will advance toward the kitchen and re-observe before getting close.",
+      "latency_s": 2.88,
+      "prompt_tokens": 2031
+    },
+    {
+      "n": 419,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is directly ahead; I will advance toward the counters to find the toaster, re-observing as I go.",
+      "latency_s": 2.93,
+      "prompt_tokens": 2031
+    },
+    {
+      "n": 422,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is directly ahead with white cabinets and an island; the toaster is likely on the counter. I'll advance toward it and re-observe.",
+      "latency_s": 2.86,
+      "prompt_tokens": 2031
+    },
+    {
+      "n": 425,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the kitchen ahead with the stainless fridge and white counters. The toaster should be on the kitchen counter, so I need to advance toward the kitchen area past the dining table.",
+      "latency_s": 2.49,
+      "prompt_tokens": 2032
+    },
+    {
+      "n": 429,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is directly ahead with the fridge and counter visible. I will advance toward the kitchen counter to find the toaster.",
+      "latency_s": 2.97,
+      "prompt_tokens": 2032
+    },
+    {
+      "n": 432,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is directly ahead with white cabinets and an island; the toaster should be on the counter. I will advance toward the kitchen and re-observe to locate the toaster.",
+      "latency_s": 2.9,
+      "prompt_tokens": 2032
+    },
+    {
+      "n": 436,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is directly ahead with white cabinets and an island; the toaster should be on the counter. I'll move forward toward the kitchen, staying left of the dining table.",
+      "latency_s": 2.89,
+      "prompt_tokens": 2034
+    },
+    {
+      "n": 439,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen with white cabinets and a stainless fridge is directly ahead past the dining table. I should move forward toward the kitchen counters where the toaster would be.",
+      "latency_s": 3.2,
+      "prompt_tokens": 2034
+    },
+    {
+      "n": 442,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is directly ahead with white cabinets and an island; the toaster should be on the counter there. I will advance toward the kitchen and re-observe before getting close.",
+      "latency_s": 3.25,
+      "prompt_tokens": 2034
+    },
+    {
+      "n": 445,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is directly ahead with the island and fridge visible. I need to walk toward the counter area to find the toaster, so I will advance forward and re-observe.",
+      "latency_s": 3.3,
+      "prompt_tokens": 2035
+    },
+    {
+      "n": 448,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the kitchen ahead with the island and stainless fridge. The toaster should be on the kitchen counters, so I need to advance toward the kitchen area, aiming left of the dining table.",
+      "latency_s": 2.4,
+      "prompt_tokens": 2034
+    },
+    {
+      "n": 451,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the kitchen ahead with the refrigerator and counters. The toaster should be on the counter near the fridge, so I need to advance toward the kitchen area, steering slightly left of the dining table.",
+      "latency_s": 2.73,
+      "prompt_tokens": 2036
+    },
+    {
+      "n": 454,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is directly ahead past the dining table; I will advance toward the counters to find the toaster.",
+      "latency_s": 3.37,
+      "prompt_tokens": 2035
+    },
+    {
+      "n": 457,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen with white cabinets and a stainless fridge is directly ahead past the dining table. I'll advance toward the island counter where the toaster likely sits, then stop once close.",
+      "latency_s": 3.13,
+      "prompt_tokens": 2036
+    },
+    {
+      "n": 460,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the kitchen ahead with the island and stainless fridge. I need to approach the kitchen counter where the toaster would be, so I'll advance toward it and re-observe.",
+      "latency_s": 2.43,
+      "prompt_tokens": 2036
+    },
+    {
+      "n": 463,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is directly ahead with white cabinets and an island; the toaster should be on the counter. I will advance toward it and re-observe.",
+      "latency_s": 2.84,
+      "prompt_tokens": 2037
+    },
+    {
+      "n": 466,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the kitchen ahead with the island and stainless fridge; the toaster should be on the counters there. I'll advance toward the kitchen and re-observe before getting close to the counter.",
+      "latency_s": 2.84,
+      "prompt_tokens": 2037
+    },
+    {
+      "n": 470,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is directly ahead with the island and fridge visible. I'll advance toward the counter area where the toaster should be, then stop once close.",
+      "latency_s": 3.4,
+      "prompt_tokens": 2038
+    },
+    {
+      "n": 471,
+      "actions": [
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the kitchen ahead with the island and refrigerator. The toaster should be on the kitchen counter, so I need to advance toward the kitchen area.",
+      "latency_s": 3.99,
+      "prompt_tokens": 2038
+    },
+    {
+      "n": 474,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is directly ahead past the dining table; I will advance toward the counter area to look for the toaster.",
+      "latency_s": 3.73,
+      "prompt_tokens": 2038
+    },
+    {
+      "n": 477,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is directly ahead with white cabinets and an island; the toaster is likely on the counter. I'll advance toward the kitchen and re-observe to locate the toaster.",
+      "latency_s": 3.56,
+      "prompt_tokens": 2039
+    },
+    {
+      "n": 480,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the kitchen ahead with the island and refrigerator. I need to approach the kitchen counter where the toaster would be, so I'll advance toward it and re-observe.",
+      "latency_s": 2.36,
+      "prompt_tokens": 2038
+    },
+    {
+      "n": 483,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the kitchen ahead with the fridge and island counter. The toaster would be on the kitchen counter, so I need to advance toward the kitchen area before stopping.",
+      "latency_s": 2.85,
+      "prompt_tokens": 2038
+    },
+    {
+      "n": 486,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen with white cabinets and a stainless fridge is directly ahead. I should move forward toward the counter area where the toaster would be, staying left of the dining table.",
+      "latency_s": 4.05,
+      "prompt_tokens": 2039
+    },
+    {
+      "n": 490,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the kitchen ahead with the island and refrigerator. I need to advance toward the kitchen counter where the toaster would be, moving carefully through the dining area.",
+      "latency_s": 3.21,
+      "prompt_tokens": 2040
+    },
+    {
+      "n": 497,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "STOP"
+      ],
+      "thought": "I've passed the couches and can see the kitchen ahead with the fridge and white counters. The toaster should be on the kitchen counter, so I'll advance toward the kitchen area and stop there.",
+      "latency_s": 3.0,
+      "prompt_tokens": 2041
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    11.276,
+    11.276,
+    11.314,
+    11.304,
+    11.304
+  ],
+  "final_distance": 11.304,
+  "min_distance": 11.276,
+  "metrics": {
+    "distance_to_goal": 11.303564071655273,
+    "success": 0.0,
+    "spl": 0.0,
+    "oracle_success": 0.0,
+    "path_length": 0.512545645236969,
+    "steps_taken": 497.0
+  },
+  "success": false,
+  "backend_stats": {
+    "calls": 156,
+    "failures": 0,
+    "prompt_tokens": 311206,
+    "completion_tokens": 26659,
+    "reasoning_tokens": 13622,
+    "latency_s": 498.4389886856079
+  },
+  "stop_deferrals": 0
+}

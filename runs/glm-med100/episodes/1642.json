@@ -1,0 +1,209 @@
+{
+  "episode_id": 1642,
+  "scene_id": "TbHJrupSAjP",
+  "instruction": "Turn right and walk down the hall until you enter the kitchen.  Then turn right and walk into the living room.  Stand near the end table.",
+  "actions_taken": 36,
+  "policy_calls": 13,
+  "api_latency_s": 46.81,
+  "prompt_tokens": 23523,
+  "completion_tokens": 2493,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 47.02,
+  "steps": [
+    {
+      "n": 3,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a glass door with a hallway and staircase visible to my right. The instruction says to turn right and walk down the hall, so I'll rotate right to face the hallway direction.",
+      "latency_s": 2.13,
+      "prompt_tokens": 891
+    },
+    {
+      "n": 6,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hallway with a staircase on the left and an open doorway ahead leading to another room. I'll walk down the hall toward that opening to find the kitchen.",
+      "latency_s": 3.37,
+      "prompt_tokens": 1247
+    },
+    {
+      "n": 9,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hallway facing a doorway at the far end that opens into another room. The instruction says to walk down the hall until entering the kitchen, so I'll advance toward the doorway ahead, re-observing as I go.",
+      "latency_s": 2.65,
+      "prompt_tokens": 1611
+    },
+    {
+      "n": 12,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hallway moving forward; ahead there's an open doorway leading to a room with a window and white sofa. I need to keep walking down the hall to reach the kitchen before turning right, so I'll advance toward the doorway and re-observe.",
+      "latency_s": 3.7,
+      "prompt_tokens": 1974
+    },
+    {
+      "n": 14,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the hallway approaching an open doorway; the room ahead shows a white sofa, which may be the living room, but I first need to find the kitchen. I'll advance through the doorway to get a better view of the space and locate the kitchen.",
+      "latency_s": 3.87,
+      "prompt_tokens": 1975
+    },
+    {
+      "n": 16,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've walked down the hall and can see an open doorway ahead leading to a room with a white sofa and windows. I need to continue forward to reach the kitchen area before turning right into the living room, so I'll advance through the opening and re-observe.",
+      "latency_s": 4.06,
+      "prompt_tokens": 1976
+    },
+    {
+      "n": 20,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a door too closely in the hallway; the open living room is visible to my right. I need to continue down the hall to find the kitchen first, so I'll turn right to face along the hallway and proceed.",
+      "latency_s": 4.02,
+      "prompt_tokens": 1976
+    },
+    {
+      "n": 23,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm at the end of the hall with the living room opening ahead-right; the sofa and a dark end table are visible. I'll advance through the opening, then turn right to approach the end table.",
+      "latency_s": 4.53,
+      "prompt_tokens": 1976
+    },
+    {
+      "n": 24,
+      "actions": [
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've reached the living room entrance; the sofa and the dark end table beside it are visible ahead. I'll step forward into the room toward the end table, then re-observe to close the distance.",
+      "latency_s": 3.82,
+      "prompt_tokens": 1978
+    },
+    {
+      "n": 26,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've reached the open living room with the sofa and the dark end table beside it. The end table is a few meters ahead, so I'll step forward into the room and re-observe before closing the distance.",
+      "latency_s": 4.63,
+      "prompt_tokens": 1979
+    },
+    {
+      "n": 30,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The living room is open ahead and the end table beside the white sofa is visible a few meters away. I will walk forward toward it, then stop once close.",
+      "latency_s": 3.66,
+      "prompt_tokens": 1979
+    },
+    {
+      "n": 34,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I have entered the living room; the dark end table with a lamp sits beside the white sofa on my right, a few meters ahead. I will advance toward it and angle slightly right to stand near it.",
+      "latency_s": 3.46,
+      "prompt_tokens": 1980
+    },
+    {
+      "n": 36,
+      "actions": [
+        "MOVE_FORWARD",
+        "STOP"
+      ],
+      "thought": "I have entered the living room and the dark end table with books is directly ahead next to the white sofa, roughly 1.5-2 m away. I will take one step closer to stand near it, then stop.",
+      "latency_s": 2.91,
+      "prompt_tokens": 1981
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    6.935,
+    6.935,
+    6.699,
+    6.464,
+    6.23,
+    5.999,
+    5.769,
+    5.542,
+    5.319,
+    5.098,
+    4.883,
+    4.672,
+    4.468,
+    4.273,
+    4.058,
+    3.838,
+    3.624,
+    3.419,
+    3.224,
+    3.043,
+    2.835,
+    2.619,
+    2.429,
+    2.25,
+    2.086,
+    1.941,
+    1.818,
+    1.723,
+    1.661,
+    1.571,
+    1.516
+  ],
+  "final_distance": 1.516,
+  "min_distance": 1.516,
+  "metrics": {
+    "distance_to_goal": 1.5163787603378296,
+    "success": 1.0,
+    "spl": 0.9569282528173704,
+    "oracle_success": 1.0,
+    "path_length": 7.247638061642647,
+    "steps_taken": 36.0
+  },
+  "success": true,
+  "backend_stats": {
+    "calls": 13,
+    "failures": 0,
+    "prompt_tokens": 23523,
+    "completion_tokens": 2493,
+    "reasoning_tokens": 1624,
+    "latency_s": 46.79287075996399
+  },
+  "stop_deferrals": 0
+}

@@ -1,0 +1,293 @@
+{
+  "episode_id": 1406,
+  "scene_id": "TbHJrupSAjP",
+  "instruction": "Turn left and exit the bedroom. Walk past the stairs into the rightmost doorway. Wait by the entrance of the bedroom.",
+  "actions_taken": 73,
+  "policy_calls": 22,
+  "api_latency_s": 227.33,
+  "prompt_tokens": 41371,
+  "completion_tokens": 14770,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 227.78,
+  "steps": [
+    {
+      "n": 6,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm currently facing a white shelf unit inside what appears to be the bedroom. The instruction says to turn left first, so I'll rotate left to find the bedroom exit.",
+      "latency_s": 2.64,
+      "prompt_tokens": 885
+    },
+    {
+      "n": 9,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I have turned 90\u00b0 left and now face the bed and windows; the bedroom exit is not yet visible. I will keep turning left to scan for the doorway leading out of the bedroom.",
+      "latency_s": 5.74,
+      "prompt_tokens": 1241
+    },
+    {
+      "n": 11,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "After turning left 135\u00b0, I'm now facing a wall corner beside the nightstand; the white edge on the left may be the bedroom doorframe. I'll turn left a bit to locate the bedroom exit before moving.",
+      "latency_s": 5.25,
+      "prompt_tokens": 1605
+    },
+    {
+      "n": 17,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I turned left 165 degrees and now face a closet nook, which is not the bedroom exit. I need to rotate back toward the open bedroom area to find the doorway leading out toward the stairs.",
+      "latency_s": 5.5,
+      "prompt_tokens": 1968
+    },
+    {
+      "n": 20,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm currently facing the bed and windows inside the bedroom. I need to find the bedroom exit, so I'll turn left to scan for the doorway leading out toward the stairs.",
+      "latency_s": 4.89,
+      "prompt_tokens": 1971
+    },
+    {
+      "n": 24,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm inside the bedroom facing a nightstand and wall. The instruction says to turn left and exit the bedroom, so I need to rotate left to find the doorway I entered through before moving.",
+      "latency_s": 7.56,
+      "prompt_tokens": 1971
+    },
+    {
+      "n": 28,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to have over-rotated and am now facing a narrow closet doorway instead of the bedroom exit. I need to turn right to re-scan the room and locate the doorway leading out to the hallway with the stairs.",
+      "latency_s": 7.85,
+      "prompt_tokens": 1973
+    },
+    {
+      "n": 31,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm currently facing the nightstand and bed inside the bedroom. The instruction says to turn left and exit, so I'll rotate left to find the bedroom doorway before moving.",
+      "latency_s": 4.28,
+      "prompt_tokens": 1975
+    },
+    {
+      "n": 34,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I am currently in a bedroom facing a closet doorway, with the bed behind/right of me. The instruction says to turn left and exit the bedroom, so I will first rotate left to locate the bedroom's exit doorway.",
+      "latency_s": 5.7,
+      "prompt_tokens": 1976
+    },
+    {
+      "n": 36,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I have rotated to face out of the bedroom into a hallway with a bathroom on the left, a closed door ahead, and a closet doorway on the right. I need to step out of the bedroom first, then look for the stairs and the rightmost doorway.",
+      "latency_s": 24.26,
+      "prompt_tokens": 1977
+    },
+    {
+      "n": 40,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm currently facing a closed door with a closet opening on the right and a bathroom doorway on the left. The instruction says to walk past the stairs into the rightmost doorway, so I need to scan the hallway to find the stairs and the rightmost doorway before moving.",
+      "latency_s": 14.77,
+      "prompt_tokens": 1978
+    },
+    {
+      "n": 46,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I appear to be facing a closet inside a room, likely having entered the rightmost doorway. The goal is to wait by the bedroom's entrance, so I need to turn around and head back toward the doorway I came through.",
+      "latency_s": 10.56,
+      "prompt_tokens": 1980
+    },
+    {
+      "n": 48,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm currently in a hallway facing a bathroom doorway with a closed white door on the right. I need to move down the hallway to find the stairs and identify the rightmost doorway, so I'll advance carefully and re-observe.",
+      "latency_s": 17.54,
+      "prompt_tokens": 1982
+    },
+    {
+      "n": 50,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to be in a hallway facing a bathroom with a bathtub, with a closed white door on my right. I need to locate the stairs and the rightmost doorway before proceeding, so I will turn right to survey the hallway.",
+      "latency_s": 6.03,
+      "prompt_tokens": 1983
+    },
+    {
+      "n": 52,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I appear to have walked past the open doorway (the rightmost passage) and turned right to face a closed door. The instruction ends at the entrance of that doorway, so I should turn back left to face it and wait there rather than approach the closed door.",
+      "latency_s": 29.91,
+      "prompt_tokens": 1983
+    },
+    {
+      "n": 58,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "The current view shows a bathroom with a bathtub through an open doorway, which does not match the goal of waiting by the bedroom entrance. I need to scan the hallway to relocate the bedroom doorway I presumably exited earlier.",
+      "latency_s": 11.59,
+      "prompt_tokens": 1985
+    },
+    {
+      "n": 60,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to be in a dressing/closet area with a mirror ahead and an open doorway to a walk-in closet on the right. The instruction ends at the bedroom entrance, so I need to check my surroundings to locate the bedroom doorway before stopping.",
+      "latency_s": 17.63,
+      "prompt_tokens": 1986
+    },
+    {
+      "n": 66,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm currently facing a mirror/dressing area; the mirror reflects the bedroom with white carpet behind me, and the bathroom opening is to my right. The instruction ends at the bedroom entrance, so I need to turn around to face the bedroom and approach its doorway.",
+      "latency_s": 13.46,
+      "prompt_tokens": 1987
+    },
+    {
+      "n": 69,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm currently facing a closed white door, which suggests I've drifted off the path. The instruction ends at the bedroom entrance, so I need to reorient and find the open doorway leading back toward the bedroom/hallway area.",
+      "latency_s": 4.09,
+      "prompt_tokens": 1990
+    },
+    {
+      "n": 70,
+      "actions": [
+        "TURN_RIGHT"
+      ],
+      "thought": "I am currently in a hallway facing a bathroom doorway, with a closed white door on my right and a closet on my left. The instruction mentions walking past stairs into the rightmost doorway, so I need to scan to my right to locate the stairs and other doorways before proceeding.",
+      "latency_s": 7.06,
+      "prompt_tokens": 1991
+    },
+    {
+      "n": 72,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to be in a hallway near a bathroom, but I haven't located the stairs or the bedroom entrance described in the instruction. I'll turn right to scan the hallway for the stairs and the rightmost doorway.",
+      "latency_s": 10.57,
+      "prompt_tokens": 1991
+    },
+    {
+      "n": 73,
+      "actions": [
+        "STOP"
+      ],
+      "thought": "I have navigated out of the bedroom and down the hallway; the rightmost doorway (the closed white door) is directly in front of me, roughly 1-2 m away, which matches the 'entrance of the bedroom' where I should wait. I am already within 3 m, so I will stop here.",
+      "latency_s": 10.45,
+      "prompt_tokens": 1993
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    6.903,
+    6.903,
+    7.139,
+    7.384,
+    7.621,
+    7.862
+  ],
+  "final_distance": 7.862,
+  "min_distance": 6.903,
+  "metrics": {
+    "distance_to_goal": 7.8624725341796875,
+    "success": 0.0,
+    "spl": 0.0,
+    "oracle_success": 0.0,
+    "path_length": 1.0093351900577545,
+    "steps_taken": 73.0
+  },
+  "success": false,
+  "backend_stats": {
+    "calls": 22,
+    "failures": 0,
+    "prompt_tokens": 41371,
+    "completion_tokens": 14770,
+    "reasoning_tokens": 13257,
+    "latency_s": 227.3436086177826
+  },
+  "stop_deferrals": 0
+}

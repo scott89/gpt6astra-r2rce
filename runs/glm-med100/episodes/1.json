@@ -1,0 +1,527 @@
+{
+  "episode_id": 1,
+  "scene_id": "zsNo4HB9uLZ",
+  "instruction": "Exit the bedroom and turn left. Walk straight passing the gray couch and stop near the rug.",
+  "actions_taken": 120,
+  "policy_calls": 41,
+  "api_latency_s": 165.68,
+  "prompt_tokens": 79128,
+  "completion_tokens": 8890,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 180.61,
+  "steps": [
+    {
+      "n": 3,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I appear to be inside a bedroom/closet facing a wall with hanging clothes. The opening to the left leads out toward a hallway with dark wood double doors. I should turn left to face the exit before moving.",
+      "latency_s": 2.78,
+      "prompt_tokens": 879
+    },
+    {
+      "n": 5,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I have turned left and now face down a hallway with a doorway ahead. I should proceed forward through the hallway to find the gray couch and rug.",
+      "latency_s": 2.64,
+      "prompt_tokens": 1234
+    },
+    {
+      "n": 7,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I've exited the bedroom into a hallway facing brown double doors. The instruction says to turn left, so I'll rotate left to find the living area with the gray couch and rug.",
+      "latency_s": 2.37,
+      "prompt_tokens": 1598
+    },
+    {
+      "n": 10,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I have exited the bedroom and turned left, but my last turns left me facing a wall/door instead of the hallway. I need to turn right to re-align with the hallway ahead, then proceed forward to find the gray couch and rug.",
+      "latency_s": 3.65,
+      "prompt_tokens": 1962
+    },
+    {
+      "n": 12,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I've exited the bedroom into a hallway with double doors ahead. The instruction says to turn left and walk past a gray couch, so I should look into the open doorway on the left side of the hallway where the living area likely is.",
+      "latency_s": 2.74,
+      "prompt_tokens": 1964
+    },
+    {
+      "n": 15,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I appear to be in a hallway facing a wall, with the corridor extending to my right toward a brown double door. I need to reorient down the hallway to find the living room with the gray couch and rug.",
+      "latency_s": 2.77,
+      "prompt_tokens": 1965
+    },
+    {
+      "n": 17,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a hallway facing brown double doors, with an open doorway on the right that may lead to the living area with the gray couch and rug. I'll turn right to inspect that opening before proceeding.",
+      "latency_s": 3.92,
+      "prompt_tokens": 1967
+    },
+    {
+      "n": 19,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a hallway facing brown double doors, but I don't see the gray couch or rug yet. There was an open doorway on the right side of the hallway, so I'll turn right to check that room for the couch and rug.",
+      "latency_s": 4.61,
+      "prompt_tokens": 1968
+    },
+    {
+      "n": 25,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've walked into a frosted glass door at the end of the hallway, which is a dead end. I need to turn around and head back down the hallway toward the open living area where the gray couch and rug should be.",
+      "latency_s": 4.14,
+      "prompt_tokens": 1969
+    },
+    {
+      "n": 27,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm currently facing a wall next to a doorway; I need to re-orient to find the hallway with the gray couch and rug. I'll turn right to scan the space.",
+      "latency_s": 4.28,
+      "prompt_tokens": 1972
+    },
+    {
+      "n": 30,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hallway facing a dark chair with an orange pillow ahead; the instruction says to walk straight past the gray couch toward the rug. I'll advance down the hallway and re-observe.",
+      "latency_s": 2.52,
+      "prompt_tokens": 1973
+    },
+    {
+      "n": 32,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I appear to have exited the bedroom into an open area with a dark armchair and curtained windows ahead. The instruction says to walk straight past the gray couch and stop near the rug, so I should advance into this room and look for the rug.",
+      "latency_s": 4.06,
+      "prompt_tokens": 1974
+    },
+    {
+      "n": 34,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I have exited the bedroom and turned left; ahead I can see a dark gray couch with an orange pillow near the curtained windows. I will advance toward it and look for the rug nearby before stopping.",
+      "latency_s": 3.08,
+      "prompt_tokens": 1975
+    },
+    {
+      "n": 42,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm inside the bedroom facing the bed and curtained windows. The doorway I entered through is behind me to the left, so I'll rotate left to re-acquire the exit before moving.",
+      "latency_s": 7.43,
+      "prompt_tokens": 1975
+    },
+    {
+      "n": 44,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I am currently facing a wall very close up, with what looks like an open doorway visible on the left edge of the frame. I need to rotate left to center that opening and see where it leads before moving, since I likely overshot my turn while exiting the bedroom.",
+      "latency_s": 11.48,
+      "prompt_tokens": 1977
+    },
+    {
+      "n": 47,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I appear to have exited the bedroom into a hallway but am now facing a wall/closet edge. I need to turn left to reorient toward the open hallway passage and find the living area with the gray couch and rug.",
+      "latency_s": 3.58,
+      "prompt_tokens": 1978
+    },
+    {
+      "n": 49,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hallway with mirrored closet doors on the left and an open doorway ahead leading to another room. I need to continue forward through this doorway to find the living area with the gray couch and rug.",
+      "latency_s": 2.97,
+      "prompt_tokens": 1979
+    },
+    {
+      "n": 50,
+      "actions": [
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a carpeted hallway with mirrored closet doors on the left and an opening ahead leading toward a room with brown double doors. I haven't seen the gray couch or rug yet, so I'll advance down the hallway toward the opening and re-observe.",
+      "latency_s": 6.23,
+      "prompt_tokens": 1980
+    },
+    {
+      "n": 53,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hallway with mirrored closet doors on the left and an open doorway ahead leading to a brighter room. I haven't seen the gray couch or rug yet, so I should continue forward through the hallway opening to find the living area.",
+      "latency_s": 3.16,
+      "prompt_tokens": 1979
+    },
+    {
+      "n": 56,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I am currently facing a wall in a hallway, with a doorway and brown double doors visible to my right. I need to reorient toward the open hallway to find the living area with the gray couch and rug.",
+      "latency_s": 3.4,
+      "prompt_tokens": 1980
+    },
+    {
+      "n": 58,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hallway with brown double doors ahead and a dark opening on the right. The living area with the gray couch and rug is likely through that opening or further down the hall, so I'll advance carefully and re-observe.",
+      "latency_s": 3.71,
+      "prompt_tokens": 1982
+    },
+    {
+      "n": 62,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a hallway with double doors ahead and an open doorway on the right that may lead to the living area with the gray couch and rug. I'll move forward along the hallway, then turn right to inspect that opening.",
+      "latency_s": 4.42,
+      "prompt_tokens": 1983
+    },
+    {
+      "n": 64,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hallway facing closed double doors, with a dark open doorway just to the right of them. The instruction says to walk straight past a gray couch to a rug, which I haven't seen yet, so I should advance toward that open doorway to reach the living area.",
+      "latency_s": 3.25,
+      "prompt_tokens": 1984
+    },
+    {
+      "n": 67,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hallway facing closed brown double doors, with an open doorway visible to the right. The instruction says to walk toward the area with the gray couch and rug, so I should head through that open doorway on the right.",
+      "latency_s": 2.58,
+      "prompt_tokens": 1985
+    },
+    {
+      "n": 70,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm facing a wall corner with a painting, having drifted off course. I need to turn left to face back down the hallway toward the living area with the gray couch and rug.",
+      "latency_s": 2.5,
+      "prompt_tokens": 1987
+    },
+    {
+      "n": 73,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing closed double doors in a hallway; the open dark doorway on the right likely leads to the living area with the couch and rug, so I'll turn toward it and re-observe before moving.",
+      "latency_s": 5.72,
+      "prompt_tokens": 1987
+    },
+    {
+      "n": 79,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall with a painting too close; the hallway with double doors is behind me. I need to turn around and head back toward the open living area to find the gray couch and rug.",
+      "latency_s": 2.2,
+      "prompt_tokens": 1990
+    },
+    {
+      "n": 83,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I've drifted into a wall corner facing a painting, with no view of the hallway or living area. I need to turn left to re-orient back toward the open hallway I saw earlier, then look for the gray couch and rug.",
+      "latency_s": 3.91,
+      "prompt_tokens": 1993
+    },
+    {
+      "n": 87,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I am currently facing a wall with a painting at very close range, so I need to reorient. The first frame showed an open hallway/room to my left, so I will turn left to face the open space and look for the gray couch and rug.",
+      "latency_s": 2.98,
+      "prompt_tokens": 1994
+    },
+    {
+      "n": 90,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm currently facing a wall with a painting, but the previous frames show a hallway with double doors to my left. I need to turn left to reorient toward the hallway and look for the gray couch and rug.",
+      "latency_s": 3.68,
+      "prompt_tokens": 1995
+    },
+    {
+      "n": 93,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm facing a wall with a painting next to double doors; the couch and rug are not visible. I'll turn left to look down the hallway for the living area.",
+      "latency_s": 3.41,
+      "prompt_tokens": 1996
+    },
+    {
+      "n": 96,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I have exited the bedroom and turned; ahead is an open living area with a gray couch visible in the distance. I should walk forward through the opening toward the couch and the rug area.",
+      "latency_s": 2.86,
+      "prompt_tokens": 1997
+    },
+    {
+      "n": 99,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The living area with the gray couch is straight ahead; I need to advance into the room while staying clear of the wall on my right.",
+      "latency_s": 3.29,
+      "prompt_tokens": 1998
+    },
+    {
+      "n": 102,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The living area is ahead with the gray couch visible on the left and a rug in the seating area. I need to walk forward past the island toward the couch and rug, so I'll advance and re-observe.",
+      "latency_s": 5.0,
+      "prompt_tokens": 1998
+    },
+    {
+      "n": 104,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the open living area with the gray couch visible on the left and what appears to be a rug under/near the kitchen island ahead. I need to advance toward the rug, moving around the island, so I'll take a cautious forward step and re-observe.",
+      "latency_s": 5.33,
+      "prompt_tokens": 1999
+    },
+    {
+      "n": 107,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the open living/dining area with a gray couch visible on the left near the windows and what appears to be a rug in the living space. I need to move forward past the dining table toward the couch and rug area, so I'll angle left around the table and advance a bit before re-observing.",
+      "latency_s": 5.75,
+      "prompt_tokens": 2000
+    },
+    {
+      "n": 110,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the open living/dining area with a gray couch visible ahead near the TV wall and a rug on the floor to the left. I need to walk toward the couch and stop near the rug, so I'll advance carefully and re-observe.",
+      "latency_s": 4.43,
+      "prompt_tokens": 2001
+    },
+    {
+      "n": 113,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the open living area with a large white table ahead; the gray couch is visible on the left near the windows, and the rug should be in that seating area. I'll advance toward the couch/rug region, re-observing as I go.",
+      "latency_s": 3.59,
+      "prompt_tokens": 2002
+    },
+    {
+      "n": 116,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the open living room with the gray couch ahead near the TV and a rug visible in the foreground. I need to walk straight toward/past the couch, so I'll advance a few steps and re-observe to judge distance to the rug.",
+      "latency_s": 4.99,
+      "prompt_tokens": 2001
+    },
+    {
+      "n": 119,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the open living room with the gray couch ahead near the TV and a dark rug visible on the right. The instruction says to stop near the rug, so I'll angle toward it and close the remaining distance carefully.",
+      "latency_s": 6.25,
+      "prompt_tokens": 2003
+    },
+    {
+      "n": 120,
+      "actions": [
+        "STOP"
+      ],
+      "thought": "I have exited the bedroom, turned left, and walked past the gray couch; the dark patterned rug is now directly in front of me, so the described destination is reached.",
+      "latency_s": 4.02,
+      "prompt_tokens": 2005
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    7.961,
+    7.961,
+    7.711,
+    7.461,
+    7.211,
+    6.961,
+    7.211,
+    7.461,
+    7.711,
+    7.961,
+    8.211,
+    8.445,
+    8.695,
+    8.456,
+    8.219,
+    7.985,
+    7.756,
+    7.534,
+    7.321,
+    7.076,
+    6.834,
+    6.6,
+    6.382,
+    6.201,
+    6.187,
+    6.299,
+    6.483,
+    6.672,
+    6.437,
+    6.203,
+    5.971,
+    5.74,
+    5.511,
+    5.283,
+    5.058,
+    4.831,
+    4.611,
+    4.395,
+    4.209,
+    4.098,
+    4.223
+  ],
+  "final_distance": 4.223,
+  "min_distance": 4.098,
+  "metrics": {
+    "distance_to_goal": 4.223205089569092,
+    "success": 0.0,
+    "spl": 0.0,
+    "oracle_success": 0.0,
+    "path_length": 9.583005174994469,
+    "steps_taken": 120.0
+  },
+  "success": false,
+  "backend_stats": {
+    "calls": 41,
+    "failures": 1,
+    "prompt_tokens": 79128,
+    "completion_tokens": 8890,
+    "reasoning_tokens": 5977,
+    "latency_s": 165.66902136802673
+  },
+  "stop_deferrals": 0
+}

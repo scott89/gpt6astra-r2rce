@@ -1,0 +1,385 @@
+{
+  "episode_id": 1305,
+  "scene_id": "EU6Fwq7SyZv",
+  "instruction": "Go past table and cabinet. Stop just after chairs.",
+  "actions_taken": 75,
+  "policy_calls": 28,
+  "api_latency_s": 127.39,
+  "prompt_tokens": 52748,
+  "completion_tokens": 6363,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 127.91,
+  "steps": [
+    {
+      "n": 3,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I see a large open room with a pool table ahead, a cabinet/bookshelf beyond it, and chairs near the fireplace on the right. I should advance toward the table first, then navigate past it and the cabinet, stopping just after the chairs. I'll start with a forward step and re-observe.",
+      "latency_s": 2.27,
+      "prompt_tokens": 871
+    },
+    {
+      "n": 5,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a large open room with a pool table on the left, a cabinet/bookshelf ahead, and chairs near the fireplace on the right. I need to continue forward past the table and cabinet, then stop just after the chairs. The path ahead between the table and cabinet looks clear, so I'll advance and re-observe.",
+      "latency_s": 3.18,
+      "prompt_tokens": 1226
+    },
+    {
+      "n": 7,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see a pool table on the left, a cabinet/bookshelf ahead, and a chair to the right of the cabinet. The instruction says to go past the table and cabinet, then stop just after the chairs. I'm not yet past them, so I should continue forward toward the cabinet area.",
+      "latency_s": 2.85,
+      "prompt_tokens": 1590
+    },
+    {
+      "n": 10,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've advanced into a large room with a pool table on the left, a cabinet/bookshelf ahead, and an armchair on the right. The instruction says to go past the table and cabinet, then stop just after the chairs, so I should continue forward along the open walkway between them.",
+      "latency_s": 3.36,
+      "prompt_tokens": 1953
+    },
+    {
+      "n": 13,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've advanced toward the pool table (left) and cabinet (ahead), with the armchairs on the right. I need to continue forward past the cabinet and chairs, then stop just after them.",
+      "latency_s": 3.51,
+      "prompt_tokens": 1953
+    },
+    {
+      "n": 16,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm moving along the open floor between the pool table (left) and the cabinet/armchairs (right). The chairs are still ahead of me, so I need to advance further until I'm just past them before stopping.",
+      "latency_s": 3.6,
+      "prompt_tokens": 1954
+    },
+    {
+      "n": 17,
+      "actions": [
+        "TURN_RIGHT"
+      ],
+      "thought": "I have moved forward past the pool table and the cabinet/bookshelf on the right. The patterned armchairs were on the right and have just exited my view, suggesting I am at or just past them. I will turn right to verify the chairs' position before stopping.",
+      "latency_s": 6.08,
+      "prompt_tokens": 1953
+    },
+    {
+      "n": 18,
+      "actions": [
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the pool table on the left, the cabinet/bookshelf ahead, and a chair at the right edge. I need to move forward past the cabinet and chairs, then stop just after them. I'll advance a step and re-observe.",
+      "latency_s": 3.23,
+      "prompt_tokens": 1954
+    },
+    {
+      "n": 21,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the pool table on the left and the large cabinet/bookshelf ahead, with a chair appearing at the right edge. I need to continue forward past the cabinet to reach the chairs, then stop just after them.",
+      "latency_s": 3.16,
+      "prompt_tokens": 1954
+    },
+    {
+      "n": 23,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I have passed the pool table on my left and am now alongside the large cabinet/bookshelf. The chair was visible on the right earlier, so I need to continue forward past the cabinet to reach just after the chairs.",
+      "latency_s": 4.26,
+      "prompt_tokens": 1955
+    },
+    {
+      "n": 25,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I am currently pressed close against the tall cabinet/bookshelf on my right, with the table area to my left. I need to turn left to face the open walkway past the table, then continue forward to find the chairs and stop just after them.",
+      "latency_s": 3.85,
+      "prompt_tokens": 1955
+    },
+    {
+      "n": 28,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I have turned to face the table area; the cushioned table is on my left and the cabinet/bookshelf is behind on the right. I need to pass the table and cabinet and look for chairs just beyond, so I will advance carefully and re-observe.",
+      "latency_s": 3.66,
+      "prompt_tokens": 1956
+    },
+    {
+      "n": 32,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall with a pool cue rack and a cushioned bench/table very close ahead, so I can't go further forward. I haven't seen any chairs yet, so I need to scan the room by turning to find them before stopping.",
+      "latency_s": 4.8,
+      "prompt_tokens": 1957
+    },
+    {
+      "n": 36,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I've turned into a wall corner; the room with the table is behind me to the left. I need to rotate back left to re-enter the room and look for the chairs.",
+      "latency_s": 4.3,
+      "prompt_tokens": 1959
+    },
+    {
+      "n": 42,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall corner with pool cues and a bench \u2014 a dead end. The instruction says to go past table and cabinet and stop just after chairs, so I need to turn around and head back into the room to find the chairs.",
+      "latency_s": 4.71,
+      "prompt_tokens": 1960
+    },
+    {
+      "n": 46,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I am facing a wall with a door latch at very close range, so I must have drifted into a corner. I need to rotate to re-orient toward the room and locate the table, cabinet, and chairs mentioned in the instruction.",
+      "latency_s": 4.07,
+      "prompt_tokens": 1963
+    },
+    {
+      "n": 47,
+      "actions": [
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see a patterned chair directly ahead, a cabinet on the left, and a table further in the room. The instruction says to go past the table and cabinet and stop just after the chairs, so I need to advance carefully past the chair in front of me, re-observing between steps.",
+      "latency_s": 5.56,
+      "prompt_tokens": 1965
+    },
+    {
+      "n": 49,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm emerging from behind a wall into a large barn-like room. A patterned chair is directly ahead, with a table/desk beyond it and a cabinet on the left. I need to pass the table and cabinet, then stop just after the chairs, so I'll steer slightly right around the chair and advance a step before re-observing.",
+      "latency_s": 5.67,
+      "prompt_tokens": 1966
+    },
+    {
+      "n": 52,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I am beside the cabinet with a patterned chair directly ahead; the table is beyond it. To stop 'just after chairs' I need to pass the chair, so I will angle right around it and advance one step before re-observing.",
+      "latency_s": 8.3,
+      "prompt_tokens": 1967
+    },
+    {
+      "n": 55,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I have passed the table and cabinet and am now facing the open barn room with the white chairs ahead-left near the desk. I need to advance toward and just past those chairs before stopping.",
+      "latency_s": 3.93,
+      "prompt_tokens": 1969
+    },
+    {
+      "n": 58,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the pool table on the left and the chairs ahead near it. I need to advance toward the chairs and stop just after passing them, so I'll take a forward step and re-observe.",
+      "latency_s": 4.3,
+      "prompt_tokens": 1969
+    },
+    {
+      "n": 60,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the table on the left, chairs ahead near the center, and glass doors on the right. I need to advance toward and past the chairs, so I'll take a couple of forward steps and re-observe before deciding where to stop.",
+      "latency_s": 3.39,
+      "prompt_tokens": 1970
+    },
+    {
+      "n": 63,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the chairs ahead-left near the wooden pole, with the table already behind me. I need to steer slightly left around the pole to pass the chairs, then stop just after them.",
+      "latency_s": 4.44,
+      "prompt_tokens": 1970
+    },
+    {
+      "n": 65,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the table on the left, the cabinet behind it, and the row of chairs ahead near the center. I need to advance past the table and cabinet, so I'll move forward toward the chairs and re-observe before passing them.",
+      "latency_s": 5.58,
+      "prompt_tokens": 1971
+    },
+    {
+      "n": 68,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the table on the left and the row of chairs ahead, with the cabinet behind them. The instruction says to go past the table and cabinet and stop just after the chairs, so I need to keep moving forward past the chairs before stopping.",
+      "latency_s": 6.33,
+      "prompt_tokens": 1971
+    },
+    {
+      "n": 70,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I have passed the table (left) and the cabinet/dresser ahead; the row of beige chairs is directly in front of me. I need to advance just past the chairs before stopping.",
+      "latency_s": 5.07,
+      "prompt_tokens": 1972
+    },
+    {
+      "n": 74,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the table on the left, the dark cabinet/dresser ahead, and the upholstered chairs directly in front of me. To stop 'just after chairs' I need to skirt around them on the open stone floor to the right and then stop.",
+      "latency_s": 7.79,
+      "prompt_tokens": 1971
+    },
+    {
+      "n": 75,
+      "actions": [
+        "STOP"
+      ],
+      "thought": "I have already passed the table and the cabinet (dresser), and the chairs/sofa are now just behind me on the left as I face the glass doors. This places me 'just after the chairs', so I should stop here.",
+      "latency_s": 6.14,
+      "prompt_tokens": 1974
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    7.364,
+    7.573,
+    7.792,
+    8.018,
+    8.249,
+    8.484,
+    8.721,
+    8.96,
+    9.201,
+    9.444,
+    9.687,
+    9.931,
+    10.176,
+    10.807,
+    10.815,
+    10.847,
+    10.902,
+    10.913,
+    10.947,
+    11.005,
+    11.092,
+    11.213,
+    11.373,
+    11.373,
+    11.611,
+    11.853,
+    12.104,
+    11.877,
+    11.646,
+    11.402,
+    11.182,
+    10.979,
+    10.806,
+    10.663,
+    10.546,
+    10.454,
+    10.385,
+    10.343,
+    10.264,
+    10.212,
+    9.907,
+    9.66,
+    9.418,
+    9.176,
+    8.939,
+    8.711,
+    8.499,
+    8.251
+  ],
+  "final_distance": 8.251,
+  "min_distance": 7.364,
+  "metrics": {
+    "distance_to_goal": 8.250518798828125,
+    "success": 0.0,
+    "spl": 0.0,
+    "oracle_success": 0.0,
+    "path_length": 11.524975465610623,
+    "steps_taken": 75.0
+  },
+  "success": false,
+  "backend_stats": {
+    "calls": 28,
+    "failures": 0,
+    "prompt_tokens": 52748,
+    "completion_tokens": 6363,
+    "reasoning_tokens": 4394,
+    "latency_s": 127.38672375679016
+  },
+  "stop_deferrals": 0
+}

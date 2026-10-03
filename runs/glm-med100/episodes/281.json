@@ -1,0 +1,784 @@
+{
+  "episode_id": 281,
+  "scene_id": "EU6Fwq7SyZv",
+  "instruction": "Go to the left of the living area, and continue past it. Take a right and go to the pool table.",
+  "actions_taken": 190,
+  "policy_calls": 61,
+  "api_latency_s": 232.53,
+  "prompt_tokens": 119930,
+  "completion_tokens": 11698,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 233.65,
+  "steps": [
+    {
+      "n": 3,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm starting near a staircase with the living area (sofas and TV) visible on the right. The instruction says to go left of the living area and continue past it, so I'll move forward through the open middle area first and re-observe before turning.",
+      "latency_s": 3.37,
+      "prompt_tokens": 884
+    },
+    {
+      "n": 5,
+      "actions": [
+        "MOVE_FORWARD",
+        "TURN_LEFT"
+      ],
+      "thought": "I see a large open living area with sofas on the left and a staircase ahead. The instruction says to go to the left of the living area and continue past it, so I will advance slightly and turn left to face the left side of the living space.",
+      "latency_s": 9.42,
+      "prompt_tokens": 1239
+    },
+    {
+      "n": 7,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm facing a staircase in a large open living space. The instruction says to go left of the living area and continue past it, so I should turn left to find the living area and the path around it.",
+      "latency_s": 2.96,
+      "prompt_tokens": 1603
+    },
+    {
+      "n": 10,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I turned left and now face a decorative railing with the kitchen beyond; the open walkway past the living area is back to my right. I'll rotate right to re-align with the open floor before advancing.",
+      "latency_s": 6.38,
+      "prompt_tokens": 1966
+    },
+    {
+      "n": 14,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a large open living area with a staircase ahead and a kitchen to the left. The instruction says to go left of the living area and continue past it, so I'll turn left and head along that side before looking for the right turn toward the pool table.",
+      "latency_s": 6.81,
+      "prompt_tokens": 1968
+    },
+    {
+      "n": 17,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm currently facing a kitchen counter with a decorative railing blocking direct passage. The instruction says to go left of the living area and continue past it, so I should turn left to find the walkway along the left side before later taking a right toward the pool table.",
+      "latency_s": 5.14,
+      "prompt_tokens": 1970
+    },
+    {
+      "n": 20,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I have turned around and now face a blocked view with a wooden railing in front of me; the open floor with cabinets and a window lies to my right. I need to maneuver around this obstruction and head toward the open living area before turning right toward the pool table.",
+      "latency_s": 3.73,
+      "prompt_tokens": 1971
+    },
+    {
+      "n": 23,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "A large sculpture is blocking my view directly ahead. I can see a kitchen area and a window to the right, but I need to find a way around this obstacle to continue toward the living area and then the pool table. I'll turn right to look for a clear path.",
+      "latency_s": 3.05,
+      "prompt_tokens": 1972
+    },
+    {
+      "n": 25,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a large open living area with a staircase ahead. The instruction says to go left of the living area, continue past it, then take a right to the pool table. I'll advance toward the open floor first and re-observe to find the left passage.",
+      "latency_s": 3.62,
+      "prompt_tokens": 1974
+    },
+    {
+      "n": 27,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm facing a staircase in a large open-plan space. The instruction says to go left of the living area, continue past it, then take a right toward the pool table. I should turn left to look toward the living area first.",
+      "latency_s": 3.02,
+      "prompt_tokens": 1975
+    },
+    {
+      "n": 29,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing the open living area with the staircase ahead. The instruction says to go to the left of the living area and continue past it, so I should advance toward the open floor by the windows first, then bear left.",
+      "latency_s": 3.25,
+      "prompt_tokens": 1976
+    },
+    {
+      "n": 31,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a large open room with a dining table ahead, kitchen to the left, and stairs to the right. I need to move past the dining/living area and then turn right to find the pool table, so I'll advance carefully toward the open floor past the table.",
+      "latency_s": 3.58,
+      "prompt_tokens": 1977
+    },
+    {
+      "n": 34,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I need to move past the dining/living area and then turn right to find the pool table. The open floor ahead past the table looks navigable.",
+      "latency_s": 3.62,
+      "prompt_tokens": 1977
+    },
+    {
+      "n": 37,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a large open room with a long dining table ahead. The instruction says to go left of the living area, continue past it, then take a right toward the pool table. I'll advance along the left side of the table first and re-observe.",
+      "latency_s": 3.36,
+      "prompt_tokens": 1978
+    },
+    {
+      "n": 40,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a large dining/living area with a long wooden table. The instruction says to go left of the living area, continue past it, then take a right toward the pool table. The open floor path continues forward past the table toward the windowed wall, so I'll advance along the clear floor on the right side of the table and re-observe.",
+      "latency_s": 3.67,
+      "prompt_tokens": 1978
+    },
+    {
+      "n": 43,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a dining room beside a long wooden table, facing the far end with the large windows. The open floor continues to the right of the table, which likely leads toward the living area. I'll turn right and advance along the table to explore.",
+      "latency_s": 3.93,
+      "prompt_tokens": 1979
+    },
+    {
+      "n": 46,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a dining room with a long wooden table, facing the windows. I haven't seen the pool table yet, so I need to scan the room. I'll turn right to look for an opening or the pool table area.",
+      "latency_s": 3.37,
+      "prompt_tokens": 1980
+    },
+    {
+      "n": 50,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a large open living area with a staircase on my right and a dining table on my left. The instruction says to continue past the living area and take a right toward the pool table, so I'll move forward past the staircase and then turn right to look for it.",
+      "latency_s": 3.6,
+      "prompt_tokens": 1982
+    },
+    {
+      "n": 55,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm currently pressed close against a staircase railing, which blocks forward travel. The open living area with the large windows is to my left, so I'll rotate left to face the open floor and then advance to look for the pool table beyond.",
+      "latency_s": 5.46,
+      "prompt_tokens": 1983
+    },
+    {
+      "n": 58,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in the dining/living area with a wooden table and chairs. I need to find the pool table, which isn't visible yet, so I'll scan the room by turning to look around before moving.",
+      "latency_s": 3.06,
+      "prompt_tokens": 1986
+    },
+    {
+      "n": 62,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm currently facing a large wooden staircase with a kitchen/dining area behind me. The instruction says to go left of the living area, continue past it, then take a right toward the pool table. I need to move around this staircase to find the living area, so I'll turn right to scan the space beyond the stairs.",
+      "latency_s": 4.09,
+      "prompt_tokens": 1988
+    },
+    {
+      "n": 65,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've drifted too close to a staircase and lost sight of the open living area. I need to turn away from the stairs to re-orient toward the open floor where the pool table should be.",
+      "latency_s": 3.86,
+      "prompt_tokens": 1990
+    },
+    {
+      "n": 67,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm beside a large staircase; the open area with glass doors ahead looks like the space past the living area. I'll advance toward it and look for the pool table room on the right.",
+      "latency_s": 4.39,
+      "prompt_tokens": 1991
+    },
+    {
+      "n": 70,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm currently wedged under a staircase facing a wooden post, which is blocking my view. To the right there's an open room with glass doors and what looks like a fireplace area \u2014 likely the living area. I should turn right to re-orient toward that open space and look for the pool table.",
+      "latency_s": 2.96,
+      "prompt_tokens": 1992
+    },
+    {
+      "n": 73,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a large rustic room with wooden walls; I don't see the pool table in the current view. I'll turn right to scan the rest of the room for the pool table.",
+      "latency_s": 3.05,
+      "prompt_tokens": 1993
+    },
+    {
+      "n": 76,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm currently facing a dining table in a rustic kitchen area, but I don't see the pool table yet. I need to scan the room to locate the living area and the pool table, so I'll turn right to check that side first.",
+      "latency_s": 3.48,
+      "prompt_tokens": 1995
+    },
+    {
+      "n": 80,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm currently facing a dining table with chairs near the kitchen cabinets. The instruction says to take a right and head to the pool table, so I need to scan the room to locate it. I'll turn right to look past the table.",
+      "latency_s": 3.21,
+      "prompt_tokens": 1997
+    },
+    {
+      "n": 83,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a kitchen/dining area with a long wooden table and cabinets. The instruction says to take a right and head to the pool table, so I need to scan the room to find the direction toward it.",
+      "latency_s": 3.59,
+      "prompt_tokens": 1998
+    },
+    {
+      "n": 85,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a kitchen/dining area with a staircase railing on my right. The instruction says to pass the living area and then turn right toward the pool table, so I should continue moving through this open space and scan for the living area with the pool table.",
+      "latency_s": 4.32,
+      "prompt_tokens": 2000
+    },
+    {
+      "n": 88,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm currently facing a staircase with a blocked view. I need to re-orient to find the open living area and locate the pool table, so I'll turn left to scan the room.",
+      "latency_s": 2.85,
+      "prompt_tokens": 2001
+    },
+    {
+      "n": 91,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm beside a staircase looking at a dining/kitchen area with a 'Stovers Feed' sign. The instruction says to go left of the living area and continue past it, then take a right to the pool table. I should move forward past the dining table into the open living space first, then look left for the living area.",
+      "latency_s": 3.87,
+      "prompt_tokens": 2002
+    },
+    {
+      "n": 94,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a kitchen/dining room with a wooden table. The instruction says to go left of the living area, continue past it, then take a right to the pool table. I need to move forward through this room toward the open area to find the living space.",
+      "latency_s": 3.15,
+      "prompt_tokens": 2003
+    },
+    {
+      "n": 97,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in a kitchen/dining area facing the stove and windows, with a dining table on my left. The pool table isn't visible here, so I need to turn left to look past the dining table toward the living area and find the pool table.",
+      "latency_s": 4.05,
+      "prompt_tokens": 2003
+    },
+    {
+      "n": 99,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a kitchen/dining area with a large table and chairs blocking the view. I need to find the living area and then the pool table, so I should turn to scan the room for a path forward.",
+      "latency_s": 3.22,
+      "prompt_tokens": 2004
+    },
+    {
+      "n": 103,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm currently facing a kitchen area with a stove and dining table. The instruction says to go left of the living area, continue past it, then take a right to the pool table. I need to first locate the living area, so I'll turn to survey my surroundings.",
+      "latency_s": 3.82,
+      "prompt_tokens": 2005
+    },
+    {
+      "n": 106,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a kitchen/dining area with a stove and green cabinets. The instruction says to go left of the living area and continue past it, then take a right to the pool table. I need to move through this space toward the open area past the kitchen to find the living area, so I'll advance forward and then scan to the right.",
+      "latency_s": 4.09,
+      "prompt_tokens": 2007
+    },
+    {
+      "n": 109,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a kitchen area near glass doors. I need to find the living area to its left, then take a right toward the pool table. I'll scan right to locate the open living space.",
+      "latency_s": 3.38,
+      "prompt_tokens": 2009
+    },
+    {
+      "n": 112,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the open living area with sofas and a fireplace ahead. Per the instruction, I need to approach it, pass along its left side, then turn right toward the pool table. I'll advance toward the living area first.",
+      "latency_s": 3.99,
+      "prompt_tokens": 2010
+    },
+    {
+      "n": 117,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the edge of the living area with sofas to my right and a pool table visible in the far left of the room. Per the instruction, I should proceed along the left side of the living area, past it, then turn right toward the pool table. I'll angle left around the wooden pillar and advance along the open stone floor.",
+      "latency_s": 5.74,
+      "prompt_tokens": 2011
+    },
+    {
+      "n": 120,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to be facing the glass door wall next to a pillar, with the living area behind me to the right. I need to turn back toward the open room to re-orient before heading toward the pool table.",
+      "latency_s": 4.61,
+      "prompt_tokens": 2013
+    },
+    {
+      "n": 122,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm currently blocked by a wooden pillar; earlier frames showed the living area with the pool table visible to the left. I need to turn left to clear the pillar and re-acquire the pool table before moving.",
+      "latency_s": 5.67,
+      "prompt_tokens": 2014
+    },
+    {
+      "n": 125,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm currently facing a pillar with glass doors on my left and the living area visible to my right. I need to turn right to look into the living area and find the path past it toward the pool table.",
+      "latency_s": 3.58,
+      "prompt_tokens": 2016
+    },
+    {
+      "n": 127,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm currently facing a pillar with the living area visible to my right. The instruction says to go to the left of the living area and continue past it, so I need to turn right to see the space and position myself along its left side.",
+      "latency_s": 3.62,
+      "prompt_tokens": 2018
+    },
+    {
+      "n": 131,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm entering a large open living area with seating ahead. The instruction says to go to the left of the living area and continue past it, so I'll advance forward while steering slightly left around the chair, then look for a right turn toward the pool table.",
+      "latency_s": 3.28,
+      "prompt_tokens": 2019
+    },
+    {
+      "n": 134,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the living area with sofas and a coffee table ahead. I need to pass it on the left side, so I'll advance carefully through the open floor space.",
+      "latency_s": 3.94,
+      "prompt_tokens": 2021
+    },
+    {
+      "n": 137,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the edge of the living area with sofas and a coffee table ahead. The instruction says to go left of the living area, continue past it, then take a right toward the pool table. I'll advance through the living area first and re-observe.",
+      "latency_s": 4.37,
+      "prompt_tokens": 2022
+    },
+    {
+      "n": 141,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing the living area with sofas and an ottoman. Per the instruction, I need to head left past the seating area, then turn right toward the pool table. I'll turn left and advance along the left side of the living space.",
+      "latency_s": 3.47,
+      "prompt_tokens": 2023
+    },
+    {
+      "n": 146,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the large open living area with sofas and a fireplace. The instruction says to go left of the living area and continue past it, so I'll turn left and move along the left side of the seating area before looking for the right turn toward the pool table.",
+      "latency_s": 4.71,
+      "prompt_tokens": 2024
+    },
+    {
+      "n": 149,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the pool table ahead through the open area, past the armchair in front of me. I'll angle slightly left to skirt around the chair and the wooden post, then advance toward the pool table.",
+      "latency_s": 3.98,
+      "prompt_tokens": 2026
+    },
+    {
+      "n": 152,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The pool table is visible ahead, slightly left of center, past the armchair in the foreground. I will angle left to skirt around the chair and advance toward the open floor leading to the pool table.",
+      "latency_s": 3.97,
+      "prompt_tokens": 2027
+    },
+    {
+      "n": 156,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the pool table ahead to the right, past the seating area. I need to turn right toward it and advance across the open floor.",
+      "latency_s": 3.25,
+      "prompt_tokens": 2029
+    },
+    {
+      "n": 160,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The pool table is visible ahead in the open living area, with a chair blocking the immediate path. I will angle right to skirt around the chair, then advance toward the pool table.",
+      "latency_s": 3.98,
+      "prompt_tokens": 2031
+    },
+    {
+      "n": 163,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The pool table is visible on the left side of my current view, past the sofa and desk area. I need to turn left and navigate toward it.",
+      "latency_s": 2.17,
+      "prompt_tokens": 2032
+    },
+    {
+      "n": 166,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The pool table is clearly visible ahead-left across the open floor. I'll advance toward it, re-observing as I go.",
+      "latency_s": 2.0,
+      "prompt_tokens": 2035
+    },
+    {
+      "n": 170,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The pool table is clearly visible ahead across the open floor, roughly 4-5 m away. I'll advance toward it and stop once within range.",
+      "latency_s": 2.68,
+      "prompt_tokens": 2035
+    },
+    {
+      "n": 174,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The pool table is clearly visible ahead, roughly 4 m away, with a wooden post in the near path. I'll advance a couple of steps while steering slightly left of the post, then re-observe before closing the distance.",
+      "latency_s": 3.75,
+      "prompt_tokens": 2034
+    },
+    {
+      "n": 177,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The pool table is clearly visible ahead in the open room, roughly 3-4 m away. I'll advance a couple of steps toward it and then stop once I'm within range.",
+      "latency_s": 2.58,
+      "prompt_tokens": 2037
+    },
+    {
+      "n": 180,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The pool table is clearly visible ahead in this game room, roughly 4 m away with a wooden post slightly to my left. I will advance toward it and re-observe before getting within stopping range.",
+      "latency_s": 2.66,
+      "prompt_tokens": 2038
+    },
+    {
+      "n": 183,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The pool table is clearly visible ahead in this game room, roughly 3-4 m away, with a wooden post directly in front of me. I'll angle slightly right to pass the post and approach the table, then re-observe before stopping.",
+      "latency_s": 3.59,
+      "prompt_tokens": 2038
+    },
+    {
+      "n": 186,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The pool table is clearly visible ahead in this game room, roughly 3-4 m away. I'll advance a couple of steps toward it, keeping slightly right of the wooden pole, then stop once within range.",
+      "latency_s": 2.9,
+      "prompt_tokens": 2040
+    },
+    {
+      "n": 190,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "STOP"
+      ],
+      "thought": "The pool table is clearly visible ahead in this game room, roughly 3-4 m away. I'll take a couple of forward steps to get within range, then stop near it.",
+      "latency_s": 2.26,
+      "prompt_tokens": 2041
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    12.175,
+    11.956,
+    11.737,
+    11.557,
+    11.32,
+    11.235,
+    11.023,
+    10.827,
+    10.704,
+    10.558,
+    10.458,
+    10.464,
+    10.444,
+    10.516,
+    10.618,
+    10.619,
+    10.415,
+    10.218,
+    10.029,
+    9.849,
+    9.671,
+    9.443,
+    9.223,
+    9.223,
+    8.976,
+    8.73,
+    8.51,
+    8.298,
+    8.422,
+    8.577,
+    8.359,
+    8.117,
+    7.879,
+    7.652,
+    7.452,
+    7.33,
+    7.309,
+    7.137,
+    6.984,
+    6.735,
+    6.488,
+    6.241,
+    6.022,
+    5.926,
+    6.068,
+    5.819,
+    5.696,
+    5.576,
+    5.464,
+    5.38,
+    5.327,
+    5.347,
+    5.424,
+    5.549,
+    5.675,
+    5.989,
+    6.232,
+    6.425,
+    6.662,
+    6.77,
+    6.77,
+    6.793,
+    6.82,
+    7.063,
+    7.431,
+    7.659,
+    7.876,
+    7.995
+  ],
+  "final_distance": 7.995,
+  "min_distance": 5.327,
+  "metrics": {
+    "distance_to_goal": 7.99525260925293,
+    "success": 0.0,
+    "spl": 0.0,
+    "oracle_success": 0.0,
+    "path_length": 15.577170327305794,
+    "steps_taken": 190.0
+  },
+  "success": false,
+  "backend_stats": {
+    "calls": 61,
+    "failures": 0,
+    "prompt_tokens": 119930,
+    "completion_tokens": 11698,
+    "reasoning_tokens": 7360,
+    "latency_s": 232.51997184753418
+  },
+  "stop_deferrals": 0
+}

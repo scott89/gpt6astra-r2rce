@@ -1,0 +1,211 @@
+{
+  "episode_id": 136,
+  "scene_id": "zsNo4HB9uLZ",
+  "instruction": "Turn left and head towards the hall way. Continue straight until the door is in your path.",
+  "actions_taken": 40,
+  "policy_calls": 12,
+  "api_latency_s": 29.16,
+  "prompt_tokens": 21376,
+  "completion_tokens": 1272,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 29.38,
+  "steps": [
+    {
+      "n": 4,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm currently facing a kitchen counter. The instruction says to turn left and head toward the hallway, so I'll rotate left to find the hallway opening before moving.",
+      "latency_s": 1.84,
+      "prompt_tokens": 879
+    },
+    {
+      "n": 7,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm already facing down the hallway with a door visible at the far end. I'll advance along the hallway toward it, checking alignment as I go.",
+      "latency_s": 2.01,
+      "prompt_tokens": 1234
+    },
+    {
+      "n": 10,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm aligned with the hallway and can see the door at the far end. I'll continue moving forward along the hallway toward it.",
+      "latency_s": 1.74,
+      "prompt_tokens": 1598
+    },
+    {
+      "n": 13,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm already in the hallway and the door is visible straight ahead at the end. I'll continue moving forward toward it.",
+      "latency_s": 1.98,
+      "prompt_tokens": 1961
+    },
+    {
+      "n": 16,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm aligned with the hallway and the door is visible straight ahead at the far end. I'll advance along the hallway and re-observe to judge the remaining distance to the door.",
+      "latency_s": 2.49,
+      "prompt_tokens": 1962
+    },
+    {
+      "n": 20,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm aligned in the hallway with the slatted door visible straight ahead. I'll advance a few steps toward it and re-observe before getting too close.",
+      "latency_s": 2.17,
+      "prompt_tokens": 1962
+    },
+    {
+      "n": 24,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm already aligned with the hallway and the slatted door is directly ahead at the far end. I'll advance along the hallway toward it, then re-observe to judge the remaining distance.",
+      "latency_s": 2.8,
+      "prompt_tokens": 1961
+    },
+    {
+      "n": 28,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm aligned in the hallway with the slatted front door visible straight ahead. I'll advance a few steps toward it, then re-observe to judge the remaining distance before stopping.",
+      "latency_s": 2.25,
+      "prompt_tokens": 1963
+    },
+    {
+      "n": 32,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm already in the hallway facing the slatted front door directly ahead. The door appears roughly 3-4 m away, so I'll advance a few steps to get within range before stopping.",
+      "latency_s": 2.51,
+      "prompt_tokens": 1963
+    },
+    {
+      "n": 36,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm already in the hallway facing the door at the end. The door is a few meters ahead, so I'll advance a couple of steps to get close to it before stopping.",
+      "latency_s": 2.27,
+      "prompt_tokens": 1964
+    },
+    {
+      "n": 38,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm already in the hallway and the front door is directly ahead, centered in my view. I'll advance a bit closer along the hallway before stopping near the door.",
+      "latency_s": 4.63,
+      "prompt_tokens": 1964
+    },
+    {
+      "n": 40,
+      "actions": [
+        "MOVE_FORWARD",
+        "STOP"
+      ],
+      "thought": "I am already in the hallway facing the door directly ahead, roughly 2-3 m away. One more forward step brings the door squarely in my path, then I should stop.",
+      "latency_s": 2.47,
+      "prompt_tokens": 1965
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    8.184,
+    8.184,
+    7.934,
+    7.684,
+    7.434,
+    7.184,
+    6.934,
+    6.684,
+    6.434,
+    6.184,
+    5.934,
+    5.684,
+    5.434,
+    5.184,
+    4.934,
+    4.684,
+    4.434,
+    4.185,
+    3.935,
+    3.685,
+    3.435,
+    3.185,
+    2.935,
+    2.685,
+    2.436,
+    2.186,
+    1.936,
+    1.687,
+    1.437,
+    1.188,
+    0.939,
+    0.692,
+    0.446,
+    0.213,
+    0.127,
+    0.335,
+    0.577
+  ],
+  "final_distance": 0.577,
+  "min_distance": 0.127,
+  "metrics": {
+    "distance_to_goal": 0.5769940614700317,
+    "success": 1.0,
+    "spl": 0.9353005950486224,
+    "oracle_success": 1.0,
+    "path_length": 8.750000640749931,
+    "steps_taken": 40.0
+  },
+  "success": true,
+  "backend_stats": {
+    "calls": 12,
+    "failures": 0,
+    "prompt_tokens": 21376,
+    "completion_tokens": 1272,
+    "reasoning_tokens": 596,
+    "latency_s": 29.162068605422974
+  },
+  "stop_deferrals": 0
+}

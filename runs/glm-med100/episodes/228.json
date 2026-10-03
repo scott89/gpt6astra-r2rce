@@ -1,0 +1,155 @@
+{
+  "episode_id": 228,
+  "scene_id": "X7HyMhZNoso",
+  "instruction": "Start at the bedroom door. Go out into the hallway. Turn right. Walk past a bathroom on the left. Go into the bedroom door at the end of the hallway on the left.",
+  "actions_taken": 21,
+  "policy_calls": 10,
+  "api_latency_s": 43.88,
+  "prompt_tokens": 17644,
+  "completion_tokens": 2609,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 44.02,
+  "steps": [
+    {
+      "n": 2,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the bedroom door looking into a hallway. I'll step forward into the hallway first, then re-observe to determine where 'turn right' leads.",
+      "latency_s": 3.62,
+      "prompt_tokens": 898
+    },
+    {
+      "n": 5,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I see a wall directly ahead with an open doorway on the left leading into a hallway. I need to turn left to align with the doorway before moving through it.",
+      "latency_s": 2.28,
+      "prompt_tokens": 1253
+    },
+    {
+      "n": 7,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the hallway facing down its length, with an open doorway visible on the right side partway down. The instruction says to walk past a bathroom and reach the bedroom door at the end of the hall on the left, so I should continue forward along the hallway and re-observe before approaching the end.",
+      "latency_s": 5.22,
+      "prompt_tokens": 1617
+    },
+    {
+      "n": 9,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the hallway facing down its length; the doorway ahead with the white table appears to be the bathroom I need to pass on the left. I'll advance along the hallway and re-observe to find the bedroom door at the end on the left.",
+      "latency_s": 3.85,
+      "prompt_tokens": 1981
+    },
+    {
+      "n": 11,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the hallway heading toward a doorway ahead; the instruction says to pass a bathroom on the left and reach the bedroom door at the end of the hall on the left. I should keep moving forward along the hallway and re-observe.",
+      "latency_s": 2.96,
+      "prompt_tokens": 1981
+    },
+    {
+      "n": 14,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the hallway facing a wall with the corridor opening to my right. I need to turn right and proceed down the hallway, passing the bathroom on the left, to reach the bedroom door at the end on the left.",
+      "latency_s": 3.43,
+      "prompt_tokens": 1981
+    },
+    {
+      "n": 16,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the hallway with an open white door on the right and the corridor continuing ahead. The instruction says to walk past a bathroom on the left and reach the bedroom door at the end of the hallway on the left, so I should keep moving forward down the hallway and re-observe.",
+      "latency_s": 2.89,
+      "prompt_tokens": 1983
+    },
+    {
+      "n": 18,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the hallway after turning right. The corridor continues forward with a white door on the right and a wall on the left; I need to walk down the hallway and find the bedroom door on the left at the end. I'll advance a step and re-observe.",
+      "latency_s": 3.44,
+      "prompt_tokens": 1983
+    },
+    {
+      "n": 20,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see a bedroom with a yellow bed through an open doorway on the left at the end of this hallway, which matches the instruction's target. I'll step forward into the bedroom and then stop.",
+      "latency_s": 4.73,
+      "prompt_tokens": 1984
+    },
+    {
+      "n": 21,
+      "actions": [
+        "STOP"
+      ],
+      "thought": "I have entered a bedroom through a door, with a yellow bed visible on the left, matching the instruction's final goal of going into the bedroom at the end of the hallway. I am now inside the target room, so I will stop here.",
+      "latency_s": 11.46,
+      "prompt_tokens": 1983
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    7.625,
+    7.392,
+    7.167,
+    6.93,
+    6.704,
+    6.491,
+    6.297,
+    6.139,
+    6.038,
+    5.885,
+    5.787,
+    5.701,
+    5.627,
+    5.565,
+    5.523,
+    5.579
+  ],
+  "final_distance": 5.579,
+  "min_distance": 5.523,
+  "metrics": {
+    "distance_to_goal": 5.57859468460083,
+    "success": 0.0,
+    "spl": 0.0,
+    "oracle_success": 0.0,
+    "path_length": 3.7500010430812836,
+    "steps_taken": 21.0
+  },
+  "success": false,
+  "backend_stats": {
+    "calls": 10,
+    "failures": 0,
+    "prompt_tokens": 17644,
+    "completion_tokens": 2609,
+    "reasoning_tokens": 1954,
+    "latency_s": 43.86772155761719
+  },
+  "stop_deferrals": 0
+}

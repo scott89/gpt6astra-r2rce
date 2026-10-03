@@ -1,0 +1,198 @@
+{
+  "episode_id": 1492,
+  "scene_id": "Z6MFQCViBuw",
+  "instruction": "Turn around and walk out the double doors. Go across the next room and out the door. Stop once you enter the next room with tile floor.",
+  "actions_taken": 39,
+  "policy_calls": 12,
+  "api_latency_s": 55.94,
+  "prompt_tokens": 21529,
+  "completion_tokens": 2993,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 56.42,
+  "steps": [
+    {
+      "n": 8,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in an ornate bedroom facing the bed. The instruction says to turn around and exit through double doors, so I'll rotate 180 degrees to face the opposite direction and look for the doors.",
+      "latency_s": 4.1,
+      "prompt_tokens": 890
+    },
+    {
+      "n": 11,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I've turned 120\u00b0 left so far; the double doors are now visible at the left edge of the frame. I need to rotate further left to face them squarely before walking through.",
+      "latency_s": 2.92,
+      "prompt_tokens": 1246
+    },
+    {
+      "n": 14,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "After turning around, I now face the open double doors with a red carpet leading into a pink-walled room. The doorway is centered, so I'll advance through it and re-observe.",
+      "latency_s": 2.47,
+      "prompt_tokens": 1610
+    },
+    {
+      "n": 17,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I am in the pink room with the red carpet; the next doorway is straight ahead and slightly left, with tile floor visible beyond it. I will move forward along the carpet and re-observe before entering.",
+      "latency_s": 3.57,
+      "prompt_tokens": 1974
+    },
+    {
+      "n": 20,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've passed through the double doors into the pink room. The doorway ahead leads to a room with visible tile floor, so I'll advance toward it, aiming slightly left of center where the opening is.",
+      "latency_s": 2.86,
+      "prompt_tokens": 1974
+    },
+    {
+      "n": 22,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've turned around and moved forward; ahead is an ornate doorway leading to the next room where a statue and lighter floor are visible. I'll advance toward it, keeping slightly left to align with the opening, then re-observe before passing through.",
+      "latency_s": 8.69,
+      "prompt_tokens": 1974
+    },
+    {
+      "n": 25,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I have walked through the double doors into the pink room; the doorway straight ahead leads onward, and the instruction says to stop once I enter the next room with tile floor. I need to move through this doorway and inspect the floor beyond.",
+      "latency_s": 6.22,
+      "prompt_tokens": 1976
+    },
+    {
+      "n": 28,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I've already traveled through the double doors into this pink-walled room. The doorway on my left opens into a room with visible tile floor (with a statue and staircase), which matches the instruction's final room. I need to turn left toward that doorway, pass through it, and stop once inside.",
+      "latency_s": 7.81,
+      "prompt_tokens": 1975
+    },
+    {
+      "n": 32,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I have turned around and now face an open doorway leading to a room with a visible tile floor beyond. The doorway is roughly centered ahead, so I will advance through it and then re-observe to confirm I've entered the tiled room.",
+      "latency_s": 3.6,
+      "prompt_tokens": 1976
+    },
+    {
+      "n": 33,
+      "actions": [
+        "MOVE_FORWARD"
+      ],
+      "thought": "I have turned and now face an open doorway leading into a room with a checkered tile floor, which matches the instruction's final destination. I will step forward through the doorway into that room, then stop.",
+      "latency_s": 6.29,
+      "prompt_tokens": 1977
+    },
+    {
+      "n": 36,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the doorway ahead leading into the room with the checkered tile floor. The opening is slightly to my right, so I'll turn right a bit and step through into the tile room, then stop.",
+      "latency_s": 4.04,
+      "prompt_tokens": 1978
+    },
+    {
+      "n": 39,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "STOP"
+      ],
+      "thought": "I have exited the double doors, crossed the room, and I'm now at the threshold of the next room which clearly has a checkered tile floor. I should step forward into that room and stop.",
+      "latency_s": 3.37,
+      "prompt_tokens": 1979
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    8.135,
+    8.132,
+    7.891,
+    7.65,
+    7.415,
+    7.174,
+    6.932,
+    6.692,
+    6.453,
+    6.217,
+    5.982,
+    5.748,
+    5.516,
+    5.285,
+    5.056,
+    4.866,
+    4.619,
+    4.387,
+    4.157,
+    3.929,
+    3.704,
+    3.46,
+    3.216,
+    2.974,
+    2.733
+  ],
+  "final_distance": 2.733,
+  "min_distance": 2.733,
+  "metrics": {
+    "distance_to_goal": 2.7326507568359375,
+    "success": 1.0,
+    "spl": 1.0,
+    "oracle_success": 1.0,
+    "path_length": 5.894387453794479,
+    "steps_taken": 39.0
+  },
+  "success": true,
+  "backend_stats": {
+    "calls": 12,
+    "failures": 0,
+    "prompt_tokens": 21529,
+    "completion_tokens": 2993,
+    "reasoning_tokens": 2095,
+    "latency_s": 55.94101691246033
+  },
+  "stop_deferrals": 0
+}
