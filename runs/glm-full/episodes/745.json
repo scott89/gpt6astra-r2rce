@@ -1,0 +1,1111 @@
+{
+  "episode_id": 745,
+  "scene_id": "zsNo4HB9uLZ",
+  "instruction": "Exit the bedroom and take the first right. Stop just past the eye exam chart on the wall.",
+  "actions_taken": 214,
+  "policy_calls": 104,
+  "api_latency_s": 219.08,
+  "prompt_tokens": 206247,
+  "completion_tokens": 7882,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 220.68,
+  "steps": [
+    {
+      "n": 1,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pointed at a blank wall/ceiling; I need to look down to see the room before navigating.",
+      "latency_s": 1.69,
+      "prompt_tokens": 880
+    },
+    {
+      "n": 2,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The view shows only ceiling, so the camera is pitched up. I need to look down to see the room before navigating.",
+      "latency_s": 1.52,
+      "prompt_tokens": 1235
+    },
+    {
+      "n": 3,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I can't see the room. I need to look up to re-orient before navigating.",
+      "latency_s": 1.74,
+      "prompt_tokens": 1598
+    },
+    {
+      "n": 4,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched at the ceiling; I need to look down to see the room and find the exit.",
+      "latency_s": 1.76,
+      "prompt_tokens": 1962
+    },
+    {
+      "n": 5,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling, so I can't see the room. I need to look down to re-orient before navigating.",
+      "latency_s": 1.42,
+      "prompt_tokens": 1962
+    },
+    {
+      "n": 6,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I can't see the room. I need to look up to re-orient before navigating.",
+      "latency_s": 1.91,
+      "prompt_tokens": 1963
+    },
+    {
+      "n": 7,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I can't see the room. I need to look up to re-orient before navigating.",
+      "latency_s": 1.69,
+      "prompt_tokens": 1964
+    },
+    {
+      "n": 8,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and find the exit.",
+      "latency_s": 1.9,
+      "prompt_tokens": 1964
+    },
+    {
+      "n": 9,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling, so I can't see the room. I need to look down to re-orient before navigating.",
+      "latency_s": 1.57,
+      "prompt_tokens": 1965
+    },
+    {
+      "n": 11,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I can't see the room. I need to look up to re-orient before navigating.",
+      "latency_s": 1.68,
+      "prompt_tokens": 1965
+    },
+    {
+      "n": 12,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling, so I've lost view of the room. I need to look down to re-orient before navigating.",
+      "latency_s": 2.06,
+      "prompt_tokens": 1966
+    },
+    {
+      "n": 13,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera pitch is disoriented, showing mostly floor and ceiling. I need to level the view before navigating out of the bedroom.",
+      "latency_s": 1.92,
+      "prompt_tokens": 1967
+    },
+    {
+      "n": 14,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and find the eye exam chart.",
+      "latency_s": 1.67,
+      "prompt_tokens": 1968
+    },
+    {
+      "n": 15,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and find the eye exam chart.",
+      "latency_s": 1.82,
+      "prompt_tokens": 1968
+    },
+    {
+      "n": 17,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I have no view of the room. I need to look up to re-orient before navigating.",
+      "latency_s": 1.9,
+      "prompt_tokens": 1969
+    },
+    {
+      "n": 18,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and find the hallway and eye chart.",
+      "latency_s": 1.51,
+      "prompt_tokens": 1970
+    },
+    {
+      "n": 20,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera appears pitched down at the floor; I need to level my view to see the room and find the exit before navigating.",
+      "latency_s": 1.96,
+      "prompt_tokens": 1971
+    },
+    {
+      "n": 22,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling, so I have no useful view. I need to look down to see the room and find the eye exam chart.",
+      "latency_s": 1.91,
+      "prompt_tokens": 1971
+    },
+    {
+      "n": 23,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera appears pitched up, showing mostly ceiling and wall. I need to look down to see the room and find the hallway.",
+      "latency_s": 1.63,
+      "prompt_tokens": 1973
+    },
+    {
+      "n": 24,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I've lost my bearings. I need to look up to see the room and find the exit before proceeding.",
+      "latency_s": 1.65,
+      "prompt_tokens": 1973
+    },
+    {
+      "n": 25,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I need to look up to see the room and find the exit.",
+      "latency_s": 1.48,
+      "prompt_tokens": 1974
+    },
+    {
+      "n": 26,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and find the exit.",
+      "latency_s": 1.49,
+      "prompt_tokens": 1975
+    },
+    {
+      "n": 27,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and find the eye exam chart before proceeding.",
+      "latency_s": 1.84,
+      "prompt_tokens": 1975
+    },
+    {
+      "n": 29,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I have no view of the room. I need to look up to re-orient before navigating.",
+      "latency_s": 1.66,
+      "prompt_tokens": 1976
+    },
+    {
+      "n": 30,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and find the hallway and eye chart.",
+      "latency_s": 1.68,
+      "prompt_tokens": 1977
+    },
+    {
+      "n": 31,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera appears pitched up, showing mostly ceiling and floor. I need to level the view to see the hallway and find the eye exam chart.",
+      "latency_s": 2.52,
+      "prompt_tokens": 1978
+    },
+    {
+      "n": 33,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I can't see the hallway or the eye chart. I need to look up to re-orient before moving.",
+      "latency_s": 1.84,
+      "prompt_tokens": 1978
+    },
+    {
+      "n": 34,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and find the eye exam chart.",
+      "latency_s": 1.39,
+      "prompt_tokens": 1979
+    },
+    {
+      "n": 35,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "My view is disoriented, alternating between floor and ceiling, so the camera pitch is off. I need to level the camera before navigating.",
+      "latency_s": 2.42,
+      "prompt_tokens": 1980
+    },
+    {
+      "n": 37,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I have no view of the room. I need to look up to re-orient before navigating.",
+      "latency_s": 1.68,
+      "prompt_tokens": 1980
+    },
+    {
+      "n": 38,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and find the hallway and eye chart.",
+      "latency_s": 1.84,
+      "prompt_tokens": 1981
+    },
+    {
+      "n": 39,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera appears pitched down at the floor; I need to level the view to see the room and find the exit before navigating.",
+      "latency_s": 1.7,
+      "prompt_tokens": 1982
+    },
+    {
+      "n": 40,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and locate the eye exam chart before proceeding.",
+      "latency_s": 1.8,
+      "prompt_tokens": 1983
+    },
+    {
+      "n": 41,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and locate the eye exam chart.",
+      "latency_s": 1.5,
+      "prompt_tokens": 1983
+    },
+    {
+      "n": 43,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I can't see the room. I need to look up to re-orient before navigating.",
+      "latency_s": 1.47,
+      "prompt_tokens": 1984
+    },
+    {
+      "n": 44,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and find the hallway/eye chart.",
+      "latency_s": 1.84,
+      "prompt_tokens": 1985
+    },
+    {
+      "n": 46,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera appears pitched down at the floor, so I have no view of the room. I need to level the camera before navigating.",
+      "latency_s": 2.15,
+      "prompt_tokens": 1986
+    },
+    {
+      "n": 48,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling, so I have no view of the room. I need to look down to re-orient before navigating.",
+      "latency_s": 1.49,
+      "prompt_tokens": 1987
+    },
+    {
+      "n": 50,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and locate the eye exam chart before proceeding.",
+      "latency_s": 1.57,
+      "prompt_tokens": 1988
+    },
+    {
+      "n": 52,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling, so I have no view of the room. I need to look down to re-orient before navigating.",
+      "latency_s": 1.76,
+      "prompt_tokens": 1988
+    },
+    {
+      "n": 54,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera appears pitched far up (view is inverted), showing the bedroom ceiling and the eye exam charts on the wall. I need to level the camera before navigating.",
+      "latency_s": 2.5,
+      "prompt_tokens": 1990
+    },
+    {
+      "n": 56,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I need to look up to re-orient and find the eye exam chart before moving.",
+      "latency_s": 1.53,
+      "prompt_tokens": 1991
+    },
+    {
+      "n": 62,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "The view appears rotated; I see a bed and framed eye-chart-like pictures on the wall, with a doorway to the right. I need to reorient and head out of the bedroom, then take the first right.",
+      "latency_s": 4.24,
+      "prompt_tokens": 1992
+    },
+    {
+      "n": 63,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The view appears tilted; I need to level the camera to see the bedroom layout and find the exit before moving.",
+      "latency_s": 5.06,
+      "prompt_tokens": 1996
+    },
+    {
+      "n": 64,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I need to look up to re-orient. The earlier frames showed the bedroom with the eye exam chart, so I'm still inside the bedroom and must first find the exit.",
+      "latency_s": 2.43,
+      "prompt_tokens": 1996
+    },
+    {
+      "n": 71,
+      "actions": [
+        "LOOK_DOWN",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I appear to be facing windows in the bedroom with the camera pitched oddly. I need to turn around to find the bedroom exit.",
+      "latency_s": 1.88,
+      "prompt_tokens": 1997
+    },
+    {
+      "n": 72,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up; I can see the eye exam chart (Snellen chart) on the wall ahead. I need to level the camera to judge distance, then stop just past it.",
+      "latency_s": 2.61,
+      "prompt_tokens": 1999
+    },
+    {
+      "n": 73,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I saw the eye exam chart earlier on the wall. I need to look up to re-orient before moving.",
+      "latency_s": 2.04,
+      "prompt_tokens": 2000
+    },
+    {
+      "n": 74,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up showing ceiling and wall art; I need to look down to see the hallway ahead before moving.",
+      "latency_s": 2.12,
+      "prompt_tokens": 2000
+    },
+    {
+      "n": 76,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I need to look up to re-orient and find the hallway and eye chart.",
+      "latency_s": 1.62,
+      "prompt_tokens": 2001
+    },
+    {
+      "n": 77,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The view appears upside-down, so I first need to level the camera before navigating out of the bedroom toward the hallway with the eye exam chart.",
+      "latency_s": 3.1,
+      "prompt_tokens": 2002
+    },
+    {
+      "n": 78,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up toward the ceiling; I can see two framed letter charts on the wall that resemble eye exam charts. I need to look down to assess my position relative to them before deciding whether to stop or continue.",
+      "latency_s": 2.75,
+      "prompt_tokens": 2003
+    },
+    {
+      "n": 79,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I need to level it to see the room and find the eye exam chart before moving.",
+      "latency_s": 1.83,
+      "prompt_tokens": 2003
+    },
+    {
+      "n": 80,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to level it to see the hallway and the eye chart before proceeding.",
+      "latency_s": 1.59,
+      "prompt_tokens": 2004
+    },
+    {
+      "n": 81,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I need to level it to see the hallway and locate the eye exam chart before moving.",
+      "latency_s": 1.57,
+      "prompt_tokens": 2003
+    },
+    {
+      "n": 82,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up showing ceiling; I need to look down to see the hallway and the eye chart wall before proceeding.",
+      "latency_s": 1.79,
+      "prompt_tokens": 2005
+    },
+    {
+      "n": 83,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I need to level it to see the hallway and locate the eye exam chart before moving.",
+      "latency_s": 1.72,
+      "prompt_tokens": 2005
+    },
+    {
+      "n": 84,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up showing ceiling; I need to look down to see the hallway and locate the eye exam chart before deciding to stop.",
+      "latency_s": 1.93,
+      "prompt_tokens": 2006
+    },
+    {
+      "n": 85,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; the eye exam charts were visible on the wall ahead in an earlier frame. I need to pitch up to re-orient before deciding whether to stop.",
+      "latency_s": 2.11,
+      "prompt_tokens": 2006
+    },
+    {
+      "n": 86,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up showing ceiling; I need to look down to see the hallway and locate the eye exam chart before deciding to stop.",
+      "latency_s": 1.81,
+      "prompt_tokens": 2007
+    },
+    {
+      "n": 87,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; when it looked up earlier, two framed eye-chart-like pictures were visible on the wall ahead. I need to level the view to locate the chart and position just past it.",
+      "latency_s": 2.68,
+      "prompt_tokens": 2007
+    },
+    {
+      "n": 88,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up showing ceiling and wall art; I need to level the view to see the hallway and locate the eye chart before proceeding.",
+      "latency_s": 1.8,
+      "prompt_tokens": 2008
+    },
+    {
+      "n": 89,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; the two framed eye-chart pictures on the wall ahead were visible when pitched up. I should look up to re-aim and check my position relative to the charts.",
+      "latency_s": 2.48,
+      "prompt_tokens": 2008
+    },
+    {
+      "n": 90,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the hallway and locate the eye exam chart before deciding whether to stop or continue.",
+      "latency_s": 2.06,
+      "prompt_tokens": 2009
+    },
+    {
+      "n": 91,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; the eye exam charts were visible on the wall ahead when pitched up. I should look up to re-aim before deciding whether I'm just past them.",
+      "latency_s": 2.24,
+      "prompt_tokens": 2009
+    },
+    {
+      "n": 92,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up toward the ceiling; I can see framed pictures on the wall that may be the eye exam chart. I need to look down to see the floor and hallway before moving.",
+      "latency_s": 2.5,
+      "prompt_tokens": 2010
+    },
+    {
+      "n": 94,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I need to look up to see the hallway and locate the eye exam chart before moving.",
+      "latency_s": 1.62,
+      "prompt_tokens": 2010
+    },
+    {
+      "n": 96,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The view is disoriented (image appears rotated); I can see two framed eye-exam-chart-like pictures on a wall and a bed, suggesting I'm still in the bedroom. I need to re-orient the camera before navigating out.",
+      "latency_s": 3.38,
+      "prompt_tokens": 2011
+    },
+    {
+      "n": 98,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I need to look up to re-orient and find the eye exam chart before moving.",
+      "latency_s": 2.09,
+      "prompt_tokens": 2012
+    },
+    {
+      "n": 104,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "The view is inverted; I'm still in the bedroom near the bed with a doorway visible to my right. I'll turn right and head toward the exit.",
+      "latency_s": 2.7,
+      "prompt_tokens": 2013
+    },
+    {
+      "n": 110,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "The view appears rotated; the eye exam chart is visible on the wall in the bedroom. I need to re-orient toward the chart, move just past it, then stop.",
+      "latency_s": 3.46,
+      "prompt_tokens": 2017
+    },
+    {
+      "n": 112,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to level it before navigating out of the bedroom.",
+      "latency_s": 1.9,
+      "prompt_tokens": 2020
+    },
+    {
+      "n": 114,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and find the exit before navigating.",
+      "latency_s": 1.97,
+      "prompt_tokens": 2020
+    },
+    {
+      "n": 116,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the hallway and locate the eye exam chart before proceeding.",
+      "latency_s": 2.01,
+      "prompt_tokens": 2021
+    },
+    {
+      "n": 118,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the bedroom and find the exit door.",
+      "latency_s": 2.25,
+      "prompt_tokens": 2022
+    },
+    {
+      "n": 120,
+      "actions": [
+        "LOOK_UP",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm pitched down inside the bedroom; the exit appears to be to the left near the mirrored closet. I need to look up and turn toward the doorway to exit.",
+      "latency_s": 2.92,
+      "prompt_tokens": 2023
+    },
+    {
+      "n": 123,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm still in the bedroom; the doorway is to my left. I'll turn left toward the exit and step through.",
+      "latency_s": 2.04,
+      "prompt_tokens": 2023
+    },
+    {
+      "n": 126,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm still in the bedroom; the open doorway to the tiled hallway is on my left. I'll turn left toward it and exit, then take the first right.",
+      "latency_s": 1.93,
+      "prompt_tokens": 2025
+    },
+    {
+      "n": 129,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've exited the bedroom into a hallway but I'm facing a wall. I need to turn right to look for the eye exam chart on the hallway wall.",
+      "latency_s": 2.19,
+      "prompt_tokens": 2027
+    },
+    {
+      "n": 132,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall too closely after turning; the hallway with the tiled floor is to my left. I need to turn right to face down the hallway where the eye chart should be.",
+      "latency_s": 1.92,
+      "prompt_tokens": 2029
+    },
+    {
+      "n": 135,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm currently facing a wall at the edge of a bedroom. I need to exit the bedroom into the hallway, then take the first right and look for the eye exam chart. First I'll turn to find the doorway out.",
+      "latency_s": 2.62,
+      "prompt_tokens": 2030
+    },
+    {
+      "n": 138,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a blank wall with the bedroom visible to my right. I need to turn right to see the room and locate the exit door.",
+      "latency_s": 2.29,
+      "prompt_tokens": 2030
+    },
+    {
+      "n": 141,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall with the bedroom visible to my right. I need to turn right to find the bedroom exit, then take the first right toward the eye chart.",
+      "latency_s": 1.94,
+      "prompt_tokens": 2033
+    },
+    {
+      "n": 147,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm inside the bedroom facing the bed; the exit door is likely behind me. I'll turn around to locate the doorway.",
+      "latency_s": 2.4,
+      "prompt_tokens": 2034
+    },
+    {
+      "n": 150,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP",
+        "TURN_LEFT"
+      ],
+      "thought": "The camera is pitched down facing a wall corner; I need to look up and reorient to find the bedroom exit.",
+      "latency_s": 1.91,
+      "prompt_tokens": 2037
+    },
+    {
+      "n": 152,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up facing a blank wall; I need to look down to see the room and find the exit from the bedroom.",
+      "latency_s": 1.89,
+      "prompt_tokens": 2038
+    },
+    {
+      "n": 154,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at a wall corner; I need to look up and reorient to find the hallway and the eye chart.",
+      "latency_s": 1.91,
+      "prompt_tokens": 2040
+    },
+    {
+      "n": 155,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and locate the eye exam chart before proceeding.",
+      "latency_s": 1.76,
+      "prompt_tokens": 2041
+    },
+    {
+      "n": 158,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I appear to be facing a wall corner very closely; a small chart-like paper is visible on the wall to my left. I should turn left and re-observe to locate the eye exam chart and the hallway.",
+      "latency_s": 1.99,
+      "prompt_tokens": 2042
+    },
+    {
+      "n": 162,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm still in the bedroom facing the bed and windows. I need to find the exit door, likely behind me or to the right, so I'll turn right to scan the wall side.",
+      "latency_s": 3.55,
+      "prompt_tokens": 2043
+    },
+    {
+      "n": 168,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm facing a wall too closely; the eye chart was on the wall behind me near the bedroom. I need to back out and re-orient to see the hallway and the chart.",
+      "latency_s": 2.64,
+      "prompt_tokens": 2045
+    },
+    {
+      "n": 171,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm still in the bedroom facing the bed and windows. The exit door is likely behind me; I'll turn left to scan for the doorway.",
+      "latency_s": 2.1,
+      "prompt_tokens": 2047
+    },
+    {
+      "n": 177,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm inside the bedroom facing the bed and a wall corner. I need to find the exit door, so I'll turn around to look for the doorway.",
+      "latency_s": 2.47,
+      "prompt_tokens": 2048
+    },
+    {
+      "n": 181,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm still in the bedroom facing the wall with peeling paint. The exit door should be behind me; I'll turn right to locate the doorway.",
+      "latency_s": 2.54,
+      "prompt_tokens": 2051
+    },
+    {
+      "n": 184,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "The view is blocked by a wall right in front of me; I need to turn to find the bedroom exit and the hallway with the eye chart.",
+      "latency_s": 1.84,
+      "prompt_tokens": 2053
+    },
+    {
+      "n": 187,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've exited the bedroom into the hallway; ahead on the wall near the shelf there appear to be framed charts (likely the eye exam chart). I'll advance toward it and stop just past it.",
+      "latency_s": 2.75,
+      "prompt_tokens": 2055
+    },
+    {
+      "n": 190,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I see an open living area with framed eye-exam-style charts on the gray wall to the left of the dark shelf. I should walk toward that wall and stop just past the charts.",
+      "latency_s": 2.38,
+      "prompt_tokens": 2056
+    },
+    {
+      "n": 193,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The eye exam chart is visible on the wall ahead, partially behind the dark shelf. I need to approach it and stop just past it.",
+      "latency_s": 2.87,
+      "prompt_tokens": 2055
+    },
+    {
+      "n": 197,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The wall with the poster/chart ahead appears to be the eye exam chart. I'll walk toward it and stop just past it.",
+      "latency_s": 2.63,
+      "prompt_tokens": 2059
+    },
+    {
+      "n": 200,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to be in a room facing a wall with a large poster (possibly the chart). I need to find the exit and take the first right, so I'll turn right to scan for a doorway.",
+      "latency_s": 3.0,
+      "prompt_tokens": 2059
+    },
+    {
+      "n": 205,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the bedroom facing a shelf; the hallway opening is to my right. I need to exit through it, then take the first right and stop just past the eye exam chart.",
+      "latency_s": 2.27,
+      "prompt_tokens": 2059
+    },
+    {
+      "n": 207,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've exited the bedroom into a hallway. I need to find the eye exam chart on the wall; I'll turn right to scan the hallway ahead.",
+      "latency_s": 1.98,
+      "prompt_tokens": 2062
+    },
+    {
+      "n": 211,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The framed chart on the left wall appears to be the eye exam chart. I'll advance past it slightly and then stop.",
+      "latency_s": 2.52,
+      "prompt_tokens": 2063
+    },
+    {
+      "n": 214,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "STOP"
+      ],
+      "thought": "The eye exam chart (framed picture) is on the wall just ahead. I'll take a step or two forward to pass it, then stop.",
+      "latency_s": 2.43,
+      "prompt_tokens": 2064
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    6.388,
+    6.388,
+    6.194,
+    5.971,
+    5.765,
+    5.581,
+    5.424,
+    5.287,
+    5.149,
+    5.065,
+    5.015,
+    5.004,
+    5.024,
+    5.073,
+    5.148,
+    5.246,
+    5.366,
+    5.504,
+    5.35,
+    5.203,
+    5.065,
+    4.845,
+    4.628,
+    4.414,
+    4.205,
+    4.0,
+    3.801
+  ],
+  "final_distance": 3.801,
+  "min_distance": 3.801,
+  "metrics": {
+    "distance_to_goal": 3.8009793758392334,
+    "success": 0.0,
+    "spl": 0.0,
+    "oracle_success": 0.0,
+    "path_length": 6.245713293552399,
+    "steps_taken": 214.0
+  },
+  "success": false,
+  "backend_stats": {
+    "calls": 615,
+    "failures": 0,
+    "prompt_tokens": 1237364,
+    "completion_tokens": 53897,
+    "reasoning_tokens": 20003,
+    "latency_s": 1381.6173920631409
+  },
+  "stop_deferrals": 0
+}

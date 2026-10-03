@@ -1,0 +1,110 @@
+{
+  "episode_id": 10,
+  "scene_id": "2azQ1b91cZZ",
+  "instruction": "Walk into the living room and keep walking straight past the living room. Then walk into the entrance under the balcony. Wait in the entrance to the other room.",
+  "actions_taken": 16,
+  "policy_calls": 5,
+  "api_latency_s": 9.02,
+  "prompt_tokens": 7699,
+  "completion_tokens": 299,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 9.14,
+  "steps": [
+    {
+      "n": 4,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the living room with a balcony above and an arched entrance directly ahead. I'll walk straight toward that arch.",
+      "latency_s": 1.91,
+      "prompt_tokens": 892
+    },
+    {
+      "n": 8,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The arched entrance under the balcony is directly ahead, slightly right of center. I'll advance toward it and then stop in the entrance.",
+      "latency_s": 1.42,
+      "prompt_tokens": 1247
+    },
+    {
+      "n": 11,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The arched entrance under the balcony is directly ahead and roughly aligned. I'll advance toward it a few steps, then re-observe before entering.",
+      "latency_s": 1.87,
+      "prompt_tokens": 1610
+    },
+    {
+      "n": 15,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the living room facing the arched entrance under the balcony. I need to walk through it and stop in the entrance to the next room.",
+      "latency_s": 1.72,
+      "prompt_tokens": 1975
+    },
+    {
+      "n": 16,
+      "actions": [
+        "STOP"
+      ],
+      "thought": "I have walked through the living room and reached the arched entrance under the balcony, which leads to the other room. This is the spot described, so I will stop here.",
+      "latency_s": 2.1,
+      "prompt_tokens": 1975
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    7.113,
+    6.863,
+    6.613,
+    6.363,
+    6.113,
+    5.863,
+    5.613,
+    5.363,
+    5.113,
+    4.863,
+    4.613,
+    4.363,
+    4.113,
+    3.863,
+    3.613,
+    3.363
+  ],
+  "final_distance": 3.363,
+  "min_distance": 3.363,
+  "metrics": {
+    "distance_to_goal": 3.3630146980285645,
+    "success": 0.0,
+    "spl": 0.0,
+    "oracle_success": 0.0,
+    "path_length": 3.75,
+    "steps_taken": 16.0
+  },
+  "success": false,
+  "backend_stats": {
+    "calls": 5,
+    "failures": 0,
+    "prompt_tokens": 7699,
+    "completion_tokens": 299,
+    "reasoning_tokens": 40,
+    "latency_s": 9.017580032348633
+  },
+  "stop_deferrals": 0
+}

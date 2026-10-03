@@ -1,0 +1,214 @@
+{
+  "episode_id": 601,
+  "scene_id": "X7HyMhZNoso",
+  "instruction": "Exit the bathroom, and walk through the closet. Make a left just before the bed. Exit the bedroom, and make a right. Walk through the open bedroom door on the right. Wait in the door's threshold.",
+  "actions_taken": 39,
+  "policy_calls": 13,
+  "api_latency_s": 28.64,
+  "prompt_tokens": 23682,
+  "completion_tokens": 1126,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 28.85,
+  "steps": [
+    {
+      "n": 3,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the bathroom facing out through the closet toward the bedroom with the bed visible ahead. I'll move forward through the doorway.",
+      "latency_s": 1.49,
+      "prompt_tokens": 904
+    },
+    {
+      "n": 6,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the closet facing the bedroom ahead. Continue forward through the closet toward the bedroom door.",
+      "latency_s": 1.42,
+      "prompt_tokens": 1259
+    },
+    {
+      "n": 9,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the closet with the bedroom doorway ahead. I'll advance toward it, then turn left before the bed as instructed.",
+      "latency_s": 1.51,
+      "prompt_tokens": 1622
+    },
+    {
+      "n": 12,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the closet facing the bedroom with the bed ahead. I'll advance toward the doorway, then turn left before the bed as instructed.",
+      "latency_s": 1.84,
+      "prompt_tokens": 1986
+    },
+    {
+      "n": 15,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm exiting the closet into the bedroom with the bed ahead. I need to advance toward the bed, then turn left before reaching it.",
+      "latency_s": 2.7,
+      "prompt_tokens": 1986
+    },
+    {
+      "n": 18,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've walked through the closet and am now beside the bed in the bedroom. Per the instruction I should turn left just before the bed and head toward the bedroom exit.",
+      "latency_s": 2.44,
+      "prompt_tokens": 1987
+    },
+    {
+      "n": 21,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I turned left before the bed and now face the open side of the bedroom with chairs ahead. I need to walk across toward the bedroom exit, then turn right at the door.",
+      "latency_s": 2.9,
+      "prompt_tokens": 1988
+    },
+    {
+      "n": 24,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the foot of the bed; the instruction says turn left just before the bed, then exit the bedroom and make a right through the open door. I'll turn left and move along the left side of the bed toward the exit.",
+      "latency_s": 2.93,
+      "prompt_tokens": 1989
+    },
+    {
+      "n": 27,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm beside the bed in the bedroom. Per the instruction I should turn left just before the bed to head toward the bedroom exit.",
+      "latency_s": 2.64,
+      "prompt_tokens": 1990
+    },
+    {
+      "n": 31,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've made the left around the bed and now face the open bedroom door slightly ahead-left. I'll advance toward its threshold.",
+      "latency_s": 2.19,
+      "prompt_tokens": 1991
+    },
+    {
+      "n": 34,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the bedroom near the bed; an open door is visible ahead-left. I'll head toward that doorway to exit the bedroom.",
+      "latency_s": 2.29,
+      "prompt_tokens": 1992
+    },
+    {
+      "n": 38,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the bedroom near the bed; the open white door ahead is the exit. I'll walk toward its threshold and stop there.",
+      "latency_s": 2.49,
+      "prompt_tokens": 1994
+    },
+    {
+      "n": 39,
+      "actions": [
+        "STOP"
+      ],
+      "thought": "I'm right at the open door's threshold, facing the door frame up close. The instruction ends here, so I should stop.",
+      "latency_s": 1.8,
+      "prompt_tokens": 1994
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    9.75,
+    9.501,
+    9.252,
+    9.003,
+    8.754,
+    8.505,
+    8.256,
+    8.008,
+    7.76,
+    7.513,
+    7.266,
+    7.021,
+    6.778,
+    6.54,
+    6.311,
+    6.097,
+    5.876,
+    5.719,
+    5.659,
+    5.622,
+    5.609,
+    5.53,
+    5.412,
+    5.186,
+    4.958,
+    4.754,
+    4.584,
+    4.384,
+    4.195,
+    4.023,
+    3.871,
+    3.747,
+    3.658
+  ],
+  "final_distance": 3.658,
+  "min_distance": 3.658,
+  "metrics": {
+    "distance_to_goal": 3.65777850151062,
+    "success": 0.0,
+    "spl": 0.0,
+    "oracle_success": 0.0,
+    "path_length": 7.804394468665123,
+    "steps_taken": 39.0
+  },
+  "success": false,
+  "backend_stats": {
+    "calls": 1262,
+    "failures": 0,
+    "prompt_tokens": 2566764,
+    "completion_tokens": 92612,
+    "reasoning_tokens": 29583,
+    "latency_s": 2656.2432763576508
+  },
+  "stop_deferrals": 0
+}

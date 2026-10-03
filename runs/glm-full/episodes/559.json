@@ -1,0 +1,288 @@
+{
+  "episode_id": 559,
+  "scene_id": "Z6MFQCViBuw",
+  "instruction": "Walk straight out the door in front of you and follow the red carpet. Keep going through the room with the ropes and stop when you enter the next room with ropes.",
+  "actions_taken": 58,
+  "policy_calls": 17,
+  "api_latency_s": 36.66,
+  "prompt_tokens": 31466,
+  "completion_tokens": 1109,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 36.97,
+  "steps": [
+    {
+      "n": 4,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The doorway ahead is aligned with the red carpet; I'll advance through it and follow the carpet.",
+      "latency_s": 1.44,
+      "prompt_tokens": 894
+    },
+    {
+      "n": 8,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The red carpet runs straight ahead toward a doorway at the far end of this ornate room. I'll continue forward along the carpet, re-observing as I go.",
+      "latency_s": 2.04,
+      "prompt_tokens": 1249
+    },
+    {
+      "n": 12,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet heading toward the doorway ahead; continue forward along the carpet.",
+      "latency_s": 1.91,
+      "prompt_tokens": 1612
+    },
+    {
+      "n": 16,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet heading toward the doorway ahead; continue forward along the carpet.",
+      "latency_s": 2.15,
+      "prompt_tokens": 1976
+    },
+    {
+      "n": 20,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm aligned on the red carpet heading toward the doorway ahead; keep advancing along it.",
+      "latency_s": 1.83,
+      "prompt_tokens": 1976
+    },
+    {
+      "n": 24,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm aligned with the doorway and the red carpet leads straight through it. Continue advancing along the carpet toward the door.",
+      "latency_s": 1.8,
+      "prompt_tokens": 1976
+    },
+    {
+      "n": 28,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The red carpet leads straight to the doorway ahead; I'm aligned with it. Continue advancing along the carpet toward the door.",
+      "latency_s": 1.59,
+      "prompt_tokens": 1977
+    },
+    {
+      "n": 32,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm aligned with the doorway and the red carpet continues straight through it. I'll advance a few steps toward the door, then re-observe.",
+      "latency_s": 2.21,
+      "prompt_tokens": 1978
+    },
+    {
+      "n": 35,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the doorway with the red carpet continuing ahead into the next room. I'll advance through the doorway along the carpet.",
+      "latency_s": 1.93,
+      "prompt_tokens": 1978
+    },
+    {
+      "n": 38,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've passed through the doorway and am entering a room where rope barriers are visible ahead. I'll take a couple more steps onto the carpet to be inside the room, then stop.",
+      "latency_s": 2.79,
+      "prompt_tokens": 1980
+    },
+    {
+      "n": 41,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've entered a room with rope barriers on the red carpet; the instruction says to stop when entering the NEXT room with ropes, so I should continue along the carpet toward the doorway ahead-left.",
+      "latency_s": 3.38,
+      "prompt_tokens": 1979
+    },
+    {
+      "n": 44,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the room with ropes on the red carpet. The next room with ropes appears through the doorway ahead-left, so I'll continue forward along the carpet toward it.",
+      "latency_s": 2.49,
+      "prompt_tokens": 1980
+    },
+    {
+      "n": 48,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The red carpet curves left through an open doorway into the next roped-off room. I'll turn left toward that opening and advance along the carpet.",
+      "latency_s": 2.55,
+      "prompt_tokens": 1980
+    },
+    {
+      "n": 51,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The red carpet runs straight through the doorway ahead into the next room. I'll advance along it and re-observe.",
+      "latency_s": 1.99,
+      "prompt_tokens": 1982
+    },
+    {
+      "n": 54,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a doorway with rope barriers ahead, with the red carpet leading through it. I'll continue forward through this roped doorway into the next room.",
+      "latency_s": 2.27,
+      "prompt_tokens": 1983
+    },
+    {
+      "n": 57,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm aligned with the doorway ahead, red carpet underfoot, and the roped room is directly through it. I'll advance a few steps and re-observe.",
+      "latency_s": 2.13,
+      "prompt_tokens": 1982
+    },
+    {
+      "n": 58,
+      "actions": [
+        "STOP"
+      ],
+      "thought": "I have walked through the doorway onto the red carpet and am now entering the room with rope barriers; the instruction says to stop upon entering the next room with ropes.",
+      "latency_s": 2.16,
+      "prompt_tokens": 1984
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    11.794,
+    11.544,
+    11.294,
+    11.044,
+    10.794,
+    10.544,
+    10.294,
+    10.044,
+    9.794,
+    9.544,
+    9.294,
+    9.044,
+    8.794,
+    8.544,
+    8.294,
+    8.044,
+    7.794,
+    7.544,
+    7.294,
+    7.044,
+    6.794,
+    6.544,
+    6.294,
+    6.044,
+    5.794,
+    5.544,
+    5.294,
+    5.044,
+    4.794,
+    4.544,
+    4.294,
+    4.044,
+    3.794,
+    3.544,
+    3.294,
+    3.044,
+    2.794,
+    2.544,
+    2.294,
+    2.044,
+    1.794,
+    1.544,
+    1.294,
+    1.044,
+    0.794,
+    0.586,
+    0.426,
+    0.381,
+    0.483,
+    0.668,
+    0.893,
+    1.135,
+    1.37,
+    1.609,
+    1.851,
+    2.095
+  ],
+  "final_distance": 2.095,
+  "min_distance": 0.381,
+  "metrics": {
+    "distance_to_goal": 2.095452070236206,
+    "success": 1.0,
+    "spl": 0.8552746840764544,
+    "oracle_success": 1.0,
+    "path_length": 13.789279907941818,
+    "steps_taken": 58.0
+  },
+  "success": true,
+  "backend_stats": {
+    "calls": 193,
+    "failures": 0,
+    "prompt_tokens": 374108,
+    "completion_tokens": 12991,
+    "reasoning_tokens": 3120,
+    "latency_s": 395.17775559425354
+  },
+  "stop_deferrals": 0
+}

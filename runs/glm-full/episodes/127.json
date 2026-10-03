@@ -1,0 +1,276 @@
+{
+  "episode_id": 127,
+  "scene_id": "EU6Fwq7SyZv",
+  "instruction": "Turn around 180 degrees.  Go through the open door to the loft.  Once through the doorway, turn to the left and walk towards the far side of the loft.  Stop once you are just past the opening to the stairs.",
+  "actions_taken": 62,
+  "policy_calls": 17,
+  "api_latency_s": 45.43,
+  "prompt_tokens": 31869,
+  "completion_tokens": 1954,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 45.77,
+  "steps": [
+    {
+      "n": 8,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "The instruction says to turn around 180 degrees first, so I will rotate fully (12 x 15\u00b0 turns) and then re-observe to find the open door to the loft.",
+      "latency_s": 3.63,
+      "prompt_tokens": 909
+    },
+    {
+      "n": 12,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've turned 180\u00b0 already per the 8 executed turns? Actually 8 turns = 120\u00b0, so I need 4 more right turns to complete 180\u00b0, which will also aim me toward the open door on the right.",
+      "latency_s": 2.48,
+      "prompt_tokens": 1267
+    },
+    {
+      "n": 16,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've completed the 180-degree turn and the open door to the loft is visible ahead, slightly left. I'll align with the doorway and step through.",
+      "latency_s": 2.07,
+      "prompt_tokens": 1632
+    },
+    {
+      "n": 19,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The open door to the loft is ahead, slightly left of center. I'll advance through the doorway, then turn left as instructed.",
+      "latency_s": 2.06,
+      "prompt_tokens": 1997
+    },
+    {
+      "n": 22,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm at the loft doorway; I need to step through, then turn left toward the far side of the loft.",
+      "latency_s": 2.15,
+      "prompt_tokens": 1998
+    },
+    {
+      "n": 25,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm at the doorway to the loft with a wall on my left. I'll step forward through the doorway, then turn left to face the far side of the loft.",
+      "latency_s": 2.29,
+      "prompt_tokens": 1998
+    },
+    {
+      "n": 28,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the loft facing left toward the railing area. I need to walk toward the far side, passing the stairs opening, so I'll advance a few steps and re-observe.",
+      "latency_s": 2.35,
+      "prompt_tokens": 2000
+    },
+    {
+      "n": 33,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm through the doorway into the loft, facing the railing. The instruction says turn left and walk toward the far side, stopping just past the stairs opening. I'll turn left and advance carefully.",
+      "latency_s": 2.99,
+      "prompt_tokens": 2001
+    },
+    {
+      "n": 39,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the loft facing the railing. The stairs opening should be to my left, so I'll turn left and advance a couple of steps before re-observing.",
+      "latency_s": 2.56,
+      "prompt_tokens": 2003
+    },
+    {
+      "n": 42,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the loft near the railing after turning left. I need to walk along the loft toward its far side, passing the stairs opening. I'll advance carefully and re-observe.",
+      "latency_s": 2.87,
+      "prompt_tokens": 2005
+    },
+    {
+      "n": 45,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the loft facing the railing; the stairs opening should be along the walkway. I'll turn left to move along the loft floor past the railing.",
+      "latency_s": 2.92,
+      "prompt_tokens": 2006
+    },
+    {
+      "n": 48,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the loft near the railing; the far side with the bed is visible ahead-left. I should advance along the loft toward the far side, watching for the stair opening.",
+      "latency_s": 3.22,
+      "prompt_tokens": 2007
+    },
+    {
+      "n": 52,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the loft next to the railing; the open floor extends to the left toward the far side. I'll turn left and advance along the loft, watching for the stairs opening.",
+      "latency_s": 2.76,
+      "prompt_tokens": 2008
+    },
+    {
+      "n": 55,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the loft walking along the railing; the stairs opening should be just ahead along this path. I'll advance a couple steps and then check before stopping.",
+      "latency_s": 2.2,
+      "prompt_tokens": 2009
+    },
+    {
+      "n": 58,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the loft walking along the railing; the stairs opening should be just ahead along this walkway. I'll advance a couple steps and re-check.",
+      "latency_s": 2.34,
+      "prompt_tokens": 2009
+    },
+    {
+      "n": 61,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the loft next to the railing; the stairs opening is along the railing to my right. I'll advance along the walkway past the railing before stopping.",
+      "latency_s": 2.53,
+      "prompt_tokens": 2010
+    },
+    {
+      "n": 62,
+      "actions": [
+        "STOP"
+      ],
+      "thought": "I'm in the loft past the doorway; the stair railing is on my right, meaning the stairs opening is just behind/beside me, so I'm just past it as instructed.",
+      "latency_s": 4.01,
+      "prompt_tokens": 2010
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    4.615,
+    4.613,
+    4.363,
+    4.113,
+    3.863,
+    3.613,
+    3.363,
+    3.113,
+    2.863,
+    2.629,
+    2.42,
+    2.42,
+    2.124,
+    2.096,
+    2.151,
+    2.104,
+    2.087,
+    2.099,
+    1.904,
+    1.722,
+    1.518,
+    1.315,
+    1.117,
+    0.907,
+    0.716,
+    0.564,
+    0.49,
+    0.531,
+    0.67,
+    0.861,
+    1.078,
+    1.307,
+    1.539,
+    1.775,
+    2.015,
+    2.257,
+    2.502,
+    2.748,
+    2.994,
+    3.241
+  ],
+  "final_distance": 3.241,
+  "min_distance": 0.49,
+  "metrics": {
+    "distance_to_goal": 3.2412071228027344,
+    "success": 0.0,
+    "spl": 0.0,
+    "oracle_success": 1.0,
+    "path_length": 9.188076972961426,
+    "steps_taken": 62.0
+  },
+  "success": false,
+  "backend_stats": {
+    "calls": 381,
+    "failures": 0,
+    "prompt_tokens": 746750,
+    "completion_tokens": 31063,
+    "reasoning_tokens": 10512,
+    "latency_s": 858.5058743953705
+  },
+  "stop_deferrals": 0
+}

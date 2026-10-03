@@ -1,0 +1,331 @@
+{
+  "episode_id": 1588,
+  "scene_id": "Z6MFQCViBuw",
+  "instruction": "Turn so you are facing the same direction as the open doors, leading to the room with urns on the left hand side.  Follow the red carpet and walk through the next doorway.  Stop on the carpet in that doorway.",
+  "actions_taken": 85,
+  "policy_calls": 19,
+  "api_latency_s": 49.75,
+  "prompt_tokens": 35799,
+  "completion_tokens": 1808,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 50.14,
+  "steps": [
+    {
+      "n": 8,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing the red carpet leading to a doorway ahead; the urns are on the right, so I'm aligned with the instruction's direction. I'll advance along the carpet toward the doorway.",
+      "latency_s": 2.38,
+      "prompt_tokens": 907
+    },
+    {
+      "n": 12,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing the doorway with the red carpet leading through it. I'll advance along the carpet toward the doorway, then stop on the carpet there.",
+      "latency_s": 2.05,
+      "prompt_tokens": 1262
+    },
+    {
+      "n": 16,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm aligned with the open doorway ahead, red carpet leading to it, urns on the left table. I'll advance along the carpet toward the doorway and re-observe before entering.",
+      "latency_s": 2.8,
+      "prompt_tokens": 1626
+    },
+    {
+      "n": 20,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm aligned with the red carpet leading through the doorway ahead. Continue forward along the carpet toward the doorway.",
+      "latency_s": 1.61,
+      "prompt_tokens": 1989
+    },
+    {
+      "n": 24,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm aligned with the red carpet heading through the open doors. I need to continue forward through this doorway toward the next one and stop on the carpet there.",
+      "latency_s": 2.22,
+      "prompt_tokens": 1989
+    },
+    {
+      "n": 28,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the first doorway with the red carpet ahead leading to another doorway. I'll advance along the carpet toward it.",
+      "latency_s": 2.54,
+      "prompt_tokens": 1990
+    },
+    {
+      "n": 31,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've passed through the first doorway and am on the red carpet. The next doorway appears ahead-left (dark opening); I'll advance along the carpet toward it.",
+      "latency_s": 2.69,
+      "prompt_tokens": 1991
+    },
+    {
+      "n": 36,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've entered the room with the red carpet. The next doorway appears to be on the right side of this room, so I'll turn right and head toward it.",
+      "latency_s": 2.52,
+      "prompt_tokens": 1992
+    },
+    {
+      "n": 43,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I drifted into the right-hand door panel; the room with the red carpet is behind me to the left. I'll turn left to re-face the carpeted room, then step back out.",
+      "latency_s": 2.99,
+      "prompt_tokens": 1995
+    },
+    {
+      "n": 48,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm pressed against a door panel; the open doorway with the red carpet lies ahead slightly left. I'll turn right to clear the panel, then advance along the carpet toward the next doorway.",
+      "latency_s": 2.54,
+      "prompt_tokens": 1998
+    },
+    {
+      "n": 53,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm currently facing a wooden door edge; the red carpet and the next doorway lie ahead to the left. I'll turn left to align with the carpet, then advance toward the far doorway.",
+      "latency_s": 2.75,
+      "prompt_tokens": 2000
+    },
+    {
+      "n": 57,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing the red carpet leading to the next doorway ahead; the urn is on my left as described. I'll advance along the carpet toward that doorway.",
+      "latency_s": 2.2,
+      "prompt_tokens": 2002
+    },
+    {
+      "n": 63,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a corner with an urn; the red carpet and doorway are to my right. I'll turn right to align with the carpet and approach the doorway.",
+      "latency_s": 2.39,
+      "prompt_tokens": 2003
+    },
+    {
+      "n": 67,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm on the red carpet but facing a wall; the carpeted doorway with the urn room is to my left. I'll turn left to align with the carpet and doorway.",
+      "latency_s": 2.63,
+      "prompt_tokens": 2006
+    },
+    {
+      "n": 72,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a decorated wall corner with an urn; the red carpet and doorway are to my right. I'll turn right to align with the carpet and proceed.",
+      "latency_s": 2.21,
+      "prompt_tokens": 2007
+    },
+    {
+      "n": 76,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The red carpet runs ahead and the open doorway to the room with urns is ahead-left. I'll advance along the carpet toward that doorway.",
+      "latency_s": 2.53,
+      "prompt_tokens": 2010
+    },
+    {
+      "n": 79,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet facing the ornate doorway leading to the room with urns. I'll advance through it and stop on the carpet in the doorway.",
+      "latency_s": 3.72,
+      "prompt_tokens": 2010
+    },
+    {
+      "n": 82,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The red carpet leads through the open doorway ahead-left into the next room. I'll advance along the carpet toward that doorway.",
+      "latency_s": 4.33,
+      "prompt_tokens": 2011
+    },
+    {
+      "n": 85,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "STOP"
+      ],
+      "thought": "I'm at a red-carpeted doorway facing the next room; the instruction says to walk through the next doorway and stop on the carpet there. I'll advance through this doorway onto the carpet and stop.",
+      "latency_s": 2.65,
+      "prompt_tokens": 2011
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    9.686,
+    9.936,
+    10.186,
+    10.436,
+    10.686,
+    10.936,
+    11.186,
+    11.436,
+    11.686,
+    11.936,
+    12.186,
+    12.436,
+    12.686,
+    12.936,
+    13.186,
+    13.436,
+    13.686,
+    13.936,
+    14.186,
+    14.436,
+    14.686,
+    14.936,
+    15.186,
+    15.436,
+    15.686,
+    15.936,
+    16.186,
+    16.436,
+    16.686,
+    16.936,
+    17.186,
+    17.436,
+    17.614,
+    17.793,
+    17.967,
+    18.208,
+    18.449,
+    18.69,
+    18.868,
+    19.047,
+    19.229,
+    19.437,
+    19.665,
+    19.902,
+    20.146,
+    20.262,
+    20.245,
+    20.245,
+    20.266,
+    20.287,
+    20.308,
+    20.331,
+    20.353,
+    20.377,
+    20.4,
+    20.424
+  ],
+  "final_distance": 20.424,
+  "min_distance": 9.686,
+  "metrics": {
+    "distance_to_goal": 20.423986434936523,
+    "success": 0.0,
+    "spl": 0.0,
+    "oracle_success": 0.0,
+    "path_length": 11.509903335943818,
+    "steps_taken": 85.0
+  },
+  "success": false,
+  "backend_stats": {
+    "calls": 36,
+    "failures": 0,
+    "prompt_tokens": 64930,
+    "completion_tokens": 3054,
+    "reasoning_tokens": 1043,
+    "latency_s": 86.11715173721313
+  },
+  "stop_deferrals": 0
+}

@@ -1,0 +1,848 @@
+{
+  "episode_id": 289,
+  "scene_id": "8194nk5LbLH",
+  "instruction": "Go right around the counter and turn left. Continue until you are at the end of the second orange couch.",
+  "actions_taken": 211,
+  "policy_calls": 63,
+  "api_latency_s": 149.9,
+  "prompt_tokens": 123653,
+  "completion_tokens": 5715,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 151.04,
+  "steps": [
+    {
+      "n": 3,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The counter is on my right; I'll move forward along it to go around, then look for the turn left and the orange couches.",
+      "latency_s": 1.61,
+      "prompt_tokens": 882
+    },
+    {
+      "n": 6,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a counter with an orange chair ahead. The instruction says to go right around the counter, so I'll turn right and proceed along it.",
+      "latency_s": 2.42,
+      "prompt_tokens": 1237
+    },
+    {
+      "n": 9,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing the counter up close. I need to turn right and move around the counter's end, then turn left to proceed toward the orange couches.",
+      "latency_s": 1.86,
+      "prompt_tokens": 1602
+    },
+    {
+      "n": 12,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm pressed against the counter. I need to go around it to the right, so I'll turn right and move along it, then turn left as instructed.",
+      "latency_s": 2.05,
+      "prompt_tokens": 1966
+    },
+    {
+      "n": 16,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm pressed against the counter with bins (compost/recycle/trash) in view. I need to back off and go around the counter to the right, so I'll turn right and step out, then re-observe.",
+      "latency_s": 2.6,
+      "prompt_tokens": 1968
+    },
+    {
+      "n": 20,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm pressed against the counter with bins on top; I've gone right around it. Now I need to turn left and look for the orange couches to continue to the end of the second one.",
+      "latency_s": 2.36,
+      "prompt_tokens": 1970
+    },
+    {
+      "n": 21,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "I'm pressed right up against the counter with the camera pitched down, so I can't see the room. I'll look up to re-orient before moving around the counter.",
+      "latency_s": 2.21,
+      "prompt_tokens": 1970
+    },
+    {
+      "n": 24,
+      "actions": [
+        "LOOK_DOWN",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm pressed against the counter with the camera pitched up. I need to lower the view and navigate around the counter's right end, then turn left toward the couches.",
+      "latency_s": 2.12,
+      "prompt_tokens": 1972
+    },
+    {
+      "n": 27,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm pressed against the counter; I need to turn right to continue around it toward the couches.",
+      "latency_s": 1.89,
+      "prompt_tokens": 1973
+    },
+    {
+      "n": 31,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm right up against the counter edge, looking at the countertop. I need to move right around the counter, so I'll turn right and proceed along its side, then turn left as instructed.",
+      "latency_s": 2.41,
+      "prompt_tokens": 1975
+    },
+    {
+      "n": 35,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm pressed against the counter edge; I need to move right around its end, then turn left to head toward the couches.",
+      "latency_s": 2.09,
+      "prompt_tokens": 1976
+    },
+    {
+      "n": 39,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm pressed against the counter's edge. I need to turn right to move around the end of the counter, then turn left to proceed toward the couches.",
+      "latency_s": 1.91,
+      "prompt_tokens": 1979
+    },
+    {
+      "n": 43,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm pressed against a wall/counter edge; the open floor is to my right. I need to turn right and move around the counter toward the couches.",
+      "latency_s": 2.08,
+      "prompt_tokens": 1980
+    },
+    {
+      "n": 46,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm pressed against a wall/counter edge; the open room is to my right. I'll turn right to face the open floor and re-observe before moving around the counter.",
+      "latency_s": 2.16,
+      "prompt_tokens": 1982
+    },
+    {
+      "n": 50,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The counter is ahead with orange couches visible beyond it. I need to move right around the counter's end, then turn left toward the couches.",
+      "latency_s": 2.09,
+      "prompt_tokens": 1984
+    },
+    {
+      "n": 53,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm beside the counter with the orange couches visible ahead. I'll move forward around the counter toward the couches, then turn left to approach the end of the second couch.",
+      "latency_s": 2.15,
+      "prompt_tokens": 1985
+    },
+    {
+      "n": 58,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've rounded the counter; the orange couches are ahead. I need to turn left and walk toward the far end of the second couch.",
+      "latency_s": 2.24,
+      "prompt_tokens": 1987
+    },
+    {
+      "n": 63,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've rounded the counter; the orange couches are ahead-right past the pillar. I'll turn right to face them and advance toward the far end of the second couch.",
+      "latency_s": 2.68,
+      "prompt_tokens": 1989
+    },
+    {
+      "n": 66,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've rounded the counter and turned left; the orange couches are ahead. I need to walk toward them to reach the end of the second couch.",
+      "latency_s": 1.92,
+      "prompt_tokens": 1991
+    },
+    {
+      "n": 70,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see two orange couches ahead past the pillar. I need to approach them and reach the far end of the second couch.",
+      "latency_s": 2.37,
+      "prompt_tokens": 1991
+    },
+    {
+      "n": 73,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing the back of an orange couch up close. The goal is the end of the second orange couch, so I should approach and move along it to reach its far end.",
+      "latency_s": 2.61,
+      "prompt_tokens": 1991
+    },
+    {
+      "n": 76,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing the back of an orange couch; the instruction says to continue to the end of the second orange couch, which appears to extend to the right. I'll advance toward the couch and then proceed along it.",
+      "latency_s": 3.42,
+      "prompt_tokens": 1993
+    },
+    {
+      "n": 79,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm behind an orange couch with its length extending to my right. I need to walk along the back of the couches to reach the end of the second one, so I'll advance forward along this aisle and re-observe.",
+      "latency_s": 2.82,
+      "prompt_tokens": 1994
+    },
+    {
+      "n": 83,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm behind the orange couches; the couch extends to my right toward the fireplace area. I need to walk along its length to reach the far end of the second couch.",
+      "latency_s": 2.89,
+      "prompt_tokens": 1994
+    },
+    {
+      "n": 86,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm beside the orange couches; the couch extends to my right and I need to reach its far end. I'll advance along it and re-observe.",
+      "latency_s": 2.52,
+      "prompt_tokens": 1996
+    },
+    {
+      "n": 89,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm beside the orange couch near the fireplace; the instruction ends at the end of the second orange couch. I'll advance along the couch a bit and re-observe to find its far end.",
+      "latency_s": 2.76,
+      "prompt_tokens": 1996
+    },
+    {
+      "n": 92,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm alongside an orange couch near the fireplace; the couch extends to my right. I need to walk along it to reach its far end, so I'll advance carefully while observing.",
+      "latency_s": 3.05,
+      "prompt_tokens": 1997
+    },
+    {
+      "n": 95,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm alongside an orange couch with the fireplace ahead. The instruction ends at the far end of the second orange couch, so I'll advance along the couch toward its far end.",
+      "latency_s": 2.5,
+      "prompt_tokens": 1997
+    },
+    {
+      "n": 101,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm now facing the fireplace, having moved past the couches. I need to turn around to see the orange couches and position myself at the end of the second one.",
+      "latency_s": 2.65,
+      "prompt_tokens": 1998
+    },
+    {
+      "n": 105,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see two orange couches ahead past the blue chairs. I need to walk along them toward the far end of the second couch.",
+      "latency_s": 2.94,
+      "prompt_tokens": 2000
+    },
+    {
+      "n": 109,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see two orange couches ahead; I'm currently at the near end of the first. I need to walk along them to reach the far end of the second couch.",
+      "latency_s": 2.52,
+      "prompt_tokens": 2001
+    },
+    {
+      "n": 112,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the orange couches on my left; I need to walk along them to reach the end of the second couch. I'll advance forward while keeping the couches in view.",
+      "latency_s": 2.81,
+      "prompt_tokens": 2001
+    },
+    {
+      "n": 115,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've turned left and can see the seating area; the second orange couch is ahead near the blue chairs. I'll advance toward its far end.",
+      "latency_s": 3.06,
+      "prompt_tokens": 2003
+    },
+    {
+      "n": 118,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in an open lounge area with blue chairs; the orange couch(es) should be to my left where an orange couch edge appeared earlier. I'll turn left to re-orient toward the couches.",
+      "latency_s": 2.18,
+      "prompt_tokens": 2002
+    },
+    {
+      "n": 121,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the orange couches ahead near the mural wall. I need to walk toward them and reach the end of the second one.",
+      "latency_s": 2.27,
+      "prompt_tokens": 2003
+    },
+    {
+      "n": 124,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the orange couches ahead near the mural wall. I'll advance toward them, aiming to reach the end of the second orange couch.",
+      "latency_s": 2.16,
+      "prompt_tokens": 2004
+    },
+    {
+      "n": 127,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see an orange couch ahead past the blue chair. I need to approach it and continue to the end of the second orange couch, so I'll advance carefully toward it.",
+      "latency_s": 2.21,
+      "prompt_tokens": 2004
+    },
+    {
+      "n": 130,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I see an orange couch ahead past the blue couch; I need to approach along it to reach the end of the second orange couch. Advancing carefully toward the couch area.",
+      "latency_s": 2.07,
+      "prompt_tokens": 2005
+    },
+    {
+      "n": 133,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see an orange couch ahead past the blue chair. I need to approach it and reach its far end, so I'll advance carefully toward it.",
+      "latency_s": 2.54,
+      "prompt_tokens": 2004
+    },
+    {
+      "n": 136,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see an orange couch ahead past the plant. I need to continue moving toward it and then follow it to its far end.",
+      "latency_s": 2.31,
+      "prompt_tokens": 2006
+    },
+    {
+      "n": 140,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_RIGHT"
+      ],
+      "thought": "The orange couch is ahead; I need to walk toward it and around its end to reach the far end of the second couch. I'll advance toward the couch, then turn right to go around it.",
+      "latency_s": 2.57,
+      "prompt_tokens": 2006
+    },
+    {
+      "n": 143,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I see an orange couch ahead with a walkway to its right. I'll advance along it toward the far end of the second orange couch.",
+      "latency_s": 2.09,
+      "prompt_tokens": 2006
+    },
+    {
+      "n": 146,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see an orange couch ahead past the plant. I need to approach it and continue to the end of the second orange couch, so I'll advance carefully toward it.",
+      "latency_s": 1.9,
+      "prompt_tokens": 2008
+    },
+    {
+      "n": 150,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I see the orange couch ahead-left with a walkway between it and the blue bed. I need to approach along the couch to reach its far end, moving forward carefully.",
+      "latency_s": 2.61,
+      "prompt_tokens": 2008
+    },
+    {
+      "n": 153,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see an orange couch ahead with a plant on the left. I need to move toward the couches and continue to the end of the second one.",
+      "latency_s": 2.61,
+      "prompt_tokens": 2008
+    },
+    {
+      "n": 156,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I see an orange couch ahead-left and a blue couch on the right. The instruction says to go around the counter to the right, turn left, and continue to the end of the second orange couch. I should advance toward the couches, keeping the counter on my right.",
+      "latency_s": 2.27,
+      "prompt_tokens": 2010
+    },
+    {
+      "n": 159,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I see the orange couch ahead with a gap to its right. I'll advance toward the couch's end.",
+      "latency_s": 2.26,
+      "prompt_tokens": 2009
+    },
+    {
+      "n": 162,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I see the orange couch ahead with a gap to its right. I'll move forward along the right side of the couch, then turn left to continue toward its far end.",
+      "latency_s": 2.53,
+      "prompt_tokens": 2011
+    },
+    {
+      "n": 165,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I see the orange couch ahead with a gap to its right. I'll advance toward the couch's far end.",
+      "latency_s": 2.08,
+      "prompt_tokens": 2010
+    },
+    {
+      "n": 168,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I see the orange couch ahead with a gap to its right. I'll advance toward it and then circle around its right side to reach the end of the second couch.",
+      "latency_s": 2.39,
+      "prompt_tokens": 2011
+    },
+    {
+      "n": 171,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The orange couch is ahead; I need to move toward it and pass around its right side to reach the end of the second couch.",
+      "latency_s": 2.06,
+      "prompt_tokens": 2011
+    },
+    {
+      "n": 175,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_RIGHT"
+      ],
+      "thought": "I see the orange couch ahead with a gap to its right. I'll advance toward it, then turn right to go around the counter/couch area toward the far end of the second couch.",
+      "latency_s": 2.33,
+      "prompt_tokens": 2012
+    },
+    {
+      "n": 179,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_RIGHT"
+      ],
+      "thought": "I see the orange couch ahead with a gap to its right. I'll advance toward that gap, then turn right to go around the couches toward the end of the second one.",
+      "latency_s": 2.58,
+      "prompt_tokens": 2013
+    },
+    {
+      "n": 182,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The orange couches are on the left; I need to walk along them to reach the end of the second one. I'll advance forward while keeping them in view.",
+      "latency_s": 2.28,
+      "prompt_tokens": 2015
+    },
+    {
+      "n": 185,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I see an orange couch on the left with blue chairs in the middle. I need to approach the orange couches and reach the end of the second one, so I'll advance carefully along the left side.",
+      "latency_s": 2.77,
+      "prompt_tokens": 2016
+    },
+    {
+      "n": 189,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I see blue chairs ahead and orange couches on the left. The instruction ends at the end of the second orange couch, so I should turn left and move along the couches.",
+      "latency_s": 2.26,
+      "prompt_tokens": 2015
+    },
+    {
+      "n": 192,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I see two orange couches ahead on the left. I need to approach them and stop at the end of the second one.",
+      "latency_s": 2.04,
+      "prompt_tokens": 2018
+    },
+    {
+      "n": 195,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the orange couches ahead near the window. I need to approach them and continue to the end of the second one.",
+      "latency_s": 1.75,
+      "prompt_tokens": 2018
+    },
+    {
+      "n": 199,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_RIGHT"
+      ],
+      "thought": "I see an orange couch ahead with a gap to its right. I'll advance toward it, then turn right to go around the couches toward the end of the second one.",
+      "latency_s": 2.24,
+      "prompt_tokens": 2017
+    },
+    {
+      "n": 202,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I see the orange couches ahead on the left. I need to approach them and continue to the end of the second couch, so I'll advance carefully toward the open floor between the blue chair and the couches.",
+      "latency_s": 3.01,
+      "prompt_tokens": 2019
+    },
+    {
+      "n": 205,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I see the orange couches ahead on the left. I need to approach them and continue to the end of the second couch, so I'll advance forward while keeping them in view.",
+      "latency_s": 2.53,
+      "prompt_tokens": 2021
+    },
+    {
+      "n": 208,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I see an orange couch on the left with its far end a short distance ahead. I'll advance a couple of steps along it and then stop at its end.",
+      "latency_s": 2.5,
+      "prompt_tokens": 2021
+    },
+    {
+      "n": 211,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "STOP"
+      ],
+      "thought": "I have gone around the counter and turned left; the orange couch is directly ahead on the left and I appear to be near its far end, within a couple meters. I will advance slightly along it and stop at its end.",
+      "latency_s": 2.73,
+      "prompt_tokens": 2022
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    5.832,
+    5.969,
+    6.133,
+    6.332,
+    6.58,
+    6.82,
+    6.863,
+    6.805,
+    6.766,
+    6.715,
+    6.685,
+    6.677,
+    6.722,
+    6.597,
+    6.348,
+    6.099,
+    5.852,
+    5.606,
+    5.36,
+    5.173,
+    4.954,
+    4.738,
+    4.506,
+    4.414,
+    4.341,
+    4.283,
+    4.238,
+    4.207,
+    4.205,
+    4.31,
+    4.488,
+    4.292,
+    4.293,
+    4.335,
+    4.464,
+    4.604,
+    4.661,
+    4.713,
+    4.764,
+    4.815,
+    4.924,
+    5.033,
+    5.142,
+    5.252,
+    5.362,
+    5.472,
+    5.604,
+    5.739,
+    5.874,
+    6.009,
+    6.145,
+    6.28,
+    6.574,
+    6.815,
+    7.063,
+    7.133,
+    7.251,
+    7.368,
+    7.486,
+    7.604,
+    7.722,
+    7.839,
+    7.957,
+    8.082,
+    8.349,
+    8.598,
+    8.848,
+    9.098,
+    9.348,
+    9.539,
+    9.747,
+    9.968,
+    10.134,
+    10.124,
+    10.117,
+    10.11,
+    10.105,
+    10.103,
+    10.103,
+    10.105,
+    10.11,
+    10.117,
+    10.126,
+    10.24,
+    10.371,
+    10.387,
+    10.375,
+    10.362,
+    10.35,
+    10.338,
+    10.326,
+    10.314,
+    10.314,
+    10.314,
+    10.387
+  ],
+  "final_distance": 10.387,
+  "min_distance": 4.205,
+  "metrics": {
+    "distance_to_goal": 10.386853218078613,
+    "success": 0.0,
+    "spl": 0.0,
+    "oracle_success": 0.0,
+    "path_length": 14.771134439855814,
+    "steps_taken": 211.0
+  },
+  "success": false,
+  "backend_stats": {
+    "calls": 960,
+    "failures": 0,
+    "prompt_tokens": 1906871,
+    "completion_tokens": 76850,
+    "reasoning_tokens": 23127,
+    "latency_s": 2150.7286281585693
+  },
+  "stop_deferrals": 0
+}

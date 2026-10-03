@@ -1,0 +1,138 @@
+{
+  "episode_id": 1,
+  "scene_id": "zsNo4HB9uLZ",
+  "instruction": "Exit the bedroom and turn left. Walk straight passing the gray couch and stop near the rug.",
+  "actions_taken": 40,
+  "policy_calls": 11,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 0.03,
+  "steps": [
+    {
+      "n": 4,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_RIGHT"
+      ],
+      "thought": "scripted"
+    },
+    {
+      "n": 8,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "scripted"
+    },
+    {
+      "n": 12,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_RIGHT",
+        "TURN_LEFT"
+      ],
+      "thought": "scripted"
+    },
+    {
+      "n": 16,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "scripted"
+    },
+    {
+      "n": 20,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_LEFT"
+      ],
+      "thought": "scripted"
+    },
+    {
+      "n": 24,
+      "actions": [
+        "MOVE_FORWARD",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "TURN_RIGHT"
+      ],
+      "thought": "scripted"
+    },
+    {
+      "n": 28,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "scripted"
+    },
+    {
+      "n": 32,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "scripted"
+    },
+    {
+      "n": 36,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "scripted"
+    },
+    {
+      "n": 39,
+      "actions": [
+        "MOVE_FORWARD",
+        "TURN_LEFT",
+        "TURN_RIGHT"
+      ],
+      "thought": "scripted"
+    },
+    {
+      "n": 40,
+      "actions": [
+        "STOP"
+      ],
+      "thought": "scripted"
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    7.961,
+    7.805,
+    7.573,
+    7.377,
+    7.256,
+    7.255
+  ],
+  "final_distance": 7.255,
+  "min_distance": 7.255,
+  "metrics": {
+    "distance_to_goal": 7.255006313323975,
+    "success": 0.0,
+    "spl": 0.0,
+    "oracle_success": 0.0,
+    "path_length": 0.8881058867555112,
+    "steps_taken": 40.0
+  },
+  "success": false
+}

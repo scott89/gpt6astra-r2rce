@@ -1,0 +1,1444 @@
+{
+  "episode_id": 1117,
+  "scene_id": "x8F5xyUWy9e",
+  "instruction": "Go alongside the pool towards the bar directly in front of you.",
+  "actions_taken": 458,
+  "policy_calls": 117,
+  "api_latency_s": 204.96,
+  "prompt_tokens": 229764,
+  "completion_tokens": 6760,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 207.2,
+  "steps": [
+    {
+      "n": 4,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The pool is on the right and the bar is visible ahead. I'll walk forward along the pool edge toward the bar, re-observing as I go.",
+      "latency_s": 1.43,
+      "prompt_tokens": 873
+    },
+    {
+      "n": 8,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible ahead past the chairs; I'll advance toward it along the poolside.",
+      "latency_s": 1.98,
+      "prompt_tokens": 1228
+    },
+    {
+      "n": 11,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible ahead past the chairs; I'll advance toward it along the poolside.",
+      "latency_s": 1.71,
+      "prompt_tokens": 1591
+    },
+    {
+      "n": 14,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible ahead past the wooden pillar; I need to keep moving forward along the pool edge toward it.",
+      "latency_s": 1.47,
+      "prompt_tokens": 1956
+    },
+    {
+      "n": 18,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible ahead in the open area. I'll advance toward it, re-observing as I go.",
+      "latency_s": 1.84,
+      "prompt_tokens": 1955
+    },
+    {
+      "n": 22,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible ahead past the pillar. I'll advance toward it, re-observing as I go.",
+      "latency_s": 1.72,
+      "prompt_tokens": 1956
+    },
+    {
+      "n": 26,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible ahead past the wooden pillar. I'll advance toward it, re-observing as I go.",
+      "latency_s": 1.74,
+      "prompt_tokens": 1956
+    },
+    {
+      "n": 30,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible ahead past the wooden pillar. I'll advance toward it, re-observing after a few steps.",
+      "latency_s": 2.13,
+      "prompt_tokens": 1957
+    },
+    {
+      "n": 34,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible ahead past the wooden pillar. I'll advance toward it, re-observing after a few steps.",
+      "latency_s": 1.87,
+      "prompt_tokens": 1957
+    },
+    {
+      "n": 38,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible ahead past the pillar. I'll advance toward it, re-observing as I go.",
+      "latency_s": 1.84,
+      "prompt_tokens": 1958
+    },
+    {
+      "n": 42,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible ahead past the wooden pillar. I'll advance toward it, re-observing as I go.",
+      "latency_s": 1.67,
+      "prompt_tokens": 1958
+    },
+    {
+      "n": 46,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible ahead past the wooden pillar. I'll advance toward it, re-observing as I go.",
+      "latency_s": 1.58,
+      "prompt_tokens": 1959
+    },
+    {
+      "n": 49,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible ahead past the pillar; I'll advance toward it and re-observe.",
+      "latency_s": 1.42,
+      "prompt_tokens": 1959
+    },
+    {
+      "n": 53,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible ahead past the wooden pillar. I'll advance toward it, re-observing as I go.",
+      "latency_s": 1.59,
+      "prompt_tokens": 1960
+    },
+    {
+      "n": 57,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible ahead past the pillar. I'll advance toward it, re-observing after a few steps.",
+      "latency_s": 1.78,
+      "prompt_tokens": 1961
+    },
+    {
+      "n": 61,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible ahead past the wooden pillar. I'll advance toward it, re-observing as I go.",
+      "latency_s": 1.58,
+      "prompt_tokens": 1961
+    },
+    {
+      "n": 65,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible ahead past the wooden pillar. I'll advance toward it, re-observing as I go.",
+      "latency_s": 1.98,
+      "prompt_tokens": 1962
+    },
+    {
+      "n": 69,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible ahead past the wooden pillar. I'll advance toward it, re-observing as I go.",
+      "latency_s": 2.02,
+      "prompt_tokens": 1962
+    },
+    {
+      "n": 73,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible ahead past the wooden pillar. I'll advance toward it, re-observing as I go.",
+      "latency_s": 1.75,
+      "prompt_tokens": 1963
+    },
+    {
+      "n": 77,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible ahead past the wooden pillar. I'll advance toward it, re-observing after a few steps.",
+      "latency_s": 1.75,
+      "prompt_tokens": 1963
+    },
+    {
+      "n": 81,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible ahead past the wooden pillar. I'll advance toward it, re-observing as I go.",
+      "latency_s": 1.61,
+      "prompt_tokens": 1964
+    },
+    {
+      "n": 85,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible ahead past the wooden pillar. I'll advance toward it, re-observing as I go.",
+      "latency_s": 1.55,
+      "prompt_tokens": 1964
+    },
+    {
+      "n": 89,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible ahead past the wooden pillar. I'll advance toward it, re-observing as I go.",
+      "latency_s": 1.79,
+      "prompt_tokens": 1965
+    },
+    {
+      "n": 93,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible ahead past the pillar. I'll advance toward it and re-observe.",
+      "latency_s": 1.8,
+      "prompt_tokens": 1965
+    },
+    {
+      "n": 96,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible ahead past the pillar. I'll advance toward it and re-observe.",
+      "latency_s": 1.49,
+      "prompt_tokens": 1966
+    },
+    {
+      "n": 100,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible ahead past the pillar. I'll advance toward it, re-observing as I go.",
+      "latency_s": 1.69,
+      "prompt_tokens": 1965
+    },
+    {
+      "n": 104,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible ahead past the wooden pillar. I'll advance toward it, re-observing as I go.",
+      "latency_s": 1.86,
+      "prompt_tokens": 1965
+    },
+    {
+      "n": 108,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible ahead past the pillar. I'll advance toward it, re-observing as I go.",
+      "latency_s": 1.86,
+      "prompt_tokens": 1966
+    },
+    {
+      "n": 112,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible ahead past the pillar; I'll advance toward it and re-observe.",
+      "latency_s": 1.86,
+      "prompt_tokens": 1967
+    },
+    {
+      "n": 116,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible ahead past the wooden pillar. I'll advance toward it, re-observing as I go.",
+      "latency_s": 1.54,
+      "prompt_tokens": 1967
+    },
+    {
+      "n": 120,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible ahead past the wooden pillar. I'll advance toward it, re-observing as I go.",
+      "latency_s": 1.66,
+      "prompt_tokens": 1968
+    },
+    {
+      "n": 124,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible ahead past the wooden pillar. I'll advance toward it, re-observing as I go.",
+      "latency_s": 1.8,
+      "prompt_tokens": 1967
+    },
+    {
+      "n": 128,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible ahead past the wooden pillar. I'll advance toward it, re-observing as I go.",
+      "latency_s": 1.92,
+      "prompt_tokens": 1969
+    },
+    {
+      "n": 132,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible ahead past the wooden pillar. I'll advance toward it, re-observing after a few steps.",
+      "latency_s": 1.73,
+      "prompt_tokens": 1969
+    },
+    {
+      "n": 136,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible ahead past the pillar. I'll advance toward it, re-observing as I go.",
+      "latency_s": 1.68,
+      "prompt_tokens": 1970
+    },
+    {
+      "n": 140,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible ahead past the wooden pillar. I'll advance toward it, re-observing as I go.",
+      "latency_s": 1.65,
+      "prompt_tokens": 1970
+    },
+    {
+      "n": 144,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible ahead past the wooden pillar. I'll advance toward it, re-observing as I go.",
+      "latency_s": 1.79,
+      "prompt_tokens": 1970
+    },
+    {
+      "n": 148,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible ahead past the pillar. I'll advance toward it, re-observing as I go.",
+      "latency_s": 1.61,
+      "prompt_tokens": 1971
+    },
+    {
+      "n": 152,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible ahead past the wooden pillar. I'll advance toward it, re-observing as I go.",
+      "latency_s": 1.94,
+      "prompt_tokens": 1972
+    },
+    {
+      "n": 156,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible ahead past the wooden pillar. I'll advance toward it, re-observing as I go.",
+      "latency_s": 1.93,
+      "prompt_tokens": 1972
+    },
+    {
+      "n": 160,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible ahead across the room. I'll advance toward it, re-observing as I go.",
+      "latency_s": 1.63,
+      "prompt_tokens": 1973
+    },
+    {
+      "n": 164,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible ahead past the wooden pillar. I'll advance toward it, re-observing as I go.",
+      "latency_s": 2.01,
+      "prompt_tokens": 1972
+    },
+    {
+      "n": 168,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible ahead past the wooden pillar. I'll advance toward it, re-observing as I go.",
+      "latency_s": 1.92,
+      "prompt_tokens": 1974
+    },
+    {
+      "n": 172,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible ahead past the wooden pillar. I'll advance toward it, re-observing as I go.",
+      "latency_s": 1.86,
+      "prompt_tokens": 1974
+    },
+    {
+      "n": 176,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible ahead past the wooden pillar. I'll advance toward it, re-observing as I go.",
+      "latency_s": 1.72,
+      "prompt_tokens": 1975
+    },
+    {
+      "n": 180,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible ahead past the wooden pillar. I'll advance toward it, re-observing as I go.",
+      "latency_s": 1.64,
+      "prompt_tokens": 1975
+    },
+    {
+      "n": 184,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible ahead past the wooden pillar. I'll advance toward it, re-observing as I go.",
+      "latency_s": 1.81,
+      "prompt_tokens": 1975
+    },
+    {
+      "n": 188,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible ahead past the pillar. I'll advance toward it, re-observing as I go.",
+      "latency_s": 1.43,
+      "prompt_tokens": 1976
+    },
+    {
+      "n": 192,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible ahead across the open floor. I'll advance toward it, re-observing as I go.",
+      "latency_s": 1.85,
+      "prompt_tokens": 1977
+    },
+    {
+      "n": 196,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible ahead past the pillar. I'll advance toward it, re-observing as I go.",
+      "latency_s": 1.75,
+      "prompt_tokens": 1976
+    },
+    {
+      "n": 200,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible ahead past the pillar. I'll advance toward it, re-observing as I go.",
+      "latency_s": 1.76,
+      "prompt_tokens": 1977
+    },
+    {
+      "n": 204,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible ahead past the pillar. I'll advance toward it, re-observing as I go.",
+      "latency_s": 1.53,
+      "prompt_tokens": 1977
+    },
+    {
+      "n": 208,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible ahead past the pillar. I'll advance toward it, re-observing as I go.",
+      "latency_s": 1.64,
+      "prompt_tokens": 1979
+    },
+    {
+      "n": 212,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible ahead past the pillar; I should advance toward it while keeping it in view.",
+      "latency_s": 1.88,
+      "prompt_tokens": 1979
+    },
+    {
+      "n": 216,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible ahead past the pillar. I'll advance toward it, re-observing as I go.",
+      "latency_s": 1.88,
+      "prompt_tokens": 1980
+    },
+    {
+      "n": 220,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible ahead past the wooden pillar. I'll advance toward it, re-observing as I go.",
+      "latency_s": 1.96,
+      "prompt_tokens": 1980
+    },
+    {
+      "n": 224,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible ahead past the pillar; I'll advance toward it and re-observe.",
+      "latency_s": 1.56,
+      "prompt_tokens": 1980
+    },
+    {
+      "n": 228,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible ahead past the wooden pillar. I'll advance toward it, re-observing as I go.",
+      "latency_s": 1.63,
+      "prompt_tokens": 1983
+    },
+    {
+      "n": 232,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible ahead past the wooden pillar. I'll advance toward it, re-observing as I go.",
+      "latency_s": 1.73,
+      "prompt_tokens": 1982
+    },
+    {
+      "n": 236,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible ahead past the pillar. I'll advance toward it and re-observe.",
+      "latency_s": 1.6,
+      "prompt_tokens": 1982
+    },
+    {
+      "n": 240,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible ahead across the open floor. I'll advance toward it, re-observing as I go.",
+      "latency_s": 1.84,
+      "prompt_tokens": 1984
+    },
+    {
+      "n": 243,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible ahead past the pillar. I'll advance toward it and re-observe.",
+      "latency_s": 1.59,
+      "prompt_tokens": 1982
+    },
+    {
+      "n": 247,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible ahead across the open floor. I'll advance toward it and stop when close.",
+      "latency_s": 1.63,
+      "prompt_tokens": 1987
+    },
+    {
+      "n": 251,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible ahead across the open floor. I'll advance toward it and stop when close.",
+      "latency_s": 1.61,
+      "prompt_tokens": 1987
+    },
+    {
+      "n": 255,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible directly ahead across the open floor. I'll advance toward it and stop when close.",
+      "latency_s": 1.68,
+      "prompt_tokens": 1988
+    },
+    {
+      "n": 258,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible ahead past the pillar. I'll advance toward it and re-observe.",
+      "latency_s": 1.6,
+      "prompt_tokens": 1985
+    },
+    {
+      "n": 261,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible ahead past the pillar; I'll advance toward it and re-observe.",
+      "latency_s": 1.45,
+      "prompt_tokens": 1988
+    },
+    {
+      "n": 265,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible directly ahead past the pillar. I'll advance toward it and stop when close.",
+      "latency_s": 1.57,
+      "prompt_tokens": 1989
+    },
+    {
+      "n": 269,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible ahead across the room. I'll advance toward it, re-observing as I go.",
+      "latency_s": 1.6,
+      "prompt_tokens": 1988
+    },
+    {
+      "n": 273,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible ahead past the wooden pillar. I'll advance toward it, re-observing as I go.",
+      "latency_s": 2.26,
+      "prompt_tokens": 1990
+    },
+    {
+      "n": 277,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible directly ahead across the open floor. I'll advance toward it a few steps, then re-observe.",
+      "latency_s": 1.6,
+      "prompt_tokens": 1990
+    },
+    {
+      "n": 281,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible ahead past the wooden pillar. I'll advance toward it, re-observing as I go.",
+      "latency_s": 1.96,
+      "prompt_tokens": 1991
+    },
+    {
+      "n": 285,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible ahead past the wooden pillar. I'll advance toward it, re-observing as I go.",
+      "latency_s": 1.56,
+      "prompt_tokens": 1991
+    },
+    {
+      "n": 289,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible ahead across the open floor. I'll advance toward it, re-observing as I go.",
+      "latency_s": 2.37,
+      "prompt_tokens": 1991
+    },
+    {
+      "n": 293,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible ahead across the open floor. I'll advance toward it, re-observing as I go.",
+      "latency_s": 1.65,
+      "prompt_tokens": 1991
+    },
+    {
+      "n": 297,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible ahead past the wooden pillar. I'll advance toward it, re-observing after a few steps.",
+      "latency_s": 1.69,
+      "prompt_tokens": 1992
+    },
+    {
+      "n": 301,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible ahead across the open floor. I'll advance toward it and stop when close.",
+      "latency_s": 1.63,
+      "prompt_tokens": 1992
+    },
+    {
+      "n": 305,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible ahead across the room. I'll advance toward it, re-observing as I go.",
+      "latency_s": 1.69,
+      "prompt_tokens": 1991
+    },
+    {
+      "n": 309,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible directly ahead past the wooden pillar. I'll advance toward it and stop when close.",
+      "latency_s": 1.87,
+      "prompt_tokens": 1991
+    },
+    {
+      "n": 312,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible ahead past the pillar; I'll advance toward it and re-observe.",
+      "latency_s": 1.88,
+      "prompt_tokens": 1995
+    },
+    {
+      "n": 316,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible directly ahead across the open floor. I'll advance toward it and stop when close.",
+      "latency_s": 1.79,
+      "prompt_tokens": 1993
+    },
+    {
+      "n": 320,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible directly ahead past the pillar. I'll advance toward it and stop when close.",
+      "latency_s": 2.05,
+      "prompt_tokens": 1994
+    },
+    {
+      "n": 324,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible directly ahead past the pillar. I'll advance toward it and stop when close.",
+      "latency_s": 1.93,
+      "prompt_tokens": 1992
+    },
+    {
+      "n": 327,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible ahead past the wooden pillar. I'll advance toward it and re-observe.",
+      "latency_s": 1.85,
+      "prompt_tokens": 1995
+    },
+    {
+      "n": 331,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible ahead across the open floor. I'll advance toward it and stop when close.",
+      "latency_s": 1.7,
+      "prompt_tokens": 1996
+    },
+    {
+      "n": 334,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible directly ahead past the pillar. I'll advance toward it a few steps, then re-observe.",
+      "latency_s": 1.64,
+      "prompt_tokens": 1997
+    },
+    {
+      "n": 338,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible ahead across the open floor. I'll advance toward it and stop when close.",
+      "latency_s": 1.63,
+      "prompt_tokens": 1996
+    },
+    {
+      "n": 342,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible ahead past the pillar; I should advance toward it along the pool edge.",
+      "latency_s": 1.76,
+      "prompt_tokens": 1997
+    },
+    {
+      "n": 346,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible directly ahead past the wooden pillar. I'll advance toward it and stop when close.",
+      "latency_s": 1.9,
+      "prompt_tokens": 1997
+    },
+    {
+      "n": 350,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible ahead past the pillar. I'll advance toward it and stop when close.",
+      "latency_s": 1.82,
+      "prompt_tokens": 1998
+    },
+    {
+      "n": 354,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible directly ahead across the open floor. I'll advance toward it a few steps, then re-observe.",
+      "latency_s": 1.61,
+      "prompt_tokens": 1996
+    },
+    {
+      "n": 358,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible ahead across the open floor. I'll advance toward it and stop when close.",
+      "latency_s": 1.74,
+      "prompt_tokens": 1999
+    },
+    {
+      "n": 362,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible ahead past the wooden pillar. I'll advance toward it, re-observing as I go.",
+      "latency_s": 1.94,
+      "prompt_tokens": 1999
+    },
+    {
+      "n": 366,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible ahead across the open floor. I'll advance toward it and stop when close.",
+      "latency_s": 1.84,
+      "prompt_tokens": 2000
+    },
+    {
+      "n": 370,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible ahead across the open floor. I'll advance toward it and stop when close.",
+      "latency_s": 2.13,
+      "prompt_tokens": 2000
+    },
+    {
+      "n": 374,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible directly ahead across the open floor. I'll advance toward it a few steps and re-observe.",
+      "latency_s": 1.75,
+      "prompt_tokens": 1999
+    },
+    {
+      "n": 378,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible ahead across the open floor. I'll advance toward it and stop when close.",
+      "latency_s": 1.6,
+      "prompt_tokens": 2001
+    },
+    {
+      "n": 382,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible ahead past the pillar. I'll advance toward it and stop when close.",
+      "latency_s": 1.82,
+      "prompt_tokens": 2002
+    },
+    {
+      "n": 385,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible ahead past the wooden pillar. I'll advance toward it and re-observe.",
+      "latency_s": 1.69,
+      "prompt_tokens": 2002
+    },
+    {
+      "n": 389,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible ahead across the open floor. I'll advance toward it a few steps, then re-observe.",
+      "latency_s": 1.71,
+      "prompt_tokens": 2003
+    },
+    {
+      "n": 393,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible directly ahead across the open floor. I'll advance a few steps toward it, then stop within range.",
+      "latency_s": 1.72,
+      "prompt_tokens": 2004
+    },
+    {
+      "n": 397,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible directly ahead across the open floor. I'll advance toward it a few steps and re-observe.",
+      "latency_s": 1.85,
+      "prompt_tokens": 2004
+    },
+    {
+      "n": 401,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible ahead past the pillar. I'll advance toward it and stop when close.",
+      "latency_s": 1.83,
+      "prompt_tokens": 2005
+    },
+    {
+      "n": 405,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is directly ahead across the open floor. I'll advance a few steps toward it, then stop near it.",
+      "latency_s": 1.62,
+      "prompt_tokens": 2005
+    },
+    {
+      "n": 409,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible directly ahead across the open floor. I'll advance toward it a few steps, then re-observe.",
+      "latency_s": 1.52,
+      "prompt_tokens": 2006
+    },
+    {
+      "n": 413,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible ahead past the pillar. I'll advance toward it and stop when close.",
+      "latency_s": 1.69,
+      "prompt_tokens": 2006
+    },
+    {
+      "n": 417,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible ahead past the pillar. I'll advance toward it and stop when close.",
+      "latency_s": 1.82,
+      "prompt_tokens": 2007
+    },
+    {
+      "n": 421,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible ahead past the pillar. I'll advance toward it and stop when close.",
+      "latency_s": 2.01,
+      "prompt_tokens": 2007
+    },
+    {
+      "n": 425,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible ahead across the open floor. I'll advance toward it and stop when close.",
+      "latency_s": 1.99,
+      "prompt_tokens": 2008
+    },
+    {
+      "n": 429,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible directly ahead across the room. I'll advance toward it and stop when close.",
+      "latency_s": 1.79,
+      "prompt_tokens": 2008
+    },
+    {
+      "n": 433,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible directly ahead across the open floor. I'll advance toward it and stop when close.",
+      "latency_s": 1.68,
+      "prompt_tokens": 2009
+    },
+    {
+      "n": 437,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible directly ahead across the open floor. I'll advance toward it and stop when close.",
+      "latency_s": 1.8,
+      "prompt_tokens": 2009
+    },
+    {
+      "n": 441,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible directly ahead across the open floor. I'll advance a few steps toward it, then stop within range.",
+      "latency_s": 1.72,
+      "prompt_tokens": 2010
+    },
+    {
+      "n": 445,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible ahead past the pillar. I'll advance toward it and stop when close.",
+      "latency_s": 1.69,
+      "prompt_tokens": 2010
+    },
+    {
+      "n": 449,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible directly ahead across the open floor. I'll advance a few steps toward it and then stop within range.",
+      "latency_s": 1.74,
+      "prompt_tokens": 2011
+    },
+    {
+      "n": 453,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible ahead past the pillar. I'll advance toward it and stop when close.",
+      "latency_s": 1.68,
+      "prompt_tokens": 2011
+    },
+    {
+      "n": 458,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "STOP"
+      ],
+      "thought": "The bar counter is visible directly ahead across the open floor. I'll advance a few steps toward it, then stop within range.",
+      "latency_s": 1.78,
+      "prompt_tokens": 2012
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    8.571,
+    8.326,
+    8.082,
+    7.838,
+    7.595,
+    7.357,
+    7.114,
+    6.873,
+    6.637,
+    6.409,
+    6.214,
+    6.137
+  ],
+  "final_distance": 6.137,
+  "min_distance": 6.137,
+  "metrics": {
+    "distance_to_goal": 6.137267112731934,
+    "success": 0.0,
+    "spl": 0.0,
+    "oracle_success": 0.0,
+    "path_length": 2.7028187066316605,
+    "steps_taken": 458.0
+  },
+  "success": false,
+  "backend_stats": {
+    "calls": 308,
+    "failures": 0,
+    "prompt_tokens": 614754,
+    "completion_tokens": 23982,
+    "reasoning_tokens": 7349,
+    "latency_s": 663.4625954627991
+  },
+  "stop_deferrals": 0
+}

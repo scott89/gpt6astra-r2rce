@@ -1,0 +1,503 @@
+{
+  "episode_id": 188,
+  "scene_id": "x8F5xyUWy9e",
+  "instruction": "continue forward past the first tdoor to your right\r\ncontinue walking past the door down the small hallways infront of you. \r\ngo in the room\r\ngo down the steps \r\ncontinue forward and go up 1 2 steps.",
+  "actions_taken": 103,
+  "policy_calls": 36,
+  "api_latency_s": 83.28,
+  "prompt_tokens": 69992,
+  "completion_tokens": 3466,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 83.93,
+  "steps": [
+    {
+      "n": 2,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing into a room with a massage table; the instruction says to continue forward past the first door on the right. I'll advance carefully and re-observe.",
+      "latency_s": 1.79,
+      "prompt_tokens": 908
+    },
+    {
+      "n": 3,
+      "actions": [
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a massage table in a tiled room; the instruction says to go down steps and then up 1-2 steps, so I need to look around for the exit and steps. I'll turn right to scan the room.",
+      "latency_s": 2.29,
+      "prompt_tokens": 1263
+    },
+    {
+      "n": 5,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm inside the room with the massage table. I need to find the steps down, so I'll scan the room by turning right.",
+      "latency_s": 2.16,
+      "prompt_tokens": 1627
+    },
+    {
+      "n": 11,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I appear to have entered a small bathroom with a massage table, but the instruction mentions going down steps and up 1-2 steps, which I haven't seen yet. I need to turn around to find the way back out and locate the steps.",
+      "latency_s": 2.39,
+      "prompt_tokens": 1991
+    },
+    {
+      "n": 14,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've entered the tiled room (massage table visible). I need to move further into the room toward where the steps should be, so I'll turn right to face the open floor and advance.",
+      "latency_s": 3.15,
+      "prompt_tokens": 1993
+    },
+    {
+      "n": 16,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've entered the tiled room with the massage table. I need to look for the steps mentioned next; I'll advance into the room and scan.",
+      "latency_s": 2.35,
+      "prompt_tokens": 1995
+    },
+    {
+      "n": 18,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've entered the tiled room; no steps are visible yet, so I'll advance further in to look for the level changes described.",
+      "latency_s": 1.82,
+      "prompt_tokens": 1995
+    },
+    {
+      "n": 22,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a small tiled room facing a closed door, which appears to be a dead end. The instruction mentions going down steps, so I should turn to look for the steps behind me.",
+      "latency_s": 2.38,
+      "prompt_tokens": 1995
+    },
+    {
+      "n": 24,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've entered the bedroom but I'm facing a bed and wall. I need to find the steps mentioned in the instruction, so I'll turn to survey the room.",
+      "latency_s": 2.41,
+      "prompt_tokens": 1997
+    },
+    {
+      "n": 27,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've entered a small room with a massage table, but I don't see the steps yet. I'll turn right to scan the room for the steps mentioned in the instruction.",
+      "latency_s": 2.34,
+      "prompt_tokens": 1998
+    },
+    {
+      "n": 30,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm inside a small room with a massage table and sink; the doorway is to my right. I'll turn toward it and exit to continue the path.",
+      "latency_s": 2.68,
+      "prompt_tokens": 2000
+    },
+    {
+      "n": 33,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a bathroom facing a doorway leading to a hallway. I'll move forward through the doorway and continue along the hallway as instructed.",
+      "latency_s": 2.12,
+      "prompt_tokens": 2001
+    },
+    {
+      "n": 37,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm inside a bathroom facing the sink; the open doorway is to my right leading to the hallway. I need to turn right and exit through it.",
+      "latency_s": 2.25,
+      "prompt_tokens": 2002
+    },
+    {
+      "n": 40,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the hallway facing the open doorway ahead; I should continue forward through it into the room.",
+      "latency_s": 1.72,
+      "prompt_tokens": 2004
+    },
+    {
+      "n": 43,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the hallway facing the open doorway leading to the blue-lit room. The instruction says to go into the room, so I'll move forward through the doorway.",
+      "latency_s": 1.65,
+      "prompt_tokens": 2005
+    },
+    {
+      "n": 46,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the hallway facing the open doorway ahead; I need to continue forward through it into the room, then handle the steps. The doorway is centered, so I'll advance.",
+      "latency_s": 1.87,
+      "prompt_tokens": 2006
+    },
+    {
+      "n": 49,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm aligned with the open doorway ahead leading into the room; I'll advance through it.",
+      "latency_s": 1.89,
+      "prompt_tokens": 2006
+    },
+    {
+      "n": 52,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm aligned with the open doorway leading into the room ahead. I'll advance through it and then look for the steps.",
+      "latency_s": 2.08,
+      "prompt_tokens": 2007
+    },
+    {
+      "n": 55,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm aligned with the open doorway leading into the pool room; I need to enter the room, then go down the steps and up a couple more.",
+      "latency_s": 1.88,
+      "prompt_tokens": 2006
+    },
+    {
+      "n": 58,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the open doorway of the pool room. I should enter the room, then look for the steps down.",
+      "latency_s": 2.02,
+      "prompt_tokens": 2008
+    },
+    {
+      "n": 60,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've entered the pool room through the doorway. There appears to be a step down into the room ahead, so I'll advance carefully toward it.",
+      "latency_s": 2.17,
+      "prompt_tokens": 2007
+    },
+    {
+      "n": 63,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've entered the pool room. The instruction says go down the steps, continue forward, then go up 1-2 steps. I'll advance toward the sunken pool area where the steps down should be.",
+      "latency_s": 2.19,
+      "prompt_tokens": 2007
+    },
+    {
+      "n": 66,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've entered the pool room. The instruction says to go down steps, continue forward, then go up 1-2 steps \u2014 likely the raised pool platform ahead. I'll advance toward it.",
+      "latency_s": 2.31,
+      "prompt_tokens": 2009
+    },
+    {
+      "n": 69,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've entered the pool room. The instruction says to go down the steps and then up 1-2 steps; I should continue forward toward the raised pool platform ahead.",
+      "latency_s": 2.23,
+      "prompt_tokens": 2008
+    },
+    {
+      "n": 72,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the pool room now. The instruction says to go down steps then up 1-2 steps; the raised jacuzzi platform ahead likely has the small step up. I'll advance toward it and re-observe.",
+      "latency_s": 2.33,
+      "prompt_tokens": 2009
+    },
+    {
+      "n": 75,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the spa room facing the raised platform with the tub. The instruction ends after going up 1-2 steps onto this platform, so I'll advance toward it and then stop.",
+      "latency_s": 2.79,
+      "prompt_tokens": 2009
+    },
+    {
+      "n": 78,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the spa room facing the jacuzzi with steps leading up to it. The instruction says to go up 1-2 steps, so I'll advance toward the jacuzzi steps.",
+      "latency_s": 2.55,
+      "prompt_tokens": 2010
+    },
+    {
+      "n": 81,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've entered the spa room with loungers and a jacuzzi; the instruction ends after going up 1-2 steps, which appears to be the raised jacuzzi platform ahead. I'll advance toward it and stop there.",
+      "latency_s": 2.56,
+      "prompt_tokens": 2010
+    },
+    {
+      "n": 83,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a room with massage beds; the instruction ends after going up 1-2 steps. I need to locate the steps, so I'll scan the room before moving.",
+      "latency_s": 3.15,
+      "prompt_tokens": 2011
+    },
+    {
+      "n": 86,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've entered the massage room with lounge beds, but I don't see the steps mentioned in the instruction yet. I'll turn right to scan the room for the steps.",
+      "latency_s": 2.86,
+      "prompt_tokens": 2012
+    },
+    {
+      "n": 89,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've entered the pool room after coming down the steps. The instruction says to continue forward and go up 1-2 steps, so I'll advance toward the pool area and stop there.",
+      "latency_s": 2.24,
+      "prompt_tokens": 2014
+    },
+    {
+      "n": 92,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the blue pool room; the instruction ends after going down steps and up 1-2 steps, likely near the pool's far side. I'll advance along the pool edge toward the far wall.",
+      "latency_s": 2.3,
+      "prompt_tokens": 2015
+    },
+    {
+      "n": 95,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the indoor pool room. The instruction says to go down the steps and continue forward, then go up 1-2 steps. I'll advance along the pool deck toward the far end where the steps likely are.",
+      "latency_s": 2.47,
+      "prompt_tokens": 2015
+    },
+    {
+      "n": 98,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the pool room; the instruction says to go down the steps and continue forward, going up 1-2 steps. The walkway to the right of the pool edge seems to be the path, so I'll advance carefully along it.",
+      "latency_s": 2.52,
+      "prompt_tokens": 2016
+    },
+    {
+      "n": 101,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm inside the pool room. The instruction says to continue forward and go up 1-2 steps, so I'll advance along the pool deck and re-observe.",
+      "latency_s": 2.63,
+      "prompt_tokens": 2016
+    },
+    {
+      "n": 103,
+      "actions": [
+        "MOVE_FORWARD",
+        "STOP"
+      ],
+      "thought": "I've entered the pool room and descended the steps; the instruction says to continue forward and go up 1-2 steps, which appears to be the raised ledge ahead. I'll advance a step and then stop near it.",
+      "latency_s": 2.74,
+      "prompt_tokens": 2017
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    8.797,
+    9.045,
+    9.293,
+    9.502,
+    9.764,
+    10.011,
+    10.261,
+    10.51,
+    10.724,
+    10.48,
+    10.242,
+    10.018,
+    9.832,
+    9.584,
+    9.336,
+    9.087,
+    8.839,
+    8.591,
+    8.343,
+    8.095,
+    7.848,
+    7.6,
+    7.353,
+    7.106,
+    6.854,
+    6.594,
+    6.337,
+    6.081,
+    5.826,
+    5.571,
+    5.323,
+    5.076,
+    4.829,
+    4.582,
+    4.335,
+    4.089,
+    3.842,
+    3.583,
+    3.322,
+    3.064,
+    2.81,
+    2.559,
+    2.312,
+    2.067,
+    1.823,
+    1.581,
+    1.342,
+    1.108,
+    0.883,
+    0.675,
+    0.508,
+    0.429,
+    0.485,
+    0.61,
+    0.736,
+    0.861,
+    1.104,
+    1.186,
+    1.156,
+    1.127,
+    1.097,
+    1.067,
+    1.038,
+    1.008,
+    0.979,
+    0.949,
+    0.919,
+    0.741,
+    0.564,
+    0.388,
+    0.211,
+    0.035,
+    0.142,
+    0.311
+  ],
+  "final_distance": 0.311,
+  "min_distance": 0.035,
+  "metrics": {
+    "distance_to_goal": 0.3108913004398346,
+    "success": 1.0,
+    "spl": 0.5742864684213218,
+    "oracle_success": 1.0,
+    "path_length": 15.317413276061416,
+    "steps_taken": 103.0
+  },
+  "success": true,
+  "backend_stats": {
+    "calls": 873,
+    "failures": 0,
+    "prompt_tokens": 1728974,
+    "completion_tokens": 75146,
+    "reasoning_tokens": 26161,
+    "latency_s": 1962.4280097484589
+  },
+  "stop_deferrals": 0
+}

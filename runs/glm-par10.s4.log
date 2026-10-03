@@ -1,0 +1,78 @@
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+Users of this version of Gym should be able to simply replace 'import gym' with 'import gymnasium as gym' in the vast majority of cases.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+2026-10-03 18:45:06,127 Initializing dataset VLN-CE-v1
+2026-10-03 18:45:06,297 initializing sim Sim-v1
+2026-10-03 18:45:08,142 Initializing task VLN-v0
+run=glm-par10 policy=vlm pending=2 budget=500 actions/ep time_limit=2400.0s rgb=512x512
+scenes covered: 2/10 -> TbHJrupSAjP, zsNo4HB9uLZ
+[1/2] ep=1 scene=zsNo4HB9uLZ acts=495 calls=112 term=stop dist=9.76 success=0 os=0 spl=0.000 (255s)
+[2/2] ep=4 scene=TbHJrupSAjP acts=90 calls=29 term=stop dist=6.94 success=0 os=0 spl=0.000 (68s)
+
+=== this run ===
+{
+  "num_episodes": 2,
+  "success": 0.0,
+  "oracle_success": 0.0,
+  "distance_to_goal": 8.3464,
+  "spl": 0.0,
+  "path_length": 10.8784,
+  "steps_taken": 292.5,
+  "termination": {
+    "stop": 2
+  },
+  "mean_actions_per_episode": 292.5,
+  "mean_policy_calls_per_episode": 70.5,
+  "episodes_with_unparsable_reply": 0,
+  "mean_stop_deferrals": 0.0,
+  "api_latency_s_total": 316.0,
+  "prompt_tokens_total": 283901,
+  "completion_tokens_total": 12512,
+  "tag": "glm-par10",
+  "policy": "vlm",
+  "model": "glm-5.3-flash",
+  "reasoning_effort": "minimal",
+  "guardrails": {
+    "max_consecutive_forward": 0,
+    "stop_verification": false,
+    "history_frames": 4,
+    "max_program": 8
+  },
+  "max_actions": 500,
+  "time_limit_s": 2400.0,
+  "subset_file": "subset/r2rce100.json",
+  "episodes_run": [
+    1,
+    4
+  ],
+  "backend": {
+    "calls": 141,
+    "failures": 0,
+    "prompt_tokens": 283901,
+    "completion_tokens": 12512,
+    "reasoning_tokens": 4205,
+    "latency_s": 315.950900554657
+  },
+  "cumulative": {
+    "num_episodes": 9,
+    "success": 0.4444,
+    "oracle_success": 0.5556,
+    "distance_to_goal": 5.1736,
+    "spl": 0.3599,
+    "path_length": 11.409,
+    "steps_taken": 118.8889,
+    "termination": {
+      "stop": 9
+    },
+    "mean_actions_per_episode": 118.89,
+    "mean_policy_calls_per_episode": 31.33,
+    "episodes_with_unparsable_reply": 0,
+    "mean_stop_deferrals": 0.0,
+    "api_latency_s_total": 650.5,
+    "prompt_tokens_total": 549703,
+    "completion_tokens_total": 25513
+  }
+}
+
+wrote 2 episode records to runs/glm-par10/

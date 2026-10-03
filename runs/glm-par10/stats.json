@@ -1,0 +1,66 @@
+{
+  "this_run": {
+    "num_episodes": 10,
+    "success": 0.4,
+    "oracle_success": 0.5,
+    "distance_to_goal": 5.8205,
+    "spl": 0.324,
+    "path_length": 10.4861,
+    "steps_taken": 156.6,
+    "termination": {
+      "stop": 10
+    },
+    "mean_actions_per_episode": 156.6,
+    "mean_policy_calls_per_episode": 49.6,
+    "episodes_with_unparsable_reply": 0,
+    "mean_stop_deferrals": 0.0,
+    "api_latency_s_total": 1058.3,
+    "prompt_tokens_total": 998384,
+    "completion_tokens_total": 37816,
+    "tag": "glm-par10",
+    "episodes_run": [
+      1,
+      10,
+      127,
+      19,
+      205,
+      220,
+      28,
+      4,
+      46,
+      7
+    ]
+  },
+  "all_episodes": {
+    "num_episodes": 10,
+    "success": 0.4,
+    "oracle_success": 0.5,
+    "distance_to_goal": 5.8205,
+    "spl": 0.324,
+    "path_length": 10.4861,
+    "steps_taken": 156.6,
+    "termination": {
+      "stop": 10
+    },
+    "mean_actions_per_episode": 156.6,
+    "mean_policy_calls_per_episode": 49.6,
+    "episodes_with_unparsable_reply": 0,
+    "mean_stop_deferrals": 0.0,
+    "api_latency_s_total": 1058.3,
+    "prompt_tokens_total": 998384,
+    "completion_tokens_total": 37816,
+    "tag": "glm-par10",
+    "episodes_run": [
+      1,
+      10,
+      127,
+      19,
+      205,
+      220,
+      28,
+      4,
+      46,
+      7
+    ]
+  }
+}

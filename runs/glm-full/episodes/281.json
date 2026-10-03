@@ -1,0 +1,371 @@
+{
+  "episode_id": 281,
+  "scene_id": "EU6Fwq7SyZv",
+  "instruction": "Go to the left of the living area, and continue past it. Take a right and go to the pool table.",
+  "actions_taken": 74,
+  "policy_calls": 25,
+  "api_latency_s": 56.74,
+  "prompt_tokens": 47195,
+  "completion_tokens": 2007,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 57.2,
+  "steps": [
+    {
+      "n": 3,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I see an open living area ahead with seating to the right and a passage to the left of the stairs. I'll head forward toward the living area first.",
+      "latency_s": 1.97,
+      "prompt_tokens": 884
+    },
+    {
+      "n": 6,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a staircase; the living area appears to the left. I'll turn left and proceed toward it, then look for a right turn toward the pool table.",
+      "latency_s": 1.78,
+      "prompt_tokens": 1239
+    },
+    {
+      "n": 9,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at a railing overlooking the open living area with the kitchen to my left. I need to proceed along the left side of the living area, so I'll turn right toward the open floor and advance.",
+      "latency_s": 2.8,
+      "prompt_tokens": 1604
+    },
+    {
+      "n": 11,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on an upper walkway beside the living area below. I should continue forward past the living area, then turn right toward the pool table. Advancing along the open floor past the stairs first.",
+      "latency_s": 2.85,
+      "prompt_tokens": 1968
+    },
+    {
+      "n": 14,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm beside a staircase looking down an open hallway toward the far windows. I'll advance along this path, then turn right to find the pool table.",
+      "latency_s": 2.69,
+      "prompt_tokens": 1968
+    },
+    {
+      "n": 17,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a large open room with a dining table on the left and stairs on the right. I'll advance toward the open floor past the dining table, then look for the pool table to the right.",
+      "latency_s": 2.22,
+      "prompt_tokens": 1969
+    },
+    {
+      "n": 20,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm moving along the dining table toward the open living area at the far end; I'll continue forward and look for the pool table after passing it.",
+      "latency_s": 1.96,
+      "prompt_tokens": 1969
+    },
+    {
+      "n": 23,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm moving along the dining table toward the open living area ahead; I'll continue forward and then look for the pool table after taking a right.",
+      "latency_s": 3.21,
+      "prompt_tokens": 1969
+    },
+    {
+      "n": 26,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm moving along the dining table toward the living area at the far end; I'll continue forward before turning right toward the pool table.",
+      "latency_s": 2.59,
+      "prompt_tokens": 1969
+    },
+    {
+      "n": 29,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a dining/living area with a long table on my left. The instruction says to continue past the living area, then take a right toward the pool table. I'll advance along the open floor past the table first.",
+      "latency_s": 2.54,
+      "prompt_tokens": 1971
+    },
+    {
+      "n": 32,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a dining table with the living area windows ahead. The instruction says go left of the living area, so I'll turn left and move around the table toward the open floor on the left side.",
+      "latency_s": 2.44,
+      "prompt_tokens": 1970
+    },
+    {
+      "n": 35,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm blocked by a dining table and chairs directly ahead. I need to turn right to skirt around the table toward the open floor, then look for the pool table area.",
+      "latency_s": 1.89,
+      "prompt_tokens": 1972
+    },
+    {
+      "n": 38,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm beside a dining table facing the window wall. The instruction says to go left of the living area and continue past it, then turn right toward the pool table. I'll turn left to move around the table first.",
+      "latency_s": 2.83,
+      "prompt_tokens": 1974
+    },
+    {
+      "n": 41,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm next to a wooden table with a chair blocking my view. I need to move around it and look for the pool table, likely further into this large room.",
+      "latency_s": 2.14,
+      "prompt_tokens": 1975
+    },
+    {
+      "n": 43,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm beside a large table facing the windows; the pool table isn't visible yet. I'll turn right to scan the room for it.",
+      "latency_s": 2.54,
+      "prompt_tokens": 1977
+    },
+    {
+      "n": 46,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm near the kitchen counter; the pool table isn't visible yet. I'll turn right toward the open floor by the glass doors to look for it.",
+      "latency_s": 2.34,
+      "prompt_tokens": 1978
+    },
+    {
+      "n": 49,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've turned past the living area and can now see an open great room ahead with what appears to be a pool table in the distance. I'll advance toward it, re-observing as I go.",
+      "latency_s": 2.18,
+      "prompt_tokens": 1980
+    },
+    {
+      "n": 52,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing the open living area with the sofa ahead. I'll advance toward it, then look for the pool table beyond.",
+      "latency_s": 2.06,
+      "prompt_tokens": 1981
+    },
+    {
+      "n": 55,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the pool table ahead in the open living area. I'll advance toward it, re-observing as I go.",
+      "latency_s": 1.91,
+      "prompt_tokens": 1981
+    },
+    {
+      "n": 58,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm moving along the glass doors with the living area to my right; ahead in the distance there appears to be a table (possibly the pool table) in the far room. I'll continue forward and re-observe.",
+      "latency_s": 2.07,
+      "prompt_tokens": 1982
+    },
+    {
+      "n": 61,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The pool table is visible ahead in the open room, slightly left of center. I'll advance toward it and re-observe.",
+      "latency_s": 2.07,
+      "prompt_tokens": 1982
+    },
+    {
+      "n": 64,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The pool table is visible ahead through the opening. I'll advance toward it along the stone path.",
+      "latency_s": 1.74,
+      "prompt_tokens": 1983
+    },
+    {
+      "n": 68,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The pool table is visible ahead across the room, roughly 4-5 m away. I'll advance toward it and stop when close.",
+      "latency_s": 1.94,
+      "prompt_tokens": 1983
+    },
+    {
+      "n": 72,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The pool table is directly ahead in the open room, a few meters away. I'll advance toward it and stop when close.",
+      "latency_s": 1.81,
+      "prompt_tokens": 1983
+    },
+    {
+      "n": 74,
+      "actions": [
+        "MOVE_FORWARD",
+        "STOP"
+      ],
+      "thought": "The pool table is directly ahead and I'm already within a few meters of it. I'll take one more forward step to get closer, then stop.",
+      "latency_s": 2.17,
+      "prompt_tokens": 1984
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    12.175,
+    11.956,
+    11.737,
+    11.557,
+    11.4,
+    11.214,
+    11.043,
+    10.854,
+    10.679,
+    10.513,
+    10.435,
+    10.389,
+    10.378,
+    10.404,
+    10.466,
+    10.402,
+    10.162,
+    9.924,
+    9.688,
+    9.455,
+    9.226,
+    9.002,
+    8.784,
+    8.577,
+    8.385,
+    8.214,
+    8.033,
+    7.915,
+    7.783,
+    7.822,
+    7.817,
+    7.685,
+    7.435,
+    7.185,
+    6.935,
+    6.686,
+    6.436,
+    6.186,
+    5.936,
+    5.686,
+    5.436,
+    5.186,
+    4.936,
+    4.686,
+    4.436,
+    4.186,
+    3.936,
+    3.686,
+    3.436,
+    3.186,
+    2.936,
+    2.686,
+    2.436,
+    2.186,
+    1.936,
+    1.686,
+    1.436,
+    1.186,
+    0.936
+  ],
+  "final_distance": 0.936,
+  "min_distance": 0.936,
+  "metrics": {
+    "distance_to_goal": 0.9364710450172424,
+    "success": 1.0,
+    "spl": 0.8639964706384813,
+    "oracle_success": 1.0,
+    "path_length": 14.091668471693993,
+    "steps_taken": 74.0
+  },
+  "success": true,
+  "backend_stats": {
+    "calls": 53,
+    "failures": 0,
+    "prompt_tokens": 96305,
+    "completion_tokens": 4242,
+    "reasoning_tokens": 1381,
+    "latency_s": 123.26583337783813
+  },
+  "stop_deferrals": 0
+}

@@ -1,0 +1,410 @@
+{
+  "episode_id": 1147,
+  "scene_id": "8194nk5LbLH",
+  "instruction": "Go through the lobby and wait in the kitchen.",
+  "actions_taken": 93,
+  "policy_calls": 27,
+  "api_latency_s": 54.46,
+  "prompt_tokens": 50873,
+  "completion_tokens": 1700,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 54.97,
+  "steps": [
+    {
+      "n": 3,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing an orange wall with a painting; I need to turn to find the lobby opening.",
+      "latency_s": 1.32,
+      "prompt_tokens": 870
+    },
+    {
+      "n": 7,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm facing glass doors; the lobby interior is to my left. I'll turn left to look for the kitchen direction.",
+      "latency_s": 1.98,
+      "prompt_tokens": 1226
+    },
+    {
+      "n": 10,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing an orange wall; the lobby with glass doors is to my right. I'll turn right and proceed through the lobby toward the kitchen.",
+      "latency_s": 1.84,
+      "prompt_tokens": 1590
+    },
+    {
+      "n": 13,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in a lobby near glass entrance doors, facing the orange wall. I need to move through the lobby toward the kitchen; I'll turn left to scan the interior space for a passage.",
+      "latency_s": 2.31,
+      "prompt_tokens": 1955
+    },
+    {
+      "n": 16,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing an orange wall with a painting; the lobby must be to my right where the open space and windows were visible. I'll turn right to re-orient toward the open lobby area.",
+      "latency_s": 2.01,
+      "prompt_tokens": 1956
+    },
+    {
+      "n": 22,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing an orange wall corner with a painting; the open lobby area is behind me to the right. I need to turn around and re-observe before moving.",
+      "latency_s": 2.22,
+      "prompt_tokens": 1958
+    },
+    {
+      "n": 25,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in the lobby near glass doors and a fireplace, but no kitchen is visible yet. I'll turn right to scan the space for the kitchen area.",
+      "latency_s": 2.33,
+      "prompt_tokens": 1961
+    },
+    {
+      "n": 29,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the lobby with a fireplace and sofas; a kitchen area is visible in the distance to the right behind the column. I'll turn right and head toward it.",
+      "latency_s": 2.24,
+      "prompt_tokens": 1962
+    },
+    {
+      "n": 32,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the lobby; the kitchen area (dark cabinets) is visible ahead beyond the sofa. I'll advance toward it and re-observe.",
+      "latency_s": 2.09,
+      "prompt_tokens": 1964
+    },
+    {
+      "n": 35,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen area is visible ahead beyond the sofa. I'll advance toward it, then re-observe.",
+      "latency_s": 1.8,
+      "prompt_tokens": 1965
+    },
+    {
+      "n": 39,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen area is visible ahead beyond the sofa. I'll advance toward it, re-observing as I go.",
+      "latency_s": 1.85,
+      "prompt_tokens": 1964
+    },
+    {
+      "n": 43,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is visible ahead beyond the sofa. I'll advance toward it, re-observing as I go.",
+      "latency_s": 1.68,
+      "prompt_tokens": 1965
+    },
+    {
+      "n": 47,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is visible ahead past the couch. I'll advance toward it, steering around the sofa.",
+      "latency_s": 2.07,
+      "prompt_tokens": 1965
+    },
+    {
+      "n": 50,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is visible ahead past the couch. I'll advance toward it, re-observing as I go.",
+      "latency_s": 1.56,
+      "prompt_tokens": 1966
+    },
+    {
+      "n": 53,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is visible ahead beyond the sofa; I need to advance toward it through the open lobby area.",
+      "latency_s": 2.03,
+      "prompt_tokens": 1966
+    },
+    {
+      "n": 56,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is visible ahead beyond the sofa. I'll advance toward it, re-observing as I go.",
+      "latency_s": 1.7,
+      "prompt_tokens": 1967
+    },
+    {
+      "n": 60,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is visible ahead beyond the sofa. I'll advance toward it, re-observing as I go.",
+      "latency_s": 2.17,
+      "prompt_tokens": 1968
+    },
+    {
+      "n": 63,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is visible ahead beyond the sofa. I'll advance toward it, re-observing as I go.",
+      "latency_s": 1.75,
+      "prompt_tokens": 1968
+    },
+    {
+      "n": 66,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is visible ahead beyond the sofa. I'll advance toward it, re-observing as I go.",
+      "latency_s": 2.35,
+      "prompt_tokens": 1968
+    },
+    {
+      "n": 70,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is visible ahead beyond the sofa. I'll advance toward it, re-observing as I go.",
+      "latency_s": 1.97,
+      "prompt_tokens": 1969
+    },
+    {
+      "n": 74,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is visible ahead beyond the sofa. I'll advance toward it, re-observing as I go.",
+      "latency_s": 1.92,
+      "prompt_tokens": 1969
+    },
+    {
+      "n": 78,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is visible ahead beyond the sofa. I'll advance toward it, re-observing as I go.",
+      "latency_s": 1.94,
+      "prompt_tokens": 1970
+    },
+    {
+      "n": 82,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is visible ahead past the column and sofa. I'll advance toward it, re-aiming slightly right.",
+      "latency_s": 2.21,
+      "prompt_tokens": 1971
+    },
+    {
+      "n": 85,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen with bar stools and counters is directly ahead past the pillar. I'll advance a couple of steps toward it, then stop inside the kitchen area.",
+      "latency_s": 2.53,
+      "prompt_tokens": 1972
+    },
+    {
+      "n": 88,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen with fridge, cabinets, and bar stools is clearly visible ahead past the pillar. I'll advance toward it and stop once inside.",
+      "latency_s": 2.06,
+      "prompt_tokens": 1972
+    },
+    {
+      "n": 91,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've passed through the lobby and the kitchen with fridge, counters, and bar stools is directly ahead. I'll advance a couple steps toward it, then stop inside the kitchen.",
+      "latency_s": 2.35,
+      "prompt_tokens": 1973
+    },
+    {
+      "n": 93,
+      "actions": [
+        "MOVE_FORWARD",
+        "STOP"
+      ],
+      "thought": "I've passed through the lobby and the kitchen with fridge, cabinets, and bar stools is directly ahead. I'll step forward once to be inside the kitchen, then stop.",
+      "latency_s": 2.18,
+      "prompt_tokens": 1973
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    8.245,
+    8.245,
+    8.474,
+    8.227,
+    7.98,
+    7.734,
+    7.489,
+    7.248,
+    7.015,
+    6.793,
+    6.581,
+    6.384,
+    6.209,
+    6.07,
+    5.991,
+    5.973,
+    5.956,
+    5.94,
+    5.923,
+    5.906,
+    5.89,
+    5.873,
+    5.856,
+    5.84,
+    5.823,
+    5.807,
+    5.79,
+    5.773,
+    5.757,
+    5.74,
+    5.723,
+    5.707,
+    5.69,
+    5.673,
+    5.657,
+    5.64,
+    5.624,
+    5.607,
+    5.59,
+    5.574,
+    5.557,
+    5.54,
+    5.524,
+    5.507,
+    5.491,
+    5.474,
+    5.457,
+    5.441,
+    5.347,
+    5.254,
+    5.161,
+    4.907,
+    4.657,
+    4.408,
+    4.164,
+    3.92,
+    3.677,
+    3.416,
+    3.193,
+    2.981,
+    2.794,
+    2.654,
+    2.623
+  ],
+  "final_distance": 2.623,
+  "min_distance": 2.623,
+  "metrics": {
+    "distance_to_goal": 2.623077154159546,
+    "success": 1.0,
+    "spl": 1.0,
+    "oracle_success": 1.0,
+    "path_length": 7.04861868172884,
+    "steps_taken": 93.0
+  },
+  "success": true,
+  "backend_stats": {
+    "calls": 1035,
+    "failures": 0,
+    "prompt_tokens": 2045838,
+    "completion_tokens": 82522,
+    "reasoning_tokens": 24854,
+    "latency_s": 2311.793797492981
+  },
+  "stop_deferrals": 0
+}

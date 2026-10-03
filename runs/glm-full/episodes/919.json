@@ -1,0 +1,169 @@
+{
+  "episode_id": 919,
+  "scene_id": "8194nk5LbLH",
+  "instruction": "Move forward past the television on the wall, continue forward until you reach the potted plant and a door.",
+  "actions_taken": 27,
+  "policy_calls": 10,
+  "api_latency_s": 19.67,
+  "prompt_tokens": 17491,
+  "completion_tokens": 704,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 19.82,
+  "steps": [
+    {
+      "n": 3,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I see an open living/kitchen area; the television appears to be on the left wall and a plant is visible at the far left. I'll advance toward the kitchen counter first and re-observe.",
+      "latency_s": 1.84,
+      "prompt_tokens": 882
+    },
+    {
+      "n": 6,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I don't see a television or potted plant in the current view; I'm facing a kitchen/bar area. I should scan the room to locate the TV on the wall before moving.",
+      "latency_s": 1.81,
+      "prompt_tokens": 1237
+    },
+    {
+      "n": 9,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "After turning right, I'm facing down the corridor with a blue wall and a large screen/window on the right. The instruction says to move forward past the television and continue to a potted plant and door, so I should advance along this hallway and re-observe.",
+      "latency_s": 2.47,
+      "prompt_tokens": 1602
+    },
+    {
+      "n": 12,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm moving along the open area toward the doorway visible ahead near the blue wall. I'll advance a few steps and re-observe to find the potted plant and door.",
+      "latency_s": 1.93,
+      "prompt_tokens": 1966
+    },
+    {
+      "n": 15,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm moving down the hallway toward the door visible ahead; the potted plant and door should be near it. Continue forward a few steps and re-observe.",
+      "latency_s": 1.92,
+      "prompt_tokens": 1966
+    },
+    {
+      "n": 17,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm moving down the hallway toward the door visible ahead; the potted plant/door target appears near that door. Continue forward a couple steps and re-observe.",
+      "latency_s": 1.87,
+      "prompt_tokens": 1967
+    },
+    {
+      "n": 20,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm moving down the hallway toward the door ahead; the potted plant and door appear near the end of the hall. I'll advance a few steps and re-observe.",
+      "latency_s": 1.98,
+      "prompt_tokens": 1968
+    },
+    {
+      "n": 23,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hallway facing a gray door with an exit sign; the potted plant appears to be near the door on the left. I'll advance toward it and re-observe.",
+      "latency_s": 1.9,
+      "prompt_tokens": 1966
+    },
+    {
+      "n": 25,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a door straight ahead down the hallway; the potted plant may be near it. I'll advance a couple steps and re-observe before stopping.",
+      "latency_s": 2.23,
+      "prompt_tokens": 1968
+    },
+    {
+      "n": 27,
+      "actions": [
+        "MOVE_FORWARD",
+        "STOP"
+      ],
+      "thought": "The door is directly ahead and close (~2 m); the potted plant should be near it. I'll take one more forward step then stop.",
+      "latency_s": 1.72,
+      "prompt_tokens": 1969
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    9.114,
+    9.157,
+    9.234,
+    9.34,
+    9.579,
+    9.821,
+    10.063,
+    10.307,
+    10.551,
+    10.796,
+    11.042,
+    11.288,
+    11.534,
+    11.782,
+    12.029,
+    12.277,
+    12.525,
+    12.773,
+    13.022,
+    13.271,
+    13.519,
+    13.768,
+    14.017,
+    14.266
+  ],
+  "final_distance": 14.266,
+  "min_distance": 9.114,
+  "metrics": {
+    "distance_to_goal": 14.266426086425781,
+    "success": 0.0,
+    "spl": 0.0,
+    "oracle_success": 0.0,
+    "path_length": 5.749999150633812,
+    "steps_taken": 27.0
+  },
+  "success": false,
+  "backend_stats": {
+    "calls": 970,
+    "failures": 0,
+    "prompt_tokens": 1924362,
+    "completion_tokens": 77554,
+    "reasoning_tokens": 23261,
+    "latency_s": 2170.3886959552765
+  },
+  "stop_deferrals": 0
+}

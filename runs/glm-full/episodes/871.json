@@ -1,0 +1,252 @@
+{
+  "episode_id": 871,
+  "scene_id": "Z6MFQCViBuw",
+  "instruction": "Walk through the dining room into the area with the tiled floor and exit sign.",
+  "actions_taken": 44,
+  "policy_calls": 16,
+  "api_latency_s": 36.57,
+  "prompt_tokens": 29199,
+  "completion_tokens": 1306,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 36.85,
+  "steps": [
+    {
+      "n": 3,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in an ornate gallery hall; the instruction requires passing through a dining room to a tiled-floor area with an exit sign. I'll move forward and explore, looking for doorways.",
+      "latency_s": 2.26,
+      "prompt_tokens": 876
+    },
+    {
+      "n": 5,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in a large hall with a display case; the instruction mentions a dining room and a tiled floor area with an exit sign. There's an arched doorway on the left I should head toward.",
+      "latency_s": 2.08,
+      "prompt_tokens": 1231
+    },
+    {
+      "n": 7,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a large hall with a red carpet corridor between a painting wall and a display case. The instruction mentions a tiled floor and exit sign ahead, so I'll advance along this open path and re-observe.",
+      "latency_s": 2.3,
+      "prompt_tokens": 1595
+    },
+    {
+      "n": 10,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a large gallery hall; the instruction says to pass through the dining room to a tiled-floor area with an exit sign. There's an arched doorway ahead past the display case, so I'll advance toward it and re-observe.",
+      "latency_s": 2.48,
+      "prompt_tokens": 1959
+    },
+    {
+      "n": 13,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a large gallery with a red carpet leading to an arched doorway ahead. The instruction mentions a tiled floor area with an exit sign, likely beyond that doorway, so I'll keep moving forward along the carpet.",
+      "latency_s": 2.21,
+      "prompt_tokens": 1960
+    },
+    {
+      "n": 16,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm moving down a long gallery toward an arched doorway ahead; the instruction's tiled-floor area with exit sign is likely beyond it. Continue forward, checking alignment.",
+      "latency_s": 1.87,
+      "prompt_tokens": 1959
+    },
+    {
+      "n": 19,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a long gallery with a red carpet; the instruction mentions a tiled floor area with an exit sign, likely through the archway ahead. I'll keep moving forward along the carpet.",
+      "latency_s": 2.02,
+      "prompt_tokens": 1961
+    },
+    {
+      "n": 22,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a long gallery with a red carpet leading toward an arched doorway ahead. The instruction says to walk through the dining room into the tiled-floor area with an exit sign, so I should keep advancing along the carpet toward that arch.",
+      "latency_s": 2.25,
+      "prompt_tokens": 1960
+    },
+    {
+      "n": 25,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a large hall with a red carpet; the tiled floor strip runs along the right side. I'll advance along it toward the arched doorway ahead where an exit sign likely is.",
+      "latency_s": 2.35,
+      "prompt_tokens": 1961
+    },
+    {
+      "n": 28,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a large hall with a red carpet; ahead there's an archway leading to another room. I'll advance along the carpet toward it.",
+      "latency_s": 1.92,
+      "prompt_tokens": 1961
+    },
+    {
+      "n": 31,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a large red hall; the archway ahead likely leads to the tiled-floor area with the exit sign. I'll advance toward it and re-observe.",
+      "latency_s": 2.02,
+      "prompt_tokens": 1962
+    },
+    {
+      "n": 34,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a large hall with a tiled marble floor; the exit sign is likely near the archway ahead. I'll advance toward it and look for the sign.",
+      "latency_s": 2.64,
+      "prompt_tokens": 1962
+    },
+    {
+      "n": 37,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a red-walled hall; the archway ahead leads onward toward the tiled area. I'll advance toward it and re-observe.",
+      "latency_s": 2.8,
+      "prompt_tokens": 1963
+    },
+    {
+      "n": 40,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a red-walled room with an arched doorway ahead; the tiled floor and exit sign are likely beyond it. I'll advance toward the arch and re-observe.",
+      "latency_s": 2.4,
+      "prompt_tokens": 1962
+    },
+    {
+      "n": 43,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I see an arched doorway ahead leading to another room; the tiled floor and exit sign are likely beyond it. I'll advance toward the archway.",
+      "latency_s": 1.91,
+      "prompt_tokens": 1964
+    },
+    {
+      "n": 44,
+      "actions": [
+        "STOP"
+      ],
+      "thought": "I can see the tiled floor area ahead and the exit sign region near the panel on the right; we appear to have reached the described location.",
+      "latency_s": 3.06,
+      "prompt_tokens": 1963
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    13.411,
+    13.65,
+    13.89,
+    14.131,
+    14.375,
+    14.619,
+    14.861,
+    15.104,
+    15.348,
+    15.592,
+    15.836,
+    16.081,
+    16.326,
+    16.571,
+    16.817,
+    17.063,
+    17.31,
+    17.556,
+    17.803,
+    18.051,
+    18.298,
+    18.546,
+    18.793,
+    19.041,
+    19.289,
+    19.537,
+    19.786,
+    20.034,
+    20.282,
+    20.531,
+    20.78,
+    21.028,
+    21.277,
+    21.526,
+    21.775,
+    22.024,
+    22.273,
+    22.522,
+    22.771,
+    23.02,
+    23.269,
+    23.519
+  ],
+  "final_distance": 23.519,
+  "min_distance": 13.411,
+  "metrics": {
+    "distance_to_goal": 23.51856803894043,
+    "success": 0.0,
+    "spl": 0.0,
+    "oracle_success": 0.0,
+    "path_length": 10.28591114282608,
+    "steps_taken": 44.0
+  },
+  "success": false,
+  "backend_stats": {
+    "calls": 615,
+    "failures": 0,
+    "prompt_tokens": 1219609,
+    "completion_tokens": 48143,
+    "reasoning_tokens": 13710,
+    "latency_s": 1368.8572742938995
+  },
+  "stop_deferrals": 0
+}

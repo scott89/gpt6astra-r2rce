@@ -1,0 +1,61 @@
+{
+  "episode_id": 696,
+  "scene_id": "EU6Fwq7SyZv",
+  "instruction": "Leave the kitchen and walk into the living room. Walk through the living room towards the doors in the entry way. Stop on the stone with the pillar on your right.",
+  "actions_taken": 4,
+  "policy_calls": 2,
+  "api_latency_s": 6.54,
+  "prompt_tokens": 2144,
+  "completion_tokens": 216,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 6.56,
+  "steps": [
+    {
+      "n": 3,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in the kitchen facing glass doors; the living room is to the right. I'll move forward toward the doors, then turn right into the living room and head toward the entryway.",
+      "latency_s": 4.68,
+      "prompt_tokens": 894
+    },
+    {
+      "n": 4,
+      "actions": [
+        "STOP"
+      ],
+      "thought": "I'm at the entryway doors standing on the stone floor with a wooden pillar to my right, matching the instruction's endpoint.",
+      "latency_s": 1.86,
+      "prompt_tokens": 1250
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    8.301,
+    8.385,
+    8.481
+  ],
+  "final_distance": 8.481,
+  "min_distance": 8.301,
+  "metrics": {
+    "distance_to_goal": 8.480990409851074,
+    "success": 0.0,
+    "spl": 0.0,
+    "oracle_success": 0.0,
+    "path_length": 0.4999999850988388,
+    "steps_taken": 4.0
+  },
+  "success": false,
+  "backend_stats": {
+    "calls": 22,
+    "failures": 0,
+    "prompt_tokens": 39564,
+    "completion_tokens": 1644,
+    "reasoning_tokens": 511,
+    "latency_s": 51.52811551094055
+  },
+  "stop_deferrals": 0
+}

@@ -1,0 +1,142 @@
+{
+  "episode_id": 1406,
+  "scene_id": "TbHJrupSAjP",
+  "instruction": "Turn left and exit the bedroom. Walk past the stairs into the rightmost doorway. Wait by the entrance of the bedroom.",
+  "actions_taken": 26,
+  "policy_calls": 9,
+  "api_latency_s": 24.36,
+  "prompt_tokens": 15570,
+  "completion_tokens": 967,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 24.51,
+  "steps": [
+    {
+      "n": 6,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm facing a white shelf unit inside the bedroom. The instruction says turn left and exit, so I'll rotate left first to see the exit.",
+      "latency_s": 1.91,
+      "prompt_tokens": 885
+    },
+    {
+      "n": 8,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I have turned left and now face the bed. I need to find the bedroom exit; I'll scan right to locate the doorway.",
+      "latency_s": 2.96,
+      "prompt_tokens": 1241
+    },
+    {
+      "n": 11,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the bedroom; the exit appears to be to the right near the wall edge. I'll turn right toward the doorway and then move forward.",
+      "latency_s": 2.44,
+      "prompt_tokens": 1605
+    },
+    {
+      "n": 13,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm at the bedroom doorway facing the wall edge. The instruction says to turn left and exit, so I'll turn left to look into the hallway beyond the bedroom entrance.",
+      "latency_s": 2.5,
+      "prompt_tokens": 1970
+    },
+    {
+      "n": 16,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm inside the bedroom facing the bed and windows, with a wall on my right. The exit must be behind me; I'll turn left to find the doorway out of the bedroom.",
+      "latency_s": 2.72,
+      "prompt_tokens": 1971
+    },
+    {
+      "n": 19,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm inside the bedroom facing the bed and nightstand. The exit doorway is likely behind me to the right, so I'll turn right to re-aim before moving toward it.",
+      "latency_s": 2.82,
+      "prompt_tokens": 1972
+    },
+    {
+      "n": 22,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the bedroom facing the bed; the doorway appears at the right edge of the frame. I'll turn right toward it and advance to exit.",
+      "latency_s": 2.58,
+      "prompt_tokens": 1974
+    },
+    {
+      "n": 25,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the bedroom entrance with a wall to my right; I need to exit the bedroom toward the hallway with stairs. I'll turn right to face out of the doorway and step forward.",
+      "latency_s": 3.63,
+      "prompt_tokens": 1975
+    },
+    {
+      "n": 26,
+      "actions": [
+        "STOP"
+      ],
+      "thought": "I am standing right at the bedroom entrance/doorway after exiting, which matches the instruction's endpoint 'wait by the entrance of the bedroom.'",
+      "latency_s": 2.8,
+      "prompt_tokens": 1977
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    6.903,
+    6.903,
+    6.686,
+    6.588,
+    6.523,
+    6.458
+  ],
+  "final_distance": 6.458,
+  "min_distance": 6.458,
+  "metrics": {
+    "distance_to_goal": 6.458405494689941,
+    "success": 0.0,
+    "spl": 0.0,
+    "oracle_success": 0.0,
+    "path_length": 0.6342588663101196,
+    "steps_taken": 26.0
+  },
+  "success": false,
+  "backend_stats": {
+    "calls": 27,
+    "failures": 0,
+    "prompt_tokens": 49469,
+    "completion_tokens": 2252,
+    "reasoning_tokens": 742,
+    "latency_s": 60.44462490081787
+  },
+  "stop_deferrals": 0
+}

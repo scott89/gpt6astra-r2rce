@@ -1,0 +1,1805 @@
+{
+  "episode_id": 1084,
+  "scene_id": "zsNo4HB9uLZ",
+  "instruction": "Exit the bathroom and enter the hall. Take a left in the hall and then enter another hall. Take a right at this hall, then take a left to enter another bathroom.",
+  "actions_taken": 481,
+  "policy_calls": 145,
+  "api_latency_s": 340.92,
+  "prompt_tokens": 297742,
+  "completion_tokens": 13867,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 343.65,
+  "steps": [
+    {
+      "n": 2,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I appear to be in a bathroom facing an open doorway into a hall. I'll move forward through the doorway to exit.",
+      "latency_s": 1.48,
+      "prompt_tokens": 896
+    },
+    {
+      "n": 6,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I appear to be in a hall facing a wall with an eye chart; the hall extends to the left. Per the instruction, I should take a left in the hall, so I'll turn left and proceed down the hallway.",
+      "latency_s": 2.43,
+      "prompt_tokens": 1251
+    },
+    {
+      "n": 9,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've exited the bathroom and turned left into the hall; I now face a hallway with shelves. I'll advance down this hall to reach the next hall before turning right.",
+      "latency_s": 2.54,
+      "prompt_tokens": 1616
+    },
+    {
+      "n": 11,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a narrow hall with shelves; ahead is an opening. I need to continue down this hall and watch for a right turn, then a left into a bathroom.",
+      "latency_s": 2.38,
+      "prompt_tokens": 1979
+    },
+    {
+      "n": 14,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hall with shelving on the left, moving forward. I need to continue down this hall to find the left turn into the next hall.",
+      "latency_s": 2.49,
+      "prompt_tokens": 1979
+    },
+    {
+      "n": 17,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I appear to be in a kitchen/hall area with shelving on the left. The instruction says to take a left in the hall then enter another hall; I should continue forward toward the opening ahead and then look for the hallway on the left.",
+      "latency_s": 2.6,
+      "prompt_tokens": 1980
+    },
+    {
+      "n": 20,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a shelf instead of the hallway. I need to turn right to re-align with the corridor and proceed down it.",
+      "latency_s": 2.27,
+      "prompt_tokens": 1980
+    },
+    {
+      "n": 23,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I appear to be in a kitchen/hall corridor. The instruction says to take a left in the hall, so I should turn left and look for the next hallway entrance.",
+      "latency_s": 2.39,
+      "prompt_tokens": 1981
+    },
+    {
+      "n": 25,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a shelf/wall instead of the kitchen corridor. I need to turn right to re-face the open hallway and continue forward.",
+      "latency_s": 2.06,
+      "prompt_tokens": 1983
+    },
+    {
+      "n": 28,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a narrow kitchen corridor facing an open living area. I need to continue through this hall; I'll advance carefully and re-observe.",
+      "latency_s": 2.28,
+      "prompt_tokens": 1984
+    },
+    {
+      "n": 31,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've exited the bathroom and am now in a kitchen/hall corridor. I need to proceed forward through this hall, then take a left, then a right, then a left into another bathroom. I'll advance along the corridor and re-observe.",
+      "latency_s": 2.57,
+      "prompt_tokens": 1985
+    },
+    {
+      "n": 33,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a kitchen corridor; the instruction says to take a right then a left into another bathroom. I should continue forward through this kitchen passage and look for openings on the sides.",
+      "latency_s": 2.98,
+      "prompt_tokens": 1985
+    },
+    {
+      "n": 36,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a kitchen corridor; the instruction suggests I should continue through this passage toward the hall ahead. I'll advance forward and re-observe.",
+      "latency_s": 2.79,
+      "prompt_tokens": 1985
+    },
+    {
+      "n": 39,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I appear to be in a kitchen, not yet at the second bathroom. I should continue forward through this space toward the open hall area ahead and look for the bathroom entrance.",
+      "latency_s": 2.51,
+      "prompt_tokens": 1987
+    },
+    {
+      "n": 42,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I appear to be in a kitchen/hall area with an open passage ahead. I'll continue forward through the hall to find the turn leading to the next bathroom.",
+      "latency_s": 2.64,
+      "prompt_tokens": 1986
+    },
+    {
+      "n": 45,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a kitchen area facing an open living space; the instruction's halls likely lie ahead. I'll advance forward through this open area and re-observe.",
+      "latency_s": 1.83,
+      "prompt_tokens": 1987
+    },
+    {
+      "n": 48,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in an open hall/kitchen area. The instruction says to take a left in the hall, so I'll turn left to look for the next hallway.",
+      "latency_s": 2.34,
+      "prompt_tokens": 1987
+    },
+    {
+      "n": 50,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall corner with a vent; the open hall is to my right. I'll turn right to re-enter the hall and look for the next turn.",
+      "latency_s": 1.97,
+      "prompt_tokens": 1988
+    },
+    {
+      "n": 53,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in a hall facing an open living area. The instruction says to take a left in the hall, so I should turn left and look for the next hallway.",
+      "latency_s": 2.1,
+      "prompt_tokens": 1988
+    },
+    {
+      "n": 56,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a wall corner; the tiled hall is visible to my right. I'll turn right toward the open hall and advance.",
+      "latency_s": 2.22,
+      "prompt_tokens": 1990
+    },
+    {
+      "n": 59,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I see a frosted-glass door ahead-left, which likely is the bathroom to enter after the final left. I'll turn left toward it and approach.",
+      "latency_s": 2.99,
+      "prompt_tokens": 1992
+    },
+    {
+      "n": 63,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in a hall facing a bathroom door. Per the instruction I should take a left in this hall to find another hall, so I'll turn left and observe.",
+      "latency_s": 2.33,
+      "prompt_tokens": 1994
+    },
+    {
+      "n": 66,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall in the hall; the frosted-glass door and hallway are behind me to the right. I'll turn right to reorient and find the next hallway opening.",
+      "latency_s": 2.31,
+      "prompt_tokens": 1995
+    },
+    {
+      "n": 70,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in a hall facing a frosted-glass doorway. Per the instruction I should take a left in this hall, so I'll turn left and look for the next passage.",
+      "latency_s": 2.3,
+      "prompt_tokens": 1997
+    },
+    {
+      "n": 74,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall with a hallway visible to my right (painting and doorway). I'll turn right to face down the hall and proceed.",
+      "latency_s": 2.09,
+      "prompt_tokens": 1997
+    },
+    {
+      "n": 77,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in a hall facing a wall with a painting; a doorway is on the right. Per the instruction I should take a left in this hall, so I'll turn left and look for the next passage.",
+      "latency_s": 2.61,
+      "prompt_tokens": 2000
+    },
+    {
+      "n": 80,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a hall facing a wall; the hallway with the painting is to my right. I'll turn right to look down the hall and find the next turn.",
+      "latency_s": 2.12,
+      "prompt_tokens": 2001
+    },
+    {
+      "n": 83,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in a hall with a painting and a frosted-glass door on the right. Per the instruction I need to take a left in this hall first, so I'll turn left to see the passage there.",
+      "latency_s": 2.67,
+      "prompt_tokens": 2002
+    },
+    {
+      "n": 86,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a wall in a hallway; the hall with the painting and a doorway is to my right. I'll turn right to align with the hall and proceed.",
+      "latency_s": 2.16,
+      "prompt_tokens": 2004
+    },
+    {
+      "n": 89,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in a hall facing a wall with a painting; a dark doorway is visible to my left. Per the instruction I should take a left here, so I'll turn left toward that opening and check it before entering.",
+      "latency_s": 2.47,
+      "prompt_tokens": 2006
+    },
+    {
+      "n": 91,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall up close; the hallway with the painting is to my right. I'll turn right to face down the hall before moving.",
+      "latency_s": 1.82,
+      "prompt_tokens": 2007
+    },
+    {
+      "n": 94,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall with a hallway opening to my right. I need to turn right to align with the hall and proceed.",
+      "latency_s": 2.02,
+      "prompt_tokens": 2008
+    },
+    {
+      "n": 97,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I see an open door with a frosted glass panel leading to what appears to be a bathroom (tiled floor visible). This matches the final 'enter another bathroom' step. I'll advance toward it.",
+      "latency_s": 2.21,
+      "prompt_tokens": 2010
+    },
+    {
+      "n": 100,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a wall with an open doorway to my right. I'll turn right toward the doorway and proceed through it.",
+      "latency_s": 1.99,
+      "prompt_tokens": 2011
+    },
+    {
+      "n": 103,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a carpeted hall with a frosted-glass door ahead. I need to find the right turn in this hall, so I'll advance along it and re-observe.",
+      "latency_s": 2.8,
+      "prompt_tokens": 2012
+    },
+    {
+      "n": 104,
+      "actions": [
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a hall facing a frosted-glass door. Per the instruction I should take a right in this hall, then a left into the bathroom. I'll turn right to scan the hall first.",
+      "latency_s": 2.9,
+      "prompt_tokens": 2013
+    },
+    {
+      "n": 107,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hall facing a wall/door too closely; the hall continues forward with a chair at the far end. I should back off alignment and proceed down the hall to find the right turn.",
+      "latency_s": 2.91,
+      "prompt_tokens": 2014
+    },
+    {
+      "n": 110,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hall with a dark doorway on the left and the hall continuing forward. I should proceed down the hall looking for the right turn, then a left into another bathroom. Move forward carefully while observing.",
+      "latency_s": 2.35,
+      "prompt_tokens": 2015
+    },
+    {
+      "n": 113,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hall with a chair ahead. I need to find the right turn; I'll advance along the hall and re-observe for openings on the right.",
+      "latency_s": 2.56,
+      "prompt_tokens": 2016
+    },
+    {
+      "n": 119,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I've gone too far and ended up in a bedroom, not a bathroom. I need to turn around and head back to the hallway to find the correct turn.",
+      "latency_s": 2.97,
+      "prompt_tokens": 2015
+    },
+    {
+      "n": 125,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a closet, not the bathroom the instruction ends at. I need to turn around and head back toward the bedroom/hall to find the bathroom entrance.",
+      "latency_s": 2.44,
+      "prompt_tokens": 2017
+    },
+    {
+      "n": 129,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I appear to be in a bedroom, not a bathroom, so I need to find the exit to the hall. I'll turn to scan for a doorway.",
+      "latency_s": 1.95,
+      "prompt_tokens": 2020
+    },
+    {
+      "n": 132,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I seem to be facing a closet/mirror in a bedroom, not a hall. I need to re-orient and find the hallway; I'll turn right to scan the room for an exit.",
+      "latency_s": 2.4,
+      "prompt_tokens": 2021
+    },
+    {
+      "n": 135,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I appear to be in a bedroom, not a bathroom or hall, so I need to find the way out. There is an opening on the left side of the frame; I will turn left to face it and look for a hallway.",
+      "latency_s": 2.75,
+      "prompt_tokens": 2023
+    },
+    {
+      "n": 138,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I appear to be in a bedroom facing a bed, with an opening to another room on my left. The instruction involves halls and a bathroom, so I should move through the left opening to find the hall.",
+      "latency_s": 2.97,
+      "prompt_tokens": 2023
+    },
+    {
+      "n": 142,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to be facing a closet/wall edge in a bedroom, not a bathroom or hall. I need to turn around and find the hallway to continue the instruction.",
+      "latency_s": 2.58,
+      "prompt_tokens": 2025
+    },
+    {
+      "n": 145,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I appear to be wedged against a doorframe edge; the hall with the chair is visible to my right. I'll turn right to face the open hall and step forward.",
+      "latency_s": 2.35,
+      "prompt_tokens": 2027
+    },
+    {
+      "n": 151,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to have drifted into a bedroom rather than the second bathroom. I should turn around and head back toward the hallway to find the bathroom entrance.",
+      "latency_s": 2.42,
+      "prompt_tokens": 2029
+    },
+    {
+      "n": 155,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to have wandered into a bedroom facing a mirrored closet; the instruction wants me in a hall heading toward another bathroom. I should turn around and head back toward the doorway I came through to find the hall.",
+      "latency_s": 2.86,
+      "prompt_tokens": 2032
+    },
+    {
+      "n": 158,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hall facing a doorway with brown double doors ahead. I'll advance through it and then look for the turn into the next bathroom.",
+      "latency_s": 2.14,
+      "prompt_tokens": 2034
+    },
+    {
+      "n": 161,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hallway facing an opening into a tiled hall with double doors ahead. I should advance into this hall, then look for a right turn and then a left into a bathroom.",
+      "latency_s": 2.88,
+      "prompt_tokens": 2035
+    },
+    {
+      "n": 165,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in the second hall facing brown double doors. The instruction says take a right here, then a left into another bathroom. There appears to be an opening on the right side of the hall; I'll turn right to inspect it.",
+      "latency_s": 2.34,
+      "prompt_tokens": 2035
+    },
+    {
+      "n": 168,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a frosted glass door which appears to be the target bathroom. I need to turn left to face the hallway opening, then move forward to enter.",
+      "latency_s": 2.52,
+      "prompt_tokens": 2037
+    },
+    {
+      "n": 172,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm pressed against a frosted glass door; the hallway with the brown double doors is to my left. I need to back away and turn left into the hall, then follow the instruction's right then left.",
+      "latency_s": 2.5,
+      "prompt_tokens": 2039
+    },
+    {
+      "n": 175,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hall facing double doors. The instruction says take a left in the hall; there's an opening to the left leading to another area. I'll turn left and proceed.",
+      "latency_s": 2.36,
+      "prompt_tokens": 2040
+    },
+    {
+      "n": 177,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a hall near a doorway, but I don't see the second bathroom yet. I'll turn right to scan the hall for the next opening.",
+      "latency_s": 2.0,
+      "prompt_tokens": 2042
+    },
+    {
+      "n": 181,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a hall facing brown double doors. The instruction says take a right at this hall, so I'll turn right to look for the next passage.",
+      "latency_s": 1.89,
+      "prompt_tokens": 2043
+    },
+    {
+      "n": 184,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hall with a dark doorway ahead that may be the next bathroom. I'll advance toward it and check alignment.",
+      "latency_s": 2.28,
+      "prompt_tokens": 2045
+    },
+    {
+      "n": 187,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a wall with a painting; the hallway continues through the doorway on my left. I'll turn left and proceed through it.",
+      "latency_s": 2.15,
+      "prompt_tokens": 2046
+    },
+    {
+      "n": 190,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hall with a dark doorway ahead and double doors to the left. The instruction says take a left into another hall; the dark doorway ahead-left looks like the passage, so I'll advance toward it and re-observe.",
+      "latency_s": 2.36,
+      "prompt_tokens": 2048
+    },
+    {
+      "n": 192,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall with a painting; the hallway with the dark door is to my right. I'll turn right to re-orient and look for the next bathroom doorway.",
+      "latency_s": 2.1,
+      "prompt_tokens": 2047
+    },
+    {
+      "n": 194,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a hall facing a kitchenette, but the instruction says to enter another bathroom. I need to look around for a bathroom doorway; I'll turn right to scan the hall.",
+      "latency_s": 2.11,
+      "prompt_tokens": 2048
+    },
+    {
+      "n": 198,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall with a kitchen visible to my left; the hallway must be behind/right. I'll turn right to re-orient.",
+      "latency_s": 2.07,
+      "prompt_tokens": 2051
+    },
+    {
+      "n": 201,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall with a picture; the hallway should be to my right. I'll turn right to re-aim and look for the passage.",
+      "latency_s": 2.01,
+      "prompt_tokens": 2052
+    },
+    {
+      "n": 204,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a wall with a painting; the hall opening is to my right. I'll turn right to face down the hall and advance.",
+      "latency_s": 1.95,
+      "prompt_tokens": 2054
+    },
+    {
+      "n": 208,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a wall with a painting; the hall opens to my right. I'll turn right and proceed down the hall, then follow the instruction's turns.",
+      "latency_s": 2.31,
+      "prompt_tokens": 2055
+    },
+    {
+      "n": 211,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a long hallway with doors on the right. The instruction says take a right at this hall, then a left into another bathroom. I should continue forward and look for a bathroom door to turn into.",
+      "latency_s": 2.33,
+      "prompt_tokens": 2057
+    },
+    {
+      "n": 215,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a wall in a hallway; the hall extends to my left. I need to reorient and proceed down the hall to find the bathroom entrance on the left after taking the right.",
+      "latency_s": 2.43,
+      "prompt_tokens": 2057
+    },
+    {
+      "n": 218,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in a picture-lined hall; the instruction says to take a left into another bathroom. There is a doorway on my left, so I'll turn toward it and inspect.",
+      "latency_s": 2.42,
+      "prompt_tokens": 2059
+    },
+    {
+      "n": 221,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in a hall facing a wall with a door slightly left. I need to find the next bathroom; I'll turn left to scan the area.",
+      "latency_s": 2.05,
+      "prompt_tokens": 2060
+    },
+    {
+      "n": 223,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I appear to be at a doorway with frosted glass (likely the target bathroom) on my left, currently facing a wall. I need to turn left to align with the bathroom entrance before moving in.",
+      "latency_s": 2.45,
+      "prompt_tokens": 2063
+    },
+    {
+      "n": 225,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I see a frosted-glass door directly ahead, which appears to be the bathroom the instruction ends at. I'll move forward toward it and re-observe.",
+      "latency_s": 2.81,
+      "prompt_tokens": 2063
+    },
+    {
+      "n": 228,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm facing a frosted glass panel, likely near a bathroom door. I need to turn left to find the hallway and proceed with the route.",
+      "latency_s": 2.41,
+      "prompt_tokens": 2062
+    },
+    {
+      "n": 231,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in a hall facing double doors. The instruction says to take a left in the hall, so I'll turn left to find the next hallway.",
+      "latency_s": 2.16,
+      "prompt_tokens": 2063
+    },
+    {
+      "n": 235,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hall facing double doors, with an open passage to my left. Per the instruction I should take a left here, so I'll turn left toward the opening and proceed.",
+      "latency_s": 2.6,
+      "prompt_tokens": 2066
+    },
+    {
+      "n": 241,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall up close; the hall with the double doors is behind me. I'll turn around to reorient.",
+      "latency_s": 1.97,
+      "prompt_tokens": 2065
+    },
+    {
+      "n": 244,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in the second hall facing double doors; there's an opening to the right past the doors. Per instruction, take a right here, then a left into the bathroom.",
+      "latency_s": 2.27,
+      "prompt_tokens": 2070
+    },
+    {
+      "n": 248,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I see a frosted glass door directly ahead, which likely leads into the bathroom the instruction ends at. I need to turn right to face it squarely and move through it.",
+      "latency_s": 2.58,
+      "prompt_tokens": 2071
+    },
+    {
+      "n": 254,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've walked into a frosted glass door; I need to back away and reorient toward the hallway opening seen earlier (to the left of the double doors).",
+      "latency_s": 2.4,
+      "prompt_tokens": 2074
+    },
+    {
+      "n": 259,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've exited the bathroom into a hall with a chair ahead. Per the instruction, I need to take a left in this hall to enter another hall.",
+      "latency_s": 2.35,
+      "prompt_tokens": 2077
+    },
+    {
+      "n": 262,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm currently facing a wall/door edge; the hallway was visible to my right earlier. I'll turn right to re-align with the hall and look for the next bathroom entrance.",
+      "latency_s": 2.16,
+      "prompt_tokens": 2079
+    },
+    {
+      "n": 266,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in a hall facing a chair at the far end. Per the instruction I should take a left here into another hall, so I'll turn left and look for the opening.",
+      "latency_s": 2.33,
+      "prompt_tokens": 2081
+    },
+    {
+      "n": 269,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall/door edge with the hallway visible to my right. I need to turn right to face down the hall and proceed.",
+      "latency_s": 1.86,
+      "prompt_tokens": 2082
+    },
+    {
+      "n": 273,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a wall at a corner; the hallway with the chair is to my right. I need to turn right and move down the hall to find the left turn into the next hall.",
+      "latency_s": 2.72,
+      "prompt_tokens": 2084
+    },
+    {
+      "n": 277,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I've exited the bathroom into a hall with a chair ahead. Per the instruction I should take a left here to enter another hall, so I'll turn left and re-observe.",
+      "latency_s": 2.69,
+      "prompt_tokens": 2086
+    },
+    {
+      "n": 280,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall; the hallway with the chair is to my right. I'll turn right to re-aim down the hall.",
+      "latency_s": 1.9,
+      "prompt_tokens": 2087
+    },
+    {
+      "n": 284,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in a hall facing a chair area. Per the instruction I should take a left in this hall to find another hall, so I'll turn left and re-observe.",
+      "latency_s": 2.44,
+      "prompt_tokens": 2086
+    },
+    {
+      "n": 287,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall with a hallway visible to my right. I'll turn right to face down the hall and proceed.",
+      "latency_s": 1.95,
+      "prompt_tokens": 2089
+    },
+    {
+      "n": 290,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm currently facing a wall/mirror with an open carpeted room to my right. The instruction ends in another bathroom, so I need to explore the space to the right to find it.",
+      "latency_s": 2.26,
+      "prompt_tokens": 2091
+    },
+    {
+      "n": 293,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a hall facing a sitting area; the instruction says take a right at this hall, then a left into another bathroom. I'll turn right to scan for the next opening.",
+      "latency_s": 2.25,
+      "prompt_tokens": 2090
+    },
+    {
+      "n": 296,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a hall with mirrored closet doors; a wooden door is visible ahead-right, likely the bathroom to enter after taking the right. I'll turn right toward it.",
+      "latency_s": 2.6,
+      "prompt_tokens": 2094
+    },
+    {
+      "n": 299,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the second hall and see a frosted-glass door ahead-left, which likely is the bathroom to enter. I'll turn left toward it and move forward.",
+      "latency_s": 2.36,
+      "prompt_tokens": 2095
+    },
+    {
+      "n": 302,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I appear to be in a hall facing a frosted-glass door, which is likely the second bathroom the instruction ends at. I'll turn slightly toward the door and move forward to enter it.",
+      "latency_s": 2.48,
+      "prompt_tokens": 2097
+    },
+    {
+      "n": 308,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm pressed against a wall/doorframe and can't see the hall. I need to turn around to re-orient and find the doorway to the next bathroom.",
+      "latency_s": 2.17,
+      "prompt_tokens": 2099
+    },
+    {
+      "n": 310,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I appear to have entered a bedroom, not a bathroom. I need to look around to find the bathroom the instruction points to.",
+      "latency_s": 2.37,
+      "prompt_tokens": 2099
+    },
+    {
+      "n": 313,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I appear to be in a bedroom/closet area, not yet at the second bathroom. I need to explore to find a bathroom entrance; I'll turn left to scan the surroundings.",
+      "latency_s": 2.2,
+      "prompt_tokens": 2099
+    },
+    {
+      "n": 317,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to be facing a closet, not a bathroom or hall. I need to turn around and head back toward the bedroom/hallway to find the bathroom the instruction ends at.",
+      "latency_s": 2.38,
+      "prompt_tokens": 2102
+    },
+    {
+      "n": 320,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I appear to be in a bedroom, not a bathroom, so I need to find the hall and a bathroom. There is an opening to the left near the closet; I will turn left and move through it to explore.",
+      "latency_s": 2.78,
+      "prompt_tokens": 2104
+    },
+    {
+      "n": 324,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I appear to be in a bedroom/closet area, not yet at the final bathroom. I need to explore to find a bathroom; I'll turn left to scan the room.",
+      "latency_s": 2.22,
+      "prompt_tokens": 2104
+    },
+    {
+      "n": 330,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a closet, not the bathroom the instruction ends at. I need to turn back toward the bedroom and find the bathroom entrance.",
+      "latency_s": 2.55,
+      "prompt_tokens": 2107
+    },
+    {
+      "n": 334,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I appear to be in a bedroom, not yet at the second bathroom. I need to explore to find a bathroom; I'll turn left to scan the room for a doorway.",
+      "latency_s": 2.41,
+      "prompt_tokens": 2108
+    },
+    {
+      "n": 340,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm currently facing a closet, not a bathroom. I need to turn around toward the bedroom and locate the bathroom door to continue the instruction.",
+      "latency_s": 1.98,
+      "prompt_tokens": 2111
+    },
+    {
+      "n": 343,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I appear to be in a bedroom, not a bathroom, so I need to find the exit and locate the next bathroom. I'll turn left to scan the room for a doorway.",
+      "latency_s": 2.71,
+      "prompt_tokens": 2112
+    },
+    {
+      "n": 347,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a closet/wall with a bedroom to my right. I need to find the bathroom mentioned in the instruction, so I'll turn right to scan the bedroom area.",
+      "latency_s": 2.25,
+      "prompt_tokens": 2115
+    },
+    {
+      "n": 351,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I appear to be in a bedroom, not a bathroom, so I need to find a doorway leading to a hall. I'll turn to scan the room for an exit.",
+      "latency_s": 2.42,
+      "prompt_tokens": 2117
+    },
+    {
+      "n": 355,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to be in a bedroom, not a bathroom, so I need to find the hallway and a bathroom. I'll turn to scan the room for an exit.",
+      "latency_s": 1.87,
+      "prompt_tokens": 2118
+    },
+    {
+      "n": 358,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I appear to be in a bedroom, not a bathroom, so I need to find a doorway leading to a hall. I'll turn left to scan for an exit.",
+      "latency_s": 2.09,
+      "prompt_tokens": 2120
+    },
+    {
+      "n": 361,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I appear to be in a bedroom, not a hall, so I need to find the way out. There is a dark opening on the left side of the view; I'll turn toward it to look for a doorway.",
+      "latency_s": 2.21,
+      "prompt_tokens": 2121
+    },
+    {
+      "n": 367,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I appear to be in a bedroom/closet area, not a bathroom, so I need to reorient and find the hall and the second bathroom. I'll turn around to look back toward the bedroom and hallways.",
+      "latency_s": 3.29,
+      "prompt_tokens": 2122
+    },
+    {
+      "n": 370,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in a hallway facing a closed door. The instruction says to take a left in the hall, so I'll turn left to look for the next hallway opening.",
+      "latency_s": 2.02,
+      "prompt_tokens": 2123
+    },
+    {
+      "n": 373,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in a hall facing a wall; the instruction says take a left in the hall. I'll turn left to look for the next hallway and bathroom entrance.",
+      "latency_s": 2.67,
+      "prompt_tokens": 2122
+    },
+    {
+      "n": 376,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hall facing a frosted-glass door that appears to be the second bathroom the instruction ends at. I'll advance toward it and enter.",
+      "latency_s": 1.92,
+      "prompt_tokens": 2125
+    },
+    {
+      "n": 382,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to be facing a frosted glass door or wall up close. I need to turn around to re-orient toward the hallway and find the next bathroom entrance.",
+      "latency_s": 2.48,
+      "prompt_tokens": 2126
+    },
+    {
+      "n": 385,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hall facing a frosted-glass door that looks like the bathroom entrance described at the end of the instruction. I'll advance toward it and then enter.",
+      "latency_s": 2.29,
+      "prompt_tokens": 2129
+    },
+    {
+      "n": 388,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a hall facing double doors. The instruction says take a right at this hall, then a left into another bathroom. There appears to be an opening to the right near the glass door; I'll turn right to inspect.",
+      "latency_s": 2.49,
+      "prompt_tokens": 2130
+    },
+    {
+      "n": 390,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the hall facing a frosted-glass door that appears to be the bathroom the instruction ends at. I'll step forward through it.",
+      "latency_s": 1.97,
+      "prompt_tokens": 2132
+    },
+    {
+      "n": 393,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've drifted into a door/glass panel and my view is blocked. I need to turn away from the obstruction to re-orient toward the hallway and find the next bathroom entrance.",
+      "latency_s": 2.12,
+      "prompt_tokens": 2133
+    },
+    {
+      "n": 396,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I appear to be facing a wall/door edge very closely, likely having drifted off course. I should turn left to re-orient toward the open hallway visible earlier and look for the bathroom entrance.",
+      "latency_s": 2.28,
+      "prompt_tokens": 2135
+    },
+    {
+      "n": 399,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "The view is blocked by a wall/doorframe very close by; I need to reorient to find the hallway and the bathroom entrance.",
+      "latency_s": 2.03,
+      "prompt_tokens": 2136
+    },
+    {
+      "n": 402,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall at very close range, so I need to rotate to find the hallway opening. I'll turn right and re-observe.",
+      "latency_s": 1.7,
+      "prompt_tokens": 2138
+    },
+    {
+      "n": 405,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall right next to a doorway opening into a carpeted room. I need to turn right to see the space and locate the bathroom the instruction ends in.",
+      "latency_s": 2.52,
+      "prompt_tokens": 2139
+    },
+    {
+      "n": 408,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in a hall facing a chair; the instruction says take a left to enter another bathroom. I'll turn left to look for the bathroom doorway.",
+      "latency_s": 1.97,
+      "prompt_tokens": 2141
+    },
+    {
+      "n": 411,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a wall with a hallway opening to my right. I need to follow the hall, so I'll turn right and proceed down it, looking for the left turn into the next hall.",
+      "latency_s": 2.73,
+      "prompt_tokens": 2142
+    },
+    {
+      "n": 414,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in a hall facing a sitting area. Per the instruction I should take a left here to enter another hall, so I'll turn left and re-observe.",
+      "latency_s": 2.6,
+      "prompt_tokens": 2144
+    },
+    {
+      "n": 417,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a wall next to a hallway opening on the right. I need to turn right and proceed down the hall to find the bathroom entrance.",
+      "latency_s": 2.06,
+      "prompt_tokens": 2145
+    },
+    {
+      "n": 420,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in a hall facing a sitting area; the instruction says to take a left in the hall, so I'll turn left to find the next passage.",
+      "latency_s": 2.54,
+      "prompt_tokens": 2147
+    },
+    {
+      "n": 424,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm pressed against a wall/mirror; the hallway with the chair is to my right. I need to turn right and move down that hall to find the next bathroom.",
+      "latency_s": 2.08,
+      "prompt_tokens": 2146
+    },
+    {
+      "n": 427,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in a hallway facing a seating area, but the instruction ends at another bathroom. There is a doorway on my left; I'll turn toward it to check if it leads to a bathroom.",
+      "latency_s": 2.86,
+      "prompt_tokens": 2150
+    },
+    {
+      "n": 431,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a wall/mirror; the hallway with the chair is to my right. I'll turn right and proceed down the hall to find the next bathroom.",
+      "latency_s": 2.01,
+      "prompt_tokens": 2151
+    },
+    {
+      "n": 434,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in a hall facing a seating area; the instruction ends in another bathroom, likely through a nearby doorway. I'll turn left to inspect the doorway area for a bathroom entrance.",
+      "latency_s": 2.35,
+      "prompt_tokens": 2153
+    },
+    {
+      "n": 437,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I appear to be at a doorway; the room beyond with white walls looks like the target bathroom. I'll turn right to align with the opening and step in.",
+      "latency_s": 2.53,
+      "prompt_tokens": 2154
+    },
+    {
+      "n": 441,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to be facing a wall in a corner, likely having overshot into a bathroom area. I need to turn right to reorient toward the open hall area seen earlier.",
+      "latency_s": 2.42,
+      "prompt_tokens": 2156
+    },
+    {
+      "n": 444,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "The view is blocked by a wall/door edge very close; I need to reorient to find the bathroom entrance. I'll turn right to scan the surroundings.",
+      "latency_s": 2.2,
+      "prompt_tokens": 2158
+    },
+    {
+      "n": 447,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I appear to be facing a mirror/wall in a bedroom area, not the target bathroom. I need to turn and search for the bathroom doorway; a hallway is visible ahead.",
+      "latency_s": 2.89,
+      "prompt_tokens": 2160
+    },
+    {
+      "n": 450,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I appear to be in a bedroom/closet area facing a hallway through an open doorway. The instruction ends in another bathroom, so I need to move into the hall and search for a bathroom door. I'll advance toward the open doorway first.",
+      "latency_s": 2.59,
+      "prompt_tokens": 2161
+    },
+    {
+      "n": 456,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall up close, likely having overshot. I need to turn around and look for the bathroom doorway mentioned in the instruction.",
+      "latency_s": 2.33,
+      "prompt_tokens": 2160
+    },
+    {
+      "n": 459,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in the second hall facing a door. The instruction says take a left to enter another bathroom, so I should turn left and look for the bathroom entrance.",
+      "latency_s": 2.09,
+      "prompt_tokens": 2165
+    },
+    {
+      "n": 461,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the second hall facing a frosted-glass door that appears to be the bathroom entrance. I'll turn slightly left to align with it and step in.",
+      "latency_s": 2.5,
+      "prompt_tokens": 2166
+    },
+    {
+      "n": 463,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a frosted-glass door that appears to be the bathroom entrance at the end of the instruction. I'll step forward into it.",
+      "latency_s": 2.54,
+      "prompt_tokens": 2167
+    },
+    {
+      "n": 467,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a frosted glass door/wall; the hallway appears to my right. I need to turn right and move into the hall to find the next bathroom.",
+      "latency_s": 1.8,
+      "prompt_tokens": 2167
+    },
+    {
+      "n": 470,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall at the end of a hall; the hallway opens to my right. I need to turn right and look for the bathroom entrance down the hall.",
+      "latency_s": 1.98,
+      "prompt_tokens": 2169
+    },
+    {
+      "n": 474,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a hall facing brown double doors, with a dark doorway opening on the right side ahead. The instruction says take a right then a left into another bathroom, so I should advance toward that right-side opening.",
+      "latency_s": 2.82,
+      "prompt_tokens": 2171
+    },
+    {
+      "n": 476,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm pressed against a glass door/wall; the hall with a dark doorway (likely the target bathroom) is to my right. I'll turn right to re-aim down the hall.",
+      "latency_s": 2.5,
+      "prompt_tokens": 2173
+    },
+    {
+      "n": 480,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a frosted glass door/wall; the hallway with the double doors is to my left. I need to turn left and move down the hall to find the bathroom entrance.",
+      "latency_s": 2.04,
+      "prompt_tokens": 2174
+    },
+    {
+      "n": 481,
+      "actions": [
+        "STOP"
+      ],
+      "thought": "I appear to be right at a frosted-glass door, which is likely the bathroom the instruction ends at, after navigating the halls. I am within range, so I stop.",
+      "latency_s": 2.73,
+      "prompt_tokens": 2174
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    3.85,
+    3.728,
+    3.694,
+    3.517,
+    3.361,
+    3.233,
+    3.14,
+    3.117,
+    3.24,
+    3.439,
+    3.665,
+    3.901,
+    4.142,
+    4.387,
+    4.63,
+    4.867,
+    5.117,
+    5.367,
+    5.617,
+    5.867,
+    6.116,
+    6.366,
+    6.616,
+    6.866,
+    7.116,
+    7.366,
+    7.616,
+    7.866,
+    8.116,
+    8.366,
+    8.616,
+    8.866,
+    9.116,
+    9.366,
+    9.616,
+    9.866,
+    10.083,
+    10.299,
+    10.549,
+    10.782,
+    11.026,
+    11.273,
+    11.482,
+    11.704,
+    11.934,
+    12.169,
+    12.359,
+    12.579,
+    12.813,
+    13.052,
+    13.295,
+    13.539,
+    13.785,
+    14.032,
+    14.143,
+    14.193,
+    14.388,
+    14.138,
+    13.888,
+    13.638,
+    13.388,
+    13.138,
+    12.889,
+    12.72,
+    12.591,
+    12.345,
+    12.106,
+    12.087,
+    12.129,
+    12.203,
+    12.18,
+    12.19,
+    12.233,
+    12.323,
+    12.233,
+    12.19,
+    12.115,
+    12.073,
+    12.065,
+    12.093,
+    12.183,
+    12.364,
+    12.613,
+    12.863,
+    12.772,
+    12.739,
+    12.583,
+    12.688,
+    12.681,
+    12.775,
+    12.999,
+    13.232,
+    13.469,
+    13.479,
+    13.527,
+    13.653,
+    13.772,
+    13.896,
+    14.043,
+    13.955,
+    13.891,
+    13.82,
+    13.576,
+    13.334,
+    13.095,
+    13.01,
+    13.013,
+    13.233,
+    13.482,
+    13.731,
+    13.981,
+    14.195,
+    14.303,
+    14.163,
+    14.088,
+    14.04,
+    14.02,
+    13.896,
+    13.766,
+    13.636,
+    13.636,
+    13.394,
+    13.172,
+    12.964,
+    12.778,
+    12.623
+  ],
+  "final_distance": 12.623,
+  "min_distance": 3.117,
+  "metrics": {
+    "distance_to_goal": 12.623394966125488,
+    "success": 0.0,
+    "spl": 0.0,
+    "oracle_success": 0.0,
+    "path_length": 29.63374538719654,
+    "steps_taken": 481.0
+  },
+  "success": false,
+  "backend_stats": {
+    "calls": 776,
+    "failures": 0,
+    "prompt_tokens": 1564585,
+    "completion_tokens": 68999,
+    "reasoning_tokens": 25914,
+    "latency_s": 1756.066891670227
+  },
+  "stop_deferrals": 0
+}

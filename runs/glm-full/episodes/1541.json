@@ -1,0 +1,143 @@
+{
+  "episode_id": 1541,
+  "scene_id": "oLBMNvg9in8",
+  "instruction": "Continue up the flight of stairs to the landing, then climb one more flight of stairs. At the top of the second flight, continue forward and enter the room directly ahead.",
+  "actions_taken": 22,
+  "policy_calls": 8,
+  "api_latency_s": 21.37,
+  "prompt_tokens": 13652,
+  "completion_tokens": 685,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 21.51,
+  "steps": [
+    {
+      "n": 3,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hallway with no stairs visible yet; I'll advance along the corridor to find the staircase.",
+      "latency_s": 4.12,
+      "prompt_tokens": 895
+    },
+    {
+      "n": 6,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I see a hallway with a mosaic floor ahead; no stairs yet. I'll advance down the hallway toward the arched doorway where the stairs likely are.",
+      "latency_s": 2.01,
+      "prompt_tokens": 1250
+    },
+    {
+      "n": 9,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a wall corner; the hallway continues to the right toward the arched doorway. I'll turn right to align with the corridor before moving.",
+      "latency_s": 2.07,
+      "prompt_tokens": 1613
+    },
+    {
+      "n": 12,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hallway with a doorway to a room on the right and a corridor continuing ahead. No stairs are visible yet, so I'll continue forward along the hallway to find the staircase.",
+      "latency_s": 2.35,
+      "prompt_tokens": 1978
+    },
+    {
+      "n": 14,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I appear to be at the top of the stairs in an upper hallway. The instruction says to enter the room directly ahead; the large open room with the fireplace is visible on the right through the doorway. I'll advance toward it and re-observe.",
+      "latency_s": 3.02,
+      "prompt_tokens": 1978
+    },
+    {
+      "n": 17,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I appear to be at the top of the stairs in a hallway; the room with the fireplace is through the open doorway on the right. I'll turn right and move toward that doorway.",
+      "latency_s": 2.95,
+      "prompt_tokens": 1978
+    },
+    {
+      "n": 19,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've reached the top of the stairs and the room directly ahead is open through the doorway. I'll step forward into the room.",
+      "latency_s": 2.43,
+      "prompt_tokens": 1980
+    },
+    {
+      "n": 22,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "STOP"
+      ],
+      "thought": "I appear to be at a doorway opening into a room with an ornate fireplace directly ahead, which matches the instruction's final room. I'll step forward into the room and then stop.",
+      "latency_s": 2.42,
+      "prompt_tokens": 1980
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    5.721,
+    6.043,
+    6.37,
+    6.721,
+    7.08,
+    7.355,
+    7.544,
+    7.738,
+    8.046,
+    8.275,
+    8.507,
+    8.747,
+    8.987,
+    9.209,
+    9.436,
+    9.667,
+    9.79,
+    9.807,
+    10.029
+  ],
+  "final_distance": 10.029,
+  "min_distance": 5.721,
+  "metrics": {
+    "distance_to_goal": 10.029245376586914,
+    "success": 0.0,
+    "spl": 0.0,
+    "oracle_success": 0.0,
+    "path_length": 4.690726704895496,
+    "steps_taken": 22.0
+  },
+  "success": false,
+  "backend_stats": {
+    "calls": 541,
+    "failures": 0,
+    "prompt_tokens": 1063759,
+    "completion_tokens": 45622,
+    "reasoning_tokens": 16075,
+    "latency_s": 1259.1264491081238
+  },
+  "stop_deferrals": 0
+}

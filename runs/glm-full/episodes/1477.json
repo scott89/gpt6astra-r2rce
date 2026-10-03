@@ -1,0 +1,299 @@
+{
+  "episode_id": 1477,
+  "scene_id": "zsNo4HB9uLZ",
+  "instruction": "With the window behind you, walk straight past the table and kitchen area and through the doorway.  Keep going until you get to a separate sitting room on the left with blue walls and white couches.  Walk into the room and stop once you step on the carpet.",
+  "actions_taken": 72,
+  "policy_calls": 18,
+  "api_latency_s": 36.08,
+  "prompt_tokens": 33899,
+  "completion_tokens": 1285,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 36.44,
+  "steps": [
+    {
+      "n": 6,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a blank wall; the instruction says the window is behind me, so I need to turn around first.",
+      "latency_s": 1.66,
+      "prompt_tokens": 915
+    },
+    {
+      "n": 9,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing down the hallway with the table on the right and kitchen ahead. I'll walk forward along this path past the table and kitchen toward the doorway.",
+      "latency_s": 1.42,
+      "prompt_tokens": 1272
+    },
+    {
+      "n": 12,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing down the hallway past the table toward the kitchen; the path ahead is clear, so I'll continue forward and re-observe near the kitchen area.",
+      "latency_s": 1.69,
+      "prompt_tokens": 1636
+    },
+    {
+      "n": 15,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm still in the hallway with the window/art wall on my left; the kitchen and doorway ahead. I need to continue forward past the table and kitchen toward the doorway.",
+      "latency_s": 1.99,
+      "prompt_tokens": 1999
+    },
+    {
+      "n": 19,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm moving down the open living/kitchen space toward the doorway ahead. The path is clear, so I'll continue forward and re-observe near the doorway.",
+      "latency_s": 1.97,
+      "prompt_tokens": 2000
+    },
+    {
+      "n": 23,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm past the kitchen area, facing the hallway doorway ahead. I'll continue forward through it, then look for the blue-walled sitting room on the left.",
+      "latency_s": 1.79,
+      "prompt_tokens": 2001
+    },
+    {
+      "n": 27,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm moving through the open living/kitchen area toward the hallway ahead. The blue sitting room should appear on the left further along, so I'll keep advancing straight.",
+      "latency_s": 1.98,
+      "prompt_tokens": 2001
+    },
+    {
+      "n": 31,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm past the kitchen counter, facing the hallway doorway ahead. I'll advance a few steps toward it, then re-observe to find the blue sitting room on the left.",
+      "latency_s": 2.17,
+      "prompt_tokens": 2002
+    },
+    {
+      "n": 35,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm moving through the open living/kitchen area toward the doorway ahead; the path is clear, so I'll advance a few steps and re-observe.",
+      "latency_s": 2.36,
+      "prompt_tokens": 2002
+    },
+    {
+      "n": 39,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm moving down the hallway past the kitchen; the doorway ahead leads onward. I'll advance a few steps and re-observe.",
+      "latency_s": 2.02,
+      "prompt_tokens": 2003
+    },
+    {
+      "n": 42,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the hallway past the kitchen, heading toward the far doorway. The blue sitting room should appear on the left, so I'll advance and watch for it.",
+      "latency_s": 2.16,
+      "prompt_tokens": 2003
+    },
+    {
+      "n": 46,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The sitting room with blue walls and white couches is visible on the left. I'll turn left and step onto the carpet.",
+      "latency_s": 1.97,
+      "prompt_tokens": 2003
+    },
+    {
+      "n": 50,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a wall too closely; the blue-walled sitting room with white couches is visible to the left. I'll turn left to face it.",
+      "latency_s": 1.91,
+      "prompt_tokens": 2005
+    },
+    {
+      "n": 54,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall after turning left too far. The hallway with the blue-walled sitting room on the left is to my right; I need to turn right to face down the hallway again.",
+      "latency_s": 2.15,
+      "prompt_tokens": 2006
+    },
+    {
+      "n": 59,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a wall too closely; the blue-walled sitting room with white couches is visible to my right. I'll turn right and approach the carpeted room.",
+      "latency_s": 1.93,
+      "prompt_tokens": 2009
+    },
+    {
+      "n": 65,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in a hallway facing a console table; the blue sitting room with white couches appeared on the left earlier, so I should turn left and re-enter it.",
+      "latency_s": 2.6,
+      "prompt_tokens": 2012
+    },
+    {
+      "n": 69,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The sitting room with dark blue walls and white couches is visible to my right. I'll turn right and step onto the carpet.",
+      "latency_s": 1.99,
+      "prompt_tokens": 2014
+    },
+    {
+      "n": 72,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "STOP"
+      ],
+      "thought": "I can see the sitting room with dark blue walls and white couches ahead; the carpet starts just inside. I'll step forward onto the carpet and stop.",
+      "latency_s": 2.32,
+      "prompt_tokens": 2016
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    10.869,
+    10.869,
+    10.619,
+    10.369,
+    10.119,
+    9.869,
+    9.619,
+    9.369,
+    9.119,
+    8.869,
+    8.619,
+    8.369,
+    8.119,
+    7.869,
+    7.619,
+    7.369,
+    7.119,
+    6.869,
+    6.619,
+    6.369,
+    6.119,
+    5.869,
+    5.619,
+    5.369,
+    5.119,
+    4.869,
+    4.619,
+    4.369,
+    4.12,
+    3.87,
+    3.62,
+    3.37,
+    3.12,
+    2.87,
+    2.621,
+    2.371,
+    2.122,
+    1.874,
+    1.701,
+    1.734,
+    1.526,
+    1.272,
+    1.027,
+    0.787,
+    0.558
+  ],
+  "final_distance": 0.558,
+  "min_distance": 0.558,
+  "metrics": {
+    "distance_to_goal": 0.5576143860816956,
+    "success": 1.0,
+    "spl": 1.0,
+    "oracle_success": 1.0,
+    "path_length": 10.502413012087345,
+    "steps_taken": 72.0
+  },
+  "success": true,
+  "backend_stats": {
+    "calls": 18,
+    "failures": 0,
+    "prompt_tokens": 33899,
+    "completion_tokens": 1285,
+    "reasoning_tokens": 257,
+    "latency_s": 36.076552629470825
+  },
+  "stop_deferrals": 0
+}

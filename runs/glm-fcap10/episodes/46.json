@@ -1,0 +1,2678 @@
+{
+  "episode_id": 46,
+  "scene_id": "X7HyMhZNoso",
+  "instruction": "Finish climbing the stairs and walk straight through the doorway in front of you.  You'll be a bedroom at that point.  Turn right and walk across the room next to the bed to the doorway on your right.  Turn right and walk though the closet into the bathroom.  Stop in front of the toilet in the bathroom.",
+  "actions_taken": 500,
+  "policy_calls": 230,
+  "api_latency_s": 432.96,
+  "prompt_tokens": 483985,
+  "completion_tokens": 12889,
+  "termination": "budget_exhausted",
+  "stop_called": false,
+  "elapsed_s": 436.89,
+  "steps": [
+    {
+      "n": 1,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The view is a blank wall, so I'm likely facing it mid-staircase. I'll look down to see the stairs ahead.",
+      "latency_s": 1.48,
+      "prompt_tokens": 927
+    },
+    {
+      "n": 2,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the stairs ahead before climbing.",
+      "latency_s": 1.31,
+      "prompt_tokens": 1282
+    },
+    {
+      "n": 6,
+      "actions": [
+        "LOOK_DOWN",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm mid-staircase with the camera pitched up at the ceiling. I need to look down to see the stairs ahead and keep climbing.",
+      "latency_s": 1.91,
+      "prompt_tokens": 1645
+    },
+    {
+      "n": 10,
+      "actions": [
+        "LOOK_DOWN",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm still on the stairs with the camera pitched up. I'll look down to see the steps ahead and keep climbing.",
+      "latency_s": 1.94,
+      "prompt_tokens": 2009
+    },
+    {
+      "n": 14,
+      "actions": [
+        "LOOK_UP",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm still mid-staircase; the camera is pitched down at the steps. I'll raise the view and keep climbing forward.",
+      "latency_s": 2.02,
+      "prompt_tokens": 2011
+    },
+    {
+      "n": 18,
+      "actions": [
+        "LOOK_DOWN",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm still mid-staircase; the camera is pitched up at the ceiling. I need to look down and keep climbing until I reach the doorway at the top.",
+      "latency_s": 5.08,
+      "prompt_tokens": 2013
+    },
+    {
+      "n": 22,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm still mid-staircase facing the steps; I need to keep climbing until I reach the top landing and the doorway.",
+      "latency_s": 1.94,
+      "prompt_tokens": 2014
+    },
+    {
+      "n": 26,
+      "actions": [
+        "LOOK_UP",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm still on the staircase with the camera pitched down. I need to look up to see the top of the stairs and the doorway ahead, then continue climbing.",
+      "latency_s": 1.72,
+      "prompt_tokens": 2015
+    },
+    {
+      "n": 30,
+      "actions": [
+        "LOOK_DOWN",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm still on the staircase with the camera pitched up at the ceiling. I need to look down and keep climbing the stairs before reaching the doorway at the top.",
+      "latency_s": 2.27,
+      "prompt_tokens": 2017
+    },
+    {
+      "n": 34,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm still mid-staircase facing the steps; I need to keep climbing until reaching the top before looking for the doorway.",
+      "latency_s": 2.06,
+      "prompt_tokens": 2018
+    },
+    {
+      "n": 38,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm still mid-staircase facing the steps; I need to keep climbing until reaching the top doorway.",
+      "latency_s": 1.96,
+      "prompt_tokens": 2019
+    },
+    {
+      "n": 42,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm still on the staircase facing the steps; I need to keep climbing forward until reaching the top.",
+      "latency_s": 1.95,
+      "prompt_tokens": 2020
+    },
+    {
+      "n": 46,
+      "actions": [
+        "LOOK_UP",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm still mid-staircase; the view is pitched down at the steps. I need to look up and keep climbing toward the top where the doorway should be.",
+      "latency_s": 2.35,
+      "prompt_tokens": 2020
+    },
+    {
+      "n": 50,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm still on the staircase facing the steps; I need to keep climbing until reaching the top before looking for the doorway.",
+      "latency_s": 2.25,
+      "prompt_tokens": 2022
+    },
+    {
+      "n": 54,
+      "actions": [
+        "LOOK_DOWN",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The camera is pitched up showing ceiling; stairs still continue ahead. I'll look down to see the steps and keep climbing.",
+      "latency_s": 2.05,
+      "prompt_tokens": 2021
+    },
+    {
+      "n": 58,
+      "actions": [
+        "LOOK_UP",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm mid-staircase with the camera pitched down. I need to look up to see the top of the stairs and the doorway ahead, then continue climbing.",
+      "latency_s": 1.87,
+      "prompt_tokens": 2023
+    },
+    {
+      "n": 62,
+      "actions": [
+        "LOOK_DOWN",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm still on the staircase with the camera pitched up; I need to look down and keep climbing until I reach the top and the doorway.",
+      "latency_s": 2.0,
+      "prompt_tokens": 2025
+    },
+    {
+      "n": 66,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm still mid-staircase facing the steps; I need to keep climbing until reaching the top landing and doorway.",
+      "latency_s": 2.3,
+      "prompt_tokens": 2026
+    },
+    {
+      "n": 69,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm still on the staircase with more steps ahead. I'll continue climbing forward.",
+      "latency_s": 2.0,
+      "prompt_tokens": 2027
+    },
+    {
+      "n": 73,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm still on the staircase facing the steps; I need to continue climbing forward until reaching the top.",
+      "latency_s": 1.83,
+      "prompt_tokens": 2027
+    },
+    {
+      "n": 77,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm still on the staircase facing the steps, so I need to keep climbing forward until I reach the top and the doorway.",
+      "latency_s": 1.88,
+      "prompt_tokens": 2027
+    },
+    {
+      "n": 81,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm still on the staircase facing the steps; I need to keep climbing until reaching the top doorway.",
+      "latency_s": 1.95,
+      "prompt_tokens": 2028
+    },
+    {
+      "n": 85,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm still on the staircase facing the steps ahead, so I need to keep climbing forward until I reach the top and the doorway.",
+      "latency_s": 1.89,
+      "prompt_tokens": 2028
+    },
+    {
+      "n": 89,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm still on the staircase facing the steps; I need to keep climbing forward until reaching the top and the doorway.",
+      "latency_s": 1.93,
+      "prompt_tokens": 2029
+    },
+    {
+      "n": 93,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm still on the staircase facing the steps; I need to keep climbing forward until reaching the top.",
+      "latency_s": 2.02,
+      "prompt_tokens": 2029
+    },
+    {
+      "n": 97,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm still on the staircase facing the steps; I need to continue climbing forward until reaching the top.",
+      "latency_s": 2.03,
+      "prompt_tokens": 2030
+    },
+    {
+      "n": 101,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm still facing the staircase; I need to continue climbing the stairs before reaching the doorway at the top.",
+      "latency_s": 1.81,
+      "prompt_tokens": 2030
+    },
+    {
+      "n": 105,
+      "actions": [
+        "LOOK_UP",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm still on the stairs with the camera pitched down. I need to look up and keep climbing to the top before heading through the doorway.",
+      "latency_s": 1.94,
+      "prompt_tokens": 2031
+    },
+    {
+      "n": 109,
+      "actions": [
+        "LOOK_DOWN",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm still on the staircase facing the steps; the camera is pitched up. I'll look down to see the steps and keep climbing.",
+      "latency_s": 1.98,
+      "prompt_tokens": 2033
+    },
+    {
+      "n": 113,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm still mid-staircase facing the steps; I need to keep climbing until reaching the top doorway.",
+      "latency_s": 3.98,
+      "prompt_tokens": 2034
+    },
+    {
+      "n": 117,
+      "actions": [
+        "LOOK_UP",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm mid-staircase looking down; I need to look up and keep climbing toward the top where the doorway should be.",
+      "latency_s": 1.95,
+      "prompt_tokens": 2035
+    },
+    {
+      "n": 121,
+      "actions": [
+        "LOOK_DOWN",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The camera is pitched up showing ceiling; stairs continue ahead. I'll look down to see the steps and then climb forward.",
+      "latency_s": 1.92,
+      "prompt_tokens": 2037
+    },
+    {
+      "n": 126,
+      "actions": [
+        "LOOK_UP",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm still mid-staircase facing the steps; I need to pitch up and keep climbing until I reach the top doorway.",
+      "latency_s": 2.23,
+      "prompt_tokens": 2038
+    },
+    {
+      "n": 130,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm still on the staircase facing the steps; I need to continue climbing forward until reaching the top and the doorway.",
+      "latency_s": 1.78,
+      "prompt_tokens": 2040
+    },
+    {
+      "n": 134,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm still on the stairs, facing the steps ahead. I need to keep climbing forward until I reach the top and the doorway.",
+      "latency_s": 1.59,
+      "prompt_tokens": 2039
+    },
+    {
+      "n": 138,
+      "actions": [
+        "LOOK_DOWN",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm still on the staircase facing the steps; the camera is pitched up at the ceiling. I should look down to see the steps and continue climbing.",
+      "latency_s": 2.02,
+      "prompt_tokens": 2041
+    },
+    {
+      "n": 142,
+      "actions": [
+        "LOOK_UP",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The camera is pitched down showing stairs; I need to look up and keep climbing to finish the staircase.",
+      "latency_s": 1.82,
+      "prompt_tokens": 2043
+    },
+    {
+      "n": 147,
+      "actions": [
+        "LOOK_DOWN",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing the staircase with the camera pitched up. I need to look down and climb the stairs toward the doorway at the top.",
+      "latency_s": 1.99,
+      "prompt_tokens": 2045
+    },
+    {
+      "n": 151,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm still mid-staircase facing the steps; I need to keep climbing until reaching the top landing and doorway.",
+      "latency_s": 1.78,
+      "prompt_tokens": 2046
+    },
+    {
+      "n": 155,
+      "actions": [
+        "LOOK_UP",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm still on the stairs looking down; I need to look up and keep climbing to the top before the doorway.",
+      "latency_s": 1.81,
+      "prompt_tokens": 2046
+    },
+    {
+      "n": 159,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm still on the staircase facing the steps; I need to keep climbing until reaching the top before looking for the doorway.",
+      "latency_s": 1.81,
+      "prompt_tokens": 2048
+    },
+    {
+      "n": 163,
+      "actions": [
+        "LOOK_DOWN",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm still on the stairs with the camera pitched up. I need to look down and keep climbing toward the doorway at the top.",
+      "latency_s": 1.74,
+      "prompt_tokens": 2049
+    },
+    {
+      "n": 167,
+      "actions": [
+        "LOOK_UP",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The camera is pitched down showing stairs; I need to look up and continue climbing to finish the stairs.",
+      "latency_s": 1.7,
+      "prompt_tokens": 2050
+    },
+    {
+      "n": 171,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm still on the staircase facing the steps; I need to keep climbing until reaching the top doorway.",
+      "latency_s": 1.87,
+      "prompt_tokens": 2051
+    },
+    {
+      "n": 175,
+      "actions": [
+        "LOOK_DOWN",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm still on the stairs with the camera pitched up; the steps continue ahead. I'll look down to see the steps and keep climbing.",
+      "latency_s": 1.97,
+      "prompt_tokens": 2053
+    },
+    {
+      "n": 176,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "I'm still on the stairs looking down; I need to look up to see the top of the stairs and the doorway ahead.",
+      "latency_s": 1.72,
+      "prompt_tokens": 2054
+    },
+    {
+      "n": 180,
+      "actions": [
+        "LOOK_DOWN",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm still on the staircase with the camera pitched up; I need to look down and keep climbing until I reach the top and the doorway.",
+      "latency_s": 1.79,
+      "prompt_tokens": 2055
+    },
+    {
+      "n": 184,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm still on the staircase facing the steps; I need to keep climbing until reaching the top doorway.",
+      "latency_s": 2.25,
+      "prompt_tokens": 2055
+    },
+    {
+      "n": 188,
+      "actions": [
+        "LOOK_UP",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm still on the stairs looking down; I need to look up and keep climbing to the top before entering the doorway.",
+      "latency_s": 1.99,
+      "prompt_tokens": 2057
+    },
+    {
+      "n": 192,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm still on the staircase facing the steps; I need to keep climbing forward until reaching the top and the doorway.",
+      "latency_s": 1.83,
+      "prompt_tokens": 2059
+    },
+    {
+      "n": 196,
+      "actions": [
+        "LOOK_DOWN",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm still on the staircase facing the steps ahead. I'll pitch the camera down to see the stairs and continue climbing forward.",
+      "latency_s": 1.99,
+      "prompt_tokens": 2058
+    },
+    {
+      "n": 200,
+      "actions": [
+        "LOOK_UP",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm still on the staircase facing the steps; I need to keep climbing before reaching the doorway at the top.",
+      "latency_s": 6.09,
+      "prompt_tokens": 2059
+    },
+    {
+      "n": 204,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm still on the staircase facing the steps; I need to keep climbing until reaching the top doorway.",
+      "latency_s": 5.93,
+      "prompt_tokens": 2061
+    },
+    {
+      "n": 208,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm still mid-staircase facing the steps; I need to keep climbing until reaching the top before looking for the doorway.",
+      "latency_s": 5.85,
+      "prompt_tokens": 2063
+    },
+    {
+      "n": 212,
+      "actions": [
+        "LOOK_DOWN",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The camera is pitched up showing the stairs ahead; I need to look down to see the steps and continue climbing.",
+      "latency_s": 3.55,
+      "prompt_tokens": 2064
+    },
+    {
+      "n": 216,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm still on the staircase facing the steps; I need to keep climbing before reaching the doorway at the top.",
+      "latency_s": 1.81,
+      "prompt_tokens": 2065
+    },
+    {
+      "n": 220,
+      "actions": [
+        "LOOK_UP",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm still on the stairs facing them; the camera is pitched down. I'll look up to see the top of the stairs and continue climbing.",
+      "latency_s": 2.01,
+      "prompt_tokens": 2066
+    },
+    {
+      "n": 224,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm still on the staircase facing the steps; I need to keep climbing until I reach the top and the doorway.",
+      "latency_s": 1.86,
+      "prompt_tokens": 2067
+    },
+    {
+      "n": 228,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm still on the stairs facing the carpeted steps; the camera is pitched up showing ceiling. I need to keep climbing forward until reaching the top and the doorway.",
+      "latency_s": 2.05,
+      "prompt_tokens": 2070
+    },
+    {
+      "n": 232,
+      "actions": [
+        "LOOK_DOWN",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The camera is pitched up showing the ceiling and stairs; I need to look down to see the stairway ahead and continue climbing.",
+      "latency_s": 1.93,
+      "prompt_tokens": 2069
+    },
+    {
+      "n": 236,
+      "actions": [
+        "LOOK_UP",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm still on the stairs facing the steps; the camera is pitched down. I'll look up to see the top of the stairs and continue climbing.",
+      "latency_s": 2.12,
+      "prompt_tokens": 2070
+    },
+    {
+      "n": 240,
+      "actions": [
+        "LOOK_DOWN",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing the top of the stairs with the camera pitched up. I need to look down and continue climbing the stairs.",
+      "latency_s": 2.03,
+      "prompt_tokens": 2073
+    },
+    {
+      "n": 244,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm still facing stairs mid-climb; continue ascending until the doorway at the top comes into view.",
+      "latency_s": 2.03,
+      "prompt_tokens": 2072
+    },
+    {
+      "n": 248,
+      "actions": [
+        "LOOK_UP",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm mid-staircase facing the steps; I need to look up and keep climbing to the top before the doorway.",
+      "latency_s": 2.03,
+      "prompt_tokens": 2075
+    },
+    {
+      "n": 252,
+      "actions": [
+        "LOOK_DOWN",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The camera is pitched up showing the ceiling; stairs are still directly ahead. I'll look down to see the steps and keep climbing.",
+      "latency_s": 2.02,
+      "prompt_tokens": 2078
+    },
+    {
+      "n": 256,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm still on the staircase with more steps visible ahead, so I need to continue climbing before reaching the doorway at the top.",
+      "latency_s": 2.02,
+      "prompt_tokens": 2079
+    },
+    {
+      "n": 260,
+      "actions": [
+        "LOOK_UP",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm still on the stairs looking down; I need to look up and keep climbing toward the doorway at the top.",
+      "latency_s": 1.81,
+      "prompt_tokens": 2078
+    },
+    {
+      "n": 264,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm still on the staircase facing the steps ahead; I need to keep climbing until I reach the top landing.",
+      "latency_s": 1.92,
+      "prompt_tokens": 2079
+    },
+    {
+      "n": 268,
+      "actions": [
+        "LOOK_DOWN",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm still on the stairs with the camera pitched up. I need to look down and keep climbing toward the doorway at the top.",
+      "latency_s": 1.78,
+      "prompt_tokens": 2080
+    },
+    {
+      "n": 272,
+      "actions": [
+        "LOOK_UP",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The camera is pitched down showing stairs below; I need to look up to see the top of the stairs and continue climbing.",
+      "latency_s": 1.89,
+      "prompt_tokens": 2082
+    },
+    {
+      "n": 276,
+      "actions": [
+        "LOOK_UP",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The camera is pitched down at the stairs; I'm still mid-staircase. I'll look up to see the top of the stairs and continue climbing.",
+      "latency_s": 1.96,
+      "prompt_tokens": 2084
+    },
+    {
+      "n": 280,
+      "actions": [
+        "LOOK_DOWN",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The camera is pitched up toward the ceiling; stairs still lie ahead. I'll look down to see the steps and continue climbing.",
+      "latency_s": 1.97,
+      "prompt_tokens": 2087
+    },
+    {
+      "n": 281,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up showing ceiling; I need to look down to see the stairs ahead and continue climbing.",
+      "latency_s": 1.59,
+      "prompt_tokens": 2085
+    },
+    {
+      "n": 285,
+      "actions": [
+        "LOOK_UP",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm mid-staircase looking down; I need to level the camera and keep climbing toward the top where the doorway should be.",
+      "latency_s": 1.66,
+      "prompt_tokens": 2089
+    },
+    {
+      "n": 289,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm still on the staircase facing the steps ahead. I need to keep climbing before reaching the doorway at the top.",
+      "latency_s": 1.84,
+      "prompt_tokens": 2090
+    },
+    {
+      "n": 293,
+      "actions": [
+        "LOOK_DOWN",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The camera is pitched up showing ceiling; stairs still continue ahead. I'll look down to see the steps and keep climbing.",
+      "latency_s": 1.98,
+      "prompt_tokens": 2091
+    },
+    {
+      "n": 297,
+      "actions": [
+        "LOOK_DOWN",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The camera is pitched up, showing the ceiling above the stairs. I need to look down to see the steps and continue climbing.",
+      "latency_s": 1.93,
+      "prompt_tokens": 2092
+    },
+    {
+      "n": 298,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down showing the stairs below; I need to look up to see the top of the stairs and the doorway ahead.",
+      "latency_s": 1.97,
+      "prompt_tokens": 2094
+    },
+    {
+      "n": 299,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The view is pitched down at the stairs; I need to look up to see the top of the stairs and the doorway ahead.",
+      "latency_s": 1.82,
+      "prompt_tokens": 2095
+    },
+    {
+      "n": 303,
+      "actions": [
+        "LOOK_DOWN",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The camera is pitched up at the ceiling; stairs continue ahead. I'll look down to see the steps and keep climbing.",
+      "latency_s": 2.5,
+      "prompt_tokens": 2095
+    },
+    {
+      "n": 304,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the stairs; I need to look up to see the top of the stairs and the doorway ahead.",
+      "latency_s": 1.64,
+      "prompt_tokens": 2096
+    },
+    {
+      "n": 305,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "I'm mid-staircase looking down at the steps. I need to look up to see the top of the stairs and the doorway ahead.",
+      "latency_s": 2.01,
+      "prompt_tokens": 2096
+    },
+    {
+      "n": 309,
+      "actions": [
+        "LOOK_DOWN",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm still on the stairs with more steps ahead; the camera is pitched up, so I'll look down to see the steps and keep climbing.",
+      "latency_s": 2.04,
+      "prompt_tokens": 2096
+    },
+    {
+      "n": 310,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up, showing mostly ceiling with stairs below. I need to look down to see the stairs and continue climbing.",
+      "latency_s": 1.96,
+      "prompt_tokens": 2101
+    },
+    {
+      "n": 314,
+      "actions": [
+        "LOOK_UP",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm still on the stairs, camera pitched down. I need to look up and keep climbing toward the doorway at the top.",
+      "latency_s": 1.97,
+      "prompt_tokens": 2099
+    },
+    {
+      "n": 318,
+      "actions": [
+        "LOOK_DOWN",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm still on the staircase with the camera pitched up at the ceiling. I need to look down to see the steps ahead and continue climbing.",
+      "latency_s": 2.06,
+      "prompt_tokens": 2103
+    },
+    {
+      "n": 319,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "I'm still on the stairs looking down; I need to look up to see the top of the stairs and the doorway ahead.",
+      "latency_s": 1.77,
+      "prompt_tokens": 2104
+    },
+    {
+      "n": 323,
+      "actions": [
+        "LOOK_DOWN",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm still on the stairs facing upward steps. I'll pitch down to see the steps and continue climbing forward.",
+      "latency_s": 2.96,
+      "prompt_tokens": 2105
+    },
+    {
+      "n": 327,
+      "actions": [
+        "LOOK_UP",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm still on the stairs looking down; I need to look up and keep climbing to the top before the doorway.",
+      "latency_s": 2.15,
+      "prompt_tokens": 2106
+    },
+    {
+      "n": 328,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "I'm still on the stairs looking down. I need to look up to see the top of the stairs and the doorway ahead.",
+      "latency_s": 1.85,
+      "prompt_tokens": 2108
+    },
+    {
+      "n": 332,
+      "actions": [
+        "LOOK_DOWN",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The camera is pitched up toward the ceiling; stairs are still visible below, so I haven't finished climbing. I'll pitch down to see the stairs and continue ascending.",
+      "latency_s": 2.07,
+      "prompt_tokens": 2108
+    },
+    {
+      "n": 333,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down showing stairs; I need to look up to see the top of the stairs and the doorway ahead.",
+      "latency_s": 1.61,
+      "prompt_tokens": 2110
+    },
+    {
+      "n": 334,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down showing stairs; I need to look up to see the top of the stairs and the doorway ahead.",
+      "latency_s": 1.76,
+      "prompt_tokens": 2109
+    },
+    {
+      "n": 335,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up showing only ceiling; I'm still on the stairs. I need to look down to see the steps ahead.",
+      "latency_s": 1.61,
+      "prompt_tokens": 2111
+    },
+    {
+      "n": 336,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up showing ceiling and stairs; I need to look down to see the top of the stairs and the doorway ahead.",
+      "latency_s": 1.45,
+      "prompt_tokens": 2112
+    },
+    {
+      "n": 337,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down showing stairs; I need to look up to see the doorway ahead.",
+      "latency_s": 1.59,
+      "prompt_tokens": 2112
+    },
+    {
+      "n": 338,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "I'm still on the stairs with the camera pitched down. I need to look up to see the top of the stairs and the doorway ahead.",
+      "latency_s": 1.51,
+      "prompt_tokens": 2113
+    },
+    {
+      "n": 339,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the stairs ahead.",
+      "latency_s": 1.62,
+      "prompt_tokens": 2113
+    },
+    {
+      "n": 340,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down showing stairs; I need to look up to see the top of the stairs and the doorway ahead.",
+      "latency_s": 1.67,
+      "prompt_tokens": 2114
+    },
+    {
+      "n": 341,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up showing only ceiling; I'm still on the stairs. I need to look down to see the steps ahead.",
+      "latency_s": 1.44,
+      "prompt_tokens": 2113
+    },
+    {
+      "n": 342,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down showing stairs; I need to look up to see the doorway ahead.",
+      "latency_s": 1.32,
+      "prompt_tokens": 2115
+    },
+    {
+      "n": 343,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the stairs and continue climbing.",
+      "latency_s": 1.48,
+      "prompt_tokens": 2116
+    },
+    {
+      "n": 344,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "I'm still on the stairs with the camera pitched down. I need to look up to see the top of the stairs and the doorway ahead.",
+      "latency_s": 1.64,
+      "prompt_tokens": 2116
+    },
+    {
+      "n": 345,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up showing only ceiling/wall. I need to look down to see where I am before moving.",
+      "latency_s": 1.41,
+      "prompt_tokens": 2117
+    },
+    {
+      "n": 346,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down showing stairs; I need to look up to see the doorway ahead.",
+      "latency_s": 1.5,
+      "prompt_tokens": 2117
+    },
+    {
+      "n": 347,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up showing only ceiling; I'm still on the stairs. I need to look down to see the steps ahead.",
+      "latency_s": 1.48,
+      "prompt_tokens": 2118
+    },
+    {
+      "n": 348,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down showing stairs; I need to look up to see the doorway ahead.",
+      "latency_s": 1.23,
+      "prompt_tokens": 2118
+    },
+    {
+      "n": 349,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at a blank ceiling; I need to look down to see where I am before moving.",
+      "latency_s": 1.62,
+      "prompt_tokens": 2119
+    },
+    {
+      "n": 350,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up, showing mostly ceiling and the top of the stairs. I need to look down to see the doorway ahead.",
+      "latency_s": 1.84,
+      "prompt_tokens": 2119
+    },
+    {
+      "n": 351,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "I'm still on the stairs with the camera pitched down. I need to look up to see the top of the stairs and the doorway ahead.",
+      "latency_s": 1.61,
+      "prompt_tokens": 2118
+    },
+    {
+      "n": 352,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down showing stairs; I need to look up to see the top of the stairs and the doorway ahead.",
+      "latency_s": 1.42,
+      "prompt_tokens": 2121
+    },
+    {
+      "n": 353,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at a blank ceiling; I need to look down to see the stairs and doorway ahead.",
+      "latency_s": 1.4,
+      "prompt_tokens": 2121
+    },
+    {
+      "n": 354,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up, showing ceiling and stairs below; I need to look down to see where I am on the stairs.",
+      "latency_s": 1.61,
+      "prompt_tokens": 2122
+    },
+    {
+      "n": 355,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down showing stairs; I need to look up to see the top of the stairs and the doorway ahead.",
+      "latency_s": 1.46,
+      "prompt_tokens": 2122
+    },
+    {
+      "n": 356,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down showing stairs; I need to look up to see the doorway ahead.",
+      "latency_s": 1.4,
+      "prompt_tokens": 2123
+    },
+    {
+      "n": 357,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up showing only ceiling; I need to look down to see the stairs ahead.",
+      "latency_s": 1.38,
+      "prompt_tokens": 2123
+    },
+    {
+      "n": 358,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up showing ceiling and stairs; I need to look down to see the doorway ahead.",
+      "latency_s": 1.47,
+      "prompt_tokens": 2124
+    },
+    {
+      "n": 359,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "I'm still on the stairs with the camera pitched down. I need to look up to see the top of the stairs and the doorway ahead.",
+      "latency_s": 1.52,
+      "prompt_tokens": 2124
+    },
+    {
+      "n": 360,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down showing stairs; I need to look up to see the doorway ahead.",
+      "latency_s": 1.56,
+      "prompt_tokens": 2125
+    },
+    {
+      "n": 361,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up showing only ceiling; I need to look down to see where I am before proceeding.",
+      "latency_s": 1.45,
+      "prompt_tokens": 2123
+    },
+    {
+      "n": 362,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down showing stairs; I need to look up to see the doorway ahead.",
+      "latency_s": 1.38,
+      "prompt_tokens": 2126
+    },
+    {
+      "n": 363,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up showing only ceiling; I need to look down to see where I am before moving.",
+      "latency_s": 1.42,
+      "prompt_tokens": 2127
+    },
+    {
+      "n": 364,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down showing stairs; I need to look up to see the doorway ahead.",
+      "latency_s": 1.36,
+      "prompt_tokens": 2127
+    },
+    {
+      "n": 365,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up showing only ceiling; I'm still on the stairs. I need to look down to see the steps ahead.",
+      "latency_s": 1.37,
+      "prompt_tokens": 2128
+    },
+    {
+      "n": 366,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down showing stairs; I need to look up to see the doorway ahead.",
+      "latency_s": 1.35,
+      "prompt_tokens": 2126
+    },
+    {
+      "n": 367,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up showing only ceiling; I'm still on the stairs. I need to look down to see the steps ahead.",
+      "latency_s": 1.41,
+      "prompt_tokens": 2129
+    },
+    {
+      "n": 368,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down showing stairs; I need to look up to see the doorway ahead.",
+      "latency_s": 1.44,
+      "prompt_tokens": 2129
+    },
+    {
+      "n": 369,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up and I only see ceiling/wall. I need to look down to see where I am before moving.",
+      "latency_s": 1.44,
+      "prompt_tokens": 2130
+    },
+    {
+      "n": 370,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the stairs; I need to look up to see the doorway ahead.",
+      "latency_s": 1.35,
+      "prompt_tokens": 2130
+    },
+    {
+      "n": 371,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up showing only ceiling/wall. I need to look down to see where I am before proceeding.",
+      "latency_s": 1.46,
+      "prompt_tokens": 2129
+    },
+    {
+      "n": 372,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down showing stairs; I need to look up to see the top of the stairs and the doorway ahead.",
+      "latency_s": 1.48,
+      "prompt_tokens": 2131
+    },
+    {
+      "n": 373,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up showing only ceiling; I need to look down to see the stairs ahead.",
+      "latency_s": 1.45,
+      "prompt_tokens": 2132
+    },
+    {
+      "n": 374,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "I'm still on the stairs with the camera pitched down. I need to look up to see the top of the stairs and the doorway ahead.",
+      "latency_s": 1.46,
+      "prompt_tokens": 2132
+    },
+    {
+      "n": 375,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at a blank ceiling; I need to look down to see the stairs and continue climbing.",
+      "latency_s": 1.47,
+      "prompt_tokens": 2133
+    },
+    {
+      "n": 377,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down showing stairs below; I need to look up to see the doorway ahead.",
+      "latency_s": 1.47,
+      "prompt_tokens": 2133
+    },
+    {
+      "n": 378,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at a blank wall/ceiling near the top of the stairs. I need to look down to see the stairs and doorway ahead.",
+      "latency_s": 1.47,
+      "prompt_tokens": 2134
+    },
+    {
+      "n": 379,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at a blank ceiling; I need to look down to see where I am before moving.",
+      "latency_s": 2.06,
+      "prompt_tokens": 2135
+    },
+    {
+      "n": 380,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "I'm still on the stairs looking down; I need to look up to see the top and the doorway ahead.",
+      "latency_s": 1.43,
+      "prompt_tokens": 2135
+    },
+    {
+      "n": 381,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up showing only ceiling/wall. I need to look down to see where I am before proceeding.",
+      "latency_s": 1.53,
+      "prompt_tokens": 2134
+    },
+    {
+      "n": 382,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "I'm still on the stairs with the camera pitched down. I need to look up to see the top of the stairs and the doorway ahead.",
+      "latency_s": 1.66,
+      "prompt_tokens": 2136
+    },
+    {
+      "n": 383,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up showing only ceiling/wall. I need to look down to see where I am before moving.",
+      "latency_s": 1.52,
+      "prompt_tokens": 2137
+    },
+    {
+      "n": 387,
+      "actions": [
+        "LOOK_UP",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The camera is pitched down at the stairs; I need to look up to see the doorway ahead and continue climbing.",
+      "latency_s": 1.52,
+      "prompt_tokens": 2137
+    },
+    {
+      "n": 388,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up showing only ceiling/wall. I need to look down to see where I am before moving.",
+      "latency_s": 1.59,
+      "prompt_tokens": 2139
+    },
+    {
+      "n": 389,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up showing ceiling and stairs; I need to look down to see the doorway ahead.",
+      "latency_s": 2.53,
+      "prompt_tokens": 2139
+    },
+    {
+      "n": 390,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down showing stairs; I need to look up to see the room ahead.",
+      "latency_s": 1.58,
+      "prompt_tokens": 2140
+    },
+    {
+      "n": 391,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up showing mostly ceiling and stairs below; I need to look down to see where I am relative to the doorway.",
+      "latency_s": 1.95,
+      "prompt_tokens": 2141
+    },
+    {
+      "n": 392,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up showing ceiling and stairs; I need to look down to see the top of the stairs and the doorway ahead.",
+      "latency_s": 1.78,
+      "prompt_tokens": 2141
+    },
+    {
+      "n": 393,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down showing stairs; I need to look up to see the top of the stairs and the doorway ahead.",
+      "latency_s": 5.53,
+      "prompt_tokens": 2142
+    },
+    {
+      "n": 394,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the stairs; I need to look up to see the top of the stairs and the doorway ahead.",
+      "latency_s": 2.19,
+      "prompt_tokens": 2143
+    },
+    {
+      "n": 398,
+      "actions": [
+        "LOOK_DOWN",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The camera is pitched up at the ceiling; stairs continue ahead. I'll look down to see the stairs and then keep climbing.",
+      "latency_s": 2.48,
+      "prompt_tokens": 2143
+    },
+    {
+      "n": 399,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up showing ceiling and stairs; I need to look down to see the top of the stairs and the doorway ahead.",
+      "latency_s": 1.81,
+      "prompt_tokens": 2145
+    },
+    {
+      "n": 402,
+      "actions": [
+        "LOOK_UP",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The camera is pitched down showing stairs; I need to look up to see the path ahead and continue climbing.",
+      "latency_s": 1.82,
+      "prompt_tokens": 2146
+    },
+    {
+      "n": 403,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up showing ceiling and stairs; I need to look down to see the path ahead.",
+      "latency_s": 1.82,
+      "prompt_tokens": 2147
+    },
+    {
+      "n": 407,
+      "actions": [
+        "LOOK_UP",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The camera is pitched down at the stairs; I need to look up to see the top of the stairs and the doorway ahead, then continue climbing.",
+      "latency_s": 1.91,
+      "prompt_tokens": 2148
+    },
+    {
+      "n": 410,
+      "actions": [
+        "LOOK_DOWN",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The camera is pitched up at the ceiling; stairs are still ahead. I need to look down to see the steps and continue climbing.",
+      "latency_s": 1.93,
+      "prompt_tokens": 2150
+    },
+    {
+      "n": 414,
+      "actions": [
+        "LOOK_UP",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm still on the stairs with the camera pitched down at the steps. I need to look up and keep climbing toward the top of the stairs.",
+      "latency_s": 1.9,
+      "prompt_tokens": 2151
+    },
+    {
+      "n": 415,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the stairs; I need to look up to see the doorway ahead.",
+      "latency_s": 1.75,
+      "prompt_tokens": 2153
+    },
+    {
+      "n": 416,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up showing ceiling; I need to look down to see the stairs ahead and continue climbing.",
+      "latency_s": 1.7,
+      "prompt_tokens": 2153
+    },
+    {
+      "n": 417,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "I appear to be at the top of the stairs facing a wall/corner with the camera pitched down. I need to look up to see the doorway ahead before proceeding.",
+      "latency_s": 1.74,
+      "prompt_tokens": 2154
+    },
+    {
+      "n": 418,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the stairs; I need to look up to see the doorway ahead.",
+      "latency_s": 1.38,
+      "prompt_tokens": 2155
+    },
+    {
+      "n": 419,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see where I am before moving.",
+      "latency_s": 1.49,
+      "prompt_tokens": 2155
+    },
+    {
+      "n": 420,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down showing stairs; I need to look up to see the room ahead.",
+      "latency_s": 1.43,
+      "prompt_tokens": 2156
+    },
+    {
+      "n": 421,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up showing only ceiling; I need to look down to see where I am before moving.",
+      "latency_s": 1.52,
+      "prompt_tokens": 2155
+    },
+    {
+      "n": 422,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down showing stairs; I need to look up to see where I am relative to the bedroom and continue navigation.",
+      "latency_s": 1.55,
+      "prompt_tokens": 2157
+    },
+    {
+      "n": 423,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at a blank wall/ceiling; I need to look down to see where I am before moving.",
+      "latency_s": 1.88,
+      "prompt_tokens": 2158
+    },
+    {
+      "n": 424,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down showing stairs; I need to look up to see the doorway ahead.",
+      "latency_s": 1.36,
+      "prompt_tokens": 2158
+    },
+    {
+      "n": 425,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up showing only ceiling; I need to look down to see where I am before moving.",
+      "latency_s": 1.49,
+      "prompt_tokens": 2159
+    },
+    {
+      "n": 426,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "I'm facing a wall at the top of the stairs with the camera pitched down. I need to look up to see the doorway ahead.",
+      "latency_s": 1.43,
+      "prompt_tokens": 2159
+    },
+    {
+      "n": 427,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at a blank ceiling; I need to look down to see where I am before moving.",
+      "latency_s": 1.44,
+      "prompt_tokens": 2160
+    },
+    {
+      "n": 428,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the stairs; I need to look up to see the doorway ahead.",
+      "latency_s": 1.68,
+      "prompt_tokens": 2160
+    },
+    {
+      "n": 429,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at a blank ceiling; I need to look down to see where I am before moving.",
+      "latency_s": 2.11,
+      "prompt_tokens": 2161
+    },
+    {
+      "n": 430,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down showing stairs; I need to look up to see the doorway ahead.",
+      "latency_s": 1.53,
+      "prompt_tokens": 2161
+    },
+    {
+      "n": 431,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at a blank ceiling; I need to look down to see where I am before moving.",
+      "latency_s": 1.56,
+      "prompt_tokens": 2160
+    },
+    {
+      "n": 432,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the stairs; I need to look up to see the doorway ahead.",
+      "latency_s": 1.6,
+      "prompt_tokens": 2162
+    },
+    {
+      "n": 433,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at a blank ceiling; I need to look down to see where I am before moving.",
+      "latency_s": 1.44,
+      "prompt_tokens": 2163
+    },
+    {
+      "n": 434,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the stairs; I need to look up to see the doorway ahead.",
+      "latency_s": 1.39,
+      "prompt_tokens": 2163
+    },
+    {
+      "n": 435,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at a blank ceiling; I need to look down to see where I am before moving.",
+      "latency_s": 1.54,
+      "prompt_tokens": 2164
+    },
+    {
+      "n": 436,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the stairs; I need to look up to see the doorway ahead and continue climbing.",
+      "latency_s": 1.39,
+      "prompt_tokens": 2164
+    },
+    {
+      "n": 437,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at a blank wall/ceiling; I need to look down to see where I am before moving.",
+      "latency_s": 1.6,
+      "prompt_tokens": 2165
+    },
+    {
+      "n": 438,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down showing stairs; I need to look up to see the doorway ahead.",
+      "latency_s": 1.37,
+      "prompt_tokens": 2165
+    },
+    {
+      "n": 439,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at a blank wall; I need to look down to see where I am before moving.",
+      "latency_s": 1.26,
+      "prompt_tokens": 2166
+    },
+    {
+      "n": 440,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the stairs; I need to look up to see the doorway ahead.",
+      "latency_s": 1.56,
+      "prompt_tokens": 2166
+    },
+    {
+      "n": 441,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at a blank wall/ceiling; I need to look down to see where I am before moving.",
+      "latency_s": 1.69,
+      "prompt_tokens": 2167
+    },
+    {
+      "n": 442,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down showing stairs; I need to look up to see the doorway ahead before proceeding.",
+      "latency_s": 1.53,
+      "prompt_tokens": 2167
+    },
+    {
+      "n": 443,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up showing only ceiling; I need to look down to see where I am before moving.",
+      "latency_s": 2.7,
+      "prompt_tokens": 2168
+    },
+    {
+      "n": 444,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the stairs; I need to look up to see the room ahead and re-orient.",
+      "latency_s": 1.79,
+      "prompt_tokens": 2168
+    },
+    {
+      "n": 445,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up showing only ceiling. I need to look down to see where I am before proceeding.",
+      "latency_s": 1.31,
+      "prompt_tokens": 2169
+    },
+    {
+      "n": 449,
+      "actions": [
+        "LOOK_UP",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The camera is pitched down showing stairs; I need to look up to see the path ahead and continue climbing toward the doorway.",
+      "latency_s": 2.36,
+      "prompt_tokens": 2169
+    },
+    {
+      "n": 450,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at a blank wall/ceiling; I need to look down to see where I am before moving.",
+      "latency_s": 1.84,
+      "prompt_tokens": 2171
+    },
+    {
+      "n": 451,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down showing stairs; I need to look up to see where I am before proceeding.",
+      "latency_s": 1.64,
+      "prompt_tokens": 2169
+    },
+    {
+      "n": 452,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at a blank wall; I need to look down to see where I am relative to the stairs and doorway.",
+      "latency_s": 1.9,
+      "prompt_tokens": 2172
+    },
+    {
+      "n": 453,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down showing stairs; I need to look up to see the doorway ahead.",
+      "latency_s": 1.31,
+      "prompt_tokens": 2172
+    },
+    {
+      "n": 454,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up facing a blank wall; I need to look down to see where I am before moving.",
+      "latency_s": 1.36,
+      "prompt_tokens": 2173
+    },
+    {
+      "n": 455,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "I'm facing a wall at the top of the stairs with the camera pitched down. I need to look up to see the doorway ahead.",
+      "latency_s": 1.5,
+      "prompt_tokens": 2173
+    },
+    {
+      "n": 456,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up facing a blank wall; I need to look down to see where I am before moving.",
+      "latency_s": 1.59,
+      "prompt_tokens": 2174
+    },
+    {
+      "n": 457,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down showing stairs; I need to look up to see the doorway ahead and continue.",
+      "latency_s": 1.59,
+      "prompt_tokens": 2174
+    },
+    {
+      "n": 459,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see where I am before moving.",
+      "latency_s": 1.39,
+      "prompt_tokens": 2175
+    },
+    {
+      "n": 460,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down showing stairs; I need to look up to see the doorway ahead.",
+      "latency_s": 1.61,
+      "prompt_tokens": 2176
+    },
+    {
+      "n": 461,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up showing ceiling; I need to look down to see the stairs ahead.",
+      "latency_s": 1.32,
+      "prompt_tokens": 2177
+    },
+    {
+      "n": 462,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "I'm still on the stairs with the camera pitched down. I need to look up to see the top of the stairs and the doorway ahead.",
+      "latency_s": 1.55,
+      "prompt_tokens": 2177
+    },
+    {
+      "n": 463,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "I'm facing stairs with the camera pitched down. I need to look up to see the path ahead before continuing.",
+      "latency_s": 5.89,
+      "prompt_tokens": 2178
+    },
+    {
+      "n": 465,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see where I am before moving.",
+      "latency_s": 5.21,
+      "prompt_tokens": 2178
+    },
+    {
+      "n": 466,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the stairs; I need to look up to see the doorway ahead and continue climbing.",
+      "latency_s": 1.51,
+      "prompt_tokens": 2179
+    },
+    {
+      "n": 467,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "I'm facing stairs with the camera pitched down. I need to look up to see the path ahead before continuing.",
+      "latency_s": 1.46,
+      "prompt_tokens": 2180
+    },
+    {
+      "n": 468,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see where I am before moving.",
+      "latency_s": 1.53,
+      "prompt_tokens": 2180
+    },
+    {
+      "n": 469,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down showing stairs; I need to look up to see the doorway ahead.",
+      "latency_s": 1.31,
+      "prompt_tokens": 2181
+    },
+    {
+      "n": 470,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at a blank wall; I need to look down to see where I am relative to the stairs and doorway.",
+      "latency_s": 1.57,
+      "prompt_tokens": 2182
+    },
+    {
+      "n": 471,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down showing stairs; I need to look up to see the doorway ahead.",
+      "latency_s": 1.45,
+      "prompt_tokens": 2182
+    },
+    {
+      "n": 472,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see where I am before moving.",
+      "latency_s": 1.43,
+      "prompt_tokens": 2183
+    },
+    {
+      "n": 473,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down showing stairs; I need to look up to see the path ahead before continuing.",
+      "latency_s": 1.42,
+      "prompt_tokens": 2183
+    },
+    {
+      "n": 474,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at a blank wall; I need to look down to see where I am relative to the stairs and doorway.",
+      "latency_s": 1.53,
+      "prompt_tokens": 2184
+    },
+    {
+      "n": 475,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down showing stairs; I need to look up to see the doorway ahead.",
+      "latency_s": 1.38,
+      "prompt_tokens": 2184
+    },
+    {
+      "n": 476,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at a blank wall; I need to look down to see where I am before moving.",
+      "latency_s": 1.49,
+      "prompt_tokens": 2185
+    },
+    {
+      "n": 477,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down showing stairs; I need to look up to see where I am before proceeding.",
+      "latency_s": 1.47,
+      "prompt_tokens": 2185
+    },
+    {
+      "n": 478,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at a blank wall/ceiling; I need to look down to see where I am before moving.",
+      "latency_s": 1.53,
+      "prompt_tokens": 2186
+    },
+    {
+      "n": 479,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "I'm facing a wall at the top of the stairs with the camera pitched down. I need to look up to see the doorway ahead.",
+      "latency_s": 1.48,
+      "prompt_tokens": 2186
+    },
+    {
+      "n": 480,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at a blank wall; I need to look down to see where I am before moving.",
+      "latency_s": 1.46,
+      "prompt_tokens": 2187
+    },
+    {
+      "n": 481,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down showing stairs; I need to look up to see where I am before moving.",
+      "latency_s": 1.64,
+      "prompt_tokens": 2185
+    },
+    {
+      "n": 482,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at a blank wall; I need to look down to see where I am before moving.",
+      "latency_s": 1.54,
+      "prompt_tokens": 2188
+    },
+    {
+      "n": 483,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "I'm facing a wall at the top of the stairs with the camera pitched down. I need to look up to see the doorway ahead.",
+      "latency_s": 1.54,
+      "prompt_tokens": 2188
+    },
+    {
+      "n": 484,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up facing a wall; I need to look down to see where I am before moving.",
+      "latency_s": 1.44,
+      "prompt_tokens": 2189
+    },
+    {
+      "n": 485,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down showing stairs; I need to look up to see the doorway ahead.",
+      "latency_s": 1.28,
+      "prompt_tokens": 2189
+    },
+    {
+      "n": 486,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at a blank wall; I need to look down to see where I am before deciding. With only 15 actions left I must re-orient quickly.",
+      "latency_s": 4.82,
+      "prompt_tokens": 2190
+    },
+    {
+      "n": 487,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "I'm at the top of the stairs facing a wall, camera pitched down. I need to look up to see the doorway ahead.",
+      "latency_s": 1.6,
+      "prompt_tokens": 2190
+    },
+    {
+      "n": 488,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up facing a blank wall; I need to look down to see where I am relative to the stairs before moving.",
+      "latency_s": 2.41,
+      "prompt_tokens": 2191
+    },
+    {
+      "n": 489,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "I'm at the top of the stairs facing a wall, camera pitched down. I need to look up to see the doorway ahead.",
+      "latency_s": 1.55,
+      "prompt_tokens": 2191
+    },
+    {
+      "n": 490,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at a blank wall; I need to look down to see where I am before moving.",
+      "latency_s": 1.67,
+      "prompt_tokens": 2192
+    },
+    {
+      "n": 491,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at a blank wall; I need to look down to see where I am before moving.",
+      "latency_s": 1.47,
+      "prompt_tokens": 2192
+    },
+    {
+      "n": 496,
+      "actions": [
+        "LOOK_UP",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The camera is pitched down facing stairs; I seem to be mid-staircase, far from the bathroom goal with only 9 actions left. I'll look up and continue forward, but reaching the toilet is unlikely; I'll use remaining actions to progress.",
+      "latency_s": 3.22,
+      "prompt_tokens": 2193
+    },
+    {
+      "n": 500,
+      "actions": [
+        "LOOK_UP",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm still on the stairs with the camera pitched down; only 4 actions remain, far too few to reach the bathroom. I'll keep climbing toward the doorway.",
+      "latency_s": 2.43,
+      "prompt_tokens": 2195
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    10.053,
+    10.092,
+    10.12,
+    10.125,
+    10.129,
+    10.134,
+    10.139,
+    10.143,
+    10.148,
+    10.153,
+    10.157,
+    10.162,
+    10.167,
+    10.171,
+    10.176,
+    10.181,
+    10.185,
+    10.195,
+    10.195,
+    10.199,
+    10.204,
+    10.209,
+    10.213,
+    10.218,
+    10.223,
+    10.227,
+    10.232,
+    10.237,
+    10.241,
+    10.246,
+    10.251,
+    10.256,
+    10.26,
+    10.265,
+    10.27,
+    10.274,
+    10.279,
+    10.284,
+    10.295,
+    10.293,
+    10.298,
+    10.303,
+    10.307,
+    10.312,
+    10.317,
+    10.321,
+    10.326,
+    10.331,
+    10.336,
+    10.34,
+    10.345,
+    10.35,
+    10.354,
+    10.359,
+    10.364,
+    10.369,
+    10.373,
+    10.378,
+    10.383,
+    10.387,
+    10.392,
+    10.397,
+    10.402,
+    10.406,
+    10.411,
+    10.416,
+    10.421,
+    10.425,
+    10.43,
+    10.435,
+    10.44,
+    10.444,
+    10.449,
+    10.454,
+    10.458,
+    10.463,
+    10.468,
+    10.473,
+    10.477,
+    10.482,
+    10.487,
+    10.492,
+    10.496,
+    10.501,
+    10.506,
+    10.511,
+    10.515,
+    10.52,
+    10.525,
+    10.53,
+    10.534,
+    10.539,
+    10.544,
+    10.549,
+    10.554,
+    10.558,
+    10.563,
+    10.568,
+    10.573,
+    10.577,
+    10.582,
+    10.587,
+    10.592,
+    10.596,
+    10.601,
+    10.606,
+    10.611,
+    10.615,
+    10.62,
+    10.625,
+    10.63,
+    10.635,
+    10.639,
+    10.644,
+    10.649,
+    10.654,
+    10.658,
+    10.663,
+    10.668,
+    10.673,
+    10.678,
+    10.682,
+    10.687,
+    10.692,
+    10.697,
+    10.702,
+    10.706,
+    10.711,
+    10.716,
+    10.721,
+    10.725,
+    10.73,
+    10.735,
+    10.74,
+    10.745,
+    10.749,
+    10.754,
+    10.759,
+    10.764,
+    10.769,
+    10.773,
+    10.778,
+    10.783,
+    10.788,
+    10.793,
+    10.797,
+    10.802,
+    10.807,
+    10.812,
+    10.817,
+    10.821,
+    10.826,
+    10.831,
+    10.836,
+    10.841,
+    10.846,
+    10.85,
+    10.855,
+    10.86,
+    10.865,
+    10.87,
+    10.874,
+    10.879,
+    10.884,
+    10.889,
+    10.894,
+    10.898,
+    10.903,
+    10.908,
+    10.913,
+    10.918,
+    10.923,
+    10.927,
+    10.932,
+    10.937,
+    10.942,
+    10.947,
+    10.952,
+    10.956,
+    10.961,
+    10.966,
+    10.971,
+    10.976,
+    10.981,
+    10.985,
+    10.99,
+    10.995,
+    11.0,
+    11.005,
+    11.01,
+    11.014,
+    11.019,
+    11.024,
+    11.029,
+    11.034,
+    11.039,
+    11.043,
+    11.048,
+    11.053,
+    11.058,
+    11.063,
+    11.068,
+    11.072,
+    11.077,
+    11.082,
+    11.087,
+    11.092,
+    11.097,
+    11.101,
+    11.106,
+    11.111,
+    11.116,
+    11.121,
+    11.126,
+    11.131,
+    11.135,
+    11.14,
+    11.145,
+    11.15,
+    11.155,
+    11.16,
+    11.165,
+    11.169,
+    11.174,
+    11.179,
+    11.184,
+    11.189,
+    11.194,
+    11.199,
+    11.203,
+    11.208,
+    11.213,
+    11.218,
+    11.223,
+    11.228,
+    11.233,
+    11.237,
+    11.242,
+    11.247,
+    11.252,
+    11.257,
+    11.262,
+    11.267,
+    11.271,
+    11.276,
+    11.281,
+    11.286,
+    11.291,
+    11.296,
+    11.301,
+    11.306,
+    11.31,
+    11.315,
+    11.32,
+    11.325,
+    11.33,
+    11.335,
+    11.34,
+    11.345,
+    11.349,
+    11.354,
+    11.359,
+    11.364,
+    11.369,
+    11.374,
+    11.379,
+    11.384,
+    11.388,
+    11.393,
+    11.398,
+    11.403,
+    11.408,
+    11.413,
+    11.418,
+    11.423,
+    11.427,
+    11.432,
+    11.437,
+    11.442,
+    11.447,
+    11.452,
+    11.457,
+    11.462,
+    11.467,
+    11.471,
+    11.476,
+    11.481,
+    11.486,
+    11.491,
+    11.496,
+    11.501,
+    11.506,
+    11.511,
+    11.515,
+    11.52,
+    11.525,
+    11.53,
+    11.535,
+    11.54,
+    11.545
+  ],
+  "final_distance": 11.545,
+  "min_distance": 10.053,
+  "metrics": {
+    "distance_to_goal": 11.544794082641602,
+    "success": 0.0,
+    "spl": 0.0,
+    "oracle_success": 0.0,
+    "path_length": 2.077931427862495,
+    "steps_taken": 500.0
+  },
+  "success": false,
+  "backend_stats": {
+    "calls": 274,
+    "failures": 0,
+    "prompt_tokens": 565070,
+    "completion_tokens": 16181,
+    "reasoning_tokens": 4111,
+    "latency_s": 524.5978379249573
+  },
+  "stop_deferrals": 0
+}

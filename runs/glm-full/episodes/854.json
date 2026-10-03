@@ -1,0 +1,624 @@
+{
+  "episode_id": 854,
+  "scene_id": "X7HyMhZNoso",
+  "instruction": "Walk past the towel rack on the right. Exit the bathroom, and walk through the closet. Make a left at the bed, and walk to the open bedroom door. Wait at the top of the stairs.",
+  "actions_taken": 164,
+  "policy_calls": 46,
+  "api_latency_s": 105.64,
+  "prompt_tokens": 90427,
+  "completion_tokens": 4512,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 106.51,
+  "steps": [
+    {
+      "n": 2,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in the bathroom with the towel rack on my right. I need to find the bathroom exit, likely behind me or to the left, so I'll turn to scan the room.",
+      "latency_s": 1.7,
+      "prompt_tokens": 902
+    },
+    {
+      "n": 5,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in the bathroom facing the vanity; the open door is on the left. I'll turn left toward the doorway to exit.",
+      "latency_s": 1.66,
+      "prompt_tokens": 1257
+    },
+    {
+      "n": 8,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing the shower; the bathroom exit is the open doorway to the right near the vanity. I'll turn right and head toward it.",
+      "latency_s": 2.1,
+      "prompt_tokens": 1621
+    },
+    {
+      "n": 10,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the bathroom facing the vanity; the open door is ahead-left. I'll step toward it to exit the bathroom.",
+      "latency_s": 1.99,
+      "prompt_tokens": 1986
+    },
+    {
+      "n": 13,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the bathroom facing the shower; the exit doorway is ahead-left past the vanity. I'll turn left toward the open door and step through.",
+      "latency_s": 2.09,
+      "prompt_tokens": 1986
+    },
+    {
+      "n": 16,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've exited the bathroom and am in the closet; the bedroom with the bed is ahead. I'll advance through the closet toward the bed before turning left.",
+      "latency_s": 2.06,
+      "prompt_tokens": 1988
+    },
+    {
+      "n": 19,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the bathroom exit with the closet and bedroom ahead. I'll move forward through the doorway into the closet area.",
+      "latency_s": 1.9,
+      "prompt_tokens": 1989
+    },
+    {
+      "n": 23,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm inside the closet facing a shelf wall; the bedroom doorway is to my left. I'll turn left and move toward the bed, then head to the open door at the top of the stairs.",
+      "latency_s": 2.13,
+      "prompt_tokens": 1988
+    },
+    {
+      "n": 26,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the closet facing the bedroom with the bed ahead. I'll move forward through the doorway toward the bed, then turn left toward the open door and stairs.",
+      "latency_s": 2.27,
+      "prompt_tokens": 1990
+    },
+    {
+      "n": 29,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm exiting the closet toward the bed. I'll advance through the doorway, then turn left to head toward the open bedroom door and stairs.",
+      "latency_s": 2.17,
+      "prompt_tokens": 1991
+    },
+    {
+      "n": 32,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm exiting the closet with the bed ahead. The instruction says make a left at the bed toward the open bedroom door, so I'll turn left and proceed.",
+      "latency_s": 1.78,
+      "prompt_tokens": 1990
+    },
+    {
+      "n": 35,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I've made the left at the bed and am now facing the bed and chairs. The open bedroom door and stairs should be back toward where I entered, so I'll turn left to scan for the doorway.",
+      "latency_s": 2.21,
+      "prompt_tokens": 1992
+    },
+    {
+      "n": 38,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm at the open bedroom door with a wall blocking the left side of my view. I need to turn left to face through the doorway and find the stairs.",
+      "latency_s": 2.3,
+      "prompt_tokens": 1993
+    },
+    {
+      "n": 46,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've walked into the closet; the instruction says to make a left at the bed and go to the open bedroom door at the top of the stairs. I need to turn around, exit the closet, and head back toward the bedroom door.",
+      "latency_s": 2.29,
+      "prompt_tokens": 1994
+    },
+    {
+      "n": 54,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've drifted back into the closet facing the bathroom door. I need to turn around, exit through the closet into the bedroom, and head toward the open door at the top of the stairs.",
+      "latency_s": 2.68,
+      "prompt_tokens": 1996
+    },
+    {
+      "n": 60,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall inside the closet. I need to turn around and head back toward the bedroom to find the bed and the open door.",
+      "latency_s": 1.83,
+      "prompt_tokens": 1999
+    },
+    {
+      "n": 63,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm wedged against a closet wall; the open doorway with wood floor is to my right. I'll turn right and move toward it.",
+      "latency_s": 1.96,
+      "prompt_tokens": 2002
+    },
+    {
+      "n": 66,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a closet facing an open bathroom door with the towel rack visible inside. Per the instruction I need to go through the bathroom area, so I'll move forward through the doorway.",
+      "latency_s": 4.37,
+      "prompt_tokens": 2004
+    },
+    {
+      "n": 69,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in the closet facing the bathroom doorway with the towel rack visible. The instruction says to head through the closet toward the bed and bedroom door, so I need to turn away from the bathroom and find the closet's exit.",
+      "latency_s": 3.4,
+      "prompt_tokens": 2004
+    },
+    {
+      "n": 75,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm pressed against a white dresser, having drifted off course. I need to back away and re-orient toward the open doorway visible earlier, then head toward the bedroom door and stairs.",
+      "latency_s": 2.82,
+      "prompt_tokens": 2005
+    },
+    {
+      "n": 79,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the closet facing drawers; the bathroom doorway is to my left. I need to turn left and head through the closet toward the bedroom.",
+      "latency_s": 2.72,
+      "prompt_tokens": 2008
+    },
+    {
+      "n": 87,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the closet facing back toward the bathroom door. I need to turn around, exit the closet toward the bed, then head left to the open bedroom door and the stairs.",
+      "latency_s": 2.83,
+      "prompt_tokens": 2010
+    },
+    {
+      "n": 90,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a closet dresser blocking the way; the bathroom is behind me. I need to turn toward the door with the knob on my right to exit the closet into the bedroom.",
+      "latency_s": 3.41,
+      "prompt_tokens": 2014
+    },
+    {
+      "n": 94,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the closet facing a closed door; the bedroom with the bed is visible through the opening on the right. I'll turn right toward the bedroom and move toward the bed, then head left toward the open door and stairs.",
+      "latency_s": 2.43,
+      "prompt_tokens": 2016
+    },
+    {
+      "n": 97,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the closet facing the open door into the bedroom with the bed ahead. I'll step through the doorway, then turn left at the bed to head toward the bedroom door and stairs.",
+      "latency_s": 2.52,
+      "prompt_tokens": 2018
+    },
+    {
+      "n": 100,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in the bedroom near the bed; the open door and stairs aren't visible in this view, so I'll turn right to scan for the doorway.",
+      "latency_s": 2.16,
+      "prompt_tokens": 2019
+    },
+    {
+      "n": 103,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I've reached the bed; the instruction says make a left at the bed and head to the open bedroom door at the top of the stairs. The door is likely back toward where I entered, so I'll turn left and look for the doorway.",
+      "latency_s": 2.73,
+      "prompt_tokens": 2020
+    },
+    {
+      "n": 107,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm beside the bed; the instruction says make a left at the bed and head to the open bedroom door at the top of the stairs. I'll turn left and advance toward the far wall where the door appears to be.",
+      "latency_s": 2.74,
+      "prompt_tokens": 2022
+    },
+    {
+      "n": 111,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've made the left at the bed; the open door and stairs should be on the left side of the room. I'll turn left and advance toward the doorway.",
+      "latency_s": 2.4,
+      "prompt_tokens": 2024
+    },
+    {
+      "n": 114,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've made the left at the bed and reached the open bedroom door visible ahead. I'll move through it toward the top of the stairs.",
+      "latency_s": 1.89,
+      "prompt_tokens": 2026
+    },
+    {
+      "n": 116,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've reached the open bedroom door; the stairs should be just beyond it. I'll step forward through the doorway and then look for the top of the stairs.",
+      "latency_s": 1.9,
+      "prompt_tokens": 2027
+    },
+    {
+      "n": 118,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the open bedroom door; the stairs should be just beyond it. I'll step forward through the doorway and re-observe.",
+      "latency_s": 2.04,
+      "prompt_tokens": 2027
+    },
+    {
+      "n": 121,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a blank wall next to a door edge. I need to find the open bedroom door leading to the stairs, so I'll turn right to scan the room.",
+      "latency_s": 1.69,
+      "prompt_tokens": 2027
+    },
+    {
+      "n": 125,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a bedroom facing a wall with chairs; I need to find the open bedroom door leading to the stairs. I'll turn right to scan the room.",
+      "latency_s": 1.65,
+      "prompt_tokens": 2029
+    },
+    {
+      "n": 128,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in the bedroom with the bed on my right. I need to make a left at the bed and head toward the open bedroom door near the top of the stairs. I'll turn left to scan for the door.",
+      "latency_s": 2.33,
+      "prompt_tokens": 2031
+    },
+    {
+      "n": 131,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in the bedroom near two chairs; the bed is to my right. I need to go around the bed toward the open bedroom door and the stairs, so I'll turn right and re-observe.",
+      "latency_s": 2.09,
+      "prompt_tokens": 2032
+    },
+    {
+      "n": 136,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the bedroom facing the bed area; the open door with blinds is ahead near the bed's head. I'll turn right slightly and head toward it to reach the top of the stairs.",
+      "latency_s": 2.74,
+      "prompt_tokens": 2034
+    },
+    {
+      "n": 139,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I've reached the bed; the instruction says make a left at the bed and head to the open bedroom door at the top of the stairs. I'll turn left to find the open door.",
+      "latency_s": 2.09,
+      "prompt_tokens": 2036
+    },
+    {
+      "n": 142,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in the bedroom near the bed, but the open door to the stairs isn't visible in this view. I'll turn left to scan for the doorway.",
+      "latency_s": 2.21,
+      "prompt_tokens": 2037
+    },
+    {
+      "n": 145,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've turned past the bed and am now facing two chairs in a corner. The open bedroom door should be back toward the bed's far side, so I'll turn right to re-orient toward the bed and look for the doorway.",
+      "latency_s": 2.86,
+      "prompt_tokens": 2038
+    },
+    {
+      "n": 148,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in the bedroom near the bed and chairs, but I don't see the open door or stairs yet. I'll turn right to scan the room for the doorway.",
+      "latency_s": 2.27,
+      "prompt_tokens": 2040
+    },
+    {
+      "n": 151,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I've reached the bed; the instruction says make a left at the bed and head to the open bedroom door. I'll turn left to look for the door.",
+      "latency_s": 1.71,
+      "prompt_tokens": 2041
+    },
+    {
+      "n": 154,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in the bedroom near the bed, but I don't see the open door or stairs yet. I'll turn left to scan the room for the doorway.",
+      "latency_s": 1.87,
+      "prompt_tokens": 2042
+    },
+    {
+      "n": 158,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in the bedroom facing two chairs; the bed is behind me. I need to turn left (toward the bed) and head to the open bedroom door at the top of the stairs.",
+      "latency_s": 2.52,
+      "prompt_tokens": 2043
+    },
+    {
+      "n": 161,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm facing a white door, but the instruction says to wait at the top of the stairs by the open bedroom door. I should turn left to look for the open door and stairs.",
+      "latency_s": 2.17,
+      "prompt_tokens": 2044
+    },
+    {
+      "n": 164,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "STOP"
+      ],
+      "thought": "I've reached the open bedroom door and can see the stair railing ahead through the doorway. I'll step forward to the top of the stairs and stop.",
+      "latency_s": 1.96,
+      "prompt_tokens": 2045
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    8.882,
+    8.882,
+    8.632,
+    8.384,
+    8.136,
+    7.968,
+    7.773,
+    7.548,
+    7.339,
+    7.136,
+    6.942,
+    6.715,
+    6.538,
+    6.301,
+    6.067,
+    5.838,
+    5.614,
+    5.4,
+    5.199,
+    5.021,
+    4.879,
+    4.639,
+    4.852,
+    5.08,
+    5.18,
+    5.147,
+    5.242,
+    5.394,
+    5.371,
+    5.342,
+    5.54,
+    5.418,
+    5.335,
+    5.085,
+    4.835,
+    4.586,
+    4.34,
+    4.082,
+    3.847,
+    3.681,
+    3.449,
+    3.223,
+    3.004,
+    2.797,
+    2.609,
+    2.451,
+    2.341,
+    2.297,
+    2.313,
+    2.473,
+    2.658,
+    2.861,
+    2.626,
+    2.396
+  ],
+  "final_distance": 2.396,
+  "min_distance": 2.297,
+  "metrics": {
+    "distance_to_goal": 2.3960773944854736,
+    "success": 1.0,
+    "spl": 0.7111858629535128,
+    "oracle_success": 1.0,
+    "path_length": 12.488750196993351,
+    "steps_taken": 164.0
+  },
+  "success": true,
+  "backend_stats": {
+    "calls": 930,
+    "failures": 0,
+    "prompt_tokens": 1886698,
+    "completion_tokens": 73574,
+    "reasoning_tokens": 24317,
+    "latency_s": 2071.3483231067657
+  },
+  "stop_deferrals": 0
+}

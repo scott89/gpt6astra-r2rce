@@ -1,0 +1,180 @@
+{
+  "episode_id": 1205,
+  "scene_id": "EU6Fwq7SyZv",
+  "instruction": "Walk across kitchen, turn left and stop under the stairs.",
+  "actions_taken": 34,
+  "policy_calls": 11,
+  "api_latency_s": 25.49,
+  "prompt_tokens": 19357,
+  "completion_tokens": 902,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 25.69,
+  "steps": [
+    {
+      "n": 3,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the kitchen facing the stove and windows. I'll walk forward across the kitchen toward the glass door area, then look for the stairs to turn left toward.",
+      "latency_s": 2.53,
+      "prompt_tokens": 872
+    },
+    {
+      "n": 6,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the kitchen facing the counter; the walkway continues ahead past the glass doors. I'll advance along the kitchen, then look for the stairs to turn left.",
+      "latency_s": 2.71,
+      "prompt_tokens": 1227
+    },
+    {
+      "n": 9,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the kitchen beside a large stove, with glass doors ahead. I'll advance along the counter toward the doors, then look for the stairs to turn left.",
+      "latency_s": 2.29,
+      "prompt_tokens": 1590
+    },
+    {
+      "n": 13,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in the kitchen facing the glass doors. I need to cross the kitchen and find the stairs; I'll turn left to scan the room for the staircase.",
+      "latency_s": 2.93,
+      "prompt_tokens": 1954
+    },
+    {
+      "n": 15,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a kitchen counter up close; the walkable path appears to be to the right toward the glass doors. I'll turn right and re-observe before moving.",
+      "latency_s": 2.62,
+      "prompt_tokens": 1955
+    },
+    {
+      "n": 17,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a kitchen counter blocking my path. I need to turn right to find the open floor of the kitchen and head toward the stairs.",
+      "latency_s": 2.06,
+      "prompt_tokens": 1956
+    },
+    {
+      "n": 21,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a kitchen counter with no path forward. I need to turn right to look back across the kitchen toward the stairs area.",
+      "latency_s": 2.61,
+      "prompt_tokens": 1957
+    },
+    {
+      "n": 26,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've exited the kitchen area and can see the staircase on the right side of the open living space. I need to walk toward it and stop under the stairs.",
+      "latency_s": 1.95,
+      "prompt_tokens": 1959
+    },
+    {
+      "n": 30,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_RIGHT"
+      ],
+      "thought": "The staircase is visible ahead-right across the open floor. I'll advance toward it and then stop under the stairs.",
+      "latency_s": 2.02,
+      "prompt_tokens": 1961
+    },
+    {
+      "n": 33,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_RIGHT"
+      ],
+      "thought": "The staircase is visible ahead to the right; I should approach it and stop beneath it.",
+      "latency_s": 1.96,
+      "prompt_tokens": 1962
+    },
+    {
+      "n": 34,
+      "actions": [
+        "STOP"
+      ],
+      "thought": "The staircase is directly ahead and I am already at its base, which is 'under the stairs'. I should stop here.",
+      "latency_s": 1.81,
+      "prompt_tokens": 1964
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    7.657,
+    7.526,
+    7.429,
+    7.364,
+    7.332,
+    7.273,
+    7.162,
+    7.112,
+    7.084,
+    7.066,
+    7.066,
+    6.867,
+    6.672,
+    6.483,
+    6.3,
+    6.125,
+    5.968,
+    5.832,
+    5.669,
+    5.532
+  ],
+  "final_distance": 5.532,
+  "min_distance": 5.532,
+  "metrics": {
+    "distance_to_goal": 5.532196044921875,
+    "success": 0.0,
+    "spl": 0.0,
+    "oracle_success": 0.0,
+    "path_length": 4.333521444350481,
+    "steps_taken": 34.0
+  },
+  "success": false,
+  "backend_stats": {
+    "calls": 364,
+    "failures": 0,
+    "prompt_tokens": 714881,
+    "completion_tokens": 29109,
+    "reasoning_tokens": 9576,
+    "latency_s": 813.0665712356567
+  },
+  "stop_deferrals": 0
+}

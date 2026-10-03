@@ -1,0 +1,317 @@
+{
+  "episode_id": 149,
+  "scene_id": "QUCTc6BB5sX",
+  "instruction": "TURN RIGHT TO FACE THE END OF THE BED AND WALK TOWARDS THE CHAIR, TURN RIGHT AND WALK TOWARDS THE OPEN DOOR AND THE HALLWAY, WALK ACROSS THE HALLWAY AND TO THE NEXT OPEN DOORWAY, WALK THROUGH THE DOOR AND INTO THE CLOSET.",
+  "actions_taken": 64,
+  "policy_calls": 21,
+  "api_latency_s": 45.53,
+  "prompt_tokens": 40176,
+  "completion_tokens": 1698,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 45.92,
+  "steps": [
+    {
+      "n": 3,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm currently facing a wall next to a dresser. The instruction says to turn right to face the end of the bed, so I'll rotate right first and re-observe.",
+      "latency_s": 1.44,
+      "prompt_tokens": 927
+    },
+    {
+      "n": 6,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall with framed pictures; the instruction says to turn right to face the end of the bed, so I'll rotate right and re-observe.",
+      "latency_s": 1.86,
+      "prompt_tokens": 1283
+    },
+    {
+      "n": 8,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "After six right turns I'm facing a wall with pictures and a curtained window, not the bed. I need to keep scanning right to find the end of the bed and the chair.",
+      "latency_s": 2.5,
+      "prompt_tokens": 1647
+    },
+    {
+      "n": 10,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "After turning right 120\u00b0, I now face a window and dresser; the bed with the chair should be further to my right. I'll turn right to bring the bed into view before walking.",
+      "latency_s": 2.51,
+      "prompt_tokens": 2011
+    },
+    {
+      "n": 13,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the end of the bed and the chaise chair ahead. I'll walk toward the chair, then turn right toward the glass doors.",
+      "latency_s": 2.7,
+      "prompt_tokens": 2012
+    },
+    {
+      "n": 16,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I see the chaise lounge and the glass double doors ahead. I'll walk toward the chair/door direction.",
+      "latency_s": 1.79,
+      "prompt_tokens": 2013
+    },
+    {
+      "n": 19,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm beside the chaise chair; I should approach it, then turn right toward the open door visible ahead-right.",
+      "latency_s": 2.41,
+      "prompt_tokens": 2013
+    },
+    {
+      "n": 22,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm beside the chaise lounge; the glass double doors ahead lead to the hallway. I'll advance toward them, then turn right to find the next doorway.",
+      "latency_s": 2.19,
+      "prompt_tokens": 2014
+    },
+    {
+      "n": 25,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing along the bed toward the glass double doors at the far end. I should walk forward along the bed toward the door area, then re-observe.",
+      "latency_s": 2.56,
+      "prompt_tokens": 2015
+    },
+    {
+      "n": 27,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm at the foot of the bed facing the glass doors. The instruction says to walk toward the chair, which I can't see yet; it's likely to the right near the doors, so I'll turn right to scan.",
+      "latency_s": 2.64,
+      "prompt_tokens": 2015
+    },
+    {
+      "n": 31,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the end of the bed facing glass doors. The chair is to the right near the TV; I'll turn right and head that way.",
+      "latency_s": 2.37,
+      "prompt_tokens": 2016
+    },
+    {
+      "n": 35,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the arched hallway ahead with an open door (the closet) in view. I'll advance toward it, re-observing as I go.",
+      "latency_s": 2.44,
+      "prompt_tokens": 2018
+    },
+    {
+      "n": 38,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the arched entry to the hallway and the open door (closet) beyond it. I'll advance toward the hallway, checking alignment as I go.",
+      "latency_s": 2.3,
+      "prompt_tokens": 2018
+    },
+    {
+      "n": 42,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm near the TV stand; the open doorway with the closet is ahead and slightly right. I'll turn right to align and advance toward it.",
+      "latency_s": 2.09,
+      "prompt_tokens": 2019
+    },
+    {
+      "n": 46,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing the TV with the open arched door to the closet visible ahead. I'll walk toward it, checking alignment as I go.",
+      "latency_s": 2.06,
+      "prompt_tokens": 2020
+    },
+    {
+      "n": 50,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The open doorway to the closet is directly ahead, a few meters away. I'll advance toward it and then stop inside.",
+      "latency_s": 2.09,
+      "prompt_tokens": 2021
+    },
+    {
+      "n": 53,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm right at the open doorway with the closet visible beyond. I'll step through the doorway into the closet.",
+      "latency_s": 1.85,
+      "prompt_tokens": 2021
+    },
+    {
+      "n": 55,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "The open doorway to the closet is on the right side of the frame. I need to turn right to align with it before walking through.",
+      "latency_s": 2.15,
+      "prompt_tokens": 2021
+    },
+    {
+      "n": 60,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The open doorway is ahead, slightly right of center. I'll advance toward it and then turn slightly right to pass through into the closet.",
+      "latency_s": 1.95,
+      "prompt_tokens": 2022
+    },
+    {
+      "n": 62,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing an open doorway leading onward; the instruction says to walk through the door into the closet. I'll step forward through the opening and re-observe.",
+      "latency_s": 1.81,
+      "prompt_tokens": 2025
+    },
+    {
+      "n": 64,
+      "actions": [
+        "MOVE_FORWARD",
+        "STOP"
+      ],
+      "thought": "I've walked through the doorway and I'm now inside the closet with hanging clothes visible. One more step in, then stop.",
+      "latency_s": 1.82,
+      "prompt_tokens": 2025
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    8.755,
+    8.755,
+    8.524,
+    8.302,
+    8.097,
+    7.918,
+    7.809,
+    7.776,
+    7.785,
+    7.807,
+    7.769,
+    7.765,
+    7.756,
+    7.746,
+    7.736,
+    7.726,
+    7.726,
+    7.502,
+    7.277,
+    7.019,
+    6.79,
+    6.562,
+    6.335,
+    6.111,
+    5.889,
+    5.669,
+    5.427,
+    5.186,
+    4.946,
+    4.707,
+    4.47,
+    4.235,
+    3.98,
+    3.748,
+    3.513,
+    3.26,
+    3.037,
+    2.822,
+    2.616,
+    2.423,
+    2.181,
+    1.942,
+    1.709,
+    1.465,
+    1.23,
+    1.039,
+    0.748
+  ],
+  "final_distance": 0.748,
+  "min_distance": 0.748,
+  "metrics": {
+    "distance_to_goal": 0.7482668161392212,
+    "success": 1.0,
+    "spl": 0.8945898605682453,
+    "oracle_success": 1.0,
+    "path_length": 9.786553439684212,
+    "steps_taken": 64.0
+  },
+  "success": true,
+  "backend_stats": {
+    "calls": 440,
+    "failures": 0,
+    "prompt_tokens": 872806,
+    "completion_tokens": 35773,
+    "reasoning_tokens": 11389,
+    "latency_s": 967.6801850795746
+  },
+  "stop_deferrals": 0
+}

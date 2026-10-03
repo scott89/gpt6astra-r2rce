@@ -1,0 +1,1654 @@
+{
+  "episode_id": 374,
+  "scene_id": "X7HyMhZNoso",
+  "instruction": "Walk up the three stairs and turn right. Walk towards the living room and turn right. Wait by the coffee table.",
+  "actions_taken": 500,
+  "policy_calls": 126,
+  "api_latency_s": 255.31,
+  "prompt_tokens": 260026,
+  "completion_tokens": 10334,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 257.76,
+  "steps": [
+    {
+      "n": 3,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in a bathroom; the exit doorway is to my left. I'll turn left to face out of the bathroom before moving.",
+      "latency_s": 1.86,
+      "prompt_tokens": 884
+    },
+    {
+      "n": 6,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a blank wall, so I need to rotate to find the stairs or hallway.",
+      "latency_s": 1.43,
+      "prompt_tokens": 1239
+    },
+    {
+      "n": 12,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing into a bathroom, which is not on the route. I need to turn around to find the stairs and the living room.",
+      "latency_s": 1.73,
+      "prompt_tokens": 1604
+    },
+    {
+      "n": 16,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm facing a wall next to a bathroom and laundry area, which means I've turned past the living room. I need to rotate left to find the hallway/living room direction.",
+      "latency_s": 2.25,
+      "prompt_tokens": 1970
+    },
+    {
+      "n": 20,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a bathroom, which is off the intended path. I need to turn around toward the open area with the kitchen/laundry seen earlier and find the living room.",
+      "latency_s": 2.18,
+      "prompt_tokens": 1971
+    },
+    {
+      "n": 24,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I appear to be in a laundry/kitchen area, not the living room. I need to turn right and move through the space to find the living room with the coffee table.",
+      "latency_s": 2.27,
+      "prompt_tokens": 1972
+    },
+    {
+      "n": 27,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I appear to be in a laundry/bathroom area, not the living room. I need to find the stairs and living room; I'll turn left to explore the hallway.",
+      "latency_s": 2.12,
+      "prompt_tokens": 1975
+    },
+    {
+      "n": 29,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I appear to be in a laundry room, which is off the intended path. I need to exit through the opening on the left and find the living room with the coffee table.",
+      "latency_s": 2.56,
+      "prompt_tokens": 1976
+    },
+    {
+      "n": 35,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I appear to have drifted into a laundry room, which is not on the route. I need to turn around and head back toward the stairs/living room area.",
+      "latency_s": 2.41,
+      "prompt_tokens": 1977
+    },
+    {
+      "n": 41,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I've drifted into a bathroom, which is not on the route. I need to back out and find the stairs and living room; I'll turn around to re-orient.",
+      "latency_s": 2.04,
+      "prompt_tokens": 1979
+    },
+    {
+      "n": 46,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm at the base of three stairs leading up. I'll climb them, then turn right as instructed.",
+      "latency_s": 1.66,
+      "prompt_tokens": 1980
+    },
+    {
+      "n": 49,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm facing a wall after climbing the stairs; the stair landing and open hallway are to my left. I need to turn left to reorient toward the living room.",
+      "latency_s": 1.89,
+      "prompt_tokens": 1982
+    },
+    {
+      "n": 53,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've reached the top of the stairs. The instruction says turn right and head toward the living room, so I'll rotate right to scan for the living room opening.",
+      "latency_s": 1.7,
+      "prompt_tokens": 1983
+    },
+    {
+      "n": 59,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a blank wall; the hallway with the stairs is behind me. I need to turn around to reorient.",
+      "latency_s": 1.73,
+      "prompt_tokens": 1985
+    },
+    {
+      "n": 62,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've drifted into a bathroom, which is not on the route. I need to turn around, exit back into the hallway, and head toward the living room to find the coffee table.",
+      "latency_s": 1.98,
+      "prompt_tokens": 1988
+    },
+    {
+      "n": 65,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've ended up facing into a bathroom, which is off the intended path. I need to turn right toward the open doorway leading out to the hallway/living area and re-orient from there.",
+      "latency_s": 2.06,
+      "prompt_tokens": 1990
+    },
+    {
+      "n": 68,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a bathroom; the exit leads to a kitchen area. I need to turn right and move out of the bathroom toward the living room.",
+      "latency_s": 2.12,
+      "prompt_tokens": 1992
+    },
+    {
+      "n": 71,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to be in a bathroom/laundry area, not the living room. I need to exit and find the living room with the coffee table. The open area ahead seems to be a kitchen/laundry; I'll turn right to look for the living space.",
+      "latency_s": 2.78,
+      "prompt_tokens": 1993
+    },
+    {
+      "n": 74,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall with stairs visible to the right. I'll turn right to face the stairs and the living room beyond.",
+      "latency_s": 1.86,
+      "prompt_tokens": 1995
+    },
+    {
+      "n": 76,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to be at the top of the stairs facing a hallway. Per the instruction I should now turn right to head toward the living room.",
+      "latency_s": 2.13,
+      "prompt_tokens": 1996
+    },
+    {
+      "n": 80,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the base of the stairs; I need to walk up them, then turn right toward the living room.",
+      "latency_s": 1.61,
+      "prompt_tokens": 1997
+    },
+    {
+      "n": 83,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the top of the stairs facing a wall; the hallway continues to the left. I'll turn left and proceed down the hallway toward the living room.",
+      "latency_s": 1.71,
+      "prompt_tokens": 1997
+    },
+    {
+      "n": 86,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm at the top of the stairs facing a wall, with an open hallway to the left. I need to move forward past the wall before I can turn right toward the living room.",
+      "latency_s": 2.41,
+      "prompt_tokens": 2000
+    },
+    {
+      "n": 90,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a wall very closely; the open hallway with a white door is to my left. I'll turn left to reorient and then move forward along the wood floor to find the living room.",
+      "latency_s": 2.1,
+      "prompt_tokens": 2001
+    },
+    {
+      "n": 93,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm facing a blank wall with a white door to my left. I need to turn left and explore to find the living room and coffee table.",
+      "latency_s": 2.49,
+      "prompt_tokens": 2003
+    },
+    {
+      "n": 97,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm at the top of the stairs facing a wall/door. The instruction says to turn right and head toward the living room, so I'll rotate right to scan for the living room opening.",
+      "latency_s": 3.47,
+      "prompt_tokens": 2004
+    },
+    {
+      "n": 103,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a blank wall; the stairway is behind me. I need to turn around to find the living room and coffee table.",
+      "latency_s": 2.19,
+      "prompt_tokens": 2006
+    },
+    {
+      "n": 109,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall up close; the hallway with the stairs is behind me. I need to turn around to find the living room entrance.",
+      "latency_s": 1.82,
+      "prompt_tokens": 2009
+    },
+    {
+      "n": 113,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a bathroom in a hallway, which doesn't match the instruction. I need to find the living room with the coffee table, so I'll turn right to scan the hallway for the living room opening.",
+      "latency_s": 2.68,
+      "prompt_tokens": 2012
+    },
+    {
+      "n": 116,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a staircase; the instruction says to walk up the three stairs. I'll advance toward and up the stairs, then re-observe.",
+      "latency_s": 1.66,
+      "prompt_tokens": 2014
+    },
+    {
+      "n": 120,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing the staircase; I need to climb up, then turn right toward the living room. I'll advance up the stairs a few steps and re-observe.",
+      "latency_s": 1.76,
+      "prompt_tokens": 2015
+    },
+    {
+      "n": 123,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm mid-staircase; a few more steps remain to the top. I'll climb forward, then re-observe to turn right toward the living room.",
+      "latency_s": 1.73,
+      "prompt_tokens": 2015
+    },
+    {
+      "n": 129,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've reached the top of the stairs; the landing is carpeted. Per the instruction I should now turn right and head toward the living room.",
+      "latency_s": 1.86,
+      "prompt_tokens": 2016
+    },
+    {
+      "n": 135,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've reached the top of the stairs. Per the instruction, I now turn right and walk toward the living room.",
+      "latency_s": 1.9,
+      "prompt_tokens": 2019
+    },
+    {
+      "n": 141,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm at the top of the stairs in an upstairs hallway. Per the instruction I should turn right and head toward the living room, so I'll rotate right and look for the living room opening.",
+      "latency_s": 2.29,
+      "prompt_tokens": 2021
+    },
+    {
+      "n": 144,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a blank wall after coming up the stairs; the hallway with the wooden door was to my right earlier. I'll turn right to re-orient toward the living room.",
+      "latency_s": 2.07,
+      "prompt_tokens": 2025
+    },
+    {
+      "n": 147,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to be facing a blank wall after coming up the stairs. I need to turn right to find the hallway toward the living room.",
+      "latency_s": 1.79,
+      "prompt_tokens": 2027
+    },
+    {
+      "n": 153,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I see the staircase railing and carpeted steps to my right. I need to turn right and walk up the stairs.",
+      "latency_s": 1.8,
+      "prompt_tokens": 2028
+    },
+    {
+      "n": 159,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall at the top of the stairs; the stairwell is to my right. I need to turn right and descend the three stairs.",
+      "latency_s": 2.15,
+      "prompt_tokens": 2031
+    },
+    {
+      "n": 163,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to be at the top of the stairs facing the railing. The instruction says to turn right after the stairs, so I'll rotate right to face the living room area.",
+      "latency_s": 1.94,
+      "prompt_tokens": 2034
+    },
+    {
+      "n": 166,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to be at the top of the stairs facing a hallway. The instruction says to turn right after the stairs and head to the living room, so I'll rotate right to scan for the living room opening.",
+      "latency_s": 2.52,
+      "prompt_tokens": 2036
+    },
+    {
+      "n": 170,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the bottom of the stairs; the staircase goes up to my right. I'll turn right and start climbing, re-observing as I go.",
+      "latency_s": 1.98,
+      "prompt_tokens": 2038
+    },
+    {
+      "n": 174,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a blank wall; the staircase should be to my right based on earlier frames. I'll turn right to re-orient toward the stairs.",
+      "latency_s": 1.95,
+      "prompt_tokens": 2038
+    },
+    {
+      "n": 180,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a blank wall; the stairs were behind me. I need to turn around to find the staircase.",
+      "latency_s": 1.87,
+      "prompt_tokens": 2041
+    },
+    {
+      "n": 184,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm at the top of the stairs facing a wall. I need to turn right to head toward the living room.",
+      "latency_s": 1.74,
+      "prompt_tokens": 2043
+    },
+    {
+      "n": 188,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm at the top of the stairs facing the railing. The instruction says turn right after the stairs, so I'll rotate right to face the living room area.",
+      "latency_s": 1.92,
+      "prompt_tokens": 2046
+    },
+    {
+      "n": 193,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've reached the top of the stairs; the landing with wood flooring is to the right. I'll turn right and head toward the living room.",
+      "latency_s": 1.98,
+      "prompt_tokens": 2048
+    },
+    {
+      "n": 197,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the top of the stairs facing down a hallway after turning right. I should continue forward along the hallway to reach the living room, then turn right toward the coffee table.",
+      "latency_s": 2.38,
+      "prompt_tokens": 2053
+    },
+    {
+      "n": 200,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall after turning; the hallway/living room should be to my right. I'll turn right to re-orient.",
+      "latency_s": 1.81,
+      "prompt_tokens": 2053
+    },
+    {
+      "n": 204,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a wall at the end of a turn; the hallway with the wooden floor is to my left. I'll turn left to re-enter the hallway and head toward the living room.",
+      "latency_s": 2.35,
+      "prompt_tokens": 2053
+    },
+    {
+      "n": 210,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a blank wall; the hallway with the bathroom is behind me. I need to turn around to find the living room and coffee table.",
+      "latency_s": 2.07,
+      "prompt_tokens": 2056
+    },
+    {
+      "n": 216,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a bathroom doorway in a hallway, which doesn't match the instruction. I need to reorient and find the living room with the coffee table.",
+      "latency_s": 2.49,
+      "prompt_tokens": 2058
+    },
+    {
+      "n": 222,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the base of the stairs facing them. I need to climb up, then turn right toward the living room.",
+      "latency_s": 2.17,
+      "prompt_tokens": 2062
+    },
+    {
+      "n": 226,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've reached the top of the stairs. Per the instruction, I now turn right to head toward the living room.",
+      "latency_s": 1.86,
+      "prompt_tokens": 2063
+    },
+    {
+      "n": 232,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've reached the top of the stairs; the landing is behind the railing ahead. The instruction says turn right at the top, so I'll rotate right and look for the living room.",
+      "latency_s": 1.86,
+      "prompt_tokens": 2067
+    },
+    {
+      "n": 238,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've reached the top of the stairs; the hallway with wood flooring lies ahead. Per the instruction I should turn right to head toward the living room.",
+      "latency_s": 2.13,
+      "prompt_tokens": 2068
+    },
+    {
+      "n": 242,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to be facing a blank wall after climbing the stairs. I need to turn right to reorient toward the hallway and find the living room.",
+      "latency_s": 1.89,
+      "prompt_tokens": 2073
+    },
+    {
+      "n": 246,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a blank wall, likely after turning too far. I need to rotate right to find the hallway and living room again.",
+      "latency_s": 1.61,
+      "prompt_tokens": 2075
+    },
+    {
+      "n": 250,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to be at the top of the stairs on a landing. Per the instruction, I should turn right here and head toward the living room.",
+      "latency_s": 2.2,
+      "prompt_tokens": 2077
+    },
+    {
+      "n": 256,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm at the top of the stairs facing the railing. The instruction says to turn right after the stairs, so I'll rotate right to face the upper hallway and look for the living room.",
+      "latency_s": 2.53,
+      "prompt_tokens": 2076
+    },
+    {
+      "n": 262,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've reached the top of the stairs; the hallway with wood flooring lies ahead. Per the instruction I should turn right and head toward the living room.",
+      "latency_s": 1.86,
+      "prompt_tokens": 2080
+    },
+    {
+      "n": 265,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a blank wall after coming up the stairs; I need to turn right to re-enter the hallway and head toward the living room.",
+      "latency_s": 1.61,
+      "prompt_tokens": 2085
+    },
+    {
+      "n": 269,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a blank wall after turning; the hallway with the wooden floor is behind me to the left. I need to turn right to reorient and find the living room.",
+      "latency_s": 2.06,
+      "prompt_tokens": 2086
+    },
+    {
+      "n": 273,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a blank wall; the living room must be off to the right. I'll rotate right to re-aim before moving.",
+      "latency_s": 1.61,
+      "prompt_tokens": 2089
+    },
+    {
+      "n": 278,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing three stairs leading up; I need to climb them, then turn right toward the living room.",
+      "latency_s": 1.52,
+      "prompt_tokens": 2091
+    },
+    {
+      "n": 284,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've reached the top of the stairs. The instruction says to turn right here and head toward the living room, so I'll rotate right and re-observe.",
+      "latency_s": 1.96,
+      "prompt_tokens": 2092
+    },
+    {
+      "n": 288,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've ascended the stairs and am now facing the railing; the landing with the living room should be to my right. I'll turn right and re-observe before moving.",
+      "latency_s": 2.24,
+      "prompt_tokens": 2095
+    },
+    {
+      "n": 292,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm at the top of the stairs facing a hallway. The instruction says to turn right after the stairs, so I'll rotate right to look for the living room.",
+      "latency_s": 2.19,
+      "prompt_tokens": 2097
+    },
+    {
+      "n": 295,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the base of the stairs with the railing blocking my view; I need to advance toward and up the stairs, then turn right toward the living room.",
+      "latency_s": 1.99,
+      "prompt_tokens": 2099
+    },
+    {
+      "n": 299,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "The view is blocked by a wall; I need to reorient. The stairs were behind me, so I'll turn right to find the hallway toward the living room.",
+      "latency_s": 1.8,
+      "prompt_tokens": 2100
+    },
+    {
+      "n": 303,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "The view is blocked by a railing; I seem to be near the top of the stairs. I need to turn right to find the living room and coffee table.",
+      "latency_s": 2.01,
+      "prompt_tokens": 2102
+    },
+    {
+      "n": 306,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to be facing a wall next to a stair railing at the top of the stairs. I need to turn right to find the hallway toward the living room.",
+      "latency_s": 1.87,
+      "prompt_tokens": 2103
+    },
+    {
+      "n": 310,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to be at the top of the stairs facing a railing. Per the instruction I should turn right toward the living room, so I'll rotate right to scan for the living room opening.",
+      "latency_s": 2.38,
+      "prompt_tokens": 2105
+    },
+    {
+      "n": 314,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to be at the top of the stairs facing a railing. Per the instruction I should turn right and head toward the living room, so I'll rotate right to scan the area.",
+      "latency_s": 2.29,
+      "prompt_tokens": 2106
+    },
+    {
+      "n": 318,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm at the top of the stairs in an upstairs hallway. Per the instruction I should turn right and head toward the living room.",
+      "latency_s": 2.01,
+      "prompt_tokens": 2110
+    },
+    {
+      "n": 322,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall up close after climbing the stairs. I need to turn right to face the hallway toward the living room.",
+      "latency_s": 1.94,
+      "prompt_tokens": 2112
+    },
+    {
+      "n": 325,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "The view is blocked by a wall; I need to rotate to find the hallway/living room again.",
+      "latency_s": 1.66,
+      "prompt_tokens": 2114
+    },
+    {
+      "n": 328,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to be facing a wall or reflective surface very closely, with carpet visible to the right. I need to turn right to reorient toward the open living room area.",
+      "latency_s": 1.83,
+      "prompt_tokens": 2115
+    },
+    {
+      "n": 331,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to be wedged against a wall near a stair railing, not in the living room. I need to back out of this corner and re-orient; turning right should reveal the open area.",
+      "latency_s": 2.19,
+      "prompt_tokens": 2117
+    },
+    {
+      "n": 335,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm at the top of the stairs facing the railing. Per the instruction I should turn right and head toward the living room, then turn right again to find the coffee table.",
+      "latency_s": 2.24,
+      "prompt_tokens": 2118
+    },
+    {
+      "n": 340,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the top of the stairs; the landing with wood flooring extends to the right. I'll turn right and proceed toward the living room.",
+      "latency_s": 2.02,
+      "prompt_tokens": 2120
+    },
+    {
+      "n": 344,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm at the top of the stairs in a hallway. Per the instruction I should turn right and head toward the living room, so I'll rotate right to scan for the living room opening.",
+      "latency_s": 1.83,
+      "prompt_tokens": 2121
+    },
+    {
+      "n": 347,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a blank wall after turning; the living room should be to my right. I'll rotate right to re-orient.",
+      "latency_s": 2.02,
+      "prompt_tokens": 2125
+    },
+    {
+      "n": 353,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a blank wall; the hallway with the wooden door is behind me. I need to turn around and head toward the living room to find the coffee table.",
+      "latency_s": 1.84,
+      "prompt_tokens": 2127
+    },
+    {
+      "n": 357,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a short staircase; I need to climb it, then turn right toward the living room.",
+      "latency_s": 1.84,
+      "prompt_tokens": 2130
+    },
+    {
+      "n": 363,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a blank wall at the top of the stairs. I need to turn around to find the living room direction.",
+      "latency_s": 1.76,
+      "prompt_tokens": 2131
+    },
+    {
+      "n": 366,
+      "actions": [
+        "LOOK_DOWN",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm mid-staircase but the camera is pitched up at the ceiling. I need to look down to see the stairs ahead and continue climbing.",
+      "latency_s": 1.91,
+      "prompt_tokens": 2134
+    },
+    {
+      "n": 367,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The view is blocked by stair railing; I need to re-orient. I'll look down to see the floor and stairs before moving.",
+      "latency_s": 1.87,
+      "prompt_tokens": 2136
+    },
+    {
+      "n": 368,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the stairs; I need to look up to see where I am before proceeding.",
+      "latency_s": 1.75,
+      "prompt_tokens": 2137
+    },
+    {
+      "n": 369,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the stairs; I need to look up to see the landing ahead before continuing.",
+      "latency_s": 1.5,
+      "prompt_tokens": 2137
+    },
+    {
+      "n": 370,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The view is blocked by the stair railing; I appear to be at the top of the stairs. I'll look down to re-orient before moving.",
+      "latency_s": 1.91,
+      "prompt_tokens": 2138
+    },
+    {
+      "n": 371,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The view is blocked by a stair railing; I need to re-orient. Looking down to see the floor and my surroundings before moving.",
+      "latency_s": 2.0,
+      "prompt_tokens": 2136
+    },
+    {
+      "n": 372,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the stairs; I need to look up to see the landing and continue toward the living room.",
+      "latency_s": 1.86,
+      "prompt_tokens": 2139
+    },
+    {
+      "n": 373,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at a stair railing; I need to look down to see the stairs and navigate them.",
+      "latency_s": 1.83,
+      "prompt_tokens": 2140
+    },
+    {
+      "n": 374,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the stairs; I need to look up to see the top of the stairs and navigate onward.",
+      "latency_s": 1.77,
+      "prompt_tokens": 2140
+    },
+    {
+      "n": 377,
+      "actions": [
+        "LOOK_DOWN",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "The view is blocked by stair railing; I appear to be on/near the stairs. I'll look down to see the steps and re-orient before moving.",
+      "latency_s": 2.39,
+      "prompt_tokens": 2141
+    },
+    {
+      "n": 380,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the staircase with a few steps remaining; the wooden floor is visible at the top right. I'll continue climbing the stairs.",
+      "latency_s": 2.27,
+      "prompt_tokens": 2142
+    },
+    {
+      "n": 384,
+      "actions": [
+        "LOOK_UP",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the staircase looking down at the railing. I need to look up, climb the remaining stairs, then turn right toward the living room.",
+      "latency_s": 1.83,
+      "prompt_tokens": 2141
+    },
+    {
+      "n": 388,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've reached the top of the stairs facing a white door. The instruction says turn right toward the living room, so I'll rotate right and re-observe.",
+      "latency_s": 1.81,
+      "prompt_tokens": 2145
+    },
+    {
+      "n": 394,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm at the top of the stairs facing a hallway. Per the instruction I should turn right and head toward the living room.",
+      "latency_s": 1.96,
+      "prompt_tokens": 2147
+    },
+    {
+      "n": 402,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm currently facing down the staircase; the instruction requires going up the stairs. I'll turn around and ascend.",
+      "latency_s": 2.44,
+      "prompt_tokens": 2150
+    },
+    {
+      "n": 408,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm at the top of the stairs in a hallway. Per the instruction I should turn right and head toward the living room, then find the coffee table.",
+      "latency_s": 1.94,
+      "prompt_tokens": 2153
+    },
+    {
+      "n": 412,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the base of the stairs facing upward. I need to climb the stairs first, then turn right toward the living room.",
+      "latency_s": 2.88,
+      "prompt_tokens": 2156
+    },
+    {
+      "n": 416,
+      "actions": [
+        "LOOK_DOWN",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "The camera is pitched up at a blank wall; I need to look down and reorient to find the living room and coffee table.",
+      "latency_s": 1.9,
+      "prompt_tokens": 2157
+    },
+    {
+      "n": 417,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the stairs; I need to look up to see where I am before proceeding.",
+      "latency_s": 1.66,
+      "prompt_tokens": 2159
+    },
+    {
+      "n": 421,
+      "actions": [
+        "LOOK_UP",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall looking down at stairs. I need to look up and turn right to find the living room and coffee table.",
+      "latency_s": 1.8,
+      "prompt_tokens": 2160
+    },
+    {
+      "n": 425,
+      "actions": [
+        "LOOK_UP",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the base of three stairs facing them. I'll look up to see the landing, then climb the stairs.",
+      "latency_s": 1.94,
+      "prompt_tokens": 2162
+    },
+    {
+      "n": 428,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've climbed the stairs and now face a wall at the landing. I need to turn right to find the living room direction.",
+      "latency_s": 1.9,
+      "prompt_tokens": 2164
+    },
+    {
+      "n": 430,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "I appear to be at the top of the stairs but the camera is pitched up toward the ceiling. I need to look down to see the landing and then turn right toward the living room.",
+      "latency_s": 1.91,
+      "prompt_tokens": 2166
+    },
+    {
+      "n": 433,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the base of a carpeted staircase; the instruction says to walk up the stairs. I'll climb a few steps and re-observe.",
+      "latency_s": 2.07,
+      "prompt_tokens": 2164
+    },
+    {
+      "n": 437,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've reached the top of the stairs. Per the instruction I should turn right and head toward the living room, so I'll rotate right to see the hallway ahead.",
+      "latency_s": 2.14,
+      "prompt_tokens": 2167
+    },
+    {
+      "n": 441,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm mid-staircase facing the railing; I need to face up the stairs and climb the remaining steps, then turn right at the top.",
+      "latency_s": 2.21,
+      "prompt_tokens": 2169
+    },
+    {
+      "n": 444,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a stair railing/wall at the top of the stairs. I need to turn right to find the hallway toward the living room.",
+      "latency_s": 1.71,
+      "prompt_tokens": 2171
+    },
+    {
+      "n": 447,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the top of the stairs with the railing blocking my view. I need to turn right and move past the railing toward the living room area.",
+      "latency_s": 1.99,
+      "prompt_tokens": 2173
+    },
+    {
+      "n": 451,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm at the top of the stairs in a hallway. The instruction says to turn right toward the living room, so I'll rotate right and look for the living room and coffee table.",
+      "latency_s": 1.92,
+      "prompt_tokens": 2174
+    },
+    {
+      "n": 455,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at a stair landing looking down the stairs; the wood-floored hallway to the left likely leads to the living room. I'll turn left and move toward it.",
+      "latency_s": 3.03,
+      "prompt_tokens": 2176
+    },
+    {
+      "n": 459,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the top of the stairs facing a hallway. I need to move forward, then turn right toward the living room and find the coffee table.",
+      "latency_s": 2.41,
+      "prompt_tokens": 2178
+    },
+    {
+      "n": 463,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've reached the top of the stairs. The instruction says turn right and head toward the living room, so I'll rotate right to scan for the living room opening.",
+      "latency_s": 2.07,
+      "prompt_tokens": 2178
+    },
+    {
+      "n": 469,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm at the top of the stairs. The instruction says turn right and head toward the living room, so I'll rotate right and look for the living room opening.",
+      "latency_s": 1.88,
+      "prompt_tokens": 2180
+    },
+    {
+      "n": 475,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the base of the stairs facing them. I'll climb the stairs, then turn right toward the living room.",
+      "latency_s": 2.18,
+      "prompt_tokens": 2183
+    },
+    {
+      "n": 479,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've climbed the stairs and am at the top facing a wall. I need to turn right to head toward the living room.",
+      "latency_s": 1.89,
+      "prompt_tokens": 2184
+    },
+    {
+      "n": 483,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've reached the top of the stairs. The instruction says turn right and head toward the living room, so I'll rotate right to find the path.",
+      "latency_s": 1.9,
+      "prompt_tokens": 2186
+    },
+    {
+      "n": 487,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm at the top of the stairs facing the stairwell. The instruction says to turn right after the stairs and head toward the living room, so I'll rotate right to face the landing area.",
+      "latency_s": 2.3,
+      "prompt_tokens": 2188
+    },
+    {
+      "n": 491,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm mid-staircase facing up toward the landing. I need to climb the remaining stairs, then turn right toward the living room.",
+      "latency_s": 1.89,
+      "prompt_tokens": 2190
+    },
+    {
+      "n": 497,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the top of the stairs; the instruction says turn right and head toward the living room by the coffee table. With few actions left, I'll turn right and advance toward the living room area.",
+      "latency_s": 2.43,
+      "prompt_tokens": 2192
+    },
+    {
+      "n": 500,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "STOP"
+      ],
+      "thought": "I'm at the top of the stairs; the instruction says turn right and head toward the living room. With only 3 actions left, I'll turn right, take one step, and stop near the living room area.",
+      "latency_s": 2.19,
+      "prompt_tokens": 2194
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    5.469,
+    5.469,
+    5.478,
+    5.702,
+    5.478,
+    5.26,
+    5.032,
+    4.794,
+    5.067,
+    5.138,
+    4.869,
+    4.6,
+    4.35,
+    4.119,
+    3.874,
+    3.619,
+    3.371,
+    3.128,
+    2.878,
+    2.628,
+    2.817,
+    3.053,
+    3.296,
+    3.543,
+    3.807,
+    4.103,
+    4.381,
+    4.661,
+    4.943,
+    5.225,
+    4.982,
+    4.746,
+    5.025,
+    5.306,
+    5.589,
+    5.367,
+    5.156,
+    4.958,
+    4.692,
+    4.432,
+    4.182,
+    3.927,
+    3.719,
+    3.544,
+    3.719,
+    3.927,
+    4.182,
+    4.432,
+    4.692,
+    4.958,
+    4.728,
+    4.502,
+    4.732,
+    4.972,
+    5.222,
+    5.478,
+    5.389,
+    5.264,
+    5.129,
+    4.847,
+    4.567,
+    4.836,
+    5.109,
+    5.385,
+    5.664,
+    5.617,
+    5.713,
+    5.579,
+    5.435,
+    5.292,
+    5.149,
+    5.007,
+    4.864,
+    4.581,
+    4.301,
+    4.184,
+    4.244,
+    4.335,
+    4.357,
+    4.614,
+    4.878,
+    5.147,
+    5.293,
+    5.456,
+    5.633,
+    5.97,
+    6.048,
+    6.025,
+    5.623,
+    5.336,
+    5.05,
+    4.766,
+    4.483,
+    4.205,
+    4.313,
+    4.572,
+    4.835,
+    5.101,
+    5.37,
+    5.64,
+    5.37,
+    5.101,
+    4.835,
+    4.579,
+    4.332,
+    4.096,
+    3.861,
+    3.736
+  ],
+  "final_distance": 3.736,
+  "min_distance": 2.628,
+  "metrics": {
+    "distance_to_goal": 3.7359981536865234,
+    "success": 0.0,
+    "spl": 0.0,
+    "oracle_success": 1.0,
+    "path_length": 28.05981658399105,
+    "steps_taken": 500.0
+  },
+  "success": false,
+  "backend_stats": {
+    "calls": 1388,
+    "failures": 0,
+    "prompt_tokens": 2826790,
+    "completion_tokens": 102946,
+    "reasoning_tokens": 32823,
+    "latency_s": 2911.5549466609955
+  },
+  "stop_deferrals": 0
+}

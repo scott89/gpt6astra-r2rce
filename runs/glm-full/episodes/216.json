@@ -1,0 +1,141 @@
+{
+  "episode_id": 216,
+  "scene_id": "2azQ1b91cZZ",
+  "instruction": "Go forward through an archway towards the console table, and veer right to an open doorway, and go through it. Wait there.",
+  "actions_taken": 21,
+  "policy_calls": 8,
+  "api_latency_s": 15.62,
+  "prompt_tokens": 13601,
+  "completion_tokens": 527,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 15.73,
+  "steps": [
+    {
+      "n": 4,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The archway is ahead, slightly to the right of my current heading. I'll align toward it and advance.",
+      "latency_s": 1.64,
+      "prompt_tokens": 888
+    },
+    {
+      "n": 6,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing an archway with a hallway beyond; the console table appears ahead in the distance. I'll advance through the archway first.",
+      "latency_s": 1.66,
+      "prompt_tokens": 1244
+    },
+    {
+      "n": 9,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hallway with an archway ahead; the console table is visible further down on the right. I'll continue forward through the archway first.",
+      "latency_s": 1.52,
+      "prompt_tokens": 1607
+    },
+    {
+      "n": 10,
+      "actions": [
+        "TURN_RIGHT"
+      ],
+      "thought": "I've passed through the archway and the console table is ahead on the right. The instruction says to veer right to an open doorway \u2014 the arched opening on the left is not it; I should look right for the open doorway near the console table.",
+      "latency_s": 2.56,
+      "prompt_tokens": 1971
+    },
+    {
+      "n": 13,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing the archway with the console table just past it on the right. I'll advance toward the archway, then look right for the open doorway.",
+      "latency_s": 2.27,
+      "prompt_tokens": 1971
+    },
+    {
+      "n": 16,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've passed the archway and the console table is directly ahead; the open wooden doorway is to the right. I'll turn right toward it and step through.",
+      "latency_s": 2.09,
+      "prompt_tokens": 1972
+    },
+    {
+      "n": 18,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've passed the console table and the open wooden doorway is directly ahead, slightly right. I'll step forward through it.",
+      "latency_s": 1.87,
+      "prompt_tokens": 1974
+    },
+    {
+      "n": 21,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "STOP"
+      ],
+      "thought": "I've passed the console table and the open wooden doorway is directly ahead, slightly right. I'll step forward through it and stop.",
+      "latency_s": 2.01,
+      "prompt_tokens": 1974
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    5.904,
+    5.904,
+    5.654,
+    5.404,
+    5.154,
+    4.924,
+    4.666,
+    4.416,
+    4.166,
+    3.925,
+    3.668,
+    3.43,
+    3.181,
+    2.932,
+    2.684,
+    2.436,
+    2.192,
+    1.959
+  ],
+  "final_distance": 1.959,
+  "min_distance": 1.959,
+  "metrics": {
+    "distance_to_goal": 1.9585734605789185,
+    "success": 1.0,
+    "spl": 1.0,
+    "oracle_success": 1.0,
+    "path_length": 3.979088082909584,
+    "steps_taken": 21.0
+  },
+  "success": true,
+  "backend_stats": {
+    "calls": 945,
+    "failures": 0,
+    "prompt_tokens": 1911995,
+    "completion_tokens": 74645,
+    "reasoning_tokens": 24614,
+    "latency_s": 2100.110739469528
+  },
+  "stop_deferrals": 0
+}

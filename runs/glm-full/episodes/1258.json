@@ -1,0 +1,163 @@
+{
+  "episode_id": 1258,
+  "scene_id": "oLBMNvg9in8",
+  "instruction": "Go to the bottom of the staircase. Go down to the bottom of the staircase. Turn immediately right and go to the bottom of the staircase and stop.",
+  "actions_taken": 35,
+  "policy_calls": 10,
+  "api_latency_s": 19.06,
+  "prompt_tokens": 17616,
+  "completion_tokens": 670,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 19.28,
+  "steps": [
+    {
+      "n": 4,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I see a living room with a sofa and fireplace, but no staircase yet. I need to look around to find the staircase.",
+      "latency_s": 1.58,
+      "prompt_tokens": 891
+    },
+    {
+      "n": 8,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I don't see a staircase in the current view; I need to scan the room. I'll turn right to look for the staircase.",
+      "latency_s": 1.91,
+      "prompt_tokens": 1247
+    },
+    {
+      "n": 12,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I've turned into a wall/door; the staircase is likely back in the large room behind me. I'll turn left to re-orient and look for it.",
+      "latency_s": 1.98,
+      "prompt_tokens": 1612
+    },
+    {
+      "n": 15,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "No staircase is visible in the current view; there is an opening past the column on the right. I will turn right to scan for the staircase.",
+      "latency_s": 2.24,
+      "prompt_tokens": 1976
+    },
+    {
+      "n": 18,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm facing a closed door; the staircase isn't visible. I'll turn left to scan the room for the staircase.",
+      "latency_s": 2.2,
+      "prompt_tokens": 1978
+    },
+    {
+      "n": 22,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I see a large hall with a fireplace and columns, but no staircase yet. I'll turn right to scan the room for the staircase.",
+      "latency_s": 1.87,
+      "prompt_tokens": 1979
+    },
+    {
+      "n": 26,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a closed door next to a column; no staircase visible. I need to turn right to scan the room for the staircase.",
+      "latency_s": 1.87,
+      "prompt_tokens": 1981
+    },
+    {
+      "n": 29,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "A staircase is visible ahead through the doorway. I'll advance toward it, then turn right at the bottom as instructed.",
+      "latency_s": 1.71,
+      "prompt_tokens": 1983
+    },
+    {
+      "n": 31,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is directly ahead and I'm near its bottom. I'll advance a step toward it and re-observe.",
+      "latency_s": 1.74,
+      "prompt_tokens": 1984
+    },
+    {
+      "n": 35,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "STOP"
+      ],
+      "thought": "The staircase bottom is directly ahead, a few meters away. I'll advance toward it and stop at its base.",
+      "latency_s": 1.96,
+      "prompt_tokens": 1985
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    8.015,
+    8.015,
+    7.811,
+    7.71,
+    7.547,
+    7.388,
+    7.131,
+    6.903,
+    6.681,
+    6.464
+  ],
+  "final_distance": 6.464,
+  "min_distance": 6.464,
+  "metrics": {
+    "distance_to_goal": 6.464174270629883,
+    "success": 0.0,
+    "spl": 0.0,
+    "oracle_success": 0.0,
+    "path_length": 1.7002295702695847,
+    "steps_taken": 35.0
+  },
+  "success": false,
+  "backend_stats": {
+    "calls": 63,
+    "failures": 0,
+    "prompt_tokens": 113921,
+    "completion_tokens": 4912,
+    "reasoning_tokens": 1552,
+    "latency_s": 142.31285500526428
+  },
+  "stop_deferrals": 0
+}

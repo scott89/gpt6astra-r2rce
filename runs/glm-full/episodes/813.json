@@ -1,0 +1,1540 @@
+{
+  "episode_id": 813,
+  "scene_id": "oLBMNvg9in8",
+  "instruction": "Go straight down the hall and go up the stairs. Stop at the 3rd step.",
+  "actions_taken": 454,
+  "policy_calls": 127,
+  "api_latency_s": 232.32,
+  "prompt_tokens": 250513,
+  "completion_tokens": 7923,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 234.95,
+  "steps": [
+    {
+      "n": 4,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The hallway extends ahead with stairs visible at the far end. I'll move forward down the hall toward the stairs.",
+      "latency_s": 1.75,
+      "prompt_tokens": 879
+    },
+    {
+      "n": 7,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm facing a statue up close, not the hall. I need to turn to find the hallway and stairs.",
+      "latency_s": 2.17,
+      "prompt_tokens": 1234
+    },
+    {
+      "n": 10,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hall with a statue on the right; the corridor continues straight ahead. I'll advance along the hall toward the stairs.",
+      "latency_s": 2.22,
+      "prompt_tokens": 1598
+    },
+    {
+      "n": 14,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The hallway continues ahead and stairs are visible at the far end on the right. I'll turn right slightly to align with the stairs and advance.",
+      "latency_s": 1.95,
+      "prompt_tokens": 1962
+    },
+    {
+      "n": 17,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead at the end of the hall, slightly right of center. I'll advance toward it and then climb a few steps.",
+      "latency_s": 1.99,
+      "prompt_tokens": 1964
+    },
+    {
+      "n": 20,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead at the end of the hall, slightly to the right. I'll advance toward it and then climb a few steps.",
+      "latency_s": 1.82,
+      "prompt_tokens": 1964
+    },
+    {
+      "n": 23,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead, slightly right of center down the hall. I'll advance toward it and re-observe before climbing.",
+      "latency_s": 1.97,
+      "prompt_tokens": 1964
+    },
+    {
+      "n": 26,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead, slightly right of center, at the end of the hall. I'll advance toward it and re-observe before climbing.",
+      "latency_s": 1.73,
+      "prompt_tokens": 1965
+    },
+    {
+      "n": 29,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead, slightly right of center down the hall. I'll advance toward it and re-observe before climbing.",
+      "latency_s": 1.59,
+      "prompt_tokens": 1966
+    },
+    {
+      "n": 32,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead, slightly right of center down the hall. I'll advance toward it and re-observe before climbing.",
+      "latency_s": 1.81,
+      "prompt_tokens": 1966
+    },
+    {
+      "n": 35,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead, slightly right of center down the hall. I'll advance toward it and re-observe before climbing.",
+      "latency_s": 1.59,
+      "prompt_tokens": 1967
+    },
+    {
+      "n": 38,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead, slightly right of center down the hall. I'll advance toward it and re-observe before climbing.",
+      "latency_s": 1.78,
+      "prompt_tokens": 1966
+    },
+    {
+      "n": 41,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead, slightly right of center down the hall. I'll advance toward it and re-observe before climbing.",
+      "latency_s": 1.83,
+      "prompt_tokens": 1968
+    },
+    {
+      "n": 44,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead, slightly right of center, at the end of the hall. I'll advance toward it and re-observe before climbing.",
+      "latency_s": 2.09,
+      "prompt_tokens": 1967
+    },
+    {
+      "n": 47,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead, slightly right of center down the hall. I'll advance toward it and re-observe before climbing.",
+      "latency_s": 2.16,
+      "prompt_tokens": 1968
+    },
+    {
+      "n": 50,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead, slightly right of center down the hall. I'll advance toward it and re-observe before climbing.",
+      "latency_s": 1.53,
+      "prompt_tokens": 1968
+    },
+    {
+      "n": 53,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead, slightly right of center down the hall. I'll advance toward it and re-observe before climbing.",
+      "latency_s": 1.81,
+      "prompt_tokens": 1968
+    },
+    {
+      "n": 56,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead, slightly right of center down the hall. I'll advance toward it and re-observe before climbing.",
+      "latency_s": 1.73,
+      "prompt_tokens": 1969
+    },
+    {
+      "n": 60,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead at the end of the hall. I'll advance toward it and then climb a few steps before stopping.",
+      "latency_s": 1.7,
+      "prompt_tokens": 1970
+    },
+    {
+      "n": 63,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead, slightly right of center down the hall. I'll advance toward it and re-observe before climbing.",
+      "latency_s": 1.61,
+      "prompt_tokens": 1970
+    },
+    {
+      "n": 66,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead, slightly right of center down the hall. I'll advance toward it and re-observe before climbing.",
+      "latency_s": 1.79,
+      "prompt_tokens": 1970
+    },
+    {
+      "n": 70,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead at the end of the hall. I'll advance toward it and then climb a few steps before stopping.",
+      "latency_s": 2.18,
+      "prompt_tokens": 1971
+    },
+    {
+      "n": 74,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead at the end of the hall. I'll advance toward it and then climb a few steps before stopping.",
+      "latency_s": 1.92,
+      "prompt_tokens": 1971
+    },
+    {
+      "n": 77,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead, slightly right of center down the hall. I'll advance toward it and re-observe before climbing.",
+      "latency_s": 1.78,
+      "prompt_tokens": 1972
+    },
+    {
+      "n": 80,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead, slightly right of center down the hall. I'll advance toward it and re-observe before climbing.",
+      "latency_s": 1.54,
+      "prompt_tokens": 1972
+    },
+    {
+      "n": 83,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead, slightly right of center down the hall. I'll advance toward it and re-observe before climbing.",
+      "latency_s": 1.57,
+      "prompt_tokens": 1972
+    },
+    {
+      "n": 86,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead, slightly right of center down the hall. I'll advance toward it and re-observe before climbing.",
+      "latency_s": 1.72,
+      "prompt_tokens": 1972
+    },
+    {
+      "n": 90,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead, slightly right of center, at the end of the hall. I'll advance toward it and then climb a few steps before stopping.",
+      "latency_s": 1.64,
+      "prompt_tokens": 1974
+    },
+    {
+      "n": 94,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead at the end of the hall, slightly right of center. I'll advance toward it and then climb a few steps.",
+      "latency_s": 1.89,
+      "prompt_tokens": 1974
+    },
+    {
+      "n": 97,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead, slightly right of center down the hall. I'll advance toward it and re-observe before climbing.",
+      "latency_s": 1.69,
+      "prompt_tokens": 1975
+    },
+    {
+      "n": 100,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead, slightly right of center down the hall. I'll advance toward it and re-observe before climbing.",
+      "latency_s": 1.48,
+      "prompt_tokens": 1974
+    },
+    {
+      "n": 103,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead, slightly right of center, at the end of the hall. I'll advance toward it and re-observe before climbing.",
+      "latency_s": 1.79,
+      "prompt_tokens": 1974
+    },
+    {
+      "n": 106,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead, slightly right of center down the hall. I'll advance toward it and re-observe before climbing.",
+      "latency_s": 1.68,
+      "prompt_tokens": 1975
+    },
+    {
+      "n": 110,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead at the end of the hall. I'll advance toward it and then climb a few steps before stopping.",
+      "latency_s": 1.65,
+      "prompt_tokens": 1976
+    },
+    {
+      "n": 113,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead, slightly right of center down the hall. I'll advance toward it and re-observe before climbing.",
+      "latency_s": 1.78,
+      "prompt_tokens": 1977
+    },
+    {
+      "n": 116,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead, slightly right of center, at the end of the hall. I'll advance toward it and re-observe before climbing.",
+      "latency_s": 1.65,
+      "prompt_tokens": 1976
+    },
+    {
+      "n": 119,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead, slightly right of center at the end of the hall. I'll advance toward it and re-observe before climbing.",
+      "latency_s": 1.77,
+      "prompt_tokens": 1977
+    },
+    {
+      "n": 122,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead, slightly right of center down the hall. I'll advance toward it and re-observe before climbing.",
+      "latency_s": 1.71,
+      "prompt_tokens": 1977
+    },
+    {
+      "n": 125,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead, slightly right of center down the hall. I'll advance toward it and re-observe before climbing.",
+      "latency_s": 2.48,
+      "prompt_tokens": 1978
+    },
+    {
+      "n": 128,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead, slightly right of center down the hall. I'll advance toward it and re-observe before climbing.",
+      "latency_s": 1.64,
+      "prompt_tokens": 1978
+    },
+    {
+      "n": 131,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead, slightly right of center down the hall. I'll advance toward it and re-observe before climbing.",
+      "latency_s": 1.98,
+      "prompt_tokens": 1979
+    },
+    {
+      "n": 134,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead, slightly right of center down the hall. I'll advance toward it and re-observe before climbing.",
+      "latency_s": 1.59,
+      "prompt_tokens": 1978
+    },
+    {
+      "n": 137,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead, slightly right of center, at the end of the hall. I'll advance toward it and re-observe before climbing.",
+      "latency_s": 1.78,
+      "prompt_tokens": 1980
+    },
+    {
+      "n": 140,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead, slightly right of center down the hall. I'll advance toward it and re-observe before climbing.",
+      "latency_s": 1.81,
+      "prompt_tokens": 1979
+    },
+    {
+      "n": 143,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead, slightly right of center down the hall. I'll advance toward it and re-observe before climbing.",
+      "latency_s": 2.03,
+      "prompt_tokens": 1979
+    },
+    {
+      "n": 146,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead, slightly right of center down the hall. I'll advance toward it and re-observe before climbing.",
+      "latency_s": 1.55,
+      "prompt_tokens": 1980
+    },
+    {
+      "n": 150,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead at the end of the hall. I'll advance toward it and then climb a few steps before stopping.",
+      "latency_s": 1.57,
+      "prompt_tokens": 1981
+    },
+    {
+      "n": 154,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead, slightly right of center down the hall. I'll advance toward it and then climb a few steps.",
+      "latency_s": 1.64,
+      "prompt_tokens": 1981
+    },
+    {
+      "n": 158,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead at the end of the hall, slightly right of center. I'll advance toward it and then climb a few steps before stopping.",
+      "latency_s": 1.78,
+      "prompt_tokens": 1982
+    },
+    {
+      "n": 162,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead at the end of the hall. I'll advance toward it and then climb a few steps.",
+      "latency_s": 1.7,
+      "prompt_tokens": 1983
+    },
+    {
+      "n": 165,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead at the end of the hall, slightly right of center. I'll advance toward it and re-observe before climbing.",
+      "latency_s": 1.65,
+      "prompt_tokens": 1983
+    },
+    {
+      "n": 168,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead, slightly right of center, at the end of the hall. I'll advance toward it and then climb a few steps.",
+      "latency_s": 1.69,
+      "prompt_tokens": 1983
+    },
+    {
+      "n": 171,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead, slightly right of center, at the end of the hall. I'll advance toward it and re-observe before climbing.",
+      "latency_s": 1.71,
+      "prompt_tokens": 1984
+    },
+    {
+      "n": 174,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead, slightly right of center down the hall. I'll advance toward it and re-observe before climbing.",
+      "latency_s": 1.65,
+      "prompt_tokens": 1983
+    },
+    {
+      "n": 178,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead at the end of the hall. I'll advance toward it and then climb a few steps before stopping.",
+      "latency_s": 1.76,
+      "prompt_tokens": 1985
+    },
+    {
+      "n": 181,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead, slightly right of center, at the end of the hall. I'll advance toward it and re-observe before climbing.",
+      "latency_s": 1.93,
+      "prompt_tokens": 1985
+    },
+    {
+      "n": 185,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead at the end of the hall, slightly right of center. I'll advance toward it and then climb a few steps.",
+      "latency_s": 1.8,
+      "prompt_tokens": 1985
+    },
+    {
+      "n": 188,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead, slightly right of center down the hall. I'll advance toward it and re-observe before climbing.",
+      "latency_s": 2.76,
+      "prompt_tokens": 1984
+    },
+    {
+      "n": 191,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead, slightly right of center down the hall. I'll advance toward it and re-observe before climbing.",
+      "latency_s": 2.02,
+      "prompt_tokens": 1986
+    },
+    {
+      "n": 195,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead, slightly right of center down the hall. I'll advance toward it and then climb a few steps.",
+      "latency_s": 1.77,
+      "prompt_tokens": 1988
+    },
+    {
+      "n": 198,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead, slightly right of center down the hall. I'll advance toward it and re-observe before climbing.",
+      "latency_s": 1.92,
+      "prompt_tokens": 1985
+    },
+    {
+      "n": 202,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead at the end of the hall, slightly right of center. I'll advance toward it and then climb a few steps.",
+      "latency_s": 2.01,
+      "prompt_tokens": 1988
+    },
+    {
+      "n": 205,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead, slightly right of center down the hall. I'll advance toward it and re-observe before climbing.",
+      "latency_s": 1.92,
+      "prompt_tokens": 1988
+    },
+    {
+      "n": 209,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead at the end of the hall. I'll advance toward it and then climb a few steps.",
+      "latency_s": 1.73,
+      "prompt_tokens": 1988
+    },
+    {
+      "n": 212,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead, slightly right of center down the hall. I'll advance toward it and re-observe before climbing.",
+      "latency_s": 1.63,
+      "prompt_tokens": 1988
+    },
+    {
+      "n": 215,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead, slightly right of center, at the end of the hall. I'll advance toward it and re-observe before climbing.",
+      "latency_s": 1.97,
+      "prompt_tokens": 1989
+    },
+    {
+      "n": 219,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead at the end of the hall. I'll advance toward it and then climb a few steps.",
+      "latency_s": 1.85,
+      "prompt_tokens": 1989
+    },
+    {
+      "n": 222,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead, slightly right of center down the hall. I'll advance toward it and re-observe before climbing.",
+      "latency_s": 1.57,
+      "prompt_tokens": 1991
+    },
+    {
+      "n": 226,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead at the end of the hall. I'll advance toward it and then climb a few steps before stopping.",
+      "latency_s": 1.71,
+      "prompt_tokens": 1991
+    },
+    {
+      "n": 230,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead at the end of the hall. I'll advance toward it and then climb a few steps before stopping.",
+      "latency_s": 1.72,
+      "prompt_tokens": 1993
+    },
+    {
+      "n": 234,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead, slightly right of center down the hall. I'll advance toward it and then climb a few steps.",
+      "latency_s": 2.07,
+      "prompt_tokens": 1991
+    },
+    {
+      "n": 238,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead at the end of the hall. I'll advance toward it and then climb a few steps.",
+      "latency_s": 1.57,
+      "prompt_tokens": 1994
+    },
+    {
+      "n": 242,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead, slightly right of center, at the end of the hall. I'll advance toward it and then climb a few steps.",
+      "latency_s": 1.65,
+      "prompt_tokens": 1995
+    },
+    {
+      "n": 246,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead, slightly right of center down the hall. I'll advance toward it and then climb a few steps before stopping.",
+      "latency_s": 2.5,
+      "prompt_tokens": 1995
+    },
+    {
+      "n": 249,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead, slightly right of center down the hall. I'll advance toward it and re-observe before climbing.",
+      "latency_s": 2.08,
+      "prompt_tokens": 1996
+    },
+    {
+      "n": 253,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead, slightly right of center down the hall. I'll advance toward it and then climb a few steps before stopping.",
+      "latency_s": 1.85,
+      "prompt_tokens": 1995
+    },
+    {
+      "n": 257,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead at the end of the hall, slightly right of center. I'll advance toward it and then climb a few steps.",
+      "latency_s": 1.77,
+      "prompt_tokens": 1996
+    },
+    {
+      "n": 261,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead at the end of the hall, slightly right of center. I'll advance toward it and then climb a few steps before stopping.",
+      "latency_s": 1.72,
+      "prompt_tokens": 1996
+    },
+    {
+      "n": 265,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead at the end of the hall, slightly right of center. I'll advance toward it and then climb a few steps before stopping.",
+      "latency_s": 1.61,
+      "prompt_tokens": 1997
+    },
+    {
+      "n": 269,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead, slightly right of center down the hall. I'll advance toward it and then climb a few steps before stopping.",
+      "latency_s": 1.65,
+      "prompt_tokens": 1996
+    },
+    {
+      "n": 273,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead, slightly right of center down the hall. I'll advance toward it and then climb a few steps before stopping.",
+      "latency_s": 1.84,
+      "prompt_tokens": 1998
+    },
+    {
+      "n": 277,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead at the end of the hall. I'll advance toward it and then climb a few steps before stopping.",
+      "latency_s": 1.84,
+      "prompt_tokens": 1998
+    },
+    {
+      "n": 281,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead at the end of the hall, slightly right of center. I'll advance toward it and then climb a few steps before stopping.",
+      "latency_s": 1.79,
+      "prompt_tokens": 1999
+    },
+    {
+      "n": 285,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead at the end of the hall. I'll advance toward it, then climb a few steps before stopping.",
+      "latency_s": 1.72,
+      "prompt_tokens": 1999
+    },
+    {
+      "n": 289,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead at the end of the hall, slightly right of center. I'll advance toward it and then climb a few steps before stopping.",
+      "latency_s": 2.24,
+      "prompt_tokens": 1999
+    },
+    {
+      "n": 293,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead at the end of the hall. I'll advance toward it and then climb a few steps before stopping.",
+      "latency_s": 2.04,
+      "prompt_tokens": 1999
+    },
+    {
+      "n": 297,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead at the end of the hall. I'll advance toward it, then climb a few steps before stopping.",
+      "latency_s": 1.77,
+      "prompt_tokens": 2000
+    },
+    {
+      "n": 301,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead at the end of the hall, slightly right of center. I'll advance toward it and then climb a few steps before stopping.",
+      "latency_s": 1.72,
+      "prompt_tokens": 2000
+    },
+    {
+      "n": 305,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead at the end of the hall. I'll advance toward it, then climb a few steps before stopping.",
+      "latency_s": 1.97,
+      "prompt_tokens": 1999
+    },
+    {
+      "n": 309,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead at the end of the hall. I'll advance toward it and then climb a few steps before stopping.",
+      "latency_s": 1.48,
+      "prompt_tokens": 1999
+    },
+    {
+      "n": 313,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead, slightly right of center down the hall. I'll advance toward it and then climb a few steps before stopping.",
+      "latency_s": 1.78,
+      "prompt_tokens": 2003
+    },
+    {
+      "n": 316,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead, slightly right of center down the hall. I'll advance toward it and re-observe before climbing.",
+      "latency_s": 1.66,
+      "prompt_tokens": 2002
+    },
+    {
+      "n": 320,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead at the end of the hall, slightly right of center. I'll advance toward it and then climb a few steps before stopping.",
+      "latency_s": 1.72,
+      "prompt_tokens": 2003
+    },
+    {
+      "n": 324,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead at the end of the hall. I'll advance toward it and then climb a few steps before stopping.",
+      "latency_s": 1.63,
+      "prompt_tokens": 2002
+    },
+    {
+      "n": 328,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead, slightly right of center down the hall. I'll advance toward it and then climb a few steps before stopping.",
+      "latency_s": 2.49,
+      "prompt_tokens": 2004
+    },
+    {
+      "n": 331,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead at the end of the hall. I'll advance toward it and then climb a few steps before stopping.",
+      "latency_s": 2.19,
+      "prompt_tokens": 2005
+    },
+    {
+      "n": 335,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead, slightly right of center down the hall. I'll advance toward it and then climb a few steps before stopping.",
+      "latency_s": 1.65,
+      "prompt_tokens": 2004
+    },
+    {
+      "n": 338,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead at the end of the hall. I'll advance toward it and then climb a few steps before stopping.",
+      "latency_s": 1.75,
+      "prompt_tokens": 2005
+    },
+    {
+      "n": 342,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead, slightly right of center down the hall. I'll advance toward it and then climb a few steps before stopping.",
+      "latency_s": 1.8,
+      "prompt_tokens": 2006
+    },
+    {
+      "n": 346,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead at the end of the hall, slightly right of center. I'll advance toward it and then climb a few steps.",
+      "latency_s": 1.56,
+      "prompt_tokens": 2007
+    },
+    {
+      "n": 350,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead at the end of the hall. I'll advance toward it and then climb a few steps before stopping.",
+      "latency_s": 1.75,
+      "prompt_tokens": 2007
+    },
+    {
+      "n": 354,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead at the end of the hall. I'll advance toward it and then climb a few steps before stopping.",
+      "latency_s": 1.76,
+      "prompt_tokens": 2006
+    },
+    {
+      "n": 358,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead at the end of the hall. I'll advance toward it, then climb a few steps before stopping.",
+      "latency_s": 2.23,
+      "prompt_tokens": 2008
+    },
+    {
+      "n": 362,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead at the end of the hall, slightly right of center. I'll advance toward it and then climb a few steps before stopping.",
+      "latency_s": 1.75,
+      "prompt_tokens": 2009
+    },
+    {
+      "n": 366,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead at the end of the hall, slightly right of center. I'll advance toward it and then climb a few steps before stopping.",
+      "latency_s": 1.78,
+      "prompt_tokens": 2009
+    },
+    {
+      "n": 370,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead at the end of the hall. I'll advance toward it, then climb a few steps before stopping.",
+      "latency_s": 1.67,
+      "prompt_tokens": 2010
+    },
+    {
+      "n": 374,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead at the end of the hall. I'll advance toward it, then climb a few steps before stopping.",
+      "latency_s": 2.09,
+      "prompt_tokens": 2008
+    },
+    {
+      "n": 378,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead at the end of the hall. I'll advance toward it, then climb a few steps before stopping.",
+      "latency_s": 1.95,
+      "prompt_tokens": 2011
+    },
+    {
+      "n": 381,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead at the end of the hall. I'll advance toward it and then climb a few steps before stopping.",
+      "latency_s": 1.91,
+      "prompt_tokens": 2011
+    },
+    {
+      "n": 385,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead at the end of the hall, slightly right of center. I'll advance toward it and then climb a few steps before stopping.",
+      "latency_s": 1.9,
+      "prompt_tokens": 2011
+    },
+    {
+      "n": 389,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead at the end of the hall. I'll advance toward it, then climb a few steps and stop on the 3rd step.",
+      "latency_s": 1.96,
+      "prompt_tokens": 2011
+    },
+    {
+      "n": 393,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead at the end of the hall. I'll advance toward it, then climb a few steps before stopping.",
+      "latency_s": 1.76,
+      "prompt_tokens": 2012
+    },
+    {
+      "n": 397,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead at the end of the hall. I'll advance toward it and then climb a few steps before stopping.",
+      "latency_s": 1.88,
+      "prompt_tokens": 2012
+    },
+    {
+      "n": 401,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead at the end of the hall. I'll advance toward it and then climb a few steps before stopping.",
+      "latency_s": 1.62,
+      "prompt_tokens": 2013
+    },
+    {
+      "n": 405,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead at the end of the hall, slightly right of center. I'll advance toward it and then climb a few steps before stopping.",
+      "latency_s": 1.74,
+      "prompt_tokens": 2013
+    },
+    {
+      "n": 409,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead at the end of the hall, slightly right of center. I'll advance toward it and then climb a few steps before stopping.",
+      "latency_s": 1.89,
+      "prompt_tokens": 2014
+    },
+    {
+      "n": 413,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead at the end of the hall. I'll advance toward it, then climb a few steps before stopping.",
+      "latency_s": 2.04,
+      "prompt_tokens": 2014
+    },
+    {
+      "n": 417,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead at the end of the hall. I'll advance toward it and then climb a few steps before stopping.",
+      "latency_s": 1.76,
+      "prompt_tokens": 2015
+    },
+    {
+      "n": 421,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead at the end of the hall, slightly right of center. I'll advance toward it and then climb a few steps.",
+      "latency_s": 1.6,
+      "prompt_tokens": 2015
+    },
+    {
+      "n": 425,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead at the end of the hall, slightly right of center. I'll advance toward it and then climb a few steps before stopping.",
+      "latency_s": 1.71,
+      "prompt_tokens": 2016
+    },
+    {
+      "n": 429,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead, slightly right of center down the hall. I'll align toward it and advance.",
+      "latency_s": 1.71,
+      "prompt_tokens": 2016
+    },
+    {
+      "n": 433,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead, slightly left of my current heading. I'll re-aim toward it and advance down the hall.",
+      "latency_s": 1.92,
+      "prompt_tokens": 2018
+    },
+    {
+      "n": 437,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead, slightly right of center, at the end of the hall. I'll advance toward it and then climb a few steps.",
+      "latency_s": 1.92,
+      "prompt_tokens": 2020
+    },
+    {
+      "n": 441,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead on the right side of the hall. I'll advance toward it, then turn right to face the steps.",
+      "latency_s": 1.98,
+      "prompt_tokens": 2020
+    },
+    {
+      "n": 446,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_RIGHT"
+      ],
+      "thought": "The staircase is visible ahead, slightly to the right at the end of the hall. I'll advance down the hall and then align toward the stairs.",
+      "latency_s": 2.04,
+      "prompt_tokens": 2021
+    },
+    {
+      "n": 450,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is directly ahead at the end of the hall. I need to advance toward it and then climb three steps.",
+      "latency_s": 2.32,
+      "prompt_tokens": 2023
+    },
+    {
+      "n": 454,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "STOP"
+      ],
+      "thought": "I've reached the staircase base. I need to ascend about 3 steps, so I'll take a few forward steps up and then stop.",
+      "latency_s": 2.19,
+      "prompt_tokens": 2022
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    5.985,
+    5.754,
+    5.549,
+    5.393,
+    5.362,
+    5.292,
+    5.227,
+    5.162,
+    5.162,
+    5.227,
+    5.292,
+    5.356,
+    5.292,
+    5.227,
+    5.162,
+    5.097,
+    4.805,
+    4.57,
+    4.289,
+    4.064,
+    3.823,
+    3.575,
+    3.364,
+    3.13,
+    2.899,
+    2.656,
+    2.414,
+    2.174,
+    1.93,
+    1.685,
+    1.453,
+    1.248
+  ],
+  "final_distance": 1.248,
+  "min_distance": 1.248,
+  "metrics": {
+    "distance_to_goal": 1.2477314472198486,
+    "success": 1.0,
+    "spl": 1.0,
+    "oracle_success": 1.0,
+    "path_length": 5.804880976676941,
+    "steps_taken": 454.0
+  },
+  "success": true,
+  "backend_stats": {
+    "calls": 705,
+    "failures": 0,
+    "prompt_tokens": 1385733,
+    "completion_tokens": 57192,
+    "reasoning_tokens": 19239,
+    "latency_s": 1581.668113708496
+  },
+  "stop_deferrals": 0
+}

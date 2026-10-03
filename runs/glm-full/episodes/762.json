@@ -1,0 +1,863 @@
+{
+  "episode_id": 762,
+  "scene_id": "TbHJrupSAjP",
+  "instruction": "Go up the stairs and take a right. Enter the doorway into the kitchen and take a left. Walk through the kitchen and take a left into the dining room. Stop in the doorway to the dining room.",
+  "actions_taken": 183,
+  "policy_calls": 73,
+  "api_latency_s": 154.28,
+  "prompt_tokens": 145402,
+  "completion_tokens": 5225,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 155.51,
+  "steps": [
+    {
+      "n": 2,
+      "actions": [
+        "LOOK_DOWN",
+        "TURN_LEFT"
+      ],
+      "thought": "The view is disoriented, showing what looks like a stair rail. I need to re-orient before moving.",
+      "latency_s": 1.57,
+      "prompt_tokens": 902
+    },
+    {
+      "n": 3,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the stairs before climbing.",
+      "latency_s": 1.61,
+      "prompt_tokens": 1257
+    },
+    {
+      "n": 5,
+      "actions": [
+        "LOOK_UP",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The camera is pitched down showing the stairs; I need to look up and climb the stairs.",
+      "latency_s": 1.63,
+      "prompt_tokens": 1621
+    },
+    {
+      "n": 6,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the stairs and continue climbing.",
+      "latency_s": 1.46,
+      "prompt_tokens": 1985
+    },
+    {
+      "n": 9,
+      "actions": [
+        "LOOK_DOWN",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The camera is pitched up, showing the ceiling and stair treads. I need to look down to see the stairs ahead and continue climbing.",
+      "latency_s": 1.84,
+      "prompt_tokens": 1986
+    },
+    {
+      "n": 12,
+      "actions": [
+        "LOOK_UP",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The camera is pitched down showing the stairs; I need to level the view and continue ascending before turning right.",
+      "latency_s": 1.72,
+      "prompt_tokens": 1987
+    },
+    {
+      "n": 13,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up while I'm on the stairs; I need to look down to see the steps and continue climbing.",
+      "latency_s": 1.59,
+      "prompt_tokens": 1988
+    },
+    {
+      "n": 14,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up, showing only ceiling and stair railing. I need to look down to see the stairs and continue climbing.",
+      "latency_s": 1.83,
+      "prompt_tokens": 1989
+    },
+    {
+      "n": 15,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down, showing stairs; I need to level the view to see where I am before proceeding.",
+      "latency_s": 1.87,
+      "prompt_tokens": 1989
+    },
+    {
+      "n": 17,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the stair railing; I need to look down to see the path and continue up the stairs.",
+      "latency_s": 2.24,
+      "prompt_tokens": 1990
+    },
+    {
+      "n": 21,
+      "actions": [
+        "LOOK_UP",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The camera is pitched down showing the stairs; I need to climb them. I'll level the view and step forward up the stairs.",
+      "latency_s": 2.07,
+      "prompt_tokens": 1991
+    },
+    {
+      "n": 24,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN",
+        "TURN_RIGHT"
+      ],
+      "thought": "The camera is pitched up at the stair railing; I need to level the view and reorient to find the kitchen doorway after ascending the stairs.",
+      "latency_s": 5.38,
+      "prompt_tokens": 1993
+    },
+    {
+      "n": 25,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The view is pitched up at the ceiling; I need to look down to see the hallway and find the kitchen doorway to my right.",
+      "latency_s": 2.64,
+      "prompt_tokens": 1994
+    },
+    {
+      "n": 26,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the hallway and find the kitchen doorway.",
+      "latency_s": 1.98,
+      "prompt_tokens": 1995
+    },
+    {
+      "n": 28,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the hallway and find the kitchen doorway.",
+      "latency_s": 1.9,
+      "prompt_tokens": 1995
+    },
+    {
+      "n": 30,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the hallway and find the kitchen doorway.",
+      "latency_s": 1.69,
+      "prompt_tokens": 1996
+    },
+    {
+      "n": 35,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "The camera appears pitched up and facing a wall/ceiling; I've lost orientation. I need to look down and turn to re-find the stairs and hallway.",
+      "latency_s": 2.11,
+      "prompt_tokens": 1997
+    },
+    {
+      "n": 36,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "I'm on the stairs but the camera is pitched down at the steps. I need to look up to see the top of the stairs and navigate onward.",
+      "latency_s": 1.7,
+      "prompt_tokens": 1999
+    },
+    {
+      "n": 40,
+      "actions": [
+        "LOOK_UP",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm mid-staircase, camera pitched down at the steps. I need to look up to see the top of the stairs before continuing.",
+      "latency_s": 1.73,
+      "prompt_tokens": 2000
+    },
+    {
+      "n": 43,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've reached the top of the stairs into an upper hallway. Per the instruction I should now turn right to find the kitchen doorway.",
+      "latency_s": 2.03,
+      "prompt_tokens": 2002
+    },
+    {
+      "n": 46,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN",
+        "TURN_RIGHT"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to level it and re-orient toward the hallway seen earlier before proceeding.",
+      "latency_s": 2.1,
+      "prompt_tokens": 2004
+    },
+    {
+      "n": 48,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up showing ceiling and stairs; I need to look down to re-orient before proceeding.",
+      "latency_s": 1.77,
+      "prompt_tokens": 2005
+    },
+    {
+      "n": 50,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down showing stairs; I need to level my view to navigate. I'll look up to re-orient.",
+      "latency_s": 2.24,
+      "prompt_tokens": 2006
+    },
+    {
+      "n": 52,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling/stairs; I need to look down to see where I am before proceeding.",
+      "latency_s": 1.84,
+      "prompt_tokens": 2006
+    },
+    {
+      "n": 54,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling/stairs; I need to look down to see where I am before proceeding.",
+      "latency_s": 1.71,
+      "prompt_tokens": 2008
+    },
+    {
+      "n": 56,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the stairs; I need to level my view to see the upper hallway before turning right.",
+      "latency_s": 2.05,
+      "prompt_tokens": 2009
+    },
+    {
+      "n": 57,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see where I am before proceeding.",
+      "latency_s": 1.94,
+      "prompt_tokens": 2010
+    },
+    {
+      "n": 59,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling and stair structure; I need to look down to see the floor and reorient before continuing toward the kitchen doorway.",
+      "latency_s": 2.4,
+      "prompt_tokens": 2011
+    },
+    {
+      "n": 60,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The view is pitched down at the floor/stairs; I need to level the camera to see the hallway ahead before turning right at the top of the stairs.",
+      "latency_s": 1.81,
+      "prompt_tokens": 2011
+    },
+    {
+      "n": 62,
+      "actions": [
+        "LOOK_DOWN",
+        "TURN_RIGHT"
+      ],
+      "thought": "The view is disoriented near the top of the stairs; I need to level the camera and find the hallway to take the right turn.",
+      "latency_s": 2.29,
+      "prompt_tokens": 2012
+    },
+    {
+      "n": 65,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The view is tilted; stairs appear to the upper left. I'll turn left and approach the staircase.",
+      "latency_s": 1.92,
+      "prompt_tokens": 2013
+    },
+    {
+      "n": 66,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The view is pitched up at the ceiling; I need to look down to see the hallway and find the kitchen doorway to my right.",
+      "latency_s": 1.85,
+      "prompt_tokens": 2015
+    },
+    {
+      "n": 68,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I appear to be on the upper landing after the stairs. I need to look up to re-orient and find the right turn toward the kitchen doorway.",
+      "latency_s": 2.3,
+      "prompt_tokens": 2015
+    },
+    {
+      "n": 70,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the hallway ahead before navigating toward the kitchen doorway.",
+      "latency_s": 2.19,
+      "prompt_tokens": 2016
+    },
+    {
+      "n": 72,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling, so I cannot see the path. I need to look down to re-orient before proceeding.",
+      "latency_s": 1.71,
+      "prompt_tokens": 2016
+    },
+    {
+      "n": 74,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "My camera pitch is badly tilted\u2014I'm seeing ceiling and floor instead of the room ahead. I need to level the view before navigating toward the kitchen and dining room.",
+      "latency_s": 2.5,
+      "prompt_tokens": 2018
+    },
+    {
+      "n": 76,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down showing the floor and a stair rail; I need to look up to see my surroundings and reorient.",
+      "latency_s": 1.86,
+      "prompt_tokens": 2019
+    },
+    {
+      "n": 78,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see where I am before proceeding.",
+      "latency_s": 1.79,
+      "prompt_tokens": 2020
+    },
+    {
+      "n": 80,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up showing ceiling and a railing; I need to look down to re-orient and find the kitchen doorway.",
+      "latency_s": 1.65,
+      "prompt_tokens": 2021
+    },
+    {
+      "n": 81,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the stairs; I need to level the view to see the top of the stairs and find the right turn.",
+      "latency_s": 1.99,
+      "prompt_tokens": 2021
+    },
+    {
+      "n": 83,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the stairs and reorient before continuing.",
+      "latency_s": 1.67,
+      "prompt_tokens": 2023
+    },
+    {
+      "n": 85,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The view is pitched up at the ceiling and stair railing; I need to look down to see where I am on the stairs before proceeding.",
+      "latency_s": 2.07,
+      "prompt_tokens": 2024
+    },
+    {
+      "n": 87,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling/stairs; I need to look down to see the floor and reorient before proceeding.",
+      "latency_s": 1.86,
+      "prompt_tokens": 2025
+    },
+    {
+      "n": 89,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera appears pitched up, showing ceiling and wall art; I need to look down to see the hallway and find the kitchen doorway to my right.",
+      "latency_s": 1.78,
+      "prompt_tokens": 2026
+    },
+    {
+      "n": 91,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the hallway and find the kitchen doorway to my right.",
+      "latency_s": 1.59,
+      "prompt_tokens": 2027
+    },
+    {
+      "n": 97,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to level it and re-orient before navigating toward the kitchen doorway.",
+      "latency_s": 2.27,
+      "prompt_tokens": 2028
+    },
+    {
+      "n": 99,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the stairs; I need to level the view to navigate up the stairs toward the landing ahead.",
+      "latency_s": 1.8,
+      "prompt_tokens": 2031
+    },
+    {
+      "n": 101,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the stairs and hallway again before continuing.",
+      "latency_s": 1.8,
+      "prompt_tokens": 2032
+    },
+    {
+      "n": 104,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the staircase facing up; the camera is pitched oddly but the stairs continue upward toward the landing. I'll climb a few steps and re-observe.",
+      "latency_s": 2.6,
+      "prompt_tokens": 2033
+    },
+    {
+      "n": 108,
+      "actions": [
+        "LOOK_UP",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the stairs looking down at the railing; the landing with the bench is ahead. I need to level my view and continue down the stairs.",
+      "latency_s": 2.3,
+      "prompt_tokens": 2034
+    },
+    {
+      "n": 110,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "I'm near the top of the stairs but the camera is pitched oddly. I'll look down to re-level the view before continuing up and turning right.",
+      "latency_s": 2.06,
+      "prompt_tokens": 2036
+    },
+    {
+      "n": 114,
+      "actions": [
+        "LOOK_UP",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the stairs looking down; I need to look up and continue ascending toward the landing visible ahead.",
+      "latency_s": 1.65,
+      "prompt_tokens": 2037
+    },
+    {
+      "n": 117,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is aimed at a wall/railing; I need to reorient toward the stairs and continue upward. I'll turn right and look down to find the steps.",
+      "latency_s": 2.04,
+      "prompt_tokens": 2039
+    },
+    {
+      "n": 120,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm near the top of the stairs with the tiled landing ahead. I'll continue climbing forward.",
+      "latency_s": 1.74,
+      "prompt_tokens": 2041
+    },
+    {
+      "n": 122,
+      "actions": [
+        "MOVE_FORWARD",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've reached the top of the stairs facing the landing with a bench. Per the instruction I should turn right here to find the kitchen doorway.",
+      "latency_s": 2.29,
+      "prompt_tokens": 2041
+    },
+    {
+      "n": 126,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've reached the top of the stairs onto the tiled landing. The instruction says take a right, so I'll turn right and proceed.",
+      "latency_s": 2.24,
+      "prompt_tokens": 2043
+    },
+    {
+      "n": 129,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "LOOK_UP"
+      ],
+      "thought": "I've reached the top of the stairs onto a tiled landing. The instruction says take a right, so I'll turn right and look ahead to find the kitchen doorway.",
+      "latency_s": 1.83,
+      "prompt_tokens": 2045
+    },
+    {
+      "n": 132,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm at the top of the stairs on the landing. The instruction says take a right, so I'll turn right to find the kitchen doorway.",
+      "latency_s": 1.86,
+      "prompt_tokens": 2047
+    },
+    {
+      "n": 136,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the base of the staircase, facing the steps slightly off-center. I need to align with the stairs and climb up.",
+      "latency_s": 2.01,
+      "prompt_tokens": 2048
+    },
+    {
+      "n": 140,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the base of the staircase with the steps to my right. I need to align with the stairs and begin ascending.",
+      "latency_s": 2.4,
+      "prompt_tokens": 2050
+    },
+    {
+      "n": 144,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the base of the staircase; the stairs ascend to my right-front. I'll turn right to align with the steps and begin climbing.",
+      "latency_s": 2.17,
+      "prompt_tokens": 2051
+    },
+    {
+      "n": 148,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the base of the stairs facing them. I need to climb up before turning right.",
+      "latency_s": 2.16,
+      "prompt_tokens": 2054
+    },
+    {
+      "n": 151,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm mid-staircase; continue ascending toward the landing visible ahead.",
+      "latency_s": 1.67,
+      "prompt_tokens": 2054
+    },
+    {
+      "n": 157,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've reached the top of the stairs and face a landing with a closed door ahead. Per the instruction I should take a right here, so I'll turn right and re-observe to find the kitchen doorway.",
+      "latency_s": 2.9,
+      "prompt_tokens": 2055
+    },
+    {
+      "n": 161,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the staircase with the kitchen visible through the opening to the left. I'll turn left toward the landing and move forward to reach the kitchen doorway.",
+      "latency_s": 2.51,
+      "prompt_tokens": 2058
+    },
+    {
+      "n": 163,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm at the top of the stairs with the kitchen visible ahead. Per the instruction I should take a right first, so I'll turn right and re-observe before moving.",
+      "latency_s": 3.09,
+      "prompt_tokens": 2060
+    },
+    {
+      "n": 165,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the top of the stairs with the landing ahead and the kitchen visible to the left. I'll step onto the landing first, then re-orient to take a right and find the kitchen doorway.",
+      "latency_s": 3.09,
+      "prompt_tokens": 2061
+    },
+    {
+      "n": 169,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the top of the stairs facing a wall; the kitchen doorway is visible to my left. I'll turn left and head toward it.",
+      "latency_s": 2.37,
+      "prompt_tokens": 2062
+    },
+    {
+      "n": 172,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the top of the stairs with the kitchen visible through a doorway ahead. I'll head toward that doorway, then follow the kitchen left into the dining room.",
+      "latency_s": 3.3,
+      "prompt_tokens": 2064
+    },
+    {
+      "n": 175,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the top of the stairs facing the kitchen doorway. I need to move forward into the kitchen, then take a left into the dining room.",
+      "latency_s": 2.86,
+      "prompt_tokens": 2064
+    },
+    {
+      "n": 178,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the kitchen doorway with the kitchen visible ahead. I'll enter the kitchen, then look for the left opening into the dining room.",
+      "latency_s": 2.19,
+      "prompt_tokens": 2065
+    },
+    {
+      "n": 182,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a wall with the kitchen visible to my right through the doorway. I need to turn right, pass through the kitchen, then take a left into the dining room.",
+      "latency_s": 2.41,
+      "prompt_tokens": 2065
+    },
+    {
+      "n": 183,
+      "actions": [
+        "STOP"
+      ],
+      "thought": "I've walked through the kitchen and the dining room with its table and chairs is directly ahead; I appear to be at the kitchen/dining boundary, which is the doorway where the instruction ends.",
+      "latency_s": 3.2,
+      "prompt_tokens": 2067
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    9.018,
+    9.056,
+    8.945,
+    8.858,
+    8.778,
+    8.699,
+    8.619,
+    8.54,
+    8.461,
+    8.381,
+    8.165,
+    7.948,
+    7.731,
+    7.997,
+    8.262,
+    8.528,
+    8.793,
+    9.059,
+    9.324,
+    9.59,
+    9.855,
+    10.121,
+    10.427,
+    10.734,
+    11.039,
+    11.315,
+    11.455,
+    11.333,
+    11.228,
+    11.136,
+    10.887,
+    10.623,
+    10.316,
+    10.011,
+    9.707,
+    9.405,
+    9.106,
+    8.813,
+    8.526,
+    8.249,
+    7.992,
+    7.992,
+    7.752,
+    7.525,
+    7.474,
+    7.473,
+    7.256,
+    7.033,
+    6.812,
+    6.55,
+    6.304,
+    6.058,
+    5.814,
+    5.573,
+    5.336,
+    5.109,
+    4.859,
+    4.61
+  ],
+  "final_distance": 4.61,
+  "min_distance": 4.61,
+  "metrics": {
+    "distance_to_goal": 4.609522342681885,
+    "success": 0.0,
+    "spl": 0.0,
+    "oracle_success": 0.0,
+    "path_length": 13.164310777559876,
+    "steps_taken": 183.0
+  },
+  "success": false,
+  "backend_stats": {
+    "calls": 1120,
+    "failures": 0,
+    "prompt_tokens": 2244414,
+    "completion_tokens": 96335,
+    "reasoning_tokens": 35115,
+    "latency_s": 2505.831880092621
+  },
+  "stop_deferrals": 0
+}

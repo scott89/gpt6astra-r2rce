@@ -1,0 +1,432 @@
+{
+  "episode_id": 529,
+  "scene_id": "TbHJrupSAjP",
+  "instruction": "Go to the bed. Go to the shelf. Go to the flower alcove. Go to the stairs. Go down two stairs.",
+  "actions_taken": 79,
+  "policy_calls": 33,
+  "api_latency_s": 67.99,
+  "prompt_tokens": 63205,
+  "completion_tokens": 2308,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 68.63,
+  "steps": [
+    {
+      "n": 4,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I see the bed on the left and the shelf ahead. First waypoint is the bed, so I'll turn left and approach it.",
+      "latency_s": 1.57,
+      "prompt_tokens": 887
+    },
+    {
+      "n": 7,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bed is directly ahead; I'll move toward it first.",
+      "latency_s": 1.59,
+      "prompt_tokens": 1243
+    },
+    {
+      "n": 9,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm beside the bed, so the first waypoint is done. A dark shelf was visible on the right edge earlier; I'll turn right to locate it.",
+      "latency_s": 2.26,
+      "prompt_tokens": 1607
+    },
+    {
+      "n": 12,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm beside the bed with the black shelf visible ahead-right. I'll advance toward the shelf, then look for the flower alcove beyond it.",
+      "latency_s": 1.82,
+      "prompt_tokens": 1971
+    },
+    {
+      "n": 14,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've reached the shelf area next to the nightstand. I need to find the flower alcove next, so I'll turn right to scan the room.",
+      "latency_s": 2.22,
+      "prompt_tokens": 1972
+    },
+    {
+      "n": 16,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've reached the shelf. Now I need to find the flower alcove, so I'll scan the room by turning.",
+      "latency_s": 2.01,
+      "prompt_tokens": 1973
+    },
+    {
+      "n": 18,
+      "actions": [
+        "MOVE_FORWARD",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm at the shelf now. The next target is the flower alcove, and stairs are visible through the doorway to the right; I'll move toward the shelf and turn right to head through the doorway.",
+      "latency_s": 2.71,
+      "prompt_tokens": 1974
+    },
+    {
+      "n": 21,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've reached the shelf. The stairs are visible through the doorway ahead; I'll head that way, looking for the flower alcove en route.",
+      "latency_s": 2.39,
+      "prompt_tokens": 1975
+    },
+    {
+      "n": 24,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the shelf now. The stairs are visible through the doorway ahead; the flower alcove is likely near the stairs. I'll move through the doorway toward the stairs.",
+      "latency_s": 2.15,
+      "prompt_tokens": 1977
+    },
+    {
+      "n": 27,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the staircase ahead past the wall. I'll advance toward it, then descend.",
+      "latency_s": 1.92,
+      "prompt_tokens": 1978
+    },
+    {
+      "n": 30,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've reached the stairs landing; the staircase descends ahead-left. I'll move forward toward the top of the stairs.",
+      "latency_s": 1.89,
+      "prompt_tokens": 1977
+    },
+    {
+      "n": 32,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've reached the stairs at the top of the landing; the staircase descends ahead-left. I'll step forward toward the first step and re-observe.",
+      "latency_s": 2.19,
+      "prompt_tokens": 1979
+    },
+    {
+      "n": 35,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the upstairs landing overlooking the staircase; the stairs descend to the left of the railing. I'll turn left and move toward the top of the stairs.",
+      "latency_s": 2.05,
+      "prompt_tokens": 1980
+    },
+    {
+      "n": 38,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the top of the staircase with the stairs descending ahead. I'll step forward down the stairs.",
+      "latency_s": 1.95,
+      "prompt_tokens": 1981
+    },
+    {
+      "n": 40,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the top of the staircase; the stairs descend ahead. I'll step forward to descend the first steps, then re-observe.",
+      "latency_s": 2.32,
+      "prompt_tokens": 1982
+    },
+    {
+      "n": 42,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the top of the staircase; the stairs descend ahead. I'll step forward down the stairs and re-observe.",
+      "latency_s": 2.05,
+      "prompt_tokens": 1982
+    },
+    {
+      "n": 43,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is partially blocked by a railing/edge, suggesting I'm right at the top of the stairs. I should look down to see the stairs before descending.",
+      "latency_s": 3.13,
+      "prompt_tokens": 1982
+    },
+    {
+      "n": 46,
+      "actions": [
+        "LOOK_DOWN",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the top of the stairs, which matches the instruction 'go to the stairs.' Now I need to descend two steps, so I'll look down and step forward carefully.",
+      "latency_s": 1.92,
+      "prompt_tokens": 1982
+    },
+    {
+      "n": 48,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the top of the staircase, which is the final waypoint. I need to descend two steps, so I'll move forward onto the stairs.",
+      "latency_s": 1.94,
+      "prompt_tokens": 1984
+    },
+    {
+      "n": 51,
+      "actions": [
+        "LOOK_UP",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is directly ahead with the camera pitched down. I'll level the camera and step forward onto the stairs to descend.",
+      "latency_s": 2.02,
+      "prompt_tokens": 1984
+    },
+    {
+      "n": 53,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the top of the staircase looking down the steps. I need to descend two stairs, so I'll step forward carefully and re-observe.",
+      "latency_s": 1.97,
+      "prompt_tokens": 1985
+    },
+    {
+      "n": 55,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the top of the staircase with the steps descending ahead. I'll step forward down the stairs.",
+      "latency_s": 1.86,
+      "prompt_tokens": 1986
+    },
+    {
+      "n": 57,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the top of the staircase with the flower alcove visible below. I need to descend two steps, so I'll advance forward carefully and re-observe.",
+      "latency_s": 1.83,
+      "prompt_tokens": 1986
+    },
+    {
+      "n": 59,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the top of the staircase facing down the steps. I need to descend two stairs, so I'll step forward carefully and re-observe.",
+      "latency_s": 2.1,
+      "prompt_tokens": 1986
+    },
+    {
+      "n": 61,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the top of the staircase facing down the steps. I need to descend two stairs, so I'll step forward onto the stairs and re-observe.",
+      "latency_s": 2.07,
+      "prompt_tokens": 1987
+    },
+    {
+      "n": 63,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the top of the staircase facing down the stairs. I need to descend two steps, so I'll take a couple of forward steps down the stairs and re-observe.",
+      "latency_s": 2.12,
+      "prompt_tokens": 1987
+    },
+    {
+      "n": 65,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the top of the staircase facing down the steps. I need to descend two stairs, so I'll step forward carefully and re-observe.",
+      "latency_s": 1.81,
+      "prompt_tokens": 1987
+    },
+    {
+      "n": 67,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the top of the staircase with steps descending ahead. I need to walk down two stairs, so I'll advance carefully and re-observe.",
+      "latency_s": 2.1,
+      "prompt_tokens": 1987
+    },
+    {
+      "n": 69,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the staircase facing down; descending two steps means moving forward a couple of times along the stairs.",
+      "latency_s": 1.81,
+      "prompt_tokens": 1988
+    },
+    {
+      "n": 72,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the staircase facing down; the instruction ends after descending two stairs. I'll take a couple of forward steps down and then stop.",
+      "latency_s": 2.22,
+      "prompt_tokens": 1988
+    },
+    {
+      "n": 74,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the staircase facing down; descending two steps means moving forward a couple of steps along the stairs.",
+      "latency_s": 1.95,
+      "prompt_tokens": 1989
+    },
+    {
+      "n": 76,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the staircase facing down; descending two steps means moving forward along the stairs.",
+      "latency_s": 1.68,
+      "prompt_tokens": 1989
+    },
+    {
+      "n": 79,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "STOP"
+      ],
+      "thought": "I'm on the staircase facing down; the instruction ends two steps down. I'll advance forward to descend.",
+      "latency_s": 2.37,
+      "prompt_tokens": 1990
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    5.273,
+    5.273,
+    5.177,
+    5.138,
+    5.129,
+    5.144,
+    5.101,
+    5.101,
+    4.941,
+    4.892,
+    4.925,
+    4.716,
+    4.47,
+    4.225,
+    3.978,
+    3.736,
+    3.537,
+    3.424,
+    3.104,
+    2.884,
+    2.675,
+    2.486,
+    2.326,
+    2.17,
+    2.03,
+    2.011,
+    2.033,
+    2.055,
+    2.076,
+    2.098,
+    2.12,
+    2.142,
+    2.164,
+    2.186,
+    2.208,
+    2.23,
+    2.251,
+    2.273,
+    2.295,
+    2.317,
+    2.339,
+    2.361,
+    2.383,
+    2.405,
+    2.426,
+    2.448,
+    2.47,
+    2.492,
+    2.514,
+    2.536,
+    2.558
+  ],
+  "final_distance": 2.558,
+  "min_distance": 2.011,
+  "metrics": {
+    "distance_to_goal": 2.557509183883667,
+    "success": 1.0,
+    "spl": 0.861853816497542,
+    "oracle_success": 1.0,
+    "path_length": 6.117971524596214,
+    "steps_taken": 79.0
+  },
+  "success": true,
+  "backend_stats": {
+    "calls": 809,
+    "failures": 0,
+    "prompt_tokens": 1627790,
+    "completion_tokens": 71307,
+    "reasoning_tokens": 26668,
+    "latency_s": 1824.0631756782532
+  },
+  "stop_deferrals": 0
+}

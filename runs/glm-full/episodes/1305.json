@@ -1,0 +1,120 @@
+{
+  "episode_id": 1305,
+  "scene_id": "EU6Fwq7SyZv",
+  "instruction": "Go past table and cabinet. Stop just after chairs.",
+  "actions_taken": 17,
+  "policy_calls": 6,
+  "api_latency_s": 14.99,
+  "prompt_tokens": 9546,
+  "completion_tokens": 591,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 15.08,
+  "steps": [
+    {
+      "n": 3,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I see a large room with a table ahead and a fireplace area to the right. I'll advance toward the table first, then navigate past it and the cabinet toward the chairs.",
+      "latency_s": 2.2,
+      "prompt_tokens": 871
+    },
+    {
+      "n": 6,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I see a large table ahead and a cabinet/bookshelf to the right, with chairs near the fireplace beyond. I'll advance toward the table, then re-observe.",
+      "latency_s": 1.95,
+      "prompt_tokens": 1226
+    },
+    {
+      "n": 9,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've advanced and can see the pool table (table) on the left and the cabinet/bookshelf ahead, with chairs to the right. I'll continue forward past them, then stop just after the chairs.",
+      "latency_s": 1.87,
+      "prompt_tokens": 1589
+    },
+    {
+      "n": 12,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The pool table is on the left and the cabinet/chairs are ahead-right. I should continue forward past the table toward the cabinet, then stop just after the chairs.",
+      "latency_s": 2.32,
+      "prompt_tokens": 1953
+    },
+    {
+      "n": 15,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've advanced along the room with the pool table on my left and the cabinet/bookshelf ahead. The chairs are on the right; I should move a bit further to pass the table and cabinet, then stop just after the chairs.",
+      "latency_s": 2.69,
+      "prompt_tokens": 1953
+    },
+    {
+      "n": 17,
+      "actions": [
+        "MOVE_FORWARD",
+        "STOP"
+      ],
+      "thought": "I have moved past the pool table and the cabinet/bookshelf on the right; the armchairs were just behind me on the right, so I am now just after the chairs. I will take one more small step and then stop.",
+      "latency_s": 3.96,
+      "prompt_tokens": 1954
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    7.364,
+    7.573,
+    7.792,
+    8.018,
+    8.249,
+    8.484,
+    8.721,
+    8.96,
+    9.201,
+    9.444,
+    9.687,
+    9.931,
+    10.176,
+    10.807,
+    10.815,
+    10.847,
+    10.902
+  ],
+  "final_distance": 10.902,
+  "min_distance": 7.364,
+  "metrics": {
+    "distance_to_goal": 10.901870727539062,
+    "success": 0.0,
+    "spl": 0.0,
+    "oracle_success": 0.0,
+    "path_length": 4.000747740268707,
+    "steps_taken": 17.0
+  },
+  "success": false,
+  "backend_stats": {
+    "calls": 28,
+    "failures": 0,
+    "prompt_tokens": 49110,
+    "completion_tokens": 2235,
+    "reasoning_tokens": 740,
+    "latency_s": 66.52516222000122
+  },
+  "stop_deferrals": 0
+}

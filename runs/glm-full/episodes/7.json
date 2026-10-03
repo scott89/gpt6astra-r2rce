@@ -1,0 +1,919 @@
+{
+  "episode_id": 7,
+  "scene_id": "x8F5xyUWy9e",
+  "instruction": "Go straight past the pool. Walk between the bar and chairs.  Stop when you get to the corner of the bar.  That's where you will wait.",
+  "actions_taken": 206,
+  "policy_calls": 65,
+  "api_latency_s": 149.36,
+  "prompt_tokens": 127729,
+  "completion_tokens": 5645,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 150.52,
+  "steps": [
+    {
+      "n": 4,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The pool is on the right and the bar area is ahead. I'll advance straight, keeping the pool on my right, then navigate between the bar and chairs.",
+      "latency_s": 1.58,
+      "prompt_tokens": 893
+    },
+    {
+      "n": 7,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I see chairs ahead and the bar counter beyond them. I'll advance toward the gap between the bar and chairs, then re-observe.",
+      "latency_s": 1.56,
+      "prompt_tokens": 1248
+    },
+    {
+      "n": 10,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The chairs are directly ahead and the bar counter is visible in the distance. I should angle slightly right to pass between the chairs and the bar, then approach the bar's corner.",
+      "latency_s": 2.46,
+      "prompt_tokens": 1612
+    },
+    {
+      "n": 13,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is ahead with chairs on the left; I need to walk between them toward the bar's near corner. I'll advance a few steps and re-observe.",
+      "latency_s": 1.64,
+      "prompt_tokens": 1976
+    },
+    {
+      "n": 16,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is ahead-left with chairs along the left wall; I need to advance between them toward the bar's near corner, which looks a few meters ahead.",
+      "latency_s": 2.71,
+      "prompt_tokens": 1977
+    },
+    {
+      "n": 19,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is ahead-left with chairs to its right; I need to walk between them and stop at the bar's near corner. I'll advance toward it and re-observe.",
+      "latency_s": 2.29,
+      "prompt_tokens": 1976
+    },
+    {
+      "n": 22,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is ahead-left with chairs to its right; I need to walk between them and stop at the near corner of the bar. I'll advance toward the gap between the bar and the chairs.",
+      "latency_s": 2.07,
+      "prompt_tokens": 1978
+    },
+    {
+      "n": 25,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar is on the left with chairs ahead; I need to walk between them toward the bar's near corner. I'll advance carefully and re-observe.",
+      "latency_s": 2.06,
+      "prompt_tokens": 1977
+    },
+    {
+      "n": 28,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar's corner is just ahead on the left, with chairs to the right. I'll advance a couple steps through the gap and stop at the bar's corner.",
+      "latency_s": 2.44,
+      "prompt_tokens": 1978
+    },
+    {
+      "n": 30,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm moving along the bar on my left with chairs on the right. The bar's far corner is a few steps ahead, so I'll advance and then stop there.",
+      "latency_s": 2.05,
+      "prompt_tokens": 1978
+    },
+    {
+      "n": 33,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm walking along the bar on my left with chairs on the right. I should continue forward between them until I reach the bar's corner end.",
+      "latency_s": 2.29,
+      "prompt_tokens": 1978
+    },
+    {
+      "n": 36,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm moving along the bar on my left with chairs on the right. A couple more forward steps should bring me to the corner of the bar.",
+      "latency_s": 2.27,
+      "prompt_tokens": 1979
+    },
+    {
+      "n": 38,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm moving along the bar on my left with chairs on the right. The bar's far corner is just ahead, so I'll advance a couple steps to reach it, then stop.",
+      "latency_s": 2.92,
+      "prompt_tokens": 1979
+    },
+    {
+      "n": 40,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm walking between the bar on the left and the chair on the right. The bar's near corner is just ahead-left; one or two more forward steps should bring me to it, then I stop.",
+      "latency_s": 2.05,
+      "prompt_tokens": 1979
+    },
+    {
+      "n": 43,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is on my left and the chair/sofa on my right; I should keep moving forward between them toward the doorway ahead.",
+      "latency_s": 2.28,
+      "prompt_tokens": 1979
+    },
+    {
+      "n": 45,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a doorway leading to a tiled room; the pool/bar area should be ahead. I'll advance through the doorway and re-observe.",
+      "latency_s": 2.19,
+      "prompt_tokens": 1981
+    },
+    {
+      "n": 47,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've reached a doorway; the pool and bar area should be beyond it. I'll step through and re-observe.",
+      "latency_s": 2.04,
+      "prompt_tokens": 1981
+    },
+    {
+      "n": 50,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm pressed against a doorframe edge; the open room is to my left. I'll turn left to re-aim through the doorway before moving.",
+      "latency_s": 2.11,
+      "prompt_tokens": 1981
+    },
+    {
+      "n": 53,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "The last left turns put me facing a wall/pillar instead of the hallway. I need to turn right to re-face the open corridor and continue toward the bar area.",
+      "latency_s": 2.41,
+      "prompt_tokens": 1981
+    },
+    {
+      "n": 56,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm pressed against a wall/doorframe and can't see the bar or pool area. I need to turn left to face back into the open room and re-orient.",
+      "latency_s": 1.99,
+      "prompt_tokens": 1984
+    },
+    {
+      "n": 58,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "The current view shows an interior hallway with doors, not the pool/bar area described. I need to re-orient and find the way back toward the pool area.",
+      "latency_s": 2.94,
+      "prompt_tokens": 1985
+    },
+    {
+      "n": 61,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm pressed against a wall/doorframe and can't see the pool area; I need to back off my heading by turning left to re-enter the open hallway.",
+      "latency_s": 2.37,
+      "prompt_tokens": 1986
+    },
+    {
+      "n": 63,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm pressed against a wall/doorframe; the hallway ahead is open. I'll step forward into the corridor and re-observe to find the bar and chairs.",
+      "latency_s": 2.18,
+      "prompt_tokens": 1987
+    },
+    {
+      "n": 66,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've drifted and am now facing a wall/doorframe edge instead of the hallway. I need to turn right to re-face the open corridor ahead.",
+      "latency_s": 2.06,
+      "prompt_tokens": 1988
+    },
+    {
+      "n": 69,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a tiled hallway with doors; the pool and bar should be ahead through the opening. I'll advance down the corridor and re-observe.",
+      "latency_s": 2.34,
+      "prompt_tokens": 1990
+    },
+    {
+      "n": 73,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I appear to have drifted into a hallway with doors instead of the pool/bar area. I need to re-orient and look for the bar and chairs.",
+      "latency_s": 2.96,
+      "prompt_tokens": 1991
+    },
+    {
+      "n": 76,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to have turned into a corner facing doors and a wall, losing sight of the hallway toward the bar area. I should turn back toward the open corridor I was in and re-aim before moving.",
+      "latency_s": 3.58,
+      "prompt_tokens": 1992
+    },
+    {
+      "n": 80,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I see only doors and a hallway, no bar or pool table yet. I need to explore; turning right to scan the area beyond the current view.",
+      "latency_s": 2.01,
+      "prompt_tokens": 1994
+    },
+    {
+      "n": 88,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to have drifted into a tiled bathroom, which is not the bar area. I need to turn around and exit back toward the open space to re-find the bar and chairs.",
+      "latency_s": 3.76,
+      "prompt_tokens": 1995
+    },
+    {
+      "n": 92,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the entrance to the pool room with the bar on the right and chairs ahead. I'll advance into the room, steering between the bar and the chairs toward the bar's corner.",
+      "latency_s": 2.22,
+      "prompt_tokens": 2000
+    },
+    {
+      "n": 96,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the pool room with the bar on the right and chairs ahead. I need to advance between the bar and the chairs toward the bar's far corner.",
+      "latency_s": 1.87,
+      "prompt_tokens": 2001
+    },
+    {
+      "n": 99,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the pool room with the bar on the right and chairs ahead. I need to advance between the bar and the chairs toward the bar's far corner.",
+      "latency_s": 2.56,
+      "prompt_tokens": 2001
+    },
+    {
+      "n": 102,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is on the right and chairs are ahead; I need to advance between them toward the pool until I reach the bar's corner. A couple of forward steps then re-observe.",
+      "latency_s": 2.86,
+      "prompt_tokens": 2003
+    },
+    {
+      "n": 105,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar table is on my right and chairs are ahead/left; I should advance between them toward the pool, then stop at the bar's corner.",
+      "latency_s": 2.62,
+      "prompt_tokens": 2002
+    },
+    {
+      "n": 109,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm beside the pool with a chair directly ahead and the bar to my right. I should turn right to move along the bar, passing between it and the chairs, then stop at the bar's corner.",
+      "latency_s": 2.23,
+      "prompt_tokens": 2003
+    },
+    {
+      "n": 112,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm beside the pool with chairs ahead and what appears to be a bar counter on the right. I'll advance carefully between the chairs and the bar toward its far corner.",
+      "latency_s": 2.28,
+      "prompt_tokens": 2004
+    },
+    {
+      "n": 115,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm beside the bar (table on right) and chairs, facing the pool. I should advance between the bar and chairs toward the pool, then stop at the bar's corner.",
+      "latency_s": 2.25,
+      "prompt_tokens": 2004
+    },
+    {
+      "n": 117,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm beside the chairs with the bar/table on my right and the pool ahead. I should advance between the chairs and the bar toward the pool, then stop at the bar's corner.",
+      "latency_s": 2.68,
+      "prompt_tokens": 2005
+    },
+    {
+      "n": 120,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm alongside the pool with chairs on the right; I need to advance along the walkway between the bar (right side) and the pool edge, heading toward the bar's corner.",
+      "latency_s": 2.36,
+      "prompt_tokens": 2006
+    },
+    {
+      "n": 123,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm past the pool with the curved bar on the left and chairs on the right. I should continue forward along the gap between them toward the bar's far corner.",
+      "latency_s": 2.3,
+      "prompt_tokens": 2004
+    },
+    {
+      "n": 128,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_RIGHT"
+      ],
+      "thought": "The pool is ahead and the bar with chairs is on the right. I should advance along the pool edge toward the bar's far corner, then turn right to approach it.",
+      "latency_s": 2.22,
+      "prompt_tokens": 2006
+    },
+    {
+      "n": 131,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The pool is on the left and the bar's curved edge runs ahead; chairs are on the right. I should advance along the gap between the bar and the chairs toward the bar's far corner.",
+      "latency_s": 2.06,
+      "prompt_tokens": 2007
+    },
+    {
+      "n": 135,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm alongside the pool; the bar and chairs appear ahead on the right. I'll keep moving forward along the pool edge, then steer between the bar and chairs to reach the bar's corner.",
+      "latency_s": 2.03,
+      "prompt_tokens": 2008
+    },
+    {
+      "n": 138,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm walking along the pool's edge with the bar ledge on my right. I should continue forward past the pool, keeping between the bar and the chairs area on the right, until I reach the bar's corner.",
+      "latency_s": 2.33,
+      "prompt_tokens": 2008
+    },
+    {
+      "n": 141,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm walking along the pool edge with the bar ledge on my right. I should continue forward along this path toward the far corner of the bar near the doorway.",
+      "latency_s": 2.02,
+      "prompt_tokens": 2009
+    },
+    {
+      "n": 144,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm walking along the pool edge with the bar ledge on my left. I should continue forward along this walkway toward the doorway ahead, staying between the bar and the pool area.",
+      "latency_s": 2.4,
+      "prompt_tokens": 2010
+    },
+    {
+      "n": 148,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm walking along the pool edge with the walkway ahead. I'll continue forward past the pool, keeping the pool on my left, toward the doorway area.",
+      "latency_s": 2.33,
+      "prompt_tokens": 2009
+    },
+    {
+      "n": 151,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm walking along the pool edge with the walkway ahead. Continue forward past the pool toward the doorway.",
+      "latency_s": 1.96,
+      "prompt_tokens": 2010
+    },
+    {
+      "n": 153,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've walked alongside the pool and reached a beaded-curtain doorway; the bar and chairs are likely in the next room. I'll move forward through the doorway and re-observe.",
+      "latency_s": 2.88,
+      "prompt_tokens": 2011
+    },
+    {
+      "n": 155,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a beaded curtain directly ahead; the bar and chairs area should be beyond it. I'll advance through the curtain and re-observe.",
+      "latency_s": 2.33,
+      "prompt_tokens": 2011
+    },
+    {
+      "n": 161,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm pressed against a beaded curtain, which is not the bar area described. I need to turn around and re-find the pool/bar space.",
+      "latency_s": 2.05,
+      "prompt_tokens": 2012
+    },
+    {
+      "n": 167,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall, having drifted off course. I need to turn around to find the bar area again.",
+      "latency_s": 2.17,
+      "prompt_tokens": 2015
+    },
+    {
+      "n": 171,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the pool on the right and the bar with chairs ahead. I need to advance toward the bar, passing between it and the chairs, then stop at its corner.",
+      "latency_s": 2.14,
+      "prompt_tokens": 2017
+    },
+    {
+      "n": 174,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The pool is on the right and the bar with chairs is ahead-left. I should advance along the open floor between the pool edge and the chairs toward the bar's corner.",
+      "latency_s": 2.36,
+      "prompt_tokens": 2019
+    },
+    {
+      "n": 178,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is ahead on the left with chairs beside it; I need to advance between them toward the bar's near corner. I'll take a few forward steps and re-observe.",
+      "latency_s": 1.97,
+      "prompt_tokens": 2020
+    },
+    {
+      "n": 182,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The pool is on my right and the bar counter is ahead on the left with chairs beyond it. I need to advance toward the near corner of the bar, staying between the bar and the chairs.",
+      "latency_s": 2.33,
+      "prompt_tokens": 2021
+    },
+    {
+      "n": 186,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The pool is on the right and the bar with its corner is on the left ahead. I need to advance past the pool toward the bar's near corner, staying between the bar and the chairs.",
+      "latency_s": 2.46,
+      "prompt_tokens": 2021
+    },
+    {
+      "n": 190,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar is on the left with chairs ahead; I need to walk between them and stop at the near corner of the bar. I'll advance toward the bar's corner.",
+      "latency_s": 1.91,
+      "prompt_tokens": 2022
+    },
+    {
+      "n": 193,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar is on the left and the chairs are just ahead; I'm nearly at the gap between them. I'll advance a couple of steps to reach the bar's corner, then stop.",
+      "latency_s": 2.31,
+      "prompt_tokens": 2021
+    },
+    {
+      "n": 195,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm walking between the bar on the left and the chairs on the right. The bar's near corner is just ahead-left, so a couple of forward steps should bring me to it.",
+      "latency_s": 2.45,
+      "prompt_tokens": 2024
+    },
+    {
+      "n": 198,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar is on the left and chairs are ahead; I need to advance through the gap between them toward the far corner of the bar.",
+      "latency_s": 1.99,
+      "prompt_tokens": 2021
+    },
+    {
+      "n": 200,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is on the left and the chairs/table are ahead-right; I should advance through the gap between them toward the far corner of the bar.",
+      "latency_s": 1.86,
+      "prompt_tokens": 2023
+    },
+    {
+      "n": 203,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is on my left and chairs are ahead/right; I should advance along the gap between them until I reach the bar's corner.",
+      "latency_s": 2.09,
+      "prompt_tokens": 2022
+    },
+    {
+      "n": 205,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is on my left and the armchair is ahead-right; I should advance through the gap between them toward the bar's far corner.",
+      "latency_s": 2.24,
+      "prompt_tokens": 2023
+    },
+    {
+      "n": 206,
+      "actions": [
+        "STOP"
+      ],
+      "thought": "The bar is on my left and I've walked past the chairs; the bar's corner (where it ends at the wooden panel) is right beside me, so this is the waiting spot.",
+      "latency_s": 2.63,
+      "prompt_tokens": 2023
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    10.452,
+    10.207,
+    9.963,
+    9.719,
+    9.475,
+    9.237,
+    8.994,
+    8.753,
+    8.503,
+    8.254,
+    8.004,
+    7.757,
+    7.492,
+    7.242,
+    6.992,
+    6.742,
+    6.492,
+    6.242,
+    5.992,
+    5.742,
+    5.492,
+    5.243,
+    4.993,
+    4.743,
+    4.493,
+    4.249,
+    3.997,
+    3.746,
+    3.497,
+    3.25,
+    3.003,
+    2.757,
+    2.512,
+    2.268,
+    2.025,
+    1.784,
+    1.564,
+    1.316,
+    1.074,
+    0.846,
+    0.635,
+    0.464,
+    0.391,
+    0.463,
+    0.634,
+    0.845,
+    1.073,
+    1.138,
+    1.25,
+    1.495,
+    1.741,
+    1.988,
+    1.761,
+    1.541,
+    1.332,
+    1.139,
+    0.972,
+    0.848,
+    0.786,
+    0.801,
+    0.889,
+    1.031,
+    1.209,
+    1.409,
+    1.635,
+    1.885,
+    2.135,
+    2.3,
+    2.308,
+    2.302,
+    2.297,
+    2.293,
+    2.29,
+    2.287,
+    2.286,
+    2.286,
+    2.287,
+    2.288,
+    2.538,
+    2.788,
+    3.038,
+    3.288,
+    3.538,
+    3.788,
+    4.038,
+    4.288,
+    4.717,
+    4.845,
+    5.008,
+    5.195,
+    5.356,
+    5.535,
+    5.728,
+    5.926,
+    6.099,
+    6.284,
+    6.435,
+    6.562,
+    6.698,
+    6.843,
+    6.991,
+    7.143,
+    7.249,
+    7.253,
+    7.455,
+    7.695,
+    7.939,
+    8.183,
+    8.428,
+    8.673,
+    8.918,
+    9.164,
+    9.411,
+    9.659,
+    9.907,
+    10.156,
+    10.315,
+    10.066,
+    9.817,
+    9.568,
+    9.319,
+    9.071,
+    8.822,
+    8.574,
+    8.326,
+    8.078,
+    7.83,
+    7.582,
+    7.335,
+    7.088,
+    6.841,
+    6.594,
+    6.348,
+    6.102,
+    5.856,
+    5.61,
+    5.365,
+    5.12,
+    4.876,
+    4.633,
+    4.39,
+    4.148,
+    3.91,
+    3.699,
+    3.534,
+    3.285,
+    3.041,
+    2.798,
+    2.554,
+    2.311,
+    2.068,
+    1.825,
+    1.607,
+    1.352,
+    1.109
+  ],
+  "final_distance": 1.109,
+  "min_distance": 0.391,
+  "metrics": {
+    "distance_to_goal": 1.1094684600830078,
+    "success": 1.0,
+    "spl": 0.2948208078996375,
+    "oracle_success": 1.0,
+    "path_length": 35.45293479412794,
+    "steps_taken": 206.0
+  },
+  "success": true,
+  "backend_stats": {
+    "calls": 837,
+    "failures": 0,
+    "prompt_tokens": 1658982,
+    "completion_tokens": 71680,
+    "reasoning_tokens": 24729,
+    "latency_s": 1879.1587898731232
+  },
+  "stop_deferrals": 0
+}

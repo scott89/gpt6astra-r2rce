@@ -1,0 +1,292 @@
+{
+  "episode_id": 1561,
+  "scene_id": "QUCTc6BB5sX",
+  "instruction": "Go left down the hallway and turn left. Go down the hall and stop once you reach the wood floor.",
+  "actions_taken": 60,
+  "policy_calls": 20,
+  "api_latency_s": 47.08,
+  "prompt_tokens": 37324,
+  "completion_tokens": 1741,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 47.44,
+  "steps": [
+    {
+      "n": 3,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm facing what looks like a wall/window. The instruction says go left down the hallway, so I should turn left to find the hallway.",
+      "latency_s": 1.6,
+      "prompt_tokens": 882
+    },
+    {
+      "n": 7,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The hallway extends to the left past the wall with the painting. I'll turn left to face down the hallway before moving.",
+      "latency_s": 1.97,
+      "prompt_tokens": 1237
+    },
+    {
+      "n": 10,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hallway with tile floor; the archway ahead-left seems to be the turn. I'll advance down the hall toward it and re-observe.",
+      "latency_s": 2.45,
+      "prompt_tokens": 1602
+    },
+    {
+      "n": 14,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a tile-floored hallway; the wood floor likely lies through the arched doorway on the left. I'll turn left and approach it.",
+      "latency_s": 2.84,
+      "prompt_tokens": 1965
+    },
+    {
+      "n": 18,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "After turning left, I'm now facing a console table and wall; the hallway with the archway is to my right. I need to re-aim right and proceed down the hall toward the wood floor.",
+      "latency_s": 2.81,
+      "prompt_tokens": 1967
+    },
+    {
+      "n": 20,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a hallway with a table ahead; the instruction says to go left down a hallway then turn left. There appears to be an opening on my right side, so I'll turn right to scan for the hallway.",
+      "latency_s": 3.27,
+      "prompt_tokens": 1969
+    },
+    {
+      "n": 23,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a tiled hallway; the instruction says to turn left and continue until the floor becomes wood. There's an opening ahead-left; I'll turn left and move toward it to check the flooring.",
+      "latency_s": 3.16,
+      "prompt_tokens": 1969
+    },
+    {
+      "n": 27,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a wall with a painting; the hallway continues to my left past the console table. I'll turn left and proceed down the hall toward the wood floor.",
+      "latency_s": 1.9,
+      "prompt_tokens": 1972
+    },
+    {
+      "n": 29,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hallway with tile floor; the wood floor should be ahead through the opening. I'll advance carefully toward the doorway and re-observe.",
+      "latency_s": 2.25,
+      "prompt_tokens": 1974
+    },
+    {
+      "n": 32,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a wall corner; the hallway continues to the left past the tapestry. I'll turn left and proceed down the hall looking for the wood floor transition.",
+      "latency_s": 1.87,
+      "prompt_tokens": 1975
+    },
+    {
+      "n": 35,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "The hallway ahead is blocked by a console table; the passage continues through the archway on my right. I'll turn right to face down the hall and look for the wood floor transition.",
+      "latency_s": 2.27,
+      "prompt_tokens": 1976
+    },
+    {
+      "n": 38,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a wall; the hallway opening is to my left past the table. I'll turn left and proceed down the hall, watching for the wood floor transition.",
+      "latency_s": 1.8,
+      "prompt_tokens": 1978
+    },
+    {
+      "n": 41,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The hallway ahead shows a wood floor past the tile section. I'll advance a few steps into the hallway toward the wood floor, then stop.",
+      "latency_s": 1.77,
+      "prompt_tokens": 1979
+    },
+    {
+      "n": 43,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a hallway opening with tile floor ahead. The instruction says to go down the hall until reaching wood floor, so I should advance through the opening and continue.",
+      "latency_s": 4.93,
+      "prompt_tokens": 1980
+    },
+    {
+      "n": 46,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall; the hallway continues to my right with the picture-lined wall and tile floor visible. I'll turn right to align with the hallway before advancing.",
+      "latency_s": 1.88,
+      "prompt_tokens": 1980
+    },
+    {
+      "n": 49,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hallway with tile floor; the instruction says to stop once the floor becomes wood, so I should continue down this hall until the flooring changes.",
+      "latency_s": 2.04,
+      "prompt_tokens": 1982
+    },
+    {
+      "n": 52,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a long hallway with tile flooring; the instruction says to stop at the wood floor, so I should continue forward until the flooring changes.",
+      "latency_s": 2.22,
+      "prompt_tokens": 1983
+    },
+    {
+      "n": 56,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a wall corner; the hallway continues to my right. I'll turn right to face down the hallway and proceed, looking for the wood floor transition.",
+      "latency_s": 1.94,
+      "prompt_tokens": 1983
+    },
+    {
+      "n": 59,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing down a long hallway with tile flooring; the instruction says to stop when the floor becomes wood, so I should keep advancing until the floor changes.",
+      "latency_s": 2.17,
+      "prompt_tokens": 1985
+    },
+    {
+      "n": 60,
+      "actions": [
+        "STOP"
+      ],
+      "thought": "I'm now in a hallway with a wood-plank floor clearly visible underfoot, which matches the instruction's endpoint. I should stop here.",
+      "latency_s": 1.94,
+      "prompt_tokens": 1986
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    7.658,
+    7.658,
+    7.421,
+    7.185,
+    6.952,
+    6.721,
+    6.49,
+    6.341,
+    6.209,
+    6.04,
+    5.887,
+    5.752,
+    5.641,
+    5.556,
+    5.44,
+    5.351,
+    5.419,
+    5.498,
+    5.587,
+    5.686,
+    5.794,
+    5.911,
+    6.035,
+    6.278,
+    6.522,
+    6.769,
+    7.016,
+    7.264,
+    7.513,
+    7.737,
+    7.971,
+    8.209,
+    8.449,
+    8.689
+  ],
+  "final_distance": 8.689,
+  "min_distance": 5.351,
+  "metrics": {
+    "distance_to_goal": 8.68881893157959,
+    "success": 0.0,
+    "spl": 0.0,
+    "oracle_success": 0.0,
+    "path_length": 8.009182825684547,
+    "steps_taken": 60.0
+  },
+  "success": false,
+  "backend_stats": {
+    "calls": 328,
+    "failures": 0,
+    "prompt_tokens": 652078,
+    "completion_tokens": 25723,
+    "reasoning_tokens": 8000,
+    "latency_s": 710.5334749221802
+  },
+  "stop_deferrals": 0
+}

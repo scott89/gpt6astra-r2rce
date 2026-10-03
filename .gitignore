@@ -1,0 +1,13 @@
+# secrets
+.env
+
+# data is a symlink into a local Matterport3D / R2R-CE checkout
+/data
+
+# scratch render dumps (frames are large, results JSON are not)
+runs/imgcheck/
+
+__pycache__/
+*.py[cod]
+*.tmp*
+.DS_Store

@@ -1,0 +1,83 @@
+{
+  "this_run": {
+    "num_episodes": 10,
+    "success": 0.6,
+    "oracle_success": 0.7,
+    "distance_to_goal": 6.3617,
+    "spl": 0.4287,
+    "path_length": 13.7882,
+    "steps_taken": 101.7,
+    "termination": {
+      "stop": 10
+    },
+    "mean_actions_per_episode": 101.7,
+    "mean_policy_calls_per_episode": 24.6,
+    "episodes_with_unparsable_reply": 0,
+    "api_latency_s_total": 556.7,
+    "prompt_tokens_total": 448300,
+    "completion_tokens_total": 20381,
+    "tag": "glm-rr10",
+    "policy": "vlm",
+    "model": "glm-5.3-flash",
+    "reasoning_effort": "minimal",
+    "max_actions": 500,
+    "time_limit_s": 2400.0,
+    "subset_file": "subset/r2rce100.json",
+    "episodes_run": [
+      205,
+      220,
+      10,
+      46,
+      127,
+      19,
+      7,
+      1,
+      4,
+      28
+    ],
+    "backend": {
+      "calls": 246,
+      "failures": 0,
+      "prompt_tokens": 448300,
+      "completion_tokens": 20381,
+      "reasoning_tokens": 6548,
+      "latency_s": 556.7883334159851
+    },
+    "cumulative": {
+      "num_episodes": 10,
+      "success": 0.6,
+      "oracle_success": 0.7,
+      "distance_to_goal": 6.3617,
+      "spl": 0.4287,
+      "path_length": 13.7882,
+      "steps_taken": 101.7,
+      "termination": {
+        "stop": 10
+      },
+      "mean_actions_per_episode": 101.7,
+      "mean_policy_calls_per_episode": 24.6,
+      "episodes_with_unparsable_reply": 0,
+      "api_latency_s_total": 556.7,
+      "prompt_tokens_total": 448300,
+      "completion_tokens_total": 20381
+    }
+  },
+  "all_episodes": {
+    "num_episodes": 10,
+    "success": 0.6,
+    "oracle_success": 0.7,
+    "distance_to_goal": 6.3617,
+    "spl": 0.4287,
+    "path_length": 13.7882,
+    "steps_taken": 101.7,
+    "termination": {
+      "stop": 10
+    },
+    "mean_actions_per_episode": 101.7,
+    "mean_policy_calls_per_episode": 24.6,
+    "episodes_with_unparsable_reply": 0,
+    "api_latency_s_total": 556.7,
+    "prompt_tokens_total": 448300,
+    "completion_tokens_total": 20381
+  }
+}

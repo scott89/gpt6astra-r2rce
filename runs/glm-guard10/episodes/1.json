@@ -1,0 +1,504 @@
+{
+  "episode_id": 1,
+  "scene_id": "zsNo4HB9uLZ",
+  "instruction": "Exit the bedroom and turn left. Walk straight passing the gray couch and stop near the rug.",
+  "actions_taken": 75,
+  "policy_calls": 45,
+  "api_latency_s": 99.82,
+  "prompt_tokens": 86830,
+  "completion_tokens": 3696,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 100.5,
+  "steps": [
+    {
+      "n": 4,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I appear to be facing a closet area; the exit doorway is to my left. I'll turn left and move toward the doorway to exit the bedroom.",
+      "latency_s": 1.91,
+      "prompt_tokens": 879
+    },
+    {
+      "n": 7,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hallway facing an open doorway with tiled floor beyond. I'll move forward through it to reach the living area where the couch and rug should be.",
+      "latency_s": 2.05,
+      "prompt_tokens": 1235
+    },
+    {
+      "n": 9,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hallway after exiting the bedroom. The gray couch and rug aren't visible yet, so I'll continue down the hallway toward the double doors and look for the living area opening.",
+      "latency_s": 3.74,
+      "prompt_tokens": 1598
+    },
+    {
+      "n": 12,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in a hallway facing closed double doors; the couch and rug are not visible here. I'll turn left to scan for the living area with the gray couch and rug.",
+      "latency_s": 2.46,
+      "prompt_tokens": 1961
+    },
+    {
+      "n": 16,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I turned left too far and am now facing a wall. I need to turn right to re-face down the hallway toward the double doors, then proceed to find the gray couch and rug.",
+      "latency_s": 2.2,
+      "prompt_tokens": 1962
+    },
+    {
+      "n": 20,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've exited the bedroom into a hallway; the open living/kitchen area is ahead-left. I need to head toward the open space to find the gray couch and rug.",
+      "latency_s": 2.26,
+      "prompt_tokens": 1964
+    },
+    {
+      "n": 24,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've exited the bedroom and turned left; the open living area with the gray couch is ahead-left. I'll advance toward it, then pass it toward the rug.",
+      "latency_s": 3.76,
+      "prompt_tokens": 1965
+    },
+    {
+      "n": 29,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the open kitchen/living area; the gray couch is visible on the far left near the TV. I'll turn left and walk toward it, then look for the rug.",
+      "latency_s": 2.24,
+      "prompt_tokens": 1967
+    },
+    {
+      "n": 34,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm beside the kitchen island; the gray couch and rug area are to the left near the TV wall. I'll turn left and walk toward the rug past the couch.",
+      "latency_s": 2.26,
+      "prompt_tokens": 1968
+    },
+    {
+      "n": 37,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the open living/kitchen area; ahead I can see a rug with dark mats and the couch/TV area beyond it. I'll advance toward the rug and stop near it.",
+      "latency_s": 3.34,
+      "prompt_tokens": 1970
+    },
+    {
+      "n": 39,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_UP"
+      ],
+      "thought": "I have exited the bedroom, turned left, and walked past the gray couch; a large rug is directly in front of me, so this is the stopping point.",
+      "latency_s": 2.41,
+      "prompt_tokens": 1971
+    },
+    {
+      "n": 40,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The view appears pitched down at a tabletop; I need a level view to verify I'm near the rug before confirming STOP.",
+      "latency_s": 3.56,
+      "prompt_tokens": 2026
+    },
+    {
+      "n": 41,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up toward the ceiling; I need to look down to see the living area with the gray couch and rug before moving.",
+      "latency_s": 1.89,
+      "prompt_tokens": 1972
+    },
+    {
+      "n": 42,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at a table surface; I need to look up to see the living room, the gray couch, and the rug before moving.",
+      "latency_s": 2.32,
+      "prompt_tokens": 1973
+    },
+    {
+      "n": 43,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the couch and rug area before deciding whether to stop or move.",
+      "latency_s": 1.81,
+      "prompt_tokens": 1974
+    },
+    {
+      "n": 44,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at a table surface; I need to look up to see the living area, the gray couch, and the rug before moving.",
+      "latency_s": 2.09,
+      "prompt_tokens": 1974
+    },
+    {
+      "n": 45,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the couch and rug before moving.",
+      "latency_s": 1.63,
+      "prompt_tokens": 1975
+    },
+    {
+      "n": 46,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at a table; I need to look up to see the living area with the gray couch and rug before moving.",
+      "latency_s": 1.79,
+      "prompt_tokens": 1975
+    },
+    {
+      "n": 47,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the couch and rug before proceeding.",
+      "latency_s": 1.46,
+      "prompt_tokens": 1976
+    },
+    {
+      "n": 48,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at a table; I need to look up to see the living area with the gray couch and rug before moving.",
+      "latency_s": 1.68,
+      "prompt_tokens": 1976
+    },
+    {
+      "n": 49,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the couch and rug before moving.",
+      "latency_s": 1.97,
+      "prompt_tokens": 1977
+    },
+    {
+      "n": 50,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at a table; I need to look up to see the living area with the gray couch and rug before moving.",
+      "latency_s": 1.58,
+      "prompt_tokens": 1977
+    },
+    {
+      "n": 51,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the couch and rug before moving.",
+      "latency_s": 1.58,
+      "prompt_tokens": 1977
+    },
+    {
+      "n": 52,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at a table; I need to look up to see the living area with the gray couch and rug before moving.",
+      "latency_s": 1.97,
+      "prompt_tokens": 1978
+    },
+    {
+      "n": 53,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the couch and rug before proceeding.",
+      "latency_s": 1.71,
+      "prompt_tokens": 1979
+    },
+    {
+      "n": 54,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down showing a rug/mat directly ahead, with the gray couch visible to the left. I should look up to re-orient and confirm my position relative to the couch before stopping near the rug.",
+      "latency_s": 3.56,
+      "prompt_tokens": 1979
+    },
+    {
+      "n": 55,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the couch and rug before moving.",
+      "latency_s": 1.72,
+      "prompt_tokens": 1980
+    },
+    {
+      "n": 56,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at a table/rug; I need to look up to see the living room and locate the gray couch before moving.",
+      "latency_s": 1.99,
+      "prompt_tokens": 1980
+    },
+    {
+      "n": 57,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the couch and rug before moving.",
+      "latency_s": 1.49,
+      "prompt_tokens": 1981
+    },
+    {
+      "n": 58,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down showing what appears to be a rug/mat directly ahead, but I need to verify my surroundings before stopping. I'll look up to re-orient and confirm the rug's location relative to the gray couch.",
+      "latency_s": 3.28,
+      "prompt_tokens": 1981
+    },
+    {
+      "n": 59,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I can see a living room with couches ahead. I need to look down to see the floor, rug, and gray couch before moving.",
+      "latency_s": 2.05,
+      "prompt_tokens": 1982
+    },
+    {
+      "n": 60,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at a table surface; I need to look up to see the living area, the gray couch, and the rug before moving.",
+      "latency_s": 2.07,
+      "prompt_tokens": 1982
+    },
+    {
+      "n": 61,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the couch and rug before moving.",
+      "latency_s": 1.99,
+      "prompt_tokens": 1983
+    },
+    {
+      "n": 62,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at a table; I need to look up to see the living room, the gray couch, and the rug before moving.",
+      "latency_s": 3.74,
+      "prompt_tokens": 1983
+    },
+    {
+      "n": 63,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I can see a living room with couches ahead. I need to look down to see the floor, rug, and gray couch before moving.",
+      "latency_s": 2.0,
+      "prompt_tokens": 1984
+    },
+    {
+      "n": 64,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at a table surface; I need to look up to see the living area, the gray couch, and the rug before moving.",
+      "latency_s": 1.74,
+      "prompt_tokens": 1984
+    },
+    {
+      "n": 65,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the couch and rug before moving.",
+      "latency_s": 1.61,
+      "prompt_tokens": 1985
+    },
+    {
+      "n": 66,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at a table; I need to look up to see the living area with the gray couch and rug before moving.",
+      "latency_s": 1.51,
+      "prompt_tokens": 1985
+    },
+    {
+      "n": 67,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the couch and rug before moving.",
+      "latency_s": 1.75,
+      "prompt_tokens": 1986
+    },
+    {
+      "n": 68,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at a table; I need to look up to see the living area, the gray couch, and the rug before moving.",
+      "latency_s": 1.71,
+      "prompt_tokens": 1986
+    },
+    {
+      "n": 69,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the couch and rug before moving.",
+      "latency_s": 1.65,
+      "prompt_tokens": 1987
+    },
+    {
+      "n": 72,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the open living area with the gray couches ahead and a rug in front of them. I'll advance a couple of steps toward the rug and then stop.",
+      "latency_s": 2.44,
+      "prompt_tokens": 1987
+    },
+    {
+      "n": 73,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down showing what appears to be a rug/mat right in front of me, with the living room and couches beyond. I should look up to verify my position relative to the gray couch and rug before stopping.",
+      "latency_s": 2.5,
+      "prompt_tokens": 1988
+    },
+    {
+      "n": 74,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the couch and rug area before moving.",
+      "latency_s": 1.69,
+      "prompt_tokens": 1989
+    },
+    {
+      "n": 75,
+      "actions": [
+        "STOP"
+      ],
+      "thought": "The view shows a dark rug-like surface directly ahead/below, suggesting we have walked past the couch and are at the rug. I will stop here.",
+      "latency_s": 3.66,
+      "prompt_tokens": 1989
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    7.961,
+    7.961,
+    7.711,
+    7.461,
+    7.211,
+    6.961,
+    6.711,
+    6.461,
+    6.222,
+    5.985,
+    5.641,
+    5.47,
+    5.305,
+    5.147,
+    4.996,
+    4.854,
+    4.72,
+    4.546,
+    4.421,
+    4.394,
+    4.49,
+    4.554,
+    4.619,
+    4.684,
+    4.748,
+    4.813,
+    4.878,
+    4.942,
+    5.007,
+    5.072,
+    5.137
+  ],
+  "final_distance": 5.137,
+  "min_distance": 4.394,
+  "metrics": {
+    "distance_to_goal": 5.136555194854736,
+    "success": 0.0,
+    "spl": 0.0,
+    "oracle_success": 0.0,
+    "path_length": 5.351962015032768,
+    "steps_taken": 75.0
+  },
+  "success": false,
+  "backend_stats": {
+    "calls": 423,
+    "failures": 0,
+    "prompt_tokens": 851432,
+    "completion_tokens": 30173,
+    "reasoning_tokens": 9782,
+    "latency_s": 907.1161315441132
+  },
+  "stop_deferrals": 1
+}

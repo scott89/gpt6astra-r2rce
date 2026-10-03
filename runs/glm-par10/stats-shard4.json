@@ -1,0 +1,84 @@
+{
+  "this_run": {
+    "num_episodes": 2,
+    "success": 0.0,
+    "oracle_success": 0.0,
+    "distance_to_goal": 8.3464,
+    "spl": 0.0,
+    "path_length": 10.8784,
+    "steps_taken": 292.5,
+    "termination": {
+      "stop": 2
+    },
+    "mean_actions_per_episode": 292.5,
+    "mean_policy_calls_per_episode": 70.5,
+    "episodes_with_unparsable_reply": 0,
+    "mean_stop_deferrals": 0.0,
+    "api_latency_s_total": 316.0,
+    "prompt_tokens_total": 283901,
+    "completion_tokens_total": 12512,
+    "tag": "glm-par10",
+    "policy": "vlm",
+    "model": "glm-5.3-flash",
+    "reasoning_effort": "minimal",
+    "guardrails": {
+      "max_consecutive_forward": 0,
+      "stop_verification": false,
+      "history_frames": 4,
+      "max_program": 8
+    },
+    "max_actions": 500,
+    "time_limit_s": 2400.0,
+    "subset_file": "subset/r2rce100.json",
+    "episodes_run": [
+      1,
+      4
+    ],
+    "backend": {
+      "calls": 141,
+      "failures": 0,
+      "prompt_tokens": 283901,
+      "completion_tokens": 12512,
+      "reasoning_tokens": 4205,
+      "latency_s": 315.950900554657
+    },
+    "cumulative": {
+      "num_episodes": 9,
+      "success": 0.4444,
+      "oracle_success": 0.5556,
+      "distance_to_goal": 5.1736,
+      "spl": 0.3599,
+      "path_length": 11.409,
+      "steps_taken": 118.8889,
+      "termination": {
+        "stop": 9
+      },
+      "mean_actions_per_episode": 118.89,
+      "mean_policy_calls_per_episode": 31.33,
+      "episodes_with_unparsable_reply": 0,
+      "mean_stop_deferrals": 0.0,
+      "api_latency_s_total": 650.5,
+      "prompt_tokens_total": 549703,
+      "completion_tokens_total": 25513
+    }
+  },
+  "all_episodes": {
+    "num_episodes": 9,
+    "success": 0.4444,
+    "oracle_success": 0.5556,
+    "distance_to_goal": 5.1736,
+    "spl": 0.3599,
+    "path_length": 11.409,
+    "steps_taken": 118.8889,
+    "termination": {
+      "stop": 9
+    },
+    "mean_actions_per_episode": 118.89,
+    "mean_policy_calls_per_episode": 31.33,
+    "episodes_with_unparsable_reply": 0,
+    "mean_stop_deferrals": 0.0,
+    "api_latency_s_total": 650.5,
+    "prompt_tokens_total": 549703,
+    "completion_tokens_total": 25513
+  }
+}

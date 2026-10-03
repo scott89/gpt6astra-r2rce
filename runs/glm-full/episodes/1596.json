@@ -1,0 +1,167 @@
+{
+  "episode_id": 1596,
+  "scene_id": "x8F5xyUWy9e",
+  "instruction": "Walk forward up the two set of three stairs.  Enter the room at the end of the hallway.Walk to the massage table, and stop.",
+  "actions_taken": 29,
+  "policy_calls": 9,
+  "api_latency_s": 16.63,
+  "prompt_tokens": 15585,
+  "completion_tokens": 488,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 16.76,
+  "steps": [
+    {
+      "n": 3,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a hallway with stairs ahead leading toward a doorway. I'll walk forward toward the stairs and re-observe.",
+      "latency_s": 1.62,
+      "prompt_tokens": 890
+    },
+    {
+      "n": 6,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The stairs are directly ahead and I'm aligned with the hallway; I'll advance toward and up the stairs, then re-observe.",
+      "latency_s": 1.85,
+      "prompt_tokens": 1245
+    },
+    {
+      "n": 10,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm aligned with the stairs and the doorway ahead; continue forward up the steps toward the room.",
+      "latency_s": 1.56,
+      "prompt_tokens": 1608
+    },
+    {
+      "n": 15,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the base of the stairs leading up to the hallway with the doorway ahead. I'll climb the stairs and continue toward the room with the massage table.",
+      "latency_s": 2.06,
+      "prompt_tokens": 1972
+    },
+    {
+      "n": 18,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've climbed the stairs and am in the hallway. The doorway ahead leads to the room with the massage table visible inside. I'll walk toward it.",
+      "latency_s": 1.9,
+      "prompt_tokens": 1973
+    },
+    {
+      "n": 21,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've ascended the stairs and reached the hallway end. The doorway straight ahead shows the massage table; I'll advance toward it.",
+      "latency_s": 1.87,
+      "prompt_tokens": 1973
+    },
+    {
+      "n": 25,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The doorway with the massage table is slightly to my right and a few meters ahead. I'll turn right a bit, then advance toward it.",
+      "latency_s": 2.37,
+      "prompt_tokens": 1974
+    },
+    {
+      "n": 28,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the doorway with the massage table visible inside. I'll step forward through the doorway toward it.",
+      "latency_s": 1.84,
+      "prompt_tokens": 1975
+    },
+    {
+      "n": 29,
+      "actions": [
+        "STOP"
+      ],
+      "thought": "I have entered the room and am standing right next to the massage table, which is the destination described in the instruction.",
+      "latency_s": 1.56,
+      "prompt_tokens": 1975
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    7.748,
+    7.487,
+    7.228,
+    6.969,
+    6.711,
+    6.457,
+    6.209,
+    5.961,
+    5.713,
+    5.465,
+    5.217,
+    4.97,
+    4.722,
+    4.47,
+    4.218,
+    3.966,
+    3.717,
+    3.47,
+    3.224,
+    2.979,
+    2.736,
+    2.494,
+    2.244,
+    1.995,
+    1.745,
+    1.496,
+    1.276,
+    1.001
+  ],
+  "final_distance": 1.001,
+  "min_distance": 1.001,
+  "metrics": {
+    "distance_to_goal": 1.000647783279419,
+    "success": 1.0,
+    "spl": 1.0,
+    "oracle_success": 1.0,
+    "path_length": 6.920596212148666,
+    "steps_taken": 29.0
+  },
+  "success": true,
+  "backend_stats": {
+    "calls": 466,
+    "failures": 0,
+    "prompt_tokens": 917737,
+    "completion_tokens": 37674,
+    "reasoning_tokens": 12009,
+    "latency_s": 1021.7474954128265
+  },
+  "stop_deferrals": 0
+}

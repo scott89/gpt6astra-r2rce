@@ -1,0 +1,73 @@
+{
+  "episode_id": 1579,
+  "scene_id": "2azQ1b91cZZ",
+  "instruction": "Exit the room. Turn left then turn left again. Stand at the entrance.",
+  "actions_taken": 7,
+  "policy_calls": 3,
+  "api_latency_s": 7.79,
+  "prompt_tokens": 3704,
+  "completion_tokens": 364,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 7.83,
+  "steps": [
+    {
+      "n": 3,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a circular foyer with a large archway on the right leading out. I'll head through that arch, then make two left turns and stop at that entrance.",
+      "latency_s": 2.77,
+      "prompt_tokens": 876
+    },
+    {
+      "n": 4,
+      "actions": [
+        "TURN_LEFT"
+      ],
+      "thought": "I see a hallway with a clock alcove; the instruction says to turn left twice and stand at the entrance. I'll turn left first to see what lies in that direction.",
+      "latency_s": 2.37,
+      "prompt_tokens": 1232
+    },
+    {
+      "n": 7,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "STOP"
+      ],
+      "thought": "I appear to be in the open hallway/foyer already, with the clock alcove ahead. The instruction's turns likely place me facing the entrance area; I will turn left twice and then stop here.",
+      "latency_s": 2.65,
+      "prompt_tokens": 1596
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    8.173,
+    8.173,
+    7.931,
+    7.69
+  ],
+  "final_distance": 7.69,
+  "min_distance": 7.69,
+  "metrics": {
+    "distance_to_goal": 7.690290451049805,
+    "success": 0.0,
+    "spl": 0.0,
+    "oracle_success": 0.0,
+    "path_length": 0.5000011920928955,
+    "steps_taken": 7.0
+  },
+  "success": false,
+  "backend_stats": {
+    "calls": 884,
+    "failures": 0,
+    "prompt_tokens": 1796271,
+    "completion_tokens": 69062,
+    "reasoning_tokens": 22533,
+    "latency_s": 1965.6917476654053
+  },
+  "stop_deferrals": 0
+}

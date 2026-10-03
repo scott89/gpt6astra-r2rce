@@ -1,0 +1,240 @@
+{
+  "episode_id": 1010,
+  "scene_id": "TbHJrupSAjP",
+  "instruction": "Exit the bedroom. Go to the next bedroom on the left. Go to the foot of the bed. Go into the closet across from the blue bed.",
+  "actions_taken": 47,
+  "policy_calls": 16,
+  "api_latency_s": 33.49,
+  "prompt_tokens": 29479,
+  "completion_tokens": 1235,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 33.78,
+  "steps": [
+    {
+      "n": 6,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in a bedroom facing the bed. I need to exit, so I should turn around to find the door.",
+      "latency_s": 1.56,
+      "prompt_tokens": 891
+    },
+    {
+      "n": 9,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hallway after exiting the first bedroom. I need to move forward down the hallway to find the next bedroom on the left.",
+      "latency_s": 2.01,
+      "prompt_tokens": 1247
+    },
+    {
+      "n": 11,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hallway after exiting the first bedroom. I need to proceed down the hallway to find the next bedroom on the left; the open doorway ahead leads further in.",
+      "latency_s": 1.93,
+      "prompt_tokens": 1611
+    },
+    {
+      "n": 14,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hallway; the next bedroom should be a doorway on the left ahead. I'll advance toward the open doorway visible on the left.",
+      "latency_s": 2.16,
+      "prompt_tokens": 1975
+    },
+    {
+      "n": 17,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hallway facing a wall; a bedroom doorway is visible ahead-left. I should turn left to proceed down the hallway toward the next bedroom on the left.",
+      "latency_s": 2.23,
+      "prompt_tokens": 1974
+    },
+    {
+      "n": 20,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hallway; a bedroom with a bed is visible through the doorway ahead. I'll advance toward that doorway.",
+      "latency_s": 1.83,
+      "prompt_tokens": 1976
+    },
+    {
+      "n": 23,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hallway facing a doorway that opens into a bedroom with a bed visible. I'll move forward through the doorway to enter that bedroom.",
+      "latency_s": 2.6,
+      "prompt_tokens": 1975
+    },
+    {
+      "n": 26,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hallway; the open doorway ahead shows a bedroom with a bed. I'll move forward through that doorway to enter the next bedroom.",
+      "latency_s": 1.89,
+      "prompt_tokens": 1977
+    },
+    {
+      "n": 28,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm facing a wall next to the open doorway leading into the bedroom. I need to turn left to align with the doorway before moving through it.",
+      "latency_s": 2.13,
+      "prompt_tokens": 1977
+    },
+    {
+      "n": 31,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm pressed against a white door/wall and can't see the path. I need to turn right to face back down the hallway toward the bedroom with the dark bed frame visible earlier.",
+      "latency_s": 1.91,
+      "prompt_tokens": 1978
+    },
+    {
+      "n": 33,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in a hallway facing a partially open door with dark furniture beyond. The instruction says the next bedroom is on the left, so I should turn left to scan for another doorway.",
+      "latency_s": 2.09,
+      "prompt_tokens": 1980
+    },
+    {
+      "n": 36,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a wall with a doorway visible on the right leading into a room with dark furniture (possibly the closet/bedroom). I'll turn right and approach the doorway.",
+      "latency_s": 2.2,
+      "prompt_tokens": 1981
+    },
+    {
+      "n": 40,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the doorway of the bedroom with the blue bed. I'll enter and head toward the foot of the bed first.",
+      "latency_s": 2.38,
+      "prompt_tokens": 1983
+    },
+    {
+      "n": 43,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm now in the second bedroom with the blue bed. The instruction says go to the foot of the bed, then into the closet across from the blue bed. I'll advance toward the foot of the bed area first.",
+      "latency_s": 2.42,
+      "prompt_tokens": 1984
+    },
+    {
+      "n": 46,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm at the foot of the blue bed. The closet should be across from the bed, so I'll turn right to scan for it.",
+      "latency_s": 2.0,
+      "prompt_tokens": 1984
+    },
+    {
+      "n": 47,
+      "actions": [
+        "STOP"
+      ],
+      "thought": "I have reached the foot of the blue bed and am facing the shelving/closet unit across from it. The goal location appears reached.",
+      "latency_s": 2.15,
+      "prompt_tokens": 1986
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    7.191,
+    7.192,
+    6.95,
+    6.71,
+    6.472,
+    6.234,
+    6.0,
+    5.767,
+    5.539,
+    5.329,
+    5.086,
+    4.845,
+    4.57,
+    4.323,
+    4.072,
+    3.821,
+    3.572,
+    3.327,
+    3.086,
+    2.856,
+    2.611,
+    2.309,
+    2.164,
+    2.093,
+    2.066,
+    2.068,
+    2.107
+  ],
+  "final_distance": 2.107,
+  "min_distance": 2.066,
+  "metrics": {
+    "distance_to_goal": 2.1073567867279053,
+    "success": 1.0,
+    "spl": 1.0,
+    "oracle_success": 1.0,
+    "path_length": 6.355599507689476,
+    "steps_taken": 47.0
+  },
+  "success": true,
+  "backend_stats": {
+    "calls": 631,
+    "failures": 0,
+    "prompt_tokens": 1266843,
+    "completion_tokens": 55132,
+    "reasoning_tokens": 20401,
+    "latency_s": 1415.1156477928162
+  },
+  "stop_deferrals": 0
+}

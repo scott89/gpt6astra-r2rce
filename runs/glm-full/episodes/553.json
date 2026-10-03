@@ -1,0 +1,418 @@
+{
+  "episode_id": 553,
+  "scene_id": "x8F5xyUWy9e",
+  "instruction": "Walk up the three steps, and go straight towards the room that is ahead of you that has a massage bed visible. Enter the room, and stop in front of the massage bed.",
+  "actions_taken": 89,
+  "policy_calls": 28,
+  "api_latency_s": 61.74,
+  "prompt_tokens": 53520,
+  "completion_tokens": 2183,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 62.23,
+  "steps": [
+    {
+      "n": 2,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I see a doorway to the left with a bluish room beyond; I need to orient toward it and find the steps. First I'll turn left to look through the opening.",
+      "latency_s": 1.59,
+      "prompt_tokens": 897
+    },
+    {
+      "n": 3,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "I see a pool room with a lounge chair on the left; the massage bed may be further left. I should look down to locate the three steps before moving.",
+      "latency_s": 2.13,
+      "prompt_tokens": 1252
+    },
+    {
+      "n": 6,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I see three steps leading up into the pool room ahead. I'll walk up the steps and move forward into the room.",
+      "latency_s": 1.58,
+      "prompt_tokens": 1616
+    },
+    {
+      "n": 9,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've ascended the steps into a pool room. The instruction says to head straight toward the room ahead with a massage bed; I should advance into this space and look for the massage bed, possibly near the lounge chair on the left.",
+      "latency_s": 3.42,
+      "prompt_tokens": 1980
+    },
+    {
+      "n": 11,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've climbed the steps and am now in a pool area, but the instruction points to a room ahead with a massage bed. I need to scan for a doorway leading to that room; I'll turn right to check that side first.",
+      "latency_s": 2.59,
+      "prompt_tokens": 1980
+    },
+    {
+      "n": 13,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in the pool room; the massage bed is likely the dark furniture at the right edge. I'll turn right to face it before moving.",
+      "latency_s": 2.22,
+      "prompt_tokens": 1981
+    },
+    {
+      "n": 16,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I see a doorway ahead past the chairs; the massage room should be through it. I'll advance toward it and re-observe.",
+      "latency_s": 1.94,
+      "prompt_tokens": 1982
+    },
+    {
+      "n": 19,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the pool room; ahead is a doorway leading to another room, likely the one with the massage bed. I'll advance toward it and re-observe.",
+      "latency_s": 2.45,
+      "prompt_tokens": 1983
+    },
+    {
+      "n": 22,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a pool room; the doorway ahead leads onward. I'll continue forward through the open doorway to find the massage bed room.",
+      "latency_s": 1.7,
+      "prompt_tokens": 1983
+    },
+    {
+      "n": 26,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a pool room; the doorway ahead leads onward. I'll keep moving forward through it to find the massage bed room.",
+      "latency_s": 2.09,
+      "prompt_tokens": 1984
+    },
+    {
+      "n": 29,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a doorway ahead; the massage bed room should be beyond it. Move forward through the opening.",
+      "latency_s": 1.98,
+      "prompt_tokens": 1985
+    },
+    {
+      "n": 32,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the top of the steps facing a doorway leading to a wood-floored room ahead. I'll advance through the doorway and look for the massage bed.",
+      "latency_s": 2.33,
+      "prompt_tokens": 1984
+    },
+    {
+      "n": 36,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've walked up the steps and now face a slatted wooden doorway leading to a warmly lit room. I should turn slightly right to align with the opening and move forward into it.",
+      "latency_s": 2.31,
+      "prompt_tokens": 1986
+    },
+    {
+      "n": 39,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wooden slat partition too closely; the open room with the massage bed appeared to my right in earlier frames. I'll turn right to re-aim toward that room.",
+      "latency_s": 1.92,
+      "prompt_tokens": 1987
+    },
+    {
+      "n": 43,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to be facing a wall/corner after climbing the steps, not the open room. I need to turn to find the passage toward the massage bed room.",
+      "latency_s": 2.1,
+      "prompt_tokens": 1989
+    },
+    {
+      "n": 46,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall corner; a doorway is visible to the right. I'll turn right to reorient toward the open passage.",
+      "latency_s": 2.22,
+      "prompt_tokens": 1991
+    },
+    {
+      "n": 49,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the top of the steps facing a hallway. I need to move forward and look for the room with the massage bed, likely one of the doorways ahead.",
+      "latency_s": 2.14,
+      "prompt_tokens": 1992
+    },
+    {
+      "n": 52,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hallway with a doorway on the left ahead; I should proceed forward and check rooms for the massage bed.",
+      "latency_s": 2.1,
+      "prompt_tokens": 1993
+    },
+    {
+      "n": 56,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at a doorway with a padded table (massage bed) visible ahead in the room. I'll advance toward it and stop in front of it.",
+      "latency_s": 2.3,
+      "prompt_tokens": 1993
+    },
+    {
+      "n": 59,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've drifted too close to the wall and chairs on the left; the open floor is to the right. I'll turn right to face the open room and move forward.",
+      "latency_s": 2.48,
+      "prompt_tokens": 1994
+    },
+    {
+      "n": 63,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm pressed against a row of chairs next to a wall; the open room with lounge chairs is ahead-right. I'll turn right to clear the chairs and then advance into the room.",
+      "latency_s": 2.18,
+      "prompt_tokens": 1996
+    },
+    {
+      "n": 66,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the room with massage beds (loungers) ahead to the right. I'll move forward toward them.",
+      "latency_s": 1.72,
+      "prompt_tokens": 1997
+    },
+    {
+      "n": 70,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in an open spa area; the reclined loungers ahead look like the massage beds. I'll advance toward them and stop in front.",
+      "latency_s": 2.75,
+      "prompt_tokens": 1997
+    },
+    {
+      "n": 73,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've ascended the steps and am now in a spa area with lounge chairs. The instruction points to a room ahead with a massage bed; there's a doorway ahead past the chairs, so I'll advance toward it.",
+      "latency_s": 2.42,
+      "prompt_tokens": 1997
+    },
+    {
+      "n": 76,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm past the steps, moving through a spa area with lounge chairs. The room ahead through the doorway likely holds the massage bed, so I'll advance toward it and re-observe.",
+      "latency_s": 2.1,
+      "prompt_tokens": 1999
+    },
+    {
+      "n": 81,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The massage beds (loungers) are visible ahead on the right side of this room. I'll advance toward them, steering slightly right to approach the nearest bed.",
+      "latency_s": 2.48,
+      "prompt_tokens": 1998
+    },
+    {
+      "n": 86,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The massage/lounge beds are visible ahead on the right side of the room. I'll advance toward them, steering slightly right around the chairs.",
+      "latency_s": 1.9,
+      "prompt_tokens": 2001
+    },
+    {
+      "n": 89,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "STOP"
+      ],
+      "thought": "I'm already in the room with the massage/lounge beds, close to them. I'll take a couple of steps forward toward the beds and then stop.",
+      "latency_s": 2.6,
+      "prompt_tokens": 2003
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    6.051,
+    6.051,
+    6.277,
+    6.505,
+    6.738,
+    6.979,
+    7.292,
+    7.541,
+    7.757,
+    7.988,
+    8.235,
+    8.484,
+    8.734,
+    8.984,
+    9.233,
+    9.483,
+    9.733,
+    9.983,
+    10.233,
+    10.483,
+    10.733,
+    10.983,
+    11.233,
+    11.483,
+    11.732,
+    11.963,
+    12.195,
+    12.438,
+    12.681,
+    12.853,
+    12.617,
+    12.383,
+    12.153,
+    11.93,
+    11.663,
+    11.45,
+    11.252,
+    11.08,
+    10.961,
+    10.881,
+    10.796,
+    10.671,
+    10.546,
+    10.421,
+    10.105,
+    9.879,
+    9.661,
+    9.452,
+    9.255,
+    9.009,
+    8.855,
+    8.733,
+    8.652,
+    8.621,
+    8.614,
+    8.667,
+    8.705,
+    8.801,
+    8.902,
+    9.063,
+    9.228,
+    9.397,
+    9.571,
+    9.785,
+    10.033,
+    10.282,
+    10.532
+  ],
+  "final_distance": 10.532,
+  "min_distance": 6.051,
+  "metrics": {
+    "distance_to_goal": 10.53177547454834,
+    "success": 0.0,
+    "spl": 0.0,
+    "oracle_success": 0.0,
+    "path_length": 15.887572720646858,
+    "steps_taken": 89.0
+  },
+  "success": false,
+  "backend_stats": {
+    "calls": 731,
+    "failures": 0,
+    "prompt_tokens": 1454349,
+    "completion_tokens": 62656,
+    "reasoning_tokens": 21536,
+    "latency_s": 1638.887268781662
+  },
+  "stop_deferrals": 0
+}

@@ -1,0 +1,122 @@
+{
+  "episode_id": 10,
+  "scene_id": "2azQ1b91cZZ",
+  "instruction": "Walk into the living room and keep walking straight past the living room. Then walk into the entrance under the balcony. Wait in the entrance to the other room.",
+  "actions_taken": 19,
+  "policy_calls": 6,
+  "api_latency_s": 12.37,
+  "prompt_tokens": 9726,
+  "completion_tokens": 403,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 12.49,
+  "steps": [
+    {
+      "n": 4,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the living room; the arched entrance under the balcony is straight ahead. I'll walk toward it.",
+      "latency_s": 1.7,
+      "prompt_tokens": 892
+    },
+    {
+      "n": 8,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the living room facing the arched entrance under the balcony. I'll walk straight toward it.",
+      "latency_s": 2.69,
+      "prompt_tokens": 1247
+    },
+    {
+      "n": 12,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the living room facing the arched entrance under the balcony. I'll walk straight toward it.",
+      "latency_s": 1.76,
+      "prompt_tokens": 1610
+    },
+    {
+      "n": 16,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm aligned with the arched entrance under the balcony ahead. I'll advance through it and then wait in the entrance.",
+      "latency_s": 2.15,
+      "prompt_tokens": 1974
+    },
+    {
+      "n": 18,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_UP"
+      ],
+      "thought": "I have crossed the living room and reached the arched entrance under the balcony leading to the next room. I'll step into the entrance and stop there.",
+      "latency_s": 2.19,
+      "prompt_tokens": 1974
+    },
+    {
+      "n": 19,
+      "actions": [
+        "STOP"
+      ],
+      "thought": "I have walked through the living room and now stand at the arched entrance under the balcony leading to the next room, which matches the instruction's endpoint. I will stop here.",
+      "latency_s": 1.88,
+      "prompt_tokens": 2029
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    7.113,
+    6.863,
+    6.613,
+    6.363,
+    6.113,
+    5.863,
+    5.613,
+    5.363,
+    5.113,
+    4.863,
+    4.613,
+    4.363,
+    4.113,
+    3.863,
+    3.613,
+    3.363,
+    3.113
+  ],
+  "final_distance": 3.113,
+  "min_distance": 3.113,
+  "metrics": {
+    "distance_to_goal": 3.1130216121673584,
+    "success": 0.0,
+    "spl": 0.0,
+    "oracle_success": 0.0,
+    "path_length": 4.0,
+    "steps_taken": 19.0
+  },
+  "success": false,
+  "backend_stats": {
+    "calls": 84,
+    "failures": 0,
+    "prompt_tokens": 161456,
+    "completion_tokens": 6508,
+    "reasoning_tokens": 1974,
+    "latency_s": 188.13043880462646
+  },
+  "stop_deferrals": 1
+}

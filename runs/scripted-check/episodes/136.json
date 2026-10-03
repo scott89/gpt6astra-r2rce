@@ -1,0 +1,156 @@
+{
+  "episode_id": 136,
+  "scene_id": "zsNo4HB9uLZ",
+  "instruction": "Turn left and head towards the hall way. Continue straight until the door is in your path.",
+  "actions_taken": 40,
+  "policy_calls": 11,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 0.03,
+  "steps": [
+    {
+      "n": 4,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "scripted"
+    },
+    {
+      "n": 8,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "scripted"
+    },
+    {
+      "n": 12,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "scripted"
+    },
+    {
+      "n": 16,
+      "actions": [
+        "MOVE_FORWARD",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "scripted"
+    },
+    {
+      "n": 20,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_LEFT",
+        "TURN_RIGHT"
+      ],
+      "thought": "scripted"
+    },
+    {
+      "n": 24,
+      "actions": [
+        "MOVE_FORWARD",
+        "TURN_LEFT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "scripted"
+    },
+    {
+      "n": 28,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "scripted"
+    },
+    {
+      "n": 32,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "TURN_RIGHT"
+      ],
+      "thought": "scripted"
+    },
+    {
+      "n": 36,
+      "actions": [
+        "MOVE_FORWARD",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "scripted"
+    },
+    {
+      "n": 39,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "TURN_LEFT"
+      ],
+      "thought": "scripted"
+    },
+    {
+      "n": 40,
+      "actions": [
+        "STOP"
+      ],
+      "thought": "scripted"
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    8.184,
+    8.184,
+    7.97,
+    7.758,
+    7.549,
+    7.342,
+    7.101,
+    6.86,
+    6.629,
+    6.431,
+    6.233,
+    5.981,
+    5.738,
+    5.549,
+    5.359,
+    5.17,
+    5.0,
+    4.828,
+    4.656,
+    4.597,
+    4.602,
+    4.543,
+    4.484,
+    4.364
+  ],
+  "final_distance": 4.364,
+  "min_distance": 4.364,
+  "metrics": {
+    "distance_to_goal": 4.363979339599609,
+    "success": 0.0,
+    "spl": 0.0,
+    "oracle_success": 0.0,
+    "path_length": 4.0161260440945625,
+    "steps_taken": 40.0
+  },
+  "success": false
+}

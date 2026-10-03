@@ -1,0 +1,1751 @@
+{
+  "episode_id": 625,
+  "scene_id": "Z6MFQCViBuw",
+  "instruction": "Wall through the room to the next set of doors. You will see a gray plaque saying \"SALA XVI\" on the floor to your left. If you don't, you went the wrong way. Turn around and go the correct way.",
+  "actions_taken": 406,
+  "policy_calls": 127,
+  "api_latency_s": 300.47,
+  "prompt_tokens": 257735,
+  "completion_tokens": 10979,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 303.06,
+  "steps": [
+    {
+      "n": 3,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in an ornate room with a red carpet leading to a doorway ahead. I'll advance along the carpet toward the next set of doors, watching for the 'SALA XVI' plaque on the floor to my left.",
+      "latency_s": 2.1,
+      "prompt_tokens": 909
+    },
+    {
+      "n": 6,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a doorway across the room along a red carpet. I'll advance toward it, then look down/left for the 'SALA XVI' plaque.",
+      "latency_s": 2.04,
+      "prompt_tokens": 1264
+    },
+    {
+      "n": 9,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I see a gray plaque on the floor to my left, confirming I'm heading the right way toward the doorway ahead. I'll continue forward along the carpet toward the doors.",
+      "latency_s": 2.67,
+      "prompt_tokens": 1627
+    },
+    {
+      "n": 12,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm crossing the room toward the doorway ahead; the gray plaque should appear on the floor to my left as I approach. Continue forward and re-observe.",
+      "latency_s": 2.43,
+      "prompt_tokens": 1991
+    },
+    {
+      "n": 15,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a doorway ahead across the room; I should walk toward it while watching for the gray 'SALA XVI' plaque on the floor to my left.",
+      "latency_s": 1.85,
+      "prompt_tokens": 1991
+    },
+    {
+      "n": 20,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "LOOK_DOWN"
+      ],
+      "thought": "I'm facing a doorway straight ahead; I should walk through it and then look for the gray 'SALA XVI' plaque on the floor to my left.",
+      "latency_s": 1.94,
+      "prompt_tokens": 1992
+    },
+    {
+      "n": 23,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm moving along the red carpet toward the ornate doorway ahead; the next set of doors should be beyond it. Continue forward, checking alignment.",
+      "latency_s": 1.9,
+      "prompt_tokens": 1992
+    },
+    {
+      "n": 26,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet heading toward the next doorway ahead. Continue forward through the opening to reach the next set of doors, then check the floor to the left for the 'SALA XVI' plaque.",
+      "latency_s": 2.32,
+      "prompt_tokens": 1994
+    },
+    {
+      "n": 30,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "LOOK_DOWN"
+      ],
+      "thought": "I'm moving along the red carpet toward the next set of doors. I should keep advancing and then look down/left for the gray 'SALA XVI' plaque on the floor.",
+      "latency_s": 2.65,
+      "prompt_tokens": 1994
+    },
+    {
+      "n": 33,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm moving through a doorway onto a red carpet heading into the next room; I need to keep going and watch the floor to my left for the 'SALA XVI' plaque.",
+      "latency_s": 2.16,
+      "prompt_tokens": 1995
+    },
+    {
+      "n": 37,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "LOOK_DOWN"
+      ],
+      "thought": "I'm moving through a doorway along a red carpet. I should continue forward and then check the floor to my left for the 'SALA XVI' plaque.",
+      "latency_s": 2.5,
+      "prompt_tokens": 1996
+    },
+    {
+      "n": 41,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm passing through a doorway between ornate doors onto a red carpet. I should continue forward into the next room, then look left for the 'SALA XVI' plaque.",
+      "latency_s": 2.13,
+      "prompt_tokens": 1997
+    },
+    {
+      "n": 43,
+      "actions": [
+        "LOOK_UP",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The camera is pitched down at the floor; I should look up to see ahead, then continue through the doorway toward the next doors where the SALA XVI plaque should be.",
+      "latency_s": 2.2,
+      "prompt_tokens": 1999
+    },
+    {
+      "n": 44,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down and I can see a small gray plaque on the floor to my left, matching the 'SALA XVI' marker. I should look up to re-orient and confirm before stopping.",
+      "latency_s": 2.2,
+      "prompt_tokens": 2000
+    },
+    {
+      "n": 45,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I need to look up to see the room and the doors ahead. There appears to be a doorway to the left; I'll re-aim and check before moving.",
+      "latency_s": 2.04,
+      "prompt_tokens": 2001
+    },
+    {
+      "n": 46,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up; I need to look down to check the floor on my left for the gray 'SALA XVI' plaque before proceeding.",
+      "latency_s": 2.1,
+      "prompt_tokens": 2001
+    },
+    {
+      "n": 49,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I see a doorway ahead leading to another room; I should walk toward it and check the floor to my left for the 'SALA XVI' plaque.",
+      "latency_s": 2.1,
+      "prompt_tokens": 2002
+    },
+    {
+      "n": 53,
+      "actions": [
+        "LOOK_UP",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm pitched down at the floor; no gray plaque is visible here. There's an open doorway ahead-left leading to the next room, so I'll look up and head through it while watching the floor to my left for the plaque.",
+      "latency_s": 2.47,
+      "prompt_tokens": 2003
+    },
+    {
+      "n": 56,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at a corner with an open doorway ahead-left leading to the next room; I should advance through it and then look for the 'SALA XVI' plaque on the floor to my left.",
+      "latency_s": 2.52,
+      "prompt_tokens": 2005
+    },
+    {
+      "n": 59,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm facing a large cabinet corner; the room with doors is to my left. I'll turn left to scan for the doorway and the gray 'SALA XVI' plaque on the floor.",
+      "latency_s": 2.27,
+      "prompt_tokens": 2005
+    },
+    {
+      "n": 62,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at a doorway leading into the next room; I should walk through it and look for the 'SALA XVI' plaque on the floor to my left.",
+      "latency_s": 2.19,
+      "prompt_tokens": 2006
+    },
+    {
+      "n": 64,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at a doorway facing into a room with a table; a dark plaque lies on the floor ahead, likely the SALA XVI marker. I'll advance into the room and check for the plaque and the next doors.",
+      "latency_s": 2.54,
+      "prompt_tokens": 2007
+    },
+    {
+      "n": 67,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "A gray plaque lies on the floor ahead near the table, matching the instruction. I'll advance toward it.",
+      "latency_s": 2.44,
+      "prompt_tokens": 2008
+    },
+    {
+      "n": 69,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "A gray plaque lies on the floor ahead, matching the instruction's landmark. I'll advance toward it while keeping it in view.",
+      "latency_s": 2.04,
+      "prompt_tokens": 2007
+    },
+    {
+      "n": 75,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall up close, so I need to turn around and re-orient toward the room with the gray 'SALA XVI' plaque I saw earlier.",
+      "latency_s": 1.8,
+      "prompt_tokens": 2008
+    },
+    {
+      "n": 81,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to be facing a wall up close, likely having drifted off course. I should turn around to re-orient and look for the doorway and the 'SALA XVI' plaque.",
+      "latency_s": 2.49,
+      "prompt_tokens": 2011
+    },
+    {
+      "n": 84,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in an ornate room with a doorway ahead through which a red-carpeted hall continues. I should walk toward that next set of doors and watch the floor on my left for the gray 'SALA XVI' plaque.",
+      "latency_s": 2.85,
+      "prompt_tokens": 2014
+    },
+    {
+      "n": 88,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in an ornate room with several doorways. I should head toward the next set of doors and watch the floor on my left for the gray 'SALA XVI' plaque. The left doorway looks like the path forward.",
+      "latency_s": 3.4,
+      "prompt_tokens": 2015
+    },
+    {
+      "n": 92,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm facing a corner with a doorway on the left leading onward. I'll advance toward that doorway and then look for the 'SALA XVI' plaque on the floor to my left.",
+      "latency_s": 1.99,
+      "prompt_tokens": 2017
+    },
+    {
+      "n": 95,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a doorway leading to a red-walled room; the instruction says to walk through the room to the next set of doors and look for the 'SALA XVI' plaque on the floor to my left. I'll proceed through the doorway.",
+      "latency_s": 2.32,
+      "prompt_tokens": 2018
+    },
+    {
+      "n": 98,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing an open doorway leading to the next room; I should walk through it and look for the 'SALA XVI' plaque on the floor to my left.",
+      "latency_s": 2.1,
+      "prompt_tokens": 2019
+    },
+    {
+      "n": 101,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a wall corner with an open doorway to the left leading into the next room. I should turn slightly left to align with the doorway and proceed through it, watching for the 'SALA XVI' plaque on the floor to my left.",
+      "latency_s": 2.4,
+      "prompt_tokens": 2019
+    },
+    {
+      "n": 104,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing an open doorway leading into an ornate room; the path ahead is clear. I'll advance through the doorway and then look for the gray 'SALA XVI' plaque on the floor to my left.",
+      "latency_s": 2.07,
+      "prompt_tokens": 2021
+    },
+    {
+      "n": 107,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in an ornate room with a red carpet leading to a doorway ahead. I should advance along the carpet toward the next set of doors, watching for the gray 'SALA XVI' plaque on the floor to my left.",
+      "latency_s": 2.01,
+      "prompt_tokens": 2022
+    },
+    {
+      "n": 111,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in an ornate room with a red carpet leading to a doorway ahead. The instruction says to walk to the next set of doors and check for a 'SALA XVI' plaque on the floor to the left. I'll advance along the carpet toward the far doorway.",
+      "latency_s": 2.2,
+      "prompt_tokens": 2021
+    },
+    {
+      "n": 114,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in an ornate room with a red carpet leading to a doorway ahead. I'll advance along the carpet toward that doorway and watch the floor to my left for the 'SALA XVI' plaque.",
+      "latency_s": 2.29,
+      "prompt_tokens": 2022
+    },
+    {
+      "n": 117,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a doorway ahead across the red-carpeted room; I should walk toward it and check for the SALA XVI plaque on the floor to my left.",
+      "latency_s": 2.06,
+      "prompt_tokens": 2023
+    },
+    {
+      "n": 120,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a doorway ahead through which the path continues; I should advance toward it and check for the 'SALA XVI' plaque on the floor to my left after passing through.",
+      "latency_s": 2.44,
+      "prompt_tokens": 2023
+    },
+    {
+      "n": 122,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "There is a white/gray plaque lying on the floor slightly ahead and to the left, matching the instruction's landmark. I'll advance toward it to verify.",
+      "latency_s": 2.55,
+      "prompt_tokens": 2023
+    },
+    {
+      "n": 125,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a doorway leading to the next room; I should walk through it and look for the 'SALA XVI' plaque on the floor to my left.",
+      "latency_s": 1.79,
+      "prompt_tokens": 2024
+    },
+    {
+      "n": 128,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I see a doorway ahead leading to the next room; I should walk through it to find the 'SALA XVI' plaque on the floor to my left.",
+      "latency_s": 1.82,
+      "prompt_tokens": 2024
+    },
+    {
+      "n": 131,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a wall with a cabinet; the doorway with the red carpet is to my right. I need to head through it toward the next doors, watching the floor on my left for the 'SALA XVI' plaque.",
+      "latency_s": 2.85,
+      "prompt_tokens": 2025
+    },
+    {
+      "n": 134,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a doorway leading to the next room with red carpet; I should proceed through it to find the 'SALA XVI' plaque on the floor to my left.",
+      "latency_s": 2.1,
+      "prompt_tokens": 2026
+    },
+    {
+      "n": 137,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall corner too closely; the open doorway to the next room is to my right. I'll turn right to re-aim before moving.",
+      "latency_s": 1.93,
+      "prompt_tokens": 2027
+    },
+    {
+      "n": 140,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing an open doorway leading to the next room; I should move forward through it to reach the next set of doors and look for the 'SALA XVI' plaque on the floor to my left.",
+      "latency_s": 2.41,
+      "prompt_tokens": 2029
+    },
+    {
+      "n": 142,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a doorway leading into the next room with the display wall. I'll step forward through it and then look for the 'SALA XVI' plaque on the floor to my left.",
+      "latency_s": 2.51,
+      "prompt_tokens": 2029
+    },
+    {
+      "n": 145,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing an open doorway leading to the next room with the display wall. I'll advance through the doorway and look for the 'SALA XVI' plaque on the floor to my left.",
+      "latency_s": 2.29,
+      "prompt_tokens": 2031
+    },
+    {
+      "n": 148,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm right at a large wooden doorway leading to the next room. I should turn slightly left to align with the opening and step through, then look for the 'SALA XVI' plaque on the floor to my left.",
+      "latency_s": 2.58,
+      "prompt_tokens": 2030
+    },
+    {
+      "n": 151,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm right at a large wooden door with a room beyond (red walls, display cases). I should pass through the doorway and then check the floor to my left for the 'SALA XVI' plaque.",
+      "latency_s": 3.6,
+      "prompt_tokens": 2032
+    },
+    {
+      "n": 157,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm pressed against a wooden door/wall; the open room with the red carpet is to my left. I should turn left to face the room and move away from the obstruction.",
+      "latency_s": 2.72,
+      "prompt_tokens": 2034
+    },
+    {
+      "n": 161,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm beside a wooden wall edge with the red-carpeted room ahead. I should move into the room and head toward the archway/doors, watching the floor to my left for the 'SALA XVI' plaque.",
+      "latency_s": 2.91,
+      "prompt_tokens": 2036
+    },
+    {
+      "n": 164,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a red-walled hall with an arched doorway ahead. I should proceed through the archway toward the next set of doors, watching for the gray 'SALA XVI' plaque on the floor to my left.",
+      "latency_s": 2.34,
+      "prompt_tokens": 2037
+    },
+    {
+      "n": 168,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a red-walled hall with an arched doorway ahead. The instruction says to walk through the room toward the next set of doors and check for a 'SALA XVI' plaque on the floor to the left. I'll advance toward the archway and then look down/left for the plaque.",
+      "latency_s": 2.65,
+      "prompt_tokens": 2037
+    },
+    {
+      "n": 172,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a wall with a window and chair; the archway to the next room is ahead-right. I'll advance toward the archway and then check the floor on my left for the SALA XVI plaque.",
+      "latency_s": 2.77,
+      "prompt_tokens": 2038
+    },
+    {
+      "n": 175,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm beside a chair with an arched doorway ahead leading to another red room. I should continue forward through the arch toward the next set of doors, watching the floor on my left for the SALA XVI plaque.",
+      "latency_s": 2.51,
+      "prompt_tokens": 2040
+    },
+    {
+      "n": 178,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm pressed against a chair; the archway ahead leads onward. I'll sidestep right around the chair and re-observe.",
+      "latency_s": 2.24,
+      "prompt_tokens": 2040
+    },
+    {
+      "n": 183,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a chair against the wall; the corridor with the red carpet and the next doorway is to my right. I'll turn right and proceed along the carpet toward the next set of doors, watching for the 'SALA XVI' plaque on the floor to my left.",
+      "latency_s": 2.96,
+      "prompt_tokens": 2042
+    },
+    {
+      "n": 186,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a red-walled room with a red carpet leading toward a doorway ahead past the large display panel. I should follow the carpet forward toward the next set of doors and watch for the 'SALA XVI' plaque on the floor to my left.",
+      "latency_s": 2.04,
+      "prompt_tokens": 2044
+    },
+    {
+      "n": 189,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a red room facing a doorway with a white curtain ahead; the large panel on the right blocks that side. I should continue forward along the carpet toward the doorway, watching the floor to my left for the SALA XVI plaque.",
+      "latency_s": 2.7,
+      "prompt_tokens": 2044
+    },
+    {
+      "n": 194,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "A large partition blocks the path ahead; the room continues around it. I'll turn left to skirt the partition's left edge and continue toward the next doors.",
+      "latency_s": 2.55,
+      "prompt_tokens": 2045
+    },
+    {
+      "n": 197,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in a red-walled room with chairs and a painting; I need to find the next set of doors and check for the 'SALA XVI' plaque on the floor to my left. I'll turn left to scan the room.",
+      "latency_s": 2.58,
+      "prompt_tokens": 2048
+    },
+    {
+      "n": 198,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "I see a dark plaque on the floor ahead; I should look down to check whether it is the gray 'SALA XVI' plaque before proceeding.",
+      "latency_s": 2.17,
+      "prompt_tokens": 2049
+    },
+    {
+      "n": 202,
+      "actions": [
+        "LOOK_UP",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "The camera is pitched down at the floor; I need to look up and scan left for the gray 'SALA XVI' plaque on the floor.",
+      "latency_s": 2.13,
+      "prompt_tokens": 2049
+    },
+    {
+      "n": 205,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in a pink-walled room; I need to find the next set of doors and check for the 'SALA XVI' plaque on the floor to my left. I'll turn left to scan the room.",
+      "latency_s": 2.16,
+      "prompt_tokens": 2051
+    },
+    {
+      "n": 207,
+      "actions": [
+        "TURN_LEFT",
+        "LOOK_DOWN"
+      ],
+      "thought": "I'm in a red-walled room and need to find the gray 'SALA XVI' plaque on the floor to my left. I'll turn left and look down to scan the floor for it.",
+      "latency_s": 2.56,
+      "prompt_tokens": 2051
+    },
+    {
+      "n": 210,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a red carpet leading toward a doorway with chairs beside it. I'll advance along the carpet toward the doors and watch the floor on my left for the 'SALA XVI' plaque.",
+      "latency_s": 2.59,
+      "prompt_tokens": 2052
+    },
+    {
+      "n": 214,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "LOOK_DOWN"
+      ],
+      "thought": "I'm in a red-walled room with chairs ahead and a doorway to the next room on the left. I should advance toward the chairs and then look for the 'SALA XVI' plaque on the floor to my left.",
+      "latency_s": 2.64,
+      "prompt_tokens": 2052
+    },
+    {
+      "n": 215,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the carpet; I need to look up to re-orient and find the next set of doors ahead.",
+      "latency_s": 1.72,
+      "prompt_tokens": 2054
+    },
+    {
+      "n": 219,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "LOOK_DOWN"
+      ],
+      "thought": "I'm in a room with ornate chairs ahead; the instruction says to walk toward the next set of doors and check the floor on my left for the 'SALA XVI' plaque. I'll advance toward the chairs and then look left.",
+      "latency_s": 2.52,
+      "prompt_tokens": 2054
+    },
+    {
+      "n": 220,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I need to look up to see the room and locate the doors and the 'SALA XVI' plaque.",
+      "latency_s": 1.7,
+      "prompt_tokens": 2058
+    },
+    {
+      "n": 224,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a wall with two chairs; a doorway is visible to the left. I should turn left toward that doorway and proceed, watching the floor for the 'SALA XVI' plaque.",
+      "latency_s": 2.54,
+      "prompt_tokens": 2056
+    },
+    {
+      "n": 227,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a gallery with a red carpet leading toward an open doorway ahead. I should advance along the carpet toward the next set of doors and watch the floor on my left for the SALA XVI plaque.",
+      "latency_s": 2.7,
+      "prompt_tokens": 2060
+    },
+    {
+      "n": 232,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing chairs against a wall; the open doorway with the next room is to my left. I should turn left and head through the doorway, watching the floor on my left for the 'SALA XVI' plaque.",
+      "latency_s": 2.57,
+      "prompt_tokens": 2061
+    },
+    {
+      "n": 236,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I turned around and now face down the red-carpeted gallery toward a distant doorway. I should advance along the carpet, checking for the 'SALA XVI' plaque on the floor to my left.",
+      "latency_s": 4.19,
+      "prompt_tokens": 2061
+    },
+    {
+      "n": 239,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The red carpet leads toward a doorway ahead; I should follow it toward the next set of doors and watch the floor on my left for the 'SALA XVI' plaque.",
+      "latency_s": 2.47,
+      "prompt_tokens": 2062
+    },
+    {
+      "n": 243,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet heading toward the doorway ahead; the plaque should be on the floor to my left as I approach the next doors. Continue forward along the carpet.",
+      "latency_s": 2.59,
+      "prompt_tokens": 2064
+    },
+    {
+      "n": 246,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on a red carpet heading toward a doorway ahead; the gray 'SALA XVI' plaque should be on the floor to my left as I approach. Continue forward along the carpet.",
+      "latency_s": 1.82,
+      "prompt_tokens": 2065
+    },
+    {
+      "n": 249,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm moving along the red carpet toward the doorway ahead; the gray plaque should appear on the floor to my left as I approach the next set of doors. Continue forward and re-observe.",
+      "latency_s": 1.94,
+      "prompt_tokens": 2064
+    },
+    {
+      "n": 253,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm moving along the red carpet toward the doorway ahead; the gray plaque should appear on the floor to my left as I approach the next doors. Continue forward and re-observe.",
+      "latency_s": 2.13,
+      "prompt_tokens": 2066
+    },
+    {
+      "n": 256,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm moving along the red carpet toward the doorway ahead; the plaque should appear on the floor to my left as I approach the next doors.",
+      "latency_s": 1.83,
+      "prompt_tokens": 2066
+    },
+    {
+      "n": 259,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm following the red carpet toward the doorway ahead; the SALA XVI plaque should be on the floor to my left as I approach the next doors.",
+      "latency_s": 1.98,
+      "prompt_tokens": 2064
+    },
+    {
+      "n": 262,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm moving along the red carpet toward the doorway ahead; the plaque should appear on the floor to my left as I approach the next doors.",
+      "latency_s": 1.64,
+      "prompt_tokens": 2067
+    },
+    {
+      "n": 266,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm moving along the red carpet toward the doorway ahead; the gray 'SALA XVI' plaque should be on the floor to my left as I approach the next doors. Continue forward and re-observe.",
+      "latency_s": 1.94,
+      "prompt_tokens": 2066
+    },
+    {
+      "n": 269,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm following the red carpet toward the doorway ahead; the gray 'SALA XVI' plaque should be on the floor to my left as I approach the next doors.",
+      "latency_s": 1.77,
+      "prompt_tokens": 2067
+    },
+    {
+      "n": 272,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm moving along the red carpet toward the doorway ahead; the plaque should be on the floor to my left once through. Keep advancing carefully.",
+      "latency_s": 2.04,
+      "prompt_tokens": 2068
+    },
+    {
+      "n": 275,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on a red carpet heading toward the next doorway; the gray 'SALA XVI' plaque should be on the floor to my left as I approach. Continue forward a few steps and re-observe.",
+      "latency_s": 2.21,
+      "prompt_tokens": 2067
+    },
+    {
+      "n": 278,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm moving along the red carpet toward the next doorway ahead; the path is clear, so I'll advance a few steps and re-observe.",
+      "latency_s": 1.93,
+      "prompt_tokens": 2068
+    },
+    {
+      "n": 283,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "LOOK_DOWN"
+      ],
+      "thought": "I'm facing a red-carpeted path leading through a doorway into the next room. I'll advance along the carpet and then look down-left for the 'SALA XVI' plaque.",
+      "latency_s": 2.32,
+      "prompt_tokens": 2067
+    },
+    {
+      "n": 285,
+      "actions": [
+        "LOOK_UP",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The camera is pitched down at the carpet; I need to look up to see the room and doorway ahead, then continue forward toward the next doors while watching for the SALA XVI plaque on the left floor.",
+      "latency_s": 1.96,
+      "prompt_tokens": 2069
+    },
+    {
+      "n": 288,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a large pink-walled room with a red carpet leading toward doors at the far end. I should continue forward along the carpet and watch the floor to my left for the 'SALA XVI' plaque.",
+      "latency_s": 2.55,
+      "prompt_tokens": 2070
+    },
+    {
+      "n": 291,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a large room with a red carpet leading toward doors ahead. I'll advance along the carpet and look for the gray 'SALA XVI' plaque on the floor to my left.",
+      "latency_s": 1.99,
+      "prompt_tokens": 2070
+    },
+    {
+      "n": 294,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm moving through a large room with a red carpet toward the far end where doors appear. I should keep advancing while watching the floor to my left for the 'SALA XVI' plaque.",
+      "latency_s": 2.31,
+      "prompt_tokens": 2071
+    },
+    {
+      "n": 297,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a large room with a red carpet leading toward a cabinet and doors ahead. I should continue forward along the carpet toward the next set of doors, watching the floor to my left for the 'SALA XVI' plaque.",
+      "latency_s": 2.0,
+      "prompt_tokens": 2071
+    },
+    {
+      "n": 300,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm moving through a large room toward a doorway ahead; the instruction says to walk to the next set of doors and check for the 'SALA XVI' plaque on the floor to my left. I'll keep advancing along the carpet toward the opening.",
+      "latency_s": 2.1,
+      "prompt_tokens": 2072
+    },
+    {
+      "n": 303,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a long pink carpet leading toward a doorway past the cabinet. I'll advance along the carpet and check for the 'SALA XVI' plaque on the floor to my left as I go.",
+      "latency_s": 2.24,
+      "prompt_tokens": 2069
+    },
+    {
+      "n": 307,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "LOOK_DOWN"
+      ],
+      "thought": "I'm facing a set of doors ahead across the room. I should walk toward them and check the floor to my left for the 'SALA XVI' plaque.",
+      "latency_s": 2.48,
+      "prompt_tokens": 2072
+    },
+    {
+      "n": 311,
+      "actions": [
+        "LOOK_UP",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The camera is pitched down at the carpet; ahead there is a doorway and a cabinet. I should look up to re-orient, then proceed toward the doors while watching the floor to my left for the 'SALA XVI' plaque.",
+      "latency_s": 2.42,
+      "prompt_tokens": 2074
+    },
+    {
+      "n": 314,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a room with a cabinet ahead and an open doorway to the right. The instruction says to walk to the next set of doors and check for a 'SALA XVI' plaque on the floor to my left, so I'll head toward that open door.",
+      "latency_s": 2.69,
+      "prompt_tokens": 2075
+    },
+    {
+      "n": 317,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a room with a red carpet leading toward a doorway ahead-right. The instruction says to walk to the next set of doors and check for a 'SALA XVI' plaque on the floor to my left. I'll advance toward the visible doorway.",
+      "latency_s": 2.51,
+      "prompt_tokens": 2076
+    },
+    {
+      "n": 320,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "There is an open doorway ahead with what appears to be a plaque visible through it. I'll advance toward it to check for the 'SALA XVI' plaque on the floor to my left.",
+      "latency_s": 2.14,
+      "prompt_tokens": 2077
+    },
+    {
+      "n": 324,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "There appears to be a small plaque on the floor near the doorway ahead-right. I should approach it to check whether it reads 'SALA XVI'.",
+      "latency_s": 2.72,
+      "prompt_tokens": 2074
+    },
+    {
+      "n": 327,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "A small white/gray plaque is visible on the floor ahead to the right. I should approach it to verify whether it reads 'SALA XVI'.",
+      "latency_s": 2.61,
+      "prompt_tokens": 2078
+    },
+    {
+      "n": 330,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I see a dark doorway ahead between the wall and the open door; the instruction says to go through to the next doors and check for the 'SALA XVI' plaque on the floor to my left. I'll advance toward the doorway.",
+      "latency_s": 2.46,
+      "prompt_tokens": 2080
+    },
+    {
+      "n": 333,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at a doorway leading to another room with checkered floor. I should move forward through the doorway and then check the floor to my left for the SALA XVI plaque.",
+      "latency_s": 2.21,
+      "prompt_tokens": 2079
+    },
+    {
+      "n": 336,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm at a doorway leading from the red-carpet room into a tiled hallway. I should step forward through the doorway and then check the floor to my left for the SALA XVI plaque.",
+      "latency_s": 2.34,
+      "prompt_tokens": 2078
+    },
+    {
+      "n": 339,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've entered a corridor with patterned marble flooring. I should continue forward along it toward the next set of doors, watching the floor on my left for the SALA XVI plaque.",
+      "latency_s": 2.48,
+      "prompt_tokens": 2082
+    },
+    {
+      "n": 342,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a corridor with patterned marble floor heading toward a green door ahead. I should continue forward along the corridor to find the next set of doors and check for the 'SALA XVI' plaque on the floor to my left.",
+      "latency_s": 2.03,
+      "prompt_tokens": 2083
+    },
+    {
+      "n": 345,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm facing a wall/door too closely; the corridor continues to the left where the next set of doors should be. I'll turn left and re-observe before moving.",
+      "latency_s": 2.01,
+      "prompt_tokens": 2083
+    },
+    {
+      "n": 348,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in a large hall with a fountain ahead; I need to find the next set of doors and check for the 'SALA XVI' plaque on the floor to the left. I'll scan left first.",
+      "latency_s": 2.78,
+      "prompt_tokens": 2084
+    },
+    {
+      "n": 351,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm facing a wall corner; the room with doors and the floor plaque should be to my left. I'll turn left to re-orient and look for the 'SALA XVI' plaque near the doors.",
+      "latency_s": 2.73,
+      "prompt_tokens": 2085
+    },
+    {
+      "n": 353,
+      "actions": [
+        "TURN_LEFT",
+        "LOOK_DOWN"
+      ],
+      "thought": "I'm at a doorway with a red-floored room beyond. The instruction says the gray 'SALA XVI' plaque should be on the floor to my left, so I should check the floor to my left before proceeding.",
+      "latency_s": 2.5,
+      "prompt_tokens": 2086
+    },
+    {
+      "n": 356,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "LOOK_DOWN"
+      ],
+      "thought": "I'm looking down at the floor near a doorway with a red-carpeted area to the left. I need to search for the gray 'SALA XVI' plaque on the floor to my left, so I'll turn left and look down to scan the floor there.",
+      "latency_s": 3.02,
+      "prompt_tokens": 2087
+    },
+    {
+      "n": 357,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I need to look up to see the room and locate the 'SALA XVI' plaque to my left.",
+      "latency_s": 2.16,
+      "prompt_tokens": 2088
+    },
+    {
+      "n": 358,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I need to look up to see the room and locate the doors and the 'SALA XVI' plaque.",
+      "latency_s": 1.7,
+      "prompt_tokens": 2088
+    },
+    {
+      "n": 361,
+      "actions": [
+        "LOOK_UP",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a doorway into a red-floored room, camera pitched down. I should look up and proceed through the doorway to find the SALA XVI plaque.",
+      "latency_s": 1.89,
+      "prompt_tokens": 2089
+    },
+    {
+      "n": 364,
+      "actions": [
+        "LOOK_UP",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a doorway into a red-walled room; the camera is pitched down. I should look up and proceed through the doorway to find the 'SALA XVI' plaque on the floor to my left.",
+      "latency_s": 2.08,
+      "prompt_tokens": 2090
+    },
+    {
+      "n": 367,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at a doorway facing a red-walled room; I need to walk through it toward the next set of doors while watching the floor on my left for the SALA XVI plaque. Move forward through the opening first.",
+      "latency_s": 2.29,
+      "prompt_tokens": 2091
+    },
+    {
+      "n": 370,
+      "actions": [
+        "LOOK_DOWN",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at a doorway looking up at the ceiling; I need to look down and proceed through into the next room to find the SALA XVI plaque.",
+      "latency_s": 2.43,
+      "prompt_tokens": 2093
+    },
+    {
+      "n": 373,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a red-walled room with a doorway ahead-left. The instruction says to head to the next set of doors and check for the 'SALA XVI' plaque on the floor to the left. I'll advance toward the visible doorway and re-observe.",
+      "latency_s": 3.12,
+      "prompt_tokens": 2092
+    },
+    {
+      "n": 376,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I see a gray plaque standing on the floor ahead-right in this room. I should approach it to verify the 'SALA XVI' label before stopping.",
+      "latency_s": 2.53,
+      "prompt_tokens": 2095
+    },
+    {
+      "n": 384,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "The gray plaque is currently on my right, but the instruction says it should be on my left, so I'm facing the wrong way and must turn around. After turning, I'll head toward the doorway ahead with the plaque on my left.",
+      "latency_s": 5.6,
+      "prompt_tokens": 2094
+    },
+    {
+      "n": 392,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a cabinet against a wall; the room with doors is behind me. I'll turn around to re-aim at the open room and doorway.",
+      "latency_s": 2.82,
+      "prompt_tokens": 2098
+    },
+    {
+      "n": 395,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a pink-walled room with a doorway ahead framed by red curtains. I should walk toward that doorway while watching the floor on my left for the 'SALA XVI' plaque.",
+      "latency_s": 2.21,
+      "prompt_tokens": 2102
+    },
+    {
+      "n": 399,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I see a doorway ahead with a gray plaque on the floor beside it, matching the instruction's landmark. I'll advance toward it and check the plaque.",
+      "latency_s": 3.08,
+      "prompt_tokens": 2103
+    },
+    {
+      "n": 402,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_LEFT"
+      ],
+      "thought": "A gray plaque on a stand is visible ahead-left in this room; the instruction says the SALA XVI plaque should be on my left. I'll approach it to verify.",
+      "latency_s": 2.63,
+      "prompt_tokens": 2104
+    },
+    {
+      "n": 405,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "A gray plaque on a stand is visible ahead-left near the wall. I should approach it to check for 'SALA XVI'.",
+      "latency_s": 2.23,
+      "prompt_tokens": 2104
+    },
+    {
+      "n": 406,
+      "actions": [
+        "STOP"
+      ],
+      "thought": "I've reached the doorway with a gray plaque on a stand to my left, matching the instruction's landmark. This appears to be the target spot.",
+      "latency_s": 2.0,
+      "prompt_tokens": 2106
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    8.243,
+    7.993,
+    7.743,
+    7.493,
+    7.243,
+    6.993,
+    6.743,
+    6.493,
+    6.243,
+    5.993,
+    5.743,
+    5.493,
+    5.243,
+    4.993,
+    4.743,
+    4.493,
+    4.243,
+    3.993,
+    3.743,
+    3.493,
+    3.243,
+    2.993,
+    2.743,
+    2.493,
+    2.243,
+    1.993,
+    1.743,
+    1.493,
+    1.243,
+    0.993,
+    0.743,
+    0.493,
+    0.243,
+    0.01,
+    0.258,
+    0.508,
+    0.758,
+    1.008,
+    1.25,
+    1.496,
+    1.742,
+    1.99,
+    2.238,
+    2.487,
+    2.735,
+    2.987,
+    3.236,
+    3.485,
+    3.653,
+    3.83,
+    4.023,
+    4.211,
+    4.428,
+    4.755,
+    4.941,
+    5.155,
+    5.279,
+    5.041,
+    4.844,
+    4.562,
+    4.378,
+    4.196,
+    3.993,
+    3.859,
+    3.743,
+    3.641,
+    3.617,
+    3.611,
+    3.622,
+    3.651,
+    3.736,
+    4.023,
+    4.016,
+    4.096,
+    4.225,
+    4.385,
+    4.601,
+    4.843,
+    5.093,
+    5.345,
+    5.597,
+    5.845,
+    6.092,
+    6.341,
+    6.589,
+    6.838,
+    7.087,
+    7.336,
+    7.58,
+    7.829,
+    8.079,
+    8.329,
+    8.579,
+    8.829,
+    9.08,
+    9.33,
+    9.58,
+    9.831,
+    10.044,
+    10.105,
+    10.187,
+    10.457,
+    10.707,
+    10.957,
+    11.207,
+    11.457,
+    11.559,
+    11.661,
+    11.798,
+    11.942,
+    12.091,
+    12.246,
+    12.419,
+    12.583,
+    12.794,
+    13.007,
+    13.182,
+    13.36,
+    13.485,
+    13.616,
+    13.753,
+    13.88,
+    14.026,
+    14.204,
+    14.43,
+    14.668,
+    14.912,
+    15.158,
+    15.407,
+    15.656,
+    15.905,
+    16.155,
+    16.405,
+    16.654,
+    16.782,
+    16.782,
+    16.782,
+    16.914,
+    17.06,
+    17.218,
+    17.386,
+    17.563,
+    17.748,
+    17.94,
+    18.138,
+    18.341,
+    18.587,
+    18.834,
+    18.601,
+    18.37,
+    18.141,
+    17.914,
+    17.691,
+    17.47,
+    17.254,
+    17.043,
+    16.837,
+    16.59,
+    16.344,
+    16.099,
+    15.855,
+    15.736,
+    15.642,
+    15.579,
+    15.545,
+    15.521,
+    15.518,
+    15.506,
+    15.501,
+    15.502,
+    15.527,
+    15.585,
+    15.673,
+    15.787,
+    15.923,
+    16.078,
+    16.247,
+    16.43,
+    16.622,
+    16.824,
+    17.034,
+    17.251,
+    17.473,
+    17.7,
+    17.93,
+    18.163,
+    18.399,
+    18.636,
+    18.874,
+    19.114,
+    19.355,
+    19.596,
+    19.839,
+    20.082,
+    20.326,
+    20.571,
+    20.816,
+    21.062,
+    21.308,
+    21.555,
+    21.801,
+    22.048,
+    22.294,
+    22.541,
+    22.788,
+    23.035,
+    23.282,
+    23.529,
+    23.776,
+    24.023,
+    24.271,
+    24.519,
+    24.767,
+    25.015,
+    25.263,
+    25.512,
+    25.76,
+    26.009,
+    26.258,
+    26.508,
+    26.758,
+    27.007,
+    27.257,
+    27.507,
+    27.757,
+    28.007,
+    28.257,
+    28.507,
+    28.757,
+    29.007,
+    29.257,
+    29.507,
+    29.757,
+    30.007,
+    30.257,
+    30.507,
+    30.759,
+    31.012,
+    31.248,
+    31.49,
+    31.733,
+    31.975,
+    32.218,
+    32.462,
+    32.706,
+    32.951,
+    33.176,
+    33.402,
+    33.629,
+    33.824,
+    34.022,
+    34.222,
+    34.425,
+    34.635,
+    35.312,
+    35.09,
+    34.872,
+    34.658,
+    34.447,
+    34.21,
+    33.975,
+    33.742,
+    33.509,
+    33.281,
+    33.055,
+    33.281,
+    33.509,
+    33.742,
+    33.975,
+    34.21,
+    34.447,
+    34.685,
+    34.924,
+    35.164,
+    34.74,
+    34.496,
+    34.252,
+    34.009,
+    33.767,
+    33.527,
+    33.593,
+    33.68,
+    33.786,
+    33.91,
+    34.049,
+    34.201,
+    34.364,
+    34.538,
+    34.719,
+    34.965,
+    35.21
+  ],
+  "final_distance": 35.21,
+  "min_distance": 0.01,
+  "metrics": {
+    "distance_to_goal": 35.210166931152344,
+    "success": 0.0,
+    "spl": 0.0,
+    "oracle_success": 1.0,
+    "path_length": 72.4545188844204,
+    "steps_taken": 406.0
+  },
+  "success": false,
+  "backend_stats": {
+    "calls": 373,
+    "failures": 0,
+    "prompt_tokens": 736202,
+    "completion_tokens": 28091,
+    "reasoning_tokens": 7576,
+    "latency_s": 811.2602055072784
+  },
+  "stop_deferrals": 0
+}

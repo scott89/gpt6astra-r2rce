@@ -1,0 +1,571 @@
+{
+  "episode_id": 979,
+  "scene_id": "2azQ1b91cZZ",
+  "instruction": "walk away from fireplace, through the doorway on the left side of the bed, continue straight, turn left through doorway to bathroom and stop.",
+  "actions_taken": 125,
+  "policy_calls": 43,
+  "api_latency_s": 104.57,
+  "prompt_tokens": 83519,
+  "completion_tokens": 4124,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 105.38,
+  "steps": [
+    {
+      "n": 3,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "The fireplace is on my right; I need to walk away from it toward the bed and its left-side doorway. I'll turn left to survey the room first.",
+      "latency_s": 2.31,
+      "prompt_tokens": 888
+    },
+    {
+      "n": 5,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "A chair blocks the immediate view; the bed is on the left with a doorway beyond it. I'll turn left and step forward to get around the chair toward the doorway on the left side of the bed.",
+      "latency_s": 2.34,
+      "prompt_tokens": 1243
+    },
+    {
+      "n": 9,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The arched doorway is on the left side of the bed ahead. I'll turn left to align with it, then move forward.",
+      "latency_s": 2.07,
+      "prompt_tokens": 1607
+    },
+    {
+      "n": 12,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing the bed; the arched doorway is at the left side of the bed near the headboard. I'll turn left and approach it.",
+      "latency_s": 2.09,
+      "prompt_tokens": 1971
+    },
+    {
+      "n": 15,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing the bed headboard; the doorway is on the left side of the bed, so I need to turn left and walk around the bed toward that arched doorway.",
+      "latency_s": 2.35,
+      "prompt_tokens": 1973
+    },
+    {
+      "n": 18,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I see the arched doorway on the left side of the bed. I'll turn left to face it and move through.",
+      "latency_s": 1.7,
+      "prompt_tokens": 1975
+    },
+    {
+      "n": 21,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The arched doorway on the left side of the bed is ahead; I'll walk toward it and through it.",
+      "latency_s": 1.8,
+      "prompt_tokens": 1977
+    },
+    {
+      "n": 24,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I see the arched doorway on the left side of the bed ahead. I'll walk toward it and through it.",
+      "latency_s": 1.91,
+      "prompt_tokens": 1977
+    },
+    {
+      "n": 27,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm beside the bed facing the arched doorway; I need to pass through it and continue straight before looking for a left doorway to the bathroom.",
+      "latency_s": 2.23,
+      "prompt_tokens": 1978
+    },
+    {
+      "n": 30,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the hallway past the bed, facing an arched doorway ahead. I'll continue forward through it, then look for the left doorway to the bathroom.",
+      "latency_s": 1.73,
+      "prompt_tokens": 1978
+    },
+    {
+      "n": 33,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the hallway past the bed; ahead there's a doorway on the left which should be the bathroom. I'll advance toward it, then turn left.",
+      "latency_s": 2.27,
+      "prompt_tokens": 1979
+    },
+    {
+      "n": 36,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hallway continuing straight. There's a doorway on the left ahead which could be the bathroom; I'll advance toward it and check.",
+      "latency_s": 2.35,
+      "prompt_tokens": 1978
+    },
+    {
+      "n": 39,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I've continued straight down the hall; now there's an arched doorway on my left with bright light beyond, likely the bathroom. I'll turn left to align with it.",
+      "latency_s": 2.62,
+      "prompt_tokens": 1980
+    },
+    {
+      "n": 43,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall too closely; the arched doorway I passed is behind me. I'll turn right to reorient toward the hallway and find the bathroom doorway.",
+      "latency_s": 2.0,
+      "prompt_tokens": 1981
+    },
+    {
+      "n": 47,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hallway with an arched doorway on the left; the instruction says turn left through the doorway to the bathroom. I'll turn left and move toward it.",
+      "latency_s": 2.04,
+      "prompt_tokens": 1983
+    },
+    {
+      "n": 51,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall up close; the hallway with the arched doorway was to my right. I'll turn right to re-align with the corridor and then proceed toward the bathroom doorway.",
+      "latency_s": 2.01,
+      "prompt_tokens": 1985
+    },
+    {
+      "n": 53,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a hallway with an open wooden doorway on the right, which may be the bathroom. I'll turn right to face it and check.",
+      "latency_s": 2.3,
+      "prompt_tokens": 1987
+    },
+    {
+      "n": 56,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in a hallway with a mirror arch ahead and doorways around. The instruction says turn left through a doorway to the bathroom, so I'll turn left to scan for it.",
+      "latency_s": 3.13,
+      "prompt_tokens": 1988
+    },
+    {
+      "n": 58,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in a hallway junction; the instruction says to turn left through a doorway to the bathroom. I see a doorway on the right and an arch ahead, so I'll turn left to look for the bathroom doorway.",
+      "latency_s": 3.44,
+      "prompt_tokens": 1989
+    },
+    {
+      "n": 62,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've turned too far left and am now facing a wall. I need to turn right to re-face the hallway with the doorways, then head toward the doorway on the right that leads to the bathroom.",
+      "latency_s": 3.17,
+      "prompt_tokens": 1990
+    },
+    {
+      "n": 64,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hallway with an arched opening ahead and a wooden door to the right. The instruction says to continue straight then turn left through a doorway to the bathroom, so I'll advance toward the arch first and look for a left-side doorway.",
+      "latency_s": 3.25,
+      "prompt_tokens": 1992
+    },
+    {
+      "n": 67,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hallway; the open doorway ahead on the right likely leads to the bathroom per the instruction. I'll advance toward it and check alignment.",
+      "latency_s": 2.08,
+      "prompt_tokens": 1993
+    },
+    {
+      "n": 70,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm close to a wall with a picture; the open wooden door on the right likely leads to the bathroom. I'll turn right toward it and approach.",
+      "latency_s": 2.5,
+      "prompt_tokens": 1994
+    },
+    {
+      "n": 73,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hallway with an open wooden door ahead and another opening to the right. The instruction says to continue straight and turn left through a doorway to the bathroom; the open door ahead looks like the target doorway, so I'll advance toward it and re-observe.",
+      "latency_s": 2.63,
+      "prompt_tokens": 1995
+    },
+    {
+      "n": 77,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hallway facing a wall with an open wooden door slightly to my right, and beyond it a room with a mirror that looks like the bathroom. I'll turn right to align with that doorway and move toward it.",
+      "latency_s": 3.94,
+      "prompt_tokens": 1996
+    },
+    {
+      "n": 80,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hallway facing an open doorway leading to a room with a tall mirror and cabinet, which looks like the bathroom. I'll advance toward it and re-observe before entering.",
+      "latency_s": 4.04,
+      "prompt_tokens": 1998
+    },
+    {
+      "n": 82,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in a hallway facing a dresser; the instruction says to turn left through a doorway to the bathroom. I should turn left to locate that doorway.",
+      "latency_s": 2.36,
+      "prompt_tokens": 1998
+    },
+    {
+      "n": 84,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall; the hallway with the dresser is to my right. I'll turn right to re-enter the hallway and look for the bathroom doorway on the left.",
+      "latency_s": 2.06,
+      "prompt_tokens": 2000
+    },
+    {
+      "n": 87,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall; the hallway with the dresser is to my right. I'll turn right to face down the hallway, then proceed to find the bathroom doorway on the left.",
+      "latency_s": 1.85,
+      "prompt_tokens": 2001
+    },
+    {
+      "n": 89,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in a room with a dresser and arched mirror; the bathroom doorway should be to my left. I'll turn left to scan for it.",
+      "latency_s": 2.45,
+      "prompt_tokens": 2003
+    },
+    {
+      "n": 92,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hallway with an open wooden door on the right, which appears to lead to the bathroom. I'll turn right toward it and move through.",
+      "latency_s": 2.67,
+      "prompt_tokens": 2004
+    },
+    {
+      "n": 94,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in a hallway facing a closed wooden door with a dresser ahead. The bathroom doorway should be nearby; I'll turn left to scan the wall for an open doorway.",
+      "latency_s": 2.85,
+      "prompt_tokens": 2006
+    },
+    {
+      "n": 97,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in a bedroom with a rug ahead; the bathroom doorway should be on the left. I'll advance toward the rug and then turn left to locate the doorway.",
+      "latency_s": 2.66,
+      "prompt_tokens": 2007
+    },
+    {
+      "n": 99,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in a bedroom with dressers and a rug, but no doorway to a bathroom is visible ahead. I'll turn left to scan for the bathroom doorway.",
+      "latency_s": 2.65,
+      "prompt_tokens": 2009
+    },
+    {
+      "n": 101,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in a bedroom corner near a large dresser; no doorway is visible ahead. I'll turn left to scan for the bathroom doorway.",
+      "latency_s": 2.42,
+      "prompt_tokens": 2009
+    },
+    {
+      "n": 104,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm facing a dresser/wall closely; the bed is behind me. I need to turn left to find the doorway on the left side of the bed.",
+      "latency_s": 2.19,
+      "prompt_tokens": 2010
+    },
+    {
+      "n": 107,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've passed the bed area and now see a doorway ahead-left with wood flooring beyond. The instruction says to turn left through a doorway to the bathroom, so I'll rotate left and approach that opening.",
+      "latency_s": 2.65,
+      "prompt_tokens": 2010
+    },
+    {
+      "n": 110,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I see a hallway with an arched doorway ahead-left leading to a bathroom (tiled room with window). I need to turn left and head through that archway.",
+      "latency_s": 1.89,
+      "prompt_tokens": 2012
+    },
+    {
+      "n": 114,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I see a bathroom through the arched doorway ahead. I'll advance toward it and stop inside.",
+      "latency_s": 1.77,
+      "prompt_tokens": 2014
+    },
+    {
+      "n": 118,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The arched doorway ahead opens into a room with a bathtub and window, which appears to be the bathroom. I'll advance through the arch and then stop.",
+      "latency_s": 3.06,
+      "prompt_tokens": 2015
+    },
+    {
+      "n": 121,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The arched doorway ahead opens into a room with a bathtub, which appears to be the bathroom. I'll advance through the arch and stop inside.",
+      "latency_s": 2.31,
+      "prompt_tokens": 2015
+    },
+    {
+      "n": 124,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've turned and am facing an open doorway into a bathroom with a tub visible. I'll step through and stop inside.",
+      "latency_s": 2.45,
+      "prompt_tokens": 2015
+    },
+    {
+      "n": 125,
+      "actions": [
+        "STOP"
+      ],
+      "thought": "I have passed through the doorway into the bathroom with the large tub visible ahead; I am within the bathroom, so I stop here.",
+      "latency_s": 1.98,
+      "prompt_tokens": 2016
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    6.032,
+    6.032,
+    5.887,
+    5.734,
+    5.592,
+    5.472,
+    5.483,
+    5.608,
+    5.673,
+    5.701,
+    5.637,
+    5.572,
+    5.507,
+    5.442,
+    5.378,
+    5.154,
+    4.902,
+    4.652,
+    4.402,
+    4.152,
+    3.902,
+    3.652,
+    3.402,
+    3.152,
+    2.902,
+    2.652,
+    2.403,
+    2.157,
+    1.907,
+    1.718,
+    1.515,
+    1.422,
+    1.441,
+    1.526,
+    1.644,
+    1.869,
+    2.099,
+    2.325,
+    2.532,
+    2.777,
+    3.272,
+    3.454,
+    3.679,
+    3.917,
+    3.976,
+    4.186,
+    4.436,
+    4.686,
+    4.475,
+    4.225,
+    3.976,
+    3.726,
+    3.477,
+    3.506,
+    3.373,
+    2.729,
+    2.481,
+    2.232,
+    1.984,
+    1.736,
+    1.489,
+    1.244,
+    1.0,
+    0.752
+  ],
+  "final_distance": 0.752,
+  "min_distance": 0.752,
+  "metrics": {
+    "distance_to_goal": 0.7520115971565247,
+    "success": 1.0,
+    "spl": 0.43476784741990293,
+    "oracle_success": 1.0,
+    "path_length": 13.875035241246223,
+    "steps_taken": 125.0
+  },
+  "success": true,
+  "backend_stats": {
+    "calls": 383,
+    "failures": 0,
+    "prompt_tokens": 769807,
+    "completion_tokens": 34228,
+    "reasoning_tokens": 12570,
+    "latency_s": 911.3735766410828
+  },
+  "stop_deferrals": 0
+}

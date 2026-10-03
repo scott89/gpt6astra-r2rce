@@ -1,0 +1,1400 @@
+{
+  "episode_id": 231,
+  "scene_id": "x8F5xyUWy9e",
+  "instruction": "Walk out of the sauna into the pool room and take a left. Walk towards the bar and take a left going up the stairs into the hallway. Go up the next part of the stairs and take at the first right into the massage room. Stop just inside the doorway on the right.",
+  "actions_taken": 403,
+  "policy_calls": 117,
+  "api_latency_s": 290.81,
+  "prompt_tokens": 238771,
+  "completion_tokens": 12183,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 293.03,
+  "steps": [
+    {
+      "n": 3,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the sauna facing the doorway to the pool room. I'll move forward through the doorway first.",
+      "latency_s": 1.24,
+      "prompt_tokens": 918
+    },
+    {
+      "n": 6,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I've exited the sauna into the pool room. Per the instruction I should take a left and head toward the bar, so I'll turn left to scan the room.",
+      "latency_s": 1.97,
+      "prompt_tokens": 1273
+    },
+    {
+      "n": 10,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've exited the sauna into the pool room but I'm facing a wall. I need to turn right to face the pool and bar area, then head toward the bar before turning left toward the stairs.",
+      "latency_s": 2.16,
+      "prompt_tokens": 1637
+    },
+    {
+      "n": 13,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in the pool room facing the pool. The instruction says to take a left and head toward the bar, so I should rotate left to find the bar/stairs area.",
+      "latency_s": 2.09,
+      "prompt_tokens": 2002
+    },
+    {
+      "n": 17,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've exited the sauna and face the pool. Per the instruction I should take a left toward the bar, so I'll turn left and advance, re-observing before further travel.",
+      "latency_s": 3.08,
+      "prompt_tokens": 2003
+    },
+    {
+      "n": 20,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to be facing a wall next to the sauna exit, with the pool visible to my right. I need to turn right to re-enter the pool room and head toward the bar.",
+      "latency_s": 2.18,
+      "prompt_tokens": 2005
+    },
+    {
+      "n": 23,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I appear to be just outside the sauna facing the pool. The instruction says to take a left toward the bar, so I should turn left and scan for the bar area before moving.",
+      "latency_s": 2.51,
+      "prompt_tokens": 2006
+    },
+    {
+      "n": 26,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to be facing a wall right at the sauna exit, with the pool room visible to my right. I need to turn right to face the pool room before proceeding.",
+      "latency_s": 2.05,
+      "prompt_tokens": 2008
+    },
+    {
+      "n": 29,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I appear to be wedged against a wall/curtain at the sauna exit, with the pool room visible to the right. I should turn right to face the open pool area and step forward.",
+      "latency_s": 2.15,
+      "prompt_tokens": 2010
+    },
+    {
+      "n": 33,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I've just exited the sauna into the blue pool room. Per the instruction I should turn left and head toward the bar, so I'll rotate left to scan the room.",
+      "latency_s": 2.19,
+      "prompt_tokens": 2011
+    },
+    {
+      "n": 36,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the pool room facing the pool; the bar area with chairs and counter is ahead-left. I'll advance toward it, then turn left to find the stairs.",
+      "latency_s": 2.54,
+      "prompt_tokens": 2012
+    },
+    {
+      "n": 40,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the pool room facing the pool; the bar area is ahead-left. I need to turn left and head toward the bar, then find the stairs on the left.",
+      "latency_s": 2.27,
+      "prompt_tokens": 2013
+    },
+    {
+      "n": 44,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the pool room facing the bar area with stairs visible on the left. I need to approach the bar, then turn left to ascend the stairs.",
+      "latency_s": 2.19,
+      "prompt_tokens": 2015
+    },
+    {
+      "n": 48,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the bar area with stairs visible on the left. Per the instruction, I take a left toward the stairs and go up.",
+      "latency_s": 2.42,
+      "prompt_tokens": 2015
+    },
+    {
+      "n": 52,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the bar with the stairs visible ahead-left. I need to go up the stairs into the hallway, so I'll turn left toward the steps and climb.",
+      "latency_s": 2.16,
+      "prompt_tokens": 2017
+    },
+    {
+      "n": 56,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the bar with stairs visible to the left. Per the instruction, I take a left and go up the stairs into the hallway.",
+      "latency_s": 1.94,
+      "prompt_tokens": 2019
+    },
+    {
+      "n": 59,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the bar with the staircase visible ahead-left. I need to go up the stairs, so I'll advance toward them and re-observe.",
+      "latency_s": 2.1,
+      "prompt_tokens": 2021
+    },
+    {
+      "n": 62,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the bar with stairs leading up ahead. I need to ascend these stairs toward the hallway, so I'll move forward up the steps and re-observe.",
+      "latency_s": 2.48,
+      "prompt_tokens": 2021
+    },
+    {
+      "n": 68,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I appear to be at a landing by the bar with stairs descending ahead. The instruction says to continue up the next flight of stairs, so I should look around to locate the upward stairs, likely behind me to the left.",
+      "latency_s": 4.48,
+      "prompt_tokens": 2022
+    },
+    {
+      "n": 71,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall right now; I need to turn right to reorient toward the stairs and hallway, then find the first right into the massage room.",
+      "latency_s": 2.03,
+      "prompt_tokens": 2024
+    },
+    {
+      "n": 74,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall very closely with a doorway visible to my right showing the stair landing area. I need to turn right to re-orient and find the massage room doorway.",
+      "latency_s": 2.94,
+      "prompt_tokens": 2026
+    },
+    {
+      "n": 76,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the top of the pool room near the bar with stairs visible ahead. I need to continue up the stairs, so I'll advance toward them and re-observe.",
+      "latency_s": 2.57,
+      "prompt_tokens": 2027
+    },
+    {
+      "n": 80,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the top of the first stair flight near the bar; the next stairs go up ahead-left. I'll turn left toward the stairs and start climbing.",
+      "latency_s": 2.94,
+      "prompt_tokens": 2028
+    },
+    {
+      "n": 83,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the top of the pool room near the bar, with stairs visible ahead through the opening. I need to head toward the stairs and go up.",
+      "latency_s": 2.41,
+      "prompt_tokens": 2029
+    },
+    {
+      "n": 86,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to be at the top of the stairs near the bar area, facing a wall with a doorway ahead. The instruction says to take the first right into the massage room, so I should turn right to find that doorway.",
+      "latency_s": 3.18,
+      "prompt_tokens": 2031
+    },
+    {
+      "n": 91,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the top of the stairs near the bar. The instruction says to take a left going up the stairs, so I should turn left to face the ascending stairs and proceed up.",
+      "latency_s": 3.23,
+      "prompt_tokens": 2033
+    },
+    {
+      "n": 94,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the top of the stairs near the bar; the opening ahead with the plant appears to be the doorway to enter. I'll advance through it and then look for the massage room on the right.",
+      "latency_s": 2.16,
+      "prompt_tokens": 2035
+    },
+    {
+      "n": 97,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm near the bar with stairs visible to the left. I need to go up the stairs, so I'll turn left and re-observe before moving.",
+      "latency_s": 2.25,
+      "prompt_tokens": 2036
+    },
+    {
+      "n": 100,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall; the open passage with the brick wall and plant is to my right. I'll turn right to re-aim toward it before moving.",
+      "latency_s": 2.11,
+      "prompt_tokens": 2037
+    },
+    {
+      "n": 104,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a wall with an open doorway to my right leading toward the stairs area. I'll turn right to align with the opening, then move forward through it.",
+      "latency_s": 2.68,
+      "prompt_tokens": 2038
+    },
+    {
+      "n": 107,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to be at the top of the stairs by the bar, facing down the stairwell. The instruction says to take the first right into the massage room, so I should turn right to find that doorway.",
+      "latency_s": 3.07,
+      "prompt_tokens": 2041
+    },
+    {
+      "n": 110,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've come up the stairs to the bar level; the pool room is ahead. The instruction says take the first right into the massage room, so I should turn right to find that doorway.",
+      "latency_s": 2.25,
+      "prompt_tokens": 2043
+    },
+    {
+      "n": 118,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the pool room facing the pool; the stairs are behind me. I need to turn around and ascend the stairs toward the hallway.",
+      "latency_s": 3.66,
+      "prompt_tokens": 2044
+    },
+    {
+      "n": 121,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the bar with the staircase visible ahead through the opening. I need to go up the stairs, so I'll advance toward and up them, re-observing as I climb.",
+      "latency_s": 2.67,
+      "prompt_tokens": 2047
+    },
+    {
+      "n": 124,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the bar with the staircase ahead leading up. I need to ascend the stairs toward the hallway, so I'll move forward up the steps and re-observe.",
+      "latency_s": 2.39,
+      "prompt_tokens": 2048
+    },
+    {
+      "n": 127,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the top of the first stair section near the bar; the next flight of stairs leads up ahead. I'll advance up the stairs, then look for the first right into the massage room.",
+      "latency_s": 2.11,
+      "prompt_tokens": 2047
+    },
+    {
+      "n": 130,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the top landing near the bar, facing the hallway with the next flight of stairs ahead. I'll advance toward the stairs and then look for the first right doorway (massage room).",
+      "latency_s": 2.24,
+      "prompt_tokens": 2049
+    },
+    {
+      "n": 133,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the top of the first stair section near the bar, facing the hallway with more stairs ahead. I'll continue forward up the stairs, then look for the first right into the massage room.",
+      "latency_s": 2.64,
+      "prompt_tokens": 2047
+    },
+    {
+      "n": 136,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the top of the first stair section near the bar; the next flight of stairs leads up ahead. I'll advance up the stairs and then look for the first right into the massage room.",
+      "latency_s": 2.31,
+      "prompt_tokens": 2049
+    },
+    {
+      "n": 139,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to be at the top of the stairs near the bar. The instruction says to take the first right into the massage room, so I should turn right and look for the doorway.",
+      "latency_s": 3.12,
+      "prompt_tokens": 2049
+    },
+    {
+      "n": 145,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the bar landing with stairs behind me; the instruction says take a left and go up the stairs into the hallway. The stairs are to my left, so I'll turn and ascend.",
+      "latency_s": 3.04,
+      "prompt_tokens": 2051
+    },
+    {
+      "n": 148,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the bar with the staircase visible ahead through the opening. I need to head toward and up the stairs, so I'll advance carefully and re-observe.",
+      "latency_s": 2.72,
+      "prompt_tokens": 2053
+    },
+    {
+      "n": 151,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the top of the first stair section near the bar, facing the hallway with the next flight of stairs visible ahead. I'll advance toward those stairs.",
+      "latency_s": 2.26,
+      "prompt_tokens": 2053
+    },
+    {
+      "n": 155,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the top of the first stair section near the bar; the next flight of stairs leads up ahead. I'll climb it, then look for the first right into the massage room.",
+      "latency_s": 2.31,
+      "prompt_tokens": 2054
+    },
+    {
+      "n": 158,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the top of the first stair section near the bar, facing the hallway with more stairs ahead. I'll advance toward the next flight of stairs.",
+      "latency_s": 2.03,
+      "prompt_tokens": 2055
+    },
+    {
+      "n": 161,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the top of the first stair section near the bar, facing the hallway with more stairs ahead. I'll advance toward the next flight of stairs.",
+      "latency_s": 2.07,
+      "prompt_tokens": 2054
+    },
+    {
+      "n": 164,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the top of the first stair section near the bar, facing the hallway with more stairs ahead. I'll continue forward up the stairs, then look for the first right into the massage room.",
+      "latency_s": 2.42,
+      "prompt_tokens": 2056
+    },
+    {
+      "n": 167,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the top of the first stair section near the bar, facing the hallway with the next flight of stairs ahead. I'll advance toward the stairs and then look for the first right doorway.",
+      "latency_s": 2.23,
+      "prompt_tokens": 2055
+    },
+    {
+      "n": 170,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the top of the first stair section near the bar, facing the hallway with more stairs ahead. I'll advance toward the next flight of stairs.",
+      "latency_s": 2.08,
+      "prompt_tokens": 2055
+    },
+    {
+      "n": 173,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the top of the stairs by the bar, facing the hallway with the plant. I need to walk down this hallway and find the first right doorway (massage room).",
+      "latency_s": 2.49,
+      "prompt_tokens": 2055
+    },
+    {
+      "n": 176,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the top of the first stair section near the bar, facing the hallway with more stairs ahead. I should continue forward up the stairs, then look for the first right into the massage room.",
+      "latency_s": 2.2,
+      "prompt_tokens": 2057
+    },
+    {
+      "n": 179,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the top of the first stair section near the bar, facing the hallway with more stairs ahead. I'll advance toward the next stair section before turning right.",
+      "latency_s": 2.17,
+      "prompt_tokens": 2057
+    },
+    {
+      "n": 182,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the top of the stairs by the bar, facing the hallway with the plant. I need to continue forward down the hallway to find the first right into the massage room.",
+      "latency_s": 2.38,
+      "prompt_tokens": 2058
+    },
+    {
+      "n": 185,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the top of the first stair section near the bar, facing the hallway with more stairs ahead. I'll continue forward up the hallway toward the next stairs.",
+      "latency_s": 2.6,
+      "prompt_tokens": 2057
+    },
+    {
+      "n": 188,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the top of the stairs facing the hallway with the plant. I need to proceed down the hallway and find the first right doorway (massage room).",
+      "latency_s": 2.46,
+      "prompt_tokens": 2058
+    },
+    {
+      "n": 192,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the base of the stairs by the bar, facing the upward staircase. I should continue climbing the stairs toward the hallway.",
+      "latency_s": 2.02,
+      "prompt_tokens": 2058
+    },
+    {
+      "n": 195,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the top of the stairs by the bar, facing the hallway with the plant. I need to continue forward down the hallway to find the first right into the massage room.",
+      "latency_s": 2.17,
+      "prompt_tokens": 2058
+    },
+    {
+      "n": 198,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the top of the stairs by the bar, facing the hallway with the plant. I need to continue forward down the hallway to find the first right into the massage room.",
+      "latency_s": 1.87,
+      "prompt_tokens": 2059
+    },
+    {
+      "n": 201,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the top of the first stair section near the bar, facing the hallway with more stairs ahead. I'll advance toward the next flight of stairs.",
+      "latency_s": 1.97,
+      "prompt_tokens": 2059
+    },
+    {
+      "n": 204,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the top of the first stair section near the bar, facing the hallway with more stairs ahead. I'll advance toward the next flight of stairs.",
+      "latency_s": 2.37,
+      "prompt_tokens": 2061
+    },
+    {
+      "n": 207,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the top of the first stair section near the bar, facing the hallway with more stairs ahead. I'll continue forward up the stairs, then look for the first right into the massage room.",
+      "latency_s": 2.31,
+      "prompt_tokens": 2060
+    },
+    {
+      "n": 210,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the base of the stairs by the bar, facing the staircase up. I should continue ascending the stairs toward the hallway.",
+      "latency_s": 2.15,
+      "prompt_tokens": 2061
+    },
+    {
+      "n": 213,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the top of the stairs near the bar, facing the hallway with the plant. I need to continue forward up the next flight of stairs and then take the first right into the massage room.",
+      "latency_s": 2.34,
+      "prompt_tokens": 2060
+    },
+    {
+      "n": 216,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the top of the stairs in the hallway near the bar. The instruction says to take the first right into the massage room; I should proceed forward along the hallway and watch for a doorway on the right.",
+      "latency_s": 2.69,
+      "prompt_tokens": 2062
+    },
+    {
+      "n": 219,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the top of the first stair section near the bar, facing the hallway with the next flight of stairs ahead. I'll advance toward the stairs and then turn right at the first opening into the massage room.",
+      "latency_s": 2.38,
+      "prompt_tokens": 2062
+    },
+    {
+      "n": 222,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the top of the first stair section near the bar, facing the hallway with more stairs ahead. I'll advance toward the next flight of stairs.",
+      "latency_s": 2.35,
+      "prompt_tokens": 2065
+    },
+    {
+      "n": 225,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the top of the stairs by the bar, facing the hallway with the plant. I need to continue forward down the hallway to find the first right into the massage room.",
+      "latency_s": 2.24,
+      "prompt_tokens": 2062
+    },
+    {
+      "n": 229,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the top of the first stair section near the bar, facing the hallway with more stairs ahead. I'll continue forward up the stairs, then look for the first right into the massage room.",
+      "latency_s": 2.27,
+      "prompt_tokens": 2064
+    },
+    {
+      "n": 233,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the top of the first stair section near the bar, facing the hallway with more stairs ahead. I'll continue forward up the stairs, then look for the first right into the massage room.",
+      "latency_s": 2.69,
+      "prompt_tokens": 2066
+    },
+    {
+      "n": 236,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the top of the first stair section near the bar, facing the hallway with more stairs ahead. I'll advance toward the next flight of stairs.",
+      "latency_s": 2.21,
+      "prompt_tokens": 2067
+    },
+    {
+      "n": 240,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the top of the first stair section near the bar, facing the hallway with more stairs ahead. I need to continue forward up the stairs, then take the first right into the massage room.",
+      "latency_s": 2.29,
+      "prompt_tokens": 2065
+    },
+    {
+      "n": 243,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the top of the first stair section near the bar, facing the hallway with more stairs ahead. I'll advance toward the next flight of stairs.",
+      "latency_s": 2.01,
+      "prompt_tokens": 2064
+    },
+    {
+      "n": 246,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the top of the stairs by the bar, facing the hallway with the plant. I need to continue forward up the hallway to find the first right into the massage room.",
+      "latency_s": 2.06,
+      "prompt_tokens": 2068
+    },
+    {
+      "n": 249,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the top of the stairs by the bar, facing the hallway with the plant. I need to continue forward down the hallway to find the first right into the massage room.",
+      "latency_s": 1.86,
+      "prompt_tokens": 2067
+    },
+    {
+      "n": 252,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the top landing near the bar, facing the hallway with the next flight of stairs ahead. I'll advance toward the stairs and then look for the first right doorway (massage room).",
+      "latency_s": 2.1,
+      "prompt_tokens": 2069
+    },
+    {
+      "n": 255,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the top of the stairs by the bar, facing the hallway with the plant. I need to continue forward down the hallway to find the first right into the massage room.",
+      "latency_s": 2.26,
+      "prompt_tokens": 2068
+    },
+    {
+      "n": 258,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the base of the stairs by the bar, facing the upward staircase. I should continue climbing the stairs toward the hallway.",
+      "latency_s": 2.23,
+      "prompt_tokens": 2066
+    },
+    {
+      "n": 262,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the top of the first stair section near the bar, facing the hallway with more stairs ahead. I'll continue forward up the stairs, then look for the first right into the massage room.",
+      "latency_s": 1.94,
+      "prompt_tokens": 2069
+    },
+    {
+      "n": 265,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the top of the first stair section near the bar, facing the hallway with the next flight of stairs ahead. I'll advance toward the stairs and then look for the first right into the massage room.",
+      "latency_s": 2.52,
+      "prompt_tokens": 2069
+    },
+    {
+      "n": 268,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to be at the top of the stairs in the hallway near the bar. The instruction says to take the first right into the massage room, so I should turn right to look for that doorway.",
+      "latency_s": 2.34,
+      "prompt_tokens": 2070
+    },
+    {
+      "n": 271,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm at the top of the stairs by the bar. I need to find the hallway and take the first right into the massage room. Let me turn right to scan the area.",
+      "latency_s": 2.33,
+      "prompt_tokens": 2072
+    },
+    {
+      "n": 277,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I appear to be in the pool room facing the pool, but the instruction says to take a right off the stairs into the massage room. I likely passed it; I need to turn back toward the bar/stairs area to find the doorway.",
+      "latency_s": 3.05,
+      "prompt_tokens": 2074
+    },
+    {
+      "n": 280,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the bar with the staircase visible ahead through the opening. I need to head up these stairs, so I'll advance toward them and re-observe.",
+      "latency_s": 2.35,
+      "prompt_tokens": 2076
+    },
+    {
+      "n": 283,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the bar with the staircase ahead. I need to go up the stairs, so I'll advance toward them and re-observe.",
+      "latency_s": 2.52,
+      "prompt_tokens": 2074
+    },
+    {
+      "n": 285,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm at a landing by the bar with stairs descending ahead; the instruction says to continue up the next flight of stairs, so I need to locate the upward stairs, likely behind me.",
+      "latency_s": 2.96,
+      "prompt_tokens": 2076
+    },
+    {
+      "n": 287,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm at the top of the stairs by the bar. The instruction says to take the first right into the massage room, so I need to look right to find the hallway/doorway.",
+      "latency_s": 2.69,
+      "prompt_tokens": 2077
+    },
+    {
+      "n": 290,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm at the top of the stairs next to the bar, facing the pool room. The instruction says to take a left toward the stairs going up into the hallway, so I should turn left to find the next flight of stairs.",
+      "latency_s": 3.11,
+      "prompt_tokens": 2078
+    },
+    {
+      "n": 294,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the bar in the pool room; the stairs up are to my left. I'll turn left and start climbing.",
+      "latency_s": 5.54,
+      "prompt_tokens": 2077
+    },
+    {
+      "n": 298,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the bar with stairs ascending to the left. Per the instruction I should take a left and go up the stairs into the hallway.",
+      "latency_s": 2.27,
+      "prompt_tokens": 2080
+    },
+    {
+      "n": 301,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to be at the top of the stairs near the bar area, in the hallway. The instruction says to take the first right into the massage room, so I should turn right to look for the doorway.",
+      "latency_s": 2.97,
+      "prompt_tokens": 2082
+    },
+    {
+      "n": 304,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm at the top of the stairs by the bar. The instruction says to take the first right into the massage room, so I should turn right and look for the doorway.",
+      "latency_s": 2.07,
+      "prompt_tokens": 2082
+    },
+    {
+      "n": 310,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm facing the pool room with the bar on my left; the stairs I came up are behind me. I need to turn back toward the stairs and continue up to find the massage room on the right.",
+      "latency_s": 3.2,
+      "prompt_tokens": 2083
+    },
+    {
+      "n": 313,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the bar with the staircase visible ahead through the opening. I need to head toward and up the stairs.",
+      "latency_s": 2.12,
+      "prompt_tokens": 2085
+    },
+    {
+      "n": 316,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the bar facing the doorway leading to the stairs. I need to go through this opening and head up the stairs, so I'll advance through the doorway and re-observe.",
+      "latency_s": 2.47,
+      "prompt_tokens": 2088
+    },
+    {
+      "n": 319,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm at the top of the stairs facing a wall with a doorway ahead. The instruction says take the first right into the massage room, so I should turn right to locate that doorway.",
+      "latency_s": 2.66,
+      "prompt_tokens": 2088
+    },
+    {
+      "n": 322,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm at the top of the stairs by the bar. I need to find the hallway and take the first right into the massage room, so I'll turn right to scan for the doorway.",
+      "latency_s": 2.61,
+      "prompt_tokens": 2090
+    },
+    {
+      "n": 328,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "The view shows the pool room with the bar on the left and the stairs behind me, meaning I've drifted back down instead of continuing into the hallway. I need to turn around and head back up the stairs.",
+      "latency_s": 3.74,
+      "prompt_tokens": 2091
+    },
+    {
+      "n": 331,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the bar with the staircase visible ahead through the opening. I need to walk up the stairs, then take the first right into the massage room.",
+      "latency_s": 2.27,
+      "prompt_tokens": 2093
+    },
+    {
+      "n": 334,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the bar facing the doorway leading to the stairs. I need to go through it and head up the stairs, so I'll advance through the opening and re-observe.",
+      "latency_s": 2.94,
+      "prompt_tokens": 2094
+    },
+    {
+      "n": 337,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to be facing a doorway with stairs visible beyond, likely at the top of the stairs where the first right leads into the massage room. I should turn right to find that doorway.",
+      "latency_s": 2.44,
+      "prompt_tokens": 2094
+    },
+    {
+      "n": 339,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm at the top of the stairs by the bar. I need to find the first right doorway into the massage room, so I'll turn right to scan the hallway.",
+      "latency_s": 1.98,
+      "prompt_tokens": 2096
+    },
+    {
+      "n": 347,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm back in the pool room facing the bar and loungers, so I overshot the stairs. I need to turn around toward the staircase (visible in earlier frames behind me), climb it, then take the first right into the massage room.",
+      "latency_s": 4.18,
+      "prompt_tokens": 2097
+    },
+    {
+      "n": 351,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing the bar wall closely; I need to turn right to face the pool room and locate the stairs.",
+      "latency_s": 2.3,
+      "prompt_tokens": 2099
+    },
+    {
+      "n": 354,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the bar with the stairs visible ahead through the opening. I need to walk up the stairs, then take the first right into the massage room.",
+      "latency_s": 1.75,
+      "prompt_tokens": 2101
+    },
+    {
+      "n": 360,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm at a landing by the bar with stairs descending to the pool ahead. The next flight of stairs up should be behind me, so I'll turn around to find them.",
+      "latency_s": 2.59,
+      "prompt_tokens": 2102
+    },
+    {
+      "n": 363,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall right now; the open hallway/stair area should be to my right. I'll turn right to re-orient and look for the massage room doorway.",
+      "latency_s": 2.28,
+      "prompt_tokens": 2102
+    },
+    {
+      "n": 367,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a wall with an opening to the right showing the stair landing area. I need to turn right and move through the opening to find the massage room doorway on the right.",
+      "latency_s": 2.78,
+      "prompt_tokens": 2106
+    },
+    {
+      "n": 370,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a wall next to an opening; the hallway with stairs is visible to the left. I should turn left to face the opening and proceed toward the stairs.",
+      "latency_s": 3.02,
+      "prompt_tokens": 2108
+    },
+    {
+      "n": 373,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall; the open pool room with the plant and stairs is to my right. I need to turn right and head toward the stairs.",
+      "latency_s": 1.87,
+      "prompt_tokens": 2108
+    },
+    {
+      "n": 376,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to be at the top of the stairs near the bar area. The instruction says to take the first right into the massage room, so I should turn right to look for that doorway.",
+      "latency_s": 2.28,
+      "prompt_tokens": 2112
+    },
+    {
+      "n": 380,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm at the top of the stairs by the bar. The instruction says to take the first right into the massage room; I need to turn right to find that doorway.",
+      "latency_s": 2.54,
+      "prompt_tokens": 2113
+    },
+    {
+      "n": 386,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm facing the pool, but the instruction says to go up the stairs near the bar and take the first right into the massage room. I need to turn back toward the bar/stairs area visible earlier to my left.",
+      "latency_s": 2.88,
+      "prompt_tokens": 2113
+    },
+    {
+      "n": 392,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the bar with the staircase visible to my left. I need to turn left and ascend the stairs into the hallway.",
+      "latency_s": 2.33,
+      "prompt_tokens": 2117
+    },
+    {
+      "n": 395,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm at the top of the stairs facing a wall with an opening ahead; the massage room doorway should be to the right. I'll move forward through the opening and then turn right to find the doorway.",
+      "latency_s": 2.69,
+      "prompt_tokens": 2119
+    },
+    {
+      "n": 398,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the base of the stairs near the bar; the steps lead up ahead. I'll climb the stairs and re-observe.",
+      "latency_s": 2.53,
+      "prompt_tokens": 2120
+    },
+    {
+      "n": 400,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a wall edge with an open doorway ahead leading to a hall with stairs. I need to step forward through the doorway and then turn right toward the massage room.",
+      "latency_s": 2.76,
+      "prompt_tokens": 2121
+    },
+    {
+      "n": 403,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "STOP"
+      ],
+      "thought": "I appear to be at a doorway with stairs visible ahead-left; per the instruction I should take the first right into the massage room and stop just inside the doorway on the right. I'll turn right and step in, then stop.",
+      "latency_s": 3.48,
+      "prompt_tokens": 2120
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    10.345,
+    10.096,
+    9.848,
+    9.603,
+    9.483,
+    9.415,
+    9.172,
+    8.951,
+    8.765,
+    8.588,
+    8.523,
+    8.458,
+    8.177,
+    7.931,
+    7.687,
+    7.444,
+    7.194,
+    6.944,
+    6.694,
+    6.457,
+    6.243,
+    6.123,
+    6.121
+  ],
+  "final_distance": 6.121,
+  "min_distance": 6.121,
+  "metrics": {
+    "distance_to_goal": 6.120748996734619,
+    "success": 0.0,
+    "spl": 0.0,
+    "oracle_success": 0.0,
+    "path_length": 4.553600917570293,
+    "steps_taken": 403.0
+  },
+  "success": false,
+  "backend_stats": {
+    "calls": 583,
+    "failures": 0,
+    "prompt_tokens": 1156508,
+    "completion_tokens": 49857,
+    "reasoning_tokens": 17256,
+    "latency_s": 1312.573979139328
+  },
+  "stop_deferrals": 0
+}

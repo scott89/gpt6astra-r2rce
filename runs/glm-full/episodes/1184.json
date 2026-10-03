@@ -1,0 +1,132 @@
+{
+  "episode_id": 1184,
+  "scene_id": "QUCTc6BB5sX",
+  "instruction": "walk through doorway to exit room, turn right in hallway and walk towards display cabinet, turn left at end of hallway, enter room, walk past bed, walk through doorway on the left after dresser, stop in front of sink.",
+  "actions_taken": 22,
+  "policy_calls": 7,
+  "api_latency_s": 16.33,
+  "prompt_tokens": 11761,
+  "completion_tokens": 658,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 16.45,
+  "steps": [
+    {
+      "n": 3,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a bathroom with a sink on the left and a doorway ahead-right leading to a hallway. I'll turn right toward the doorway and exit.",
+      "latency_s": 2.16,
+      "prompt_tokens": 906
+    },
+    {
+      "n": 6,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "Through the archway on the right I can see a sink vanity, which matches the final goal. I'll turn right and approach it.",
+      "latency_s": 3.57,
+      "prompt_tokens": 1262
+    },
+    {
+      "n": 9,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I see an arched doorway ahead leading to a room with a counter and sink. I'll move forward through the archway toward the sink.",
+      "latency_s": 1.94,
+      "prompt_tokens": 1626
+    },
+    {
+      "n": 12,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The arched doorway ahead opens into a room with a counter and sink visible on the right. I'll turn right toward the sink and approach it.",
+      "latency_s": 2.26,
+      "prompt_tokens": 1990
+    },
+    {
+      "n": 15,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at an arched doorway looking into a laundry room with a sink counter under the cabinets. The instruction ends in front of the sink, so I'll advance through the doorway toward it.",
+      "latency_s": 2.1,
+      "prompt_tokens": 1991
+    },
+    {
+      "n": 19,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a wall with the laundry room and its sink visible to my right. I'll turn right to face the sink and move toward it.",
+      "latency_s": 1.96,
+      "prompt_tokens": 1992
+    },
+    {
+      "n": 22,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "STOP"
+      ],
+      "thought": "I've entered the laundry room and the sink counter is directly ahead a couple meters away. I'll advance one step toward it, then stop.",
+      "latency_s": 2.34,
+      "prompt_tokens": 1994
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    8.448,
+    8.448,
+    8.332,
+    8.215,
+    8.131,
+    8.068,
+    8.026,
+    8.008,
+    7.949,
+    7.913,
+    7.902,
+    7.902,
+    7.747,
+    7.749,
+    7.846,
+    8.007
+  ],
+  "final_distance": 8.007,
+  "min_distance": 7.747,
+  "metrics": {
+    "distance_to_goal": 8.00695514678955,
+    "success": 0.0,
+    "spl": 0.0,
+    "oracle_success": 0.0,
+    "path_length": 3.30644428730011,
+    "steps_taken": 22.0
+  },
+  "success": false,
+  "backend_stats": {
+    "calls": 457,
+    "failures": 0,
+    "prompt_tokens": 902152,
+    "completion_tokens": 37186,
+    "reasoning_tokens": 11955,
+    "latency_s": 1005.1266148090363
+  },
+  "stop_deferrals": 0
+}

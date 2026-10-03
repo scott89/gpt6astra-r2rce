@@ -1,0 +1,273 @@
+{
+  "episode_id": 1234,
+  "scene_id": "8194nk5LbLH",
+  "instruction": "With the fireplace to your right, walk straight past the big potted plant and up the stairs.  Stop at the very top of the stairs.",
+  "actions_taken": 59,
+  "policy_calls": 16,
+  "api_latency_s": 31.66,
+  "prompt_tokens": 29469,
+  "completion_tokens": 1007,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 31.94,
+  "steps": [
+    {
+      "n": 4,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm facing the fireplace directly; the instruction wants it on my right, so I'll turn left until it's at my right side, then proceed past the plant toward the stairs.",
+      "latency_s": 1.99,
+      "prompt_tokens": 890
+    },
+    {
+      "n": 7,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The stairs are visible ahead-left past the potted plant. I'll advance toward them, keeping the plant on my right side.",
+      "latency_s": 1.75,
+      "prompt_tokens": 1245
+    },
+    {
+      "n": 11,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The stairs are ahead-left past the potted plant; I need to approach them and climb to the top.",
+      "latency_s": 1.94,
+      "prompt_tokens": 1609
+    },
+    {
+      "n": 14,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The potted plant is now behind/beside me and the staircase is directly ahead. I'll advance toward the stairs and then climb.",
+      "latency_s": 2.03,
+      "prompt_tokens": 1974
+    },
+    {
+      "n": 17,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The stairs are visible ahead, slightly left of center. I'll advance toward them, then climb and stop at the top.",
+      "latency_s": 2.05,
+      "prompt_tokens": 1974
+    },
+    {
+      "n": 20,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is directly ahead, slightly left of my current heading. I'll advance toward it and then climb.",
+      "latency_s": 2.06,
+      "prompt_tokens": 1975
+    },
+    {
+      "n": 23,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is directly ahead, slightly left of center. I'll advance toward it and then climb.",
+      "latency_s": 1.84,
+      "prompt_tokens": 1974
+    },
+    {
+      "n": 27,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is ahead and slightly left; I need to align toward it and climb to the top.",
+      "latency_s": 1.88,
+      "prompt_tokens": 1976
+    },
+    {
+      "n": 31,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is directly ahead-left; I need to align with it and climb to the top before stopping.",
+      "latency_s": 2.04,
+      "prompt_tokens": 1977
+    },
+    {
+      "n": 35,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the base of the stairs facing them directly. I'll climb forward and re-observe near the top.",
+      "latency_s": 1.98,
+      "prompt_tokens": 1979
+    },
+    {
+      "n": 43,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the base of the stairs, aligned with them. I need to climb to the very top before stopping.",
+      "latency_s": 1.85,
+      "prompt_tokens": 1980
+    },
+    {
+      "n": 46,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm on the stairs but facing a wall corner; the stairway continues to the left. I'll turn left to re-align with the ascending steps.",
+      "latency_s": 2.18,
+      "prompt_tokens": 1981
+    },
+    {
+      "n": 50,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm mid-staircase with the top landing visible ahead. I'll keep climbing forward and re-observe near the top.",
+      "latency_s": 1.87,
+      "prompt_tokens": 1982
+    },
+    {
+      "n": 55,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the staircase but facing the wall/handrail. I need to turn left to face up the stairs and continue climbing to the top.",
+      "latency_s": 1.75,
+      "prompt_tokens": 1982
+    },
+    {
+      "n": 58,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the stairs with only a few steps remaining to the top landing. I'll advance a couple of steps and then stop at the top.",
+      "latency_s": 2.11,
+      "prompt_tokens": 1985
+    },
+    {
+      "n": 59,
+      "actions": [
+        "STOP"
+      ],
+      "thought": "I have climbed the stairs and the last frames show I'm at the flat landing at the very top, with the upper room ahead. The instruction ends here.",
+      "latency_s": 2.34,
+      "prompt_tokens": 1986
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    11.67,
+    11.67,
+    11.447,
+    11.226,
+    10.853,
+    10.614,
+    10.376,
+    10.139,
+    9.905,
+    9.669,
+    9.436,
+    9.204,
+    8.975,
+    8.748,
+    8.524,
+    8.303,
+    8.086,
+    7.874,
+    7.668,
+    7.468,
+    7.285,
+    7.069,
+    6.917,
+    6.78,
+    6.642,
+    6.38,
+    6.122,
+    5.853,
+    5.585,
+    5.311,
+    5.052,
+    4.828,
+    4.635,
+    4.457,
+    4.315,
+    4.214,
+    4.079,
+    3.913,
+    3.913,
+    3.685,
+    3.45,
+    3.211,
+    2.972,
+    2.651,
+    2.323,
+    1.999,
+    1.755,
+    1.515
+  ],
+  "final_distance": 1.515,
+  "min_distance": 1.515,
+  "metrics": {
+    "distance_to_goal": 1.5151094198226929,
+    "success": 1.0,
+    "spl": 1.0,
+    "oracle_success": 1.0,
+    "path_length": 11.46242742240429,
+    "steps_taken": 59.0
+  },
+  "success": true,
+  "backend_stats": {
+    "calls": 1008,
+    "failures": 0,
+    "prompt_tokens": 1994965,
+    "completion_tokens": 80822,
+    "reasoning_tokens": 24500,
+    "latency_s": 2257.3200871944427
+  },
+  "stop_deferrals": 0
+}

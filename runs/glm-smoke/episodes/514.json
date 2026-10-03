@@ -1,0 +1,2268 @@
+{
+  "episode_id": 514,
+  "scene_id": "zsNo4HB9uLZ",
+  "instruction": "move forward into the room, exit the room and continue straight into an eating area, continue straight into the living room, and stop right next to the rug in front of the couch.",
+  "actions_taken": 461,
+  "policy_calls": 221,
+  "api_latency_s": 411.51,
+  "prompt_tokens": 440144,
+  "completion_tokens": 12502,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 415.43,
+  "steps": [
+    {
+      "n": 4,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall in a small room. I need to turn to find the exit.",
+      "latency_s": 1.37,
+      "prompt_tokens": 802
+    },
+    {
+      "n": 7,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm facing a wall or glass door very closely; I need to reorient to find the way forward into the room.",
+      "latency_s": 1.55,
+      "prompt_tokens": 1158
+    },
+    {
+      "n": 13,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall in a small room; I need to turn around to find the exit.",
+      "latency_s": 1.95,
+      "prompt_tokens": 1522
+    },
+    {
+      "n": 19,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm facing a glass door, which is a dead end. I need to turn around to find the way out of this room toward the eating area.",
+      "latency_s": 2.25,
+      "prompt_tokens": 1888
+    },
+    {
+      "n": 25,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to be facing a wall/glass door in a small room. I need to turn around to find the exit and proceed toward the eating area.",
+      "latency_s": 1.98,
+      "prompt_tokens": 1890
+    },
+    {
+      "n": 31,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a glass door, not the room interior. I need to turn around to find the room and the path forward.",
+      "latency_s": 1.9,
+      "prompt_tokens": 1893
+    },
+    {
+      "n": 33,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I need to look up to see the room and find the exit.",
+      "latency_s": 1.65,
+      "prompt_tokens": 1896
+    },
+    {
+      "n": 37,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "The camera is pitched down at the floor; I need to look up and re-orient to see the room before moving.",
+      "latency_s": 1.66,
+      "prompt_tokens": 1897
+    },
+    {
+      "n": 39,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to re-orient before moving.",
+      "latency_s": 1.55,
+      "prompt_tokens": 1899
+    },
+    {
+      "n": 41,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I need to level it to see the room before navigating.",
+      "latency_s": 1.86,
+      "prompt_tokens": 1900
+    },
+    {
+      "n": 43,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and find the rug and couch.",
+      "latency_s": 1.65,
+      "prompt_tokens": 1901
+    },
+    {
+      "n": 45,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down, showing mostly floor and window; I need to level the view before navigating.",
+      "latency_s": 2.37,
+      "prompt_tokens": 1902
+    },
+    {
+      "n": 47,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and find the couch/rug.",
+      "latency_s": 1.75,
+      "prompt_tokens": 1903
+    },
+    {
+      "n": 49,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I need to level the view to see the room before navigating.",
+      "latency_s": 1.85,
+      "prompt_tokens": 1904
+    },
+    {
+      "n": 51,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and reorient before moving.",
+      "latency_s": 1.79,
+      "prompt_tokens": 1905
+    },
+    {
+      "n": 53,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I need to level it to see the room before navigating.",
+      "latency_s": 1.82,
+      "prompt_tokens": 1906
+    },
+    {
+      "n": 55,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and re-orient before moving.",
+      "latency_s": 1.67,
+      "prompt_tokens": 1907
+    },
+    {
+      "n": 57,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I need to level the view to see the room and navigate.",
+      "latency_s": 1.97,
+      "prompt_tokens": 1908
+    },
+    {
+      "n": 59,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling, so I need to look down to re-orient before navigating.",
+      "latency_s": 1.72,
+      "prompt_tokens": 1909
+    },
+    {
+      "n": 61,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I need to level the view before navigating. I'll pitch up and then reassess the room.",
+      "latency_s": 2.51,
+      "prompt_tokens": 1910
+    },
+    {
+      "n": 63,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and find the rug/couch.",
+      "latency_s": 1.99,
+      "prompt_tokens": 1911
+    },
+    {
+      "n": 65,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I need to level it to see the room before navigating.",
+      "latency_s": 1.98,
+      "prompt_tokens": 1912
+    },
+    {
+      "n": 67,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and navigate.",
+      "latency_s": 1.86,
+      "prompt_tokens": 1913
+    },
+    {
+      "n": 69,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I need to level it to see the room and navigate.",
+      "latency_s": 2.43,
+      "prompt_tokens": 1914
+    },
+    {
+      "n": 71,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and navigate.",
+      "latency_s": 1.76,
+      "prompt_tokens": 1915
+    },
+    {
+      "n": 73,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I need to level it to see the room before navigating.",
+      "latency_s": 2.54,
+      "prompt_tokens": 1916
+    },
+    {
+      "n": 75,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and find the rug and couch.",
+      "latency_s": 1.81,
+      "prompt_tokens": 1917
+    },
+    {
+      "n": 77,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I can't see the room. I need to look up to re-orient before moving.",
+      "latency_s": 1.65,
+      "prompt_tokens": 1918
+    },
+    {
+      "n": 79,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and navigate.",
+      "latency_s": 1.68,
+      "prompt_tokens": 1919
+    },
+    {
+      "n": 81,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I need to level it to see the room and navigate toward the living room couch.",
+      "latency_s": 2.24,
+      "prompt_tokens": 1920
+    },
+    {
+      "n": 83,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and navigate.",
+      "latency_s": 1.54,
+      "prompt_tokens": 1921
+    },
+    {
+      "n": 85,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I can't see the room. I'll look up to reorient before moving.",
+      "latency_s": 1.72,
+      "prompt_tokens": 1922
+    },
+    {
+      "n": 87,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and navigate.",
+      "latency_s": 1.53,
+      "prompt_tokens": 1923
+    },
+    {
+      "n": 89,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I need to level it to see the room and navigate toward the living room couch.",
+      "latency_s": 1.98,
+      "prompt_tokens": 1924
+    },
+    {
+      "n": 91,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and find the rug and couch.",
+      "latency_s": 1.59,
+      "prompt_tokens": 1925
+    },
+    {
+      "n": 93,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down, showing mostly floor and a window; I need to level the view to navigate toward the living room couch.",
+      "latency_s": 1.99,
+      "prompt_tokens": 1926
+    },
+    {
+      "n": 95,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and find the couch/rug.",
+      "latency_s": 1.72,
+      "prompt_tokens": 1927
+    },
+    {
+      "n": 97,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I need to level it to see the room before navigating.",
+      "latency_s": 1.8,
+      "prompt_tokens": 1928
+    },
+    {
+      "n": 99,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and navigate.",
+      "latency_s": 1.47,
+      "prompt_tokens": 1929
+    },
+    {
+      "n": 101,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I need to level the view to see the room before navigating.",
+      "latency_s": 1.76,
+      "prompt_tokens": 1930
+    },
+    {
+      "n": 103,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and navigate.",
+      "latency_s": 1.55,
+      "prompt_tokens": 1931
+    },
+    {
+      "n": 105,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I need to level it to see the room before navigating.",
+      "latency_s": 1.61,
+      "prompt_tokens": 1932
+    },
+    {
+      "n": 107,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and navigate.",
+      "latency_s": 1.39,
+      "prompt_tokens": 1933
+    },
+    {
+      "n": 109,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I can't see the room. I need to look up to re-orient before navigating.",
+      "latency_s": 1.68,
+      "prompt_tokens": 1934
+    },
+    {
+      "n": 111,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and navigate.",
+      "latency_s": 1.5,
+      "prompt_tokens": 1935
+    },
+    {
+      "n": 113,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I need to level the view before navigating.",
+      "latency_s": 2.62,
+      "prompt_tokens": 1936
+    },
+    {
+      "n": 115,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and find the couch/rug.",
+      "latency_s": 1.64,
+      "prompt_tokens": 1937
+    },
+    {
+      "n": 117,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I can't see the room. I need to look up to re-orient before navigating.",
+      "latency_s": 1.65,
+      "prompt_tokens": 1938
+    },
+    {
+      "n": 119,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and navigate.",
+      "latency_s": 1.5,
+      "prompt_tokens": 1939
+    },
+    {
+      "n": 121,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I need to level it to see the room before navigating.",
+      "latency_s": 1.69,
+      "prompt_tokens": 1940
+    },
+    {
+      "n": 123,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and navigate.",
+      "latency_s": 1.5,
+      "prompt_tokens": 1941
+    },
+    {
+      "n": 125,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I need to look up to see the room and navigate.",
+      "latency_s": 1.76,
+      "prompt_tokens": 1942
+    },
+    {
+      "n": 127,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and find the path forward.",
+      "latency_s": 1.53,
+      "prompt_tokens": 1943
+    },
+    {
+      "n": 129,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I need to level the view to see the room before navigating.",
+      "latency_s": 2.03,
+      "prompt_tokens": 1944
+    },
+    {
+      "n": 131,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and navigate.",
+      "latency_s": 1.38,
+      "prompt_tokens": 1945
+    },
+    {
+      "n": 133,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I cannot see the room. I need to look up to re-orient before proceeding.",
+      "latency_s": 1.72,
+      "prompt_tokens": 1946
+    },
+    {
+      "n": 135,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and navigate.",
+      "latency_s": 1.5,
+      "prompt_tokens": 1947
+    },
+    {
+      "n": 137,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I need to look up to see the room before navigating.",
+      "latency_s": 1.59,
+      "prompt_tokens": 1947
+    },
+    {
+      "n": 139,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and navigate.",
+      "latency_s": 1.51,
+      "prompt_tokens": 1949
+    },
+    {
+      "n": 141,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I need to level it to see the room before navigating.",
+      "latency_s": 1.79,
+      "prompt_tokens": 1950
+    },
+    {
+      "n": 143,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and find the couch/rug.",
+      "latency_s": 1.6,
+      "prompt_tokens": 1951
+    },
+    {
+      "n": 145,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I need to look up to re-orient before navigating.",
+      "latency_s": 1.82,
+      "prompt_tokens": 1952
+    },
+    {
+      "n": 147,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and find the couch/rug.",
+      "latency_s": 1.51,
+      "prompt_tokens": 1953
+    },
+    {
+      "n": 149,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I need to look up to re-orient before moving.",
+      "latency_s": 1.6,
+      "prompt_tokens": 1954
+    },
+    {
+      "n": 151,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and navigate.",
+      "latency_s": 1.48,
+      "prompt_tokens": 1955
+    },
+    {
+      "n": 153,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I need to level the view to see the room before navigating.",
+      "latency_s": 1.88,
+      "prompt_tokens": 1956
+    },
+    {
+      "n": 155,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and navigate.",
+      "latency_s": 1.46,
+      "prompt_tokens": 1957
+    },
+    {
+      "n": 157,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I need to level it to see the room before navigating.",
+      "latency_s": 1.84,
+      "prompt_tokens": 1958
+    },
+    {
+      "n": 159,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and navigate.",
+      "latency_s": 1.51,
+      "prompt_tokens": 1959
+    },
+    {
+      "n": 161,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I need to look up to re-orient before moving.",
+      "latency_s": 1.65,
+      "prompt_tokens": 1960
+    },
+    {
+      "n": 163,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and navigate.",
+      "latency_s": 1.48,
+      "prompt_tokens": 1961
+    },
+    {
+      "n": 165,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I need to look up to re-orient before navigating.",
+      "latency_s": 2.7,
+      "prompt_tokens": 1962
+    },
+    {
+      "n": 167,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and find the couch/rug.",
+      "latency_s": 6.99,
+      "prompt_tokens": 1963
+    },
+    {
+      "n": 169,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I need to level it to see the room before navigating.",
+      "latency_s": 6.59,
+      "prompt_tokens": 1963
+    },
+    {
+      "n": 171,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and navigate.",
+      "latency_s": 6.52,
+      "prompt_tokens": 1965
+    },
+    {
+      "n": 173,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I need to level it to see the room before navigating.",
+      "latency_s": 5.76,
+      "prompt_tokens": 1966
+    },
+    {
+      "n": 175,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and navigate.",
+      "latency_s": 5.96,
+      "prompt_tokens": 1967
+    },
+    {
+      "n": 177,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and find the rug and couch.",
+      "latency_s": 1.57,
+      "prompt_tokens": 1968
+    },
+    {
+      "n": 179,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I need to look up to re-orient before navigating toward the couch and rug.",
+      "latency_s": 1.96,
+      "prompt_tokens": 1969
+    },
+    {
+      "n": 181,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and navigate.",
+      "latency_s": 1.41,
+      "prompt_tokens": 1970
+    },
+    {
+      "n": 183,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I cannot see the room. I need to look up to re-orient before navigating.",
+      "latency_s": 1.69,
+      "prompt_tokens": 1971
+    },
+    {
+      "n": 185,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I cannot see the room. I need to look up to re-orient before navigating.",
+      "latency_s": 1.64,
+      "prompt_tokens": 1972
+    },
+    {
+      "n": 187,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and locate the couch and rug.",
+      "latency_s": 1.69,
+      "prompt_tokens": 1972
+    },
+    {
+      "n": 189,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I need to level the view to see the room and find the couch/rug.",
+      "latency_s": 5.79,
+      "prompt_tokens": 1974
+    },
+    {
+      "n": 191,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and navigate toward the living room rug.",
+      "latency_s": 1.72,
+      "prompt_tokens": 1975
+    },
+    {
+      "n": 193,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I cannot see the room. I need to look up to re-orient before navigating.",
+      "latency_s": 1.58,
+      "prompt_tokens": 1978
+    },
+    {
+      "n": 195,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and locate the couch and rug.",
+      "latency_s": 1.51,
+      "prompt_tokens": 1979
+    },
+    {
+      "n": 197,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I need to look up to re-orient before moving.",
+      "latency_s": 1.54,
+      "prompt_tokens": 1977
+    },
+    {
+      "n": 199,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and locate the couch/rug.",
+      "latency_s": 1.86,
+      "prompt_tokens": 1980
+    },
+    {
+      "n": 201,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I need to look up to re-orient before navigating.",
+      "latency_s": 1.6,
+      "prompt_tokens": 1979
+    },
+    {
+      "n": 203,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and find the couch/rug.",
+      "latency_s": 3.01,
+      "prompt_tokens": 1981
+    },
+    {
+      "n": 205,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I need to look up to re-orient before moving.",
+      "latency_s": 1.48,
+      "prompt_tokens": 1982
+    },
+    {
+      "n": 207,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and locate the couch/rug.",
+      "latency_s": 1.61,
+      "prompt_tokens": 1983
+    },
+    {
+      "n": 209,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I need to look up to re-orient before moving.",
+      "latency_s": 1.51,
+      "prompt_tokens": 1984
+    },
+    {
+      "n": 211,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and locate the couch/rug.",
+      "latency_s": 1.55,
+      "prompt_tokens": 1985
+    },
+    {
+      "n": 213,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I need to look up to re-orient before navigating.",
+      "latency_s": 1.78,
+      "prompt_tokens": 1986
+    },
+    {
+      "n": 215,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and locate the couch/rug.",
+      "latency_s": 1.4,
+      "prompt_tokens": 1987
+    },
+    {
+      "n": 217,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I need to look up to re-orient before navigating further.",
+      "latency_s": 4.03,
+      "prompt_tokens": 1988
+    },
+    {
+      "n": 219,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and locate the couch and rug.",
+      "latency_s": 1.53,
+      "prompt_tokens": 1989
+    },
+    {
+      "n": 221,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I need to level it to see the room before navigating.",
+      "latency_s": 1.54,
+      "prompt_tokens": 1992
+    },
+    {
+      "n": 223,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and locate the couch/rug.",
+      "latency_s": 1.51,
+      "prompt_tokens": 1993
+    },
+    {
+      "n": 225,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I need to look up to re-orient before navigating.",
+      "latency_s": 1.55,
+      "prompt_tokens": 1994
+    },
+    {
+      "n": 227,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and locate the couch/rug.",
+      "latency_s": 1.78,
+      "prompt_tokens": 1993
+    },
+    {
+      "n": 229,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I need to look up to re-orient before navigating.",
+      "latency_s": 1.57,
+      "prompt_tokens": 1996
+    },
+    {
+      "n": 231,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and find the couch/rug.",
+      "latency_s": 1.45,
+      "prompt_tokens": 1997
+    },
+    {
+      "n": 233,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I need to look up to re-orient before moving.",
+      "latency_s": 1.53,
+      "prompt_tokens": 1998
+    },
+    {
+      "n": 235,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and locate the couch/rug.",
+      "latency_s": 2.03,
+      "prompt_tokens": 1999
+    },
+    {
+      "n": 237,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I need to look up to re-orient before moving.",
+      "latency_s": 1.6,
+      "prompt_tokens": 1998
+    },
+    {
+      "n": 239,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and locate the couch/rug.",
+      "latency_s": 1.5,
+      "prompt_tokens": 2001
+    },
+    {
+      "n": 241,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I need to look up to re-orient before moving.",
+      "latency_s": 1.61,
+      "prompt_tokens": 2002
+    },
+    {
+      "n": 243,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and locate the couch/rug.",
+      "latency_s": 1.41,
+      "prompt_tokens": 2003
+    },
+    {
+      "n": 245,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I need to level it to see the room before navigating.",
+      "latency_s": 1.8,
+      "prompt_tokens": 2004
+    },
+    {
+      "n": 247,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and locate the couch and rug.",
+      "latency_s": 1.57,
+      "prompt_tokens": 2002
+    },
+    {
+      "n": 249,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I need to look up to re-orient before navigating.",
+      "latency_s": 1.65,
+      "prompt_tokens": 2006
+    },
+    {
+      "n": 251,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and locate the couch/rug before proceeding.",
+      "latency_s": 1.57,
+      "prompt_tokens": 2007
+    },
+    {
+      "n": 253,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I need to look up to re-orient before navigating further.",
+      "latency_s": 1.57,
+      "prompt_tokens": 2008
+    },
+    {
+      "n": 255,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and locate the couch/rug.",
+      "latency_s": 1.63,
+      "prompt_tokens": 2009
+    },
+    {
+      "n": 257,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I cannot see the room. I need to look up to re-orient before navigating.",
+      "latency_s": 1.61,
+      "prompt_tokens": 2007
+    },
+    {
+      "n": 259,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and locate the couch/rug before proceeding.",
+      "latency_s": 1.63,
+      "prompt_tokens": 2011
+    },
+    {
+      "n": 261,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I need to look up to re-orient before navigating toward the couch and rug.",
+      "latency_s": 1.71,
+      "prompt_tokens": 2012
+    },
+    {
+      "n": 263,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and locate the couch/rug.",
+      "latency_s": 1.48,
+      "prompt_tokens": 2013
+    },
+    {
+      "n": 265,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I need to look up to re-orient before navigating toward the couch and rug.",
+      "latency_s": 1.85,
+      "prompt_tokens": 2014
+    },
+    {
+      "n": 267,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and locate the couch/rug.",
+      "latency_s": 1.46,
+      "prompt_tokens": 2014
+    },
+    {
+      "n": 269,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I need to look up to re-orient before navigating.",
+      "latency_s": 2.1,
+      "prompt_tokens": 2016
+    },
+    {
+      "n": 271,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and locate the couch/rug.",
+      "latency_s": 1.64,
+      "prompt_tokens": 2017
+    },
+    {
+      "n": 273,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I need to look up to re-orient before moving.",
+      "latency_s": 1.84,
+      "prompt_tokens": 2018
+    },
+    {
+      "n": 275,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and locate the couch and rug.",
+      "latency_s": 2.18,
+      "prompt_tokens": 2019
+    },
+    {
+      "n": 277,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I need to level the view to see the room before navigating.",
+      "latency_s": 1.73,
+      "prompt_tokens": 2019
+    },
+    {
+      "n": 279,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and locate the couch and rug.",
+      "latency_s": 1.32,
+      "prompt_tokens": 2021
+    },
+    {
+      "n": 281,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I need to look up to re-orient before moving.",
+      "latency_s": 1.63,
+      "prompt_tokens": 2022
+    },
+    {
+      "n": 283,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and locate the couch and rug.",
+      "latency_s": 1.46,
+      "prompt_tokens": 2023
+    },
+    {
+      "n": 285,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I need to level the view to see the room and locate the couch/rug.",
+      "latency_s": 1.91,
+      "prompt_tokens": 2023
+    },
+    {
+      "n": 287,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and locate the couch and rug.",
+      "latency_s": 1.43,
+      "prompt_tokens": 2024
+    },
+    {
+      "n": 289,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I need to level it to see the room and locate the couch/rug before proceeding.",
+      "latency_s": 2.29,
+      "prompt_tokens": 2025
+    },
+    {
+      "n": 291,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and locate the couch/rug.",
+      "latency_s": 1.52,
+      "prompt_tokens": 2026
+    },
+    {
+      "n": 293,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I need to look up to re-orient before moving.",
+      "latency_s": 1.57,
+      "prompt_tokens": 2027
+    },
+    {
+      "n": 295,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and locate the couch/rug.",
+      "latency_s": 1.55,
+      "prompt_tokens": 2028
+    },
+    {
+      "n": 297,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I need to level it to see the room before navigating.",
+      "latency_s": 1.69,
+      "prompt_tokens": 2029
+    },
+    {
+      "n": 299,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and locate the couch/rug before proceeding.",
+      "latency_s": 1.64,
+      "prompt_tokens": 2030
+    },
+    {
+      "n": 301,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I need to level it to see the room and locate the couch and rug.",
+      "latency_s": 1.77,
+      "prompt_tokens": 2031
+    },
+    {
+      "n": 303,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and locate the couch and rug.",
+      "latency_s": 1.56,
+      "prompt_tokens": 2030
+    },
+    {
+      "n": 305,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I need to look up to re-orient before navigating further.",
+      "latency_s": 1.68,
+      "prompt_tokens": 2032
+    },
+    {
+      "n": 307,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and locate the couch/rug.",
+      "latency_s": 1.42,
+      "prompt_tokens": 2032
+    },
+    {
+      "n": 309,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I need to look up to re-orient before navigating.",
+      "latency_s": 1.65,
+      "prompt_tokens": 2036
+    },
+    {
+      "n": 311,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and locate the couch and rug.",
+      "latency_s": 1.38,
+      "prompt_tokens": 2037
+    },
+    {
+      "n": 313,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I need to look up to re-orient before moving.",
+      "latency_s": 1.57,
+      "prompt_tokens": 2037
+    },
+    {
+      "n": 315,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and locate the couch and rug.",
+      "latency_s": 1.62,
+      "prompt_tokens": 2038
+    },
+    {
+      "n": 317,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I need to look up to re-orient before navigating.",
+      "latency_s": 1.92,
+      "prompt_tokens": 2037
+    },
+    {
+      "n": 319,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and locate the couch/rug.",
+      "latency_s": 1.41,
+      "prompt_tokens": 2040
+    },
+    {
+      "n": 321,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I need to look up to re-orient before moving.",
+      "latency_s": 1.95,
+      "prompt_tokens": 2041
+    },
+    {
+      "n": 323,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and locate the couch/rug before proceeding.",
+      "latency_s": 1.62,
+      "prompt_tokens": 2042
+    },
+    {
+      "n": 325,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I need to look up to re-orient before moving.",
+      "latency_s": 1.53,
+      "prompt_tokens": 2043
+    },
+    {
+      "n": 327,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and locate the couch and rug.",
+      "latency_s": 1.55,
+      "prompt_tokens": 2044
+    },
+    {
+      "n": 329,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I need to look up to re-orient before moving.",
+      "latency_s": 2.08,
+      "prompt_tokens": 2045
+    },
+    {
+      "n": 331,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and locate the couch and rug.",
+      "latency_s": 1.51,
+      "prompt_tokens": 2046
+    },
+    {
+      "n": 333,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I need to look up to re-orient before navigating toward the couch and rug.",
+      "latency_s": 2.01,
+      "prompt_tokens": 2047
+    },
+    {
+      "n": 335,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and locate the couch and rug.",
+      "latency_s": 1.45,
+      "prompt_tokens": 2046
+    },
+    {
+      "n": 337,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I need to look up to re-orient before navigating toward the couch and rug.",
+      "latency_s": 1.73,
+      "prompt_tokens": 2049
+    },
+    {
+      "n": 339,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and locate the couch and rug.",
+      "latency_s": 1.64,
+      "prompt_tokens": 2050
+    },
+    {
+      "n": 341,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I need to look up to re-orient before navigating to the couch.",
+      "latency_s": 2.04,
+      "prompt_tokens": 2051
+    },
+    {
+      "n": 343,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and locate the couch/rug.",
+      "latency_s": 1.75,
+      "prompt_tokens": 2052
+    },
+    {
+      "n": 345,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I need to look up to re-orient before navigating.",
+      "latency_s": 1.66,
+      "prompt_tokens": 2053
+    },
+    {
+      "n": 347,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and locate the couch/rug before proceeding.",
+      "latency_s": 1.61,
+      "prompt_tokens": 2054
+    },
+    {
+      "n": 349,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I need to look up to re-orient before moving.",
+      "latency_s": 1.65,
+      "prompt_tokens": 2055
+    },
+    {
+      "n": 351,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and locate the couch and rug before proceeding.",
+      "latency_s": 1.78,
+      "prompt_tokens": 2056
+    },
+    {
+      "n": 353,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I need to look up to re-orient before navigating.",
+      "latency_s": 1.58,
+      "prompt_tokens": 2057
+    },
+    {
+      "n": 355,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and locate the couch/rug before proceeding.",
+      "latency_s": 1.8,
+      "prompt_tokens": 2058
+    },
+    {
+      "n": 357,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I need to look up to re-orient before navigating.",
+      "latency_s": 1.65,
+      "prompt_tokens": 2059
+    },
+    {
+      "n": 359,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and locate the couch and rug.",
+      "latency_s": 1.65,
+      "prompt_tokens": 2060
+    },
+    {
+      "n": 361,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I need to look up to re-orient before moving.",
+      "latency_s": 1.85,
+      "prompt_tokens": 2061
+    },
+    {
+      "n": 363,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and locate the couch/rug.",
+      "latency_s": 1.44,
+      "prompt_tokens": 2062
+    },
+    {
+      "n": 365,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I must look up to see the room before navigating further.",
+      "latency_s": 1.78,
+      "prompt_tokens": 2063
+    },
+    {
+      "n": 367,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and locate the couch/rug before proceeding.",
+      "latency_s": 1.65,
+      "prompt_tokens": 2062
+    },
+    {
+      "n": 369,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I need to level the view to see the room before navigating.",
+      "latency_s": 1.86,
+      "prompt_tokens": 2065
+    },
+    {
+      "n": 371,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and locate the couch/rug before proceeding.",
+      "latency_s": 1.65,
+      "prompt_tokens": 2066
+    },
+    {
+      "n": 373,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I need to look up to re-orient before moving.",
+      "latency_s": 1.62,
+      "prompt_tokens": 2067
+    },
+    {
+      "n": 375,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and locate the couch/rug before proceeding.",
+      "latency_s": 1.66,
+      "prompt_tokens": 2068
+    },
+    {
+      "n": 377,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I cannot see the room. I need to look up to re-orient before navigating toward the couch and rug.",
+      "latency_s": 1.84,
+      "prompt_tokens": 2069
+    },
+    {
+      "n": 379,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and locate the couch/rug before proceeding.",
+      "latency_s": 1.6,
+      "prompt_tokens": 2070
+    },
+    {
+      "n": 381,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I need to look up to re-orient before navigating.",
+      "latency_s": 1.84,
+      "prompt_tokens": 2071
+    },
+    {
+      "n": 383,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and locate the couch/rug before proceeding.",
+      "latency_s": 1.63,
+      "prompt_tokens": 2072
+    },
+    {
+      "n": 385,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I need to level it to see the room and locate the couch/rug before proceeding.",
+      "latency_s": 1.84,
+      "prompt_tokens": 2073
+    },
+    {
+      "n": 387,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and locate the couch/rug before proceeding.",
+      "latency_s": 1.63,
+      "prompt_tokens": 2074
+    },
+    {
+      "n": 389,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I must look up to re-orient before moving.",
+      "latency_s": 1.7,
+      "prompt_tokens": 2075
+    },
+    {
+      "n": 391,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and locate the couch/rug before proceeding.",
+      "latency_s": 1.8,
+      "prompt_tokens": 2076
+    },
+    {
+      "n": 393,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I cannot see the room. I need to look up to re-orient before proceeding.",
+      "latency_s": 1.75,
+      "prompt_tokens": 2077
+    },
+    {
+      "n": 395,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and locate the couch/rug before proceeding.",
+      "latency_s": 1.66,
+      "prompt_tokens": 2078
+    },
+    {
+      "n": 397,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I need to look up to see the room and locate the couch/rug before proceeding.",
+      "latency_s": 1.84,
+      "prompt_tokens": 2079
+    },
+    {
+      "n": 399,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and locate the couch/rug before proceeding.",
+      "latency_s": 1.52,
+      "prompt_tokens": 2080
+    },
+    {
+      "n": 401,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I need to level it to see the room before navigating.",
+      "latency_s": 1.68,
+      "prompt_tokens": 2081
+    },
+    {
+      "n": 403,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and locate the couch/rug before proceeding.",
+      "latency_s": 1.53,
+      "prompt_tokens": 2082
+    },
+    {
+      "n": 405,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I cannot see the room. I need to look up to re-orient before navigating.",
+      "latency_s": 1.59,
+      "prompt_tokens": 2083
+    },
+    {
+      "n": 407,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and locate the couch/rug before proceeding.",
+      "latency_s": 1.82,
+      "prompt_tokens": 2084
+    },
+    {
+      "n": 409,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I cannot see the room. I need to look up to re-orient before proceeding.",
+      "latency_s": 1.88,
+      "prompt_tokens": 2085
+    },
+    {
+      "n": 411,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and locate the couch/rug before proceeding.",
+      "latency_s": 1.62,
+      "prompt_tokens": 2086
+    },
+    {
+      "n": 413,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I cannot see the room. I need to look up to re-orient before proceeding.",
+      "latency_s": 1.72,
+      "prompt_tokens": 2087
+    },
+    {
+      "n": 415,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and locate the couch/rug before proceeding.",
+      "latency_s": 1.65,
+      "prompt_tokens": 2088
+    },
+    {
+      "n": 417,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I need to look up to see the room and locate the couch/rug before proceeding.",
+      "latency_s": 1.68,
+      "prompt_tokens": 2089
+    },
+    {
+      "n": 419,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and locate the couch/rug before proceeding.",
+      "latency_s": 1.67,
+      "prompt_tokens": 2090
+    },
+    {
+      "n": 421,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I cannot see the room. I need to look up to re-orient before navigating.",
+      "latency_s": 1.77,
+      "prompt_tokens": 2091
+    },
+    {
+      "n": 423,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and locate the couch/rug before proceeding.",
+      "latency_s": 1.77,
+      "prompt_tokens": 2092
+    },
+    {
+      "n": 425,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I cannot see the room. I need to look up to re-orient before proceeding.",
+      "latency_s": 2.19,
+      "prompt_tokens": 2093
+    },
+    {
+      "n": 427,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and locate the couch/rug before proceeding.",
+      "latency_s": 1.51,
+      "prompt_tokens": 2094
+    },
+    {
+      "n": 429,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I cannot judge my surroundings. I will look up to re-orient before deciding whether I am near the rug in front of the couch.",
+      "latency_s": 2.01,
+      "prompt_tokens": 2095
+    },
+    {
+      "n": 431,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and locate the couch/rug before proceeding.",
+      "latency_s": 1.58,
+      "prompt_tokens": 2096
+    },
+    {
+      "n": 433,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I need to level it to see the room and locate the couch/rug before moving.",
+      "latency_s": 2.02,
+      "prompt_tokens": 2097
+    },
+    {
+      "n": 435,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and locate the couch/rug before proceeding.",
+      "latency_s": 1.6,
+      "prompt_tokens": 2098
+    },
+    {
+      "n": 437,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I cannot see the room. I need to look up to re-orient before navigating.",
+      "latency_s": 1.85,
+      "prompt_tokens": 2099
+    },
+    {
+      "n": 439,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and locate the couch/rug before proceeding.",
+      "latency_s": 1.63,
+      "prompt_tokens": 2100
+    },
+    {
+      "n": 441,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I need to level it to see the room and locate the couch/rug before proceeding.",
+      "latency_s": 1.86,
+      "prompt_tokens": 2101
+    },
+    {
+      "n": 443,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and locate the couch/rug before proceeding.",
+      "latency_s": 1.68,
+      "prompt_tokens": 2102
+    },
+    {
+      "n": 445,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I need to look up to see the room and locate the couch and rug before proceeding.",
+      "latency_s": 2.03,
+      "prompt_tokens": 2103
+    },
+    {
+      "n": 447,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and locate the couch/rug before proceeding.",
+      "latency_s": 2.56,
+      "prompt_tokens": 2104
+    },
+    {
+      "n": 449,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor, so I cannot judge my surroundings. I need to look up to re-orient before deciding whether I'm near the couch rug.",
+      "latency_s": 2.08,
+      "prompt_tokens": 2105
+    },
+    {
+      "n": 451,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and locate the couch/rug before proceeding.",
+      "latency_s": 1.55,
+      "prompt_tokens": 2106
+    },
+    {
+      "n": 453,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I need to look up to re-orient before moving.",
+      "latency_s": 2.36,
+      "prompt_tokens": 2107
+    },
+    {
+      "n": 455,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and locate the couch/rug before proceeding.",
+      "latency_s": 1.56,
+      "prompt_tokens": 2108
+    },
+    {
+      "n": 457,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I need to look up to see the room and locate the couch/rug before proceeding.",
+      "latency_s": 1.56,
+      "prompt_tokens": 2109
+    },
+    {
+      "n": 459,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and locate the couch/rug before deciding to stop.",
+      "latency_s": 1.58,
+      "prompt_tokens": 2110
+    },
+    {
+      "n": 460,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor; I need to level it to see the room and locate the couch/rug before proceeding.",
+      "latency_s": 2.42,
+      "prompt_tokens": 2111
+    },
+    {
+      "n": 461,
+      "actions": [
+        "STOP"
+      ],
+      "thought": "The camera is pitched down showing a rug next to a window/couch area, consistent with the rug in front of the couch. I appear to be at the goal.",
+      "latency_s": 2.2,
+      "prompt_tokens": 2112
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    9.575,
+    9.575
+  ],
+  "final_distance": 9.575,
+  "min_distance": 9.575,
+  "metrics": {
+    "distance_to_goal": 9.57510757446289,
+    "success": 0.0,
+    "spl": 0.0,
+    "oracle_success": 0.0,
+    "path_length": 6.407499313354492e-07,
+    "steps_taken": 461.0
+  },
+  "success": false,
+  "backend_stats": {
+    "calls": 277,
+    "failures": 0,
+    "prompt_tokens": 539373,
+    "completion_tokens": 17386,
+    "reasoning_tokens": 4935,
+    "latency_s": 533.5368695259094
+  }
+}

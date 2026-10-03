@@ -1,0 +1,142 @@
+{
+  "episode_id": 1078,
+  "scene_id": "8194nk5LbLH",
+  "instruction": "Walk to the other end of the lobby and wait near the exit.",
+  "actions_taken": 25,
+  "policy_calls": 7,
+  "api_latency_s": 13.37,
+  "prompt_tokens": 11534,
+  "completion_tokens": 445,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 13.47,
+  "steps": [
+    {
+      "n": 5,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I see a lobby with a kitchen bar ahead and an exit sign on the right wall. I'll head toward the exit sign at the far end.",
+      "latency_s": 1.63,
+      "prompt_tokens": 874
+    },
+    {
+      "n": 8,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see an exit sign above a doorway ahead across the lobby. I'll advance toward it and re-observe.",
+      "latency_s": 1.74,
+      "prompt_tokens": 1230
+    },
+    {
+      "n": 12,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see an exit sign above a door on the right side of the lobby. I'll head toward it, turning slightly right and advancing.",
+      "latency_s": 1.86,
+      "prompt_tokens": 1594
+    },
+    {
+      "n": 16,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_RIGHT"
+      ],
+      "thought": "The exit door with the green EXIT sign is ahead to the right, past the bar. I'll advance toward it and stop near it.",
+      "latency_s": 2.11,
+      "prompt_tokens": 1958
+    },
+    {
+      "n": 20,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The exit door with the green EXIT sign is visible ahead past the bar. I'll advance toward it and stop nearby.",
+      "latency_s": 1.94,
+      "prompt_tokens": 1959
+    },
+    {
+      "n": 24,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The exit door with the green EXIT sign is directly ahead, a few meters away. I'll advance toward it and stop nearby.",
+      "latency_s": 2.11,
+      "prompt_tokens": 1959
+    },
+    {
+      "n": 25,
+      "actions": [
+        "STOP"
+      ],
+      "thought": "I have crossed the lobby and am now standing close to the exit door with the green EXIT sign, so I should stop here.",
+      "latency_s": 1.98,
+      "prompt_tokens": 1960
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    8.651,
+    8.651,
+    8.415,
+    8.183,
+    7.958,
+    7.743,
+    7.545,
+    7.378,
+    7.258,
+    7.259,
+    7.274,
+    7.299,
+    7.334,
+    7.378,
+    7.432,
+    7.555,
+    7.692,
+    7.841,
+    8.002,
+    8.235,
+    8.482,
+    8.731,
+    8.97
+  ],
+  "final_distance": 8.97,
+  "min_distance": 7.258,
+  "metrics": {
+    "distance_to_goal": 8.97012996673584,
+    "success": 0.0,
+    "spl": 0.0,
+    "oracle_success": 0.0,
+    "path_length": 5.238767489790916,
+    "steps_taken": 25.0
+  },
+  "success": false,
+  "backend_stats": {
+    "calls": 17,
+    "failures": 0,
+    "prompt_tokens": 29131,
+    "completion_tokens": 1246,
+    "reasoning_tokens": 379,
+    "latency_s": 36.392707109451294
+  },
+  "stop_deferrals": 0
+}

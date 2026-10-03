@@ -1,0 +1,152 @@
+{
+  "episode_id": 1431,
+  "scene_id": "oLBMNvg9in8",
+  "instruction": "Leave the room, and take a left. Go into the sitting room through the door on the right. take a right into the room with the statue, and the model house. Stop once you enter the room.",
+  "actions_taken": 24,
+  "policy_calls": 9,
+  "api_latency_s": 22.85,
+  "prompt_tokens": 15716,
+  "completion_tokens": 923,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 23.0,
+  "steps": [
+    {
+      "n": 3,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I see a statue and a lamp nearby, but the instruction says to first leave the room and turn left, so I need to find the exit. I'll turn right to scan the room for a doorway.",
+      "latency_s": 2.13,
+      "prompt_tokens": 903
+    },
+    {
+      "n": 5,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a green room facing a fireplace; I need to find the exit door to leave the room. I'll turn to scan for a doorway.",
+      "latency_s": 1.78,
+      "prompt_tokens": 1259
+    },
+    {
+      "n": 8,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a green room with a fireplace; the archway on the right leads onward. I'll turn right and head through the arch to continue following the instruction.",
+      "latency_s": 2.82,
+      "prompt_tokens": 1623
+    },
+    {
+      "n": 11,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a green room with a fireplace; the archway ahead leads onward. I'll advance toward the archway to find the door on the right into the sitting room.",
+      "latency_s": 2.7,
+      "prompt_tokens": 1987
+    },
+    {
+      "n": 14,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the green room facing the archway leading to the sitting room. I'll advance through the arch, then look for the door on the right leading to the statue/model house room.",
+      "latency_s": 2.86,
+      "prompt_tokens": 1988
+    },
+    {
+      "n": 17,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing an archway into the sitting room. I'll move forward through it, then look for the door on the right leading to the statue/model house room.",
+      "latency_s": 3.01,
+      "prompt_tokens": 1987
+    },
+    {
+      "n": 20,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've entered the sitting room area; the archway to the right leads onward. I'll turn right toward the open room and proceed.",
+      "latency_s": 2.38,
+      "prompt_tokens": 1989
+    },
+    {
+      "n": 23,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see a white statue ahead, suggesting I'm entering the room with the statue and model house. I'll advance a bit further into the room before stopping.",
+      "latency_s": 2.43,
+      "prompt_tokens": 1989
+    },
+    {
+      "n": 24,
+      "actions": [
+        "STOP"
+      ],
+      "thought": "The statue is visible just behind me and I have moved through the doorway into the room with the statue and model house; the instruction says to stop once entering this room.",
+      "latency_s": 2.74,
+      "prompt_tokens": 1991
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    8.867,
+    8.869,
+    8.686,
+    8.533,
+    8.401,
+    8.321,
+    8.278,
+    8.259,
+    8.271,
+    8.302,
+    8.348,
+    8.4,
+    8.47,
+    8.493,
+    8.537,
+    8.613,
+    8.732,
+    8.851
+  ],
+  "final_distance": 8.851,
+  "min_distance": 8.259,
+  "metrics": {
+    "distance_to_goal": 8.851454734802246,
+    "success": 0.0,
+    "spl": 0.0,
+    "oracle_success": 0.0,
+    "path_length": 3.8368825167417526,
+    "steps_taken": 24.0
+  },
+  "success": false,
+  "backend_stats": {
+    "calls": 714,
+    "failures": 0,
+    "prompt_tokens": 1401449,
+    "completion_tokens": 58115,
+    "reasoning_tokens": 19675,
+    "latency_s": 1604.527413368225
+  },
+  "stop_deferrals": 0
+}

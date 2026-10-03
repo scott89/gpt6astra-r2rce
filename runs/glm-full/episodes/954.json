@@ -1,0 +1,106 @@
+{
+  "episode_id": 954,
+  "scene_id": "QUCTc6BB5sX",
+  "instruction": "Go between the counters, turn left, turn right, and stop before the display and dining room.",
+  "actions_taken": 20,
+  "policy_calls": 5,
+  "api_latency_s": 13.62,
+  "prompt_tokens": 7650,
+  "completion_tokens": 519,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 13.71,
+  "steps": [
+    {
+      "n": 3,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at a kitchen island with a counter to my left; the path between the counters runs ahead. I'll advance along it and re-observe.",
+      "latency_s": 1.92,
+      "prompt_tokens": 880
+    },
+    {
+      "n": 5,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm between the kitchen counters facing the sink. The instruction says turn left then turn right, which returns me facing the display cabinet and dining area ahead; I'll do those turns and re-observe.",
+      "latency_s": 2.61,
+      "prompt_tokens": 1235
+    },
+    {
+      "n": 13,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm between the kitchen counters. The instruction says turn left then turn right, so I'll rotate left then right and re-observe before approaching the display/dining area.",
+      "latency_s": 3.52,
+      "prompt_tokens": 1600
+    },
+    {
+      "n": 17,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm between the kitchen counters facing the windows. The instruction's turns leave me facing the same direction, so I'll proceed forward toward the display cabinet and dining area ahead, stopping before it.",
+      "latency_s": 3.55,
+      "prompt_tokens": 1967
+    },
+    {
+      "n": 20,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_RIGHT",
+        "STOP"
+      ],
+      "thought": "I'm between the counters at the sink. The instruction says turn left, turn right, then stop before the display and dining room, which is visible ahead.",
+      "latency_s": 2.02,
+      "prompt_tokens": 1968
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    7.381,
+    7.153,
+    6.93,
+    6.71,
+    6.585,
+    6.46,
+    6.335,
+    6.21
+  ],
+  "final_distance": 6.21,
+  "min_distance": 6.21,
+  "metrics": {
+    "distance_to_goal": 6.209756851196289,
+    "success": 0.0,
+    "spl": 0.0,
+    "oracle_success": 0.0,
+    "path_length": 1.2519385367631912,
+    "steps_taken": 20.0
+  },
+  "success": false,
+  "backend_stats": {
+    "calls": 160,
+    "failures": 0,
+    "prompt_tokens": 325704,
+    "completion_tokens": 14554,
+    "reasoning_tokens": 5269,
+    "latency_s": 386.32209944725037
+  },
+  "stop_deferrals": 0
+}

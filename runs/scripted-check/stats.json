@@ -1,0 +1,58 @@
+{
+  "this_run": {
+    "num_episodes": 2,
+    "success": 0.0,
+    "oracle_success": 0.0,
+    "distance_to_goal": 5.8095,
+    "spl": 0.0,
+    "path_length": 2.4521,
+    "steps_taken": 40.0,
+    "termination": {
+      "stop": 2
+    },
+    "mean_actions_per_episode": 40.0,
+    "mean_policy_calls_per_episode": 11.0,
+    "episodes_with_unparsable_reply": 0,
+    "tag": "scripted-check",
+    "policy": "scripted",
+    "model": null,
+    "thinking": false,
+    "max_actions": 40,
+    "time_limit_s": 2400.0,
+    "subset_file": "subset/r2rce100.json",
+    "episodes_run": [
+      136,
+      1
+    ],
+    "cumulative": {
+      "num_episodes": 2,
+      "success": 0.0,
+      "oracle_success": 0.0,
+      "distance_to_goal": 5.8095,
+      "spl": 0.0,
+      "path_length": 2.4521,
+      "steps_taken": 40.0,
+      "termination": {
+        "stop": 2
+      },
+      "mean_actions_per_episode": 40.0,
+      "mean_policy_calls_per_episode": 11.0,
+      "episodes_with_unparsable_reply": 0
+    }
+  },
+  "all_episodes": {
+    "num_episodes": 2,
+    "success": 0.0,
+    "oracle_success": 0.0,
+    "distance_to_goal": 5.8095,
+    "spl": 0.0,
+    "path_length": 2.4521,
+    "steps_taken": 40.0,
+    "termination": {
+      "stop": 2
+    },
+    "mean_actions_per_episode": 40.0,
+    "mean_policy_calls_per_episode": 11.0,
+    "episodes_with_unparsable_reply": 0
+  }
+}

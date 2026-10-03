@@ -1,0 +1,158 @@
+{
+  "episode_id": 19,
+  "scene_id": "QUCTc6BB5sX",
+  "instruction": "Walk through the living room around the backside of the couches. Walk into the kitchen area and walk along the barstools and countertop. Continue ahead towards the arched entryway that leads to a hall beside the stairs.",
+  "actions_taken": 27,
+  "policy_calls": 9,
+  "api_latency_s": 22.25,
+  "prompt_tokens": 15744,
+  "completion_tokens": 873,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 22.44,
+  "steps": [
+    {
+      "n": 3,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at an arched entry looking into a living area. I'll move forward through the arch toward the couches.",
+      "latency_s": 1.75,
+      "prompt_tokens": 907
+    },
+    {
+      "n": 6,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a living room with a couch on the right and chairs ahead. The instruction says to go around the backside of the couches toward the kitchen, so I'll advance carefully through the open floor between the chairs and the couch.",
+      "latency_s": 2.13,
+      "prompt_tokens": 1262
+    },
+    {
+      "n": 9,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I see an arched entryway ahead leading to another room; the instruction ends at the arched entryway by the hall. I'll advance toward it and re-observe.",
+      "latency_s": 2.33,
+      "prompt_tokens": 1625
+    },
+    {
+      "n": 12,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "A chair directly blocks my path to the arched entryway. I'll turn right to skirt around it, then re-aim at the archway.",
+      "latency_s": 2.49,
+      "prompt_tokens": 1989
+    },
+    {
+      "n": 15,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the living room near a chair, with an arched opening ahead leading toward the dining area and hall. I'll advance toward the arch, steering slightly left of the chair.",
+      "latency_s": 3.76,
+      "prompt_tokens": 1991
+    },
+    {
+      "n": 18,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in the living room near the couches; the kitchen/barstool area should be off to the left, not toward the dining table ahead. I'll turn left to scan for the kitchen and countertop.",
+      "latency_s": 2.65,
+      "prompt_tokens": 1991
+    },
+    {
+      "n": 21,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've passed the dining area; the arched entryway on the left leads to the hall beside the stairs. I'll turn left and head through it.",
+      "latency_s": 2.25,
+      "prompt_tokens": 1992
+    },
+    {
+      "n": 24,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm near the archway; the kitchen with countertop is visible through the arch on the left, and the arched entryway ahead leads to a hall. I'll advance through the arch toward the kitchen area.",
+      "latency_s": 2.2,
+      "prompt_tokens": 1993
+    },
+    {
+      "n": 27,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "STOP"
+      ],
+      "thought": "I've passed the kitchen barstools and am now at the arched entryway opening into a hall. The goal is at this archway/hall area, so I'll advance slightly and stop.",
+      "latency_s": 2.69,
+      "prompt_tokens": 1994
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    13.205,
+    13.076,
+    12.985,
+    14.074,
+    12.769,
+    12.609,
+    12.508,
+    12.434,
+    12.374,
+    12.348,
+    12.459,
+    12.57,
+    12.682,
+    12.793,
+    12.655,
+    12.516,
+    12.378,
+    12.24,
+    12.08,
+    11.931,
+    11.794
+  ],
+  "final_distance": 11.794,
+  "min_distance": 11.794,
+  "metrics": {
+    "distance_to_goal": 11.793562889099121,
+    "success": 0.0,
+    "spl": 0.0,
+    "oracle_success": 0.0,
+    "path_length": 3.837050087749958,
+    "steps_taken": 27.0
+  },
+  "success": false,
+  "backend_stats": {
+    "calls": 740,
+    "failures": 0,
+    "prompt_tokens": 1470093,
+    "completion_tokens": 63529,
+    "reasoning_tokens": 21881,
+    "latency_s": 1661.1406598091125
+  },
+  "stop_deferrals": 0
+}

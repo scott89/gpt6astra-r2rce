@@ -1,0 +1,152 @@
+{
+  "episode_id": 7,
+  "scene_id": "x8F5xyUWy9e",
+  "instruction": "Go straight past the pool. Walk between the bar and chairs.  Stop when you get to the corner of the bar.  That's where you will wait.",
+  "actions_taken": 31,
+  "policy_calls": 7,
+  "api_latency_s": 13.93,
+  "prompt_tokens": 11002,
+  "completion_tokens": 569,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 14.05,
+  "steps": [
+    {
+      "n": 6,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I see a pool on the right and a bar area ahead. I'll move forward along the pool edge toward the bar and chairs.",
+      "latency_s": 1.63,
+      "prompt_tokens": 798
+    },
+    {
+      "n": 10,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is visible ahead, slightly right of center, with chairs to its left. I'll advance toward it and then turn to reach its corner.",
+      "latency_s": 1.73,
+      "prompt_tokens": 1153
+    },
+    {
+      "n": 15,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing the bar with chairs on my left. I need to pass between them, so I'll turn slightly right to clear the chairs and advance toward the bar's corner.",
+      "latency_s": 2.35,
+      "prompt_tokens": 1517
+    },
+    {
+      "n": 19,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar is ahead on the left and the pool on the right; I should advance toward the bar's near corner, staying between the bar and the lounge chairs.",
+      "latency_s": 1.97,
+      "prompt_tokens": 1882
+    },
+    {
+      "n": 24,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_LEFT"
+      ],
+      "thought": "The bar is on the left and chairs ahead; I need to walk between them toward the bar's far corner. Move forward along the open path, then turn slightly left to reach the bar corner.",
+      "latency_s": 1.99,
+      "prompt_tokens": 1883
+    },
+    {
+      "n": 28,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar is on the left and the chairs are just ahead; I need to pass between them and stop at the bar's near corner. I'll advance carefully toward the gap.",
+      "latency_s": 1.99,
+      "prompt_tokens": 1884
+    },
+    {
+      "n": 31,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "STOP"
+      ],
+      "thought": "The bar is on the left with its corner just ahead-left, and chairs are to the right; I'm already between them. I'll advance slightly to reach the bar's corner, then stop.",
+      "latency_s": 2.27,
+      "prompt_tokens": 1885
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    10.452,
+    10.207,
+    9.963,
+    9.719,
+    9.475,
+    9.237,
+    8.994,
+    8.753,
+    8.517,
+    8.29,
+    8.094,
+    7.893,
+    7.768,
+    7.518,
+    7.278,
+    7.04,
+    6.803,
+    6.568,
+    6.336,
+    6.107,
+    5.879,
+    5.653,
+    5.408,
+    5.163,
+    4.918,
+    4.675,
+    4.432,
+    4.189
+  ],
+  "final_distance": 4.189,
+  "min_distance": 4.189,
+  "metrics": {
+    "distance_to_goal": 4.1892523765563965,
+    "success": 0.0,
+    "spl": 0.0,
+    "oracle_success": 0.0,
+    "path_length": 6.611954614520073,
+    "steps_taken": 31.0
+  },
+  "success": false,
+  "backend_stats": {
+    "calls": 126,
+    "failures": 0,
+    "prompt_tokens": 226111,
+    "completion_tokens": 9837,
+    "reasoning_tokens": 2867,
+    "latency_s": 282.14840030670166
+  }
+}

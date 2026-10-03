@@ -1,0 +1,159 @@
+{
+  "episode_id": 430,
+  "scene_id": "Z6MFQCViBuw",
+  "instruction": "Go straight into the dining room. Walk through the door on the right on the wall straight ahead. Stop in the doorway.",
+  "actions_taken": 27,
+  "policy_calls": 9,
+  "api_latency_s": 22.25,
+  "prompt_tokens": 15557,
+  "completion_tokens": 790,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 22.44,
+  "steps": [
+    {
+      "n": 4,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the entrance to the dining room. I'll advance forward, then aim for the doorway visible on the right side of the far wall.",
+      "latency_s": 2.3,
+      "prompt_tokens": 885
+    },
+    {
+      "n": 8,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the dining room; the doorway on the right side of the far wall is slightly right of my current heading. I'll turn right to align with it before advancing.",
+      "latency_s": 2.09,
+      "prompt_tokens": 1240
+    },
+    {
+      "n": 11,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the dining room; the dark doorway on the right wall ahead is the target. I'll turn right toward it and approach.",
+      "latency_s": 2.35,
+      "prompt_tokens": 1605
+    },
+    {
+      "n": 14,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the dining room; the doorway on the right wall appears as the dark curtained archway ahead-right. I'll turn right and move toward it.",
+      "latency_s": 2.75,
+      "prompt_tokens": 1970
+    },
+    {
+      "n": 17,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the dining room facing the far wall with curtained openings; the dark doorway between the curtains in the center appears to be the door on the right wall. I'll advance toward it and stop in the doorway.",
+      "latency_s": 2.84,
+      "prompt_tokens": 1971
+    },
+    {
+      "n": 20,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The curtained doorway straight ahead appears to be the door on the wall ahead. I'll advance toward it and stop in the doorway.",
+      "latency_s": 1.88,
+      "prompt_tokens": 1972
+    },
+    {
+      "n": 22,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The curtained glass door straight ahead appears to be the target doorway on the far wall. I'll advance toward it and re-observe.",
+      "latency_s": 2.32,
+      "prompt_tokens": 1970
+    },
+    {
+      "n": 26,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing the curtained glass door on the wall ahead, just a couple meters away. I'll advance toward it and stop in the doorway.",
+      "latency_s": 2.49,
+      "prompt_tokens": 1972
+    },
+    {
+      "n": 27,
+      "actions": [
+        "STOP"
+      ],
+      "thought": "I have advanced to the glass door on the right wall and am essentially in the doorway, very close to the door frame. I should stop here.",
+      "latency_s": 3.23,
+      "prompt_tokens": 1972
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    9.979,
+    9.741,
+    9.505,
+    9.27,
+    9.037,
+    8.79,
+    8.544,
+    8.354,
+    8.22,
+    8.094,
+    7.974,
+    7.86,
+    7.753,
+    7.652,
+    7.558,
+    7.472,
+    7.392,
+    7.321,
+    7.257,
+    7.202,
+    7.581,
+    7.397
+  ],
+  "final_distance": 7.397,
+  "min_distance": 7.202,
+  "metrics": {
+    "distance_to_goal": 7.397453308105469,
+    "success": 0.0,
+    "spl": 0.0,
+    "oracle_success": 0.0,
+    "path_length": 5.266298562288284,
+    "steps_taken": 27.0
+  },
+  "success": false,
+  "backend_stats": {
+    "calls": 176,
+    "failures": 0,
+    "prompt_tokens": 342642,
+    "completion_tokens": 11882,
+    "reasoning_tokens": 2873,
+    "latency_s": 358.5194263458252
+  },
+  "stop_deferrals": 0
+}

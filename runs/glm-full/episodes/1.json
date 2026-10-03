@@ -1,0 +1,141 @@
+{
+  "episode_id": 1,
+  "scene_id": "zsNo4HB9uLZ",
+  "instruction": "Exit the bedroom and turn left. Walk straight passing the gray couch and stop near the rug.",
+  "actions_taken": 17,
+  "policy_calls": 10,
+  "api_latency_s": 20.34,
+  "prompt_tokens": 17466,
+  "completion_tokens": 722,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 20.47,
+  "steps": [
+    {
+      "n": 4,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I appear to be in a closet/bedroom area; the open passage to the left leads out. I'll turn left toward the exit and step out.",
+      "latency_s": 2.25,
+      "prompt_tokens": 879
+    },
+    {
+      "n": 7,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in a hallway facing double doors. The instruction says to turn left after exiting, so I should rotate left to find the living area with the gray couch and rug.",
+      "latency_s": 2.01,
+      "prompt_tokens": 1235
+    },
+    {
+      "n": 10,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've exited the bedroom and turned left into the hallway. I should walk forward down the hallway toward the living area where the gray couch and rug are.",
+      "latency_s": 1.73,
+      "prompt_tokens": 1599
+    },
+    {
+      "n": 11,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The view is pitched down at the floor with a dark rug edge visible; I need to look up to re-orient before proceeding.",
+      "latency_s": 1.86,
+      "prompt_tokens": 1963
+    },
+    {
+      "n": 12,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down and I see a dark rug directly ahead, suggesting I'm already near the rug after exiting and turning. I should look up to confirm my surroundings before stopping.",
+      "latency_s": 2.18,
+      "prompt_tokens": 1964
+    },
+    {
+      "n": 13,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down; I can see a rug directly ahead. I should level the camera to check my surroundings before stopping near the rug.",
+      "latency_s": 2.43,
+      "prompt_tokens": 1964
+    },
+    {
+      "n": 14,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up, showing ceiling; the rug appears below. I should look down to re-orient before stopping near the rug.",
+      "latency_s": 1.73,
+      "prompt_tokens": 1965
+    },
+    {
+      "n": 15,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down and I'm looking at a rug directly beneath/ahead of me. I should level the camera to confirm my surroundings before stopping.",
+      "latency_s": 1.99,
+      "prompt_tokens": 1965
+    },
+    {
+      "n": 16,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up, showing ceiling; a rug is visible below. I should look down to reorient before deciding whether I'm at the rug near the couch.",
+      "latency_s": 2.02,
+      "prompt_tokens": 1966
+    },
+    {
+      "n": 17,
+      "actions": [
+        "STOP"
+      ],
+      "thought": "The camera is pitched down and a large rug fills the view directly ahead, suggesting I'm already at the rug near the couch. I'll stop here.",
+      "latency_s": 2.14,
+      "prompt_tokens": 1966
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    7.961,
+    7.961,
+    7.711,
+    7.541,
+    7.396,
+    7.276
+  ],
+  "final_distance": 7.276,
+  "min_distance": 7.276,
+  "metrics": {
+    "distance_to_goal": 7.275717735290527,
+    "success": 0.0,
+    "spl": 0.0,
+    "oracle_success": 0.0,
+    "path_length": 0.9571526348590851,
+    "steps_taken": 17.0
+  },
+  "success": false,
+  "backend_stats": {
+    "calls": 1022,
+    "failures": 0,
+    "prompt_tokens": 2051669,
+    "completion_tokens": 89437,
+    "reasoning_tokens": 32875,
+    "latency_s": 2305.0934681892395
+  },
+  "stop_deferrals": 0
+}

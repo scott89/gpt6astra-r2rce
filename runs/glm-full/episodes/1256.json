@@ -1,0 +1,707 @@
+{
+  "episode_id": 1256,
+  "scene_id": "2azQ1b91cZZ",
+  "instruction": "Walk straight until you get to a white pot with flowers. Turn left and wait near the bottom of the stairs.",
+  "actions_taken": 157,
+  "policy_calls": 53,
+  "api_latency_s": 132.59,
+  "prompt_tokens": 103089,
+  "completion_tokens": 4961,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 133.6,
+  "steps": [
+    {
+      "n": 3,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a doorway into a dining area; I need to walk straight toward the white pot with flowers, so I'll advance through the doorway and re-observe.",
+      "latency_s": 1.67,
+      "prompt_tokens": 883
+    },
+    {
+      "n": 5,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see a white pot with flowers on the cabinet ahead to the right. I'll advance toward it, then turn left to find the stairs.",
+      "latency_s": 2.01,
+      "prompt_tokens": 1238
+    },
+    {
+      "n": 7,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The white pot with flowers sits on the dark sideboard to the right. I'll advance toward it, then turn left to find the stairs.",
+      "latency_s": 1.8,
+      "prompt_tokens": 1602
+    },
+    {
+      "n": 10,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I've reached the white pot with flowers on the sideboard to my right. Per the instruction, I now turn left to face the area where the stairs should be.",
+      "latency_s": 2.1,
+      "prompt_tokens": 1965
+    },
+    {
+      "n": 13,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "After turning left, I'm facing the living room with a fireplace; the white pot with flowers may be ahead near the sofa/fireplace area. I'll advance toward it and re-observe.",
+      "latency_s": 2.44,
+      "prompt_tokens": 1966
+    },
+    {
+      "n": 15,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've turned left after the white pot and now face the living room, but no stairs are visible yet. I'll advance toward the open living area to look for the staircase.",
+      "latency_s": 1.97,
+      "prompt_tokens": 1967
+    },
+    {
+      "n": 18,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "TURN_LEFT"
+      ],
+      "thought": "I've walked into a dining chair blocking my view. I need to sidestep around it by turning right and moving forward, then re-aim toward the living area to find the white pot with flowers.",
+      "latency_s": 2.11,
+      "prompt_tokens": 1968
+    },
+    {
+      "n": 20,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm currently blocked by a dining chair next to a table. I need to navigate around it and look for the white pot with flowers, likely toward the fireplace area on the left.",
+      "latency_s": 2.42,
+      "prompt_tokens": 1969
+    },
+    {
+      "n": 23,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm pressed against a dining chair blocking my view. I'll turn right to clear it, then move forward toward the fireplace area where the white pot with flowers likely is.",
+      "latency_s": 2.42,
+      "prompt_tokens": 1969
+    },
+    {
+      "n": 26,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm beside a dining table facing the living room; no white flower pot is visible yet. I'll advance along the table toward the open living area to look for it.",
+      "latency_s": 2.2,
+      "prompt_tokens": 1972
+    },
+    {
+      "n": 28,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a dining room with a table and chairs ahead; no white flower pot is visible yet. I'll advance carefully past the table toward the living area to look for it.",
+      "latency_s": 2.41,
+      "prompt_tokens": 1973
+    },
+    {
+      "n": 30,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm behind a dining table looking into a living room; no white flower pot is visible yet. I'll move forward past the table to get a clearer view of the room.",
+      "latency_s": 2.27,
+      "prompt_tokens": 1973
+    },
+    {
+      "n": 32,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I don't currently see a white pot with flowers or stairs in view; I'm facing a dining table with a living room ahead. I should scan the room to locate the pot before proceeding.",
+      "latency_s": 2.88,
+      "prompt_tokens": 1973
+    },
+    {
+      "n": 35,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a dining room facing a long table; no white pot with flowers is visible yet. I'll advance along the table toward the far end of the room to search for it.",
+      "latency_s": 2.76,
+      "prompt_tokens": 1974
+    },
+    {
+      "n": 38,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "A large dining table blocks my path; I need to skirt around it toward the archway/living area where the white pot with flowers likely sits. I'll turn left to move around the near end of the table.",
+      "latency_s": 3.47,
+      "prompt_tokens": 1975
+    },
+    {
+      "n": 41,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm at a dining table and don't yet see the white pot with flowers or stairs. I'll turn left to scan the room for them.",
+      "latency_s": 2.29,
+      "prompt_tokens": 1977
+    },
+    {
+      "n": 43,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm behind a dining chair with the living room ahead; I haven't seen the white pot with flowers or stairs yet. I'll move forward past the chair and re-observe.",
+      "latency_s": 2.56,
+      "prompt_tokens": 1978
+    },
+    {
+      "n": 45,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm beside a dining table looking down a hallway; no white pot with flowers is visible yet. I'll advance along the hallway to search for it.",
+      "latency_s": 2.79,
+      "prompt_tokens": 1979
+    },
+    {
+      "n": 48,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a large living room with a fireplace ahead, but I don't yet see the white pot with flowers or the stairs. I'll advance toward the open area to look for them.",
+      "latency_s": 2.44,
+      "prompt_tokens": 1979
+    },
+    {
+      "n": 51,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a large hall with a fireplace ahead; a white pot with flowers appears near the fireplace area. I'll continue forward toward it before turning left.",
+      "latency_s": 2.63,
+      "prompt_tokens": 1980
+    },
+    {
+      "n": 54,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a large living room with a fireplace ahead. I can see what appears to be a white flower arrangement on a table ahead; I'll advance toward it before turning left to find the stairs.",
+      "latency_s": 2.77,
+      "prompt_tokens": 1980
+    },
+    {
+      "n": 57,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The white pot with flowers is on the round table ahead. I'll advance toward it, then turn left to face the stairs area.",
+      "latency_s": 2.51,
+      "prompt_tokens": 1981
+    },
+    {
+      "n": 60,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_LEFT"
+      ],
+      "thought": "The white pot with flowers is on the table to my right, so I've reached the landmark. I'll advance slightly toward it, then turn left to face where the stairs should be.",
+      "latency_s": 2.93,
+      "prompt_tokens": 1980
+    },
+    {
+      "n": 62,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wooden wall after my last turn; the living area with the white flower pot is to my right. I need to re-orient toward the open room and locate the stairs.",
+      "latency_s": 2.93,
+      "prompt_tokens": 1982
+    },
+    {
+      "n": 65,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a large wood-paneled living room; I don't yet see the white pot with flowers or stairs. I'll advance toward the fireplace area to look for the pot.",
+      "latency_s": 3.07,
+      "prompt_tokens": 1983
+    },
+    {
+      "n": 68,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I see a white pot with flowers on a stand to the left of the fireplace ahead. I'll walk toward it, then turn left to find the stairs.",
+      "latency_s": 2.34,
+      "prompt_tokens": 1984
+    },
+    {
+      "n": 70,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a large living room facing a fireplace; no white pot with flowers or stairs visible yet. I'll advance toward the fireplace area to search for the pot.",
+      "latency_s": 2.43,
+      "prompt_tokens": 1984
+    },
+    {
+      "n": 73,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a large living room facing the fireplace; a white pot with flowers appears near the right of the fireplace. I'll advance toward it, then turn left to find the stairs.",
+      "latency_s": 2.27,
+      "prompt_tokens": 1983
+    },
+    {
+      "n": 76,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a large living room with a fireplace; a white pot with flowers appears on the right near the fireplace. I'll advance toward it, then turn left to look for the stairs.",
+      "latency_s": 2.42,
+      "prompt_tokens": 1986
+    },
+    {
+      "n": 80,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I see a white pot with flowers on the table to the right of the fireplace. I'll walk toward it, then turn left to face the stairs area.",
+      "latency_s": 2.73,
+      "prompt_tokens": 1985
+    },
+    {
+      "n": 85,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the white pot with flowers on the console table to the right of the fireplace. I'll walk toward it, then turn left to face the stairs area and stop.",
+      "latency_s": 2.55,
+      "prompt_tokens": 1985
+    },
+    {
+      "n": 88,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The white pot with flowers sits on the console table ahead near the wall. I'll advance toward it, then turn left to find the stairs.",
+      "latency_s": 2.22,
+      "prompt_tokens": 1989
+    },
+    {
+      "n": 92,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I've reached the white pot with flowers on the console table ahead. Per the instruction, I now turn left to face where the stairs should be.",
+      "latency_s": 2.39,
+      "prompt_tokens": 1990
+    },
+    {
+      "n": 95,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "The white pot with flowers is on the console ahead. I'll turn left to look for the stairs.",
+      "latency_s": 2.18,
+      "prompt_tokens": 1991
+    },
+    {
+      "n": 98,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to have turned past the fireplace area and am now facing a sofa and paneled wall. The white pot with flowers was near the console by the fireplace, so I need to turn right to reorient and look for the stairs.",
+      "latency_s": 3.2,
+      "prompt_tokens": 1992
+    },
+    {
+      "n": 101,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I see a fireplace and wood-paneled walls but no white pot with flowers or stairs yet. I'll turn left to scan the room for the pot and the staircase.",
+      "latency_s": 2.77,
+      "prompt_tokens": 1994
+    },
+    {
+      "n": 104,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I see a paneled wall and a fireplace but no stairs or white flower pot yet. I'll turn right to scan the room toward the fireplace/window area where a staircase might be.",
+      "latency_s": 3.4,
+      "prompt_tokens": 1995
+    },
+    {
+      "n": 106,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I see a fireplace and wood-paneled walls but no white pot with flowers or stairs yet. I'll turn left to scan the room for the pot.",
+      "latency_s": 2.73,
+      "prompt_tokens": 1997
+    },
+    {
+      "n": 109,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "The white pot with flowers is visible on the table just ahead. I'll turn left to face the direction of the stairs as instructed.",
+      "latency_s": 2.58,
+      "prompt_tokens": 1998
+    },
+    {
+      "n": 113,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I see a paneled room with a fireplace and an arched doorway ahead-left leading to a hallway; no white flower pot or stairs visible yet. I'll head through the archway to continue searching.",
+      "latency_s": 2.46,
+      "prompt_tokens": 1999
+    },
+    {
+      "n": 116,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I see an arched doorway ahead but no white pot with flowers yet. I'll move toward the archway to continue searching.",
+      "latency_s": 2.29,
+      "prompt_tokens": 2000
+    },
+    {
+      "n": 119,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing an arched doorway leading to another room; the white pot with flowers hasn't appeared yet, so I'll advance through the arch and look for it.",
+      "latency_s": 2.38,
+      "prompt_tokens": 2000
+    },
+    {
+      "n": 123,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a wooden wall; the archway passage is to my left. I need to turn left and move through the archway to continue toward the white pot with flowers.",
+      "latency_s": 2.09,
+      "prompt_tokens": 2001
+    },
+    {
+      "n": 126,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wooden panel wall; the archway to my right leads toward the room with the mirror where the white pot with flowers likely is. I'll turn right and re-observe.",
+      "latency_s": 2.71,
+      "prompt_tokens": 2003
+    },
+    {
+      "n": 129,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing down a hallway toward an arched opening with a console table and mirror beyond; the white pot with flowers is likely near that console. I'll advance toward it and look for the pot before turning left toward the stairs.",
+      "latency_s": 2.56,
+      "prompt_tokens": 2005
+    },
+    {
+      "n": 132,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "Ahead there is a console with what appears to be a white pot with flowers in the alcove. I will walk toward it, then turn left to find the stairs.",
+      "latency_s": 2.43,
+      "prompt_tokens": 2006
+    },
+    {
+      "n": 135,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've entered a round foyer but don't yet see the white pot with flowers. I'll advance toward the center of the rotunda and then scan the area, since the stairs and pot may be around the corner to the right.",
+      "latency_s": 2.99,
+      "prompt_tokens": 2006
+    },
+    {
+      "n": 138,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a round foyer with a cabinet holding what appears to be a flower arrangement ahead. I'll advance toward it, then turn left to look for the stairs.",
+      "latency_s": 2.84,
+      "prompt_tokens": 2006
+    },
+    {
+      "n": 141,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I appear to be at a rotunda with a console table that may hold the white pot with flowers. The instruction says to turn left and wait near the bottom of the stairs, so I should turn left to look for the stairs.",
+      "latency_s": 2.73,
+      "prompt_tokens": 2007
+    },
+    {
+      "n": 144,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in a rotunda entry but haven't seen a white pot with flowers or stairs yet. I'll turn left to scan the room for the pot and the staircase.",
+      "latency_s": 2.29,
+      "prompt_tokens": 2008
+    },
+    {
+      "n": 147,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in an arched hallway but haven't seen the white pot with flowers yet. I'll continue forward along the hallway to search for it.",
+      "latency_s": 2.02,
+      "prompt_tokens": 2009
+    },
+    {
+      "n": 150,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_LEFT"
+      ],
+      "thought": "The white pot with flowers is visible on the left near the archway. I'll advance toward it, then turn left to face the stairs area.",
+      "latency_s": 2.27,
+      "prompt_tokens": 2010
+    },
+    {
+      "n": 157,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "STOP"
+      ],
+      "thought": "The white pot with flowers is right beside me on the left, so I've reached the landmark. I'll turn left to face the stairs area and then stop.",
+      "latency_s": 2.47,
+      "prompt_tokens": 2010
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    9.163,
+    9.177,
+    9.201,
+    9.235,
+    9.279,
+    9.348,
+    9.472,
+    9.637,
+    9.522,
+    9.368,
+    9.244,
+    9.16,
+    9.17,
+    9.17,
+    9.324,
+    9.324,
+    9.324,
+    9.36,
+    9.373,
+    9.28,
+    9.187,
+    8.929,
+    8.749,
+    8.586,
+    8.447,
+    8.337,
+    8.27,
+    8.255,
+    7.436,
+    7.193,
+    6.966,
+    6.777,
+    6.592,
+    6.412,
+    6.236,
+    6.074,
+    5.934,
+    5.887,
+    5.88,
+    5.915,
+    6.303,
+    6.11,
+    5.929,
+    5.755,
+    5.55,
+    5.358,
+    5.183,
+    5.086,
+    5.037,
+    5.04,
+    5.073,
+    5.118,
+    5.175,
+    5.302,
+    5.438,
+    5.589,
+    5.8,
+    6.019,
+    6.244,
+    6.475,
+    6.715,
+    6.477,
+    6.249,
+    6.027,
+    5.804,
+    5.549,
+    5.301,
+    5.054,
+    4.809,
+    4.567,
+    4.36,
+    4.111,
+    3.884,
+    3.607,
+    3.362,
+    3.118,
+    2.874,
+    2.632,
+    2.391,
+    2.153,
+    1.918,
+    1.686,
+    1.461,
+    1.594,
+    1.752,
+    1.929,
+    2.122,
+    2.325
+  ],
+  "final_distance": 2.325,
+  "min_distance": 1.461,
+  "metrics": {
+    "distance_to_goal": 2.324876308441162,
+    "success": 1.0,
+    "spl": 0.4605246369604065,
+    "oracle_success": 1.0,
+    "path_length": 19.89680235646665,
+    "steps_taken": 157.0
+  },
+  "success": true,
+  "backend_stats": {
+    "calls": 257,
+    "failures": 0,
+    "prompt_tokens": 521042,
+    "completion_tokens": 22905,
+    "reasoning_tokens": 8208,
+    "latency_s": 622.595855474472
+  },
+  "stop_deferrals": 0
+}

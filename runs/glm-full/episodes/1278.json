@@ -1,0 +1,355 @@
+{
+  "episode_id": 1278,
+  "scene_id": "TbHJrupSAjP",
+  "instruction": "Exit the room. Go forward and enter the room with a dog statue on the floor. Turn left and exit the room. Go forward till the rail of the stair. Enter the room on the left and stop. Wait there.",
+  "actions_taken": 73,
+  "policy_calls": 28,
+  "api_latency_s": 56.43,
+  "prompt_tokens": 53896,
+  "completion_tokens": 2165,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 57.07,
+  "steps": [
+    {
+      "n": 6,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a shelf in a closet-like space. I need to turn around to find the exit of this room.",
+      "latency_s": 1.43,
+      "prompt_tokens": 906
+    },
+    {
+      "n": 7,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at a wall; I need to look up to see the room and find the exit.",
+      "latency_s": 1.68,
+      "prompt_tokens": 1263
+    },
+    {
+      "n": 8,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and find the exit.",
+      "latency_s": 1.57,
+      "prompt_tokens": 1627
+    },
+    {
+      "n": 9,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down, showing only a wall and window; I need to level the view to find the exit.",
+      "latency_s": 1.94,
+      "prompt_tokens": 1990
+    },
+    {
+      "n": 10,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at a ceiling skylight; I need to look down to see the room and find the exit.",
+      "latency_s": 1.51,
+      "prompt_tokens": 1991
+    },
+    {
+      "n": 11,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down, showing mostly wall and a window; I need to level the view to find the exit of this room.",
+      "latency_s": 2.03,
+      "prompt_tokens": 1991
+    },
+    {
+      "n": 12,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at a skylight; I need to look down to see the room and find the exit.",
+      "latency_s": 1.7,
+      "prompt_tokens": 1992
+    },
+    {
+      "n": 13,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down, showing only a wall and window; I need to level the view to navigate.",
+      "latency_s": 1.89,
+      "prompt_tokens": 1992
+    },
+    {
+      "n": 14,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at a skylight; I need to level the view to see the room and find the exit.",
+      "latency_s": 1.49,
+      "prompt_tokens": 1993
+    },
+    {
+      "n": 19,
+      "actions": [
+        "LOOK_UP",
+        "LOOK_UP",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "The camera is pitched and I'm facing a wall with a window; I need to level the view and turn to find the way out of this room toward the dog statue room.",
+      "latency_s": 2.09,
+      "prompt_tokens": 1993
+    },
+    {
+      "n": 21,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_DOWN"
+      ],
+      "thought": "The camera is pitched up at the ceiling; I need to look down to see the room and find the exit.",
+      "latency_s": 1.91,
+      "prompt_tokens": 1996
+    },
+    {
+      "n": 27,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a closet corner with shelves; I need to turn around to find the exit of this room.",
+      "latency_s": 1.81,
+      "prompt_tokens": 1997
+    },
+    {
+      "n": 31,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm inside a small closet facing the corner. I need to turn around to find the closet exit and continue toward the stairs.",
+      "latency_s": 2.11,
+      "prompt_tokens": 2000
+    },
+    {
+      "n": 37,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to be inside a closet facing the corner wall. I need to turn around to face the closet opening leading to the bedroom, then move out.",
+      "latency_s": 2.14,
+      "prompt_tokens": 2002
+    },
+    {
+      "n": 40,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a closet facing a doorway into a bedroom. I'll move forward through the doorway.",
+      "latency_s": 1.6,
+      "prompt_tokens": 2005
+    },
+    {
+      "n": 43,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a closet facing shelves; the doorway to the bedroom is ahead-left. I'll turn left to align with the doorway and move forward to exit.",
+      "latency_s": 2.46,
+      "prompt_tokens": 2006
+    },
+    {
+      "n": 46,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a closet facing a hallway; ahead is a bedroom doorway and a dog statue appears near the right side of the hall. I'll move forward into the hallway toward the dog statue room.",
+      "latency_s": 2.75,
+      "prompt_tokens": 2008
+    },
+    {
+      "n": 49,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see a bedroom ahead with a white dog statue on the floor near the doorway \u2014 this matches the instruction. I'll move forward into that room.",
+      "latency_s": 2.09,
+      "prompt_tokens": 2009
+    },
+    {
+      "n": 51,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The dog statue is visible at the doorway ahead; I'm aligned with the opening, so I'll step into the room.",
+      "latency_s": 1.85,
+      "prompt_tokens": 2008
+    },
+    {
+      "n": 54,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm inside the bedroom with the dog statue. Per the instruction, I must turn left to exit this room, then head toward the stair rail.",
+      "latency_s": 2.0,
+      "prompt_tokens": 2009
+    },
+    {
+      "n": 57,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the doorway of the bedroom with the dog statue visible on the floor. I need to turn right to face into the room and move forward through the doorway.",
+      "latency_s": 2.56,
+      "prompt_tokens": 2010
+    },
+    {
+      "n": 60,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in a bedroom; the instruction says to enter the room on the left and stop. There appears to be a doorway on the left side of the frame, so I'll turn left and approach it.",
+      "latency_s": 2.19,
+      "prompt_tokens": 2012
+    },
+    {
+      "n": 62,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a bedroom with a wall on my left; I need to find the doorway out. Turning right to scan the room.",
+      "latency_s": 1.98,
+      "prompt_tokens": 2013
+    },
+    {
+      "n": 65,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a bedroom; the exit doorway appears on the left side of the view. I'll turn left toward it and move forward to exit the room.",
+      "latency_s": 2.36,
+      "prompt_tokens": 2014
+    },
+    {
+      "n": 68,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a room with a mirror and coat rack; a doorway is visible ahead-left leading to another room. I'll turn left toward the doorway and move forward to exit this room.",
+      "latency_s": 2.59,
+      "prompt_tokens": 2016
+    },
+    {
+      "n": 70,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall up close; the room with the doorway is to my right. I'll turn right to re-orient toward the exit.",
+      "latency_s": 1.96,
+      "prompt_tokens": 2017
+    },
+    {
+      "n": 72,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall; the room with the mirror and mannequin is to my right. I need to turn right to re-enter that room and look for the dog statue.",
+      "latency_s": 2.02,
+      "prompt_tokens": 2017
+    },
+    {
+      "n": 73,
+      "actions": [
+        "STOP"
+      ],
+      "thought": "I have just turned and entered the bedroom (the room on the left after reaching the stair rail area). I am now inside the room, so I should stop here.",
+      "latency_s": 2.72,
+      "prompt_tokens": 2019
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    8.59,
+    8.59,
+    8.348,
+    8.108,
+    7.869,
+    7.614,
+    7.365,
+    7.117,
+    6.871,
+    6.625,
+    6.375,
+    6.12,
+    5.871,
+    5.623,
+    5.379,
+    5.143,
+    4.941,
+    4.906,
+    4.937,
+    4.968
+  ],
+  "final_distance": 4.968,
+  "min_distance": 4.906,
+  "metrics": {
+    "distance_to_goal": 4.9683003425598145,
+    "success": 0.0,
+    "spl": 0.0,
+    "oracle_success": 0.0,
+    "path_length": 3.8437800742685795,
+    "steps_taken": 73.0
+  },
+  "success": false,
+  "backend_stats": {
+    "calls": 501,
+    "failures": 0,
+    "prompt_tokens": 1013529,
+    "completion_tokens": 45338,
+    "reasoning_tokens": 16907,
+    "latency_s": 1143.2082951068878
+  },
+  "stop_deferrals": 0
+}

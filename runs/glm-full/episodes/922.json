@@ -1,0 +1,1740 @@
+{
+  "episode_id": 922,
+  "scene_id": "zsNo4HB9uLZ",
+  "instruction": "Walk past the fridge and out of the doorway and turn left before the bathroom. Then turn left and stop in the room with two white sofas opposite each other. Stop next to the corner table with a plant on it.",
+  "actions_taken": 490,
+  "policy_calls": 122,
+  "api_latency_s": 295.52,
+  "prompt_tokens": 248993,
+  "completion_tokens": 12240,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 297.94,
+  "steps": [
+    {
+      "n": 3,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a kitchen counter. I need to locate the fridge and the doorway, so I'll scan right first.",
+      "latency_s": 1.58,
+      "prompt_tokens": 904
+    },
+    {
+      "n": 6,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a kitchen; the open doorway ahead leads out past the fridge area. I'll advance toward it and re-observe.",
+      "latency_s": 1.91,
+      "prompt_tokens": 1260
+    },
+    {
+      "n": 9,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm still beside the fridge/counter; the open area ahead leads out of the kitchen. I'll continue forward through the doorway, then look for the turn before the bathroom.",
+      "latency_s": 1.81,
+      "prompt_tokens": 1624
+    },
+    {
+      "n": 12,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm beside the fridge in the kitchen; the open area ahead leads out. I'll advance forward, then look for the turn before the bathroom.",
+      "latency_s": 2.28,
+      "prompt_tokens": 1987
+    },
+    {
+      "n": 14,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I've exited past the fridge; the bathroom door is on the left. Per instruction I turn left before the bathroom, then turn left again to face the living room with the sofas.",
+      "latency_s": 3.28,
+      "prompt_tokens": 1988
+    },
+    {
+      "n": 17,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "After the two left turns I'm facing a hallway with a doorway (likely the bathroom) ahead. The open living area is behind/right of me, so I'll turn right to face it and then advance toward the sofas.",
+      "latency_s": 3.92,
+      "prompt_tokens": 1989
+    },
+    {
+      "n": 21,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've exited the doorway and turned; the open living room with white sofas is to my right. I'll turn right and advance toward the sofas and the corner table with the plant.",
+      "latency_s": 2.57,
+      "prompt_tokens": 1991
+    },
+    {
+      "n": 23,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've exited into an open living area; a plant on a table is visible to the right, but I need to find the two white sofas. I'll turn right to scan the room.",
+      "latency_s": 2.43,
+      "prompt_tokens": 1992
+    },
+    {
+      "n": 25,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've entered a large living area with a table and plant, but I don't yet see the two white sofas. I'll turn right to scan the room for them.",
+      "latency_s": 2.05,
+      "prompt_tokens": 1993
+    },
+    {
+      "n": 28,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've exited into a large open living area but the two white sofas aren't visible yet. I'll advance toward the open space and then scan for the sofas and the corner table with a plant.",
+      "latency_s": 2.82,
+      "prompt_tokens": 1994
+    },
+    {
+      "n": 32,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I see a table with a plant here, but the instruction wants the room with two white sofas. A seating area is visible to the right, so I'll turn right and look for the sofas.",
+      "latency_s": 2.4,
+      "prompt_tokens": 1995
+    },
+    {
+      "n": 35,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in an open living area but I don't yet see two white sofas opposite each other. I'll turn right to scan the space for the white sofas and the corner table with a plant.",
+      "latency_s": 2.53,
+      "prompt_tokens": 1997
+    },
+    {
+      "n": 39,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a living area with dark sofas, but the target room has two white sofas. There's an opening to the right past the white counter; I'll head toward it to find the room with white sofas.",
+      "latency_s": 2.89,
+      "prompt_tokens": 1999
+    },
+    {
+      "n": 43,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in an open living area with a dark sofa, but the target room has two white sofas. I need to scan around; I'll turn right to check the space behind me.",
+      "latency_s": 3.11,
+      "prompt_tokens": 2000
+    },
+    {
+      "n": 46,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the kitchen area; I need to continue past the fridge toward the doorway ahead, then turn left. I'll advance along the kitchen counter first and re-observe.",
+      "latency_s": 2.34,
+      "prompt_tokens": 2002
+    },
+    {
+      "n": 50,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the kitchen facing the counter; the fridge and a doorway are ahead. I'll advance toward the doorway past the fridge, then re-observe.",
+      "latency_s": 2.25,
+      "prompt_tokens": 2003
+    },
+    {
+      "n": 53,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a kitchen with a doorway visible ahead-left. I need to head through that doorway past the fridge, then turn left before the bathroom. I'll advance toward the doorway and re-observe.",
+      "latency_s": 2.19,
+      "prompt_tokens": 2003
+    },
+    {
+      "n": 58,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've drifted toward the kitchen counter; the hallway and doorway are to my left. I'll turn left to re-face the corridor and then proceed forward.",
+      "latency_s": 2.49,
+      "prompt_tokens": 2004
+    },
+    {
+      "n": 61,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the kitchen facing the fridge with the bathroom doorway ahead. I need to walk past the fridge toward the doorway, then turn left before the bathroom.",
+      "latency_s": 2.32,
+      "prompt_tokens": 2006
+    },
+    {
+      "n": 65,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm beside the fridge facing down the hallway toward the doorway with the bathroom visible beyond. I need to move forward past the fridge and through the doorway, then turn left before the bathroom.",
+      "latency_s": 2.14,
+      "prompt_tokens": 2007
+    },
+    {
+      "n": 69,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm beside the fridge in the kitchen corridor; the doorway ahead leads toward the bathroom. I'll advance past the fridge toward the doorway, then turn left before reaching the bathroom.",
+      "latency_s": 2.56,
+      "prompt_tokens": 2007
+    },
+    {
+      "n": 73,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the kitchen facing the counter with the bathroom doorway ahead. I need to walk toward the doorway, then turn left before it to find the living room with two white sofas.",
+      "latency_s": 2.84,
+      "prompt_tokens": 2008
+    },
+    {
+      "n": 78,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the kitchen facing the counter, with the bathroom doorway ahead. Per the instruction, I should turn left before the bathroom and head toward the living room with the white sofas.",
+      "latency_s": 2.53,
+      "prompt_tokens": 2008
+    },
+    {
+      "n": 84,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've drifted too close to the kitchen counter. I need to turn right to face the doorway leading out of the kitchen, then move through it and turn left before the bathroom.",
+      "latency_s": 2.52,
+      "prompt_tokens": 2010
+    },
+    {
+      "n": 87,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the kitchen facing a doorway leading to a hallway with the bathroom visible ahead. I need to move forward through the doorway, then turn left before the bathroom.",
+      "latency_s": 2.15,
+      "prompt_tokens": 2013
+    },
+    {
+      "n": 90,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hallway with the bathroom visible on the left. Per the instruction, I should turn left before the bathroom, then turn left again toward the living room with the two white sofas.",
+      "latency_s": 2.06,
+      "prompt_tokens": 2014
+    },
+    {
+      "n": 94,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in the hallway with the bathroom visible on the left. Per the instruction, I should turn left before the bathroom, then left again into the living room with the two white sofas.",
+      "latency_s": 2.13,
+      "prompt_tokens": 2016
+    },
+    {
+      "n": 96,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm at the bathroom doorway; per the instruction I should turn left before the bathroom, then turn left again to find the room with two white sofas.",
+      "latency_s": 2.73,
+      "prompt_tokens": 2017
+    },
+    {
+      "n": 100,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to have turned too far and am now facing a kitchen counter instead of the hallway. I'll turn right to re-orient toward the open area and look for the living room with the two white sofas.",
+      "latency_s": 3.1,
+      "prompt_tokens": 2018
+    },
+    {
+      "n": 106,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I can see the bathroom doorway ahead; per the instruction I should turn left before entering it, then left again to find the room with two white sofas.",
+      "latency_s": 1.93,
+      "prompt_tokens": 2019
+    },
+    {
+      "n": 112,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a kitchen counter with the bathroom doorway to my right. Per the instruction, I should turn left before the bathroom and head toward the living room with the two white sofas.",
+      "latency_s": 2.0,
+      "prompt_tokens": 2022
+    },
+    {
+      "n": 116,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in the kitchen facing the counter; the bathroom doorway was behind me. I need to turn left to head back toward the hallway, then find the living room with two white sofas.",
+      "latency_s": 2.13,
+      "prompt_tokens": 2024
+    },
+    {
+      "n": 122,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a pantry shelf; the kitchen and hallway are to my right. I need to turn right to re-enter the hallway and head toward the living room with the two white sofas.",
+      "latency_s": 2.25,
+      "prompt_tokens": 2025
+    },
+    {
+      "n": 128,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing the kitchen counter; the fridge and the doorway out are to my left. I'll turn left and head toward the fridge/doorway.",
+      "latency_s": 2.15,
+      "prompt_tokens": 2028
+    },
+    {
+      "n": 132,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a kitchen with the fridge on my right and a corridor ahead. I need to walk forward past the fridge toward the open area, then turn left as instructed.",
+      "latency_s": 2.54,
+      "prompt_tokens": 2030
+    },
+    {
+      "n": 139,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing the kitchen counter wall; the open living area is to my left down the corridor. I need to turn left and proceed toward the living room with the white sofas.",
+      "latency_s": 2.96,
+      "prompt_tokens": 2030
+    },
+    {
+      "n": 143,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall next to the fridge; I need to turn right to face back down the kitchen corridor and find the doorway out.",
+      "latency_s": 2.15,
+      "prompt_tokens": 2032
+    },
+    {
+      "n": 147,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm beside the built-in ovens/fridge in the kitchen, facing down the counter toward the open area. I'll advance along the aisle to pass the fridge and head toward the doorway.",
+      "latency_s": 2.0,
+      "prompt_tokens": 2034
+    },
+    {
+      "n": 152,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the kitchen facing the counter; the open living area is to my right. I'll turn right and head toward the open space to find the room with two white sofas.",
+      "latency_s": 2.66,
+      "prompt_tokens": 2035
+    },
+    {
+      "n": 155,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the kitchen past the fridge, facing down the open living area. I need to continue forward through this space to find the living room with two white sofas.",
+      "latency_s": 1.98,
+      "prompt_tokens": 2037
+    },
+    {
+      "n": 158,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a kitchen facing along the counter. I need to walk past the fridge and exit through the doorway ahead, so I'll advance along the kitchen aisle and re-observe.",
+      "latency_s": 1.81,
+      "prompt_tokens": 2037
+    },
+    {
+      "n": 161,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a kitchen with an island; the instruction says to walk past the fridge and out the doorway, then turn left before the bathroom, then left again into a living room with two white sofas. I should move forward through this open kitchen area first and re-observe.",
+      "latency_s": 4.03,
+      "prompt_tokens": 2038
+    },
+    {
+      "n": 164,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in an open kitchen/living area; the two white sofas aren't visible yet. I'll advance toward the open space and then scan for the living room with sofas.",
+      "latency_s": 2.11,
+      "prompt_tokens": 2038
+    },
+    {
+      "n": 167,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in an open area with mirrored walls; no white sofas visible yet. I'll move forward toward the table to explore the room.",
+      "latency_s": 2.3,
+      "prompt_tokens": 2039
+    },
+    {
+      "n": 171,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in a room with a console table and mirrored wall, but no white sofas visible yet. I'll turn left to scan the space for the living room with two white sofas.",
+      "latency_s": 2.28,
+      "prompt_tokens": 2038
+    },
+    {
+      "n": 174,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm facing a wall in a hallway; the sofa room should be off to one side. I'll turn left to scan for the living room with two white sofas.",
+      "latency_s": 1.91,
+      "prompt_tokens": 2040
+    },
+    {
+      "n": 178,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in a hallway facing a wall with a painting. The instruction says to turn left before the bathroom, then left again into the living room with two white sofas. I'll turn left to look for the bathroom/doorway.",
+      "latency_s": 2.33,
+      "prompt_tokens": 2041
+    },
+    {
+      "n": 182,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a kitchen corridor; the fridge should be ahead. I'll advance along the corridor toward the doorway at the far end before turning left.",
+      "latency_s": 2.81,
+      "prompt_tokens": 2042
+    },
+    {
+      "n": 185,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a kitchen with the fridge on my left and a doorway ahead. I need to move forward through the doorway, then turn left as instructed.",
+      "latency_s": 2.42,
+      "prompt_tokens": 2043
+    },
+    {
+      "n": 190,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the kitchen facing the counter; the doorway ahead leads out past the fridge. I need to turn left to re-align with the hallway and proceed toward the doorway.",
+      "latency_s": 2.84,
+      "prompt_tokens": 2043
+    },
+    {
+      "n": 194,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the kitchen with the fridge on my left and a doorway ahead showing a bathroom. I need to walk forward past the fridge and through the doorway, then turn left before the bathroom.",
+      "latency_s": 2.21,
+      "prompt_tokens": 2045
+    },
+    {
+      "n": 198,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the kitchen with the fridge on my left and a doorway ahead showing a bathroom. I need to move forward through the kitchen toward the doorway, then turn left before the bathroom.",
+      "latency_s": 2.42,
+      "prompt_tokens": 2048
+    },
+    {
+      "n": 203,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the kitchen with the fridge behind me; ahead is the doorway leading out toward the bathroom. I need to walk forward through the doorway, then turn left before the bathroom.",
+      "latency_s": 2.12,
+      "prompt_tokens": 2048
+    },
+    {
+      "n": 207,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a kitchen corridor facing a doorway leading to a bathroom. I need to walk through the doorway, then turn left before the bathroom to find the room with two white sofas.",
+      "latency_s": 2.17,
+      "prompt_tokens": 2047
+    },
+    {
+      "n": 213,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm facing the bathroom doorway; the instruction says to turn left before it. I'll turn left and look for the living room with two white sofas.",
+      "latency_s": 2.3,
+      "prompt_tokens": 2048
+    },
+    {
+      "n": 221,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing the kitchen counter; the hallway with the bathroom doorway is behind me. I need to turn around, head back toward the bathroom, turn left before it, then left again into the living room with the two white sofas.",
+      "latency_s": 2.99,
+      "prompt_tokens": 2050
+    },
+    {
+      "n": 225,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the kitchen facing the counter with the fridge on my right. I'll walk forward past the fridge toward the open area ahead, then look for the doorway and the living room with white sofas.",
+      "latency_s": 2.55,
+      "prompt_tokens": 2054
+    },
+    {
+      "n": 229,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the kitchen facing the counter; the open living area lies ahead. I'll advance along the kitchen toward the open space, then look for the doorway and the sofas.",
+      "latency_s": 2.74,
+      "prompt_tokens": 2052
+    },
+    {
+      "n": 233,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the kitchen with the fridge behind me; I need to continue forward through the kitchen toward the open living area ahead, then find the doorway and turn left before the bathroom.",
+      "latency_s": 1.87,
+      "prompt_tokens": 2055
+    },
+    {
+      "n": 236,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the kitchen moving toward the open living area; I need to keep advancing to find the doorway and the room with two white sofas.",
+      "latency_s": 1.97,
+      "prompt_tokens": 2055
+    },
+    {
+      "n": 239,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a kitchen facing an open living area. I need to move forward past the kitchen toward the doorway ahead, then turn left before the bathroom to find the room with two white sofas.",
+      "latency_s": 3.68,
+      "prompt_tokens": 2055
+    },
+    {
+      "n": 243,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the kitchen area; the doorway ahead leads out past the fridge. I'll advance through it and then look for the turn before the bathroom.",
+      "latency_s": 2.61,
+      "prompt_tokens": 2056
+    },
+    {
+      "n": 247,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hallway heading toward an open living area. I need to continue forward and look for the room with two white sofas, likely to the left.",
+      "latency_s": 2.21,
+      "prompt_tokens": 2056
+    },
+    {
+      "n": 250,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a hallway with a console table; the living room with sofas is likely to the right. I'll turn right to scan for the sofas and corner table with plant.",
+      "latency_s": 1.92,
+      "prompt_tokens": 2057
+    },
+    {
+      "n": 254,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in an open dining area; the mirrored wall ahead reflects what may be the sofa room. I need to explore to the right to find the living room with two white sofas and a corner table with a plant.",
+      "latency_s": 2.86,
+      "prompt_tokens": 2056
+    },
+    {
+      "n": 259,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in an open living area with a TV on the right; the two white sofas should be further in that direction. I'll turn right and advance to look for them.",
+      "latency_s": 2.23,
+      "prompt_tokens": 2061
+    },
+    {
+      "n": 262,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a living room with dark sofas, but the instruction describes a room with two white sofas opposite each other. I need to explore further; I'll turn right to scan the space.",
+      "latency_s": 2.25,
+      "prompt_tokens": 2063
+    },
+    {
+      "n": 265,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a living area with dark sofas, but the target room has two white sofas. There's an opening ahead past the white counter; I'll head toward it to keep searching.",
+      "latency_s": 2.31,
+      "prompt_tokens": 2065
+    },
+    {
+      "n": 269,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a living room with dark sofas, but through the doorway ahead I can see a white sofa, which matches the target room. I'll head toward that doorway.",
+      "latency_s": 2.32,
+      "prompt_tokens": 2065
+    },
+    {
+      "n": 273,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a doorway leading to a hallway; I need to move forward through it, then turn left before the bathroom and find the room with two white sofas.",
+      "latency_s": 2.15,
+      "prompt_tokens": 2068
+    },
+    {
+      "n": 276,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hallway with a dark sofa on the left. The instruction says to turn left before the bathroom and find the room with two white sofas. I'll continue forward down the hallway and look for the left turn.",
+      "latency_s": 2.37,
+      "prompt_tokens": 2069
+    },
+    {
+      "n": 279,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a doorway leading down a hallway. I need to continue forward through it, then turn left as instructed to find the room with two white sofas.",
+      "latency_s": 2.2,
+      "prompt_tokens": 2069
+    },
+    {
+      "n": 286,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hallway; the instruction says turn left before the bathroom into the room with two white sofas. There's an opening on the left with a white sofa visible, so I'll turn left and head there.",
+      "latency_s": 2.42,
+      "prompt_tokens": 2070
+    },
+    {
+      "n": 290,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in a living room with dark sofas, but the target room has two white sofas opposite each other. I need to look around to find the correct room; I'll turn left to scan the space.",
+      "latency_s": 2.92,
+      "prompt_tokens": 2071
+    },
+    {
+      "n": 294,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in a living room with dark sofas, but the instruction targets a room with two white sofas opposite each other. I need to look around to find that room.",
+      "latency_s": 2.2,
+      "prompt_tokens": 2070
+    },
+    {
+      "n": 297,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in a living area with dark sofas, but the instruction targets a room with two white sofas opposite each other. I should explore; turning left may reveal more of the open space.",
+      "latency_s": 2.3,
+      "prompt_tokens": 2073
+    },
+    {
+      "n": 301,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the kitchen facing the island; the doorway with the wooden door is ahead. I'll head toward it, then turn left as instructed to find the room with two white sofas.",
+      "latency_s": 3.23,
+      "prompt_tokens": 2074
+    },
+    {
+      "n": 305,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm currently facing a kitchen counter, but I don't see the fridge, doorway, or the room with two white sofas yet. I need to re-orient and explore to find the fridge first.",
+      "latency_s": 2.7,
+      "prompt_tokens": 2073
+    },
+    {
+      "n": 309,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in an open kitchen/living space; the two white sofas aren't visible yet. I'll move forward into the open area to look for the living room with the sofas and corner table.",
+      "latency_s": 2.31,
+      "prompt_tokens": 2075
+    },
+    {
+      "n": 312,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in an open living/dining area but don't yet see the two white sofas. I'll move forward to explore the space ahead.",
+      "latency_s": 1.97,
+      "prompt_tokens": 2079
+    },
+    {
+      "n": 315,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in an open living area but I don't see two white sofas yet. I'll turn left to scan the space for the sofas and the corner table with a plant.",
+      "latency_s": 2.32,
+      "prompt_tokens": 2079
+    },
+    {
+      "n": 319,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a large open area; a doorway is visible on the left. The instruction says to turn left before the bathroom and find the room with two white sofas, so I'll head toward that left doorway.",
+      "latency_s": 2.27,
+      "prompt_tokens": 2078
+    },
+    {
+      "n": 322,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a hallway doorway with the kitchen/fridge on my left. I should move forward through this doorway, then turn left as instructed to find the living room with two white sofas.",
+      "latency_s": 2.36,
+      "prompt_tokens": 2082
+    },
+    {
+      "n": 328,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in a hallway facing a wall with a painting. The instruction says to turn left before the bathroom and then left into the living room with two white sofas. I'll turn left to look for the living room.",
+      "latency_s": 2.34,
+      "prompt_tokens": 2083
+    },
+    {
+      "n": 332,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in the kitchen facing the island; the living room with white sofas should be to my left. I'll rotate left to re-aim before moving.",
+      "latency_s": 2.56,
+      "prompt_tokens": 2085
+    },
+    {
+      "n": 336,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in an open kitchen/living area; the white sofas aren't visible yet. I'll turn left to scan the space for the two white sofas and the corner table with a plant.",
+      "latency_s": 2.36,
+      "prompt_tokens": 2086
+    },
+    {
+      "n": 339,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in an open living area with dark sofas, but the instruction describes a room with two white sofas opposite each other. I should look around to find that room; turning left to scan the space.",
+      "latency_s": 1.98,
+      "prompt_tokens": 2087
+    },
+    {
+      "n": 345,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to have turned into a mirrored-walled room with a console table, not the room with two white sofas. I should turn back toward the open living area to locate the white sofas and the corner table with a plant.",
+      "latency_s": 2.64,
+      "prompt_tokens": 2088
+    },
+    {
+      "n": 348,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in an open living area with dark sofas, but the instruction points to a room with two white sofas and a corner table with a plant. I need to scan around to find that room.",
+      "latency_s": 2.55,
+      "prompt_tokens": 2091
+    },
+    {
+      "n": 352,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm near a kitchen island; the instruction points to a room with two white sofas. I should turn right to scan the space beyond the kitchen for that room.",
+      "latency_s": 2.51,
+      "prompt_tokens": 2093
+    },
+    {
+      "n": 356,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the kitchen facing the counter; a doorway is visible to my left. I'll turn left and head through it to find the living room with two white sofas.",
+      "latency_s": 3.24,
+      "prompt_tokens": 2095
+    },
+    {
+      "n": 362,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the kitchen; the living area with sofas appears to my left. I'll turn left and head toward the open living space, then look for the corner table with a plant.",
+      "latency_s": 3.11,
+      "prompt_tokens": 2097
+    },
+    {
+      "n": 366,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in an open kitchen/living space; the instruction's two white sofas aren't visible yet. I'll turn left to scan the living area for the white sofas and corner table with a plant.",
+      "latency_s": 2.63,
+      "prompt_tokens": 2099
+    },
+    {
+      "n": 367,
+      "actions": [
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in a living area but the sofas here are dark, not the two white sofas described. I should look around for the room with white sofas opposite each other.",
+      "latency_s": 2.52,
+      "prompt_tokens": 2100
+    },
+    {
+      "n": 371,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in a living area with a dark sofa, but the instruction points to a room with two white sofas opposite each other. I need to explore; I'll turn left to scan the space.",
+      "latency_s": 2.42,
+      "prompt_tokens": 2101
+    },
+    {
+      "n": 375,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in a dining area with a mirrored wall; the two white sofas aren't visible yet. I'll advance toward the table and then scan left for the living room with white sofas.",
+      "latency_s": 2.86,
+      "prompt_tokens": 2102
+    },
+    {
+      "n": 379,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in a dining area with a table and TV lounge; I don't yet see the room with two white sofas. I'll turn left to scan for it.",
+      "latency_s": 2.35,
+      "prompt_tokens": 2104
+    },
+    {
+      "n": 385,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a room with a console table and mirror, but no white sofas visible. The instruction says to turn left before the bathroom and find the room with two white sofas; I should turn left toward the hallway area and explore.",
+      "latency_s": 2.24,
+      "prompt_tokens": 2105
+    },
+    {
+      "n": 388,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm near the kitchen/fridge area. I need to head toward the living room with two white sofas; I'll turn left and move through the opening ahead.",
+      "latency_s": 2.33,
+      "prompt_tokens": 2107
+    },
+    {
+      "n": 394,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in the kitchen area; the living room with white sofas should be off to the left. I'll turn left and look for the sofas.",
+      "latency_s": 2.28,
+      "prompt_tokens": 2109
+    },
+    {
+      "n": 397,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm past the kitchen area in an open living space. I need to find the room with two white sofas; I'll scan right to look for them.",
+      "latency_s": 2.37,
+      "prompt_tokens": 2111
+    },
+    {
+      "n": 401,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a kitchen corridor; the instruction says to walk past the fridge and out of the doorway ahead. I'll advance down the corridor toward the doorway, then turn left as instructed.",
+      "latency_s": 2.67,
+      "prompt_tokens": 2113
+    },
+    {
+      "n": 404,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a kitchen facing a corridor with a doorway ahead. I need to move forward through the doorway, then turn left as instructed.",
+      "latency_s": 2.17,
+      "prompt_tokens": 2114
+    },
+    {
+      "n": 408,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the kitchen facing the fridge and a doorway ahead. I need to walk past the fridge through the doorway, then turn left before the bathroom.",
+      "latency_s": 2.39,
+      "prompt_tokens": 2115
+    },
+    {
+      "n": 411,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the kitchen near the fridge; the doorway ahead leads out. I'll advance toward it and re-observe.",
+      "latency_s": 1.84,
+      "prompt_tokens": 2116
+    },
+    {
+      "n": 415,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the kitchen hallway with the fridge on my left; the doorway ahead leads out. I'll advance toward it, then turn left before the bathroom as instructed.",
+      "latency_s": 1.72,
+      "prompt_tokens": 2115
+    },
+    {
+      "n": 419,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a kitchen corridor with a doorway ahead leading to a bathroom. I need to move forward through the doorway, then turn left before the bathroom, then left again into the living room with two white sofas.",
+      "latency_s": 2.57,
+      "prompt_tokens": 2116
+    },
+    {
+      "n": 423,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing the bathroom doorway; the instruction says to turn left before it, then left again into the living room with two white sofas. I'll turn left and proceed.",
+      "latency_s": 2.13,
+      "prompt_tokens": 2116
+    },
+    {
+      "n": 427,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've drifted to face the kitchen counter; the doorway is to my right. I need to turn right to re-aim at the doorway before proceeding.",
+      "latency_s": 2.25,
+      "prompt_tokens": 2118
+    },
+    {
+      "n": 430,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the kitchen facing a doorway leading to a hallway with the bathroom visible ahead. I need to move forward through the doorway, then turn left before the bathroom.",
+      "latency_s": 2.34,
+      "prompt_tokens": 2120
+    },
+    {
+      "n": 434,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm at the hallway with the bathroom visible ahead-left. Per instruction, I turn left before the bathroom, then left again toward the sofa room.",
+      "latency_s": 2.16,
+      "prompt_tokens": 2119
+    },
+    {
+      "n": 438,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the bathroom doorway; per the instruction I should turn left before it, then turn left again into the living room with the sofas.",
+      "latency_s": 2.49,
+      "prompt_tokens": 2122
+    },
+    {
+      "n": 444,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've drifted into a corner facing a wall; the bathroom doorway is behind me to the right. I need to turn around and head back toward the living area with the two white sofas.",
+      "latency_s": 2.31,
+      "prompt_tokens": 2124
+    },
+    {
+      "n": 447,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hallway with the bathroom behind me; the living room with white sofas should be ahead. I'll advance down the hallway and look for the sofas.",
+      "latency_s": 2.34,
+      "prompt_tokens": 2127
+    },
+    {
+      "n": 451,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm beside the bathroom (sink visible on left). Per instruction, I turn left to head toward the living room with two white sofas.",
+      "latency_s": 2.08,
+      "prompt_tokens": 2128
+    },
+    {
+      "n": 459,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm beside the bathroom (sink visible on right). Per instruction, I turn left before the bathroom, then turn left again to find the room with two white sofas.",
+      "latency_s": 2.45,
+      "prompt_tokens": 2129
+    },
+    {
+      "n": 465,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to be facing a wall/decor shelf, likely having drifted off course. I need to turn around to re-enter the open area and find the room with two white sofas.",
+      "latency_s": 2.61,
+      "prompt_tokens": 2132
+    },
+    {
+      "n": 471,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm facing a blank wall, having drifted off course. I need to turn around and look for the living room with the two white sofas.",
+      "latency_s": 1.99,
+      "prompt_tokens": 2135
+    },
+    {
+      "n": 475,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to be facing a wall/counter, not the target room. With very few actions left, I'll turn to scan for the sofas and corner table before deciding.",
+      "latency_s": 2.97,
+      "prompt_tokens": 2137
+    },
+    {
+      "n": 479,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I appear wedged against a wall/counter, not in the target room. I need to back away and re-orient to find the living room with two white sofas.",
+      "latency_s": 2.37,
+      "prompt_tokens": 2139
+    },
+    {
+      "n": 485,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm wedged against a wall and can't see the room. I need to turn around to re-orient toward the living room with the two white sofas.",
+      "latency_s": 2.14,
+      "prompt_tokens": 2141
+    },
+    {
+      "n": 490,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "STOP"
+      ],
+      "thought": "I've emerged into an open living area; the instruction's room with two white sofas should be ahead. With only 15 actions left, I'll advance a few steps into the room and stop near the corner table with the plant.",
+      "latency_s": 3.27,
+      "prompt_tokens": 2144
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    9.982,
+    9.982,
+    10.227,
+    8.453,
+    8.264,
+    8.095,
+    7.953,
+    7.841,
+    7.723,
+    7.652,
+    7.703,
+    7.791,
+    7.843,
+    7.919,
+    7.978,
+    7.841,
+    7.725,
+    7.631,
+    7.449,
+    7.284,
+    7.037,
+    6.791,
+    6.548,
+    6.509,
+    6.531,
+    6.609,
+    6.854,
+    7.098,
+    7.347,
+    7.597,
+    7.847,
+    8.097,
+    8.347,
+    8.535,
+    10.154,
+    9.909,
+    9.665,
+    9.422,
+    9.179,
+    8.937,
+    8.696,
+    8.456,
+    8.211,
+    7.969,
+    7.726,
+    7.484,
+    7.243,
+    7.004,
+    6.765,
+    6.527,
+    6.404,
+    6.282,
+    6.047,
+    5.819,
+    5.604,
+    5.375,
+    5.167,
+    5.375,
+    5.604,
+    5.851,
+    6.099,
+    6.348,
+    6.597,
+    6.846,
+    7.096,
+    7.191,
+    7.249,
+    7.308,
+    7.541,
+    7.775,
+    8.011,
+    8.249,
+    8.477,
+    8.708,
+    8.942,
+    9.177,
+    9.413,
+    9.651,
+    9.89,
+    10.13,
+    8.44,
+    8.191,
+    7.942,
+    7.693,
+    7.446,
+    7.202,
+    6.96,
+    6.698,
+    6.658,
+    6.679,
+    6.722,
+    6.813,
+    6.994,
+    7.231,
+    7.476,
+    7.723,
+    7.972,
+    8.182,
+    8.403,
+    8.631,
+    10.054,
+    9.805,
+    9.555,
+    9.306,
+    9.057,
+    8.808,
+    8.56,
+    8.311,
+    8.063,
+    7.815,
+    7.567,
+    7.32,
+    7.073,
+    6.827,
+    6.583,
+    6.339,
+    6.099,
+    6.339,
+    6.583,
+    6.827,
+    7.073,
+    7.32,
+    7.567,
+    7.815,
+    8.063,
+    8.311,
+    8.56,
+    8.808,
+    9.057,
+    9.306,
+    9.555,
+    9.805,
+    10.054,
+    8.631,
+    8.403,
+    8.182,
+    7.972,
+    7.779,
+    7.613,
+    7.493,
+    7.439,
+    7.451,
+    7.499,
+    7.575,
+    7.678,
+    7.5,
+    7.339,
+    7.112,
+    6.891,
+    6.683,
+    6.436,
+    6.192,
+    5.953,
+    5.791,
+    5.693,
+    5.594,
+    5.496,
+    5.238,
+    4.988,
+    4.738,
+    4.488,
+    4.239,
+    3.989,
+    3.739,
+    3.489,
+    3.24,
+    3.142,
+    3.075,
+    3.016,
+    3.139,
+    3.287,
+    3.454,
+    3.636,
+    3.874,
+    4.114,
+    4.356,
+    4.598,
+    4.842,
+    5.087,
+    5.332,
+    5.438,
+    5.725,
+    5.974,
+    6.223,
+    6.473,
+    6.515,
+    6.58,
+    6.455,
+    6.33,
+    6.205,
+    6.198,
+    6.277,
+    6.418,
+    6.468,
+    6.574,
+    6.669,
+    6.805,
+    6.856,
+    7.084,
+    7.331,
+    7.58,
+    7.829,
+    8.079,
+    8.329,
+    10.208,
+    9.958,
+    9.078,
+    9.328,
+    9.578,
+    9.828,
+    10.078,
+    8.468,
+    8.213,
+    7.964,
+    7.714,
+    7.465,
+    7.215,
+    6.966,
+    6.717,
+    6.518,
+    6.307,
+    6.072,
+    5.845,
+    5.63,
+    5.517,
+    5.454,
+    5.204,
+    4.955,
+    4.766,
+    4.971,
+    5.177,
+    5.101,
+    4.854,
+    4.854,
+    5.031,
+    5.243
+  ],
+  "final_distance": 5.243,
+  "min_distance": 3.016,
+  "metrics": {
+    "distance_to_goal": 5.243497848510742,
+    "success": 0.0,
+    "spl": 0.0,
+    "oracle_success": 0.0,
+    "path_length": 56.05534417927265,
+    "steps_taken": 490.0
+  },
+  "success": false,
+  "backend_stats": {
+    "calls": 205,
+    "failures": 0,
+    "prompt_tokens": 409637,
+    "completion_tokens": 19918,
+    "reasoning_tokens": 7747,
+    "latency_s": 499.0619704723358
+  },
+  "stop_deferrals": 0
+}

@@ -1,0 +1,123 @@
+{
+  "episode_id": 1552,
+  "scene_id": "EU6Fwq7SyZv",
+  "instruction": "Go up the stairs. Wait beside the support pillar for the stairs.",
+  "actions_taken": 24,
+  "policy_calls": 7,
+  "api_latency_s": 14.29,
+  "prompt_tokens": 11552,
+  "completion_tokens": 503,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 14.42,
+  "steps": [
+    {
+      "n": 6,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a stone wall; the stairs must be elsewhere. I'll turn to scan the room.",
+      "latency_s": 1.65,
+      "prompt_tokens": 874
+    },
+    {
+      "n": 9,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I see a stone support pillar on the left and a doorway ahead, but no stairs yet. I'll turn right to scan for the staircase.",
+      "latency_s": 2.03,
+      "prompt_tokens": 1231
+    },
+    {
+      "n": 12,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I see a stone pillar and a window but no stairs yet. I'll turn right to scan the room for the staircase.",
+      "latency_s": 1.84,
+      "prompt_tokens": 1596
+    },
+    {
+      "n": 15,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I see a large room with a stone pillar on the left; the stairs are not yet visible. I'll turn right to scan for the staircase.",
+      "latency_s": 2.21,
+      "prompt_tokens": 1960
+    },
+    {
+      "n": 18,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase with its large wooden support pillar is directly ahead. I'll advance toward it and stop beside the pillar.",
+      "latency_s": 2.11,
+      "prompt_tokens": 1962
+    },
+    {
+      "n": 23,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The stairs and their large wooden support pillar are to my right; I turned past them. I'll turn right to re-aim at the pillar and approach it.",
+      "latency_s": 2.31,
+      "prompt_tokens": 1963
+    },
+    {
+      "n": 24,
+      "actions": [
+        "STOP"
+      ],
+      "thought": "I have ascended the stairs and am now right beside the large wooden support pillar of the staircase, which is the described destination.",
+      "latency_s": 2.14,
+      "prompt_tokens": 1966
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    6.057,
+    6.057,
+    6.043,
+    6.207,
+    6.414
+  ],
+  "final_distance": 6.414,
+  "min_distance": 6.043,
+  "metrics": {
+    "distance_to_goal": 6.413586616516113,
+    "success": 0.0,
+    "spl": 0.0,
+    "oracle_success": 0.0,
+    "path_length": 0.6669020801782608,
+    "steps_taken": 24.0
+  },
+  "success": false,
+  "backend_stats": {
+    "calls": 733,
+    "failures": 0,
+    "prompt_tokens": 1434665,
+    "completion_tokens": 59734,
+    "reasoning_tokens": 20284,
+    "latency_s": 1647.3811674118042
+  },
+  "stop_deferrals": 0
+}

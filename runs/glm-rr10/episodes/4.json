@@ -1,0 +1,431 @@
+{
+  "episode_id": 4,
+  "scene_id": "TbHJrupSAjP",
+  "instruction": "Walk up the flight of stairs to the top. Turn and follow the railing into the bedroom area. Walk towards the closet.",
+  "actions_taken": 109,
+  "policy_calls": 28,
+  "api_latency_s": 56.06,
+  "prompt_tokens": 50703,
+  "completion_tokens": 1938,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 56.71,
+  "steps": [
+    {
+      "n": 5,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible on the right side of the frame. I need to turn right to face the stairs and then climb them.",
+      "latency_s": 1.86,
+      "prompt_tokens": 790
+    },
+    {
+      "n": 10,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a wall at the base of the stairs; the stairs ascend to my right. I'll turn right to face the staircase and start climbing.",
+      "latency_s": 1.81,
+      "prompt_tokens": 1146
+    },
+    {
+      "n": 15,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a wall with stairs visible to the right. I need to turn right toward the stairs and climb up.",
+      "latency_s": 1.59,
+      "prompt_tokens": 1511
+    },
+    {
+      "n": 19,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a wall with stairs visible to my right; I need to turn toward the stairs and climb.",
+      "latency_s": 1.91,
+      "prompt_tokens": 1876
+    },
+    {
+      "n": 23,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the top of the stairs with the railing ahead. I'll turn left to follow the railing toward the bedroom area.",
+      "latency_s": 2.66,
+      "prompt_tokens": 1878
+    },
+    {
+      "n": 27,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the top of the stairs with a bedroom visible through the doorway ahead-left. I'll walk toward it.",
+      "latency_s": 2.64,
+      "prompt_tokens": 1880
+    },
+    {
+      "n": 32,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the top of the stairs; the bedroom is visible through the doorway on the left. I'll turn left and walk toward it, then look for the closet.",
+      "latency_s": 1.91,
+      "prompt_tokens": 1880
+    },
+    {
+      "n": 36,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the upstairs hallway with the bedroom visible through the open doorway ahead. I'll walk toward it to find the closet.",
+      "latency_s": 1.98,
+      "prompt_tokens": 1882
+    },
+    {
+      "n": 40,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in an upstairs hallway with a bedroom visible ahead through the doorway. I'll advance toward it.",
+      "latency_s": 1.64,
+      "prompt_tokens": 1883
+    },
+    {
+      "n": 43,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm facing a blank wall; the hallway with the bedroom is to my left. I'll turn left to reorient.",
+      "latency_s": 1.81,
+      "prompt_tokens": 1884
+    },
+    {
+      "n": 46,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm facing a blank wall; the hallway with doors extends to my left. I'll turn left to face down the hallway and look for the bedroom/closet.",
+      "latency_s": 3.35,
+      "prompt_tokens": 1885
+    },
+    {
+      "n": 50,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a wall of closet doors; the bedroom is visible through the doorway on the left. I'll turn left and move toward it.",
+      "latency_s": 1.92,
+      "prompt_tokens": 1886
+    },
+    {
+      "n": 53,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the top of the stairs on the upper landing; the closet doors are on the right wall and the bedroom is ahead. I'll move forward toward the closet doors.",
+      "latency_s": 2.0,
+      "prompt_tokens": 1886
+    },
+    {
+      "n": 56,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the upstairs hallway facing the bedroom doorway; the closet doors are on the right. I'll advance through the doorway toward the bedroom.",
+      "latency_s": 1.79,
+      "prompt_tokens": 1888
+    },
+    {
+      "n": 61,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the bedroom doorway; the closet doors are on the right wall. I'll enter the room and approach the closet area.",
+      "latency_s": 1.73,
+      "prompt_tokens": 1887
+    },
+    {
+      "n": 65,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm now inside the bedroom. The closet is likely along the right wall near the open door; I'll advance into the room and look for it.",
+      "latency_s": 2.01,
+      "prompt_tokens": 1890
+    },
+    {
+      "n": 68,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm inside the bedroom now; the closet is likely through the doorway ahead near the chair. I'll advance toward it.",
+      "latency_s": 2.03,
+      "prompt_tokens": 1891
+    },
+    {
+      "n": 71,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the bedroom area; there's an opening in the wall ahead that may lead to the closet. I'll move forward through it and re-observe.",
+      "latency_s": 2.09,
+      "prompt_tokens": 1892
+    },
+    {
+      "n": 74,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in the bedroom area but facing a wall close-up. I need to turn to view the room and locate the closet.",
+      "latency_s": 1.82,
+      "prompt_tokens": 1892
+    },
+    {
+      "n": 77,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in the bedroom area near a chaise and bed, but no closet is visible yet. I'll turn left to scan the room for the closet.",
+      "latency_s": 1.74,
+      "prompt_tokens": 1893
+    },
+    {
+      "n": 83,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in the bedroom facing the bed; the closet is likely near the doorway behind me. I'll turn around to locate it.",
+      "latency_s": 2.34,
+      "prompt_tokens": 1894
+    },
+    {
+      "n": 86,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in the bedroom facing a wall/pillar. The closet is likely elsewhere in the room; I should turn left to scan the room interior.",
+      "latency_s": 2.06,
+      "prompt_tokens": 1897
+    },
+    {
+      "n": 90,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in the bedroom area now, but I don't see a closet in the current view. I'll turn right to scan the room for the closet.",
+      "latency_s": 2.04,
+      "prompt_tokens": 1898
+    },
+    {
+      "n": 93,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in the bedroom near the bed and window. The closet isn't visible; I should turn left to scan the room for it.",
+      "latency_s": 1.91,
+      "prompt_tokens": 1900
+    },
+    {
+      "n": 97,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in the bedroom facing a chaise and window; the closet isn't visible yet. I'll turn right to scan the room for the closet area.",
+      "latency_s": 1.78,
+      "prompt_tokens": 1901
+    },
+    {
+      "n": 102,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "Through the doorway on the right I can see a closet with hanging clothes. I'll turn right and approach it.",
+      "latency_s": 1.76,
+      "prompt_tokens": 1903
+    },
+    {
+      "n": 105,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The closet with white shelving is visible through the doorway ahead. I'll advance toward it.",
+      "latency_s": 1.64,
+      "prompt_tokens": 1905
+    },
+    {
+      "n": 109,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "STOP"
+      ],
+      "thought": "I'm at the closet entrance with shelves visible ahead; I'll step inside toward the closet and stop.",
+      "latency_s": 2.24,
+      "prompt_tokens": 1905
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    9.661,
+    9.661,
+    9.445,
+    9.254,
+    9.067,
+    8.832,
+    8.614,
+    8.372,
+    8.14,
+    7.996,
+    7.907,
+    7.706,
+    7.425,
+    7.145,
+    6.946,
+    6.746,
+    6.547,
+    6.347,
+    6.111,
+    5.874,
+    5.768,
+    5.661,
+    5.35,
+    5.3,
+    5.327,
+    5.383,
+    5.442,
+    5.52,
+    5.611,
+    5.686,
+    5.761,
+    5.515,
+    5.266,
+    5.016,
+    4.767,
+    4.521,
+    4.276,
+    4.032,
+    3.791,
+    3.554,
+    3.303,
+    3.054,
+    2.809,
+    2.565,
+    2.319,
+    2.075,
+    1.832,
+    1.58,
+    1.328,
+    1.075,
+    0.831,
+    0.552,
+    0.33,
+    0.196,
+    0.31,
+    0.529,
+    0.768,
+    1.013,
+    1.26,
+    1.269,
+    1.284
+  ],
+  "final_distance": 1.284,
+  "min_distance": 0.196,
+  "metrics": {
+    "distance_to_goal": 1.2837176322937012,
+    "success": 1.0,
+    "spl": 0.6888008787173201,
+    "oracle_success": 1.0,
+    "path_length": 14.025285929441452,
+    "steps_taken": 109.0
+  },
+  "success": true,
+  "backend_stats": {
+    "calls": 188,
+    "failures": 0,
+    "prompt_tokens": 338925,
+    "completion_tokens": 14973,
+    "reasoning_tokens": 4506,
+    "latency_s": 417.41209411621094
+  }
+}

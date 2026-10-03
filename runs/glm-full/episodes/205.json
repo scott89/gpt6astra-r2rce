@@ -1,0 +1,1652 @@
+{
+  "episode_id": 205,
+  "scene_id": "Z6MFQCViBuw",
+  "instruction": "Turn towards a large wooden manel, go forward through a doorway and continue down a red carpet between rope barriers until you reach the next doorway, facing a large bed,and stop.",
+  "actions_taken": 500,
+  "policy_calls": 131,
+  "api_latency_s": 250.17,
+  "prompt_tokens": 262155,
+  "completion_tokens": 8038,
+  "termination": "budget_exhausted",
+  "stop_called": false,
+  "elapsed_s": 252.75,
+  "steps": [
+    {
+      "n": 4,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I see the red carpet leading straight to a doorway ahead. I'll advance along the carpet toward it.",
+      "latency_s": 1.35,
+      "prompt_tokens": 896
+    },
+    {
+      "n": 8,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The red carpet leads straight to the doorway ahead; I'm aligned with it. Continue forward along the carpet.",
+      "latency_s": 2.11,
+      "prompt_tokens": 1251
+    },
+    {
+      "n": 12,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm aligned with the red carpet leading through the doorway ahead. Continue forward along the carpet.",
+      "latency_s": 1.62,
+      "prompt_tokens": 1614
+    },
+    {
+      "n": 16,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm aligned with the doorway and red carpet ahead; continue forward along the carpet.",
+      "latency_s": 1.54,
+      "prompt_tokens": 1978
+    },
+    {
+      "n": 20,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've passed through the first doorway and am on the red carpet. I need to continue forward along the carpet toward the next doorway.",
+      "latency_s": 1.68,
+      "prompt_tokens": 1978
+    },
+    {
+      "n": 24,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet between rope barriers, heading toward the next doorway ahead. I'll advance a few steps and re-observe.",
+      "latency_s": 2.16,
+      "prompt_tokens": 1978
+    },
+    {
+      "n": 28,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_LEFT"
+      ],
+      "thought": "I've passed through the first doorway and am on the red carpet between rope barriers. The next doorway appears to be ahead-left, where a dark opening is visible; I'll advance along the carpet and aim for it.",
+      "latency_s": 2.91,
+      "prompt_tokens": 1979
+    },
+    {
+      "n": 32,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet between rope barriers; the next doorway is ahead-left, with a bed visible through it. I'll turn left to align and move forward.",
+      "latency_s": 2.09,
+      "prompt_tokens": 1981
+    },
+    {
+      "n": 35,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet and the next doorway is visible ahead, slightly left of center, with what looks like a bed beyond it. I'll advance toward it and re-observe.",
+      "latency_s": 1.92,
+      "prompt_tokens": 1983
+    },
+    {
+      "n": 38,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the doorway with the red carpet leading through it; a bed-like furniture is visible ahead. I'll advance through the doorway toward it.",
+      "latency_s": 2.01,
+      "prompt_tokens": 1983
+    },
+    {
+      "n": 41,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the doorway with the red carpet ahead; I should advance through it and continue along the carpet.",
+      "latency_s": 2.13,
+      "prompt_tokens": 1984
+    },
+    {
+      "n": 44,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm pressed against a wall; the red carpet and doorway are to my right. I'll turn right to re-align with the carpet before moving forward.",
+      "latency_s": 2.27,
+      "prompt_tokens": 1984
+    },
+    {
+      "n": 47,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet; the doorway with the room beyond (and likely the bed) is through the opening on the left. I'll turn left and advance carefully.",
+      "latency_s": 2.44,
+      "prompt_tokens": 1986
+    },
+    {
+      "n": 50,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet; the next doorway with the large bed is visible ahead-left. I'll advance toward it and re-observe.",
+      "latency_s": 2.21,
+      "prompt_tokens": 1987
+    },
+    {
+      "n": 53,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I appear to have drifted too close to a wooden panel; the open passage with the red carpet is to my left. I'll turn left to re-aim at the doorway before moving.",
+      "latency_s": 2.41,
+      "prompt_tokens": 1987
+    },
+    {
+      "n": 55,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "The camera is pressed against furniture; I need to rotate to find the open doorway with the red carpet visible earlier.",
+      "latency_s": 3.0,
+      "prompt_tokens": 1989
+    },
+    {
+      "n": 58,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wooden wall up close; the doorway with the red carpet was visible to the right earlier. I'll turn right to re-aim at it.",
+      "latency_s": 2.22,
+      "prompt_tokens": 1990
+    },
+    {
+      "n": 60,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall up close; an open doorway is visible to the right. I'll turn right to aim at it before moving.",
+      "latency_s": 2.15,
+      "prompt_tokens": 1992
+    },
+    {
+      "n": 63,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm pressed against a wooden cabinet; a gap ahead shows red carpet and a dark passage. I'll turn right to align with the gap and step forward.",
+      "latency_s": 2.0,
+      "prompt_tokens": 1993
+    },
+    {
+      "n": 66,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm pressed against a wooden cabinet; the red carpet is visible to the right. I need to turn right to clear the obstacle and face the carpeted passage.",
+      "latency_s": 2.34,
+      "prompt_tokens": 1994
+    },
+    {
+      "n": 69,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet heading toward the doorway ahead; continue forward along the carpet.",
+      "latency_s": 1.85,
+      "prompt_tokens": 1996
+    },
+    {
+      "n": 73,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet heading toward the doorway ahead; continue forward along the carpet.",
+      "latency_s": 1.99,
+      "prompt_tokens": 1997
+    },
+    {
+      "n": 77,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet heading toward the open doorway ahead; the path is clear, so I'll advance a few steps and re-observe.",
+      "latency_s": 2.13,
+      "prompt_tokens": 1998
+    },
+    {
+      "n": 80,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet heading toward the doorway ahead; the bed should be beyond it. Continue forward along the carpet.",
+      "latency_s": 1.82,
+      "prompt_tokens": 1999
+    },
+    {
+      "n": 84,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet with a doorway ahead leading to a pink-walled room. I'll advance along the carpet toward that doorway.",
+      "latency_s": 1.87,
+      "prompt_tokens": 1997
+    },
+    {
+      "n": 88,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet heading toward the doorway ahead; the bed should be beyond it. Continue forward along the carpet.",
+      "latency_s": 1.81,
+      "prompt_tokens": 1999
+    },
+    {
+      "n": 92,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet heading toward the doorway ahead; continue forward along the carpet.",
+      "latency_s": 2.05,
+      "prompt_tokens": 1999
+    },
+    {
+      "n": 96,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet heading toward the open doorway ahead; the next doorway with the bed should be beyond it. Continue forward along the carpet.",
+      "latency_s": 2.82,
+      "prompt_tokens": 2000
+    },
+    {
+      "n": 100,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet with a doorway ahead; I need to continue down the carpet through the next doorway toward the bed.",
+      "latency_s": 3.06,
+      "prompt_tokens": 2000
+    },
+    {
+      "n": 104,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet facing the doorway ahead; continue forward through it toward the next doorway and the bed.",
+      "latency_s": 1.69,
+      "prompt_tokens": 2000
+    },
+    {
+      "n": 108,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet with a doorway ahead; continue forward along the carpet toward it.",
+      "latency_s": 1.73,
+      "prompt_tokens": 2001
+    },
+    {
+      "n": 112,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet with a doorway ahead; continue along the carpet toward it.",
+      "latency_s": 1.61,
+      "prompt_tokens": 2002
+    },
+    {
+      "n": 116,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet heading toward the open doorway ahead; the bed should be beyond it. Continue advancing along the carpet.",
+      "latency_s": 1.59,
+      "prompt_tokens": 2002
+    },
+    {
+      "n": 120,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet heading toward the open doorway ahead; the bed should be beyond it. Continue forward along the carpet.",
+      "latency_s": 1.78,
+      "prompt_tokens": 2003
+    },
+    {
+      "n": 124,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet heading toward the open doorway ahead; the bed should be beyond it. Continue forward along the carpet.",
+      "latency_s": 1.97,
+      "prompt_tokens": 2002
+    },
+    {
+      "n": 128,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet heading toward the open doorway ahead; the bed should be beyond it. Continue advancing along the carpet.",
+      "latency_s": 1.98,
+      "prompt_tokens": 2004
+    },
+    {
+      "n": 132,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet heading toward the doorway ahead; the bed should be beyond it. Continue forward along the carpet.",
+      "latency_s": 1.84,
+      "prompt_tokens": 2004
+    },
+    {
+      "n": 135,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet with a doorway ahead; the instruction says continue down the carpet to the next doorway facing a large bed. I'll advance toward the doorway and re-observe.",
+      "latency_s": 1.83,
+      "prompt_tokens": 2005
+    },
+    {
+      "n": 139,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet heading toward the open doorway ahead; the bed should be beyond it. Continue forward along the carpet.",
+      "latency_s": 1.98,
+      "prompt_tokens": 2005
+    },
+    {
+      "n": 143,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet heading toward the open doorway ahead; the bed should be beyond it. Continue advancing along the carpet.",
+      "latency_s": 1.68,
+      "prompt_tokens": 2006
+    },
+    {
+      "n": 147,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet heading toward the open doorway ahead; the bed should be beyond it. Continue forward along the carpet.",
+      "latency_s": 1.82,
+      "prompt_tokens": 2007
+    },
+    {
+      "n": 151,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet heading toward the doorway ahead; the bed should be beyond it. Continue forward along the carpet.",
+      "latency_s": 1.82,
+      "prompt_tokens": 2007
+    },
+    {
+      "n": 155,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet facing the doorway ahead; continue advancing through it toward the next doorway and the bed.",
+      "latency_s": 1.53,
+      "prompt_tokens": 2008
+    },
+    {
+      "n": 159,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet heading toward the open doorway ahead; the bed should be beyond it. Continue forward along the carpet.",
+      "latency_s": 1.59,
+      "prompt_tokens": 2008
+    },
+    {
+      "n": 162,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet with a doorway straight ahead; the instruction says continue down the carpet to the next doorway facing a large bed. I'll advance toward the doorway and re-observe.",
+      "latency_s": 1.62,
+      "prompt_tokens": 2009
+    },
+    {
+      "n": 166,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet heading toward the open doorway ahead; the bed should be beyond it. Continue advancing along the carpet.",
+      "latency_s": 1.88,
+      "prompt_tokens": 2008
+    },
+    {
+      "n": 170,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet heading toward the open doorway ahead; the bed should be beyond it. Continue forward along the carpet.",
+      "latency_s": 1.94,
+      "prompt_tokens": 2009
+    },
+    {
+      "n": 174,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet heading toward the open doorway ahead; the bed should be beyond it. Continue forward along the carpet.",
+      "latency_s": 1.68,
+      "prompt_tokens": 2008
+    },
+    {
+      "n": 178,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet heading toward the open doorway ahead; the bed should be beyond it. Continue forward along the carpet.",
+      "latency_s": 2.06,
+      "prompt_tokens": 2010
+    },
+    {
+      "n": 182,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet heading toward the doorway ahead; continue advancing along the carpet.",
+      "latency_s": 2.01,
+      "prompt_tokens": 2010
+    },
+    {
+      "n": 186,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet heading toward the open doorway ahead; the bed should be beyond it. Continue advancing along the carpet.",
+      "latency_s": 2.07,
+      "prompt_tokens": 2011
+    },
+    {
+      "n": 190,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet heading toward the open doorway ahead; the bed should be beyond it. Continue advancing along the carpet.",
+      "latency_s": 1.72,
+      "prompt_tokens": 2011
+    },
+    {
+      "n": 194,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet heading toward the open doorway ahead; the bed should be beyond it. Continue forward along the carpet.",
+      "latency_s": 1.88,
+      "prompt_tokens": 2011
+    },
+    {
+      "n": 198,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet heading toward the open doorway ahead; the bed should be beyond it. Continue forward along the carpet.",
+      "latency_s": 1.65,
+      "prompt_tokens": 2013
+    },
+    {
+      "n": 202,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet facing the doorway ahead; continue forward through it toward the next doorway with the bed.",
+      "latency_s": 1.71,
+      "prompt_tokens": 2013
+    },
+    {
+      "n": 206,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet heading toward the open doorway ahead; the bed should be beyond it. Continue advancing along the carpet.",
+      "latency_s": 1.63,
+      "prompt_tokens": 2013
+    },
+    {
+      "n": 210,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet heading toward the open doorway ahead; the bed should be beyond it. Continue forward along the carpet.",
+      "latency_s": 1.8,
+      "prompt_tokens": 2014
+    },
+    {
+      "n": 214,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet heading toward the open doorway ahead; the bed should be beyond it. Continue forward along the carpet.",
+      "latency_s": 1.85,
+      "prompt_tokens": 2013
+    },
+    {
+      "n": 218,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet with a doorway straight ahead; the bed should be beyond it. I'll advance along the carpet toward the doorway.",
+      "latency_s": 1.67,
+      "prompt_tokens": 2015
+    },
+    {
+      "n": 222,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet heading toward the doorway ahead; continue advancing along the carpet.",
+      "latency_s": 1.52,
+      "prompt_tokens": 2015
+    },
+    {
+      "n": 226,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet heading toward the open doorway ahead; the bed should be beyond it. Continue forward along the carpet.",
+      "latency_s": 1.88,
+      "prompt_tokens": 2016
+    },
+    {
+      "n": 230,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet facing the doorway ahead; continue forward through it toward the next doorway with the bed.",
+      "latency_s": 1.71,
+      "prompt_tokens": 2018
+    },
+    {
+      "n": 234,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet heading toward the open doorway ahead; the bed should be beyond it. Continue forward along the carpet.",
+      "latency_s": 2.18,
+      "prompt_tokens": 2016
+    },
+    {
+      "n": 238,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet facing the doorway ahead; continue forward through it toward the next room with the bed.",
+      "latency_s": 1.55,
+      "prompt_tokens": 2019
+    },
+    {
+      "n": 242,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet heading toward the open doorway ahead; the bed should be beyond it. Continue forward along the carpet.",
+      "latency_s": 1.76,
+      "prompt_tokens": 2020
+    },
+    {
+      "n": 246,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet heading toward the open doorway ahead; the bed should be beyond it. Continue forward along the carpet.",
+      "latency_s": 1.95,
+      "prompt_tokens": 2020
+    },
+    {
+      "n": 250,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet heading toward the doorway ahead; continue advancing along the carpet.",
+      "latency_s": 1.73,
+      "prompt_tokens": 2021
+    },
+    {
+      "n": 254,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet heading toward the open doorway ahead; the bed should be beyond it. Continue advancing along the carpet.",
+      "latency_s": 1.52,
+      "prompt_tokens": 2018
+    },
+    {
+      "n": 258,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet with a doorway straight ahead; the instruction says continue down the carpet to the next doorway facing a large bed. I'll advance toward the doorway and re-observe.",
+      "latency_s": 1.81,
+      "prompt_tokens": 2022
+    },
+    {
+      "n": 262,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet heading toward the open doorway ahead; the bed should be beyond it. Continue forward along the carpet.",
+      "latency_s": 2.1,
+      "prompt_tokens": 2022
+    },
+    {
+      "n": 266,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet heading toward the doorway ahead; the bed should be beyond it. Continue forward along the carpet.",
+      "latency_s": 1.7,
+      "prompt_tokens": 2023
+    },
+    {
+      "n": 270,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet facing the doorway ahead; continue forward through it toward the next doorway with the bed.",
+      "latency_s": 2.33,
+      "prompt_tokens": 2023
+    },
+    {
+      "n": 274,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet heading toward the open doorway ahead; the bed should be beyond it. Continue forward along the carpet.",
+      "latency_s": 2.03,
+      "prompt_tokens": 2021
+    },
+    {
+      "n": 278,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet heading toward the doorway ahead; the bed should be beyond it. Continue forward along the carpet.",
+      "latency_s": 1.57,
+      "prompt_tokens": 2024
+    },
+    {
+      "n": 282,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet heading toward the open doorway ahead; the bed should be beyond it. Continue forward along the carpet.",
+      "latency_s": 1.65,
+      "prompt_tokens": 2024
+    },
+    {
+      "n": 286,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet heading toward the doorway ahead; continue advancing along the carpet.",
+      "latency_s": 1.54,
+      "prompt_tokens": 2024
+    },
+    {
+      "n": 290,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet heading toward the open doorway ahead; the bed should be beyond it. Continue forward along the carpet.",
+      "latency_s": 1.78,
+      "prompt_tokens": 2025
+    },
+    {
+      "n": 294,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet with a doorway ahead; continue forward through it toward the next doorway with the bed.",
+      "latency_s": 1.74,
+      "prompt_tokens": 2023
+    },
+    {
+      "n": 298,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet heading toward the open doorway ahead; the bed should be beyond it. Continue forward along the carpet.",
+      "latency_s": 1.94,
+      "prompt_tokens": 2026
+    },
+    {
+      "n": 302,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet with a doorway ahead; continue forward through it toward the next room with the bed.",
+      "latency_s": 1.99,
+      "prompt_tokens": 2026
+    },
+    {
+      "n": 305,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet facing the doorway ahead; continue forward through it toward the next doorway and the bed.",
+      "latency_s": 1.86,
+      "prompt_tokens": 2027
+    },
+    {
+      "n": 309,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet heading toward the open doorway ahead; the bed should be beyond it. Continue advancing along the carpet.",
+      "latency_s": 1.95,
+      "prompt_tokens": 2026
+    },
+    {
+      "n": 313,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet heading toward the open doorway ahead; the bed should be beyond it. Continue forward along the carpet.",
+      "latency_s": 1.88,
+      "prompt_tokens": 2030
+    },
+    {
+      "n": 317,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet facing the doorway ahead; the bed should be beyond it. Continue forward along the carpet.",
+      "latency_s": 1.71,
+      "prompt_tokens": 2029
+    },
+    {
+      "n": 321,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet heading toward the open doorway ahead; the bed should be beyond it. Continue advancing along the carpet.",
+      "latency_s": 1.92,
+      "prompt_tokens": 2030
+    },
+    {
+      "n": 325,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet heading toward the open doorway ahead; the bed should be beyond it. Continue forward along the carpet.",
+      "latency_s": 1.58,
+      "prompt_tokens": 2030
+    },
+    {
+      "n": 328,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet heading toward the doorway ahead; continue advancing along the carpet.",
+      "latency_s": 1.5,
+      "prompt_tokens": 2031
+    },
+    {
+      "n": 332,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet heading toward the open doorway ahead; the bed should be beyond it. Continue forward along the carpet.",
+      "latency_s": 1.91,
+      "prompt_tokens": 2030
+    },
+    {
+      "n": 336,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet facing the doorway ahead; continue forward through it toward the next doorway with the bed.",
+      "latency_s": 1.77,
+      "prompt_tokens": 2031
+    },
+    {
+      "n": 340,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet heading toward the open doorway ahead; the bed should be beyond it. Continue forward along the carpet.",
+      "latency_s": 1.9,
+      "prompt_tokens": 2031
+    },
+    {
+      "n": 344,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet heading toward the open doorway ahead; the bed should be beyond it. Continue forward along the carpet.",
+      "latency_s": 1.75,
+      "prompt_tokens": 2030
+    },
+    {
+      "n": 348,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet heading toward the open doorway ahead; the bed should be beyond it. Continue forward along the carpet.",
+      "latency_s": 1.58,
+      "prompt_tokens": 2032
+    },
+    {
+      "n": 351,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet heading toward the open doorway ahead; the bed should be beyond it. Continue forward along the carpet.",
+      "latency_s": 1.63,
+      "prompt_tokens": 2033
+    },
+    {
+      "n": 355,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet heading toward the open doorway ahead; the bed should be beyond it. Continue forward along the carpet.",
+      "latency_s": 2.17,
+      "prompt_tokens": 2034
+    },
+    {
+      "n": 359,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet heading toward the open doorway ahead; the bed should be beyond it. Continue forward along the carpet.",
+      "latency_s": 1.56,
+      "prompt_tokens": 2034
+    },
+    {
+      "n": 363,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet heading toward the open doorway ahead; the bed should be beyond it. Continue forward along the carpet.",
+      "latency_s": 1.56,
+      "prompt_tokens": 2035
+    },
+    {
+      "n": 367,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet heading toward the open doorway ahead; the bed should be beyond it. Continue forward along the carpet.",
+      "latency_s": 1.85,
+      "prompt_tokens": 2035
+    },
+    {
+      "n": 370,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet with a doorway straight ahead; the instruction says continue down the carpet to the next doorway facing a large bed. I'll advance toward the doorway and re-observe.",
+      "latency_s": 2.31,
+      "prompt_tokens": 2036
+    },
+    {
+      "n": 374,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet heading toward the open doorway ahead; the bed should be beyond it. Continue advancing along the carpet.",
+      "latency_s": 1.91,
+      "prompt_tokens": 2033
+    },
+    {
+      "n": 378,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet heading toward the doorway ahead; continue advancing along the carpet.",
+      "latency_s": 1.54,
+      "prompt_tokens": 2036
+    },
+    {
+      "n": 382,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet heading toward the doorway ahead; the bed should be beyond it. Continue forward along the carpet.",
+      "latency_s": 2.03,
+      "prompt_tokens": 2036
+    },
+    {
+      "n": 386,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet heading toward the doorway ahead; the bed should be beyond it. Continue forward along the carpet.",
+      "latency_s": 1.9,
+      "prompt_tokens": 2037
+    },
+    {
+      "n": 390,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet facing the doorway ahead; continue forward through it toward the next doorway with the bed.",
+      "latency_s": 1.99,
+      "prompt_tokens": 2037
+    },
+    {
+      "n": 394,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet heading toward the doorway ahead; continue advancing along the carpet.",
+      "latency_s": 1.7,
+      "prompt_tokens": 2038
+    },
+    {
+      "n": 398,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet heading toward the open doorway ahead; the bed should be beyond it. Continue forward along the carpet.",
+      "latency_s": 2.01,
+      "prompt_tokens": 2038
+    },
+    {
+      "n": 402,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet heading toward the doorway ahead; the bed should be beyond it. Continue forward along the carpet.",
+      "latency_s": 1.77,
+      "prompt_tokens": 2039
+    },
+    {
+      "n": 406,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet heading toward the doorway ahead; the bed should be beyond it. Continue forward along the carpet.",
+      "latency_s": 1.57,
+      "prompt_tokens": 2039
+    },
+    {
+      "n": 410,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet facing the doorway ahead; the bed should be beyond it. Continue forward through the doorway.",
+      "latency_s": 1.88,
+      "prompt_tokens": 2040
+    },
+    {
+      "n": 414,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet heading toward the doorway ahead; the bed should be beyond it. Continue forward along the carpet.",
+      "latency_s": 1.84,
+      "prompt_tokens": 2040
+    },
+    {
+      "n": 418,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet heading toward the open doorway ahead; the bed should be beyond it. Continue forward along the carpet.",
+      "latency_s": 4.19,
+      "prompt_tokens": 2041
+    },
+    {
+      "n": 422,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet heading toward the doorway ahead; the bed should be beyond it. Continue forward along the carpet.",
+      "latency_s": 1.52,
+      "prompt_tokens": 2041
+    },
+    {
+      "n": 426,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet heading toward the doorway ahead; the bed should be beyond it. Continue forward along the carpet.",
+      "latency_s": 1.65,
+      "prompt_tokens": 2042
+    },
+    {
+      "n": 430,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet heading toward the open doorway ahead; the bed should be beyond it. Continue forward along the carpet.",
+      "latency_s": 1.6,
+      "prompt_tokens": 2042
+    },
+    {
+      "n": 434,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet heading toward the doorway ahead; continue advancing along the carpet.",
+      "latency_s": 2.09,
+      "prompt_tokens": 2041
+    },
+    {
+      "n": 438,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet heading toward the open doorway ahead; the bed should be beyond it. Continue forward along the carpet.",
+      "latency_s": 1.88,
+      "prompt_tokens": 2043
+    },
+    {
+      "n": 442,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet heading toward the doorway ahead; the bed should be beyond it. Continue forward along the carpet.",
+      "latency_s": 1.72,
+      "prompt_tokens": 2044
+    },
+    {
+      "n": 446,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet heading toward the doorway ahead; the bed should be beyond it. Continue forward along the carpet.",
+      "latency_s": 1.7,
+      "prompt_tokens": 2044
+    },
+    {
+      "n": 450,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet heading toward the doorway ahead; the bed should be beyond it. Continue forward along the carpet.",
+      "latency_s": 1.73,
+      "prompt_tokens": 2045
+    },
+    {
+      "n": 454,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet heading toward the doorway ahead; the bed should be beyond it. Continue forward along the carpet.",
+      "latency_s": 1.79,
+      "prompt_tokens": 2043
+    },
+    {
+      "n": 458,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet heading toward the doorway ahead; the bed should be beyond it. Continue forward along the carpet.",
+      "latency_s": 1.55,
+      "prompt_tokens": 2046
+    },
+    {
+      "n": 462,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet heading toward the doorway ahead; the bed should be beyond it. Continue forward along the carpet.",
+      "latency_s": 1.83,
+      "prompt_tokens": 2046
+    },
+    {
+      "n": 466,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet heading toward the doorway ahead; the bed should be beyond it. Continue forward along the carpet.",
+      "latency_s": 3.06,
+      "prompt_tokens": 2047
+    },
+    {
+      "n": 470,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet heading toward the doorway ahead; continue advancing along the carpet.",
+      "latency_s": 1.68,
+      "prompt_tokens": 2047
+    },
+    {
+      "n": 474,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet heading toward the doorway ahead; the bed should be beyond it. Continue forward along the carpet.",
+      "latency_s": 2.12,
+      "prompt_tokens": 2048
+    },
+    {
+      "n": 478,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet heading toward the open doorway ahead; the bed should be beyond it. Continue forward along the carpet.",
+      "latency_s": 1.86,
+      "prompt_tokens": 2048
+    },
+    {
+      "n": 482,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet heading toward the doorway ahead; the bed should be beyond it. Continue forward along the carpet.",
+      "latency_s": 1.59,
+      "prompt_tokens": 2049
+    },
+    {
+      "n": 486,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet heading toward the doorway ahead; the bed should be beyond it. Continue forward along the carpet.",
+      "latency_s": 2.14,
+      "prompt_tokens": 2049
+    },
+    {
+      "n": 490,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet heading toward the doorway ahead; continue advancing along the carpet.",
+      "latency_s": 1.81,
+      "prompt_tokens": 2050
+    },
+    {
+      "n": 494,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet heading toward the doorway ahead; continue forward along the carpet.",
+      "latency_s": 1.79,
+      "prompt_tokens": 2050
+    },
+    {
+      "n": 498,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet heading toward the doorway ahead; continue forward along the carpet.",
+      "latency_s": 1.81,
+      "prompt_tokens": 2051
+    },
+    {
+      "n": 500,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The next doorway with the bed is still several meters ahead; with only 2 actions left I cannot reach it, but I should still advance toward it.",
+      "latency_s": 2.98,
+      "prompt_tokens": 2051
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    11.509,
+    11.759,
+    12.009,
+    12.259,
+    12.509,
+    12.759,
+    13.009,
+    13.259,
+    13.509,
+    13.759,
+    14.009,
+    14.259,
+    14.509,
+    14.759,
+    15.009,
+    15.259,
+    15.509,
+    15.759,
+    16.009,
+    16.259,
+    16.509,
+    16.759,
+    17.009,
+    17.259,
+    17.509,
+    17.759,
+    18.009,
+    18.259,
+    18.476,
+    18.694,
+    18.913,
+    19.133,
+    19.366,
+    19.608,
+    19.854,
+    20.102,
+    20.247,
+    20.341,
+    20.425,
+    20.675,
+    20.675,
+    20.944,
+    21.204,
+    21.343,
+    21.522,
+    21.594,
+    21.571,
+    21.548,
+    21.526,
+    21.503,
+    21.481,
+    21.459,
+    21.438,
+    21.416,
+    21.396,
+    21.375,
+    21.355,
+    21.336,
+    21.316,
+    21.298,
+    21.28,
+    21.263,
+    21.247,
+    21.203,
+    21.182,
+    21.189
+  ],
+  "final_distance": 21.189,
+  "min_distance": 11.509,
+  "metrics": {
+    "distance_to_goal": 21.189260482788086,
+    "success": 0.0,
+    "spl": 0.0,
+    "oracle_success": 0.0,
+    "path_length": 11.378294955939054,
+    "steps_taken": 500.0
+  },
+  "success": false,
+  "backend_stats": {
+    "calls": 167,
+    "failures": 0,
+    "prompt_tokens": 327085,
+    "completion_tokens": 11092,
+    "reasoning_tokens": 2558,
+    "latency_s": 336.27083706855774
+  },
+  "stop_deferrals": 0
+}

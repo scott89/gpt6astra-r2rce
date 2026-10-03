@@ -1,0 +1,102 @@
+{
+  "episode_id": 10,
+  "scene_id": "2azQ1b91cZZ",
+  "instruction": "Walk into the living room and keep walking straight past the living room. Then walk into the entrance under the balcony. Wait in the entrance to the other room.",
+  "actions_taken": 16,
+  "policy_calls": 4,
+  "api_latency_s": 7.99,
+  "prompt_tokens": 5725,
+  "completion_tokens": 278,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 8.05,
+  "steps": [
+    {
+      "n": 8,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the living room facing an arched entrance under the balcony. I'll walk straight toward it.",
+      "latency_s": 1.48,
+      "prompt_tokens": 892
+    },
+    {
+      "n": 12,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the living room facing the arched entrance under the balcony. I'll advance toward the archway and stop in the entrance.",
+      "latency_s": 1.74,
+      "prompt_tokens": 1247
+    },
+    {
+      "n": 15,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm aligned with the arched entrance under the balcony ahead. I'll advance toward it and re-observe.",
+      "latency_s": 2.22,
+      "prompt_tokens": 1611
+    },
+    {
+      "n": 16,
+      "actions": [
+        "STOP"
+      ],
+      "thought": "I have walked through the living room and reached the arched entrance under the balcony, facing the doorway to the next room. This is the spot described, so I will stop here.",
+      "latency_s": 2.55,
+      "prompt_tokens": 1975
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    7.113,
+    6.863,
+    6.613,
+    6.363,
+    6.113,
+    5.863,
+    5.613,
+    5.363,
+    5.113,
+    4.863,
+    4.613,
+    4.363,
+    4.113,
+    3.863,
+    3.613,
+    3.363
+  ],
+  "final_distance": 3.363,
+  "min_distance": 3.363,
+  "metrics": {
+    "distance_to_goal": 3.3630146980285645,
+    "success": 0.0,
+    "spl": 0.0,
+    "oracle_success": 0.0,
+    "path_length": 3.75,
+    "steps_taken": 16.0
+  },
+  "success": false,
+  "backend_stats": {
+    "calls": 502,
+    "failures": 0,
+    "prompt_tokens": 1008145,
+    "completion_tokens": 43491,
+    "reasoning_tokens": 15174,
+    "latency_s": 1175.5293974876404
+  },
+  "stop_deferrals": 0
+}

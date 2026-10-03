@@ -1,0 +1,304 @@
+{
+  "episode_id": 220,
+  "scene_id": "8194nk5LbLH",
+  "instruction": "Start in the middle of the large room head towards the door that leads to the outside, turn left and head up the stairs, take a hard left, stop when you are inside the workout room.",
+  "actions_taken": 71,
+  "policy_calls": 18,
+  "api_latency_s": 39.1,
+  "prompt_tokens": 33690,
+  "completion_tokens": 1232,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 39.43,
+  "steps": [
+    {
+      "n": 6,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing an orange wall with a painting; I need to find the door leading outside. I'll turn to scan the room.",
+      "latency_s": 2.23,
+      "prompt_tokens": 900
+    },
+    {
+      "n": 10,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm facing the exterior door; I'll advance toward it, then turn left to locate the stairs.",
+      "latency_s": 1.75,
+      "prompt_tokens": 1257
+    },
+    {
+      "n": 13,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing the glass exterior door. I'll advance toward it, then turn left to find the stairs.",
+      "latency_s": 1.99,
+      "prompt_tokens": 1622
+    },
+    {
+      "n": 16,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I've reached the exterior door. Per the instruction, I now turn left to head toward the stairs.",
+      "latency_s": 2.1,
+      "prompt_tokens": 1986
+    },
+    {
+      "n": 19,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've reached the exterior door and turned; the staircase is now visible ahead-left. I'll turn left to face the stairs and move toward them.",
+      "latency_s": 2.04,
+      "prompt_tokens": 1987
+    },
+    {
+      "n": 22,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've turned left from the outside door and can see the staircase ahead. I'll advance toward the stairs.",
+      "latency_s": 1.72,
+      "prompt_tokens": 1988
+    },
+    {
+      "n": 26,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the base of the stairs, which are slightly left of center. I'll turn left a bit and advance toward the staircase.",
+      "latency_s": 1.97,
+      "prompt_tokens": 1989
+    },
+    {
+      "n": 32,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the base of the stairs, aligned with them. I'll climb the stairs, then take a hard left to find the workout room.",
+      "latency_s": 1.72,
+      "prompt_tokens": 1990
+    },
+    {
+      "n": 36,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the base of the stairs and need to climb them, then take a hard left at the top. I'll continue ascending.",
+      "latency_s": 1.83,
+      "prompt_tokens": 1991
+    },
+    {
+      "n": 41,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm mid-staircase; the stairs continue up and to the left. I'll turn left to face the upper flight and keep climbing.",
+      "latency_s": 4.21,
+      "prompt_tokens": 1992
+    },
+    {
+      "n": 45,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the base of the stairs which ascend to the left. I need to climb them, then take a hard left at the top toward the workout room.",
+      "latency_s": 2.02,
+      "prompt_tokens": 1994
+    },
+    {
+      "n": 50,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm mid-staircase; the stairs continue up to the left. I'll keep climbing, then take the hard left at the top toward the workout room.",
+      "latency_s": 2.19,
+      "prompt_tokens": 1996
+    },
+    {
+      "n": 54,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm mid-staircase; continue ascending toward the landing, then take the hard left toward the workout room.",
+      "latency_s": 1.84,
+      "prompt_tokens": 1997
+    },
+    {
+      "n": 60,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm mid-staircase facing the railing/wall; the stairs continue up to the left. I'll turn left to align with the stairs and keep climbing, then look for the hard left at the top.",
+      "latency_s": 2.51,
+      "prompt_tokens": 1998
+    },
+    {
+      "n": 63,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've reached the top of the stairs and turned left; ahead is a room with gym equipment visible on the left. I'll advance into it.",
+      "latency_s": 2.18,
+      "prompt_tokens": 2000
+    },
+    {
+      "n": 66,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've taken the hard left at the top of the stairs and can see the workout room with exercise equipment ahead. I'll advance into the room.",
+      "latency_s": 2.11,
+      "prompt_tokens": 2000
+    },
+    {
+      "n": 70,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The room on the left contains exercise equipment (treadmill, punching bag), which appears to be the workout room. I'll turn left and move into it.",
+      "latency_s": 2.37,
+      "prompt_tokens": 2001
+    },
+    {
+      "n": 71,
+      "actions": [
+        "STOP"
+      ],
+      "thought": "The camera now shows gym equipment (weight bench, dumbbells, exercise machines) all around, confirming we are inside the workout room as instructed.",
+      "latency_s": 2.32,
+      "prompt_tokens": 2002
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    11.806,
+    11.806,
+    11.627,
+    11.466,
+    11.329,
+    11.165,
+    11.029,
+    10.93,
+    10.686,
+    10.442,
+    10.199,
+    9.841,
+    9.608,
+    9.365,
+    9.124,
+    8.885,
+    8.647,
+    8.413,
+    8.182,
+    7.957,
+    7.699,
+    7.414,
+    7.128,
+    6.844,
+    6.568,
+    6.331,
+    6.087,
+    5.845,
+    5.623,
+    5.395,
+    5.188,
+    4.993,
+    4.753,
+    4.498,
+    4.251,
+    4.073,
+    3.846,
+    3.623,
+    3.404,
+    3.191,
+    2.908,
+    2.665,
+    2.395,
+    2.205,
+    2.047,
+    1.909,
+    1.796,
+    1.713,
+    1.664,
+    1.526,
+    1.419
+  ],
+  "final_distance": 1.419,
+  "min_distance": 1.419,
+  "metrics": {
+    "distance_to_goal": 1.418513536453247,
+    "success": 1.0,
+    "spl": 0.9159163977166608,
+    "oracle_success": 1.0,
+    "path_length": 12.889384105801582,
+    "steps_taken": 71.0
+  },
+  "success": true,
+  "backend_stats": {
+    "calls": 57,
+    "failures": 0,
+    "prompt_tokens": 109141,
+    "completion_tokens": 3943,
+    "reasoning_tokens": 955,
+    "latency_s": 119.25431394577026
+  },
+  "stop_deferrals": 0
+}

@@ -1,0 +1,177 @@
+{
+  "episode_id": 136,
+  "scene_id": "zsNo4HB9uLZ",
+  "instruction": "Turn left and head towards the hall way. Continue straight until the door is in your path.",
+  "actions_taken": 35,
+  "policy_calls": 9,
+  "api_latency_s": 15.4,
+  "prompt_tokens": 15487,
+  "completion_tokens": 486,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 15.57,
+  "steps": [
+    {
+      "n": 4,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm facing a kitchen counter. The instruction says turn left and head toward the hallway, so I'll rotate left first to see what's there.",
+      "latency_s": 1.87,
+      "prompt_tokens": 879
+    },
+    {
+      "n": 8,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing the hallway with a door visible at the far end. I'll advance down the hallway toward it.",
+      "latency_s": 1.43,
+      "prompt_tokens": 1234
+    },
+    {
+      "n": 12,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the hallway facing a door at the far end. Continue forward toward it.",
+      "latency_s": 1.44,
+      "prompt_tokens": 1598
+    },
+    {
+      "n": 16,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the hallway facing a door at the far end. Continue forward toward it.",
+      "latency_s": 1.67,
+      "prompt_tokens": 1961
+    },
+    {
+      "n": 20,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the hallway with the door visible ahead; continue straight toward it.",
+      "latency_s": 1.58,
+      "prompt_tokens": 1962
+    },
+    {
+      "n": 24,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the hallway facing the door ahead. Continue forward until the door is close in my path.",
+      "latency_s": 1.53,
+      "prompt_tokens": 1961
+    },
+    {
+      "n": 27,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The hallway is straight ahead with the slatted door visible at the end, roughly 3-4 m away. I'll advance a bit closer before stopping.",
+      "latency_s": 2.01,
+      "prompt_tokens": 1963
+    },
+    {
+      "n": 31,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The hallway door is directly ahead but still several meters away. I'll advance a few steps toward it before stopping.",
+      "latency_s": 1.89,
+      "prompt_tokens": 1964
+    },
+    {
+      "n": 35,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "STOP"
+      ],
+      "thought": "The hallway door is directly ahead and appears within ~3 m. I'll take a couple of forward steps to get closer, then stop at the door.",
+      "latency_s": 1.98,
+      "prompt_tokens": 1965
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    8.184,
+    8.184,
+    7.934,
+    7.684,
+    7.434,
+    7.184,
+    6.934,
+    6.684,
+    6.434,
+    6.184,
+    5.934,
+    5.684,
+    5.434,
+    5.184,
+    4.934,
+    4.684,
+    4.434,
+    4.185,
+    3.935,
+    3.685,
+    3.435,
+    3.185,
+    2.935,
+    2.685,
+    2.436,
+    2.186,
+    1.936,
+    1.687,
+    1.437,
+    1.188,
+    0.939,
+    0.692
+  ],
+  "final_distance": 0.692,
+  "min_distance": 0.692,
+  "metrics": {
+    "distance_to_goal": 0.6916272640228271,
+    "success": 1.0,
+    "spl": 1.0,
+    "oracle_success": 1.0,
+    "path_length": 7.500000640749931,
+    "steps_taken": 35.0
+  },
+  "success": true,
+  "backend_stats": {
+    "calls": 825,
+    "failures": 0,
+    "prompt_tokens": 1654925,
+    "completion_tokens": 72574,
+    "reasoning_tokens": 27140,
+    "latency_s": 1857.0030462741852
+  },
+  "stop_deferrals": 0
+}

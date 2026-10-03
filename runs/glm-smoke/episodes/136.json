@@ -1,0 +1,174 @@
+{
+  "episode_id": 136,
+  "scene_id": "zsNo4HB9uLZ",
+  "instruction": "Turn left and head towards the hall way. Continue straight until the door is in your path.",
+  "actions_taken": 38,
+  "policy_calls": 8,
+  "api_latency_s": 12.95,
+  "prompt_tokens": 12764,
+  "completion_tokens": 412,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 13.11,
+  "steps": [
+    {
+      "n": 4,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm facing a kitchen counter; the hallway should be to my left. I'll turn left and re-observe.",
+      "latency_s": 1.43,
+      "prompt_tokens": 784
+    },
+    {
+      "n": 8,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The hallway is straight ahead with a door visible at the far end. I'll advance along the hallway toward it.",
+      "latency_s": 1.46,
+      "prompt_tokens": 1139
+    },
+    {
+      "n": 12,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the hallway facing a door at the far end. Continue forward toward it.",
+      "latency_s": 1.43,
+      "prompt_tokens": 1503
+    },
+    {
+      "n": 16,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the hallway facing a door at the far end. Continue forward toward it.",
+      "latency_s": 1.58,
+      "prompt_tokens": 1866
+    },
+    {
+      "n": 22,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The hallway is straight ahead with the door visible at the end; I'm aligned, so continue forward.",
+      "latency_s": 1.79,
+      "prompt_tokens": 1867
+    },
+    {
+      "n": 28,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The hallway is straight ahead with the door visible at the end. Continue forward until close to the door.",
+      "latency_s": 1.54,
+      "prompt_tokens": 1868
+    },
+    {
+      "n": 34,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The hallway is straight ahead and the door is visible at the end. Continue forward until close to the door.",
+      "latency_s": 1.68,
+      "prompt_tokens": 1868
+    },
+    {
+      "n": 38,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "STOP"
+      ],
+      "thought": "The hallway door is directly ahead and close. I'll advance a couple steps toward it, then stop near the door.",
+      "latency_s": 2.04,
+      "prompt_tokens": 1869
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    8.184,
+    8.184,
+    7.934,
+    7.684,
+    7.434,
+    7.184,
+    6.934,
+    6.684,
+    6.434,
+    6.184,
+    5.934,
+    5.684,
+    5.434,
+    5.184,
+    4.934,
+    4.684,
+    4.434,
+    4.185,
+    3.935,
+    3.685,
+    3.435,
+    3.185,
+    2.935,
+    2.685,
+    2.436,
+    2.186,
+    1.936,
+    1.687,
+    1.437,
+    1.188,
+    0.939,
+    0.692,
+    0.446,
+    0.213,
+    0.127
+  ],
+  "final_distance": 0.127,
+  "min_distance": 0.127,
+  "metrics": {
+    "distance_to_goal": 0.12685668468475342,
+    "success": 1.0,
+    "spl": 0.9919854751944985,
+    "oracle_success": 1.0,
+    "path_length": 8.250000640749931,
+    "steps_taken": 38.0
+  },
+  "success": true,
+  "backend_stats": {
+    "calls": 34,
+    "failures": 0,
+    "prompt_tokens": 59962,
+    "completion_tokens": 2820,
+    "reasoning_tokens": 905,
+    "latency_s": 75.01080536842346
+  }
+}

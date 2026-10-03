@@ -1,0 +1,243 @@
+{
+  "episode_id": 641,
+  "scene_id": "x8F5xyUWy9e",
+  "instruction": "You should walk past the bar and to the pool. Across from the pool there is a doorway, go through that doorway and wait.",
+  "actions_taken": 45,
+  "policy_calls": 15,
+  "api_latency_s": 29.29,
+  "prompt_tokens": 27409,
+  "completion_tokens": 981,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 29.55,
+  "steps": [
+    {
+      "n": 3,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I see the pool ahead past the seating. I'll advance toward it, then look for the doorway across from the pool.",
+      "latency_s": 1.71,
+      "prompt_tokens": 887
+    },
+    {
+      "n": 6,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing the pool area with chairs and a table in front. I need to move toward the pool, then find the doorway across from it.",
+      "latency_s": 2.03,
+      "prompt_tokens": 1242
+    },
+    {
+      "n": 8,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm at the pool area now. I need to find the doorway across from the pool; I'll scan right to locate it.",
+      "latency_s": 1.7,
+      "prompt_tokens": 1605
+    },
+    {
+      "n": 12,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the pool area; the lit doorway across the pool is on the right side. I'll turn right and move toward it.",
+      "latency_s": 2.38,
+      "prompt_tokens": 1969
+    },
+    {
+      "n": 15,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the pool area; a lit doorway is visible ahead past the pool. I'll advance toward it, re-checking alignment.",
+      "latency_s": 1.89,
+      "prompt_tokens": 1971
+    },
+    {
+      "n": 18,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the pool area and can see a lit doorway across from the pool ahead. I'll advance toward it, re-observing before entering.",
+      "latency_s": 1.88,
+      "prompt_tokens": 1972
+    },
+    {
+      "n": 21,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the pool; the doorway across from it is visible ahead, slightly right of center. I'll advance toward it and re-check alignment.",
+      "latency_s": 1.9,
+      "prompt_tokens": 1971
+    },
+    {
+      "n": 24,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the pool and can see the doorway across from it, slightly ahead-right. I'll advance toward it and re-aim before entering.",
+      "latency_s": 1.97,
+      "prompt_tokens": 1973
+    },
+    {
+      "n": 27,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the pool; the doorway across the pool is visible ahead slightly right. I'll advance toward it and re-observe.",
+      "latency_s": 1.84,
+      "prompt_tokens": 1972
+    },
+    {
+      "n": 30,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the pool and can see the doorway across from it, slightly to the right. I'll turn right to align with it and move forward.",
+      "latency_s": 2.09,
+      "prompt_tokens": 1973
+    },
+    {
+      "n": 33,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The pool is on my left and the doorway across from it is visible ahead, slightly right of center. I'll advance toward it and re-aim as I get closer.",
+      "latency_s": 2.28,
+      "prompt_tokens": 1974
+    },
+    {
+      "n": 36,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The doorway across from the pool is visible ahead, slightly right of center. I'll advance toward it and re-observe before entering.",
+      "latency_s": 2.07,
+      "prompt_tokens": 1975
+    },
+    {
+      "n": 39,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The doorway across from the pool is directly ahead, slightly right of center. I'll advance toward it and then stop once through.",
+      "latency_s": 1.67,
+      "prompt_tokens": 1974
+    },
+    {
+      "n": 42,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The doorway across from the pool is directly ahead and close; I'll advance toward it and stop inside.",
+      "latency_s": 1.83,
+      "prompt_tokens": 1976
+    },
+    {
+      "n": 45,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "STOP"
+      ],
+      "thought": "I'm at the beaded doorway across from the pool; I need to pass through it and wait just inside.",
+      "latency_s": 2.05,
+      "prompt_tokens": 1975
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    7.779,
+    7.691,
+    7.578,
+    7.464,
+    7.351,
+    7.238,
+    7.124,
+    6.884,
+    6.644,
+    6.407,
+    6.173,
+    5.94,
+    5.71,
+    5.483,
+    5.26,
+    5.04,
+    4.825,
+    4.616,
+    4.415,
+    4.223,
+    4.043,
+    3.879,
+    3.733,
+    3.603,
+    3.401,
+    3.202,
+    3.057,
+    2.992,
+    2.789,
+    2.653,
+    2.561,
+    2.49,
+    2.443,
+    2.421,
+    2.439,
+    2.506,
+    2.628,
+    2.79,
+    2.976,
+    3.18
+  ],
+  "final_distance": 3.18,
+  "min_distance": 2.421,
+  "metrics": {
+    "distance_to_goal": 3.179534435272217,
+    "success": 0.0,
+    "spl": 0.0,
+    "oracle_success": 1.0,
+    "path_length": 8.622887149453163,
+    "steps_taken": 45.0
+  },
+  "success": false,
+  "backend_stats": {
+    "calls": 343,
+    "failures": 0,
+    "prompt_tokens": 679487,
+    "completion_tokens": 26704,
+    "reasoning_tokens": 8248,
+    "latency_s": 739.8299386501312
+  },
+  "stop_deferrals": 0
+}

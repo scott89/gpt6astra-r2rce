@@ -1,0 +1,191 @@
+{
+  "episode_id": 19,
+  "scene_id": "QUCTc6BB5sX",
+  "instruction": "Walk through the living room around the backside of the couches. Walk into the kitchen area and walk along the barstools and countertop. Continue ahead towards the arched entryway that leads to a hall beside the stairs.",
+  "actions_taken": 35,
+  "policy_calls": 11,
+  "api_latency_s": 26.36,
+  "prompt_tokens": 19729,
+  "completion_tokens": 1105,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 26.59,
+  "steps": [
+    {
+      "n": 3,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at an arched entry looking into a living area. I'll move forward through the arch toward the couches.",
+      "latency_s": 1.66,
+      "prompt_tokens": 907
+    },
+    {
+      "n": 6,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the living room with couches on the right and chairs ahead. I'll move forward past the chairs toward the arched opening, keeping the couches on my right.",
+      "latency_s": 1.81,
+      "prompt_tokens": 1262
+    },
+    {
+      "n": 10,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing an arched entryway ahead; the instruction ends at the hall beside the stairs beyond it. I'll advance toward the arch, re-observing after a few steps.",
+      "latency_s": 1.96,
+      "prompt_tokens": 1625
+    },
+    {
+      "n": 14,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've passed the couches and kitchen area; the arched entryway is directly ahead. I'll advance toward it and stop once through.",
+      "latency_s": 2.41,
+      "prompt_tokens": 1989
+    },
+    {
+      "n": 18,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've moved past the kitchen area and am now facing a dining room through an arch, but the instruction's target is the arched entryway to a hall beside the stairs. The opening on the left with the glass doors likely leads toward that hall, so I'll turn left and re-observe.",
+      "latency_s": 3.12,
+      "prompt_tokens": 1989
+    },
+    {
+      "n": 21,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've passed the kitchen counter area; ahead there's an arched opening leading onward. I'll advance toward it and re-observe.",
+      "latency_s": 2.4,
+      "prompt_tokens": 1991
+    },
+    {
+      "n": 24,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've passed the kitchen counter area; ahead is an open hall and to the left an arched entryway. The instruction ends at the arched entryway leading to a hall beside the stairs, so I should advance toward the arch area ahead.",
+      "latency_s": 3.28,
+      "prompt_tokens": 1991
+    },
+    {
+      "n": 28,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm past the kitchen counter; the arched entryway to the hall is visible ahead through the opening on the right. I'll advance toward it and re-observe.",
+      "latency_s": 2.23,
+      "prompt_tokens": 1992
+    },
+    {
+      "n": 31,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've walked along the kitchen counter and now face a wall corner; the passage continues to the right around this wall toward the hall. I'll turn right and proceed carefully.",
+      "latency_s": 2.36,
+      "prompt_tokens": 1993
+    },
+    {
+      "n": 34,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've passed the kitchen counter and reached a wall corner; the arched entryway/hall is to the right around this wall. I'll turn right and proceed through the opening.",
+      "latency_s": 2.51,
+      "prompt_tokens": 1994
+    },
+    {
+      "n": 35,
+      "actions": [
+        "STOP"
+      ],
+      "thought": "I have passed the kitchen/barstools and entered the hall area beside the stairs near the arched entryway; the current view shows the hall with the entry door and console table, matching the instruction's endpoint.",
+      "latency_s": 2.62,
+      "prompt_tokens": 1996
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    13.205,
+    13.076,
+    12.985,
+    14.074,
+    12.769,
+    12.609,
+    12.508,
+    12.434,
+    12.374,
+    12.348,
+    12.332,
+    12.317,
+    12.301,
+    12.285,
+    12.27,
+    12.065,
+    11.866,
+    11.674,
+    11.897,
+    11.655,
+    11.415,
+    11.176,
+    10.939,
+    10.704,
+    10.473,
+    10.245,
+    10.001,
+    9.758,
+    9.507,
+    9.254
+  ],
+  "final_distance": 9.254,
+  "min_distance": 9.254,
+  "metrics": {
+    "distance_to_goal": 9.254233360290527,
+    "success": 0.0,
+    "spl": 0.0,
+    "oracle_success": 0.0,
+    "path_length": 5.9336862694472075,
+    "steps_taken": 35.0
+  },
+  "success": false,
+  "backend_stats": {
+    "calls": 296,
+    "failures": 0,
+    "prompt_tokens": 604647,
+    "completion_tokens": 18626,
+    "reasoning_tokens": 5121,
+    "latency_s": 579.4481234550476
+  },
+  "stop_deferrals": 0
+}

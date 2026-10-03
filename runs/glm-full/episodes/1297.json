@@ -1,0 +1,360 @@
+{
+  "episode_id": 1297,
+  "scene_id": "Z6MFQCViBuw",
+  "instruction": "Walk down the red carpet and turn right at the bed.  Stop under the door frame.",
+  "actions_taken": 76,
+  "policy_calls": 22,
+  "api_latency_s": 55.27,
+  "prompt_tokens": 41134,
+  "completion_tokens": 2261,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 55.89,
+  "steps": [
+    {
+      "n": 4,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The red carpet runs straight ahead through the ornate door frame. I'll advance along it, re-observing as I go.",
+      "latency_s": 1.63,
+      "prompt_tokens": 879
+    },
+    {
+      "n": 7,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the start of the red carpet facing a doorway into the bedroom. I should walk forward along the carpet toward the bed.",
+      "latency_s": 1.65,
+      "prompt_tokens": 1234
+    },
+    {
+      "n": 10,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet heading toward the bedroom with the bed visible ahead. I'll advance along the carpet toward the bed before turning right.",
+      "latency_s": 2.19,
+      "prompt_tokens": 1598
+    },
+    {
+      "n": 13,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've walked down the red carpet and just entered the bedroom; the bed is on the left. I should advance a bit further to the bed, then turn right to find the door frame to stop under.",
+      "latency_s": 3.33,
+      "prompt_tokens": 1961
+    },
+    {
+      "n": 17,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've walked the carpet and turned right at the bed; the door frame is ahead on the right. I'll advance toward it and stop under it.",
+      "latency_s": 2.27,
+      "prompt_tokens": 1962
+    },
+    {
+      "n": 21,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm on the red carpet with the bed on my left. I need to continue along the carpet, then turn right toward the doorway visible on the right wall and stop under that door frame.",
+      "latency_s": 2.53,
+      "prompt_tokens": 1963
+    },
+    {
+      "n": 26,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've turned right at the bed and now face an open doorway ahead. I'll advance toward it and stop under the door frame.",
+      "latency_s": 2.79,
+      "prompt_tokens": 1964
+    },
+    {
+      "n": 30,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've walked the red carpet and turned at the bed; now a doorway is visible ahead-right. I'll turn right toward it and advance to get under the door frame.",
+      "latency_s": 2.7,
+      "prompt_tokens": 1966
+    },
+    {
+      "n": 33,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet with a doorway visible ahead-right. I'll advance along the carpet toward the door frame, then turn right through it.",
+      "latency_s": 2.5,
+      "prompt_tokens": 1967
+    },
+    {
+      "n": 36,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet heading toward the doorway ahead; the bed should be in the next room where I'll turn right. Continue forward along the carpet, checking alignment with the door opening.",
+      "latency_s": 2.37,
+      "prompt_tokens": 1967
+    },
+    {
+      "n": 41,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The red carpet led me to a corner with an open doorway on the right. I should turn right toward the door frame and move under it.",
+      "latency_s": 2.42,
+      "prompt_tokens": 1968
+    },
+    {
+      "n": 44,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing down the red carpet through a doorway, but I haven't passed the bed yet. I'll advance along the carpet and look for the bed to turn right at.",
+      "latency_s": 3.38,
+      "prompt_tokens": 1971
+    },
+    {
+      "n": 47,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm passing through a door frame onto the red carpet, but I haven't seen the bed yet, so the goal door frame is still ahead. Continue along the carpet.",
+      "latency_s": 2.56,
+      "prompt_tokens": 1972
+    },
+    {
+      "n": 51,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet heading toward the ornate door frame at the far end of the room. I should keep advancing along the carpet; the bed turn likely already happened, and the goal is the door frame ahead.",
+      "latency_s": 2.2,
+      "prompt_tokens": 1971
+    },
+    {
+      "n": 54,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet moving toward the ornate door frame ahead. I'll keep advancing along the carpet; the bed/turn should appear as I approach.",
+      "latency_s": 2.8,
+      "prompt_tokens": 1972
+    },
+    {
+      "n": 58,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet with the bed to my left and a door frame ahead. I'll advance along the carpet toward the doorway, then turn right at the bed and stop under the door frame.",
+      "latency_s": 2.44,
+      "prompt_tokens": 1973
+    },
+    {
+      "n": 61,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet facing a doorway ahead; the bed isn't visible yet, so I'll keep advancing along the carpet toward the door frame.",
+      "latency_s": 2.42,
+      "prompt_tokens": 1974
+    },
+    {
+      "n": 65,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet heading toward the door frame at the far end of the room. I'll keep advancing along the carpet toward it.",
+      "latency_s": 1.67,
+      "prompt_tokens": 1973
+    },
+    {
+      "n": 68,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet approaching a doorway ahead; the bed hasn't appeared yet, so I should keep advancing along the carpet toward the door frame.",
+      "latency_s": 2.48,
+      "prompt_tokens": 1974
+    },
+    {
+      "n": 71,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet facing a doorway ahead; the bed isn't visible yet, so I'll keep advancing along the carpet toward the door frame.",
+      "latency_s": 3.13,
+      "prompt_tokens": 1975
+    },
+    {
+      "n": 74,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the red carpet approaching a door frame straight ahead. I'll advance a couple steps to get under it, then stop.",
+      "latency_s": 2.15,
+      "prompt_tokens": 1974
+    },
+    {
+      "n": 76,
+      "actions": [
+        "MOVE_FORWARD",
+        "STOP"
+      ],
+      "thought": "I've walked down the red carpet and am now right at a large ornate door frame. The instruction ends at a door frame, so I'll step just under it and stop.",
+      "latency_s": 3.66,
+      "prompt_tokens": 1976
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    9.816,
+    9.569,
+    9.321,
+    9.073,
+    8.827,
+    8.581,
+    8.337,
+    8.093,
+    7.851,
+    7.61,
+    7.371,
+    7.135,
+    6.894,
+    6.646,
+    6.398,
+    6.152,
+    5.914,
+    5.677,
+    5.469,
+    5.28,
+    5.049,
+    4.834,
+    4.624,
+    4.419,
+    4.218,
+    3.988,
+    3.765,
+    3.541,
+    3.321,
+    3.105,
+    2.894,
+    2.691,
+    2.496,
+    2.309,
+    2.057,
+    1.806,
+    1.555,
+    1.304,
+    1.053,
+    0.803,
+    0.553,
+    0.304,
+    0.06,
+    0.2,
+    0.449,
+    0.698,
+    0.948,
+    1.198,
+    1.448,
+    1.698,
+    1.948,
+    2.198,
+    2.448,
+    2.698,
+    2.948,
+    3.198,
+    3.448,
+    3.698,
+    3.948,
+    4.198,
+    4.448,
+    4.698,
+    4.948,
+    5.198,
+    5.448,
+    5.698,
+    5.948,
+    6.198,
+    6.448,
+    6.698
+  ],
+  "final_distance": 6.698,
+  "min_distance": 0.06,
+  "metrics": {
+    "distance_to_goal": 6.697707653045654,
+    "success": 0.0,
+    "spl": 0.0,
+    "oracle_success": 1.0,
+    "path_length": 17.36076471209526,
+    "steps_taken": 76.0
+  },
+  "success": false,
+  "backend_stats": {
+    "calls": 992,
+    "failures": 0,
+    "prompt_tokens": 1965496,
+    "completion_tokens": 79815,
+    "reasoning_tokens": 24290,
+    "latency_s": 2225.660338163376
+  },
+  "stop_deferrals": 0
+}

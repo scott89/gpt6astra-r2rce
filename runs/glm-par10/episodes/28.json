@@ -1,0 +1,375 @@
+{
+  "episode_id": 28,
+  "scene_id": "oLBMNvg9in8",
+  "instruction": "Exit the room through the door on the right. Walk past the stairs and the bathroom and enter the room with the cardboard boxes. Stop by the doorway on the left that leads to the living room.",
+  "actions_taken": 76,
+  "policy_calls": 28,
+  "api_latency_s": 70.73,
+  "prompt_tokens": 53634,
+  "completion_tokens": 2957,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 71.36,
+  "steps": [
+    {
+      "n": 2,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I see a bookshelf and paneled wall but no door yet. I need to look around to find the door on the right.",
+      "latency_s": 1.28,
+      "prompt_tokens": 900
+    },
+    {
+      "n": 5,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a fireplace and bookshelf with no door visible. The instruction says to exit through the door on the right, so I should turn right to look for it.",
+      "latency_s": 1.88,
+      "prompt_tokens": 1255
+    },
+    {
+      "n": 8,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The open door on the right leads out of this room. I'll turn right and approach it.",
+      "latency_s": 1.97,
+      "prompt_tokens": 1620
+    },
+    {
+      "n": 11,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I see an open doorway ahead leading out of this green room; I should head through it to continue following the instruction.",
+      "latency_s": 2.93,
+      "prompt_tokens": 1984
+    },
+    {
+      "n": 13,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've turned right and moved toward the open doorway; the room ahead appears to be the next space. I'll advance through the doorway and re-observe.",
+      "latency_s": 2.75,
+      "prompt_tokens": 1985
+    },
+    {
+      "n": 15,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've turned right and advanced toward the open doorway ahead. I'll step through it to continue toward the room with cardboard boxes.",
+      "latency_s": 2.47,
+      "prompt_tokens": 1985
+    },
+    {
+      "n": 18,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at a doorway with a green door partially blocking; the opening to the next room is ahead-right. I'll turn right to align with the passage and step through.",
+      "latency_s": 2.11,
+      "prompt_tokens": 1985
+    },
+    {
+      "n": 20,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in the room with cardboard boxes (visible on the shelves to my left). I need to find the doorway on the left that leads to the living room, so I'll turn left to scan that side.",
+      "latency_s": 2.87,
+      "prompt_tokens": 1987
+    },
+    {
+      "n": 22,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a room with bookshelves and a table, but I don't see cardboard boxes yet. I'll turn right to scan the rest of the room for the boxes or an exit.",
+      "latency_s": 5.22,
+      "prompt_tokens": 1987
+    },
+    {
+      "n": 25,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a library room facing a table and bookshelves; the exit door should be behind me. I'll turn right to find the doorway and proceed.",
+      "latency_s": 2.64,
+      "prompt_tokens": 1989
+    },
+    {
+      "n": 28,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a library-like room; the instruction says to exit through the door on the right. There is an open doorway on the right side of my view leading to a hallway, so I'll turn toward it and proceed.",
+      "latency_s": 3.16,
+      "prompt_tokens": 1991
+    },
+    {
+      "n": 31,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a green hallway with an open doorway ahead leading to another room. I'll move forward through it to find the room with cardboard boxes.",
+      "latency_s": 2.5,
+      "prompt_tokens": 1992
+    },
+    {
+      "n": 34,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a narrow hallway with doorways ahead. I need to continue forward to find the room with cardboard boxes, then locate the left doorway to the living room.",
+      "latency_s": 2.03,
+      "prompt_tokens": 1993
+    },
+    {
+      "n": 37,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hallway with the staircase on the right. I need to continue forward past the stairs and bathroom to find the room with cardboard boxes.",
+      "latency_s": 2.07,
+      "prompt_tokens": 1994
+    },
+    {
+      "n": 40,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hallway with stairs on the right and an open door on the left. I need to find the room with cardboard boxes, so I'll advance down the hallway and look for it.",
+      "latency_s": 2.5,
+      "prompt_tokens": 1994
+    },
+    {
+      "n": 43,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a dark hallway heading toward a pink-lit room ahead. I need to keep moving forward to find the room with cardboard boxes, watching for doorways on the left.",
+      "latency_s": 2.77,
+      "prompt_tokens": 1995
+    },
+    {
+      "n": 46,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a narrow hallway with an open doorway on the right. I should continue forward and look for the room with cardboard boxes, checking doorways as I go.",
+      "latency_s": 2.54,
+      "prompt_tokens": 1994
+    },
+    {
+      "n": 49,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hallway facing an open doorway into a peach-walled room, which likely contains the cardboard boxes. I'll advance through the doorway and then look for the left-side doorway to the living room.",
+      "latency_s": 2.28,
+      "prompt_tokens": 1996
+    },
+    {
+      "n": 52,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hallway facing an open doorway into a room with orange walls. I should move forward through this doorway to enter the room and look for the cardboard boxes and the left doorway to the living room.",
+      "latency_s": 1.92,
+      "prompt_tokens": 1995
+    },
+    {
+      "n": 54,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've entered a pink-walled room with a fireplace, but I don't see cardboard boxes yet. I'll scan the room to locate them and the doorway on the left leading to the living room.",
+      "latency_s": 2.38,
+      "prompt_tokens": 1996
+    },
+    {
+      "n": 57,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in the room with cardboard boxes (visible bottom right). The doorway on the left should be to my left; I'll turn to locate it.",
+      "latency_s": 1.95,
+      "prompt_tokens": 1997
+    },
+    {
+      "n": 60,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a peach-walled room with a fireplace; the instruction says to stop by the doorway on the left leading to the living room. I need to look around to locate the cardboard boxes and that doorway, so I'll turn right to scan the room.",
+      "latency_s": 3.05,
+      "prompt_tokens": 1998
+    },
+    {
+      "n": 63,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the room with cardboard boxes (visible bottom right). The doorway on the left leading to the living room appears to be the door on the left edge of the view. I'll turn left and approach it.",
+      "latency_s": 2.69,
+      "prompt_tokens": 2000
+    },
+    {
+      "n": 66,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I appear to be in the room with the fireplace and a cardboard box, having just come through a door. The instruction says to stop by the doorway on the left leading to the living room, so I should turn left to locate that doorway.",
+      "latency_s": 3.01,
+      "prompt_tokens": 2002
+    },
+    {
+      "n": 70,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a closed door up close. I need to turn around and look for the doorway on the left leading to the living room from the boxes room.",
+      "latency_s": 2.32,
+      "prompt_tokens": 2003
+    },
+    {
+      "n": 72,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm at a doorway looking into a pink room with a fireplace, but I need to find the room with cardboard boxes. I should turn to scan the room and look for boxes or the doorway to the living room.",
+      "latency_s": 2.81,
+      "prompt_tokens": 2004
+    },
+    {
+      "n": 75,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I've entered the room with cardboard boxes (visible on the right). The instruction says to stop by the doorway on the left leading to the living room, so I should turn left to locate that doorway.",
+      "latency_s": 2.22,
+      "prompt_tokens": 2006
+    },
+    {
+      "n": 76,
+      "actions": [
+        "STOP"
+      ],
+      "thought": "I am in the room with cardboard boxes, and the doorway on the left is directly ahead of me. The instruction ends at this doorway, so I should stop here.",
+      "latency_s": 2.41,
+      "prompt_tokens": 2007
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    8.421,
+    8.421,
+    8.299,
+    8.209,
+    8.145,
+    8.106,
+    8.096,
+    8.113,
+    8.156,
+    8.209,
+    8.141,
+    7.891,
+    7.641,
+    7.391,
+    7.141,
+    6.891,
+    6.641,
+    6.391,
+    6.141,
+    5.891,
+    5.641,
+    5.391,
+    5.141,
+    4.891,
+    4.641,
+    4.391,
+    4.141,
+    3.891,
+    3.641,
+    3.391,
+    3.141,
+    2.891,
+    2.641,
+    2.391,
+    2.142,
+    1.892,
+    1.642
+  ],
+  "final_distance": 1.642,
+  "min_distance": 1.642,
+  "metrics": {
+    "distance_to_goal": 1.6415905952453613,
+    "success": 1.0,
+    "spl": 0.9623822123119423,
+    "oracle_success": 1.0,
+    "path_length": 8.750000700354576,
+    "steps_taken": 76.0
+  },
+  "success": true,
+  "backend_stats": {
+    "calls": 54,
+    "failures": 0,
+    "prompt_tokens": 103725,
+    "completion_tokens": 6539,
+    "reasoning_tokens": 3288,
+    "latency_s": 149.41940140724182
+  },
+  "stop_deferrals": 0
+}

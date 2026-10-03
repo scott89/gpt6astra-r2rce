@@ -1,0 +1,117 @@
+{
+  "episode_id": 1192,
+  "scene_id": "Z6MFQCViBuw",
+  "instruction": "Turn left and stop just passed the doorway straight ahead.",
+  "actions_taken": 23,
+  "policy_calls": 5,
+  "api_latency_s": 10.72,
+  "prompt_tokens": 7597,
+  "completion_tokens": 420,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 10.81,
+  "steps": [
+    {
+      "n": 4,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I currently face a curtained window; the instruction says turn left, so I'll rotate and re-observe to find the doorway ahead.",
+      "latency_s": 1.62,
+      "prompt_tokens": 871
+    },
+    {
+      "n": 7,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "The doorway is on the left side of the view, so I need to turn left to face it before walking through and stopping just past it.",
+      "latency_s": 2.11,
+      "prompt_tokens": 1226
+    },
+    {
+      "n": 13,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The doorway is straight ahead across the room, roughly 4-5 m away. I'll advance toward it and stop just past the threshold.",
+      "latency_s": 2.1,
+      "prompt_tokens": 1590
+    },
+    {
+      "n": 18,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The doorway is straight ahead a few meters away. I'll advance toward and just past it, then stop.",
+      "latency_s": 1.97,
+      "prompt_tokens": 1954
+    },
+    {
+      "n": 23,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "STOP"
+      ],
+      "thought": "I have approached the doorway but drifted slightly left; the open doorway is now on my right. I'll turn right to align, step through, then stop just past it.",
+      "latency_s": 2.92,
+      "prompt_tokens": 1956
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    6.59,
+    6.59,
+    6.348,
+    6.106,
+    5.866,
+    5.627,
+    5.392,
+    5.157,
+    4.919,
+    4.683,
+    4.45,
+    4.215,
+    3.986,
+    3.741,
+    3.498,
+    3.26
+  ],
+  "final_distance": 3.26,
+  "min_distance": 3.26,
+  "metrics": {
+    "distance_to_goal": 3.2598862648010254,
+    "success": 0.0,
+    "spl": 0.0,
+    "oracle_success": 0.0,
+    "path_length": 3.7246941924095154,
+    "steps_taken": 23.0
+  },
+  "success": false,
+  "backend_stats": {
+    "calls": 599,
+    "failures": 0,
+    "prompt_tokens": 1190410,
+    "completion_tokens": 46837,
+    "reasoning_tokens": 13329,
+    "latency_s": 1332.3016266822815
+  },
+  "stop_deferrals": 0
+}

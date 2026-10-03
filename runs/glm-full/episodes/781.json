@@ -1,0 +1,133 @@
+{
+  "episode_id": 781,
+  "scene_id": "EU6Fwq7SyZv",
+  "instruction": "Move ahead in between bar and table to the chair.",
+  "actions_taken": 21,
+  "policy_calls": 8,
+  "api_latency_s": 16.69,
+  "prompt_tokens": 13469,
+  "completion_tokens": 554,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 16.83,
+  "steps": [
+    {
+      "n": 2,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I see an attic room with a table on the right, but no bar or chair visible yet. I should scan the room before moving.",
+      "latency_s": 1.45,
+      "prompt_tokens": 871
+    },
+    {
+      "n": 3,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "The view is mostly ceiling; I need to look down to see the bar, table, and chair before moving.",
+      "latency_s": 1.66,
+      "prompt_tokens": 1226
+    },
+    {
+      "n": 6,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I see a small table with a statue ahead, with cushions on either side. The instruction says to move ahead between bar and table toward a chair, so I should advance toward that table area.",
+      "latency_s": 1.96,
+      "prompt_tokens": 1590
+    },
+    {
+      "n": 12,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "The current view shows only floor cushions and a small altar table \u2014 no bar or chair matching the instruction. I should turn around to scan the rest of the room for the bar, table, and chair.",
+      "latency_s": 2.52,
+      "prompt_tokens": 1954
+    },
+    {
+      "n": 14,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "After turning left, I now face a wall with windows and no chair visible. The chair mentioned in the instruction may be further to the left, so I will continue scanning left before moving.",
+      "latency_s": 3.4,
+      "prompt_tokens": 1956
+    },
+    {
+      "n": 16,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The chair is visible ahead, slightly left, roughly 3 m away. I'll advance toward it and re-observe.",
+      "latency_s": 2.11,
+      "prompt_tokens": 1956
+    },
+    {
+      "n": 19,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The chair is visible ahead-left, roughly 2-3 m away. I'll turn slightly left and advance toward it.",
+      "latency_s": 1.52,
+      "prompt_tokens": 1957
+    },
+    {
+      "n": 21,
+      "actions": [
+        "MOVE_FORWARD",
+        "STOP"
+      ],
+      "thought": "The chair is directly ahead and within a couple of meters. I'll take one more forward step to get within range, then stop.",
+      "latency_s": 2.07,
+      "prompt_tokens": 1959
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    5.613,
+    5.613,
+    5.862,
+    6.112,
+    6.361,
+    6.224,
+    6.094,
+    5.919,
+    5.75,
+    5.587
+  ],
+  "final_distance": 5.587,
+  "min_distance": 5.587,
+  "metrics": {
+    "distance_to_goal": 5.587187767028809,
+    "success": 0.0,
+    "spl": 0.0,
+    "oracle_success": 0.0,
+    "path_length": 2.033088207244873,
+    "steps_taken": 21.0
+  },
+  "success": false,
+  "backend_stats": {
+    "calls": 389,
+    "failures": 0,
+    "prompt_tokens": 760219,
+    "completion_tokens": 31617,
+    "reasoning_tokens": 10665,
+    "latency_s": 875.1961245536804
+  },
+  "stop_deferrals": 0
+}

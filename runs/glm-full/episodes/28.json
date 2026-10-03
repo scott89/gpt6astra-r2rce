@@ -1,0 +1,185 @@
+{
+  "episode_id": 28,
+  "scene_id": "oLBMNvg9in8",
+  "instruction": "Exit the room through the door on the right. Walk past the stairs and the bathroom and enter the room with the cardboard boxes. Stop by the doorway on the left that leads to the living room.",
+  "actions_taken": 31,
+  "policy_calls": 12,
+  "api_latency_s": 28.58,
+  "prompt_tokens": 21664,
+  "completion_tokens": 1116,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 28.78,
+  "steps": [
+    {
+      "n": 3,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I see a wall with bookshelves; the exit door should be to my right. I'll turn right to scan for it.",
+      "latency_s": 1.84,
+      "prompt_tokens": 900
+    },
+    {
+      "n": 6,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a fireplace between bookshelves. The instruction says to exit through the door on the right, so I need to turn right to locate it.",
+      "latency_s": 1.78,
+      "prompt_tokens": 1256
+    },
+    {
+      "n": 9,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I see an open door ahead-right leading out of this library room. I'll turn right to aim at it, then step through.",
+      "latency_s": 1.99,
+      "prompt_tokens": 1620
+    },
+    {
+      "n": 12,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've turned to face the open double doorway ahead. I'll move forward through it into the next room, then look for the stairs/bathroom and the room with cardboard boxes.",
+      "latency_s": 3.13,
+      "prompt_tokens": 1985
+    },
+    {
+      "n": 14,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've passed through the double doors into a room with a large table, but the instruction says to exit through the right door, pass stairs and a bathroom, then find cardboard boxes. I need to scan the room to locate the next doorway on the right.",
+      "latency_s": 3.08,
+      "prompt_tokens": 1985
+    },
+    {
+      "n": 17,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a green room with an open doorway on the right leading to a darker hallway. I'll turn right and move toward that doorway to exit the room.",
+      "latency_s": 2.65,
+      "prompt_tokens": 1986
+    },
+    {
+      "n": 19,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've turned to face an open doorway leading into a dark hallway. I should move forward through it to continue toward the stairs/bathroom area.",
+      "latency_s": 2.03,
+      "prompt_tokens": 1988
+    },
+    {
+      "n": 21,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at a doorway leading into a dark hallway. I need to pass through and continue toward the room with cardboard boxes, so I'll advance through this opening and re-observe.",
+      "latency_s": 1.78,
+      "prompt_tokens": 1988
+    },
+    {
+      "n": 24,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've exited into a dark hallway with two doorways ahead. I need to proceed down the hall to find the room with cardboard boxes, so I'll advance through the open doorway in front of me.",
+      "latency_s": 2.42,
+      "prompt_tokens": 1989
+    },
+    {
+      "n": 27,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a dark hallway with several doorways. I need to proceed down the hall to find the room with cardboard boxes, so I'll advance toward the open doorway ahead.",
+      "latency_s": 2.45,
+      "prompt_tokens": 1988
+    },
+    {
+      "n": 30,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a dark hallway with an open doorway ahead-left showing a brighter tiled area, and the hall continues to the right. I'll advance through the opening ahead to look for the stairs/bathroom and the room with cardboard boxes.",
+      "latency_s": 3.35,
+      "prompt_tokens": 1990
+    },
+    {
+      "n": 31,
+      "actions": [
+        "STOP"
+      ],
+      "thought": "I'm at a doorway looking into a living room with a couch and rug; the instruction ends at the doorway on the left leading to the living room, so I should stop here.",
+      "latency_s": 2.08,
+      "prompt_tokens": 1989
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    8.421,
+    8.421,
+    8.245,
+    8.092,
+    7.961,
+    7.853,
+    7.606,
+    7.359,
+    7.114,
+    6.871,
+    6.632,
+    6.404,
+    6.18,
+    5.959,
+    5.74,
+    5.524,
+    5.312,
+    5.104,
+    4.902,
+    4.723
+  ],
+  "final_distance": 4.723,
+  "min_distance": 4.723,
+  "metrics": {
+    "distance_to_goal": 4.7225341796875,
+    "success": 0.0,
+    "spl": 0.0,
+    "oracle_success": 0.0,
+    "path_length": 4.500000298023224,
+    "steps_taken": 31.0
+  },
+  "success": false,
+  "backend_stats": {
+    "calls": 726,
+    "failures": 0,
+    "prompt_tokens": 1423113,
+    "completion_tokens": 59231,
+    "reasoning_tokens": 20126,
+    "latency_s": 1633.091843366623
+  },
+  "stop_deferrals": 0
+}

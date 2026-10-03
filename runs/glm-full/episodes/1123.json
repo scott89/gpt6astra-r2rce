@@ -1,0 +1,1695 @@
+{
+  "episode_id": 1123,
+  "scene_id": "TbHJrupSAjP",
+  "instruction": "Turn left at top of stairs.  Walk forward into bedroom.  Continue straight, and turn left into bathroom.  Wait here.",
+  "actions_taken": 493,
+  "policy_calls": 141,
+  "api_latency_s": 291.14,
+  "prompt_tokens": 288410,
+  "completion_tokens": 11228,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 293.79,
+  "steps": [
+    {
+      "n": 3,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the staircase; I need to climb to the top before turning left. I'll advance carefully and re-observe.",
+      "latency_s": 2.18,
+      "prompt_tokens": 887
+    },
+    {
+      "n": 6,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm at the top of the stairs; the instruction says turn left here. I'll rotate left to face the upper landing direction before moving.",
+      "latency_s": 2.18,
+      "prompt_tokens": 1242
+    },
+    {
+      "n": 9,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the top of the stairs and have turned left; a bedroom doorway with a bed is visible ahead. I'll advance toward it and re-observe.",
+      "latency_s": 1.84,
+      "prompt_tokens": 1606
+    },
+    {
+      "n": 12,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the top of the stairs with a bedroom doorway visible ahead. I'll walk forward into the bedroom.",
+      "latency_s": 1.99,
+      "prompt_tokens": 1970
+    },
+    {
+      "n": 14,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the top of the stairs with the railing in view; a doorway to the bedroom is visible ahead. I'll step forward toward it and re-observe.",
+      "latency_s": 2.07,
+      "prompt_tokens": 1970
+    },
+    {
+      "n": 18,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I appear to be at the top of the stairs with a railing blocking the view. The instruction says to turn left at the top of the stairs, so I will rotate left to find the bedroom doorway.",
+      "latency_s": 1.77,
+      "prompt_tokens": 1970
+    },
+    {
+      "n": 20,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm at the top of the stairs facing a hallway wall with a console table. The instruction says to turn left and walk into the bedroom, so I should rotate left to find the bedroom doorway.",
+      "latency_s": 2.84,
+      "prompt_tokens": 1971
+    },
+    {
+      "n": 24,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the top of the stairs; the bedroom doorway is visible to my left. I'll turn left toward it and then advance.",
+      "latency_s": 1.89,
+      "prompt_tokens": 1971
+    },
+    {
+      "n": 28,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I see a bedroom through the open doorway ahead-right. I'll align toward it and enter.",
+      "latency_s": 1.84,
+      "prompt_tokens": 1973
+    },
+    {
+      "n": 31,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see a bedroom through the doorway ahead. I'll move forward into it, then look for the bathroom on the left.",
+      "latency_s": 2.18,
+      "prompt_tokens": 1975
+    },
+    {
+      "n": 34,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing the bedroom doorway with a bed visible inside. I'll advance through the doorway into the bedroom, then look for the bathroom on the left.",
+      "latency_s": 1.9,
+      "prompt_tokens": 1975
+    },
+    {
+      "n": 37,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the bedroom through the doorway ahead. I'll advance toward it, then look for the bathroom on the left.",
+      "latency_s": 1.82,
+      "prompt_tokens": 1976
+    },
+    {
+      "n": 40,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm facing a wall next to a hallway leading toward the bedroom. I need to turn left to align with the hallway before moving forward.",
+      "latency_s": 1.82,
+      "prompt_tokens": 1976
+    },
+    {
+      "n": 42,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a hallway facing a wall; the corridor continues to my right. I need to re-orient to walk down the hallway toward the bedroom.",
+      "latency_s": 1.87,
+      "prompt_tokens": 1977
+    },
+    {
+      "n": 44,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hallway with open doorways ahead. The instruction says to continue into the bedroom, so I'll advance along the hallway toward the open doorway visible ahead.",
+      "latency_s": 2.02,
+      "prompt_tokens": 1978
+    },
+    {
+      "n": 47,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm facing a wall in a hallway; the corridor with doorways is to my left. I need to turn left and proceed down the hallway to find the bedroom and then the bathroom.",
+      "latency_s": 2.04,
+      "prompt_tokens": 1979
+    },
+    {
+      "n": 49,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a closed door/wall; the hallway continues to my right. I'll turn right to re-enter the hallway and look for the bedroom and bathroom doors.",
+      "latency_s": 2.23,
+      "prompt_tokens": 1980
+    },
+    {
+      "n": 51,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm facing a wall at close range; the hallway with the picture continues to my left. I should turn left to align with the corridor before moving forward.",
+      "latency_s": 2.12,
+      "prompt_tokens": 1981
+    },
+    {
+      "n": 54,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a closed door/wall; the hallway continues to the right past the picture. I'll turn right and proceed down the hallway toward the bedroom.",
+      "latency_s": 1.9,
+      "prompt_tokens": 1982
+    },
+    {
+      "n": 57,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hallway with open doorways ahead; the instruction says continue straight into the bedroom. I'll advance carefully through the corridor.",
+      "latency_s": 1.96,
+      "prompt_tokens": 1984
+    },
+    {
+      "n": 60,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm now in the bedroom. The instruction says to turn left into the bathroom; there's an open doorway ahead on the left side of the room. I'll turn left and approach it.",
+      "latency_s": 2.41,
+      "prompt_tokens": 1984
+    },
+    {
+      "n": 62,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a closed door too closely; the bedroom with the green bed is to my right. I'll turn right to face into the bedroom, then look for the bathroom entrance.",
+      "latency_s": 2.31,
+      "prompt_tokens": 1986
+    },
+    {
+      "n": 64,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the bedroom; the open doorway ahead likely leads to the bathroom. I'll advance toward it and re-observe.",
+      "latency_s": 2.12,
+      "prompt_tokens": 1987
+    },
+    {
+      "n": 66,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the bedroom; the instruction says continue straight then turn left into the bathroom. There's an open doorway ahead-left that likely leads to the bathroom, so I'll advance toward it and re-observe.",
+      "latency_s": 1.82,
+      "prompt_tokens": 1988
+    },
+    {
+      "n": 69,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the bedroom; the open doorway ahead likely leads to the bathroom. I'll advance toward it and re-observe.",
+      "latency_s": 1.88,
+      "prompt_tokens": 1988
+    },
+    {
+      "n": 72,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a door edge/wall; the bedroom is to the right. I need to turn right to re-enter the bedroom and look for the bathroom door.",
+      "latency_s": 2.15,
+      "prompt_tokens": 1989
+    },
+    {
+      "n": 75,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm now inside the bedroom. The instruction says to continue straight and turn left into the bathroom, so I should scan left for a bathroom doorway.",
+      "latency_s": 2.12,
+      "prompt_tokens": 1991
+    },
+    {
+      "n": 77,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in the bedroom near a doorway, but I haven't entered the bathroom yet. I need to look around to find the bathroom entrance before stopping.",
+      "latency_s": 1.72,
+      "prompt_tokens": 1992
+    },
+    {
+      "n": 80,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm inside the bedroom now. The bathroom entrance isn't visible in this view; it's likely on the right side near the bed. I'll turn right to scan for the bathroom doorway.",
+      "latency_s": 2.59,
+      "prompt_tokens": 1993
+    },
+    {
+      "n": 83,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in the bedroom facing the bed. The bathroom should be to the left; I'll turn left to look for the doorway.",
+      "latency_s": 1.85,
+      "prompt_tokens": 1994
+    },
+    {
+      "n": 86,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in the bedroom facing the bed. The bathroom entrance is likely off to the left near the window/curtain area, so I'll turn left to scan for the doorway.",
+      "latency_s": 2.53,
+      "prompt_tokens": 1996
+    },
+    {
+      "n": 88,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall/door edge inside the bedroom; the bathroom must be elsewhere. I'll turn right to re-observe the room and locate the bathroom doorway.",
+      "latency_s": 2.08,
+      "prompt_tokens": 1997
+    },
+    {
+      "n": 91,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm inside the bedroom near a wall/door edge. I need to scan the room to find the bathroom entrance, so I'll turn right to look around.",
+      "latency_s": 2.03,
+      "prompt_tokens": 1998
+    },
+    {
+      "n": 94,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm now in the bedroom. The instruction says to turn left into the bathroom, so I should rotate left to find the bathroom doorway.",
+      "latency_s": 2.13,
+      "prompt_tokens": 2000
+    },
+    {
+      "n": 97,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in the bedroom near a window and bed. I need to find the bathroom, likely a doorway elsewhere in the room. I'll turn left to scan the room.",
+      "latency_s": 1.85,
+      "prompt_tokens": 2001
+    },
+    {
+      "n": 103,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've drifted into a closet facing shelves; the bathroom should be back in the bedroom. I'll turn around to face the bedroom again.",
+      "latency_s": 2.18,
+      "prompt_tokens": 2002
+    },
+    {
+      "n": 106,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in the bedroom now; the bathroom should be to the left. I'll turn left to scan for the bathroom doorway.",
+      "latency_s": 1.84,
+      "prompt_tokens": 2005
+    },
+    {
+      "n": 109,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in the bedroom near a closet/doorway. I need to find the bathroom, so I'll turn left to scan the room for another doorway.",
+      "latency_s": 1.85,
+      "prompt_tokens": 2006
+    },
+    {
+      "n": 115,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've drifted into a closet corner, not the bathroom. I need to back out into the bedroom and look for the bathroom door.",
+      "latency_s": 1.78,
+      "prompt_tokens": 2007
+    },
+    {
+      "n": 118,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in the bedroom now; I need to find the bathroom, likely a doorway on the left side of the room. I'll turn left to scan for it.",
+      "latency_s": 1.74,
+      "prompt_tokens": 2010
+    },
+    {
+      "n": 121,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in the bedroom near a closet/doorway. I need to find the bathroom, so I'll turn left to scan the room for another doorway.",
+      "latency_s": 1.73,
+      "prompt_tokens": 2011
+    },
+    {
+      "n": 127,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've wandered into a closet, not the bathroom. I need to back out into the bedroom and look for the bathroom door.",
+      "latency_s": 2.08,
+      "prompt_tokens": 2012
+    },
+    {
+      "n": 130,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in the bedroom now; the instruction says to turn left into the bathroom. I'll turn left to scan for the bathroom doorway.",
+      "latency_s": 1.77,
+      "prompt_tokens": 2015
+    },
+    {
+      "n": 133,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in the bedroom near a closet/doorway. I need to find the bathroom, so I'll turn left to scan the room for another doorway.",
+      "latency_s": 1.72,
+      "prompt_tokens": 2015
+    },
+    {
+      "n": 139,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've drifted into a closet, not the bathroom. I need to back out into the bedroom and find the bathroom door. Turning right should face me back toward the bedroom.",
+      "latency_s": 1.95,
+      "prompt_tokens": 2017
+    },
+    {
+      "n": 142,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in the bedroom now; I need to find the bathroom entrance, likely a doorway on the left side of the room. I'll turn left to scan for it.",
+      "latency_s": 1.85,
+      "prompt_tokens": 2020
+    },
+    {
+      "n": 145,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in the bedroom near a closet. The instruction says to turn left into the bathroom, so I should scan leftward for a bathroom doorway.",
+      "latency_s": 1.74,
+      "prompt_tokens": 2021
+    },
+    {
+      "n": 151,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've drifted into a closet corner, not the bathroom. I need to back out into the bedroom and find the bathroom door.",
+      "latency_s": 2.17,
+      "prompt_tokens": 2022
+    },
+    {
+      "n": 154,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in the bedroom now; the bathroom should be off to the left. I'll turn left to scan for the bathroom doorway.",
+      "latency_s": 1.93,
+      "prompt_tokens": 2025
+    },
+    {
+      "n": 157,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in the bedroom now; the instruction says to turn left into the bathroom. I need to look around to find the bathroom door, so I'll turn left to scan the room.",
+      "latency_s": 1.96,
+      "prompt_tokens": 2026
+    },
+    {
+      "n": 163,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've drifted into a closet corner, not the bathroom. I need to back out into the bedroom and look for the bathroom door.",
+      "latency_s": 2.19,
+      "prompt_tokens": 2027
+    },
+    {
+      "n": 166,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in the bedroom now and need to find the bathroom, likely through a doorway not currently visible. I'll turn left to scan the room.",
+      "latency_s": 2.0,
+      "prompt_tokens": 2030
+    },
+    {
+      "n": 169,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in the bedroom near a closet. The instruction says to turn left into the bathroom, so I should scan leftward for a bathroom doorway.",
+      "latency_s": 2.18,
+      "prompt_tokens": 2031
+    },
+    {
+      "n": 175,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've drifted into a closet corner, not the bathroom. I need to back out into the bedroom and look for the bathroom door.",
+      "latency_s": 2.12,
+      "prompt_tokens": 2032
+    },
+    {
+      "n": 178,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in the bedroom now; the bathroom should be off to the left. I'll turn left to look for the bathroom doorway.",
+      "latency_s": 1.92,
+      "prompt_tokens": 2035
+    },
+    {
+      "n": 181,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in the bedroom near a closet. I need to find the bathroom, likely on the far side of the room near the bed. I'll turn right to scan the room.",
+      "latency_s": 1.73,
+      "prompt_tokens": 2036
+    },
+    {
+      "n": 184,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in the bedroom facing the bed and window. The bathroom entrance should be a doorway; I'll turn left to scan the wall behind me for it.",
+      "latency_s": 2.63,
+      "prompt_tokens": 2038
+    },
+    {
+      "n": 187,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in the bedroom near the entrance. The instruction says to turn left into the bathroom, so I should rotate left to find the bathroom doorway.",
+      "latency_s": 1.86,
+      "prompt_tokens": 2039
+    },
+    {
+      "n": 193,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've drifted into a closet corner, not the bathroom. I need to back out into the bedroom and look for the bathroom door.",
+      "latency_s": 1.78,
+      "prompt_tokens": 2040
+    },
+    {
+      "n": 196,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in the bedroom now; I need to find the bathroom, likely a doorway on the left side of the room. I'll turn left to scan for it.",
+      "latency_s": 1.73,
+      "prompt_tokens": 2045
+    },
+    {
+      "n": 199,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in the bedroom near a closet. The instruction says to turn left into the bathroom, so I need to scan the room to locate the bathroom door.",
+      "latency_s": 1.89,
+      "prompt_tokens": 2043
+    },
+    {
+      "n": 205,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've drifted into a closet, not the bathroom. I need to back out into the bedroom and find the bathroom door.",
+      "latency_s": 1.91,
+      "prompt_tokens": 2044
+    },
+    {
+      "n": 208,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in the bedroom now; I need to find the bathroom, likely a doorway on the left side of the room. I'll turn left to scan for it.",
+      "latency_s": 2.12,
+      "prompt_tokens": 2048
+    },
+    {
+      "n": 211,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in the bedroom next to a closet. The instruction says to turn left into the bathroom, so I need to scan the room to locate the bathroom door.",
+      "latency_s": 1.72,
+      "prompt_tokens": 2049
+    },
+    {
+      "n": 217,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've drifted into a closet corner, not the bathroom. I need to back out into the bedroom and find the bathroom door.",
+      "latency_s": 1.82,
+      "prompt_tokens": 2050
+    },
+    {
+      "n": 220,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in the bedroom now and need to find the bathroom door. I'll turn left to scan the room for the next doorway.",
+      "latency_s": 1.85,
+      "prompt_tokens": 2053
+    },
+    {
+      "n": 223,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in the bedroom now; the instruction says to turn left into the bathroom. I need to look left to find the bathroom door.",
+      "latency_s": 2.2,
+      "prompt_tokens": 2053
+    },
+    {
+      "n": 229,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've drifted into a closet corner, not the bathroom. I need to back out into the bedroom and find the bathroom door.",
+      "latency_s": 2.01,
+      "prompt_tokens": 2057
+    },
+    {
+      "n": 232,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in the bedroom now; the instruction says to turn left into the bathroom. I'll turn left to scan for the bathroom door.",
+      "latency_s": 1.86,
+      "prompt_tokens": 2060
+    },
+    {
+      "n": 238,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to be inside a closet, not the bathroom. I need to back out into the bedroom and look for the bathroom door. Turning right should face me out of the closet.",
+      "latency_s": 1.94,
+      "prompt_tokens": 2059
+    },
+    {
+      "n": 241,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in the bedroom facing the bed. The bathroom should be a doorway off this room; I'll turn right to scan for it.",
+      "latency_s": 1.86,
+      "prompt_tokens": 2064
+    },
+    {
+      "n": 244,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in the bedroom facing the shelf/doorway area. The bathroom is likely on the left side near the curtained window. I'll turn left to scan for the bathroom door.",
+      "latency_s": 2.05,
+      "prompt_tokens": 2066
+    },
+    {
+      "n": 247,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in the bedroom facing the bed. The bathroom entrance isn't visible in this view, so I'll turn left to scan the room for the bathroom doorway.",
+      "latency_s": 3.1,
+      "prompt_tokens": 2066
+    },
+    {
+      "n": 250,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in the bedroom facing the window corner. The bathroom should be off to the left; I'll turn left to scan for a bathroom doorway.",
+      "latency_s": 1.87,
+      "prompt_tokens": 2068
+    },
+    {
+      "n": 253,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in the bedroom facing a wall/curtain corner. The bathroom should be to the left; I need to re-orient and find the bathroom doorway.",
+      "latency_s": 1.85,
+      "prompt_tokens": 2066
+    },
+    {
+      "n": 259,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a closet, not the bathroom. I need to turn around and re-enter the bedroom to find the bathroom door.",
+      "latency_s": 1.67,
+      "prompt_tokens": 2069
+    },
+    {
+      "n": 262,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in the bedroom now; the bathroom should be to the left. I'll turn left to scan for the bathroom doorway.",
+      "latency_s": 1.84,
+      "prompt_tokens": 2072
+    },
+    {
+      "n": 266,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in the bedroom facing a closet door. I need to turn right to face into the bedroom and locate the bathroom entrance to my left.",
+      "latency_s": 2.44,
+      "prompt_tokens": 2073
+    },
+    {
+      "n": 269,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in the bedroom; the bathroom should be off to the left. I'll turn left to scan for the doorway.",
+      "latency_s": 1.79,
+      "prompt_tokens": 2075
+    },
+    {
+      "n": 272,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in the bedroom facing the bed/window. The bathroom should be a door on the left side of the bedroom, so I'll turn left to look for it.",
+      "latency_s": 1.83,
+      "prompt_tokens": 2076
+    },
+    {
+      "n": 275,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall/door edge next to the bedroom. I need to turn right to re-enter the bedroom and locate the bathroom door.",
+      "latency_s": 2.06,
+      "prompt_tokens": 2076
+    },
+    {
+      "n": 278,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in the bedroom facing a wall with a window. I need to find the bathroom door, so I'll scan right to locate an open doorway.",
+      "latency_s": 1.83,
+      "prompt_tokens": 2078
+    },
+    {
+      "n": 281,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in the bedroom now; the bathroom door should be to the left. I'll turn left to scan for it.",
+      "latency_s": 2.03,
+      "prompt_tokens": 2079
+    },
+    {
+      "n": 284,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in the bedroom facing the bed/window. The bathroom entrance is likely behind me near the curtain on the left, so I'll turn left to scan for the doorway.",
+      "latency_s": 2.12,
+      "prompt_tokens": 2081
+    },
+    {
+      "n": 287,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall/door edge in the bedroom; the bathroom entrance should be elsewhere. I'll turn right to re-orient toward the room and look for the bathroom doorway.",
+      "latency_s": 1.81,
+      "prompt_tokens": 2081
+    },
+    {
+      "n": 291,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in the bedroom facing a wall with a window; the bathroom door must be elsewhere. I'll turn right to scan the room for the bathroom doorway.",
+      "latency_s": 1.93,
+      "prompt_tokens": 2083
+    },
+    {
+      "n": 295,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in the bedroom facing the bed. The instruction says to turn left into the bathroom, so I should look left for a bathroom doorway.",
+      "latency_s": 2.64,
+      "prompt_tokens": 2085
+    },
+    {
+      "n": 298,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in the bedroom facing the bed. The bathroom should be off to the left; I'll turn left to look for the doorway.",
+      "latency_s": 1.92,
+      "prompt_tokens": 2086
+    },
+    {
+      "n": 302,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall/door edge; the bedroom is to my right. I need to re-enter the bedroom and find the bathroom door, likely on the left side of the bedroom.",
+      "latency_s": 2.27,
+      "prompt_tokens": 2087
+    },
+    {
+      "n": 305,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in the bedroom now and need to find the bathroom entrance. I'll turn left to scan the room for the next doorway.",
+      "latency_s": 2.07,
+      "prompt_tokens": 2089
+    },
+    {
+      "n": 308,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a door edge; the bedroom is to my right. I need to re-orient into the room and find the bathroom entrance.",
+      "latency_s": 2.24,
+      "prompt_tokens": 2088
+    },
+    {
+      "n": 311,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in the bedroom; the bathroom should be a doorway off to the left side. I'll turn left to scan for the bathroom entrance.",
+      "latency_s": 2.42,
+      "prompt_tokens": 2090
+    },
+    {
+      "n": 314,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in the bedroom near the doorway. The instruction says turn left into the bathroom, so I should rotate left to find the bathroom entrance.",
+      "latency_s": 2.11,
+      "prompt_tokens": 2093
+    },
+    {
+      "n": 318,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've drifted into a closet area facing shelves, not the bathroom. I need to turn right back toward the bedroom and locate the bathroom door.",
+      "latency_s": 2.11,
+      "prompt_tokens": 2094
+    },
+    {
+      "n": 321,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to be wedged facing a door edge/wall next to a closet, with the bedroom (window, chair) to my right. I need to turn right to face into the bedroom and find the bathroom entrance.",
+      "latency_s": 2.75,
+      "prompt_tokens": 2096
+    },
+    {
+      "n": 324,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in the bedroom now; the instruction says turn left into the bathroom. I need to look left to find the bathroom door.",
+      "latency_s": 1.87,
+      "prompt_tokens": 2098
+    },
+    {
+      "n": 327,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in the bedroom but haven't found the bathroom entrance yet. I'll turn left to scan the room for the bathroom doorway.",
+      "latency_s": 1.76,
+      "prompt_tokens": 2099
+    },
+    {
+      "n": 333,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've drifted into a closet corner, not the bathroom. I need to back out into the bedroom and find the bathroom door.",
+      "latency_s": 4.51,
+      "prompt_tokens": 2100
+    },
+    {
+      "n": 336,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in the bedroom now, but I haven't entered the bathroom yet. I need to scan left to find the bathroom doorway.",
+      "latency_s": 1.95,
+      "prompt_tokens": 2101
+    },
+    {
+      "n": 339,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in the bedroom facing a closet. The bathroom should be elsewhere in the bedroom; I'll turn right to scan the room.",
+      "latency_s": 1.94,
+      "prompt_tokens": 2104
+    },
+    {
+      "n": 342,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in the bedroom facing the bed and window. The bathroom should be to the left; I'll turn to find the doorway.",
+      "latency_s": 1.84,
+      "prompt_tokens": 2106
+    },
+    {
+      "n": 345,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in the bedroom facing the window/bed area. The instruction says to turn left into the bathroom, so I should rotate left to find the bathroom doorway.",
+      "latency_s": 1.98,
+      "prompt_tokens": 2107
+    },
+    {
+      "n": 351,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a closet, not the bathroom. I need to turn around toward the bedroom and look for the bathroom door.",
+      "latency_s": 1.87,
+      "prompt_tokens": 2108
+    },
+    {
+      "n": 354,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in the bedroom now; I need to find the bathroom, likely a doorway off this room. I'll turn left to scan the walls.",
+      "latency_s": 1.88,
+      "prompt_tokens": 2111
+    },
+    {
+      "n": 357,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in the bedroom facing a wall with a window. I need to find the bathroom, likely a doorway elsewhere in the bedroom. I'll turn right to scan the room.",
+      "latency_s": 2.61,
+      "prompt_tokens": 2112
+    },
+    {
+      "n": 360,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in the bedroom but haven't entered the bathroom yet. I need to find the bathroom doorway, likely to the left near where I entered.",
+      "latency_s": 1.98,
+      "prompt_tokens": 2114
+    },
+    {
+      "n": 363,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in the bedroom near the entrance. The instruction says to turn left into the bathroom, so I should scan the room to locate the bathroom door before moving.",
+      "latency_s": 2.06,
+      "prompt_tokens": 2113
+    },
+    {
+      "n": 369,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to be facing into a closet, not the bathroom. I need to back out and re-orient to find the bathroom door.",
+      "latency_s": 1.82,
+      "prompt_tokens": 2116
+    },
+    {
+      "n": 372,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in the bedroom now; I need to find the bathroom, likely a doorway on the left side of the room. I'll turn left to scan for it.",
+      "latency_s": 1.84,
+      "prompt_tokens": 2119
+    },
+    {
+      "n": 375,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in the bedroom near a closet. The instruction says to turn left into the bathroom, so I should scan leftward for a bathroom doorway.",
+      "latency_s": 1.92,
+      "prompt_tokens": 2120
+    },
+    {
+      "n": 381,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've drifted into a closet corner, not the bathroom. I need to turn around, exit back into the bedroom, and look for the bathroom door.",
+      "latency_s": 1.98,
+      "prompt_tokens": 2121
+    },
+    {
+      "n": 385,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in the bedroom now. The instruction says to turn left into the bathroom, so I should rotate left to look for the bathroom doorway.",
+      "latency_s": 2.01,
+      "prompt_tokens": 2124
+    },
+    {
+      "n": 391,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to be inside a closet facing shelves, not in the bathroom. I need to back out into the bedroom and find the bathroom entrance.",
+      "latency_s": 2.67,
+      "prompt_tokens": 2125
+    },
+    {
+      "n": 394,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in the bedroom but haven't entered the bathroom yet. I need to scan for the bathroom doorway, likely off to the left side of the room.",
+      "latency_s": 1.97,
+      "prompt_tokens": 2128
+    },
+    {
+      "n": 397,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in the bedroom now; the instruction says turn left into the bathroom. I'll turn left to look for the bathroom doorway.",
+      "latency_s": 1.83,
+      "prompt_tokens": 2129
+    },
+    {
+      "n": 399,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a door edge/wall; the bedroom is to my right. I need to re-enter the room and find the bathroom, likely left of the bed area.",
+      "latency_s": 2.49,
+      "prompt_tokens": 2130
+    },
+    {
+      "n": 402,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in the bedroom but haven't entered the bathroom yet. I need to turn left to look for the bathroom doorway.",
+      "latency_s": 1.89,
+      "prompt_tokens": 2131
+    },
+    {
+      "n": 405,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall/door edge with the bedroom visible to my right. I need to turn right into the bedroom and find the bathroom entrance.",
+      "latency_s": 1.97,
+      "prompt_tokens": 2132
+    },
+    {
+      "n": 409,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in the bedroom facing a wall with a window. The bathroom should be to the left; I need to turn left to find the doorway.",
+      "latency_s": 2.03,
+      "prompt_tokens": 2134
+    },
+    {
+      "n": 413,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a closet door; the bedroom is to my right. I need to turn right into the bedroom and find the bathroom entrance.",
+      "latency_s": 1.84,
+      "prompt_tokens": 2135
+    },
+    {
+      "n": 417,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in the bedroom facing a window and closet. The bathroom should be to the left; I'll turn to scan for the doorway.",
+      "latency_s": 2.12,
+      "prompt_tokens": 2137
+    },
+    {
+      "n": 423,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a closet, not the bathroom. I need to turn around toward the bedroom to locate the bathroom door.",
+      "latency_s": 1.77,
+      "prompt_tokens": 2138
+    },
+    {
+      "n": 426,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in the bedroom but haven't found the bathroom entrance yet. I'll turn left to scan for the bathroom door.",
+      "latency_s": 1.73,
+      "prompt_tokens": 2141
+    },
+    {
+      "n": 429,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in the bedroom facing a closet door; the bathroom should be elsewhere in the bedroom. I'll turn right to scan the room for the bathroom entrance.",
+      "latency_s": 2.58,
+      "prompt_tokens": 2142
+    },
+    {
+      "n": 433,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in the bedroom but haven't entered the bathroom yet. I need to find the bathroom door, likely behind me or to the left, so I'll turn to scan the room.",
+      "latency_s": 1.97,
+      "prompt_tokens": 2144
+    },
+    {
+      "n": 436,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in the bedroom near a doorway. The bathroom should be to the left; I'll turn left to locate its door before moving.",
+      "latency_s": 2.85,
+      "prompt_tokens": 2145
+    },
+    {
+      "n": 442,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've drifted into a closet, not the bathroom. I need to turn right to exit back toward the bedroom and find the bathroom door.",
+      "latency_s": 1.94,
+      "prompt_tokens": 2146
+    },
+    {
+      "n": 445,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in the bedroom now; the instruction says turn left into the bathroom. I'll turn left to scan for the bathroom doorway.",
+      "latency_s": 2.17,
+      "prompt_tokens": 2149
+    },
+    {
+      "n": 451,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to be facing into a closet, not the bathroom. I should turn right to re-enter the bedroom and look for the bathroom door.",
+      "latency_s": 2.12,
+      "prompt_tokens": 2150
+    },
+    {
+      "n": 454,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in the bedroom facing the bed. The instruction says to turn left into the bathroom, so I should rotate left to find the bathroom doorway.",
+      "latency_s": 1.79,
+      "prompt_tokens": 2153
+    },
+    {
+      "n": 457,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in the bedroom near the doorway. The instruction says turn left into the bathroom, so I should rotate left to find the bathroom entrance.",
+      "latency_s": 1.62,
+      "prompt_tokens": 2154
+    },
+    {
+      "n": 461,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall/door edge just outside the bedroom; the bathroom should be back through the doorway. I'll turn right to re-orient into the room.",
+      "latency_s": 2.29,
+      "prompt_tokens": 2155
+    },
+    {
+      "n": 464,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in the bedroom now; the instruction says to turn left into the bathroom. I need to look left to find the bathroom doorway.",
+      "latency_s": 1.94,
+      "prompt_tokens": 2157
+    },
+    {
+      "n": 467,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in the bedroom near the window/bed. The bathroom should be off to the side; I'll turn right to scan for its doorway.",
+      "latency_s": 2.26,
+      "prompt_tokens": 2158
+    },
+    {
+      "n": 470,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in the bedroom but haven't entered the bathroom yet. I need to look left to find the bathroom door.",
+      "latency_s": 1.73,
+      "prompt_tokens": 2160
+    },
+    {
+      "n": 475,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the bedroom; the instruction ends in the bathroom, likely through the curtained doorway to my left. I'll turn left and step through, then stop.",
+      "latency_s": 2.56,
+      "prompt_tokens": 2161
+    },
+    {
+      "n": 478,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to be facing a door frame/hinge, likely having just entered the bathroom. I should turn right to re-orient and confirm the bathroom before stopping.",
+      "latency_s": 2.26,
+      "prompt_tokens": 2163
+    },
+    {
+      "n": 482,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to be at a doorway with the bedroom visible to my right; the bathroom should be to the left per the instruction. I'll turn right to re-orient into the room and check for the bathroom entrance.",
+      "latency_s": 3.21,
+      "prompt_tokens": 2165
+    },
+    {
+      "n": 486,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in the bedroom facing the bed. The instruction says turn left into the bathroom, so I should rotate left to find the bathroom doorway.",
+      "latency_s": 2.32,
+      "prompt_tokens": 2167
+    },
+    {
+      "n": 489,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in the bedroom facing the bed. The instruction says turn left into the bathroom, so I should rotate left to find the bathroom doorway.",
+      "latency_s": 2.08,
+      "prompt_tokens": 2168
+    },
+    {
+      "n": 493,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "STOP"
+      ],
+      "thought": "I'm pressed against a door frame, likely the bathroom entrance after turning left in the bedroom. With very few actions left, I'll turn right to face into the room, step in, and stop.",
+      "latency_s": 2.91,
+      "prompt_tokens": 2169
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    6.461,
+    6.655,
+    6.738,
+    6.575,
+    6.457,
+    6.269,
+    6.041,
+    5.884,
+    5.77,
+    5.664,
+    5.557,
+    5.45,
+    5.199,
+    4.967,
+    4.736,
+    4.507,
+    4.281,
+    4.067,
+    3.856,
+    3.833,
+    3.779,
+    3.725,
+    3.46,
+    3.217,
+    3.009,
+    2.758,
+    2.509,
+    2.261,
+    2.015,
+    1.77,
+    1.594,
+    1.368,
+    1.306,
+    1.301,
+    1.296,
+    1.14
+  ],
+  "final_distance": 1.14,
+  "min_distance": 1.14,
+  "metrics": {
+    "distance_to_goal": 1.1399688720703125,
+    "success": 1.0,
+    "spl": 0.9221656030020908,
+    "oracle_success": 1.0,
+    "path_length": 7.006715334486216,
+    "steps_taken": 493.0
+  },
+  "success": true,
+  "backend_stats": {
+    "calls": 346,
+    "failures": 0,
+    "prompt_tokens": 698047,
+    "completion_tokens": 31146,
+    "reasoning_tokens": 11418,
+    "latency_s": 790.1674830913544
+  },
+  "stop_deferrals": 0
+}

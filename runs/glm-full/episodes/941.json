@@ -1,0 +1,272 @@
+{
+  "episode_id": 941,
+  "scene_id": "oLBMNvg9in8",
+  "instruction": "Continue down the stairs until level ground. Go down another level, then another, then stop at the bottom of the stairs.",
+  "actions_taken": 64,
+  "policy_calls": 20,
+  "api_latency_s": 44.99,
+  "prompt_tokens": 37420,
+  "completion_tokens": 1428,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 45.53,
+  "steps": [
+    {
+      "n": 3,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the top of a descending staircase; the steps go down ahead and slightly left. I'll advance step by step, re-observing as I go.",
+      "latency_s": 2.04,
+      "prompt_tokens": 885
+    },
+    {
+      "n": 6,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall, likely having drifted off course. I need to turn to find the stairway and continue descending.",
+      "latency_s": 1.86,
+      "prompt_tokens": 1240
+    },
+    {
+      "n": 9,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I appear to be facing a wall after turning right; the stairwell was behind to my left. I'll turn left to re-find the stairs before moving.",
+      "latency_s": 1.9,
+      "prompt_tokens": 1605
+    },
+    {
+      "n": 15,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall up close; the stairs must be behind me. I'll turn around to re-orient.",
+      "latency_s": 1.66,
+      "prompt_tokens": 1969
+    },
+    {
+      "n": 18,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "The camera is facing a wall; I need to reorient to find the stairway and continue descending.",
+      "latency_s": 1.75,
+      "prompt_tokens": 1972
+    },
+    {
+      "n": 20,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall next to a hallway with doorways to the right. I need to reorient and find the stairs continuing downward.",
+      "latency_s": 1.77,
+      "prompt_tokens": 1974
+    },
+    {
+      "n": 23,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm on a landing with doorways ahead; the instruction says to keep descending. The dark opening on the right likely leads to the next flight of stairs, so I'll turn right to inspect it.",
+      "latency_s": 2.48,
+      "prompt_tokens": 1974
+    },
+    {
+      "n": 26,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm on a stair landing; the visible flight goes up to the right, so the descending flight must be on the other side. I'll turn right to locate the downward stairs.",
+      "latency_s": 2.9,
+      "prompt_tokens": 1976
+    },
+    {
+      "n": 29,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm on a stair landing; the stairs continue descending to the right toward the window. I'll turn right to face down the next flight before moving.",
+      "latency_s": 2.07,
+      "prompt_tokens": 1978
+    },
+    {
+      "n": 32,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm on a landing by the window; the stairs continue down to the right. I'll turn right to find the descending flight.",
+      "latency_s": 2.14,
+      "prompt_tokens": 1979
+    },
+    {
+      "n": 35,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm facing a wall next to a landing with a rug; the stairs down should be to my left. I'll turn left to re-aim before descending.",
+      "latency_s": 2.01,
+      "prompt_tokens": 1981
+    },
+    {
+      "n": 38,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm on a landing facing a window; the stairwell appears to continue to the left into the dark opening. I'll turn left to locate the descending stairs.",
+      "latency_s": 2.23,
+      "prompt_tokens": 1982
+    },
+    {
+      "n": 42,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase descends to the left; I need to turn toward it and continue down. I'll turn left to face the descending stairs.",
+      "latency_s": 2.2,
+      "prompt_tokens": 1983
+    },
+    {
+      "n": 45,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm on a stair landing; the staircase continues downward to the right. I'll turn right to face the descending stairs before moving.",
+      "latency_s": 2.41,
+      "prompt_tokens": 1984
+    },
+    {
+      "n": 50,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase continues descending to my right; I need to turn right to face down the stairs and keep descending.",
+      "latency_s": 2.3,
+      "prompt_tokens": 1986
+    },
+    {
+      "n": 53,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I appear to be on a stair landing facing a window, not the descending stairs. I need to turn to find the staircase continuing down.",
+      "latency_s": 2.25,
+      "prompt_tokens": 1987
+    },
+    {
+      "n": 55,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase descends to my left; I need to turn toward it and continue down. I'll turn left and step forward to re-observe.",
+      "latency_s": 2.14,
+      "prompt_tokens": 1989
+    },
+    {
+      "n": 59,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase descends to my left; I need to face down the stairs and continue descending. I'll turn left to align with the stairway before stepping down.",
+      "latency_s": 2.63,
+      "prompt_tokens": 1990
+    },
+    {
+      "n": 63,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase descends to my left; I need to turn toward it and continue down several flights. I'll rotate left to face the stairs before stepping.",
+      "latency_s": 2.49,
+      "prompt_tokens": 1992
+    },
+    {
+      "n": 64,
+      "actions": [
+        "STOP"
+      ],
+      "thought": "I have descended the stairs and now stand on a level hallway floor with doorways ahead and no further stairs visible, which matches the bottom of the stairs described in the instruction.",
+      "latency_s": 3.76,
+      "prompt_tokens": 1994
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    6.97,
+    7.269,
+    7.567,
+    7.851,
+    7.621,
+    7.848,
+    8.099,
+    8.093,
+    7.877,
+    7.561
+  ],
+  "final_distance": 7.561,
+  "min_distance": 6.97,
+  "metrics": {
+    "distance_to_goal": 7.561223030090332,
+    "success": 0.0,
+    "spl": 0.0,
+    "oracle_success": 0.0,
+    "path_length": 2.5205658674240112,
+    "steps_taken": 64.0
+  },
+  "success": false,
+  "backend_stats": {
+    "calls": 20,
+    "failures": 0,
+    "prompt_tokens": 37420,
+    "completion_tokens": 1428,
+    "reasoning_tokens": 393,
+    "latency_s": 44.98748707771301
+  },
+  "stop_deferrals": 0
+}

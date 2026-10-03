@@ -1,0 +1,117 @@
+{
+  "episode_id": 10,
+  "scene_id": "2azQ1b91cZZ",
+  "instruction": "Walk into the living room and keep walking straight past the living room. Then walk into the entrance under the balcony. Wait in the entrance to the other room.",
+  "actions_taken": 20,
+  "policy_calls": 5,
+  "api_latency_s": 9.74,
+  "prompt_tokens": 7704,
+  "completion_tokens": 329,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 9.85,
+  "steps": [
+    {
+      "n": 4,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the living room; the arched entrance under the balcony is straight ahead. I'll walk toward it, checking alignment as I go.",
+      "latency_s": 1.68,
+      "prompt_tokens": 892
+    },
+    {
+      "n": 8,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the living room facing the balcony; the arched entrance under the balcony is slightly right of center ahead. I'll turn slightly right and walk toward it.",
+      "latency_s": 1.74,
+      "prompt_tokens": 1247
+    },
+    {
+      "n": 12,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the living room facing the arched entrance under the balcony. I'll walk straight toward the archway and stop in that entrance.",
+      "latency_s": 2.05,
+      "prompt_tokens": 1612
+    },
+    {
+      "n": 16,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The arched entrance under the balcony is directly ahead; I'll advance toward it and stop in the entrance.",
+      "latency_s": 1.89,
+      "prompt_tokens": 1976
+    },
+    {
+      "n": 20,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "STOP"
+      ],
+      "thought": "The arched entrance under the balcony is ahead and slightly left; I'm close to it. I'll step forward into the entrance and stop there.",
+      "latency_s": 2.38,
+      "prompt_tokens": 1977
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    7.113,
+    6.863,
+    6.613,
+    6.363,
+    6.113,
+    5.872,
+    5.632,
+    5.393,
+    5.155,
+    4.918,
+    4.682,
+    4.448,
+    4.216,
+    3.986,
+    3.758,
+    3.534,
+    3.313,
+    3.097,
+    2.886
+  ],
+  "final_distance": 2.886,
+  "min_distance": 2.886,
+  "metrics": {
+    "distance_to_goal": 2.886059522628784,
+    "success": 1.0,
+    "spl": 1.0,
+    "oracle_success": 1.0,
+    "path_length": 4.499998331069946,
+    "steps_taken": 20.0
+  },
+  "success": true,
+  "backend_stats": {
+    "calls": 44,
+    "failures": 0,
+    "prompt_tokens": 81085,
+    "completion_tokens": 3292,
+    "reasoning_tokens": 952,
+    "latency_s": 91.61601638793945
+  },
+  "stop_deferrals": 0
+}

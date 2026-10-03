@@ -1,0 +1,997 @@
+{
+  "episode_id": 730,
+  "scene_id": "8194nk5LbLH",
+  "instruction": "Walk past the sitting area and wait in the kitchen by the island.",
+  "actions_taken": 331,
+  "policy_calls": 73,
+  "api_latency_s": 156.89,
+  "prompt_tokens": 145589,
+  "completion_tokens": 5820,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 158.34,
+  "steps": [
+    {
+      "n": 3,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in a hallway facing a door; the sitting area and kitchen aren't visible yet. I'll turn left to scan the space and find a path.",
+      "latency_s": 1.91,
+      "prompt_tokens": 874
+    },
+    {
+      "n": 5,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hallway with an open passage ahead leading toward what looks like a kitchen area. I'll advance through the opening and re-observe.",
+      "latency_s": 2.06,
+      "prompt_tokens": 1229
+    },
+    {
+      "n": 7,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in a hallway facing a closed door; the kitchen/island is likely through the opening to the left of the white pillar. I'll turn left to look into that space before moving.",
+      "latency_s": 2.13,
+      "prompt_tokens": 1593
+    },
+    {
+      "n": 9,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "A concrete wall blocks the way ahead; the opening past the white pillar on the right leads toward the kitchen area. I'll turn right to face that passage before moving.",
+      "latency_s": 2.55,
+      "prompt_tokens": 1957
+    },
+    {
+      "n": 12,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a wall with a white partition; the passage to the kitchen area appears to the right of the partition. I'll turn right to align with the opening before moving.",
+      "latency_s": 2.09,
+      "prompt_tokens": 1958
+    },
+    {
+      "n": 15,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm facing a wall with an opening to the left that appears to lead toward a kitchen area. I'll turn left to face the opening and re-observe before moving.",
+      "latency_s": 2.41,
+      "prompt_tokens": 1960
+    },
+    {
+      "n": 18,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hallway near a closed door; the kitchen area appears through the opening to the left past the white pillar. I'll turn left and head toward it.",
+      "latency_s": 2.09,
+      "prompt_tokens": 1961
+    },
+    {
+      "n": 21,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall after turning too far left. I need to turn right to face the open hallway/living area and find the kitchen island.",
+      "latency_s": 2.05,
+      "prompt_tokens": 1962
+    },
+    {
+      "n": 27,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall corner; the hallway with the door is to my right. I need to turn right and head down the hallway to find the kitchen island.",
+      "latency_s": 2.14,
+      "prompt_tokens": 1964
+    },
+    {
+      "n": 33,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm facing a wall next to a staircase, which is wrong. I need to turn around to re-enter the hallway and find the kitchen/island.",
+      "latency_s": 2.19,
+      "prompt_tokens": 1967
+    },
+    {
+      "n": 37,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a closed door in a hallway; the kitchen must be elsewhere. I'll turn to scan the surroundings for the sitting area and kitchen.",
+      "latency_s": 2.08,
+      "prompt_tokens": 1969
+    },
+    {
+      "n": 40,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm facing a wall in a hallway; I need to reorient to find the kitchen. Turning left to look down the hallway.",
+      "latency_s": 1.72,
+      "prompt_tokens": 1971
+    },
+    {
+      "n": 46,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm facing a closed door in a hallway, which is not the kitchen. I need to turn around and explore to find the sitting area and kitchen island.",
+      "latency_s": 2.14,
+      "prompt_tokens": 1972
+    },
+    {
+      "n": 52,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a blank wall, so I need to turn around and re-orient toward the hallway to find the kitchen and island.",
+      "latency_s": 1.67,
+      "prompt_tokens": 1974
+    },
+    {
+      "n": 58,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm facing a wall with a closed door, which doesn't match the kitchen/island goal. I need to turn around and re-orient to find the living area and kitchen.",
+      "latency_s": 2.35,
+      "prompt_tokens": 1977
+    },
+    {
+      "n": 64,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a blank wall; I need to turn around to find the kitchen and island.",
+      "latency_s": 1.92,
+      "prompt_tokens": 1979
+    },
+    {
+      "n": 70,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a closed door in a hallway, which is not the kitchen. I need to turn around and explore to find the sitting area and kitchen island.",
+      "latency_s": 1.93,
+      "prompt_tokens": 1982
+    },
+    {
+      "n": 76,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm currently facing a wall next to a staircase, which doesn't match the instruction. I need to turn around and explore to find the sitting area and kitchen.",
+      "latency_s": 2.35,
+      "prompt_tokens": 1984
+    },
+    {
+      "n": 82,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm facing a glass door area, which doesn't look like the kitchen. I need to turn around and head back through the hallway to find the sitting area and kitchen island.",
+      "latency_s": 2.28,
+      "prompt_tokens": 1988
+    },
+    {
+      "n": 88,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm currently facing a staircase, which doesn't match the kitchen/island goal. I need to turn around and head back toward the open living area to find the kitchen.",
+      "latency_s": 2.91,
+      "prompt_tokens": 1990
+    },
+    {
+      "n": 94,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm facing a closed door in a hallway, which doesn't match the kitchen goal. I need to turn around and head back toward the open living area to find the kitchen island.",
+      "latency_s": 2.65,
+      "prompt_tokens": 1991
+    },
+    {
+      "n": 97,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "The camera is facing a blank wall, so I need to re-orient. The hallway with the triangle door was behind me; I'll turn right to scan for the open living area.",
+      "latency_s": 2.23,
+      "prompt_tokens": 1993
+    },
+    {
+      "n": 101,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall up close; the hallway with the door is to my right. I'll turn right to reorient and look for the kitchen area.",
+      "latency_s": 1.84,
+      "prompt_tokens": 1995
+    },
+    {
+      "n": 107,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to be in a narrow hallway facing a closed door, which is not the kitchen. I need to turn around and explore to find the sitting area and kitchen island.",
+      "latency_s": 2.26,
+      "prompt_tokens": 1997
+    },
+    {
+      "n": 114,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've ended up facing a staircase, which doesn't match the instruction. I need to turn around and head back through the hallway to find the sitting area and kitchen island.",
+      "latency_s": 2.84,
+      "prompt_tokens": 2000
+    },
+    {
+      "n": 120,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm facing glass exterior doors, which is not the kitchen. I need to turn around and head back into the interior to find the sitting area and kitchen island.",
+      "latency_s": 2.26,
+      "prompt_tokens": 2003
+    },
+    {
+      "n": 126,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm facing a staircase and glass doors, which doesn't match the kitchen goal. I need to turn around to re-orient toward the interior sitting area and kitchen.",
+      "latency_s": 2.11,
+      "prompt_tokens": 2004
+    },
+    {
+      "n": 132,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm facing a closed door in a hallway, which doesn't match the kitchen goal. I need to turn around and explore to find the kitchen island.",
+      "latency_s": 2.72,
+      "prompt_tokens": 2006
+    },
+    {
+      "n": 138,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "The camera is against a wall, so I've lost orientation. I'll turn to re-observe the hallway and find the way toward the kitchen.",
+      "latency_s": 1.88,
+      "prompt_tokens": 2008
+    },
+    {
+      "n": 141,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to be facing a wall/door in a hallway, not the kitchen island. The dark opening on the right may lead onward; I'll turn right to re-observe.",
+      "latency_s": 2.47,
+      "prompt_tokens": 2011
+    },
+    {
+      "n": 147,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm facing a wall next to a staircase; the hallway with the door is behind me. I need to turn around and explore to find the kitchen island.",
+      "latency_s": 2.23,
+      "prompt_tokens": 2013
+    },
+    {
+      "n": 150,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm facing a wall near a stairwell; the hallway with the door is to my left. I need to reorient and find the kitchen with the island.",
+      "latency_s": 2.63,
+      "prompt_tokens": 2015
+    },
+    {
+      "n": 154,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall up close, likely after over-rotating. I need to turn right to re-orient toward the open hallway with the door and find the kitchen island.",
+      "latency_s": 1.94,
+      "prompt_tokens": 2015
+    },
+    {
+      "n": 160,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall in a hallway; the corridor with the triangle door is to my right. I need to reorient and find the kitchen with the island.",
+      "latency_s": 1.96,
+      "prompt_tokens": 2018
+    },
+    {
+      "n": 166,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a staircase, which doesn't match the kitchen goal. I need to turn around and head back through the hallway to find the sitting area and kitchen island.",
+      "latency_s": 2.33,
+      "prompt_tokens": 2020
+    },
+    {
+      "n": 172,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I've ended up facing a glass exterior door, which is not the kitchen. I need to turn around and head back into the house to find the kitchen island.",
+      "latency_s": 2.3,
+      "prompt_tokens": 2024
+    },
+    {
+      "n": 178,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm facing a staircase and glass door, which doesn't match the kitchen goal. I need to turn around and head back to find the kitchen island.",
+      "latency_s": 2.2,
+      "prompt_tokens": 2026
+    },
+    {
+      "n": 184,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm facing a closed door in a hallway, which doesn't match the kitchen goal. I need to turn around and look for the kitchen with the island.",
+      "latency_s": 2.3,
+      "prompt_tokens": 2027
+    },
+    {
+      "n": 188,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall; the open area with windows and a plant is to my left. I need to reorient to find the sitting area and kitchen island.",
+      "latency_s": 2.04,
+      "prompt_tokens": 2029
+    },
+    {
+      "n": 192,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall up close; the open area with the door is to my right. I need to turn right to re-orient and look for the kitchen island.",
+      "latency_s": 1.93,
+      "prompt_tokens": 2031
+    },
+    {
+      "n": 198,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm facing a closed door in a hallway, which is not the kitchen. I need to turn around and head back toward the open living area to find the kitchen island.",
+      "latency_s": 2.12,
+      "prompt_tokens": 2032
+    },
+    {
+      "n": 201,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall up close; the hallway with the door is to my right. I'll turn right to re-orient and look for the kitchen area.",
+      "latency_s": 1.61,
+      "prompt_tokens": 2035
+    },
+    {
+      "n": 207,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall in a corner; the hallway with the door is behind me. I need to turn around and re-enter the hallway to find the kitchen island.",
+      "latency_s": 2.17,
+      "prompt_tokens": 2037
+    },
+    {
+      "n": 213,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall next to a staircase, which doesn't match the kitchen goal. I need to turn around and re-orient to find the living area and kitchen.",
+      "latency_s": 1.84,
+      "prompt_tokens": 2040
+    },
+    {
+      "n": 219,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a window next to a staircase, which doesn't match the kitchen/island goal. I need to turn around and head back through the hallway to find the kitchen.",
+      "latency_s": 2.5,
+      "prompt_tokens": 2043
+    },
+    {
+      "n": 223,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm pressed against a wall with no view of the kitchen. I need to back out of this orientation by turning and re-observing to find the kitchen island.",
+      "latency_s": 2.52,
+      "prompt_tokens": 2048
+    },
+    {
+      "n": 227,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall up close; I need to turn right to find the open living/kitchen area again.",
+      "latency_s": 1.75,
+      "prompt_tokens": 2050
+    },
+    {
+      "n": 233,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm facing a closed door in a hallway, which is not the kitchen. I need to turn around and explore to find the kitchen island.",
+      "latency_s": 1.92,
+      "prompt_tokens": 2052
+    },
+    {
+      "n": 236,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm facing a wall up close; a plant and open space are visible to my left. I'll turn left to re-orient toward the open area and look for the kitchen island.",
+      "latency_s": 2.01,
+      "prompt_tokens": 2054
+    },
+    {
+      "n": 239,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm facing a wall; the open area with the plant is to my left. I'll turn left to re-orient toward the living/kitchen space.",
+      "latency_s": 1.91,
+      "prompt_tokens": 2054
+    },
+    {
+      "n": 245,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing glass doors/wall, not the kitchen. I need to turn around to find the kitchen island.",
+      "latency_s": 2.15,
+      "prompt_tokens": 2055
+    },
+    {
+      "n": 248,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall; the open hallway with the plant is to my left. I need to turn right to reorient and find the kitchen island.",
+      "latency_s": 1.74,
+      "prompt_tokens": 2055
+    },
+    {
+      "n": 251,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall up close; the open hallway is to my right. I'll turn right to re-orient and look for the kitchen area.",
+      "latency_s": 1.83,
+      "prompt_tokens": 2060
+    },
+    {
+      "n": 257,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm facing a closed door in a hallway, not the kitchen. I need to turn around and look for the kitchen with the island.",
+      "latency_s": 1.67,
+      "prompt_tokens": 2061
+    },
+    {
+      "n": 260,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall up close; the hallway with the door is to my right. I'll turn right to re-aim down the corridor and then proceed toward the kitchen area.",
+      "latency_s": 2.16,
+      "prompt_tokens": 2063
+    },
+    {
+      "n": 264,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm pressed against a wall with no view of the kitchen. I need to turn right to reorient and look for the kitchen island.",
+      "latency_s": 1.94,
+      "prompt_tokens": 2062
+    },
+    {
+      "n": 270,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall corner near a door; the kitchen island is not visible. I need to turn around and re-orient to find the open living/kitchen area.",
+      "latency_s": 2.17,
+      "prompt_tokens": 2065
+    },
+    {
+      "n": 276,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've ended up facing a staircase, which doesn't match the instruction about a sitting area and kitchen island. I need to turn around and re-orient to find the kitchen area.",
+      "latency_s": 2.49,
+      "prompt_tokens": 2067
+    },
+    {
+      "n": 283,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've reached glass doors that appear to lead outside \u2014 this looks like a dead end, not the kitchen. I need to turn around and head back through the hallway to find the sitting area and kitchen island.",
+      "latency_s": 2.85,
+      "prompt_tokens": 2073
+    },
+    {
+      "n": 289,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a staircase, which doesn't match the kitchen goal. I need to turn around and head back into the interior to find the kitchen island.",
+      "latency_s": 2.64,
+      "prompt_tokens": 2075
+    },
+    {
+      "n": 293,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing glass doors near a staircase, not the kitchen. I need to turn back into the house interior to find the sitting area and kitchen island.",
+      "latency_s": 2.21,
+      "prompt_tokens": 2078
+    },
+    {
+      "n": 296,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a corridor with windows on the left and a wall on the right; no kitchen visible yet. I'll continue forward along the corridor to find the kitchen island.",
+      "latency_s": 2.15,
+      "prompt_tokens": 2080
+    },
+    {
+      "n": 299,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the sitting area with sofas ahead. I'll advance toward it, then look for the kitchen/island beyond the curved wall.",
+      "latency_s": 1.8,
+      "prompt_tokens": 2081
+    },
+    {
+      "n": 302,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the sitting area with sofas ahead and the kitchen area behind the curved wall. I'll advance toward the sitting area first.",
+      "latency_s": 1.84,
+      "prompt_tokens": 2081
+    },
+    {
+      "n": 305,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The sitting area with sofas is on the right; the kitchen is visible ahead past the column. I'll advance toward it and then turn right to approach the island.",
+      "latency_s": 2.15,
+      "prompt_tokens": 2082
+    },
+    {
+      "n": 308,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is visible ahead past the sitting area with the orange sofa. I'll advance toward it, staying left of the sofa.",
+      "latency_s": 2.04,
+      "prompt_tokens": 2080
+    },
+    {
+      "n": 312,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen is visible ahead past the sofa. I'll advance toward it, then turn right to approach the island.",
+      "latency_s": 2.1,
+      "prompt_tokens": 2081
+    },
+    {
+      "n": 316,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen with the island is visible ahead past the orange sofa. I'll advance toward it, then turn right to approach the island.",
+      "latency_s": 2.16,
+      "prompt_tokens": 2084
+    },
+    {
+      "n": 320,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_RIGHT"
+      ],
+      "thought": "The kitchen with the island is visible ahead past the concrete column. I'll advance toward it, then turn right to approach the island.",
+      "latency_s": 1.95,
+      "prompt_tokens": 2084
+    },
+    {
+      "n": 324,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen with the island is visible ahead past the concrete column. I'll advance toward it, turning slightly right to align with the open passage.",
+      "latency_s": 2.24,
+      "prompt_tokens": 2083
+    },
+    {
+      "n": 327,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen with the island and bar stools is visible ahead past the pillar. I'll advance toward it and then stop near the island.",
+      "latency_s": 2.14,
+      "prompt_tokens": 2086
+    },
+    {
+      "n": 330,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen with the island and bar stools is directly ahead past the chairs. I'll advance toward the island.",
+      "latency_s": 2.27,
+      "prompt_tokens": 2086
+    },
+    {
+      "n": 331,
+      "actions": [
+        "STOP"
+      ],
+      "thought": "I have passed the sitting area and am now right at the kitchen island with bar stools visible around it. This matches the instruction's endpoint.",
+      "latency_s": 1.76,
+      "prompt_tokens": 2085
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    10.879,
+    10.879,
+    10.787,
+    10.755,
+    10.828,
+    10.676,
+    10.736,
+    10.505,
+    10.588,
+    10.376,
+    10.104,
+    9.855,
+    9.606,
+    9.357,
+    9.109,
+    8.86,
+    8.613,
+    8.365,
+    8.119,
+    7.872,
+    7.626,
+    7.38,
+    7.135,
+    6.891,
+    6.648,
+    6.406,
+    6.165,
+    5.926,
+    5.69,
+    5.457,
+    5.229,
+    5.007,
+    4.796,
+    4.599,
+    4.414,
+    4.173,
+    3.933,
+    3.697,
+    3.465,
+    3.241,
+    3.029,
+    2.84,
+    2.624,
+    2.613
+  ],
+  "final_distance": 2.613,
+  "min_distance": 2.613,
+  "metrics": {
+    "distance_to_goal": 2.613107204437256,
+    "success": 1.0,
+    "spl": 1.0,
+    "oracle_success": 1.0,
+    "path_length": 10.086766041815281,
+    "steps_taken": 331.0
+  },
+  "success": true,
+  "backend_stats": {
+    "calls": 446,
+    "failures": 0,
+    "prompt_tokens": 881791,
+    "completion_tokens": 33911,
+    "reasoning_tokens": 9084,
+    "latency_s": 968.149466753006
+  },
+  "stop_deferrals": 0
+}

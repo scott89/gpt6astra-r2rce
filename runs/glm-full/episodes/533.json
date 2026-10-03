@@ -1,0 +1,715 @@
+{
+  "episode_id": 533,
+  "scene_id": "oLBMNvg9in8",
+  "instruction": "Exit the room into the hallway and go up the stairs. Stop on the second landing.",
+  "actions_taken": 187,
+  "policy_calls": 57,
+  "api_latency_s": 128.29,
+  "prompt_tokens": 111809,
+  "completion_tokens": 4721,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 129.42,
+  "steps": [
+    {
+      "n": 4,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a large room with no visible exit in this view. I need to scan around to find the doorway to the hallway.",
+      "latency_s": 1.92,
+      "prompt_tokens": 878
+    },
+    {
+      "n": 7,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a large room with an ornate fireplace; the exit to the hallway isn't clearly visible yet. There appears to be an opening to the right beyond the column, so I'll turn right to scan for the doorway.",
+      "latency_s": 2.29,
+      "prompt_tokens": 1234
+    },
+    {
+      "n": 10,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm facing a closed door; the room with columns is to my left. I need to turn left and look for the hallway exit leading to the stairs.",
+      "latency_s": 2.11,
+      "prompt_tokens": 1599
+    },
+    {
+      "n": 13,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a large room with an ornate fireplace; the exit appears to be to the right past the column where the room opens. I'll turn right and head toward that opening.",
+      "latency_s": 2.81,
+      "prompt_tokens": 1963
+    },
+    {
+      "n": 16,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a large room with columns; the exit to the hallway isn't visible ahead. I'll turn right to scan for a doorway.",
+      "latency_s": 2.41,
+      "prompt_tokens": 1965
+    },
+    {
+      "n": 19,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm facing a closed door; the hallway must be back to my left where the room opened up. I'll turn left to re-orient.",
+      "latency_s": 2.61,
+      "prompt_tokens": 1967
+    },
+    {
+      "n": 22,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm facing a closed door next to a column; the room's exit to the hallway isn't visible here. I'll turn left to scan the room for the doorway leading out.",
+      "latency_s": 2.3,
+      "prompt_tokens": 1968
+    },
+    {
+      "n": 25,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm facing a closed door; the large room with columns is to my left. I need to turn left and cross the room to find the hallway leading to the stairs.",
+      "latency_s": 2.4,
+      "prompt_tokens": 1969
+    },
+    {
+      "n": 29,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a large room with a fireplace and sofa; the exit toward the hallway appeared to the right near the columns in an earlier frame. I'll turn right to re-aim toward that opening.",
+      "latency_s": 2.87,
+      "prompt_tokens": 1970
+    },
+    {
+      "n": 32,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a large room with an ornate fireplace; the exit appears to be the opening to the right past the column, where a hallway with a portrait is visible. I'll turn right and head toward it.",
+      "latency_s": 2.15,
+      "prompt_tokens": 1972
+    },
+    {
+      "n": 34,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a large room near a column with an opening ahead leading to another area. I'll move forward through the opening to find the hallway and stairs.",
+      "latency_s": 2.23,
+      "prompt_tokens": 1974
+    },
+    {
+      "n": 36,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm still in the large room with columns; the hallway exit isn't visible yet. There appears to be a doorway on the right side, so I'll turn right to look for the exit.",
+      "latency_s": 2.28,
+      "prompt_tokens": 1974
+    },
+    {
+      "n": 39,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a pillar/wall obstruction; the room opens to the left with portraits. I need to find the hallway exit, so I'll turn right to scan around the pillar.",
+      "latency_s": 2.18,
+      "prompt_tokens": 1975
+    },
+    {
+      "n": 42,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a narrow hallway; the stairs should be further along it. I'll advance down the hallway and re-observe.",
+      "latency_s": 1.86,
+      "prompt_tokens": 1977
+    },
+    {
+      "n": 44,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a hallway facing a window at the far end, but no stairs are visible. I should turn to scan for the staircase.",
+      "latency_s": 3.03,
+      "prompt_tokens": 1978
+    },
+    {
+      "n": 47,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a hallway facing a wall; the stairs must be off to one side. I'll turn right to scan for the staircase.",
+      "latency_s": 1.72,
+      "prompt_tokens": 1979
+    },
+    {
+      "n": 51,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to be facing a wall very closely; the hallway with the lamp is behind me to the left. I need to turn right to reorient and find the stairs.",
+      "latency_s": 1.95,
+      "prompt_tokens": 1981
+    },
+    {
+      "n": 55,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a room with a doorway on the left leading to another space; I need to find the hallway and stairs. I'll turn left toward the doorway and proceed.",
+      "latency_s": 2.37,
+      "prompt_tokens": 1983
+    },
+    {
+      "n": 57,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm currently facing a wall/door edge with a doorway visible ahead into another room. I need to find the hallway and stairs, so I'll turn right to scan the space.",
+      "latency_s": 2.21,
+      "prompt_tokens": 1985
+    },
+    {
+      "n": 59,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a room with a doorway ahead but no stairs visible yet. I'll turn right to scan for the hallway and staircase.",
+      "latency_s": 2.21,
+      "prompt_tokens": 1986
+    },
+    {
+      "n": 62,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in a large room with a red couch; the hallway/doorway appears to be behind me to the left. I'll turn left to re-aim toward the doorway I saw earlier.",
+      "latency_s": 2.38,
+      "prompt_tokens": 1987
+    },
+    {
+      "n": 65,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a large room; the open doorway ahead leads to a green bedroom, not a hallway. I need to find the hallway and stairs, so I'll scan the room by turning right.",
+      "latency_s": 2.71,
+      "prompt_tokens": 1988
+    },
+    {
+      "n": 69,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a room with a red couch; the doorway to the hallway is on my left. I'll turn left and head through it.",
+      "latency_s": 2.01,
+      "prompt_tokens": 1990
+    },
+    {
+      "n": 72,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I see a doorway ahead leading out of this room; I should pass through it to find the hallway and stairs.",
+      "latency_s": 2.18,
+      "prompt_tokens": 1992
+    },
+    {
+      "n": 75,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a room with a doorway ahead-left leading to another room. I need to find the hallway and stairs, so I'll turn toward the doorway and move through it to explore.",
+      "latency_s": 2.59,
+      "prompt_tokens": 1992
+    },
+    {
+      "n": 78,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm currently facing a doorway into a green-walled room, but the instruction says to exit into the hallway and go up the stairs. I need to look around for the hallway; I'll turn right to scan the rest of the room.",
+      "latency_s": 2.22,
+      "prompt_tokens": 1994
+    },
+    {
+      "n": 80,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a hallway with a doorway to a green room on my left, but no stairs visible yet. I'll turn right to scan the hallway for the staircase.",
+      "latency_s": 1.81,
+      "prompt_tokens": 1996
+    },
+    {
+      "n": 83,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in a hallway facing a closed door, but no stairs are visible. I should turn to scan the hallway for the staircase.",
+      "latency_s": 2.19,
+      "prompt_tokens": 1996
+    },
+    {
+      "n": 86,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a hallway facing a closed door; the stairs aren't visible here. I'll turn right to scan the rest of the hallway for the staircase.",
+      "latency_s": 2.22,
+      "prompt_tokens": 1998
+    },
+    {
+      "n": 90,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in a hallway facing a closed door, but no stairs are visible yet. I should turn to scan the hallway for the staircase.",
+      "latency_s": 1.84,
+      "prompt_tokens": 2000
+    },
+    {
+      "n": 93,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm currently facing a doorway into a green room, but the hallway with the door was visible to my right earlier. I need to turn right toward the hallway to find the stairs.",
+      "latency_s": 2.24,
+      "prompt_tokens": 2001
+    },
+    {
+      "n": 96,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in a hallway facing a closed door at the far end; the stairs aren't visible yet. I'll turn to scan the hallway for the staircase.",
+      "latency_s": 2.92,
+      "prompt_tokens": 2003
+    },
+    {
+      "n": 99,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm currently facing back into the green room; the hallway with the radiator and door was to my right. I'll turn right to face down the hallway and proceed toward the stairs.",
+      "latency_s": 2.26,
+      "prompt_tokens": 2004
+    },
+    {
+      "n": 102,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a hallway facing a closed door, but no stairs are visible yet. I'll turn right to scan for the staircase.",
+      "latency_s": 2.2,
+      "prompt_tokens": 2006
+    },
+    {
+      "n": 108,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in the hallway facing a closed door at the end; the stairs must be behind me or off to the side. I'll turn around to scan for the staircase.",
+      "latency_s": 2.45,
+      "prompt_tokens": 2008
+    },
+    {
+      "n": 112,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a hallway facing a green room, but the instruction says to go up the stairs. I need to look back down the hallway toward the door end to find the staircase.",
+      "latency_s": 2.45,
+      "prompt_tokens": 2010
+    },
+    {
+      "n": 115,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in a hallway facing a closed door; no stairs visible here. I should turn to scan the hallway for the staircase.",
+      "latency_s": 2.32,
+      "prompt_tokens": 2012
+    },
+    {
+      "n": 118,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a green room looking through a doorway; the hallway with the radiator is to my right. I need to enter the hallway and find the stairs.",
+      "latency_s": 1.91,
+      "prompt_tokens": 2013
+    },
+    {
+      "n": 121,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in a hallway facing a closed door; no stairs visible. I need to look around to find the staircase.",
+      "latency_s": 2.0,
+      "prompt_tokens": 2015
+    },
+    {
+      "n": 124,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a green room looking through a doorway; the hallway with the radiator is to my right. I need to enter the hallway and look for the stairs.",
+      "latency_s": 1.83,
+      "prompt_tokens": 2016
+    },
+    {
+      "n": 127,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in a hallway facing a closed door; no stairs visible here. I'll turn left to scan the hallway for the staircase.",
+      "latency_s": 1.72,
+      "prompt_tokens": 2018
+    },
+    {
+      "n": 130,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm currently facing a doorway into a green room, but the hallway with the radiator is to my right. I need to turn right into the hallway and look for the stairs.",
+      "latency_s": 2.02,
+      "prompt_tokens": 2019
+    },
+    {
+      "n": 133,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in a hallway facing a closed door; no stairs visible here. I'll turn left to scan the hallway for the staircase.",
+      "latency_s": 2.0,
+      "prompt_tokens": 2020
+    },
+    {
+      "n": 136,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm currently facing a doorway into a green room, but the hallway with the radiator is to my right. I need to turn right into the hallway and look for the stairs.",
+      "latency_s": 2.0,
+      "prompt_tokens": 2022
+    },
+    {
+      "n": 139,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in a hallway facing a closed door; no stairs visible. I'll turn left to scan the hallway for the staircase.",
+      "latency_s": 1.71,
+      "prompt_tokens": 2024
+    },
+    {
+      "n": 143,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm currently facing a doorway into a green room, but the hallway with the radiator and door was to my right. I need to turn right into the hallway and look for the stairs.",
+      "latency_s": 2.04,
+      "prompt_tokens": 2025
+    },
+    {
+      "n": 146,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in a hallway facing a closed door; no stairs visible. I should turn to scan the hallway for the staircase.",
+      "latency_s": 2.08,
+      "prompt_tokens": 2027
+    },
+    {
+      "n": 150,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a green room looking through a doorway; the hallway with the arched window and door lies to my right. I'll turn right toward the hallway and proceed to find the stairs.",
+      "latency_s": 2.76,
+      "prompt_tokens": 2028
+    },
+    {
+      "n": 156,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in a hallway facing a closed door, but no stairs are visible. I need to look around to find the staircase.",
+      "latency_s": 2.63,
+      "prompt_tokens": 2029
+    },
+    {
+      "n": 159,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm currently facing back into the green room through a doorway; the hallway with the stairs was to my right. I'll turn right to re-enter the hallway and head toward the stairs.",
+      "latency_s": 2.85,
+      "prompt_tokens": 2032
+    },
+    {
+      "n": 165,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm currently in a green-walled room facing a radiator; the hallway is behind me through the doorway. I need to turn around and head into the hallway to find the stairs.",
+      "latency_s": 2.64,
+      "prompt_tokens": 2034
+    },
+    {
+      "n": 168,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is visible ahead in the hallway. I'll advance toward it and then climb.",
+      "latency_s": 1.65,
+      "prompt_tokens": 2036
+    },
+    {
+      "n": 172,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the hallway with the staircase directly ahead. I'll advance toward the stairs and begin climbing to the second landing.",
+      "latency_s": 1.74,
+      "prompt_tokens": 2037
+    },
+    {
+      "n": 178,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the foot of the staircase facing it directly. I need to climb the stairs toward the second landing.",
+      "latency_s": 1.9,
+      "prompt_tokens": 2038
+    },
+    {
+      "n": 183,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the staircase but facing the wall. I need to turn left to face up the stairs and continue climbing toward the second landing.",
+      "latency_s": 2.22,
+      "prompt_tokens": 2039
+    },
+    {
+      "n": 186,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm already on the stairs, close to a landing with a doorway ahead. I'll climb a few more steps to reach the second landing before stopping.",
+      "latency_s": 2.27,
+      "prompt_tokens": 2041
+    },
+    {
+      "n": 187,
+      "actions": [
+        "STOP"
+      ],
+      "thought": "I have climbed the stairs and am now on a landing with the hallway visible ahead; this appears to be the second landing described.",
+      "latency_s": 3.42,
+      "prompt_tokens": 2042
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    8.715,
+    8.715,
+    8.864,
+    9.055,
+    9.273,
+    9.505,
+    9.57,
+    9.569,
+    9.39,
+    9.116,
+    8.89,
+    8.695,
+    8.557,
+    8.394,
+    8.47,
+    8.667,
+    8.421,
+    8.176,
+    7.932,
+    7.689,
+    7.447,
+    7.209,
+    6.982,
+    6.749,
+    6.455,
+    6.296,
+    6.098,
+    5.813,
+    5.539,
+    5.217,
+    4.895,
+    4.575,
+    4.263,
+    3.974
+  ],
+  "final_distance": 3.974,
+  "min_distance": 3.974,
+  "metrics": {
+    "distance_to_goal": 3.9741485118865967,
+    "success": 0.0,
+    "spl": 0.0,
+    "oracle_success": 0.0,
+    "path_length": 8.134334093891084,
+    "steps_taken": 187.0
+  },
+  "success": false,
+  "backend_stats": {
+    "calls": 790,
+    "failures": 0,
+    "prompt_tokens": 1546474,
+    "completion_tokens": 64455,
+    "reasoning_tokens": 21894,
+    "latency_s": 1775.685203552246
+  },
+  "stop_deferrals": 0
+}

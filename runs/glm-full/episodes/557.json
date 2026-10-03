@@ -1,0 +1,1638 @@
+{
+  "episode_id": 557,
+  "scene_id": "EU6Fwq7SyZv",
+  "instruction": "Walk towards the balcony and take the stairs down on the left. Wait at the bottom of the stairs.",
+  "actions_taken": 474,
+  "policy_calls": 129,
+  "api_latency_s": 329.98,
+  "prompt_tokens": 262452,
+  "completion_tokens": 12262,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 332.56,
+  "steps": [
+    {
+      "n": 3,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in an attic bedroom; no balcony or stairs visible yet. I'll turn to scan the room for an exit.",
+      "latency_s": 2.01,
+      "prompt_tokens": 881
+    },
+    {
+      "n": 6,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in an attic bedroom; no stairs or balcony visible yet. I'll turn right to scan the room for an exit.",
+      "latency_s": 1.85,
+      "prompt_tokens": 1237
+    },
+    {
+      "n": 9,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in an attic bedroom; no stairs or balcony visible yet. I'll turn right to scan the room for the stairs down.",
+      "latency_s": 1.89,
+      "prompt_tokens": 1601
+    },
+    {
+      "n": 12,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in a loft bedroom facing the balcony railing. I'll advance toward the balcony, then look left for the stairs down.",
+      "latency_s": 2.27,
+      "prompt_tokens": 1966
+    },
+    {
+      "n": 14,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the upper loft facing the balcony railing. I'll advance along the balcony toward the railing, then look for the stairs descending on the left.",
+      "latency_s": 2.44,
+      "prompt_tokens": 1968
+    },
+    {
+      "n": 16,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the loft balcony walkway; the path continues forward along the railing where the stairs down should be on the left. I'll advance along the rug toward the railing.",
+      "latency_s": 2.31,
+      "prompt_tokens": 1969
+    },
+    {
+      "n": 19,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in an upstairs loft hallway with a railing on the right; the corridor continues ahead toward the balcony area. I'll advance along the walkway to find the stairs on the left.",
+      "latency_s": 2.21,
+      "prompt_tokens": 1969
+    },
+    {
+      "n": 22,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the upper balcony walkway; the stairs down should be further along past the wardrobe. I'll keep moving forward along the rug toward the end of the corridor.",
+      "latency_s": 2.07,
+      "prompt_tokens": 1970
+    },
+    {
+      "n": 25,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the upper balcony walkway; the stairs down should be ahead near the railing. I'll keep moving forward along the rug.",
+      "latency_s": 1.94,
+      "prompt_tokens": 1970
+    },
+    {
+      "n": 28,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the upper loft walkway; the balcony railing is ahead. I'll continue forward along the corridor toward the balcony, then look for the stairs on the left.",
+      "latency_s": 1.97,
+      "prompt_tokens": 1971
+    },
+    {
+      "n": 31,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the upper balcony walkway. I need to continue forward along it to find the stairs descending on the left.",
+      "latency_s": 1.98,
+      "prompt_tokens": 1970
+    },
+    {
+      "n": 33,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm on the loft balcony; the railing is to my right and the stairs down should be along the balcony. I'll turn right to look down the balcony walkway for the staircase.",
+      "latency_s": 2.91,
+      "prompt_tokens": 1972
+    },
+    {
+      "n": 37,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm at the balcony railing in the attic. The stairs down on the left should be along the balcony to my left, so I'll turn left and look for the stair opening.",
+      "latency_s": 2.42,
+      "prompt_tokens": 1973
+    },
+    {
+      "n": 40,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in an attic loft; the railing on the right overlooks the lower floor. I need to head toward the balcony area and find the stairs going down on the left, so I'll turn right toward the railing.",
+      "latency_s": 2.57,
+      "prompt_tokens": 1974
+    },
+    {
+      "n": 43,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the attic loft; the balcony railing is ahead to the right, and the stairs down should be near it. I'll advance toward the railing and then look for the staircase on the left.",
+      "latency_s": 2.47,
+      "prompt_tokens": 1976
+    },
+    {
+      "n": 46,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in an attic loft; the railing and stair opening are to my right. I'll advance toward the railing area to find the stairs down.",
+      "latency_s": 2.67,
+      "prompt_tokens": 1977
+    },
+    {
+      "n": 48,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm at the loft railing near the balcony; the stairs down should be along the railing to my left. I'll turn left to scan for the staircase.",
+      "latency_s": 2.36,
+      "prompt_tokens": 1979
+    },
+    {
+      "n": 52,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in an attic loft with a wooden railing/balcony on my right. I need to approach the balcony area and find the stairs going down on the left side of it.",
+      "latency_s": 2.73,
+      "prompt_tokens": 1980
+    },
+    {
+      "n": 55,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm at a railing on the upper loft level. The stairs down should be along the balcony to my left, so I'll turn left to scan for them.",
+      "latency_s": 2.09,
+      "prompt_tokens": 1982
+    },
+    {
+      "n": 58,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in a wood loft; the railing/balcony edge is to my right. I need to find the stairs going down on the left side, so I'll turn left to scan the room.",
+      "latency_s": 2.51,
+      "prompt_tokens": 1983
+    },
+    {
+      "n": 64,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to have walked past the balcony into an attic bedroom with two beds; the stairs down are likely behind me. I'll turn around to look for the stairwell.",
+      "latency_s": 2.48,
+      "prompt_tokens": 1984
+    },
+    {
+      "n": 67,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm at a loft railing overlooking the space. The stairs down should be to my left, so I'll rotate left to scan for them.",
+      "latency_s": 2.14,
+      "prompt_tokens": 1987
+    },
+    {
+      "n": 70,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in an attic loft with beds; no stairs visible in the current view. I need to explore to find the stairs down, starting by scanning the room.",
+      "latency_s": 2.16,
+      "prompt_tokens": 1988
+    },
+    {
+      "n": 73,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in an attic loft near a railing; the stairs down should be to my left. I'll turn left to look for the stair opening.",
+      "latency_s": 2.14,
+      "prompt_tokens": 1989
+    },
+    {
+      "n": 76,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in a wood attic loft; the stairs down should be off to the left side of this space. I'll turn left to scan for the stairway.",
+      "latency_s": 2.63,
+      "prompt_tokens": 1991
+    },
+    {
+      "n": 82,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've drifted into the attic bedroom facing the beds; the balcony and stairs are behind me. I need to turn around to relocate the stairwell.",
+      "latency_s": 2.34,
+      "prompt_tokens": 1992
+    },
+    {
+      "n": 85,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm at a balcony railing in the loft. The stairs down should be to my left, so I'll turn left to scan for them.",
+      "latency_s": 2.1,
+      "prompt_tokens": 1995
+    },
+    {
+      "n": 88,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in an attic loft near a railing (the balcony). I need to find the stairs going down on the left. I'll turn left to scan the area along the railing for a staircase.",
+      "latency_s": 2.0,
+      "prompt_tokens": 1996
+    },
+    {
+      "n": 94,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to have walked past the balcony into the attic bedroom with two beds; the stairs down are likely behind me. I'll turn around to look for the stairwell.",
+      "latency_s": 2.23,
+      "prompt_tokens": 1997
+    },
+    {
+      "n": 97,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm at a loft railing overlooking the space. The stairs down should be to my left, so I'll turn left to scan for them.",
+      "latency_s": 2.02,
+      "prompt_tokens": 2000
+    },
+    {
+      "n": 100,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in an attic loft; the stairs down should be off to the left side of the room. I'll turn left to scan for the stairway.",
+      "latency_s": 2.06,
+      "prompt_tokens": 2001
+    },
+    {
+      "n": 106,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to have turned away from the balcony area into the attic bedroom. I need to turn back toward where I came from to find the stairs down on the left of the balcony.",
+      "latency_s": 2.62,
+      "prompt_tokens": 2001
+    },
+    {
+      "n": 109,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm at a balcony railing in the loft. The stairs down should be to my left, so I'll turn left to scan for them.",
+      "latency_s": 2.41,
+      "prompt_tokens": 2005
+    },
+    {
+      "n": 112,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in an attic loft area; no stairs are visible in the current view. I'll turn left to scan for the staircase near the balcony railing.",
+      "latency_s": 2.16,
+      "prompt_tokens": 2006
+    },
+    {
+      "n": 118,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to have entered an attic bedroom with two beds \u2014 likely past the stairs. I should turn around to look for the staircase back the way I came.",
+      "latency_s": 2.47,
+      "prompt_tokens": 2007
+    },
+    {
+      "n": 121,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm at a balcony railing in the loft. The stairs down should be to my left along the balcony, so I'll turn left to scan for them.",
+      "latency_s": 2.42,
+      "prompt_tokens": 2010
+    },
+    {
+      "n": 125,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in an attic loft; the stairs down are not visible in the current view. I'll rotate left to scan the room for the stairway near the balcony railing.",
+      "latency_s": 2.64,
+      "prompt_tokens": 2011
+    },
+    {
+      "n": 131,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I appear to be in an attic bedroom, which suggests I may have passed the stair area. I need to turn around and look for the staircase down.",
+      "latency_s": 3.56,
+      "prompt_tokens": 2012
+    },
+    {
+      "n": 134,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm on the loft balcony; the stairs down should be off to the left along the railing. I'll turn left to scan for the staircase.",
+      "latency_s": 2.61,
+      "prompt_tokens": 2014
+    },
+    {
+      "n": 137,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm on the loft balcony; the stairs down should be to my left along the railing. I'll turn left to scan for the staircase.",
+      "latency_s": 2.16,
+      "prompt_tokens": 2014
+    },
+    {
+      "n": 140,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm on the upper loft balcony. The instruction says to take the stairs down on the left, so I should turn left and look for the staircase along the balcony.",
+      "latency_s": 2.06,
+      "prompt_tokens": 2015
+    },
+    {
+      "n": 144,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm on an upper loft/balcony walkway. I need to locate the stairs going down on the left, so I'll scan leftward along the railing.",
+      "latency_s": 2.09,
+      "prompt_tokens": 2015
+    },
+    {
+      "n": 148,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in an attic loft area; I need to locate the stairs down on the left. I'll scan left to find the stair opening.",
+      "latency_s": 2.96,
+      "prompt_tokens": 2017
+    },
+    {
+      "n": 154,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I appear to be in an attic bedroom; the stairs I came up must be behind me near the railing seen earlier. I'll turn to locate the staircase down.",
+      "latency_s": 2.92,
+      "prompt_tokens": 2018
+    },
+    {
+      "n": 158,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in an attic loft; the balcony railing is visible on the left with a dark stair opening beyond. I'll turn left and head toward the railing to find the stairs down on the left.",
+      "latency_s": 2.29,
+      "prompt_tokens": 2019
+    },
+    {
+      "n": 161,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the upper loft balcony with a railing on my left and a dark opening ahead. I'll advance along the balcony toward that opening, where the stairs down should be.",
+      "latency_s": 2.91,
+      "prompt_tokens": 2021
+    },
+    {
+      "n": 164,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the upper loft balcony with a railing on my left. The instruction says take the stairs down on the left, so I should continue forward along the balcony toward the dark opening ahead and look for the staircase on the left.",
+      "latency_s": 2.6,
+      "prompt_tokens": 2022
+    },
+    {
+      "n": 167,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the upper loft walkway; the dark opening ahead past the trunk likely leads to the stairs. I'll advance toward it and then look for the staircase descending on the left.",
+      "latency_s": 2.6,
+      "prompt_tokens": 2021
+    },
+    {
+      "n": 170,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the loft balcony; the stairs down should be at the left end near the railing. I'll advance along the balcony toward the dark opening ahead, then look left for the staircase.",
+      "latency_s": 2.42,
+      "prompt_tokens": 2022
+    },
+    {
+      "n": 173,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in an attic loft with a wooden railing on my left; the stairs down are likely along that railing. I'll turn left to look for the staircase.",
+      "latency_s": 2.55,
+      "prompt_tokens": 2021
+    },
+    {
+      "n": 175,
+      "actions": [
+        "TURN_LEFT",
+        "LOOK_DOWN"
+      ],
+      "thought": "I'm in the attic loft; the railing on the left likely overlooks the stairwell. I'll turn left and look down to locate the stairs.",
+      "latency_s": 2.09,
+      "prompt_tokens": 2023
+    },
+    {
+      "n": 179,
+      "actions": [
+        "LOOK_UP",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm looking down over a railing at the staircase below. I need to raise the camera and turn right to find the top of the stairs leading down.",
+      "latency_s": 2.61,
+      "prompt_tokens": 2024
+    },
+    {
+      "n": 185,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in an attic loft behind a wooden railing; the stairs down should be behind me. I'll turn to locate them.",
+      "latency_s": 3.46,
+      "prompt_tokens": 2026
+    },
+    {
+      "n": 192,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I appear to have wandered into an attic bedroom instead of descending the stairs. I need to turn around and head back toward the stair opening seen earlier.",
+      "latency_s": 3.31,
+      "prompt_tokens": 2028
+    },
+    {
+      "n": 195,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in an attic loft with a railing on the right; the stairs down should be near that railing. I'll turn right and approach it to locate the staircase.",
+      "latency_s": 3.56,
+      "prompt_tokens": 2032
+    },
+    {
+      "n": 198,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the loft balcony; the stairs down should be along the railing to the right. I'll advance along the balcony and re-observe.",
+      "latency_s": 2.36,
+      "prompt_tokens": 2034
+    },
+    {
+      "n": 202,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm on the loft balcony; the stairs down should be behind/left where I came up. I'll turn left to scan for the staircase.",
+      "latency_s": 2.52,
+      "prompt_tokens": 2035
+    },
+    {
+      "n": 208,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've ended up facing a wardrobe in the attic loft; the balcony railing and stairs are behind me. I'll turn around to re-locate the stairway.",
+      "latency_s": 2.3,
+      "prompt_tokens": 2036
+    },
+    {
+      "n": 212,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm on the balcony behind a railing. The stairs down should be on the left, so I'll turn left to scan along the balcony for the staircase.",
+      "latency_s": 2.62,
+      "prompt_tokens": 2039
+    },
+    {
+      "n": 216,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm on the loft balcony with a railing to my right. The stairs down should be along the balcony to the left, so I'll turn to scan for them.",
+      "latency_s": 3.21,
+      "prompt_tokens": 2040
+    },
+    {
+      "n": 219,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've drifted and am now facing a large wardrobe. The balcony railing was to my right earlier, so I'll turn right to re-orient toward the open loft area and find the stairs.",
+      "latency_s": 2.39,
+      "prompt_tokens": 2041
+    },
+    {
+      "n": 223,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in an attic loft; the balcony railing is on my right. I'll turn right and move toward the railing to find the stairs down on the left.",
+      "latency_s": 2.37,
+      "prompt_tokens": 2045
+    },
+    {
+      "n": 226,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the attic balcony level; the railing on the right likely borders the stair opening. I'll advance along the balcony toward it and look for the stairs descending on the left.",
+      "latency_s": 2.39,
+      "prompt_tokens": 2047
+    },
+    {
+      "n": 229,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm on the loft balcony; the railing runs along the right, and stairs down are likely just past it. I'll turn right to find the stair opening.",
+      "latency_s": 2.56,
+      "prompt_tokens": 2048
+    },
+    {
+      "n": 232,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm on the loft balcony; the stairs down should be along the balcony to my left. I'll turn left to scan for the staircase.",
+      "latency_s": 2.69,
+      "prompt_tokens": 2050
+    },
+    {
+      "n": 235,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in an attic loft behind a wooden railing; the stairs down are not visible facing this direction. I'll turn right to scan for the stairway.",
+      "latency_s": 2.92,
+      "prompt_tokens": 2049
+    },
+    {
+      "n": 239,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm on the loft balcony; the stairs down should be to my left, so I'll rotate to scan for them.",
+      "latency_s": 2.22,
+      "prompt_tokens": 2051
+    },
+    {
+      "n": 242,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in an attic loft with a railing on the right; the stairs down are likely beyond the railing area. I'll turn right to scan for the stair opening.",
+      "latency_s": 2.34,
+      "prompt_tokens": 2054
+    },
+    {
+      "n": 245,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in an attic loft behind a wooden railing; the stairs down should be to my left. I'll turn left to scan for the staircase.",
+      "latency_s": 2.05,
+      "prompt_tokens": 2056
+    },
+    {
+      "n": 248,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in an attic bedroom; the balcony railing appeared to my right earlier. I'll turn right to re-locate the railing and find the stairs down on the left of it.",
+      "latency_s": 2.5,
+      "prompt_tokens": 2054
+    },
+    {
+      "n": 251,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in an attic loft behind a wooden railing; the stairs down should be off to the side. I'll turn left to scan for the stairway.",
+      "latency_s": 2.81,
+      "prompt_tokens": 2059
+    },
+    {
+      "n": 256,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in an attic bedroom; the window/balcony area appeared to my right in an earlier frame. I'll turn right and head toward it to find the stairs down on the left.",
+      "latency_s": 2.55,
+      "prompt_tokens": 2060
+    },
+    {
+      "n": 259,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in an attic loft behind a railing; the stairs down are not visible in this view. I'll turn left to scan for the staircase.",
+      "latency_s": 2.43,
+      "prompt_tokens": 2061
+    },
+    {
+      "n": 263,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in an attic bedroom; the dark opening on the left wall may lead toward the stairs. I'll turn left and move toward it to look for the staircase.",
+      "latency_s": 2.74,
+      "prompt_tokens": 2064
+    },
+    {
+      "n": 266,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I appear to be in an attic bedroom, having drifted off course. There is a dark opening on the left near the window that may be the stairwell; I should turn left and investigate to find the stairs down.",
+      "latency_s": 3.63,
+      "prompt_tokens": 2066
+    },
+    {
+      "n": 272,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to have wandered into an attic bedroom; the instruction's stairs down are not here. I should turn around and head back through the doorway to find the stairwell.",
+      "latency_s": 3.07,
+      "prompt_tokens": 2067
+    },
+    {
+      "n": 276,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in an attic bedroom with beds, not at the stairs yet. I need to find the stairs down; I'll turn to explore the room for an exit.",
+      "latency_s": 2.21,
+      "prompt_tokens": 2069
+    },
+    {
+      "n": 279,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm at a balcony railing overlooking the lower level. The stairs down should be to my left, so I'll scan leftward before moving.",
+      "latency_s": 2.44,
+      "prompt_tokens": 2072
+    },
+    {
+      "n": 283,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm on the upper loft/balcony level. The stairs down should be off to the left side of this loft; I'll turn left to scan for the stairway.",
+      "latency_s": 2.78,
+      "prompt_tokens": 2073
+    },
+    {
+      "n": 289,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I appear to have overshot into an attic bedroom; the balcony railing was behind me. I'll turn around to face back toward the balcony area and locate the stairs down on the left.",
+      "latency_s": 3.42,
+      "prompt_tokens": 2073
+    },
+    {
+      "n": 295,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I appear to be in an attic loft, having gone the wrong way. The first frame showed a stair railing behind me, so I need to turn back toward that railing and find the stairs down on the left.",
+      "latency_s": 3.26,
+      "prompt_tokens": 2075
+    },
+    {
+      "n": 298,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm on the loft balcony overlooking the great room. The stairs down should be to my left along this walkway, so I'll scan left before moving.",
+      "latency_s": 2.58,
+      "prompt_tokens": 2076
+    },
+    {
+      "n": 301,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm on the upper balcony overlooking the room. The instruction says to take the stairs down on the left, so I should turn left and look for the staircase.",
+      "latency_s": 2.58,
+      "prompt_tokens": 2077
+    },
+    {
+      "n": 305,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm on the upper balcony level. The instruction says to take the stairs down on the left, so I need to turn left and look for the staircase.",
+      "latency_s": 2.48,
+      "prompt_tokens": 2076
+    },
+    {
+      "n": 311,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I've ended up in an attic bedroom past the balcony area. I need to turn back toward the balcony railing where the stairs down on the left should be.",
+      "latency_s": 2.77,
+      "prompt_tokens": 2077
+    },
+    {
+      "n": 317,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to have wandered into an attic bedroom; the stairs down are not visible here. I should turn back toward the open loft/balcony area where the staircase was seen earlier.",
+      "latency_s": 2.59,
+      "prompt_tokens": 2080
+    },
+    {
+      "n": 321,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in an attic bedroom, not at the stairs. I need to retrace toward the doorway seen earlier and locate the stairs down on the left. I'll turn left to re-aim toward the door area.",
+      "latency_s": 2.92,
+      "prompt_tokens": 2083
+    },
+    {
+      "n": 324,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in an attic bedroom; the instruction's stairs down may be through the dark opening to the left of the door frame. I'll turn left and move toward it to investigate.",
+      "latency_s": 2.99,
+      "prompt_tokens": 2084
+    },
+    {
+      "n": 330,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to have wandered into an attic bedroom rather than staying near the balcony stairs. I need to turn around and re-locate the stairway leading down.",
+      "latency_s": 3.44,
+      "prompt_tokens": 2086
+    },
+    {
+      "n": 334,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I appear to be in an attic bedroom, not near the balcony stairs. I need to retrace toward the doorway and find the stairs down on the left. I'll turn left to head back toward the door I came through.",
+      "latency_s": 2.98,
+      "prompt_tokens": 2087
+    },
+    {
+      "n": 337,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in an attic bedroom and don't see stairs or a balcony yet. I'll turn right to scan the room for the stairs down.",
+      "latency_s": 2.26,
+      "prompt_tokens": 2090
+    },
+    {
+      "n": 341,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in an attic bedroom with beds; no stairs or balcony visible in the current view. I need to turn and scan for an exit leading toward the stairs.",
+      "latency_s": 2.43,
+      "prompt_tokens": 2092
+    },
+    {
+      "n": 345,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the upper loft near the balcony railing; the stairwell with the wooden railing is to my right. I'll turn toward it and descend.",
+      "latency_s": 2.91,
+      "prompt_tokens": 2094
+    },
+    {
+      "n": 349,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm at the balcony railing. The instruction says take the stairs down on the left, so I should turn left to locate the stairway.",
+      "latency_s": 2.06,
+      "prompt_tokens": 2096
+    },
+    {
+      "n": 352,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm on the upper loft level near the railing. The stairs down should be to my left; I'll turn left to scan for them.",
+      "latency_s": 2.4,
+      "prompt_tokens": 2097
+    },
+    {
+      "n": 358,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I appear to have climbed into an attic bedroom rather than descending. I need to turn around and find the stairs going down on the left.",
+      "latency_s": 2.54,
+      "prompt_tokens": 2098
+    },
+    {
+      "n": 362,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in an attic bedroom; the open doorway on the right likely leads toward the stairs. I'll turn right and approach it to re-observe.",
+      "latency_s": 2.35,
+      "prompt_tokens": 2100
+    },
+    {
+      "n": 366,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to be in an attic bedroom, not near the balcony stairs. I need to reorient and search for the stairway; I'll turn to scan the room.",
+      "latency_s": 2.85,
+      "prompt_tokens": 2102
+    },
+    {
+      "n": 372,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in an attic bedroom, not near the stairs. I need to turn back toward the doorway I came through and look for the stairs down on the left near the balcony.",
+      "latency_s": 2.33,
+      "prompt_tokens": 2104
+    },
+    {
+      "n": 376,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in an attic bedroom and don't see the balcony or stairs yet. I'll turn right to scan the room for the stairs down.",
+      "latency_s": 2.83,
+      "prompt_tokens": 2106
+    },
+    {
+      "n": 382,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in an attic bedroom, not at the balcony or stairs. I need to turn around and head back through the doorway to find the stairs down on the left.",
+      "latency_s": 2.75,
+      "prompt_tokens": 2108
+    },
+    {
+      "n": 385,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in an attic loft; the stair opening appears to be to my right near the wooden railing. I'll turn right to locate the stairs down.",
+      "latency_s": 2.09,
+      "prompt_tokens": 2111
+    },
+    {
+      "n": 388,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm at the loft balcony railing overlooking the lower floor. The instruction says to take the stairs down on the left, so I should turn left to locate the staircase.",
+      "latency_s": 1.97,
+      "prompt_tokens": 2113
+    },
+    {
+      "n": 391,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm on the loft balcony level; the railing and lower floor are to my right, so the staircase down is likely near the railing. I'll turn right to locate the stairs.",
+      "latency_s": 2.71,
+      "prompt_tokens": 2114
+    },
+    {
+      "n": 394,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm on the upper loft level looking over a railing toward the lower floor. I need to locate the staircase down on the left, so I'll turn left and scan for it.",
+      "latency_s": 2.81,
+      "prompt_tokens": 2116
+    },
+    {
+      "n": 401,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the balcony landing; the stairwell with railing is to my right. I need to turn toward it and descend the stairs to wait at the bottom.",
+      "latency_s": 2.32,
+      "prompt_tokens": 2117
+    },
+    {
+      "n": 404,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "LOOK_DOWN"
+      ],
+      "thought": "I'm on the upper loft/balcony next to the stair railing. The stairs down should be to my left, so I'll turn left and look down to find the descent.",
+      "latency_s": 2.89,
+      "prompt_tokens": 2120
+    },
+    {
+      "n": 407,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "LOOK_DOWN"
+      ],
+      "thought": "I'm at the upper loft level next to a railing; the stairs down should be to my left. I'll turn left and look down to locate the staircase before descending.",
+      "latency_s": 2.44,
+      "prompt_tokens": 2122
+    },
+    {
+      "n": 408,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the floor near a chair; I need to re-orient to check whether I'm at the bottom of the stairs before stopping.",
+      "latency_s": 3.82,
+      "prompt_tokens": 2123
+    },
+    {
+      "n": 411,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I appear to be in an attic-like room next to a table and chair, with open floor to the left. The stairs should be further ahead, so I'll turn left and advance across the room to re-observe.",
+      "latency_s": 3.64,
+      "prompt_tokens": 2123
+    },
+    {
+      "n": 415,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in an attic bedroom; the stairs down should be somewhere off this room. I'll scan left to locate the stair opening.",
+      "latency_s": 2.45,
+      "prompt_tokens": 2125
+    },
+    {
+      "n": 419,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in an attic bedroom with two beds, but the instruction points to a balcony and stairs down on the left. I need to turn and scan the room for the stairway/doorway.",
+      "latency_s": 2.69,
+      "prompt_tokens": 2126
+    },
+    {
+      "n": 422,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in an attic bedroom; a doorway ahead leads out. I'll head through it to find the stairs down on the left.",
+      "latency_s": 2.14,
+      "prompt_tokens": 2127
+    },
+    {
+      "n": 424,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in an attic bedroom facing a doorway leading out. I need to head through it toward the balcony/stairs.",
+      "latency_s": 2.06,
+      "prompt_tokens": 2128
+    },
+    {
+      "n": 428,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in a bedroom facing a bathroom doorway; no stairs or balcony visible here. I need to re-orient and search for the stairs, likely back the way I came.",
+      "latency_s": 2.78,
+      "prompt_tokens": 2129
+    },
+    {
+      "n": 431,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the upper balcony walkway. I need to proceed along it to find the stairs down on the left, then descend and stop at the bottom.",
+      "latency_s": 2.7,
+      "prompt_tokens": 2130
+    },
+    {
+      "n": 434,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the upper balcony walkway; the path continues forward past the railing. I'll advance along it to find the stairs descending on the left.",
+      "latency_s": 2.47,
+      "prompt_tokens": 2131
+    },
+    {
+      "n": 438,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm on the upper balcony walkway. The instruction says to take the stairs down on the left, so I should continue forward along the balcony and look for the stair opening on the left side.",
+      "latency_s": 2.76,
+      "prompt_tokens": 2131
+    },
+    {
+      "n": 441,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm on the upper loft walkway beside the railing; the open area with the rug ahead leads toward the stairs. I'll advance along the walkway and re-observe.",
+      "latency_s": 4.06,
+      "prompt_tokens": 2132
+    },
+    {
+      "n": 445,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the top of the stairs behind the wooden railing; the staircase descends on my left. I'll turn left and start descending.",
+      "latency_s": 2.45,
+      "prompt_tokens": 2133
+    },
+    {
+      "n": 449,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm pressed against the loft railing with a blocked view. I need to turn right toward the open floor and reposition to find the stairs down on the left.",
+      "latency_s": 2.57,
+      "prompt_tokens": 2135
+    },
+    {
+      "n": 453,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm pressed against a loft railing with a blocked view; stairs seem to be below but I need to reposition. I'll turn left to find the stair opening.",
+      "latency_s": 2.61,
+      "prompt_tokens": 2137
+    },
+    {
+      "n": 456,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "The view is blocked by a wooden railing; the stairs appear to be to the right beyond it. I'll turn right and re-observe to find the stair descent.",
+      "latency_s": 2.15,
+      "prompt_tokens": 2138
+    },
+    {
+      "n": 460,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The view shows a wooden staircase below through a railing, suggesting I am near the stairs but the camera is aimed oddly at the banister. I will re-aim right and step toward the stair area to reach the bottom.",
+      "latency_s": 2.95,
+      "prompt_tokens": 2140
+    },
+    {
+      "n": 464,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm pressed against a wooden railing with the view blocked; the open loft floor with the ottoman is to my right. I'll turn right to face the walkway and advance along it to find the stairs down on the left.",
+      "latency_s": 2.53,
+      "prompt_tokens": 2142
+    },
+    {
+      "n": 468,
+      "actions": [
+        "LOOK_DOWN",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I appear to be on an upper loft level next to a railing, not at the bottom of the stairs. I need to find the staircase on my left and descend, so I'll look down and turn left to locate it.",
+      "latency_s": 3.25,
+      "prompt_tokens": 2144
+    },
+    {
+      "n": 472,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the top of the stairs by the railing, looking down at the staircase. I need to turn left to face the stairs and descend.",
+      "latency_s": 2.15,
+      "prompt_tokens": 2146
+    },
+    {
+      "n": 473,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "The camera is pitched down at the stair railing; I need to level the view to see where I am relative to the bottom of the stairs before stopping.",
+      "latency_s": 3.02,
+      "prompt_tokens": 2148
+    },
+    {
+      "n": 474,
+      "actions": [
+        "STOP"
+      ],
+      "thought": "The view is obstructed by stair structure, suggesting I'm right at/under the staircase at the bottom after descending. With only 27 actions left, stopping here is the safest choice.",
+      "latency_s": 2.23,
+      "prompt_tokens": 2148
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    7.142,
+    7.142,
+    6.908,
+    6.679,
+    6.495,
+    6.33,
+    6.194,
+    6.097,
+    6.05,
+    6.063,
+    6.144,
+    6.281,
+    6.457,
+    6.657,
+    6.872,
+    7.096,
+    7.326,
+    7.56,
+    7.798,
+    8.037,
+    8.279,
+    8.521,
+    8.765,
+    8.989,
+    9.216,
+    9.445,
+    9.646,
+    9.851,
+    10.061,
+    10.275,
+    10.025,
+    9.775,
+    9.526,
+    9.277,
+    9.028,
+    8.78,
+    8.53,
+    8.279,
+    8.028,
+    7.777,
+    7.526,
+    7.276,
+    7.025,
+    6.776,
+    7.02,
+    7.259,
+    7.5,
+    7.742,
+    7.985,
+    8.236,
+    8.487,
+    8.738,
+    8.986,
+    9.234,
+    9.45,
+    9.666,
+    9.846,
+    10.032,
+    9.992,
+    10.094,
+    10.207,
+    10.156,
+    10.118,
+    10.219,
+    10.329,
+    10.455,
+    10.592,
+    10.827,
+    11.07,
+    10.899,
+    10.734,
+    10.575,
+    10.425,
+    10.282,
+    10.033,
+    9.783,
+    9.534,
+    9.285,
+    9.036,
+    8.787,
+    8.539,
+    8.29,
+    8.042,
+    7.81,
+    7.583,
+    7.36,
+    7.295,
+    7.118,
+    6.941,
+    6.725,
+    6.508,
+    6.258,
+    6.008,
+    6.008
+  ],
+  "final_distance": 6.008,
+  "min_distance": 6.008,
+  "metrics": {
+    "distance_to_goal": 6.008302688598633,
+    "success": 0.0,
+    "spl": 0.0,
+    "oracle_success": 0.0,
+    "path_length": 22.253122858703136,
+    "steps_taken": 474.0
+  },
+  "success": false,
+  "backend_stats": {
+    "calls": 518,
+    "failures": 0,
+    "prompt_tokens": 1022671,
+    "completion_tokens": 43879,
+    "reasoning_tokens": 15518,
+    "latency_s": 1205.1654834747314
+  },
+  "stop_deferrals": 0
+}

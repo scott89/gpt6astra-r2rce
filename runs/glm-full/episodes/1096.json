@@ -1,0 +1,209 @@
+{
+  "episode_id": 1096,
+  "scene_id": "QUCTc6BB5sX",
+  "instruction": "Turn around and walk straight forward down the hallway all the way to the other end. Once you reach the end turn left and stop in the doorway.",
+  "actions_taken": 55,
+  "policy_calls": 13,
+  "api_latency_s": 33.14,
+  "prompt_tokens": 23588,
+  "completion_tokens": 1332,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 33.4,
+  "steps": [
+    {
+      "n": 6,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm facing a table with a lamp; the hallway is behind me. I'll turn around to face down the hallway first.",
+      "latency_s": 1.62,
+      "prompt_tokens": 890
+    },
+    {
+      "n": 12,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I have turned 90\u00b0 left so far; I need a full 180\u00b0 turn to face back down the hallway, so I'll complete the remaining 90\u00b0 of left rotation before moving.",
+      "latency_s": 2.97,
+      "prompt_tokens": 1246
+    },
+    {
+      "n": 20,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've turned 180\u00b0 left already; now I face the wall, so I need to turn right 180\u00b0 to face down the hallway, then walk forward.",
+      "latency_s": 2.49,
+      "prompt_tokens": 1610
+    },
+    {
+      "n": 24,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing down the hallway toward the arched opening at the far end. I'll advance along the hallway and re-observe.",
+      "latency_s": 1.92,
+      "prompt_tokens": 1976
+    },
+    {
+      "n": 28,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've reached the end of the hallway facing an archway into a room. The instruction says turn left and stop in the doorway \u2014 there's a doorway on the left side. I'll turn left and step into it.",
+      "latency_s": 2.34,
+      "prompt_tokens": 1978
+    },
+    {
+      "n": 32,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've drifted and am facing a wall; the hallway opening to the office is to my right. I'll turn right to re-aim at the archway, then proceed forward.",
+      "latency_s": 2.95,
+      "prompt_tokens": 1980
+    },
+    {
+      "n": 36,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've reached the end of the hallway facing the arched opening. The instruction says to turn left and stop in the doorway, so I'll turn left toward the doorway on the left wall and step into it.",
+      "latency_s": 3.86,
+      "prompt_tokens": 1982
+    },
+    {
+      "n": 38,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall; the hallway opening is to my right. I'll turn right to face down the hallway before moving.",
+      "latency_s": 1.77,
+      "prompt_tokens": 1984
+    },
+    {
+      "n": 41,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm at the archway at the end of the hallway facing an office. The instruction says turn left at the end and stop in the doorway, so I'll advance through the arch then turn left to find the doorway.",
+      "latency_s": 2.25,
+      "prompt_tokens": 1985
+    },
+    {
+      "n": 45,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've reached the end of the hallway; the office is ahead and a bathroom doorway is on the left. I'll turn left toward that doorway and step in, then stop.",
+      "latency_s": 2.43,
+      "prompt_tokens": 1987
+    },
+    {
+      "n": 49,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've drifted and am now facing a wall; the office doorway is to my right. I'll turn right to re-aim at the doorway and stop there.",
+      "latency_s": 2.62,
+      "prompt_tokens": 1988
+    },
+    {
+      "n": 52,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to be facing a wall next to a bathroom, with a large room ahead; I need to reorient to find the hallway. I'll turn right to scan for the corridor.",
+      "latency_s": 3.16,
+      "prompt_tokens": 1990
+    },
+    {
+      "n": 55,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "STOP"
+      ],
+      "thought": "I've reached the end of the hallway; the arched glass doorway is to my left. I'll turn left and step into the doorway, then stop.",
+      "latency_s": 2.76,
+      "prompt_tokens": 1992
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    11.071,
+    11.071,
+    11.32,
+    11.569,
+    11.818,
+    12.067,
+    12.259,
+    12.488,
+    12.737,
+    12.985,
+    13.134,
+    13.333
+  ],
+  "final_distance": 13.333,
+  "min_distance": 11.071,
+  "metrics": {
+    "distance_to_goal": 13.332600593566895,
+    "success": 0.0,
+    "spl": 0.0,
+    "oracle_success": 0.0,
+    "path_length": 2.4837270975112915,
+    "steps_taken": 55.0
+  },
+  "success": false,
+  "backend_stats": {
+    "calls": 155,
+    "failures": 0,
+    "prompt_tokens": 318054,
+    "completion_tokens": 14035,
+    "reasoning_tokens": 5060,
+    "latency_s": 372.70445489883423
+  },
+  "stop_deferrals": 0
+}

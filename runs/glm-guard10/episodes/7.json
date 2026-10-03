@@ -1,0 +1,231 @@
+{
+  "episode_id": 7,
+  "scene_id": "x8F5xyUWy9e",
+  "instruction": "Go straight past the pool. Walk between the bar and chairs.  Stop when you get to the corner of the bar.  That's where you will wait.",
+  "actions_taken": 43,
+  "policy_calls": 14,
+  "api_latency_s": 35.62,
+  "prompt_tokens": 25569,
+  "completion_tokens": 1221,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 35.83,
+  "steps": [
+    {
+      "n": 4,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I see a pool on the right and a bar with chairs ahead. I'll walk forward past the pool toward the bar area.",
+      "latency_s": 1.43,
+      "prompt_tokens": 893
+    },
+    {
+      "n": 8,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I see chairs ahead and the bar counter beyond them. I'll advance toward the gap between the bar and the chairs, then re-observe.",
+      "latency_s": 1.67,
+      "prompt_tokens": 1248
+    },
+    {
+      "n": 12,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The chairs are directly ahead and the bar counter is visible beyond them. I need to angle slightly right to pass between the chairs and the bar, then approach the bar's corner.",
+      "latency_s": 2.06,
+      "prompt_tokens": 1611
+    },
+    {
+      "n": 16,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is ahead and chairs line the left wall; I should advance between them toward the bar's near corner.",
+      "latency_s": 2.11,
+      "prompt_tokens": 1976
+    },
+    {
+      "n": 19,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar counter is on the left with chairs ahead; I need to advance a couple steps along the gap between them to reach the bar's near corner, then stop.",
+      "latency_s": 2.54,
+      "prompt_tokens": 1977
+    },
+    {
+      "n": 23,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar is on the left with its corner ahead; chairs are to the right. I'll advance along the gap between them toward the bar's far corner.",
+      "latency_s": 1.85,
+      "prompt_tokens": 1977
+    },
+    {
+      "n": 26,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar's near corner is directly ahead-left, with chairs to the right; I'm close to the gap between them. I'll advance a couple steps to reach the bar's corner, then stop.",
+      "latency_s": 2.54,
+      "prompt_tokens": 1977
+    },
+    {
+      "n": 29,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm alongside the bar with chairs to my right; I need to continue forward through the gap between the bar and the chairs until I reach the bar's far corner.",
+      "latency_s": 2.19,
+      "prompt_tokens": 1978
+    },
+    {
+      "n": 31,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm moving along the bar on my left with chairs on the right; the bar's far corner appears just ahead. A couple more forward steps should bring me to it.",
+      "latency_s": 4.94,
+      "prompt_tokens": 1978
+    },
+    {
+      "n": 35,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The bar is on my left and chairs on the right; I need to walk down this aisle to the far corner of the bar near the doorway. I'll advance a few steps and re-observe.",
+      "latency_s": 4.7,
+      "prompt_tokens": 1978
+    },
+    {
+      "n": 38,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm moving along the bar on my left with chairs on the right. The bar's corner is just ahead, so I'll advance a couple steps and then stop at the corner.",
+      "latency_s": 2.58,
+      "prompt_tokens": 1979
+    },
+    {
+      "n": 40,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I've walked past the bar with chairs on my right; the bar's far corner is now behind me to the left. I'll turn left to check where the bar ends before stopping.",
+      "latency_s": 2.95,
+      "prompt_tokens": 1980
+    },
+    {
+      "n": 42,
+      "actions": [
+        "LOOK_DOWN",
+        "LOOK_UP"
+      ],
+      "thought": "The bar counter is on my left and the chair on my right; I've walked between them and reached the corner of the bar, which is where the instruction says to wait.",
+      "latency_s": 2.19,
+      "prompt_tokens": 1981
+    },
+    {
+      "n": 43,
+      "actions": [
+        "STOP"
+      ],
+      "thought": "I am right beside the bar's corner, with the bar counter ending at my left and the doorway ahead \u2014 this matches 'the corner of the bar' where I should wait.",
+      "latency_s": 1.87,
+      "prompt_tokens": 2036
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    10.452,
+    10.207,
+    9.963,
+    9.719,
+    9.475,
+    9.237,
+    8.994,
+    8.753,
+    8.517,
+    8.269,
+    8.023,
+    7.824,
+    7.544,
+    7.294,
+    7.044,
+    6.794,
+    6.544,
+    6.295,
+    6.045,
+    5.795,
+    5.545,
+    5.295,
+    5.045,
+    4.795,
+    4.545,
+    4.302,
+    4.051,
+    3.799,
+    3.551,
+    3.304,
+    3.057,
+    2.811,
+    2.566,
+    2.322,
+    2.08,
+    1.839,
+    1.614,
+    1.358
+  ],
+  "final_distance": 1.358,
+  "min_distance": 1.358,
+  "metrics": {
+    "distance_to_goal": 1.358161211013794,
+    "success": 1.0,
+    "spl": 1.0,
+    "oracle_success": 1.0,
+    "path_length": 9.243107870221138,
+    "steps_taken": 43.0
+  },
+  "success": true,
+  "backend_stats": {
+    "calls": 378,
+    "failures": 0,
+    "prompt_tokens": 764602,
+    "completion_tokens": 26477,
+    "reasoning_tokens": 8165,
+    "latency_s": 807.2955992221832
+  },
+  "stop_deferrals": 1
+}

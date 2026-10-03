@@ -1,0 +1,370 @@
+{
+  "episode_id": 234,
+  "scene_id": "oLBMNvg9in8",
+  "instruction": "Walk up the stairs. At the top of the stairs take a right and enter the room at the end of the hall. Stop in front of the large shell on the floor.",
+  "actions_taken": 82,
+  "policy_calls": 26,
+  "api_latency_s": 62.72,
+  "prompt_tokens": 49609,
+  "completion_tokens": 2103,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 63.23,
+  "steps": [
+    {
+      "n": 2,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm facing a wall; I need to locate the stairs. I'll turn to scan the surroundings.",
+      "latency_s": 1.83,
+      "prompt_tokens": 896
+    },
+    {
+      "n": 5,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall very closely; I need to reorient to find the stairs. I'll turn right to scan the area.",
+      "latency_s": 1.77,
+      "prompt_tokens": 1251
+    },
+    {
+      "n": 8,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a tiled wall corner, likely near the stairwell. I need to turn to find the stairs going up.",
+      "latency_s": 2.93,
+      "prompt_tokens": 1616
+    },
+    {
+      "n": 12,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I can see a staircase ahead to the right through the opening. I need to turn right and head toward the stairs to walk up them.",
+      "latency_s": 3.08,
+      "prompt_tokens": 1980
+    },
+    {
+      "n": 16,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I see the staircase ahead leading up. I'll walk toward and up the stairs, then re-observe at the top.",
+      "latency_s": 2.45,
+      "prompt_tokens": 1982
+    },
+    {
+      "n": 20,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is ahead and slightly left; I need to align with it and climb toward the top of the stairs.",
+      "latency_s": 1.85,
+      "prompt_tokens": 1983
+    },
+    {
+      "n": 24,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is directly ahead and I'm aligned with it. I'll climb the stairs step by step, re-observing as I go.",
+      "latency_s": 1.63,
+      "prompt_tokens": 1984
+    },
+    {
+      "n": 28,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the base of the stairs facing them; I need to climb up before turning right at the top.",
+      "latency_s": 2.08,
+      "prompt_tokens": 1985
+    },
+    {
+      "n": 31,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've reached the top of the stairs and am facing down the hallway toward a room at its end. I'll proceed forward along the hall toward that room.",
+      "latency_s": 2.91,
+      "prompt_tokens": 1986
+    },
+    {
+      "n": 35,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the top of the stairs facing down the hallway; the room at the end with what appears to be the shell on a table is straight ahead. I'll advance through the doorway toward it.",
+      "latency_s": 3.15,
+      "prompt_tokens": 1987
+    },
+    {
+      "n": 36,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "I've entered the room at the end of the hall. I need to find the large shell on the floor, so I'll look down to scan the floor area.",
+      "latency_s": 1.88,
+      "prompt_tokens": 1987
+    },
+    {
+      "n": 40,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "LOOK_DOWN"
+      ],
+      "thought": "I'm at the doorway of the room at the end of the hall. I need to enter and find the large shell on the floor, likely near the table or sofa.",
+      "latency_s": 2.02,
+      "prompt_tokens": 1987
+    },
+    {
+      "n": 44,
+      "actions": [
+        "LOOK_UP",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've entered the room at the end of the hall; the camera is pitched down at the floor. I need to move further in and look for the large shell on the floor.",
+      "latency_s": 2.46,
+      "prompt_tokens": 1989
+    },
+    {
+      "n": 47,
+      "actions": [
+        "LOOK_DOWN",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've entered the room at the end of the hall. I need to locate the large shell on the floor, so I'll scan the room by looking down and turning.",
+      "latency_s": 2.46,
+      "prompt_tokens": 1991
+    },
+    {
+      "n": 50,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the room at the end of the hall; a large shell-like sculpture is visible on/near the table ahead-left. I'll advance toward it and then stop.",
+      "latency_s": 3.4,
+      "prompt_tokens": 1993
+    },
+    {
+      "n": 53,
+      "actions": [
+        "LOOK_UP",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The large shell sculpture is visible on the table ahead-left; I'm pitched down at the rug. I should look up and move toward it.",
+      "latency_s": 2.2,
+      "prompt_tokens": 1993
+    },
+    {
+      "n": 58,
+      "actions": [
+        "LOOK_DOWN",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've entered a room with a sofa and large rug, but I don't see the large shell yet. I should scan the room before moving.",
+      "latency_s": 2.63,
+      "prompt_tokens": 1995
+    },
+    {
+      "n": 60,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in a room with a large rug and a sofa, but I don't see the shell yet. I should scan the room by turning to look for the large shell on the floor.",
+      "latency_s": 3.58,
+      "prompt_tokens": 1998
+    },
+    {
+      "n": 65,
+      "actions": [
+        "LOOK_UP",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in a room with a sofa and a large rug, but I don't see the shell yet. I should look up and scan the room to locate it.",
+      "latency_s": 2.44,
+      "prompt_tokens": 1999
+    },
+    {
+      "n": 66,
+      "actions": [
+        "LOOK_DOWN"
+      ],
+      "thought": "I appear to be inside a room with a large rug, radiator, and sofa, but I don't see the shell yet. I'll look down to inspect the floor near me for the large shell.",
+      "latency_s": 2.43,
+      "prompt_tokens": 2001
+    },
+    {
+      "n": 67,
+      "actions": [
+        "LOOK_UP"
+      ],
+      "thought": "I appear to be in a room with a large rug, sofa, and radiator, but I don't see the shell yet. I should scan the room before moving.",
+      "latency_s": 2.69,
+      "prompt_tokens": 2002
+    },
+    {
+      "n": 69,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a room with a rug, sofa, and radiator, but I don't see the large shell yet. I should scan the room by turning to look for it before stopping.",
+      "latency_s": 2.61,
+      "prompt_tokens": 2002
+    },
+    {
+      "n": 71,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to be in a room with a sofa and rug, but I don't see the large shell yet. I'll scan the room by turning right to look for it.",
+      "latency_s": 1.77,
+      "prompt_tokens": 2004
+    },
+    {
+      "n": 73,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in the room at the end of the hall, but I don't see the large shell yet. I'll turn right to scan the fireplace side of the room.",
+      "latency_s": 2.13,
+      "prompt_tokens": 2005
+    },
+    {
+      "n": 77,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the room at the end of the hall; the large shell-shaped object stands near the fireplace ahead. I'll advance toward it and stop when close.",
+      "latency_s": 2.1,
+      "prompt_tokens": 2006
+    },
+    {
+      "n": 82,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "STOP"
+      ],
+      "thought": "I'm in the room at the end of the hall; the large textured shell stands by the fireplace a few meters ahead. I'll advance toward it and stop.",
+      "latency_s": 2.24,
+      "prompt_tokens": 2007
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    8.473,
+    8.454,
+    8.27,
+    8.055,
+    7.846,
+    7.658,
+    7.391,
+    7.159,
+    6.929,
+    6.696,
+    6.451,
+    6.159,
+    5.857,
+    5.56,
+    5.274,
+    5.001,
+    4.75,
+    4.534,
+    4.356,
+    4.265,
+    4.25,
+    4.253,
+    4.279,
+    4.396,
+    4.58,
+    4.798,
+    5.035,
+    5.279,
+    5.525,
+    5.728,
+    5.945,
+    5.357,
+    5.266,
+    5.198,
+    4.96,
+    4.726,
+    4.496,
+    4.272,
+    4.057,
+    3.849,
+    3.652,
+    3.469
+  ],
+  "final_distance": 3.469,
+  "min_distance": 3.469,
+  "metrics": {
+    "distance_to_goal": 3.4689955711364746,
+    "success": 0.0,
+    "spl": 0.0,
+    "oracle_success": 0.0,
+    "path_length": 10.373729094862938,
+    "steps_taken": 82.0
+  },
+  "success": false,
+  "backend_stats": {
+    "calls": 89,
+    "failures": 0,
+    "prompt_tokens": 163530,
+    "completion_tokens": 7015,
+    "reasoning_tokens": 2261,
+    "latency_s": 205.02139711380005
+  },
+  "stop_deferrals": 0
+}

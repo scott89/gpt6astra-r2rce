@@ -1,0 +1,95 @@
+{
+  "this_run": {
+    "num_episodes": 10,
+    "success": 0.3,
+    "oracle_success": 0.3,
+    "distance_to_goal": 6.7151,
+    "spl": 0.2638,
+    "path_length": 8.2084,
+    "steps_taken": 113.5,
+    "termination": {
+      "budget_exhausted": 1,
+      "stop": 9
+    },
+    "mean_actions_per_episode": 113.5,
+    "mean_policy_calls_per_episode": 39.2,
+    "episodes_with_unparsable_reply": 0,
+    "mean_stop_deferrals": 0.0,
+    "api_latency_s_total": 798.7,
+    "prompt_tokens_total": 787111,
+    "completion_tokens_total": 27878,
+    "tag": "glm-fcap10",
+    "policy": "vlm",
+    "model": "glm-5.3-flash",
+    "reasoning_effort": "minimal",
+    "guardrails": {
+      "max_consecutive_forward": 4,
+      "stop_verification": false,
+      "history_frames": 4,
+      "max_program": 8
+    },
+    "max_actions": 500,
+    "time_limit_s": 2400.0,
+    "subset_file": "subset/r2rce100.json",
+    "episodes_run": [
+      205,
+      220,
+      10,
+      46,
+      127,
+      19,
+      7,
+      1,
+      4,
+      28
+    ],
+    "backend": {
+      "calls": 392,
+      "failures": 0,
+      "prompt_tokens": 787111,
+      "completion_tokens": 27878,
+      "reasoning_tokens": 8607,
+      "latency_s": 798.6889889240265
+    },
+    "cumulative": {
+      "num_episodes": 10,
+      "success": 0.3,
+      "oracle_success": 0.3,
+      "distance_to_goal": 6.7151,
+      "spl": 0.2638,
+      "path_length": 8.2084,
+      "steps_taken": 113.5,
+      "termination": {
+        "budget_exhausted": 1,
+        "stop": 9
+      },
+      "mean_actions_per_episode": 113.5,
+      "mean_policy_calls_per_episode": 39.2,
+      "episodes_with_unparsable_reply": 0,
+      "mean_stop_deferrals": 0.0,
+      "api_latency_s_total": 798.7,
+      "prompt_tokens_total": 787111,
+      "completion_tokens_total": 27878
+    }
+  },
+  "all_episodes": {
+    "num_episodes": 10,
+    "success": 0.3,
+    "oracle_success": 0.3,
+    "distance_to_goal": 6.7151,
+    "spl": 0.2638,
+    "path_length": 8.2084,
+    "steps_taken": 113.5,
+    "termination": {
+      "budget_exhausted": 1,
+      "stop": 9
+    },
+    "mean_actions_per_episode": 113.5,
+    "mean_policy_calls_per_episode": 39.2,
+    "episodes_with_unparsable_reply": 0,
+    "mean_stop_deferrals": 0.0,
+    "api_latency_s_total": 798.7,
+    "prompt_tokens_total": 787111,
+    "completion_tokens_total": 27878
+  }
+}

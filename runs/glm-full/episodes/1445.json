@@ -1,0 +1,430 @@
+{
+  "episode_id": 1445,
+  "scene_id": "X7HyMhZNoso",
+  "instruction": "Go straight until you pass the couches and the table then turn right and go inside. Wait near the grey couches.",
+  "actions_taken": 91,
+  "policy_calls": 31,
+  "api_latency_s": 69.5,
+  "prompt_tokens": 59229,
+  "completion_tokens": 2946,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 70.06,
+  "steps": [
+    {
+      "n": 2,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm facing a mirror and brick wall; the open room is to my left. I'll turn left to look for the couches and table.",
+      "latency_s": 1.8,
+      "prompt_tokens": 885
+    },
+    {
+      "n": 4,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm outside looking through a sliding glass door into the dining area. I need to enter the house first, so I'll turn left toward the open doorway and step inside.",
+      "latency_s": 1.84,
+      "prompt_tokens": 1240
+    },
+    {
+      "n": 7,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at a glass doorway looking into the dining/living area. I should step inside and head toward the dining table and couches ahead.",
+      "latency_s": 2.22,
+      "prompt_tokens": 1604
+    },
+    {
+      "n": 10,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm inside now, facing the dining table with dark chairs. The instruction says to go straight past the couches and table, then turn right. I'll keep moving forward along the open floor.",
+      "latency_s": 2.21,
+      "prompt_tokens": 1967
+    },
+    {
+      "n": 13,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "A wall/pillar is directly ahead blocking the path. I'll turn left to move around it toward the dining table area, then look for the couches.",
+      "latency_s": 2.27,
+      "prompt_tokens": 1968
+    },
+    {
+      "n": 16,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm beside the dining table with dark grey chairs. I need to continue forward past the table, then turn right toward the opening ahead.",
+      "latency_s": 2.62,
+      "prompt_tokens": 1970
+    },
+    {
+      "n": 19,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a dining table with dark chairs; I need to pass it and find the grey couches, then turn right into that area. I'll advance carefully past the table first.",
+      "latency_s": 2.45,
+      "prompt_tokens": 1970
+    },
+    {
+      "n": 21,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm at the dining table with dark chairs; the instruction says to pass the couches and table, then turn right and go inside. I should turn right to look for the living area with grey couches.",
+      "latency_s": 2.25,
+      "prompt_tokens": 1971
+    },
+    {
+      "n": 24,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've passed the dining table and chairs; now I need to turn right to find the living area with the grey couches.",
+      "latency_s": 1.73,
+      "prompt_tokens": 1972
+    },
+    {
+      "n": 27,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've passed the dining table and turned right; now I face a wall with a mirror and brick accent. The living room with grey couches should be further along this wall, so I'll advance and re-observe.",
+      "latency_s": 3.3,
+      "prompt_tokens": 1974
+    },
+    {
+      "n": 30,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I've moved past the dining table and turned right, but I'm now facing a wall with a mirror and brickwork. The grey couches should be in the living area to my left, so I'll turn left to re-orient and look for them.",
+      "latency_s": 2.03,
+      "prompt_tokens": 1975
+    },
+    {
+      "n": 33,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in a narrow hallway facing a wall; I need to find the living room with the grey couches. I'll turn left to scan the space.",
+      "latency_s": 1.97,
+      "prompt_tokens": 1976
+    },
+    {
+      "n": 36,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the grey couches ahead through the opening. I'll move forward toward them and stop nearby.",
+      "latency_s": 2.03,
+      "prompt_tokens": 1977
+    },
+    {
+      "n": 39,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm beside the dining table with dark chairs. I need to move past the table toward the open living area ahead, then turn right toward the grey couches.",
+      "latency_s": 2.23,
+      "prompt_tokens": 1978
+    },
+    {
+      "n": 42,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm beside a wall edge with the dining table and dark chairs ahead. I need to move past the table toward the living area, so I'll turn right slightly to clear the wall and advance.",
+      "latency_s": 2.43,
+      "prompt_tokens": 1978
+    },
+    {
+      "n": 46,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've walked into a wall/pillar and am blocked. I need to turn away from it and reposition to get around it toward the dining table and kitchen area.",
+      "latency_s": 2.34,
+      "prompt_tokens": 1980
+    },
+    {
+      "n": 49,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm beside a wall with the dining table ahead; I need to find the grey couches, so I'll turn right to scan the room.",
+      "latency_s": 2.36,
+      "prompt_tokens": 1982
+    },
+    {
+      "n": 52,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I've passed the dining table and reached a brick wall corner. The living room with grey couches should be to the left, so I'll turn to scan for them.",
+      "latency_s": 2.23,
+      "prompt_tokens": 1984
+    },
+    {
+      "n": 55,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm beside the dining table with chairs; I need to continue past it toward the open area, then turn right toward the brick-wall doorway leading to the grey couches.",
+      "latency_s": 2.25,
+      "prompt_tokens": 1985
+    },
+    {
+      "n": 57,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm beside the dining table with the kitchen ahead; the grey couches should be past this area. I'll advance carefully along the table first.",
+      "latency_s": 2.23,
+      "prompt_tokens": 1986
+    },
+    {
+      "n": 60,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm beside the dining table with chairs; I need to move forward past the table/couches before turning right. The path ahead toward the kitchen looks open, so I'll advance a few steps and re-observe.",
+      "latency_s": 2.18,
+      "prompt_tokens": 1987
+    },
+    {
+      "n": 63,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm beside a wall corner facing the dining table; I need to move forward past the table/couches, then turn right into the next area. Advancing carefully along the open floor.",
+      "latency_s": 2.52,
+      "prompt_tokens": 1986
+    },
+    {
+      "n": 66,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm currently facing a wall corner; the hallway with the clock and window is to my left. I need to turn left to reorient and continue toward the living area with the grey couches.",
+      "latency_s": 2.41,
+      "prompt_tokens": 1988
+    },
+    {
+      "n": 69,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm currently facing a wall edge with the dining table to my left. I need to turn left to re-enter the open living area and look for the grey couches.",
+      "latency_s": 2.15,
+      "prompt_tokens": 1989
+    },
+    {
+      "n": 72,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see a dining table with dark chairs ahead and an open living area to the left. I need to move forward past the table, then turn right toward the grey couches.",
+      "latency_s": 2.39,
+      "prompt_tokens": 1990
+    },
+    {
+      "n": 76,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "Through the opening ahead I can see grey couches in a living area. I need to turn right and move toward them, then stop nearby.",
+      "latency_s": 2.29,
+      "prompt_tokens": 1991
+    },
+    {
+      "n": 79,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see grey couches ahead past the white wall. I'll move forward toward them.",
+      "latency_s": 1.73,
+      "prompt_tokens": 1993
+    },
+    {
+      "n": 82,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The grey couches are visible through the opening on my left. I'll turn left and move toward them.",
+      "latency_s": 1.81,
+      "prompt_tokens": 1994
+    },
+    {
+      "n": 85,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The grey couches are visible ahead through the opening past the wall. I'll advance toward them and stop nearby.",
+      "latency_s": 1.69,
+      "prompt_tokens": 1996
+    },
+    {
+      "n": 89,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm currently facing a wall/obstruction, but in an earlier frame the grey couches were visible to the left through the opening. I'll turn left to re-aim toward the living area with the couches.",
+      "latency_s": 2.23,
+      "prompt_tokens": 1996
+    },
+    {
+      "n": 91,
+      "actions": [
+        "MOVE_FORWARD",
+        "STOP"
+      ],
+      "thought": "I can see the grey couches and the table in this patio area right ahead of me. I'm already near the grey couches, so I'll take one small step closer and then stop.",
+      "latency_s": 3.31,
+      "prompt_tokens": 1997
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    6.646,
+    6.646,
+    6.717,
+    6.811,
+    6.924,
+    7.449,
+    7.384,
+    7.32,
+    7.255,
+    7.32,
+    7.384,
+    7.449,
+    6.929,
+    6.866,
+    6.804,
+    6.741,
+    6.951,
+    7.275,
+    7.058,
+    7.183,
+    7.308,
+    7.433,
+    6.886,
+    6.765,
+    6.644,
+    6.582,
+    6.519,
+    6.582,
+    6.644,
+    6.706,
+    6.769,
+    6.832,
+    6.894,
+    7.485,
+    7.42,
+    7.355,
+    7.291,
+    7.226,
+    7.161,
+    7.096,
+    7.338,
+    6.865,
+    6.632,
+    6.462,
+    6.255,
+    6.096,
+    5.931,
+    5.768,
+    5.549,
+    5.334,
+    5.126,
+    4.939,
+    4.692
+  ],
+  "final_distance": 4.692,
+  "min_distance": 4.692,
+  "metrics": {
+    "distance_to_goal": 4.6920485496521,
+    "success": 0.0,
+    "spl": 0.0,
+    "oracle_success": 0.0,
+    "path_length": 6.7233578115701675,
+    "steps_taken": 91.0
+  },
+  "success": false,
+  "backend_stats": {
+    "calls": 1615,
+    "failures": 0,
+    "prompt_tokens": 3273023,
+    "completion_tokens": 120092,
+    "reasoning_tokens": 37845,
+    "latency_s": 3351.208877325058
+  },
+  "stop_deferrals": 0
+}

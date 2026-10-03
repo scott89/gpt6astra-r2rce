@@ -1,0 +1,1000 @@
+{
+  "episode_id": 512,
+  "scene_id": "2azQ1b91cZZ",
+  "instruction": "Exit the kitchen and go towards the small table set. Turn right and turn right again past the table. Wait by the white couches in the next room.",
+  "actions_taken": 269,
+  "policy_calls": 75,
+  "api_latency_s": 193.07,
+  "prompt_tokens": 150087,
+  "completion_tokens": 7223,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 194.87,
+  "steps": [
+    {
+      "n": 3,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the kitchen facing the island. I need to move around it toward the archway ahead to exit the kitchen.",
+      "latency_s": 2.14,
+      "prompt_tokens": 892
+    },
+    {
+      "n": 6,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the kitchen facing the island counter. I need to move around it toward the open living area ahead, then find the small table set.",
+      "latency_s": 1.85,
+      "prompt_tokens": 1247
+    },
+    {
+      "n": 10,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm behind the kitchen island; the open living area with the table set is to the right. I'll turn right and move around the island.",
+      "latency_s": 2.4,
+      "prompt_tokens": 1610
+    },
+    {
+      "n": 13,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm beside the kitchen island facing the ovens. The archway to the right of the ovens appears to be the exit toward the next room with the table set, so I'll turn right and proceed.",
+      "latency_s": 2.38,
+      "prompt_tokens": 1975
+    },
+    {
+      "n": 16,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm still by the kitchen counter; the archway to the right of the ovens appears to be the exit. I'll turn right and move toward it.",
+      "latency_s": 2.75,
+      "prompt_tokens": 1977
+    },
+    {
+      "n": 19,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm by the kitchen ovens with an arched doorway ahead leading out of the kitchen. I'll head through the arch to find the small table set.",
+      "latency_s": 2.83,
+      "prompt_tokens": 1979
+    },
+    {
+      "n": 22,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm beside the built-in ovens with an arched opening to the right leading onward. I'll turn right and move toward the arch to continue toward the table set.",
+      "latency_s": 2.51,
+      "prompt_tokens": 1980
+    },
+    {
+      "n": 25,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a wall next to an archway leading out of the kitchen area. I'll turn right toward the arch and proceed through it.",
+      "latency_s": 2.0,
+      "prompt_tokens": 1981
+    },
+    {
+      "n": 29,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in an arched hallway after exiting the kitchen. I need to continue along the hallway to find the table set and then the white couches. The hallway extends to the right, so I'll advance carefully.",
+      "latency_s": 2.6,
+      "prompt_tokens": 1983
+    },
+    {
+      "n": 32,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in an arched hallway after passing the table area. I need to find the next room with white couches; the hallway continues ahead, so I'll advance and watch for an opening on the right.",
+      "latency_s": 2.75,
+      "prompt_tokens": 1985
+    },
+    {
+      "n": 35,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a wall/door too closely in a hallway; the corridor extends to the right. I'll turn right to face down the hallway and look for the room with white couches.",
+      "latency_s": 2.55,
+      "prompt_tokens": 1985
+    },
+    {
+      "n": 38,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in an arched hallway. The instruction says to turn right twice past the table and wait by white couches, so I should look for a right-hand opening. There's a dark arched doorway on the right ahead; I'll advance toward it and check.",
+      "latency_s": 3.48,
+      "prompt_tokens": 1987
+    },
+    {
+      "n": 42,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in an arched hallway; the large arched opening on the right likely leads to the room with the white couches. I'll advance toward it and then turn right to enter.",
+      "latency_s": 2.74,
+      "prompt_tokens": 1987
+    },
+    {
+      "n": 46,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in an arched hallway; the dark arched doorway on the right opens into a room that may hold the white couches. I'll turn right and approach that archway.",
+      "latency_s": 2.53,
+      "prompt_tokens": 1987
+    },
+    {
+      "n": 50,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_RIGHT"
+      ],
+      "thought": "The dining table set is visible through the arched doorway on the right. I'll advance toward it, then turn right past the table toward the couches.",
+      "latency_s": 2.63,
+      "prompt_tokens": 1989
+    },
+    {
+      "n": 53,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've reached the small table set in the dining room. Per the instruction I need to go past the table with two right turns, so I'll enter the room and move toward the table first.",
+      "latency_s": 2.38,
+      "prompt_tokens": 1989
+    },
+    {
+      "n": 58,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the small table set. The white couches are visible through the opening ahead-left. I'll move toward the table, then turn right twice to pass it and head to the couches.",
+      "latency_s": 4.46,
+      "prompt_tokens": 1991
+    },
+    {
+      "n": 62,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm at the dining table; the white couches are in the living room visible to my left. I'll turn right to pass along the table, then turn right again toward the couches.",
+      "latency_s": 2.95,
+      "prompt_tokens": 1994
+    },
+    {
+      "n": 65,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm beside the dining table near the sideboard. The instruction says to turn right twice past the table and wait by the white couches in the next room, which I glimpsed earlier to the left. I'll turn right to clear the table end and re-observe.",
+      "latency_s": 3.95,
+      "prompt_tokens": 1996
+    },
+    {
+      "n": 69,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm facing a carved wooden sideboard, so I overshot past the dining table. I'll turn left to re-orient toward the room with the white couches.",
+      "latency_s": 2.78,
+      "prompt_tokens": 1997
+    },
+    {
+      "n": 73,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm beside the dining table facing a sideboard. The instruction says to go past the table and then find the white couches in the next room. I'll turn left to move along the table toward the open living area.",
+      "latency_s": 3.42,
+      "prompt_tokens": 1998
+    },
+    {
+      "n": 75,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm beside a large wooden table; the instruction says to turn right past the table and wait by white couches in the next room. I'll turn right to scan for the couches or a doorway.",
+      "latency_s": 2.46,
+      "prompt_tokens": 2000
+    },
+    {
+      "n": 78,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm beside the table set; the instruction says turn right past the table toward the white couches. I'll turn right and advance carefully, re-observing.",
+      "latency_s": 2.22,
+      "prompt_tokens": 2001
+    },
+    {
+      "n": 82,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've drifted into a dresser and lost sight of the room. I need to turn away from it and re-locate the white couches in the next room.",
+      "latency_s": 2.45,
+      "prompt_tokens": 2003
+    },
+    {
+      "n": 86,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've drifted too close to a dresser and am facing a wall. I need to back off and reorient to find the room with the white couches.",
+      "latency_s": 2.4,
+      "prompt_tokens": 2005
+    },
+    {
+      "n": 90,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a hallway facing double doors; the white couches should be in a room off to the side. I'll turn right to scan for the living room.",
+      "latency_s": 2.48,
+      "prompt_tokens": 2007
+    },
+    {
+      "n": 94,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm beside the table set; the instruction says to turn right past the table, then right again toward the white couches. I'll turn right and re-observe.",
+      "latency_s": 2.53,
+      "prompt_tokens": 2009
+    },
+    {
+      "n": 97,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the large table set. Per the instruction I need to turn right and then right again to pass the table, heading toward the room with white couches visible ahead.",
+      "latency_s": 3.0,
+      "prompt_tokens": 2011
+    },
+    {
+      "n": 101,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm beside the small table set. Per the instruction I need to turn right twice and pass the table, heading toward the next room with white couches.",
+      "latency_s": 2.19,
+      "prompt_tokens": 2013
+    },
+    {
+      "n": 105,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm beside the table set; the instruction says turn right and right again past the table toward the white couches. I'll turn right and proceed around the table end.",
+      "latency_s": 2.13,
+      "prompt_tokens": 2015
+    },
+    {
+      "n": 109,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm beside the dining table; the instruction says to turn right past the table and head to the next room with white couches. I'll turn right and move toward the opening on the right side.",
+      "latency_s": 2.53,
+      "prompt_tokens": 2017
+    },
+    {
+      "n": 112,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm beside the dining table; the instruction says turn right past the table toward the next room with white couches. I'll turn right and proceed around the table.",
+      "latency_s": 2.24,
+      "prompt_tokens": 2019
+    },
+    {
+      "n": 116,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I appear wedged next to a table with the camera blocked. I need to back away by turning and moving to re-enter the open room, then look for the white couches.",
+      "latency_s": 2.42,
+      "prompt_tokens": 2021
+    },
+    {
+      "n": 119,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm pressed against a large wooden dresser, so I need to back away and reorient toward the open room with the rug visible on the left.",
+      "latency_s": 5.47,
+      "prompt_tokens": 2023
+    },
+    {
+      "n": 122,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm pressed against a large wooden dresser, blocking my view. I need to back away and re-orient toward the open rug area ahead to find the white couches.",
+      "latency_s": 2.39,
+      "prompt_tokens": 2025
+    },
+    {
+      "n": 124,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm facing a large covered piece of furniture blocking my path; the open rug area is to the left. I'll turn left to navigate around it.",
+      "latency_s": 2.38,
+      "prompt_tokens": 2027
+    },
+    {
+      "n": 126,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've passed the table and entered the living room; a couch area near the fireplace is visible ahead. I'll advance a couple of steps toward it before stopping.",
+      "latency_s": 2.41,
+      "prompt_tokens": 2028
+    },
+    {
+      "n": 131,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the table set. Per the instruction I need to turn right, then right again to go past the table, heading toward the next room with white couches. I'll start by turning right and moving around the table.",
+      "latency_s": 3.11,
+      "prompt_tokens": 2029
+    },
+    {
+      "n": 135,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the table set; the instruction says turn right and turn right again past the table, heading toward the white couches. I'll turn right and move around the table.",
+      "latency_s": 1.92,
+      "prompt_tokens": 2032
+    },
+    {
+      "n": 138,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm beside the dining table; the instruction says to pass the table turning right twice toward the white couches. I'll turn right and move along the table toward the far side of the room.",
+      "latency_s": 2.42,
+      "prompt_tokens": 2033
+    },
+    {
+      "n": 141,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the dining table but a chair blocks my immediate path. I'll turn right to skirt around the chair and head toward the doorway ahead, then look for the white couches in the next room.",
+      "latency_s": 2.38,
+      "prompt_tokens": 2036
+    },
+    {
+      "n": 144,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I am pressed against a large wooden dresser, blocking my view. I need to back away and re-orient toward the doorway visible on the left to continue toward the couches.",
+      "latency_s": 2.12,
+      "prompt_tokens": 2038
+    },
+    {
+      "n": 147,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "The view is blocked by furniture right in front of me; I need to reposition to find a clear path toward the room with the white couches.",
+      "latency_s": 2.03,
+      "prompt_tokens": 2040
+    },
+    {
+      "n": 149,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm facing a large wooden dresser blocking my path. I need to turn left to navigate around it and find the way toward the white couches.",
+      "latency_s": 2.11,
+      "prompt_tokens": 2042
+    },
+    {
+      "n": 151,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm pressed against a dresser with a wall ahead; the open rug area is to my left. I'll turn left to re-aim toward the open passage before moving.",
+      "latency_s": 2.18,
+      "prompt_tokens": 2043
+    },
+    {
+      "n": 153,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm pressed against a large wooden dresser blocking the view. I should back off by turning left toward the open rug area and re-observe before moving.",
+      "latency_s": 2.25,
+      "prompt_tokens": 2043
+    },
+    {
+      "n": 156,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "A chair blocks my immediate view; the living room with white couches appears to the left past it. I'll turn left and step around the chair to re-observe.",
+      "latency_s": 2.8,
+      "prompt_tokens": 2044
+    },
+    {
+      "n": 160,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm beside the dining table set; the instruction says turn right past the table and head toward the white couches. I'll turn right and re-observe before moving.",
+      "latency_s": 2.09,
+      "prompt_tokens": 2045
+    },
+    {
+      "n": 162,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm beside the table with a doorway ahead. The instruction says to turn right past the table toward the white couches, so I'll rotate right to scan that direction before moving.",
+      "latency_s": 2.85,
+      "prompt_tokens": 2046
+    },
+    {
+      "n": 167,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've drifted into a corner next to a dresser, facing it too closely. I need to turn away from the furniture and re-enter the open area to find the white couches.",
+      "latency_s": 2.44,
+      "prompt_tokens": 2048
+    },
+    {
+      "n": 173,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I've drifted into a corner against a large dresser and lost sight of the room. I need to turn away from the dresser and head back toward the open area to find the white couches.",
+      "latency_s": 2.63,
+      "prompt_tokens": 2050
+    },
+    {
+      "n": 176,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm pressed against a dresser; the corridor with the door ahead is to my left. I'll turn left to clear the furniture and face the walkway.",
+      "latency_s": 2.56,
+      "prompt_tokens": 2053
+    },
+    {
+      "n": 179,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm right against a large table blocking my view. I need to back off the table path and go around it toward the doorway visible ahead, then find the white couches.",
+      "latency_s": 2.63,
+      "prompt_tokens": 2054
+    },
+    {
+      "n": 181,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a dining area with a covered table blocking the left; there's a gap ahead toward the door. I'll advance carefully through the gap and re-observe.",
+      "latency_s": 2.31,
+      "prompt_tokens": 2056
+    },
+    {
+      "n": 184,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm right behind a large covered piece of furniture blocking the path. I'll turn right to skirt around it and re-observe.",
+      "latency_s": 2.51,
+      "prompt_tokens": 2056
+    },
+    {
+      "n": 187,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a hallway blocked by a large dresser ahead; the doorway to the next room seems to be to the right. I'll turn right to look for a clear path toward the white couches.",
+      "latency_s": 2.32,
+      "prompt_tokens": 2058
+    },
+    {
+      "n": 191,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm pressed against a large wooden dresser blocking the way. I need to turn right to move around it and find the white couches.",
+      "latency_s": 2.35,
+      "prompt_tokens": 2060
+    },
+    {
+      "n": 195,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm pressed against a large wooden dresser. There's a doorway visible to the right; I should turn right and move through it to continue toward the couches.",
+      "latency_s": 2.77,
+      "prompt_tokens": 2064
+    },
+    {
+      "n": 199,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a hallway with arched doorways; the white couches should be in a room off to the side. I'll turn right to check the right archway.",
+      "latency_s": 2.26,
+      "prompt_tokens": 2063
+    },
+    {
+      "n": 204,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm beside the small table set; the instruction says turn right and right again past the table, then wait by the white couches in the next room. I'll turn right to circle around the table first.",
+      "latency_s": 4.18,
+      "prompt_tokens": 2065
+    },
+    {
+      "n": 208,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm beside the table set; the instruction says turn right twice past the table and wait by the white couches in the next room. I'll turn right and head toward the couches visible ahead.",
+      "latency_s": 2.99,
+      "prompt_tokens": 2068
+    },
+    {
+      "n": 212,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm beside the large table; the next room with the fireplace is ahead. I'll turn right to go around the table end, then proceed toward the couches.",
+      "latency_s": 3.01,
+      "prompt_tokens": 2070
+    },
+    {
+      "n": 215,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm beside the table set; the instruction says turn right again past the table and head toward the next room with white couches. I'll turn right and advance toward the open area.",
+      "latency_s": 2.53,
+      "prompt_tokens": 2072
+    },
+    {
+      "n": 219,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm beside the table set. Per the instruction I need to turn right, pass the table, turn right again, and head toward the white couches in the next room. I'll turn right and move along the table first.",
+      "latency_s": 2.55,
+      "prompt_tokens": 2074
+    },
+    {
+      "n": 224,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm pressed against a dresser, having overshot past the table set. I need to back away and re-orient toward the room with the white couches.",
+      "latency_s": 2.39,
+      "prompt_tokens": 2079
+    },
+    {
+      "n": 230,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm pressed against a dresser, having drifted off course. I need to back away from the furniture and re-orient toward the room with the white couches.",
+      "latency_s": 2.36,
+      "prompt_tokens": 2081
+    },
+    {
+      "n": 236,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm wedged against a dresser and wall, not at the white couches yet. I need to back out of this corner and re-orient toward the open room.",
+      "latency_s": 2.43,
+      "prompt_tokens": 2081
+    },
+    {
+      "n": 240,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm pressed against a dresser, so I need to back out and reorient. The doorway seen earlier was to the right; I'll turn right to look for the room with white couches.",
+      "latency_s": 2.36,
+      "prompt_tokens": 2085
+    },
+    {
+      "n": 246,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a blank wall corner next to a dresser; the doorway with glass doors was behind me. I need to turn around and head toward the room with white couches.",
+      "latency_s": 2.18,
+      "prompt_tokens": 2085
+    },
+    {
+      "n": 249,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall/pillar in a hallway. I need to find the room with white couches; turning right to scan the space.",
+      "latency_s": 1.88,
+      "prompt_tokens": 2091
+    },
+    {
+      "n": 252,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm past the table and facing an open living room with a fireplace; the white couches should be in this room. I'll advance toward it and look for the couches.",
+      "latency_s": 2.54,
+      "prompt_tokens": 2093
+    },
+    {
+      "n": 255,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I see a living room with a fireplace ahead through the opening; the white couches should be there. I'll advance toward it and re-observe.",
+      "latency_s": 2.17,
+      "prompt_tokens": 2094
+    },
+    {
+      "n": 258,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the living room with white couches ahead past the doorway. I'll advance toward them.",
+      "latency_s": 1.91,
+      "prompt_tokens": 2091
+    },
+    {
+      "n": 263,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a wall/pillar; the living room with white couches is visible to the right. I'll turn right and approach the couches.",
+      "latency_s": 2.45,
+      "prompt_tokens": 2095
+    },
+    {
+      "n": 269,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "STOP"
+      ],
+      "thought": "I've entered the large living room with the fireplace; the white couches are visible on the right side. I'll advance toward them and stop nearby.",
+      "latency_s": 2.32,
+      "prompt_tokens": 2097
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    4.309,
+    4.482,
+    4.677,
+    4.885,
+    5.103,
+    5.323,
+    5.534,
+    5.782,
+    6.03,
+    6.27,
+    5.262,
+    5.059,
+    4.954,
+    4.971,
+    5.091,
+    5.241,
+    5.452,
+    5.669,
+    5.914,
+    6.159,
+    6.409,
+    6.658,
+    6.907,
+    7.157,
+    7.407,
+    7.647,
+    7.86,
+    8.076,
+    8.296,
+    8.518,
+    8.743,
+    8.97,
+    9.199,
+    9.429,
+    9.585,
+    9.747,
+    9.914,
+    10.086,
+    10.263,
+    10.416,
+    10.618,
+    10.841,
+    11.075,
+    11.314,
+    11.501,
+    11.668,
+    11.856,
+    11.905,
+    12.155,
+    12.332,
+    12.336,
+    12.296,
+    12.336,
+    12.306,
+    12.284,
+    12.367,
+    12.325,
+    12.284,
+    12.305,
+    12.336,
+    12.319,
+    12.305,
+    12.283,
+    12.367,
+    12.325,
+    12.284,
+    12.249,
+    12.365,
+    12.367,
+    12.287,
+    12.318,
+    12.336,
+    12.319,
+    12.305,
+    12.269,
+    12.039,
+    11.774,
+    11.731,
+    11.73,
+    11.771,
+    11.851,
+    11.965,
+    12.103,
+    12.278,
+    12.478,
+    12.693,
+    12.943,
+    13.193,
+    13.443,
+    14.418,
+    14.423,
+    14.384,
+    14.364
+  ],
+  "final_distance": 14.364,
+  "min_distance": 4.309,
+  "metrics": {
+    "distance_to_goal": 14.364355087280273,
+    "success": 0.0,
+    "spl": 0.0,
+    "oracle_success": 0.0,
+    "path_length": 19.467487524729222,
+    "steps_taken": 269.0
+  },
+  "success": false,
+  "backend_stats": {
+    "calls": 75,
+    "failures": 0,
+    "prompt_tokens": 150087,
+    "completion_tokens": 7223,
+    "reasoning_tokens": 2746,
+    "latency_s": 193.10182189941406
+  },
+  "stop_deferrals": 0
+}

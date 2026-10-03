@@ -1,0 +1,136 @@
+{
+  "episode_id": 1681,
+  "scene_id": "zsNo4HB9uLZ",
+  "instruction": "Go straight into the kitchen, turn left and go passed the bar. Go to the end of the hallway and stop in front of the sink and shelves.",
+  "actions_taken": 22,
+  "policy_calls": 7,
+  "api_latency_s": 17.53,
+  "prompt_tokens": 11648,
+  "completion_tokens": 781,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 17.63,
+  "steps": [
+    {
+      "n": 4,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The kitchen with the bar counter is straight ahead. I'll advance toward it, then turn left as instructed.",
+      "latency_s": 1.41,
+      "prompt_tokens": 891
+    },
+    {
+      "n": 8,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing the kitchen with the bar counter ahead. I'll advance toward the bar, then turn left to head down the hallway toward the sink and shelves.",
+      "latency_s": 1.96,
+      "prompt_tokens": 1246
+    },
+    {
+      "n": 11,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing the kitchen island (bar). I need to approach it, then turn left to pass it and head down the hallway toward the sink and shelves.",
+      "latency_s": 1.97,
+      "prompt_tokens": 1609
+    },
+    {
+      "n": 14,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've reached the kitchen bar. Per the instruction I should turn left and pass the bar, heading toward the sink/shelves along the back counter.",
+      "latency_s": 2.45,
+      "prompt_tokens": 1974
+    },
+    {
+      "n": 17,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm beside the kitchen bar with the counter and sink ahead. I'll advance toward the counter where the sink and shelves are.",
+      "latency_s": 2.32,
+      "prompt_tokens": 1975
+    },
+    {
+      "n": 21,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the kitchen bar; the instruction says to turn left and pass the bar toward the hallway with shelves. The opening with shelves is ahead-left, so I'll turn left and advance.",
+      "latency_s": 2.57,
+      "prompt_tokens": 1976
+    },
+    {
+      "n": 22,
+      "actions": [
+        "STOP"
+      ],
+      "thought": "I have passed the bar and the sink in the counter is directly in front of me, with shelves visible ahead; I am within range of the described spot.",
+      "latency_s": 4.85,
+      "prompt_tokens": 1977
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    9.979,
+    9.738,
+    9.498,
+    9.259,
+    9.022,
+    8.788,
+    8.556,
+    8.329,
+    8.107,
+    7.895,
+    7.714,
+    7.643,
+    7.785,
+    7.962,
+    9.603,
+    9.423,
+    9.243,
+    9.025,
+    8.806,
+    8.587
+  ],
+  "final_distance": 8.587,
+  "min_distance": 7.643,
+  "metrics": {
+    "distance_to_goal": 8.587403297424316,
+    "success": 0.0,
+    "spl": 0.0,
+    "oracle_success": 0.0,
+    "path_length": 4.352239102125168,
+    "steps_taken": 22.0
+  },
+  "success": false,
+  "backend_stats": {
+    "calls": 816,
+    "failures": 0,
+    "prompt_tokens": 1639438,
+    "completion_tokens": 72088,
+    "reasoning_tokens": 27086,
+    "latency_s": 1841.5936515331268
+  },
+  "stop_deferrals": 0
+}

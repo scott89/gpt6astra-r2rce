@@ -1,0 +1,476 @@
+{
+  "episode_id": 1687,
+  "scene_id": "oLBMNvg9in8",
+  "instruction": "Go straight down the stairs and take the first right doorway. Continue down the stairs and stop once you reach the bottom.",
+  "actions_taken": 120,
+  "policy_calls": 37,
+  "api_latency_s": 90.2,
+  "prompt_tokens": 71461,
+  "completion_tokens": 3647,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 90.88,
+  "steps": [
+    {
+      "n": 2,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm facing a wall with a radiator; a doorway is visible to my left. I need to turn left to find the stairs.",
+      "latency_s": 1.75,
+      "prompt_tokens": 884
+    },
+    {
+      "n": 4,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is ahead-left; I need to align with it and descend.",
+      "latency_s": 1.69,
+      "prompt_tokens": 1239
+    },
+    {
+      "n": 6,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I see a staircase ahead in the hallway. I'll advance toward it to reach the stairs and begin descending.",
+      "latency_s": 2.68,
+      "prompt_tokens": 1603
+    },
+    {
+      "n": 8,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is directly ahead and I'm aligned with it. I'll advance toward the stairs to go down as instructed.",
+      "latency_s": 2.4,
+      "prompt_tokens": 1966
+    },
+    {
+      "n": 11,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing the staircase going down. I'll advance toward the stairs and descend, then look for the first right doorway.",
+      "latency_s": 1.89,
+      "prompt_tokens": 1967
+    },
+    {
+      "n": 13,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a staircase ahead; the instruction says to go down the stairs, so I'll advance toward and onto them, then look for the first right doorway.",
+      "latency_s": 2.96,
+      "prompt_tokens": 1966
+    },
+    {
+      "n": 16,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The stairs ahead go up, so the downward stairs must be through the open doorway on the right. I'll turn right and head through that doorway.",
+      "latency_s": 2.47,
+      "prompt_tokens": 1967
+    },
+    {
+      "n": 22,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm currently facing a staircase going up, but the instruction requires going down. I need to turn around to find the descending stairs.",
+      "latency_s": 2.98,
+      "prompt_tokens": 1969
+    },
+    {
+      "n": 25,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm on a stair landing facing a wall with the railing to my right. I need to turn right to face the descending stairs and continue down to the bottom.",
+      "latency_s": 2.59,
+      "prompt_tokens": 1971
+    },
+    {
+      "n": 31,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm currently facing up a staircase; the instruction requires descending. I need to turn around to face down the stairs before moving.",
+      "latency_s": 2.52,
+      "prompt_tokens": 1973
+    },
+    {
+      "n": 34,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm at a landing facing a green room, but the instruction says to continue down the stairs after the first right doorway. I need to turn right to find the descending staircase.",
+      "latency_s": 2.33,
+      "prompt_tokens": 1976
+    },
+    {
+      "n": 37,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to have entered a green-walled room instead of continuing down the stairs; I need to find the doorway back toward the stairwell. I'll turn right to scan for the exit and stairs.",
+      "latency_s": 2.49,
+      "prompt_tokens": 1977
+    },
+    {
+      "n": 40,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a wall next to a doorway on my right that opens into a hallway. I need to turn right and pass through it to continue toward the stairs.",
+      "latency_s": 2.03,
+      "prompt_tokens": 1979
+    },
+    {
+      "n": 43,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a hallway facing a wall; the corridor extends to the right. I need to find the stairs, so I'll turn right and scan the hallway.",
+      "latency_s": 1.9,
+      "prompt_tokens": 1980
+    },
+    {
+      "n": 46,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall in a hallway and don't see stairs; I need to re-orient to find the stairway and the right-hand doorway mentioned in the instruction.",
+      "latency_s": 2.62,
+      "prompt_tokens": 1982
+    },
+    {
+      "n": 52,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a blank wall after passing the doorway. I need to turn around to find the stairs and continue down.",
+      "latency_s": 2.21,
+      "prompt_tokens": 1983
+    },
+    {
+      "n": 58,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "The stairs ahead appear to go up, but the instruction says to go down. I likely need to turn around to find the descending stairs.",
+      "latency_s": 3.09,
+      "prompt_tokens": 1986
+    },
+    {
+      "n": 62,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the top of the staircase; the green room on my right is likely the first right doorway at the landing. I should first descend the stairs toward that landing, then take the right doorway and continue down.",
+      "latency_s": 4.25,
+      "prompt_tokens": 1989
+    },
+    {
+      "n": 66,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I passed through a doorway into a green room, but the instruction says after the right doorway I should continue down stairs. I need to look around for the continuing staircase; turning right to scan the room.",
+      "latency_s": 3.01,
+      "prompt_tokens": 1991
+    },
+    {
+      "n": 69,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a green-walled room facing a fireplace; a doorway is visible on my right. The instruction says to take the first right doorway and continue down the stairs, so I should turn right and head through that doorway to look for the stairs.",
+      "latency_s": 2.93,
+      "prompt_tokens": 1993
+    },
+    {
+      "n": 72,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall next to a doorway; the stairs should be beyond it. I'll turn right to re-orient and look for the stairwell.",
+      "latency_s": 1.96,
+      "prompt_tokens": 1995
+    },
+    {
+      "n": 74,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "The camera is pressed against a wall/doorframe; I need to reorient to find the doorway and continue toward the stairs.",
+      "latency_s": 1.8,
+      "prompt_tokens": 1997
+    },
+    {
+      "n": 77,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to be facing a wall very closely; the view is blocked. I need to turn to re-orient and find the stairway down.",
+      "latency_s": 1.84,
+      "prompt_tokens": 1998
+    },
+    {
+      "n": 83,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm at a landing where the visible staircase goes up, but the instruction says to continue down. The descending stairs are likely behind me, so I'll turn around to look for them.",
+      "latency_s": 2.61,
+      "prompt_tokens": 1999
+    },
+    {
+      "n": 85,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to have drifted into a green-walled room rather than continuing down the stairs. I need to turn back toward the doorway with the staircase visible and reorient before descending.",
+      "latency_s": 2.73,
+      "prompt_tokens": 2002
+    },
+    {
+      "n": 88,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to have entered a green-walled room rather than continuing down the stairs; the staircase was behind me near the doorway I just passed. I'll turn right to scan for the stair doorway.",
+      "latency_s": 2.87,
+      "prompt_tokens": 2003
+    },
+    {
+      "n": 91,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a green-walled room but no stairs are visible yet. I need to scan for the doorway leading to the stairs.",
+      "latency_s": 2.08,
+      "prompt_tokens": 2005
+    },
+    {
+      "n": 93,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a green-walled room with no stairs visible; the instruction expects stairways. There appears to be a doorway at the right edge of my view, so I'll turn right to inspect it and look for the stairs.",
+      "latency_s": 3.11,
+      "prompt_tokens": 2006
+    },
+    {
+      "n": 96,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall next to a doorway; the stairs should be through the opening to my right. I'll turn right to re-aim before moving.",
+      "latency_s": 1.8,
+      "prompt_tokens": 2007
+    },
+    {
+      "n": 99,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "The view is blocked by a wall/door edge; I need to reorient to find the doorway and stairs.",
+      "latency_s": 1.69,
+      "prompt_tokens": 2009
+    },
+    {
+      "n": 101,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm pressed against a wall with a blocked view; I need to rotate to re-orient and find the doorway leading onward.",
+      "latency_s": 2.09,
+      "prompt_tokens": 2010
+    },
+    {
+      "n": 104,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at a doorway with a staircase visible ahead. I need to pass through and descend the stairs, stopping at the bottom.",
+      "latency_s": 2.01,
+      "prompt_tokens": 2011
+    },
+    {
+      "n": 107,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm on a landing; stairs go up to the right, but I need the downward stairs. I'll turn right to scan for the descending staircase.",
+      "latency_s": 2.5,
+      "prompt_tokens": 2012
+    },
+    {
+      "n": 110,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm on a landing facing stairs that go up, but the instruction says to continue down. The descending stairs are likely behind/left of me, so I'll turn to locate them.",
+      "latency_s": 2.63,
+      "prompt_tokens": 2014
+    },
+    {
+      "n": 113,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm at a stair landing facing a wall; the staircase is to my right. I need to find the first right doorway, so I'll turn right to scan the area.",
+      "latency_s": 2.18,
+      "prompt_tokens": 2015
+    },
+    {
+      "n": 119,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing up a staircase; the instruction says to descend. I'll turn right to face down the stairs and then move forward carefully.",
+      "latency_s": 2.86,
+      "prompt_tokens": 2017
+    },
+    {
+      "n": 120,
+      "actions": [
+        "STOP"
+      ],
+      "thought": "I have descended the stairs and now face a green room at the bottom; the instruction ends at the bottom of the stairs, so I should stop here.",
+      "latency_s": 2.65,
+      "prompt_tokens": 2020
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    9.163,
+    9.163,
+    8.922,
+    8.684,
+    8.436,
+    8.195,
+    7.957,
+    7.722,
+    7.491,
+    7.302,
+    7.021,
+    6.806,
+    6.658,
+    6.556,
+    6.709,
+    6.857,
+    7.036,
+    7.234,
+    7.493,
+    7.187,
+    6.94,
+    6.695
+  ],
+  "final_distance": 6.695,
+  "min_distance": 6.556,
+  "metrics": {
+    "distance_to_goal": 6.694611549377441,
+    "success": 0.0,
+    "spl": 0.0,
+    "oracle_success": 0.0,
+    "path_length": 5.142254114151001,
+    "steps_taken": 120.0
+  },
+  "success": false,
+  "backend_stats": {
+    "calls": 578,
+    "failures": 0,
+    "prompt_tokens": 1135220,
+    "completion_tokens": 49269,
+    "reasoning_tokens": 17736,
+    "latency_s": 1349.302741765976
+  },
+  "stop_deferrals": 0
+}

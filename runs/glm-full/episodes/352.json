@@ -1,0 +1,1594 @@
+{
+  "episode_id": 352,
+  "scene_id": "zsNo4HB9uLZ",
+  "instruction": "Walk out of the dining room and into the door between the dining room and kitchen. In the hall take a right into a bedroom and stop outside of the closet door.",
+  "actions_taken": 457,
+  "policy_calls": 127,
+  "api_latency_s": 296.6,
+  "prompt_tokens": 261586,
+  "completion_tokens": 12027,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 299.03,
+  "steps": [
+    {
+      "n": 3,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm currently facing a kitchen counter. I need to find the doorway between the dining room and kitchen, so I'll turn to scan the surroundings first.",
+      "latency_s": 1.82,
+      "prompt_tokens": 894
+    },
+    {
+      "n": 6,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the hall with the kitchen on the right. I need to proceed down the hall and find the bedroom entrance on the right.",
+      "latency_s": 1.83,
+      "prompt_tokens": 1249
+    },
+    {
+      "n": 9,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the hall next to the kitchen. The instruction says to take a right into a bedroom, so I'll proceed down the hall watching for a doorway on the right.",
+      "latency_s": 2.2,
+      "prompt_tokens": 1613
+    },
+    {
+      "n": 12,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in the hall past the kitchen; the instruction says to take a right into a bedroom. I'll turn right to look for the bedroom doorway.",
+      "latency_s": 2.19,
+      "prompt_tokens": 1976
+    },
+    {
+      "n": 15,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall up close after turning right; I need to reorient to find the bedroom entrance off the hall. I'll turn right to scan the area behind me.",
+      "latency_s": 2.6,
+      "prompt_tokens": 1978
+    },
+    {
+      "n": 21,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've drifted too far and am now facing a kitchen counter instead of the hallway. I need to turn around to re-find the hall and the bedroom entrance on the right.",
+      "latency_s": 2.44,
+      "prompt_tokens": 1979
+    },
+    {
+      "n": 25,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to be in the open kitchen/living area, having passed through the dining room. I need to find the hallway and the bedroom on its right, so I'll scan the surroundings first.",
+      "latency_s": 2.53,
+      "prompt_tokens": 1982
+    },
+    {
+      "n": 28,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've passed through the kitchen/living area and now face a wall. I need to find the hallway to the right to reach the bedroom, so I'll turn right to scan.",
+      "latency_s": 2.0,
+      "prompt_tokens": 1984
+    },
+    {
+      "n": 31,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall/pillar in the living area. I need to find the hallway to take a right into a bedroom, so I'll turn right to scan the space.",
+      "latency_s": 2.27,
+      "prompt_tokens": 1986
+    },
+    {
+      "n": 33,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in the hall now; the instruction says to take a right into a bedroom. I should turn right to look for the bedroom doorway.",
+      "latency_s": 2.25,
+      "prompt_tokens": 1987
+    },
+    {
+      "n": 36,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the hall; I need to find a doorway on the right leading to a bedroom. I'll advance along the hall and re-observe.",
+      "latency_s": 2.08,
+      "prompt_tokens": 1988
+    },
+    {
+      "n": 39,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in the hallway heading toward the front door area. The instruction says to take a right into a bedroom, so I should continue down the hall looking for an opening on the right.",
+      "latency_s": 2.02,
+      "prompt_tokens": 1989
+    },
+    {
+      "n": 42,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in the hall facing a wall closely. The instruction says to take a right into a bedroom, so I should turn right to look for the bedroom doorway.",
+      "latency_s": 1.97,
+      "prompt_tokens": 1990
+    },
+    {
+      "n": 46,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm facing a blank wall after turning right too far. I need to turn left to face back down the hallway and find the bedroom entrance.",
+      "latency_s": 2.12,
+      "prompt_tokens": 1992
+    },
+    {
+      "n": 49,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a hallway facing along it. The instruction says to take a right into a bedroom, so I should turn right to look for the bedroom doorway.",
+      "latency_s": 1.77,
+      "prompt_tokens": 1993
+    },
+    {
+      "n": 55,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm facing a blank wall after turning; the hallway was behind me. I'll turn around to re-orient and look for the bedroom entrance on the right side of the hall.",
+      "latency_s": 2.08,
+      "prompt_tokens": 1995
+    },
+    {
+      "n": 58,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in the hall past the dining room. The instruction says to take a right into a bedroom, so I need to scan to my right for a bedroom doorway.",
+      "latency_s": 2.57,
+      "prompt_tokens": 1997
+    },
+    {
+      "n": 61,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in the hall; the instruction says to take a right into a bedroom. I'll turn right to look for the bedroom doorway.",
+      "latency_s": 2.74,
+      "prompt_tokens": 1999
+    },
+    {
+      "n": 67,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a blank wall, having drifted off course in the hallway. I need to turn around to re-find the hallway and locate the bedroom entrance on the right.",
+      "latency_s": 1.8,
+      "prompt_tokens": 2000
+    },
+    {
+      "n": 73,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall next to the kitchen counter; the hallway is behind me. I need to turn around and head back down the hall to find the bedroom on the right.",
+      "latency_s": 2.44,
+      "prompt_tokens": 2003
+    },
+    {
+      "n": 76,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to be in a living room with sofas, not yet in the bedroom. I need to find the hallway; I'll turn right to scan for a doorway.",
+      "latency_s": 2.38,
+      "prompt_tokens": 2006
+    },
+    {
+      "n": 80,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to be in a living room, not yet in the bedroom. I need to find the hallway and the bedroom entrance; I'll turn to scan the surroundings.",
+      "latency_s": 2.95,
+      "prompt_tokens": 2008
+    },
+    {
+      "n": 83,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a hallway with the living room on the left. The instruction says to take a right into a bedroom, so I should scan the right side of the hall for a doorway.",
+      "latency_s": 2.27,
+      "prompt_tokens": 2009
+    },
+    {
+      "n": 89,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm facing a wall in the hallway. I need to turn around to look back down the hall and find the bedroom doorway on the right.",
+      "latency_s": 2.02,
+      "prompt_tokens": 2011
+    },
+    {
+      "n": 95,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've drifted into the living room; the hallway with the console table is back to my right. I'll turn right to re-face the hall and then proceed to find the bedroom doorway.",
+      "latency_s": 2.87,
+      "prompt_tokens": 2013
+    },
+    {
+      "n": 98,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a hall facing a wall; the instruction says take a right into a bedroom. I'll turn right to scan for the bedroom doorway.",
+      "latency_s": 1.72,
+      "prompt_tokens": 2016
+    },
+    {
+      "n": 104,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a blank wall, likely having overshot or turned into a corner. I need to turn around to re-orient toward the hallway and find the bedroom entrance.",
+      "latency_s": 1.88,
+      "prompt_tokens": 2018
+    },
+    {
+      "n": 107,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall; the hallway should be behind/right of me. I'll turn right to re-orient and look for the bedroom entrance.",
+      "latency_s": 2.03,
+      "prompt_tokens": 2021
+    },
+    {
+      "n": 110,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I appear to be in an open living area, not yet in the bedroom. I need to find the hallway; I'll turn left to scan for a doorway or hall.",
+      "latency_s": 2.35,
+      "prompt_tokens": 2022
+    },
+    {
+      "n": 113,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall very closely; the open living/kitchen area is to my right. I need to turn right to reorient and find the doorway toward the hall and bedroom.",
+      "latency_s": 2.41,
+      "prompt_tokens": 2023
+    },
+    {
+      "n": 116,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I appear to be in an open living area past the dining room; I need to find the hall and the bedroom on the right. I'll turn left to scan for a doorway or hallway.",
+      "latency_s": 2.67,
+      "prompt_tokens": 2025
+    },
+    {
+      "n": 120,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall next to the kitchen counter; the open hallway area is to my right. I'll turn right to re-orient and look for the bedroom door.",
+      "latency_s": 1.84,
+      "prompt_tokens": 2026
+    },
+    {
+      "n": 123,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I appear to be in an open living area, not yet in the bedroom. I need to find the hallway; I'll turn left to scan for a doorway or hall.",
+      "latency_s": 2.58,
+      "prompt_tokens": 2027
+    },
+    {
+      "n": 126,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to be in an open living area, not yet in the bedroom. I need to find the hallway; I'll turn right to scan for a doorway or hall leading to a bedroom.",
+      "latency_s": 3.05,
+      "prompt_tokens": 2029
+    },
+    {
+      "n": 130,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to be in an open living area with a sofa and a column; I need to find the hallway and then a bedroom on the right. I'll turn right to scan for a doorway or hall.",
+      "latency_s": 2.56,
+      "prompt_tokens": 2031
+    },
+    {
+      "n": 136,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I appear to be in a living room, not the bedroom the instruction describes. I need to backtrack toward the hall and find the bedroom entrance; I'll turn left to re-orient toward the open area I came from.",
+      "latency_s": 2.9,
+      "prompt_tokens": 2032
+    },
+    {
+      "n": 139,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I appear to be in an open living area with a kitchen counter to the left; I need to find the hall and then a bedroom on the right. I'll turn left to scan toward the kitchen/hall area first.",
+      "latency_s": 2.45,
+      "prompt_tokens": 2035
+    },
+    {
+      "n": 142,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall next to the kitchen counter; the hallway continues to the right. I'll turn right to re-orient along the hall.",
+      "latency_s": 1.78,
+      "prompt_tokens": 2036
+    },
+    {
+      "n": 145,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm currently facing a living room with dark couches, but the instruction requires a hallway with a bedroom on the right. I need to explore to find the hall; I'll turn left to check the area behind the wall.",
+      "latency_s": 2.72,
+      "prompt_tokens": 2038
+    },
+    {
+      "n": 149,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall; the open living/kitchen area is to my right. I need to re-orient and find the hallway leading to a bedroom.",
+      "latency_s": 2.14,
+      "prompt_tokens": 2039
+    },
+    {
+      "n": 152,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I appear to be in an open living/kitchen area, not yet in the bedroom. I need to locate the hallway; I'll turn left to scan the space behind me for a doorway.",
+      "latency_s": 3.11,
+      "prompt_tokens": 2041
+    },
+    {
+      "n": 156,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm pressed against a wall with the open living/kitchen area to my right. I need to turn right and move through the open space to find the hallway and bedroom door.",
+      "latency_s": 2.21,
+      "prompt_tokens": 2042
+    },
+    {
+      "n": 159,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I appear to be in an open living area, not yet in the bedroom. I need to locate the hallway; I'll turn left to scan the space behind me for a doorway.",
+      "latency_s": 2.91,
+      "prompt_tokens": 2044
+    },
+    {
+      "n": 162,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to be in an open living area, not yet in the bedroom. I need to find the hallway and turn right into a bedroom; I'll turn right to scan for a doorway.",
+      "latency_s": 3.13,
+      "prompt_tokens": 2045
+    },
+    {
+      "n": 167,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I appear to be in an open living area with a hallway visible ahead-left. I need to find the bedroom off the hall, so I'll turn left and advance toward the corridor to look for a bedroom doorway.",
+      "latency_s": 2.72,
+      "prompt_tokens": 2047
+    },
+    {
+      "n": 170,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I appear to be in an open kitchen/living area, not yet in a hall. I need to find the hallway to take a right into the bedroom, so I'll scan left first.",
+      "latency_s": 3.15,
+      "prompt_tokens": 2048
+    },
+    {
+      "n": 173,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm beside the kitchen island with a wall to my left; the hall/bedroom is likely beyond that wall. I'll turn left to look around it.",
+      "latency_s": 2.19,
+      "prompt_tokens": 2049
+    },
+    {
+      "n": 176,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall next to the kitchen. I need to turn right to face the open area and find the hall leading to the bedroom.",
+      "latency_s": 2.1,
+      "prompt_tokens": 2051
+    },
+    {
+      "n": 180,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall next to the kitchen island. I need to find the hall and bedroom, so I'll turn right to look along the kitchen toward the living area.",
+      "latency_s": 2.02,
+      "prompt_tokens": 2053
+    },
+    {
+      "n": 183,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in an open living/kitchen area, not yet in the bedroom. I need to find the hall and turn right into a bedroom; I'll scan the room by turning to look for a doorway.",
+      "latency_s": 2.19,
+      "prompt_tokens": 2054
+    },
+    {
+      "n": 187,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall/pillar; the hallway should be behind me. I'll turn right to re-orient and look for the bedroom entrance.",
+      "latency_s": 1.73,
+      "prompt_tokens": 2056
+    },
+    {
+      "n": 190,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a living room with a hallway visible on the right. I need to head toward that hallway, then take a right into a bedroom.",
+      "latency_s": 2.26,
+      "prompt_tokens": 2058
+    },
+    {
+      "n": 194,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the living room with a hallway visible to the right. I need to head down the hall and find the bedroom on the right.",
+      "latency_s": 2.23,
+      "prompt_tokens": 2059
+    },
+    {
+      "n": 197,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the living room facing the hallway. I need to proceed down the hall and take a right into a bedroom, so I'll advance toward the hallway opening first.",
+      "latency_s": 2.63,
+      "prompt_tokens": 2063
+    },
+    {
+      "n": 200,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a hallway from the living area. I need to walk down the hall and find a doorway on the right leading to a bedroom. Move forward along the hall first.",
+      "latency_s": 2.31,
+      "prompt_tokens": 2063
+    },
+    {
+      "n": 203,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in the living room looking down the hall. The instruction says to take a right into a bedroom, so I should turn right to find the bedroom doorway.",
+      "latency_s": 2.54,
+      "prompt_tokens": 2062
+    },
+    {
+      "n": 207,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in the hall; the instruction says take a right into a bedroom. There appears to be an opening on the right side of the hall, so I'll turn right to face it.",
+      "latency_s": 2.18,
+      "prompt_tokens": 2065
+    },
+    {
+      "n": 210,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in the hall facing a ledge; the bedroom should be a doorway to my right. I'll turn right to scan for it.",
+      "latency_s": 2.39,
+      "prompt_tokens": 2067
+    },
+    {
+      "n": 213,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a hallway; the instruction says to take a right into a bedroom. I'll turn right to scan for the bedroom doorway.",
+      "latency_s": 2.04,
+      "prompt_tokens": 2067
+    },
+    {
+      "n": 216,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the hall past the kitchen. The instruction says to take a right into a bedroom; I should continue down the hall and look for a doorway on the right.",
+      "latency_s": 2.4,
+      "prompt_tokens": 2070
+    },
+    {
+      "n": 219,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the hall next to the kitchen counter. The instruction says to take a right into a bedroom, so I should continue down the hall and look for a doorway on the right.",
+      "latency_s": 2.44,
+      "prompt_tokens": 2071
+    },
+    {
+      "n": 222,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in the hall next to the kitchen. The instruction says to take a right into a bedroom, so I should turn right and look for the bedroom doorway.",
+      "latency_s": 2.3,
+      "prompt_tokens": 2073
+    },
+    {
+      "n": 225,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm currently facing a living room couch, not the bedroom. I need to turn right to find the hallway and bedroom entrance.",
+      "latency_s": 2.31,
+      "prompt_tokens": 2073
+    },
+    {
+      "n": 229,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I appear to have turned into a living room instead of the bedroom; the hall with the kitchen is behind me to the left. I'll turn back toward the hall to find the bedroom entrance.",
+      "latency_s": 3.01,
+      "prompt_tokens": 2074
+    },
+    {
+      "n": 234,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a living room facing a sofa; the instruction says to take a right in the hall into a bedroom. There's an opening to another room on the left side of the frame, so I'll turn left and head toward it to find the hall and bedroom.",
+      "latency_s": 2.8,
+      "prompt_tokens": 2077
+    },
+    {
+      "n": 236,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in the hall/kitchen corridor. The instruction says to take a right into a bedroom, so I should scan to my right for a bedroom doorway.",
+      "latency_s": 2.34,
+      "prompt_tokens": 2079
+    },
+    {
+      "n": 239,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in the hall next to the kitchen. The instruction says to take a right into a bedroom, so I'll turn right to look for the bedroom doorway.",
+      "latency_s": 1.79,
+      "prompt_tokens": 2079
+    },
+    {
+      "n": 243,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to be in a living room with a white sofa, not yet in the bedroom. I need to turn right to look for the bedroom and closet door.",
+      "latency_s": 2.12,
+      "prompt_tokens": 2082
+    },
+    {
+      "n": 247,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to be in a living room, not the bedroom with the closet. I need to find the hallway again; I'll turn to scan for a doorway.",
+      "latency_s": 2.57,
+      "prompt_tokens": 2084
+    },
+    {
+      "n": 250,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the living room facing the hallway. I need to proceed down the hall and find the bedroom entrance on the right.",
+      "latency_s": 2.42,
+      "prompt_tokens": 2086
+    },
+    {
+      "n": 253,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in the hall; the instruction says to take a right into a bedroom. I should turn right to look for the bedroom doorway.",
+      "latency_s": 2.5,
+      "prompt_tokens": 2084
+    },
+    {
+      "n": 259,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I appear to have turned toward a decorative ledge instead of continuing down the hall. The hallway with the doorway ahead is to my left; I need to re-enter it and find the bedroom door on the right.",
+      "latency_s": 2.68,
+      "prompt_tokens": 2089
+    },
+    {
+      "n": 262,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a living/hall area; the hallway ahead leads toward the front door. The bedroom should be off to the right side of this hall, so I'll turn right and look for a bedroom doorway.",
+      "latency_s": 2.66,
+      "prompt_tokens": 2091
+    },
+    {
+      "n": 265,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in the hall; the instruction says take a right into a bedroom. There's an opening on my right side ahead. I'll advance toward it and then turn right to look into the bedroom.",
+      "latency_s": 3.13,
+      "prompt_tokens": 2093
+    },
+    {
+      "n": 268,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in the hall; the instruction says take a right into a bedroom. I'll turn right to look for the bedroom doorway.",
+      "latency_s": 1.9,
+      "prompt_tokens": 2094
+    },
+    {
+      "n": 272,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've drifted and am now facing a ledge/wall instead of the hallway. I need to turn back toward the hall opening and find the bedroom entrance on the right.",
+      "latency_s": 2.35,
+      "prompt_tokens": 2095
+    },
+    {
+      "n": 275,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in the hall near the kitchen. The instruction says to take a right into a bedroom, so I should turn right and look for a bedroom doorway.",
+      "latency_s": 1.76,
+      "prompt_tokens": 2097
+    },
+    {
+      "n": 278,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in the hall past the kitchen. The instruction says to take a right into a bedroom, so I should turn right and look for the bedroom doorway.",
+      "latency_s": 2.63,
+      "prompt_tokens": 2099
+    },
+    {
+      "n": 282,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm currently facing a living room with a white sofa, but the instruction says to take a right in the hall into a bedroom. I need to turn and look for a bedroom/closet door, so I'll scan to the right.",
+      "latency_s": 2.47,
+      "prompt_tokens": 2100
+    },
+    {
+      "n": 286,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to be in a living room rather than the bedroom the instruction points to. I need to turn right to find the doorway into the bedroom and locate the closet door.",
+      "latency_s": 2.7,
+      "prompt_tokens": 2102
+    },
+    {
+      "n": 289,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a hallway; the instruction says to take a right into a bedroom. I should advance down the hall and check the right side for a doorway.",
+      "latency_s": 2.31,
+      "prompt_tokens": 2104
+    },
+    {
+      "n": 292,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in the hallway; the instruction says to take a right into a bedroom. There appears to be an opening on the right wall ahead, so I'll turn right to face it.",
+      "latency_s": 1.95,
+      "prompt_tokens": 2106
+    },
+    {
+      "n": 295,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've turned right off the hall and am now facing a doorway into a room. I should advance through it and look for the closet door to stop outside of.",
+      "latency_s": 2.07,
+      "prompt_tokens": 2107
+    },
+    {
+      "n": 301,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've walked into a wall/corner next to a console table. I need to turn around and get back to the hallway, then find the bedroom entrance on the right.",
+      "latency_s": 2.74,
+      "prompt_tokens": 2108
+    },
+    {
+      "n": 307,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm facing a decorative ledge in a hallway; the bedroom should be off this hall. I need to turn around to scan the hallway for the bedroom entrance.",
+      "latency_s": 2.56,
+      "prompt_tokens": 2109
+    },
+    {
+      "n": 313,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall up close, likely having overshot into a corner. I need to turn around to find the bedroom and closet door.",
+      "latency_s": 2.27,
+      "prompt_tokens": 2114
+    },
+    {
+      "n": 316,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall with a decorative ledge in a hallway. The instruction says to take a right into a bedroom, so I should turn right to scan for the bedroom doorway.",
+      "latency_s": 2.33,
+      "prompt_tokens": 2116
+    },
+    {
+      "n": 319,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the hall past the dining/kitchen door. The instruction says to take a right into a bedroom, so I should advance down the hall and look for the bedroom doorway on the right.",
+      "latency_s": 2.36,
+      "prompt_tokens": 2118
+    },
+    {
+      "n": 322,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in the hall past the dining/kitchen door. The instruction says to take a right into a bedroom, so I should turn right and look for the bedroom opening.",
+      "latency_s": 2.22,
+      "prompt_tokens": 2119
+    },
+    {
+      "n": 328,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I've drifted into the living room; the hallway is behind me to the left. I need to turn back toward the hall and find the bedroom entrance on the right.",
+      "latency_s": 2.65,
+      "prompt_tokens": 2121
+    },
+    {
+      "n": 331,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall with a plant in the hall. I need to turn right to look down the hallway and find the bedroom entrance.",
+      "latency_s": 1.99,
+      "prompt_tokens": 2123
+    },
+    {
+      "n": 334,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in an open living/hall area. The instruction says to take a right into a bedroom, so I should proceed down the hall and look for a doorway on the right leading to a bedroom.",
+      "latency_s": 3.21,
+      "prompt_tokens": 2125
+    },
+    {
+      "n": 337,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the hall with the kitchen ahead and living room to the right. I need to continue down the hall to find the bedroom doorway on the right.",
+      "latency_s": 2.64,
+      "prompt_tokens": 2126
+    },
+    {
+      "n": 340,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in the hall next to the kitchen. The instruction says to take a right into a bedroom, so I should scan to my right for the bedroom doorway.",
+      "latency_s": 1.96,
+      "prompt_tokens": 2126
+    },
+    {
+      "n": 344,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm currently facing a living room with a white couch and dark accent wall; no bedroom or closet is visible yet. The instruction says to take a right into a bedroom, so I'll turn right to scan for the doorway.",
+      "latency_s": 2.56,
+      "prompt_tokens": 2126
+    },
+    {
+      "n": 348,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm currently in a living room with sofas, not the bedroom the instruction points to. I need to look around to find the bedroom/closet door, so I'll scan to the right.",
+      "latency_s": 2.25,
+      "prompt_tokens": 2130
+    },
+    {
+      "n": 351,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in the living room facing the hall. The instruction says to take a right into a bedroom, so I'll turn right to look for the bedroom doorway.",
+      "latency_s": 2.93,
+      "prompt_tokens": 2132
+    },
+    {
+      "n": 354,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a hall facing a console table. The instruction says to take a right into a bedroom, so I should turn right to find the bedroom doorway.",
+      "latency_s": 2.16,
+      "prompt_tokens": 2133
+    },
+    {
+      "n": 360,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've turned into a wall near a clock; the hallway is behind me. I need to turn around and find the bedroom entrance on the right of the hall.",
+      "latency_s": 2.14,
+      "prompt_tokens": 2135
+    },
+    {
+      "n": 363,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in the hall next to the kitchen. The instruction says to take a right into a bedroom, so I should turn right to look for the bedroom doorway.",
+      "latency_s": 1.92,
+      "prompt_tokens": 2136
+    },
+    {
+      "n": 367,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to be in a living room with a white sofa, not yet in the bedroom. I need to find the bedroom entrance, so I'll turn right to scan the area.",
+      "latency_s": 2.66,
+      "prompt_tokens": 2139
+    },
+    {
+      "n": 371,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm currently in a living room with sofas, which doesn't match the bedroom goal. I need to look around to find the bedroom and closet door.",
+      "latency_s": 2.55,
+      "prompt_tokens": 2141
+    },
+    {
+      "n": 374,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a living room facing a hallway. I need to proceed down the hall and find a bedroom on the right. I'll advance toward the hallway opening first.",
+      "latency_s": 2.18,
+      "prompt_tokens": 2143
+    },
+    {
+      "n": 377,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a living room with a hallway ahead. I need to proceed down the hall and find a bedroom on the right. I'll advance toward the hallway opening first.",
+      "latency_s": 2.34,
+      "prompt_tokens": 2144
+    },
+    {
+      "n": 380,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the living room facing the hallway. I need to advance down the hall and look for a bedroom door on the right.",
+      "latency_s": 2.39,
+      "prompt_tokens": 2144
+    },
+    {
+      "n": 384,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've drifted to face a wall next to a couch; the hallway is to my right. I need to turn right to re-enter the hall and look for the bedroom doorway.",
+      "latency_s": 2.2,
+      "prompt_tokens": 2143
+    },
+    {
+      "n": 388,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in the hall; a doorway on the right leads to the bedroom. I'll advance toward it and turn right to enter.",
+      "latency_s": 2.57,
+      "prompt_tokens": 2147
+    },
+    {
+      "n": 391,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the hall; the dark doorway ahead on the right likely leads to the bedroom. I'll advance toward it and re-observe.",
+      "latency_s": 2.35,
+      "prompt_tokens": 2149
+    },
+    {
+      "n": 393,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the hall; a doorway is visible ahead-left which likely leads to the bedroom. I'll advance toward it and re-observe.",
+      "latency_s": 3.28,
+      "prompt_tokens": 2150
+    },
+    {
+      "n": 396,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a wall with a doorway just to my right. I'll turn right to face the doorway and then move through it.",
+      "latency_s": 1.94,
+      "prompt_tokens": 2151
+    },
+    {
+      "n": 402,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I see a closet with shelves and clothes through an opening on the right. I'll turn right toward it and stop outside the closet door.",
+      "latency_s": 2.0,
+      "prompt_tokens": 2153
+    },
+    {
+      "n": 405,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall up close; the hallway with the bedroom/closet was visible to my right in earlier frames. I'll turn right to re-aim down the hall.",
+      "latency_s": 2.17,
+      "prompt_tokens": 2156
+    },
+    {
+      "n": 409,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm currently facing a wall with an eye chart, with the living room visible ahead. The bedroom with the closet should be to my right, so I'll turn right to re-orient toward it.",
+      "latency_s": 2.42,
+      "prompt_tokens": 2158
+    },
+    {
+      "n": 412,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a hall facing a wall; the bedroom should be off to one side. I'll turn right to scan for the bedroom entrance.",
+      "latency_s": 1.99,
+      "prompt_tokens": 2160
+    },
+    {
+      "n": 415,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a wall in a hallway; the corridor continues to my left. I'll turn left to face down the hall and look for the bedroom entrance on the right.",
+      "latency_s": 2.08,
+      "prompt_tokens": 2161
+    },
+    {
+      "n": 417,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hallway with a framed picture on the right wall. The instruction says to take a right into a bedroom, so I should continue down the hall looking for the bedroom doorway on the right.",
+      "latency_s": 2.07,
+      "prompt_tokens": 2163
+    },
+    {
+      "n": 420,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall in the hall; the hallway with the framed picture extends to my right. I need to turn right to find the bedroom entrance and the closet door.",
+      "latency_s": 2.02,
+      "prompt_tokens": 2163
+    },
+    {
+      "n": 426,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a hallway facing the front door, but the instruction says to take a right into a bedroom. I need to turn around and look for the bedroom entrance behind me.",
+      "latency_s": 2.71,
+      "prompt_tokens": 2163
+    },
+    {
+      "n": 429,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a hallway facing toward what appears to be the bedroom (dark accent wall with window and shelving). I should advance toward it and look for the closet door.",
+      "latency_s": 2.67,
+      "prompt_tokens": 2168
+    },
+    {
+      "n": 435,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a blank wall, likely having overshot into the bedroom area. I need to turn around to see the room and locate the closet door.",
+      "latency_s": 1.8,
+      "prompt_tokens": 2169
+    },
+    {
+      "n": 438,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a wall with an eye chart; the hallway extends to the right. I need to turn right and proceed down the hall to find the bedroom entrance.",
+      "latency_s": 2.13,
+      "prompt_tokens": 2172
+    },
+    {
+      "n": 441,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a hallway facing the living room. The instruction says to take a right into a bedroom, so I should turn right and look for the bedroom doorway.",
+      "latency_s": 2.12,
+      "prompt_tokens": 2174
+    },
+    {
+      "n": 444,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a hallway facing a wall; the instruction says to take a right into a bedroom. I need to turn right to find the bedroom entrance.",
+      "latency_s": 2.08,
+      "prompt_tokens": 2176
+    },
+    {
+      "n": 448,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a blank wall after turning; I need to re-orient back toward the hallway and find the bedroom entrance on the right.",
+      "latency_s": 2.31,
+      "prompt_tokens": 2177
+    },
+    {
+      "n": 452,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a hallway facing the front entry door. The instruction says to take a right into a bedroom, so I should turn right and look for the bedroom opening.",
+      "latency_s": 2.22,
+      "prompt_tokens": 2179
+    },
+    {
+      "n": 455,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in the hall facing a wall; the bedroom doorway should be to the right. I'll turn right to locate it.",
+      "latency_s": 1.63,
+      "prompt_tokens": 2181
+    },
+    {
+      "n": 457,
+      "actions": [
+        "MOVE_FORWARD",
+        "STOP"
+      ],
+      "thought": "I'm in the bedroom hallway with the closet (shelved opening) visible on the right. I'll advance one step toward it and stop outside the closet door.",
+      "latency_s": 1.89,
+      "prompt_tokens": 2183
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    7.492,
+    7.492,
+    7.715,
+    7.942,
+    8.174,
+    8.409,
+    8.646,
+    8.886,
+    9.126,
+    9.358,
+    9.587,
+    9.835,
+    10.082,
+    10.082,
+    9.838,
+    9.599,
+    9.36,
+    9.585,
+    9.812,
+    10.059,
+    10.306,
+    10.554,
+    10.802,
+    11.05,
+    11.299,
+    11.547,
+    11.795,
+    12.044,
+    11.798,
+    11.551,
+    11.305,
+    11.059,
+    10.814,
+    10.569,
+    10.32,
+    10.07,
+    10.315,
+    10.561,
+    10.807,
+    11.056,
+    11.305,
+    11.498,
+    11.694,
+    11.942,
+    12.191,
+    12.293,
+    12.403,
+    12.52,
+    12.281,
+    12.042,
+    11.803,
+    11.566,
+    11.33,
+    11.095,
+    10.861,
+    10.629,
+    10.399,
+    10.648,
+    10.896,
+    11.145,
+    11.394,
+    11.643,
+    11.892,
+    12.141,
+    12.39,
+    12.639,
+    12.784,
+    12.934,
+    13.089,
+    13.205,
+    13.0,
+    12.808,
+    12.637,
+    12.491,
+    12.277,
+    12.526,
+    12.776,
+    13.026,
+    12.945,
+    13.01,
+    13.074,
+    12.9,
+    12.698
+  ],
+  "final_distance": 12.698,
+  "min_distance": 7.492,
+  "metrics": {
+    "distance_to_goal": 12.697582244873047,
+    "success": 0.0,
+    "spl": 0.0,
+    "oracle_success": 0.0,
+    "path_length": 19.530865401029587,
+    "steps_taken": 457.0
+  },
+  "success": false,
+  "backend_stats": {
+    "calls": 473,
+    "failures": 0,
+    "prompt_tokens": 959633,
+    "completion_tokens": 43173,
+    "reasoning_tokens": 16095,
+    "latency_s": 1086.7771179676056
+  },
+  "stop_deferrals": 0
+}

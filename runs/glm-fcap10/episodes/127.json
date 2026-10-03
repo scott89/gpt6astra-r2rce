@@ -1,0 +1,204 @@
+{
+  "episode_id": 127,
+  "scene_id": "EU6Fwq7SyZv",
+  "instruction": "Turn around 180 degrees.  Go through the open door to the loft.  Once through the doorway, turn to the left and walk towards the far side of the loft.  Stop once you are just past the opening to the stairs.",
+  "actions_taken": 61,
+  "policy_calls": 11,
+  "api_latency_s": 28.49,
+  "prompt_tokens": 19848,
+  "completion_tokens": 1340,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 28.77,
+  "steps": [
+    {
+      "n": 8,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "The open door to the loft is currently ahead; I must turn 180 degrees (12 turns of 15\u00b0) to face away, then walk through the doorway.",
+      "latency_s": 2.42,
+      "prompt_tokens": 909
+    },
+    {
+      "n": 14,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a shower wall, so I need to turn 180 degrees to find the open door. I'll rotate right in two batches and re-observe.",
+      "latency_s": 2.19,
+      "prompt_tokens": 1265
+    },
+    {
+      "n": 22,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a bathroom facing the toilet and shelves; the door out should be behind me. I'll turn 180 degrees right to face the exit.",
+      "latency_s": 2.79,
+      "prompt_tokens": 1631
+    },
+    {
+      "n": 30,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a bathroom facing a dresser; the open door should be behind me. I'll turn 180 degrees right to face it, then re-observe.",
+      "latency_s": 3.11,
+      "prompt_tokens": 1998
+    },
+    {
+      "n": 38,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm in a bathroom facing the shower. I need to turn 180 degrees to find the open door leading to the loft.",
+      "latency_s": 2.53,
+      "prompt_tokens": 2002
+    },
+    {
+      "n": 42,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I've completed the 180-degree turn and now face a dresser. I need to locate the open door to the loft, so I'll scan the room by turning.",
+      "latency_s": 2.35,
+      "prompt_tokens": 2004
+    },
+    {
+      "n": 46,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The open door to the loft is directly ahead, slightly left of center. I'll advance through the doorway, then turn left as instructed.",
+      "latency_s": 1.9,
+      "prompt_tokens": 2006
+    },
+    {
+      "n": 49,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the open door to the loft. I'll step through the doorway, then turn left and head toward the far side, stopping just past the stairs opening.",
+      "latency_s": 2.21,
+      "prompt_tokens": 2007
+    },
+    {
+      "n": 52,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the doorway into the loft; I need to step through, then turn left and head toward the far side, stopping just past the stairs opening.",
+      "latency_s": 2.13,
+      "prompt_tokens": 2008
+    },
+    {
+      "n": 58,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm through the doorway into the loft. The instruction says to turn left and walk toward the far side, stopping just past the stairs opening. The dark opening ahead-right may be the stairs; I'll turn left and advance toward the far wall, then check for the stairs opening.",
+      "latency_s": 3.46,
+      "prompt_tokens": 2008
+    },
+    {
+      "n": 61,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "STOP"
+      ],
+      "thought": "I'm in the loft facing the railing with the stair opening just ahead. I'll advance a couple of steps to pass the stair opening, then stop.",
+      "latency_s": 3.4,
+      "prompt_tokens": 2010
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    4.615,
+    4.613,
+    4.363,
+    4.113,
+    3.863,
+    3.613,
+    3.363,
+    3.113,
+    2.863,
+    2.613,
+    2.364,
+    2.269,
+    2.194,
+    2.181,
+    2.197,
+    2.241,
+    2.311
+  ],
+  "final_distance": 2.311,
+  "min_distance": 2.181,
+  "metrics": {
+    "distance_to_goal": 2.3105621337890625,
+    "success": 1.0,
+    "spl": 1.0,
+    "oracle_success": 1.0,
+    "path_length": 3.8382261395454407,
+    "steps_taken": 61.0
+  },
+  "success": true,
+  "backend_stats": {
+    "calls": 285,
+    "failures": 0,
+    "prompt_tokens": 584918,
+    "completion_tokens": 17521,
+    "reasoning_tokens": 4672,
+    "latency_s": 553.0816612243652
+  },
+  "stop_deferrals": 0
+}

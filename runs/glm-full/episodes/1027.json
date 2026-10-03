@@ -1,0 +1,1943 @@
+{
+  "episode_id": 1027,
+  "scene_id": "Z6MFQCViBuw",
+  "instruction": "Walk past the large urn on a pedestal to the right. Walk through the doorway under the green and white exit sign.Wait at the red rope stanchion to the left.",
+  "actions_taken": 497,
+  "policy_calls": 148,
+  "api_latency_s": 353.34,
+  "prompt_tokens": 301022,
+  "completion_tokens": 12506,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 356.39,
+  "steps": [
+    {
+      "n": 4,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The doorway with the green exit sign is straight ahead; the large urn/statue on a pedestal is on the right, so I proceed forward along the carpet toward the doorway.",
+      "latency_s": 2.05,
+      "prompt_tokens": 895
+    },
+    {
+      "n": 6,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The doorway with the green exit sign is straight ahead; the statue/urn on a pedestal is on the right, so I keep to the left side of the carpet as I approach. I'll advance a couple of steps and re-observe.",
+      "latency_s": 1.74,
+      "prompt_tokens": 1250
+    },
+    {
+      "n": 10,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The doorway with the green exit sign is straight ahead; the urn/statue is on the right. I'll advance along the carpet toward the doorway.",
+      "latency_s": 1.89,
+      "prompt_tokens": 1613
+    },
+    {
+      "n": 14,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The doorway with the green exit sign is directly ahead; the urn was on the right and we've moved past it. Advance toward and through the doorway, then look for the red rope stanchion on the left.",
+      "latency_s": 2.79,
+      "prompt_tokens": 1977
+    },
+    {
+      "n": 17,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm aligned with the doorway under the exit sign. Move through it, then look for the red rope stanchion on the left.",
+      "latency_s": 1.71,
+      "prompt_tokens": 1977
+    },
+    {
+      "n": 19,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm aligned with the doorway under the exit sign. I'll step through it, then look for the red rope stanchion on the left.",
+      "latency_s": 1.99,
+      "prompt_tokens": 1978
+    },
+    {
+      "n": 22,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the doorway under the green exit sign, aligned with the opening. I'll step through and then look for the red rope stanchion on the left.",
+      "latency_s": 2.16,
+      "prompt_tokens": 1979
+    },
+    {
+      "n": 25,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've passed through the doorway and can see a red rope stanchion on the left side of the room ahead. I'll advance a couple steps toward it, then stop near it.",
+      "latency_s": 2.7,
+      "prompt_tokens": 1978
+    },
+    {
+      "n": 28,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in an ornate room; the doorway on the right with the red rope stanchion appears to be the exit under the sign. I'll advance toward it and align right.",
+      "latency_s": 3.09,
+      "prompt_tokens": 1979
+    },
+    {
+      "n": 31,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The large urns are on the right, and a doorway is visible ahead-right. I'll advance toward it, keeping the urn on my right.",
+      "latency_s": 2.05,
+      "prompt_tokens": 1980
+    },
+    {
+      "n": 34,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The large urn is on my right and a doorway is visible ahead-right. I'll advance toward it, keeping the urn on my right.",
+      "latency_s": 2.17,
+      "prompt_tokens": 1981
+    },
+    {
+      "n": 38,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The doorway with the green exit sign is ahead to the right. I'll turn right to align with it, then move forward through it toward the stanchion area.",
+      "latency_s": 2.32,
+      "prompt_tokens": 1981
+    },
+    {
+      "n": 41,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The doorway with the green exit sign is directly ahead. I'll advance toward it, then look for the red rope stanchion on the left.",
+      "latency_s": 2.25,
+      "prompt_tokens": 1983
+    },
+    {
+      "n": 43,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I appear to have passed through the doorway under the exit sign; now I need to find the red rope stanchion to the left. I'll turn left to look for it.",
+      "latency_s": 3.44,
+      "prompt_tokens": 1983
+    },
+    {
+      "n": 46,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I turned left and now face a window wall, having lost sight of the doorway with the exit sign. I need to turn right to re-acquire the doorway ahead.",
+      "latency_s": 2.06,
+      "prompt_tokens": 1984
+    },
+    {
+      "n": 49,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The doorway is ahead through the open door; I should walk toward it. The stanchion will be on the left after passing through.",
+      "latency_s": 2.3,
+      "prompt_tokens": 1986
+    },
+    {
+      "n": 51,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I've passed through the doorway into the next room. The red rope stanchion should be to the left, so I'll turn left to look for it.",
+      "latency_s": 2.08,
+      "prompt_tokens": 1987
+    },
+    {
+      "n": 55,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I turned left too far and am now facing a wall. I need to turn right to re-align with the open doorway ahead and move through it.",
+      "latency_s": 2.49,
+      "prompt_tokens": 1988
+    },
+    {
+      "n": 58,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm currently facing a wooden wall/door edge; the corridor with the red curtains and the distant doorway is to my left. I'll rotate left to align with the corridor before advancing.",
+      "latency_s": 2.53,
+      "prompt_tokens": 1990
+    },
+    {
+      "n": 61,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The open doorway ahead leads into the room with red drapes; I should move through it and look for the red rope stanchion on the left.",
+      "latency_s": 2.86,
+      "prompt_tokens": 1991
+    },
+    {
+      "n": 65,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall too closely; the open room with the red carpet and the doorway under the exit sign is to my right. I'll turn right to re-aim.",
+      "latency_s": 2.17,
+      "prompt_tokens": 1992
+    },
+    {
+      "n": 68,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I've passed through the doorway into a long red gallery. The instruction says to wait at the red rope stanchion to the left, so I should turn left and look for it.",
+      "latency_s": 2.33,
+      "prompt_tokens": 1994
+    },
+    {
+      "n": 72,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a wooden door with the red gallery visible to the right; the doorway with the exit sign is ahead through that room. I'll turn right and advance along the red carpet toward it.",
+      "latency_s": 2.79,
+      "prompt_tokens": 1995
+    },
+    {
+      "n": 75,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm currently facing a wooden door edge; the doorway with the exit sign is visible ahead to the right. I need to turn right to re-aim at it before moving.",
+      "latency_s": 2.49,
+      "prompt_tokens": 1997
+    },
+    {
+      "n": 79,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I see a doorway ahead at the end of the hall, which should be under the exit sign. I'll advance toward it along the red carpet.",
+      "latency_s": 2.05,
+      "prompt_tokens": 1999
+    },
+    {
+      "n": 83,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I see a large red room with a doorway ahead-left under what appears to be an exit sign. I need to approach that doorway, passing the urn area to the right.",
+      "latency_s": 2.52,
+      "prompt_tokens": 2000
+    },
+    {
+      "n": 87,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The doorway is straight ahead across the room; I'll advance along the carpet toward it, then look for the exit sign and stanchion.",
+      "latency_s": 2.25,
+      "prompt_tokens": 2002
+    },
+    {
+      "n": 91,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The doorway is directly ahead and I'm aligned with it on the red carpet. I'll advance toward it, then look for the red rope stanchion after passing through.",
+      "latency_s": 2.18,
+      "prompt_tokens": 2003
+    },
+    {
+      "n": 95,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The doorway is directly ahead and I'm aligned with it on the red carpet. I'll advance toward it, then look for the red rope stanchion on the left after passing through.",
+      "latency_s": 2.49,
+      "prompt_tokens": 2004
+    },
+    {
+      "n": 97,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The doorway is directly ahead and I'm close to it. I'll step forward through it, then look for the red rope stanchion on the left.",
+      "latency_s": 2.35,
+      "prompt_tokens": 2004
+    },
+    {
+      "n": 101,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The doorway is directly ahead; I need to pass through it and then find the red rope stanchion to the left. I'll advance toward the doorway and re-observe.",
+      "latency_s": 1.9,
+      "prompt_tokens": 2004
+    },
+    {
+      "n": 104,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm aligned with the doorway; I'll step through it, then look for the red rope stanchion on the left in the next room.",
+      "latency_s": 2.09,
+      "prompt_tokens": 2005
+    },
+    {
+      "n": 107,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm moving through the doorway; the next room with the display case is ahead. I need to advance and then look for the red rope stanchion to the left.",
+      "latency_s": 2.44,
+      "prompt_tokens": 2004
+    },
+    {
+      "n": 110,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I've passed through the doorway into the red-walled hall. The instruction says to wait at the red rope stanchion to the left, so I should turn left and look for it.",
+      "latency_s": 2.19,
+      "prompt_tokens": 2006
+    },
+    {
+      "n": 113,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wooden door up close; the room with the display panel is to my right. I need to turn right, re-orient toward the doorway under the exit sign, then proceed.",
+      "latency_s": 2.43,
+      "prompt_tokens": 2007
+    },
+    {
+      "n": 116,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at a doorway entering a large red hall with a display wall. I need to cross toward the doorway under the green exit sign, which isn't visible yet; I'll advance into the room and re-observe.",
+      "latency_s": 2.79,
+      "prompt_tokens": 2009
+    },
+    {
+      "n": 120,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've entered a large red hall with a display wall ahead, but the exit sign, doorway, and red rope stanchion are not yet visible. I'll advance toward the display wall and then scan left/right for the doorway with the exit sign.",
+      "latency_s": 2.47,
+      "prompt_tokens": 2010
+    },
+    {
+      "n": 123,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a display wall with no doorway visible. The exit sign and doorway should be elsewhere; I'll turn right to scan the room.",
+      "latency_s": 2.06,
+      "prompt_tokens": 2010
+    },
+    {
+      "n": 128,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The green exit sign and doorway are visible on the far right. I'll turn right to align with it, then approach.",
+      "latency_s": 2.31,
+      "prompt_tokens": 2013
+    },
+    {
+      "n": 132,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The doorway with the green exit sign is visible ahead past the chairs. I'll advance toward it, then look for the red rope stanchion on the left after passing through.",
+      "latency_s": 2.44,
+      "prompt_tokens": 2015
+    },
+    {
+      "n": 136,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've drifted too close to the sofa on the right; the doorway with the green exit sign is ahead-left across the room. I'll turn left to re-aim toward it before advancing.",
+      "latency_s": 2.25,
+      "prompt_tokens": 2017
+    },
+    {
+      "n": 141,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The doorway with the green exit sign is visible ahead across the room. I'll turn left to align with it and advance.",
+      "latency_s": 2.37,
+      "prompt_tokens": 2019
+    },
+    {
+      "n": 146,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The doorway with the green exit sign is visible ahead to the right. I'll turn right to align with it and advance.",
+      "latency_s": 2.39,
+      "prompt_tokens": 2020
+    },
+    {
+      "n": 150,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The doorway with the green exit sign is visible ahead, slightly right of center. I'll advance toward it, then look for the red rope stanchion to the left after passing through.",
+      "latency_s": 1.97,
+      "prompt_tokens": 2022
+    },
+    {
+      "n": 154,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The doorway with the green exit sign is straight ahead across the red carpet. I'll advance toward it, then look for the red rope stanchion to the left after passing through.",
+      "latency_s": 2.22,
+      "prompt_tokens": 2022
+    },
+    {
+      "n": 158,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The doorway with the green exit sign is straight ahead across the room. I'll advance toward it, then look for the red rope stanchion to the left after passing through.",
+      "latency_s": 2.64,
+      "prompt_tokens": 2024
+    },
+    {
+      "n": 162,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The doorway with the green exit sign is ahead, slightly right of center. I'll advance toward it, then look for the red rope stanchion to the left after passing through.",
+      "latency_s": 1.99,
+      "prompt_tokens": 2024
+    },
+    {
+      "n": 166,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The doorway with the green exit sign is ahead, slightly right of center. I'll advance toward it, then look for the red rope stanchion on the left after passing through.",
+      "latency_s": 1.92,
+      "prompt_tokens": 2025
+    },
+    {
+      "n": 170,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The doorway with the green exit sign is ahead and slightly right; I should advance toward it along the red carpet, then look for the red rope stanchion after passing through.",
+      "latency_s": 2.28,
+      "prompt_tokens": 2025
+    },
+    {
+      "n": 174,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The doorway under the green exit sign is ahead and slightly right. I'll advance toward it, keeping the curtained bed on my left.",
+      "latency_s": 1.95,
+      "prompt_tokens": 2025
+    },
+    {
+      "n": 177,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "The doorway with the exit sign is to my right; I've drifted left toward the canopy bed. I need to turn right and re-aim at the doorway before moving.",
+      "latency_s": 2.03,
+      "prompt_tokens": 2026
+    },
+    {
+      "n": 182,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The doorway under the green exit sign is directly ahead, slightly left. I'll advance toward it and then look for the red rope stanchion on the left after passing through.",
+      "latency_s": 2.02,
+      "prompt_tokens": 2028
+    },
+    {
+      "n": 185,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at the doorway under the green exit sign. I'll step through and then look for the red rope stanchion on the left.",
+      "latency_s": 2.08,
+      "prompt_tokens": 2029
+    },
+    {
+      "n": 188,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I've passed through the doorway under the exit sign into the large hall. Now I need to find the red rope stanchion to the left, so I'll turn left and scan.",
+      "latency_s": 2.21,
+      "prompt_tokens": 2029
+    },
+    {
+      "n": 192,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a wall/doorframe edge; the room with the red carpet is to my right. I need to turn right and move into the room to find the red rope stanchion.",
+      "latency_s": 2.15,
+      "prompt_tokens": 2031
+    },
+    {
+      "n": 195,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at a doorway entering a large pink-walled hall. I need to move in and look for the doorway with the green/white exit sign and the red rope stanchion to its left.",
+      "latency_s": 2.61,
+      "prompt_tokens": 2032
+    },
+    {
+      "n": 198,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've entered a large pink hall; the doorway ahead in the center wall likely sits under the exit sign. I'll advance toward it and look for the red rope stanchion to the left.",
+      "latency_s": 2.67,
+      "prompt_tokens": 2033
+    },
+    {
+      "n": 201,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a large pink hall with a doorway ahead in the center wall. I need to approach it looking for the green/white exit sign and the red rope stanchion nearby.",
+      "latency_s": 3.04,
+      "prompt_tokens": 2035
+    },
+    {
+      "n": 205,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I see a large pink room with a dark doorway ahead slightly left of center, which likely sits under the exit sign. I'll advance toward it and re-observe.",
+      "latency_s": 2.83,
+      "prompt_tokens": 2035
+    },
+    {
+      "n": 208,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The doorway is straight ahead in the pink wall; I should advance toward it, keeping the urn/pedestal on my right.",
+      "latency_s": 1.9,
+      "prompt_tokens": 2035
+    },
+    {
+      "n": 212,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The doorway is ahead slightly left of center, past the urn on the pedestal at left. I'll turn left a bit and advance toward the doorway.",
+      "latency_s": 2.31,
+      "prompt_tokens": 2036
+    },
+    {
+      "n": 216,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The doorway is ahead, slightly right of center, past the urn on the left. I'll advance toward it, keeping it centered.",
+      "latency_s": 2.32,
+      "prompt_tokens": 2037
+    },
+    {
+      "n": 220,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The doorway is ahead, slightly right of the cabinet with the urn. I'll advance toward it, keeping it centered.",
+      "latency_s": 2.46,
+      "prompt_tokens": 2038
+    },
+    {
+      "n": 224,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The urn on the cabinet is ahead; the doorway is to the right. I'll turn right and advance toward the doorway, keeping the urn on my left.",
+      "latency_s": 2.07,
+      "prompt_tokens": 2038
+    },
+    {
+      "n": 228,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The urn is on the dresser to my left; the open doorway is ahead slightly right. I'll advance toward it, keeping it centered.",
+      "latency_s": 1.9,
+      "prompt_tokens": 2042
+    },
+    {
+      "n": 232,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The urn on the cabinet is to my left and the open doorway is ahead-right. I'll turn right toward the doorway and advance through it.",
+      "latency_s": 2.53,
+      "prompt_tokens": 2041
+    },
+    {
+      "n": 235,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm right beside the open doorway; I need to move through it, then look for the red rope stanchion on the left in the next room.",
+      "latency_s": 2.52,
+      "prompt_tokens": 2042
+    },
+    {
+      "n": 239,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm pressed against a wall next to the doorway; the open door is to my right. I'll turn right to face the doorway and then step through.",
+      "latency_s": 2.54,
+      "prompt_tokens": 2042
+    },
+    {
+      "n": 243,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I see a large room with an urn on a pedestal to the right, but no exit sign or red rope stanchion yet. I'll turn right to scan for the doorway with the green/white exit sign.",
+      "latency_s": 4.96,
+      "prompt_tokens": 2046
+    },
+    {
+      "n": 246,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I've entered a large pink hall but I don't yet see the green/white exit sign or the red rope stanchion. I should scan the room by turning to survey the walls.",
+      "latency_s": 3.2,
+      "prompt_tokens": 2048
+    },
+    {
+      "n": 250,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in the pink room; the ornate doorway ahead appears to be the exit under the sign. I'll advance toward it, keeping aligned.",
+      "latency_s": 3.06,
+      "prompt_tokens": 2049
+    },
+    {
+      "n": 253,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a large pink hall; the urn, exit-sign doorway, and stanchion aren't clearly visible yet. I'll advance along the carpet toward the far end where the doorway appears to be.",
+      "latency_s": 3.53,
+      "prompt_tokens": 2047
+    },
+    {
+      "n": 256,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a pink gallery with chairs on the left; the urn, exit-sign doorway, and stanchion aren't clearly visible yet. I'll advance along the open floor toward the far wall to find them.",
+      "latency_s": 2.64,
+      "prompt_tokens": 2051
+    },
+    {
+      "n": 258,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a pink gallery with chairs on my left; I don't yet see the urn or the exit-sign doorway. I'll turn right to scan the room for the doorway under the green and white exit sign.",
+      "latency_s": 2.49,
+      "prompt_tokens": 2049
+    },
+    {
+      "n": 261,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The ornate doorway is ahead in the center of the far wall, with a pedestal (urn) just left of it \u2014 I should pass it on its right side and head toward the doorway. I'll advance forward and re-observe.",
+      "latency_s": 3.39,
+      "prompt_tokens": 2052
+    },
+    {
+      "n": 264,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I see a doorway ahead in the center of the far wall, with a pedestal (likely the urn) to its left. I'll advance toward the doorway, keeping the pedestal on my right, then look for the red rope stanchion.",
+      "latency_s": 3.04,
+      "prompt_tokens": 2053
+    },
+    {
+      "n": 267,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The ornate doorway is ahead in the center; the red rope stanchion is on the left. I'll advance toward the doorway, keeping it centered.",
+      "latency_s": 3.21,
+      "prompt_tokens": 2051
+    },
+    {
+      "n": 271,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I see an ornate doorway ahead in the pink room; the exit sign doorway is likely that one. I'll advance toward it, keeping the pedestal to my left.",
+      "latency_s": 2.99,
+      "prompt_tokens": 2054
+    },
+    {
+      "n": 274,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The ornate doorway is directly ahead; I should advance toward it, then look for the red rope stanchion to the left after passing through.",
+      "latency_s": 2.3,
+      "prompt_tokens": 2055
+    },
+    {
+      "n": 277,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The doorway is ahead, slightly left of the pedestal. I'll advance toward it and re-observe.",
+      "latency_s": 1.83,
+      "prompt_tokens": 2054
+    },
+    {
+      "n": 280,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The ornate doorway is directly ahead, slightly right of the pedestal sign. I'll advance toward it, keeping aligned.",
+      "latency_s": 1.97,
+      "prompt_tokens": 2056
+    },
+    {
+      "n": 283,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm right beside the large pedestal/urn; the doorway is ahead slightly to the right. I'll turn right to clear the pedestal and advance toward the doorway.",
+      "latency_s": 2.65,
+      "prompt_tokens": 2052
+    },
+    {
+      "n": 287,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm beside the large pedestal/urn; the doorway is ahead slightly left. I'll advance toward and through the doorway, then look for the red rope stanchion on the left.",
+      "latency_s": 2.62,
+      "prompt_tokens": 2056
+    },
+    {
+      "n": 290,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The large urn on a pedestal is visible to my left; I need to pass it on its right side and head toward the doorway ahead. I'll turn left and advance carefully.",
+      "latency_s": 2.47,
+      "prompt_tokens": 2056
+    },
+    {
+      "n": 293,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The large urn is visible ahead-left; I should pass it on its right side, then look for the doorway with the green/white exit sign. I'll advance carefully past the urn.",
+      "latency_s": 2.71,
+      "prompt_tokens": 2056
+    },
+    {
+      "n": 296,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The large urn on a pedestal is ahead-left; I should pass it on its right side and continue toward the doorway with the green/white exit sign, which is not yet visible. I will advance carefully past the urns.",
+      "latency_s": 2.69,
+      "prompt_tokens": 2060
+    },
+    {
+      "n": 300,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The large urn on a pedestal is directly ahead; I need to pass it on its right side, then find the doorway with the green/white exit sign. I'll turn slightly right and advance past the urn.",
+      "latency_s": 2.84,
+      "prompt_tokens": 2061
+    },
+    {
+      "n": 304,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The large urn on a pedestal is directly ahead; the doorway is to the right. I'll turn right and approach the doorway.",
+      "latency_s": 2.07,
+      "prompt_tokens": 2060
+    },
+    {
+      "n": 307,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've passed the urn and now face the ornate doorway ahead. I'll advance toward it, then look for the red rope stanchion on the left.",
+      "latency_s": 2.18,
+      "prompt_tokens": 2062
+    },
+    {
+      "n": 310,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The urn is now behind me; the ornate doorway ahead is the one to pass through. I'll advance toward it and re-observe.",
+      "latency_s": 2.28,
+      "prompt_tokens": 2066
+    },
+    {
+      "n": 314,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I see an ornate doorway ahead with a red carpet leading to it; the urn/statue is to the right. I'll advance toward the doorway, keeping it centered.",
+      "latency_s": 2.16,
+      "prompt_tokens": 2062
+    },
+    {
+      "n": 317,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I see an ornate doorway ahead with a red carpet leading to it; the urn/statue is to my right. I should advance toward the doorway, keeping it centered.",
+      "latency_s": 2.09,
+      "prompt_tokens": 2065
+    },
+    {
+      "n": 320,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I see an ornate open doorway ahead through which the red carpet leads; the urn/statue is to my right. I should head toward the doorway, keeping it slightly left of center.",
+      "latency_s": 2.61,
+      "prompt_tokens": 2066
+    },
+    {
+      "n": 323,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The large urn on a pedestal is at the left foreground; the doorway is ahead through the ornate portal. I'll turn slightly left to pass the urn on its right and head toward the doorway.",
+      "latency_s": 2.52,
+      "prompt_tokens": 2065
+    },
+    {
+      "n": 326,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The large urn is directly ahead; I need to pass it on its right side and head toward the open doorway ahead. I'll advance carefully and re-observe.",
+      "latency_s": 2.44,
+      "prompt_tokens": 2069
+    },
+    {
+      "n": 329,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The large urn is directly ahead; the doorway is to the right of it. I'll turn right to pass the urn on its right side, then head toward the doorway.",
+      "latency_s": 2.13,
+      "prompt_tokens": 2070
+    },
+    {
+      "n": 332,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The urn is now behind me to the right; the doorway with the exit sign is ahead-left. I'll turn left to face it and approach.",
+      "latency_s": 2.17,
+      "prompt_tokens": 2072
+    },
+    {
+      "n": 336,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_LEFT"
+      ],
+      "thought": "The large urn is directly ahead; I need to pass it on its right side, then head toward the doorway. I'll turn right and move around it.",
+      "latency_s": 3.57,
+      "prompt_tokens": 2074
+    },
+    {
+      "n": 339,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_LEFT"
+      ],
+      "thought": "The large urn is directly ahead; the doorway is to the left through the ornate door. I'll move forward past the urn, then turn left toward the doorway.",
+      "latency_s": 2.82,
+      "prompt_tokens": 2076
+    },
+    {
+      "n": 344,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The large urn is directly ahead; I need to pass it on its right and head toward the open doorway on the right side of the room. I'll turn right to align with the doorway.",
+      "latency_s": 2.66,
+      "prompt_tokens": 2078
+    },
+    {
+      "n": 348,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The large urn is now behind me to the left; the doorway ahead is slightly left of my heading. I'll turn left to align with it, then advance.",
+      "latency_s": 2.31,
+      "prompt_tokens": 2081
+    },
+    {
+      "n": 351,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The large urn is directly ahead; I need to pass it on its right side, then head toward the doorway visible on the right wall. I'll turn right and move around the urn first.",
+      "latency_s": 2.27,
+      "prompt_tokens": 2083
+    },
+    {
+      "n": 354,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The large urn is directly ahead; the ornate doorway is ahead-left. I'll pass the urn on its right side and head toward the doorway.",
+      "latency_s": 2.3,
+      "prompt_tokens": 2085
+    },
+    {
+      "n": 358,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The large urn is directly ahead; the doorway under the exit sign is to the right of it. I'll turn right to pass the urn and head toward the doorway.",
+      "latency_s": 2.51,
+      "prompt_tokens": 2087
+    },
+    {
+      "n": 361,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The large urn is at bottom-left and the doorway is ahead through the ornate frame. I'll advance toward the doorway, keeping the urn on my right, then look for the red rope stanchion.",
+      "latency_s": 3.0,
+      "prompt_tokens": 2089
+    },
+    {
+      "n": 367,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The large urn is directly ahead; I should pass it on its right side, then head toward the open doorway ahead. I'll turn right slightly and advance, then re-aim at the doorway.",
+      "latency_s": 2.45,
+      "prompt_tokens": 2089
+    },
+    {
+      "n": 370,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The large urn is at bottom-left and the doorway is ahead through the ornate portal. I'll advance toward the doorway, keeping the urn to my right.",
+      "latency_s": 4.91,
+      "prompt_tokens": 2093
+    },
+    {
+      "n": 373,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The large urn is at bottom-left, so I should keep it to my right while heading toward the open doorway ahead. I'll advance toward the doorway and re-observe.",
+      "latency_s": 2.11,
+      "prompt_tokens": 2092
+    },
+    {
+      "n": 376,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The large urn is at bottom-left; the doorway ahead is under the ornate frame. I'll advance toward the doorway, keeping the urn to my right.",
+      "latency_s": 2.33,
+      "prompt_tokens": 2093
+    },
+    {
+      "n": 379,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The large urn is at bottom-left, so I keep it to my right as I head toward the open doorway ahead. I'll advance a step and re-observe.",
+      "latency_s": 1.9,
+      "prompt_tokens": 2095
+    },
+    {
+      "n": 382,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The large urn is at bottom-left; the doorway is ahead through the ornate portal. I'll advance toward it, keeping the urn to my right.",
+      "latency_s": 2.07,
+      "prompt_tokens": 2094
+    },
+    {
+      "n": 385,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The large urn is at bottom-left, so I should keep it to my right while advancing toward the open doorway ahead. I'll move forward and re-observe.",
+      "latency_s": 1.9,
+      "prompt_tokens": 2095
+    },
+    {
+      "n": 389,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The large urn is at bottom-left; the doorway under the sign is ahead through the ornate portal. I'll advance toward it, keeping the urn to my right.",
+      "latency_s": 1.88,
+      "prompt_tokens": 2095
+    },
+    {
+      "n": 392,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The large urn is at bottom-left, so I pass it on its right by heading toward the open doorway ahead. I'll advance a step and re-observe.",
+      "latency_s": 1.95,
+      "prompt_tokens": 2095
+    },
+    {
+      "n": 395,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The large urn is at bottom-left, so I keep it to my right as I advance toward the open doorway ahead. I'll move forward a few steps and re-observe.",
+      "latency_s": 2.06,
+      "prompt_tokens": 2097
+    },
+    {
+      "n": 398,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The large urn is at bottom-left; the doorway ahead is under the ornate frame. I'll advance toward the doorway, keeping the urn to my right.",
+      "latency_s": 2.0,
+      "prompt_tokens": 2096
+    },
+    {
+      "n": 401,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The large urn is at bottom-left, so I keep it to my right as I advance toward the open doorway ahead. I'll step forward and re-observe.",
+      "latency_s": 2.25,
+      "prompt_tokens": 2097
+    },
+    {
+      "n": 404,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The large urn is at bottom-left; the doorway under the sign is ahead through the ornate portal. I'll advance toward it, keeping the urn to my right.",
+      "latency_s": 1.93,
+      "prompt_tokens": 2097
+    },
+    {
+      "n": 408,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The large urn is at bottom-left; the doorway under the sign is ahead through the ornate portal. I'll advance toward it, keeping the urn to my right.",
+      "latency_s": 2.64,
+      "prompt_tokens": 2098
+    },
+    {
+      "n": 411,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The large urn is at bottom-left, so I should keep it to my right while advancing toward the open doorway ahead. I'll move forward and re-observe.",
+      "latency_s": 2.37,
+      "prompt_tokens": 2099
+    },
+    {
+      "n": 413,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The large urn is at bottom-left, so I should pass it on its right and head toward the open doorway ahead. I'll advance a step and re-observe.",
+      "latency_s": 2.01,
+      "prompt_tokens": 2098
+    },
+    {
+      "n": 416,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The large urn is at bottom-left; the doorway is ahead through the ornate portal. I'll advance toward it, keeping the urn on my right.",
+      "latency_s": 2.02,
+      "prompt_tokens": 2098
+    },
+    {
+      "n": 420,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The large urn is at bottom-left; the doorway is ahead slightly left of center. I'll advance toward the doorway, keeping the urn to my right.",
+      "latency_s": 2.39,
+      "prompt_tokens": 2100
+    },
+    {
+      "n": 423,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The large urn is at bottom-left; the doorway ahead is slightly right of center. I'll advance toward it, keeping the urn on my right.",
+      "latency_s": 1.95,
+      "prompt_tokens": 2098
+    },
+    {
+      "n": 426,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The large urn is at bottom-left, so I keep it to my right as I head toward the open doorway ahead. I'll advance toward the doorway and then look for the red rope stanchion to the left.",
+      "latency_s": 2.26,
+      "prompt_tokens": 2100
+    },
+    {
+      "n": 429,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The large urn is at bottom-left and the doorway is ahead through the ornate portal. I'll advance toward the doorway, keeping the urn to my right.",
+      "latency_s": 2.26,
+      "prompt_tokens": 2101
+    },
+    {
+      "n": 432,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The large urn is at bottom-left, so I should keep it to my right while heading toward the open doorway ahead. I'll advance toward the doorway and re-observe.",
+      "latency_s": 2.4,
+      "prompt_tokens": 2100
+    },
+    {
+      "n": 435,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The urn is at bottom-left and the doorway is ahead through the ornate portal. I'll advance toward it, keeping slightly right of the urn.",
+      "latency_s": 2.04,
+      "prompt_tokens": 2102
+    },
+    {
+      "n": 437,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The large urn is at bottom-left, so I should keep it to my right while advancing toward the open doorway ahead. I'll step forward and re-observe.",
+      "latency_s": 2.4,
+      "prompt_tokens": 2101
+    },
+    {
+      "n": 440,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The large urn is at bottom-left, so I keep it to my right as I advance toward the open doorway ahead. I'll step forward and re-observe.",
+      "latency_s": 1.87,
+      "prompt_tokens": 2101
+    },
+    {
+      "n": 443,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The large urn is at bottom-left; the doorway is ahead through the ornate portal. I'll advance toward it, keeping the urn on my right.",
+      "latency_s": 2.23,
+      "prompt_tokens": 2103
+    },
+    {
+      "n": 446,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The urn is at bottom-left and the doorway is ahead through the ornate portal. I'll advance toward it, keeping slightly right of the urn.",
+      "latency_s": 2.4,
+      "prompt_tokens": 2102
+    },
+    {
+      "n": 449,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The large urn is at bottom-left; the doorway ahead is under the ornate frame. I'll advance toward the doorway, keeping the urn to my right.",
+      "latency_s": 2.68,
+      "prompt_tokens": 2103
+    },
+    {
+      "n": 452,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The large urn is at bottom-left and the doorway is ahead through the ornate frame. I'll advance toward the doorway, keeping the urn on my right side, then look for the red rope stanchion to the left.",
+      "latency_s": 2.87,
+      "prompt_tokens": 2103
+    },
+    {
+      "n": 455,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The urn is at bottom-left and the doorway is ahead through the ornate portal. I'll advance toward it, then look for the red rope stanchion on the left.",
+      "latency_s": 2.06,
+      "prompt_tokens": 2104
+    },
+    {
+      "n": 458,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The urn is at bottom-left and the doorway is ahead through the ornate portal. I'll advance toward it, keeping slightly right of the urn.",
+      "latency_s": 2.29,
+      "prompt_tokens": 2104
+    },
+    {
+      "n": 461,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The urn is at bottom-left and the doorway is ahead through the ornate portal. I'll advance toward it, keeping slightly right of the urn.",
+      "latency_s": 2.02,
+      "prompt_tokens": 2105
+    },
+    {
+      "n": 464,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The urn is at bottom-left and the doorway is ahead through the ornate portal. I'll advance toward it, keeping slightly right of the urn.",
+      "latency_s": 1.99,
+      "prompt_tokens": 2104
+    },
+    {
+      "n": 467,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The large urn is at bottom-left, so I keep it to my right as I advance toward the open doorway ahead. I'll step forward and re-observe.",
+      "latency_s": 2.26,
+      "prompt_tokens": 2106
+    },
+    {
+      "n": 470,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The urn is at bottom-left and the doorway is ahead through the ornate portal. I'll advance toward the doorway, keeping it centered.",
+      "latency_s": 2.29,
+      "prompt_tokens": 2105
+    },
+    {
+      "n": 474,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The large urn is at bottom-left and the doorway is ahead through the ornate portal. I'll advance toward it, keeping the urn on my right.",
+      "latency_s": 1.99,
+      "prompt_tokens": 2106
+    },
+    {
+      "n": 477,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The large urn is at bottom-left, so I should keep it to my right while advancing toward the open doorway ahead. I'll step forward and re-observe.",
+      "latency_s": 2.18,
+      "prompt_tokens": 2107
+    },
+    {
+      "n": 480,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The urn is at bottom-left and the doorway is ahead through the ornate portal. I'll advance toward it, re-observing before committing further.",
+      "latency_s": 2.24,
+      "prompt_tokens": 2106
+    },
+    {
+      "n": 484,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The large urn is at bottom-left and the doorway is ahead through the ornate portal. I'll advance toward it, then look for the red rope stanchion to the left.",
+      "latency_s": 2.29,
+      "prompt_tokens": 2106
+    },
+    {
+      "n": 487,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The urn is at bottom-left and the doorway is ahead through the ornate portal. I'll advance toward the doorway, keeping slightly right of the urn, then reassess before stopping near the stanchion.",
+      "latency_s": 2.53,
+      "prompt_tokens": 2108
+    },
+    {
+      "n": 490,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The urn is at bottom-left and the doorway is ahead through the ornate portal. I'll advance toward it and re-observe.",
+      "latency_s": 2.14,
+      "prompt_tokens": 2108
+    },
+    {
+      "n": 493,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The urn is at bottom-left and the doorway is ahead through the ornate portal. I'll advance toward it and re-observe.",
+      "latency_s": 2.06,
+      "prompt_tokens": 2109
+    },
+    {
+      "n": 497,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "STOP"
+      ],
+      "thought": "The urn is at bottom-left and the doorway is ahead through the ornate frame. With only 7 actions left, I advance toward the doorway and stop near it.",
+      "latency_s": 2.21,
+      "prompt_tokens": 2108
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    8.32,
+    8.07,
+    7.82,
+    7.57,
+    7.32,
+    7.07,
+    6.82,
+    6.57,
+    6.32,
+    6.07,
+    5.82,
+    5.57,
+    5.32,
+    5.07,
+    4.82,
+    4.57,
+    4.32,
+    4.07,
+    3.82,
+    3.57,
+    3.32,
+    3.07,
+    2.82,
+    2.57,
+    2.32,
+    2.07,
+    1.82,
+    1.57,
+    1.329,
+    1.093,
+    0.865,
+    0.652,
+    0.478,
+    0.396,
+    0.511,
+    0.7,
+    0.906,
+    1.067,
+    1.328,
+    1.592,
+    1.79,
+    2.076,
+    2.312,
+    2.561,
+    2.812,
+    3.063,
+    3.288,
+    3.52,
+    3.758,
+    3.884,
+    4.038,
+    4.215,
+    4.407,
+    4.64,
+    4.878,
+    5.118,
+    5.36,
+    5.604,
+    5.842,
+    6.088,
+    6.335,
+    6.582,
+    6.831,
+    7.08,
+    7.326,
+    7.573,
+    7.823,
+    8.073,
+    8.321,
+    8.57,
+    8.818,
+    9.067,
+    9.316,
+    9.565,
+    9.828,
+    10.077,
+    10.326,
+    10.576,
+    10.825,
+    11.074,
+    11.324,
+    11.573,
+    11.823,
+    12.073,
+    12.322,
+    12.572,
+    12.821,
+    12.747,
+    12.68,
+    12.642,
+    12.716,
+    12.882,
+    12.944,
+    13.19,
+    13.437,
+    13.685,
+    13.934,
+    14.164,
+    14.399,
+    14.638,
+    14.881,
+    15.125,
+    15.371,
+    15.617,
+    15.864,
+    16.112,
+    16.36,
+    16.608,
+    16.857,
+    17.106,
+    17.354,
+    17.603,
+    17.852,
+    18.102,
+    18.351,
+    18.6,
+    18.85,
+    19.099,
+    19.349,
+    19.599,
+    19.849,
+    20.099,
+    20.35,
+    20.6,
+    20.851,
+    21.102,
+    21.352,
+    21.604,
+    21.811,
+    22.024,
+    22.239,
+    22.455,
+    22.673,
+    22.893,
+    23.114,
+    23.337,
+    23.561,
+    23.79,
+    24.013,
+    24.24,
+    24.468,
+    24.698,
+    24.928,
+    25.159,
+    25.39,
+    25.623,
+    25.857,
+    26.094,
+    26.333,
+    26.574,
+    26.816,
+    27.06,
+    27.31,
+    27.559,
+    27.809,
+    28.059,
+    28.309,
+    28.559,
+    28.809,
+    29.059,
+    29.311,
+    29.559,
+    29.809,
+    30.052,
+    30.296,
+    30.539,
+    30.784,
+    31.029,
+    31.274,
+    31.52,
+    31.746,
+    31.974,
+    32.203,
+    32.433,
+    32.665,
+    32.897,
+    33.003,
+    33.055,
+    33.124,
+    33.207,
+    33.305,
+    33.416,
+    33.539,
+    33.596,
+    33.642,
+    33.688,
+    33.703,
+    33.628,
+    33.553,
+    33.478,
+    33.493,
+    33.524,
+    33.569,
+    33.628,
+    33.702,
+    33.788,
+    33.887,
+    33.997,
+    34.774,
+    34.596,
+    34.432,
+    34.286,
+    34.16,
+    34.055,
+    33.972,
+    33.914,
+    33.882,
+    33.877,
+    33.899,
+    33.884,
+    33.896,
+    33.933,
+    33.987,
+    34.048,
+    34.089,
+    34.206,
+    34.437,
+    34.687,
+    34.934,
+    35.184,
+    35.433,
+    35.683,
+    35.923,
+    35.982
+  ],
+  "final_distance": 35.982,
+  "min_distance": 0.396,
+  "metrics": {
+    "distance_to_goal": 35.98168182373047,
+    "success": 0.0,
+    "spl": 0.0,
+    "oracle_success": 1.0,
+    "path_length": 54.73686093464494,
+    "steps_taken": 497.0
+  },
+  "success": false,
+  "backend_stats": {
+    "calls": 594,
+    "failures": 0,
+    "prompt_tokens": 1182813,
+    "completion_tokens": 46417,
+    "reasoning_tokens": 13188,
+    "latency_s": 1321.5820598602295
+  },
+  "stop_deferrals": 0
+}

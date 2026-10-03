@@ -1,0 +1,182 @@
+{
+  "episode_id": 19,
+  "scene_id": "QUCTc6BB5sX",
+  "instruction": "Walk through the living room around the backside of the couches. Walk into the kitchen area and walk along the barstools and countertop. Continue ahead towards the arched entryway that leads to a hall beside the stairs.",
+  "actions_taken": 30,
+  "policy_calls": 11,
+  "api_latency_s": 26.49,
+  "prompt_tokens": 19721,
+  "completion_tokens": 1076,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 26.71,
+  "steps": [
+    {
+      "n": 3,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at an arched entryway looking into a living area. I'll move forward through the arch toward the couches.",
+      "latency_s": 1.65,
+      "prompt_tokens": 907
+    },
+    {
+      "n": 6,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm in a living room with a couch on the right and an arched entryway ahead. The instruction says to go around the back of the couches toward the kitchen, so I'll advance toward the arch area while keeping the couch on my right.",
+      "latency_s": 1.93,
+      "prompt_tokens": 1262
+    },
+    {
+      "n": 9,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing an arched entryway ahead; the instruction ends at the arch leading to a hall beside stairs. I'll advance toward it and re-observe.",
+      "latency_s": 2.29,
+      "prompt_tokens": 1625
+    },
+    {
+      "n": 12,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing an arched entryway ahead, but a chair blocks the immediate path. I'll turn slightly right to skirt around it and align with the arch.",
+      "latency_s": 2.13,
+      "prompt_tokens": 1989
+    },
+    {
+      "n": 15,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm approaching the arched entryway; the opening ahead leads onward. I'll advance through the arch toward the hall.",
+      "latency_s": 2.67,
+      "prompt_tokens": 1990
+    },
+    {
+      "n": 18,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm at an arched opening looking into a dining room; the instruction's arched entryway to a hall beside the stairs may be further ahead, so I'll advance through the arch and re-observe.",
+      "latency_s": 3.87,
+      "prompt_tokens": 1991
+    },
+    {
+      "n": 20,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm currently facing a dining room through an arch, but the instruction ends at an arched entryway leading to a hall beside stairs. There appears to be another archway on the left side of the room; I should turn left to check it.",
+      "latency_s": 3.41,
+      "prompt_tokens": 1990
+    },
+    {
+      "n": 23,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm near the arched entryway; the arch on the left leads to the hall. I'll turn slightly left and move forward through it.",
+      "latency_s": 1.99,
+      "prompt_tokens": 1990
+    },
+    {
+      "n": 26,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I can see the kitchen counter on the left and an arched entryway ahead leading to a hall. I'll advance toward the arch, checking alignment as I go.",
+      "latency_s": 1.82,
+      "prompt_tokens": 1992
+    },
+    {
+      "n": 29,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I've passed the kitchen/barstools and now face an arched entryway ahead leading to a hall. I should move forward through it and stop near the arch.",
+      "latency_s": 2.64,
+      "prompt_tokens": 1993
+    },
+    {
+      "n": 30,
+      "actions": [
+        "STOP"
+      ],
+      "thought": "I have passed through the arched entryway and am now in the hall area, which is where the instruction ends. Stopping here.",
+      "latency_s": 2.09,
+      "prompt_tokens": 1992
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    13.205,
+    13.076,
+    12.985,
+    14.074,
+    12.769,
+    12.609,
+    12.508,
+    12.434,
+    12.374,
+    12.348,
+    12.397,
+    12.447,
+    12.496,
+    12.546,
+    12.595,
+    12.645,
+    12.694,
+    12.744,
+    12.606,
+    12.467,
+    12.329,
+    12.129,
+    11.98,
+    11.842,
+    11.891,
+    11.642
+  ],
+  "final_distance": 11.642,
+  "min_distance": 11.642,
+  "metrics": {
+    "distance_to_goal": 11.642206192016602,
+    "success": 0.0,
+    "spl": 0.0,
+    "oracle_success": 0.0,
+    "path_length": 4.176309417933226,
+    "steps_taken": 30.0
+  },
+  "success": false,
+  "backend_stats": {
+    "calls": 11,
+    "failures": 0,
+    "prompt_tokens": 19721,
+    "completion_tokens": 1076,
+    "reasoning_tokens": 469,
+    "latency_s": 26.50121545791626
+  },
+  "stop_deferrals": 0
+}

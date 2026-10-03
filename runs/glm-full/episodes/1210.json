@@ -1,0 +1,168 @@
+{
+  "episode_id": 1210,
+  "scene_id": "8194nk5LbLH",
+  "instruction": "Walk up stairs.  Wait at top.",
+  "actions_taken": 32,
+  "policy_calls": 9,
+  "api_latency_s": 17.66,
+  "prompt_tokens": 15419,
+  "completion_tokens": 505,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 17.83,
+  "steps": [
+    {
+      "n": 3,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "A stair handrail is visible on the right wall, so the staircase is to my right. I'll turn right to face the stairs before climbing.",
+      "latency_s": 1.57,
+      "prompt_tokens": 869
+    },
+    {
+      "n": 7,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "Stairs are directly ahead; I'll climb step by step, re-observing as I go.",
+      "latency_s": 1.75,
+      "prompt_tokens": 1225
+    },
+    {
+      "n": 10,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "Stairs are directly ahead; I'll climb a few steps and re-observe.",
+      "latency_s": 1.72,
+      "prompt_tokens": 1589
+    },
+    {
+      "n": 13,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm mid-staircase; the stairs continue up and turn left toward the landing with the orange picture. I'll keep climbing a few steps, then re-observe.",
+      "latency_s": 1.81,
+      "prompt_tokens": 1953
+    },
+    {
+      "n": 17,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The stairs continue upward to the left; I need to turn left to face the ascending flight and climb toward the top.",
+      "latency_s": 3.14,
+      "prompt_tokens": 1953
+    },
+    {
+      "n": 21,
+      "actions": [
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase ascends to my left; I need to turn left to face the steps and then climb.",
+      "latency_s": 1.84,
+      "prompt_tokens": 1955
+    },
+    {
+      "n": 26,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is on my left; I need to turn toward it and climb to the top.",
+      "latency_s": 1.9,
+      "prompt_tokens": 1957
+    },
+    {
+      "n": 29,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "The staircase is directly ahead and I'm aligned with it. I'll climb a few steps and re-observe.",
+      "latency_s": 2.11,
+      "prompt_tokens": 1959
+    },
+    {
+      "n": 32,
+      "actions": [
+        "MOVE_FORWARD",
+        "MOVE_FORWARD",
+        "STOP"
+      ],
+      "thought": "I'm near the top of the stairs; the landing is just ahead. I'll take a couple more steps up and then stop.",
+      "latency_s": 1.82,
+      "prompt_tokens": 1959
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    6.755,
+    6.755,
+    6.528,
+    6.307,
+    6.046,
+    5.767,
+    5.489,
+    5.211,
+    4.936,
+    4.666,
+    4.416,
+    4.214,
+    4.001,
+    3.827,
+    3.674,
+    3.479,
+    3.295,
+    3.082,
+    2.816,
+    2.551,
+    2.286,
+    2.023,
+    1.761,
+    1.503,
+    1.248,
+    1.009
+  ],
+  "final_distance": 1.009,
+  "min_distance": 1.009,
+  "metrics": {
+    "distance_to_goal": 1.0092939138412476,
+    "success": 1.0,
+    "spl": 1.0,
+    "oracle_success": 1.0,
+    "path_length": 6.378408700227737,
+    "steps_taken": 32.0
+  },
+  "success": true,
+  "backend_stats": {
+    "calls": 745,
+    "failures": 0,
+    "prompt_tokens": 1480662,
+    "completion_tokens": 59468,
+    "reasoning_tokens": 17865,
+    "latency_s": 1677.7748985290527
+  },
+  "stop_deferrals": 0
+}

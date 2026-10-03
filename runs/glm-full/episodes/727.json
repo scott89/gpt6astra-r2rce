@@ -1,0 +1,199 @@
+{
+  "episode_id": 727,
+  "scene_id": "oLBMNvg9in8",
+  "instruction": "Go up the stairs on the left and and continue to the doorway on the right. Enter in to the room and stop.",
+  "actions_taken": 36,
+  "policy_calls": 15,
+  "api_latency_s": 32.57,
+  "prompt_tokens": 27436,
+  "completion_tokens": 1058,
+  "termination": "stop",
+  "stop_called": true,
+  "elapsed_s": 32.92,
+  "steps": [
+    {
+      "n": 3,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "The current view is mostly a wall; I need to look around to find the stairs on the left.",
+      "latency_s": 1.24,
+      "prompt_tokens": 885
+    },
+    {
+      "n": 6,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall up close; the open corridor is to my left but the instruction says stairs are on the left, so I need to reorient and look around. Turning right to scan the area first.",
+      "latency_s": 2.23,
+      "prompt_tokens": 1240
+    },
+    {
+      "n": 9,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm facing a wall up close; the corridor with the arch is to my left. I need to turn left to reorient before moving.",
+      "latency_s": 2.34,
+      "prompt_tokens": 1605
+    },
+    {
+      "n": 12,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm facing a wall; the corridor with the archway is to my left. I'll turn left to re-orient and look for the stairs.",
+      "latency_s": 2.16,
+      "prompt_tokens": 1969
+    },
+    {
+      "n": 15,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I'm facing a wall; the arched doorway is to my left. I'll turn left to align with it, then move forward through it.",
+      "latency_s": 2.22,
+      "prompt_tokens": 1970
+    },
+    {
+      "n": 19,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm facing a wall with hieroglyphic relief; the stairs must be behind me. I'll turn right to re-orient and look for the staircase.",
+      "latency_s": 2.34,
+      "prompt_tokens": 1971
+    },
+    {
+      "n": 22,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I appear to be at the top of the stairs in a corridor; a doorway is visible ahead/right leading to another area. I'll turn right toward the doorway and step through it.",
+      "latency_s": 2.52,
+      "prompt_tokens": 1973
+    },
+    {
+      "n": 23,
+      "actions": [
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a corridor with arches; there appears to be a dark doorway on the right wall. I'll turn right to face it and check before entering.",
+      "latency_s": 1.83,
+      "prompt_tokens": 1975
+    },
+    {
+      "n": 24,
+      "actions": [
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a corridor with a dark doorway visible on the right wall. I should turn right to face it before entering.",
+      "latency_s": 2.23,
+      "prompt_tokens": 1976
+    },
+    {
+      "n": 26,
+      "actions": [
+        "TURN_RIGHT",
+        "MOVE_FORWARD"
+      ],
+      "thought": "I see a dark doorway opening on the right side of the corridor. I'll turn right toward it and step through into the room.",
+      "latency_s": 2.56,
+      "prompt_tokens": 1976
+    },
+    {
+      "n": 28,
+      "actions": [
+        "TURN_LEFT",
+        "TURN_LEFT"
+      ],
+      "thought": "I'm facing a wall; the open passage is to my left. I'll turn left to re-aim toward the opening before moving.",
+      "latency_s": 2.27,
+      "prompt_tokens": 1977
+    },
+    {
+      "n": 30,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm in a narrow corridor facing an opening to the outside; the doorway on the right isn't visible yet. I'll turn right to scan for the doorway to enter.",
+      "latency_s": 1.81,
+      "prompt_tokens": 1978
+    },
+    {
+      "n": 32,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I appear to be facing a wall right next to an archway; I need to reorient to find the stairs and the doorway on the right. Turning right should reveal more of the corridor.",
+      "latency_s": 1.92,
+      "prompt_tokens": 1979
+    },
+    {
+      "n": 35,
+      "actions": [
+        "TURN_RIGHT",
+        "TURN_RIGHT",
+        "TURN_RIGHT"
+      ],
+      "thought": "I'm pressed against a wall; the doorway should be to my right. I'll turn right to re-aim before moving.",
+      "latency_s": 2.59,
+      "prompt_tokens": 1980
+    },
+    {
+      "n": 36,
+      "actions": [
+        "STOP"
+      ],
+      "thought": "I appear to have passed through the doorway into the room; the view shows an interior wall/door panel close by, suggesting I'm already inside. I'll stop here.",
+      "latency_s": 2.31,
+      "prompt_tokens": 1982
+    }
+  ],
+  "last_parse_failure_at": -1,
+  "distance_trace": [
+    5.351,
+    5.351,
+    5.187,
+    5.379,
+    5.594
+  ],
+  "final_distance": 5.594,
+  "min_distance": 5.187,
+  "metrics": {
+    "distance_to_goal": 5.593767166137695,
+    "success": 0.0,
+    "spl": 0.0,
+    "oracle_success": 0.0,
+    "path_length": 0.7895670533180237,
+    "steps_taken": 36.0
+  },
+  "success": false,
+  "backend_stats": {
+    "calls": 533,
+    "failures": 0,
+    "prompt_tokens": 1050107,
+    "completion_tokens": 44937,
+    "reasoning_tokens": 15826,
+    "latency_s": 1237.7524383068085
+  },
+  "stop_deferrals": 0
+}
